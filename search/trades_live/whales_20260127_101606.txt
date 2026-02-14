@@ -1,0 +1,2878 @@
+
+================================================================================
+🚀 MONITOR INICIADO
+================================================================================
+💵 Umbral de ballena:        $5,000.00 USD
+⏱️  Intervalo de polling:     3 segundos
+📊 Límite de trades/ciclo:   1000
+⏰ Ventana de tiempo:        30 minutos (solo trades recientes)
+💾 Archivo de log:           trades_live/whales_20260127_101606.txt
+📂 Trades en memoria:        0
+🔄 Esperando trades...
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $17,778.05 USD
+📊 Mercado: Fed decreases interest rates by 50+ bps after January 2026 meeting?
+🔗 URL: https://polymarket.com/event/fed-decision-in-january
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.9980 (99.80%)
+🕐 Hora: 2026-01-27 10:15:19
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: nguyenhoangr76
+   Wallet: 0xac463ab7e1f1d70ca510c0b460c8768b77ef095a
+   Perfil: https://polymarket.com/profile/0xac463ab7e1f1d70ca510c0b460c8768b77ef095a
+   TX Hash: 0xd72946ab3f1e9fd1e8...98a605c234
+   TX URL: https://polygonscan.com/tx/0xd72946ab3f1e9fd1e8cfc4a6c7e9ae02cb8d54b13e21d778a86adf98a605c234
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $6,412.75 USD
+📊 Mercado: Will Manchester United win the 2025–26 English Premier League?
+🔗 URL: https://polymarket.com/event/english-premier-league-winner
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.9820 (98.20%)
+🕐 Hora: 2026-01-27 10:18:35
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Anónimo
+   Wallet: 0x68c8b55d8082876e3487fc984f1e7a4eede822b9
+   Perfil: https://polymarket.com/profile/0x68c8b55d8082876e3487fc984f1e7a4eede822b9
+   TX Hash: 0xee8f1b73b355200c9c...5e061a60eb
+   TX URL: https://polygonscan.com/tx/0xee8f1b73b355200c9c7383d205a5dd1ec9f98032859b8d891496bb5e061a60eb
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $6,513.67 USD
+📊 Mercado: Will XRP reach $2.60 in January?
+🔗 URL: https://polymarket.com/event/what-price-will-xrp-hit-in-january-2026
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.9860 (98.60%)
+🕐 Hora: 2026-01-27 10:19:17
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: aisux
+   Wallet: 0x70edf2aaefa5ce69132a819d68bc5834c81c10b4
+   Perfil: https://polymarket.com/profile/0x70edf2aaefa5ce69132a819d68bc5834c81c10b4
+   TX Hash: 0x8f48181675697cc4a1...a6008da676
+   TX URL: https://polygonscan.com/tx/0x8f48181675697cc4a141421f1c733ac0fbbe2332ecd8e0840adea1a6008da676
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $17,947.54 USD
+📊 Mercado: Will Ethereum dip to $2,000 in January?
+🔗 URL: https://polymarket.com/event/what-price-will-ethereum-hit-in-january-2026
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.9930 (99.30%)
+🕐 Hora: 2026-01-27 10:18:51
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: aisux
+   Wallet: 0x70edf2aaefa5ce69132a819d68bc5834c81c10b4
+   Perfil: https://polymarket.com/profile/0x70edf2aaefa5ce69132a819d68bc5834c81c10b4
+   TX Hash: 0x6abc3e5261f226a8ed...32b29fa762
+   TX URL: https://polygonscan.com/tx/0x6abc3e5261f226a8ed8fb8d95f48f1a04169e6326e9d8b3d2019a832b29fa762
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $16,684.60 USD
+📊 Mercado: Australian Open Men's: Ben Shelton vs Jannik Sinner
+🔗 URL: https://polymarket.com/event/atp-shelton-sinner-2026-01-28
+🎯 Outcome: Sinner
+📈 Lado: COMPRA
+💵 Precio: 0.9000 (90.00%)
+🕐 Hora: 2026-01-27 10:18:51
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: degenfren
+   Wallet: 0x979fc186184ae75754d32c4ef68d8ca00f744032
+   Perfil: https://polymarket.com/profile/0x979fc186184ae75754d32c4ef68d8ca00f744032
+   TX Hash: 0x5689073cb7ecd3efba...ccbea4d50e
+   TX URL: https://polygonscan.com/tx/0x5689073cb7ecd3efbacb856ec0489348be3338f65ea8ca0d409c1dccbea4d50e
+================================================================================
+
+
+================================================================================
+🐋🐋🐋🐋 ULTRA BALLENA DETECTADA 🐋🐋🐋🐋
+================================================================================
+💰 Valor: $20,128.50 USD
+📊 Mercado: Will Bitcoin reach $105,000 in January?
+🔗 URL: https://polymarket.com/event/what-price-will-bitcoin-hit-in-january-2026
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.9940 (99.40%)
+🕐 Hora: 2026-01-27 10:18:49
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: kdht
+   Wallet: 0xc3960073c4e778a735f15d092611a14f19dc43b5
+   Perfil: https://polymarket.com/profile/0xc3960073c4e778a735f15d092611a14f19dc43b5
+   TX Hash: 0x35d2643b10bea27c34...0a0b960f4b
+   TX URL: https://polygonscan.com/tx/0x35d2643b10bea27c34ef0c1b81e9ec5c4249b1ff74dc77ececf3930a0b960f4b
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $11,915.99 USD
+📊 Mercado: Will Leeds win the 2025–26 English Premier League?
+🔗 URL: https://polymarket.com/event/english-premier-league-winner
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.9980 (99.80%)
+🕐 Hora: 2026-01-27 10:19:51
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: dhuumm
+   Wallet: 0x115801c63888c26cea18b679d1c0e341453dea24
+   Perfil: https://polymarket.com/profile/0x115801c63888c26cea18b679d1c0e341453dea24
+   TX Hash: 0x0c3a5246b6e4025fe8...e66f5d70af
+   TX URL: https://polygonscan.com/tx/0x0c3a5246b6e4025fe8629597bd3bfac5f34aea02d6096eb3b036cfe66f5d70af
+================================================================================
+
+
+================================================================================
+🐋🐋🐋🐋 ULTRA BALLENA DETECTADA 🐋🐋🐋🐋
+================================================================================
+💰 Valor: $24,770.28 USD
+📊 Mercado: Will Solana dip to $90 in January?
+🔗 URL: https://polymarket.com/event/what-price-will-solana-hit-in-january-2026
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.9930 (99.30%)
+🕐 Hora: 2026-01-27 10:19:51
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: plzdontdropout
+   Wallet: 0xb63ac06f20eed05d0a34f61116d0580a0afb4064
+   Perfil: https://polymarket.com/profile/0xb63ac06f20eed05d0a34f61116d0580a0afb4064
+   TX Hash: 0xcc12231ba661595bda...334d20b238
+   TX URL: https://polygonscan.com/tx/0xcc12231ba661595bda97f9c0f852a5e864d8a9175e08bc69f1f1a2334d20b238
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $6,389.28 USD
+📊 Mercado: Will Bitcoin reach $150,000 in January?
+🔗 URL: https://polymarket.com/event/what-price-will-bitcoin-hit-in-january-2026
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.9990 (99.90%)
+🕐 Hora: 2026-01-27 10:20:27
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: georgecalinescu8635
+   Wallet: 0x64adfd6f201ce98d7bb274ebb321a6ee3308ca63
+   Perfil: https://polymarket.com/profile/0x64adfd6f201ce98d7bb274ebb321a6ee3308ca63
+   TX Hash: 0xda8e9d51d64692ad82...c2f9e5af37
+   TX URL: https://polygonscan.com/tx/0xda8e9d51d64692ad82f9144a8e3494c1cde2cc9f7b3997a092f530c2f9e5af37
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $9,868.21 USD
+📊 Mercado: Will Bitcoin dip to $75,000 in January?
+🔗 URL: https://polymarket.com/event/what-price-will-bitcoin-hit-in-january-2026
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.9868 (98.68%)
+🕐 Hora: 2026-01-27 10:20:25
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0x44Ef50f4A67c47044Efa972cb7dBE9878932FF3D-1719992236159
+   Wallet: 0x44ef50f4a67c47044efa972cb7dbe9878932ff3d
+   Perfil: https://polymarket.com/profile/0x44ef50f4a67c47044efa972cb7dbe9878932ff3d
+   TX Hash: 0x58093eb3c63f0bcadc...f5a43792a8
+   TX URL: https://polygonscan.com/tx/0x58093eb3c63f0bcadc7367bfe9b8032f7e3643adf3e21a62d0d663f5a43792a8
+================================================================================
+
+
+================================================================================
+🐋🐋🐋🐋 ULTRA BALLENA DETECTADA 🐋🐋🐋🐋
+================================================================================
+💰 Valor: $23,856.00 USD
+📊 Mercado: Will Bitcoin reach $105,000 in January?
+🔗 URL: https://polymarket.com/event/what-price-will-bitcoin-hit-in-january-2026
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.9940 (99.40%)
+🕐 Hora: 2026-01-27 10:21:29
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: lkuh
+   Wallet: 0x96000385f59b65dc13ed1cebd6818300449d9c46
+   Perfil: https://polymarket.com/profile/0x96000385f59b65dc13ed1cebd6818300449d9c46
+   TX Hash: 0xdc2f4cd1037887a02b...2e149bc3a0
+   TX URL: https://polygonscan.com/tx/0xdc2f4cd1037887a02b9c4c12022b6bc5b711cd76279d789e54f6e72e149bc3a0
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $6,000.00 USD
+📊 Mercado: Zama FDV above $4B one day after launch?
+🔗 URL: https://polymarket.com/event/zama-fdv-above-one-day-after-launch
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.9950 (99.50%)
+🕐 Hora: 2026-01-27 10:21:15
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: bulliishhh
+   Wallet: 0x2e2d4ef54d3f0ad63276aaa6bb62f3d42f72f0ca
+   Perfil: https://polymarket.com/profile/0x2e2d4ef54d3f0ad63276aaa6bb62f3d42f72f0ca
+   TX Hash: 0x805ef4028f2b5ff59f...f7881acf15
+   TX URL: https://polygonscan.com/tx/0x805ef4028f2b5ff59fa97a5d3c15f8483b851c11229dad5e9cd718f7881acf15
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $18,090.21 USD
+📊 Mercado: Fed decreases interest rates by 50+ bps after January 2026 meeting?
+🔗 URL: https://polymarket.com/event/fed-decision-in-january
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.9990 (99.90%)
+🕐 Hora: 2026-01-27 10:20:57
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: yoga16-
+   Wallet: 0x10b20d4396b1ba12a756a370333b164070d8ee16
+   Perfil: https://polymarket.com/profile/0x10b20d4396b1ba12a756a370333b164070d8ee16
+   TX Hash: 0xf2f846763be659e8e8...1c2e97de63
+   TX URL: https://polygonscan.com/tx/0xf2f846763be659e8e836ff3b267ab4b65e6c309afcda8a09905b791c2e97de63
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $18,637.54 USD
+📊 Mercado: Sharks vs. Canucks: O/U 6.5
+🔗 URL: https://polymarket.com/event/nhl-sj-van-2026-01-27
+🎯 Outcome: Over
+📈 Lado: COMPRA
+💵 Precio: 0.5179 (51.79%)
+🕐 Hora: 2026-01-27 10:22:25
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0x1D8A377C5020f612cE63a0a151970DF64BAAE842-1761442049319
+   Wallet: 0x1d8a377c5020f612ce63a0a151970df64baae842
+   Perfil: https://polymarket.com/profile/0x1d8a377c5020f612ce63a0a151970df64baae842
+   TX Hash: 0xa26c2a7e08dbbe3d7a...61014e4069
+   TX URL: https://polygonscan.com/tx/0xa26c2a7e08dbbe3d7a347d59e8edb200c8693b6cdddbdfaa674cfd61014e4069
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $18,072.09 USD
+📊 Mercado: Fed decreases interest rates by 50+ bps after January 2026 meeting?
+🔗 URL: https://polymarket.com/event/fed-decision-in-january
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.9980 (99.80%)
+🕐 Hora: 2026-01-27 10:22:03
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: yoga16-
+   Wallet: 0x10b20d4396b1ba12a756a370333b164070d8ee16
+   Perfil: https://polymarket.com/profile/0x10b20d4396b1ba12a756a370333b164070d8ee16
+   TX Hash: 0x9e689f4af6afa7fd5f...ccec73c46e
+   TX URL: https://polygonscan.com/tx/0x9e689f4af6afa7fd5ffa813fd9e49a6b94c8fe9671df224e7257f7ccec73c46e
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $5,013.22 USD
+📊 Mercado: Sharks vs. Canucks: O/U 6.5
+🔗 URL: https://polymarket.com/event/nhl-sj-van-2026-01-27
+🎯 Outcome: Over
+📈 Lado: COMPRA
+💵 Precio: 0.5256 (52.56%)
+🕐 Hora: 2026-01-27 10:22:33
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0x1D8A377C5020f612cE63a0a151970DF64BAAE842-1761442049319
+   Wallet: 0x1d8a377c5020f612ce63a0a151970df64baae842
+   Perfil: https://polymarket.com/profile/0x1d8a377c5020f612ce63a0a151970df64baae842
+   TX Hash: 0xb470be3d5f7db9bc1d...68bd1b8c20
+   TX URL: https://polygonscan.com/tx/0xb470be3d5f7db9bc1d1cba233cd84167988df76120e34f36e4a12c68bd1b8c20
+================================================================================
+
+
+================================================================================
+🐋🐋🐋🐋 ULTRA BALLENA DETECTADA 🐋🐋🐋🐋
+================================================================================
+💰 Valor: $22,160.95 USD
+📊 Mercado: Will Bitcoin reach $105,000 in January?
+🔗 URL: https://polymarket.com/event/what-price-will-bitcoin-hit-in-january-2026
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.9940 (99.40%)
+🕐 Hora: 2026-01-27 10:22:33
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: kdht
+   Wallet: 0xc3960073c4e778a735f15d092611a14f19dc43b5
+   Perfil: https://polymarket.com/profile/0xc3960073c4e778a735f15d092611a14f19dc43b5
+   TX Hash: 0xec68e67c264673517e...7b38aa26d8
+   TX URL: https://polygonscan.com/tx/0xec68e67c264673517e624d3076db7b7791bd37472215b5cf5417a27b38aa26d8
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $5,472.13 USD
+📊 Mercado: Will the price of Bitcoin be above $88,000 on January 27?
+🔗 URL: https://polymarket.com/event/bitcoin-above-on-january-27
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.6733 (67.33%)
+🕐 Hora: 2026-01-27 10:24:11
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0xE3d9d9F789eEeEDa835b0188C8Ba14DC14d0F684-1767721256801
+   Wallet: 0xe3d9d9f789eeeeda835b0188c8ba14dc14d0f684
+   Perfil: https://polymarket.com/profile/0xe3d9d9f789eeeeda835b0188c8ba14dc14d0f684
+   TX Hash: 0x2a8402608a23702b11...314ec7de5f
+   TX URL: https://polygonscan.com/tx/0x2a8402608a23702b117ff0de101e0c2d5d19ab81ff99f6a78e4ce4314ec7de5f
+================================================================================
+
+
+================================================================================
+🐋🐋🐋🐋 ULTRA BALLENA DETECTADA 🐋🐋🐋🐋
+================================================================================
+💰 Valor: $22,051.61 USD
+📊 Mercado: Will Bitcoin reach $105,000 in January?
+🔗 URL: https://polymarket.com/event/what-price-will-bitcoin-hit-in-january-2026
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.9940 (99.40%)
+🕐 Hora: 2026-01-27 10:23:37
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: lkuh
+   Wallet: 0x96000385f59b65dc13ed1cebd6818300449d9c46
+   Perfil: https://polymarket.com/profile/0x96000385f59b65dc13ed1cebd6818300449d9c46
+   TX Hash: 0x5336d53b77168eeca4...3085e3eb3c
+   TX URL: https://polygonscan.com/tx/0x5336d53b77168eeca4a3ae665d98786f170656e80b9bba117158fd3085e3eb3c
+================================================================================
+
+
+================================================================================
+🐋🐋🐋🐋 ULTRA BALLENA DETECTADA 🐋🐋🐋🐋
+================================================================================
+💰 Valor: $21,942.28 USD
+📊 Mercado: Will Bitcoin reach $105,000 in January?
+🔗 URL: https://polymarket.com/event/what-price-will-bitcoin-hit-in-january-2026
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.9940 (99.40%)
+🕐 Hora: 2026-01-27 10:24:51
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: kdht
+   Wallet: 0xc3960073c4e778a735f15d092611a14f19dc43b5
+   Perfil: https://polymarket.com/profile/0xc3960073c4e778a735f15d092611a14f19dc43b5
+   TX Hash: 0xa3846a1a91ab5b58ac...1dd0d705ec
+   TX URL: https://polygonscan.com/tx/0xa3846a1a91ab5b58ac9bd9f47eefbe547772e066261ea46ba836081dd0d705ec
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $18,883.15 USD
+📊 Mercado: Fed decreases interest rates by 50+ bps after January 2026 meeting?
+🔗 URL: https://polymarket.com/event/fed-decision-in-january
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.9990 (99.90%)
+🕐 Hora: 2026-01-27 10:24:41
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Azamaja77
+   Wallet: 0xf703a266dfb7d654b611207e30dc19faf3df5d52
+   Perfil: https://polymarket.com/profile/0xf703a266dfb7d654b611207e30dc19faf3df5d52
+   TX Hash: 0x9845092aeabf6ce8b4...21f65681ff
+   TX URL: https://polygonscan.com/tx/0x9845092aeabf6ce8b47dadff44fe57d89941cba1106cf86fc5940a21f65681ff
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $17,233.21 USD
+📊 Mercado: Fed decreases interest rates by 50+ bps after January 2026 meeting?
+🔗 URL: https://polymarket.com/event/fed-decision-in-january
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.9980 (99.80%)
+🕐 Hora: 2026-01-27 10:26:03
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Tohed18634811
+   Wallet: 0x5b7cb3fe0352d47a4439d9b4deccd4ce6beaca21
+   Perfil: https://polymarket.com/profile/0x5b7cb3fe0352d47a4439d9b4deccd4ce6beaca21
+   TX Hash: 0x0616e7c297feca4ea5...416cf23091
+   TX URL: https://polygonscan.com/tx/0x0616e7c297feca4ea508327c73184380876624a99b2d9e6ab7dbb4416cf23091
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $18,864.25 USD
+📊 Mercado: Fed decreases interest rates by 50+ bps after January 2026 meeting?
+🔗 URL: https://polymarket.com/event/fed-decision-in-january
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.9980 (99.80%)
+🕐 Hora: 2026-01-27 10:25:47
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Azamaja77
+   Wallet: 0xf703a266dfb7d654b611207e30dc19faf3df5d52
+   Perfil: https://polymarket.com/profile/0xf703a266dfb7d654b611207e30dc19faf3df5d52
+   TX Hash: 0xbff1be7149bcba5f36...f46006e2a1
+   TX URL: https://polygonscan.com/tx/0xbff1be7149bcba5f36ebb4616df3a15534e97c42dee823f3f908f4f46006e2a1
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $17,423.14 USD
+📊 Mercado: Fed increases interest rates by 25+ bps after January 2026 meeting?
+🔗 URL: https://polymarket.com/event/fed-decision-in-january
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.9990 (99.90%)
+🕐 Hora: 2026-01-27 10:26:35
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: SiamHossin4
+   Wallet: 0xb130f48524f11a91b4de81406603d689101b6358
+   Perfil: https://polymarket.com/profile/0xb130f48524f11a91b4de81406603d689101b6358
+   TX Hash: 0x2ed98da8862d4f6232...4b76c32880
+   TX URL: https://polygonscan.com/tx/0x2ed98da8862d4f6232c3d87f057292122c1f3134ec275e4090af0f4b76c32880
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $5,100.00 USD
+📊 Mercado: Kings vs. Knicks
+🔗 URL: https://polymarket.com/event/nba-sac-nyk-2026-01-27
+🎯 Outcome: Knicks
+📈 Lado: COMPRA
+💵 Precio: 0.8500 (85.00%)
+🕐 Hora: 2026-01-27 10:27:21
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: swy01
+   Wallet: 0xe3d4dee2427b98042822543f8e1e8ab7bafb2bac
+   Perfil: https://polymarket.com/profile/0xe3d4dee2427b98042822543f8e1e8ab7bafb2bac
+   TX Hash: 0x7c851acd38d2fd49e6...c004188df9
+   TX URL: https://polygonscan.com/tx/0x7c851acd38d2fd49e6f2ebd1c6b442ac49c90253e335ac48a28763c004188df9
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $9,810.18 USD
+📊 Mercado: Will Bitcoin reach $100,000 in January?
+🔗 URL: https://polymarket.com/event/what-price-will-bitcoin-hit-in-january-2026
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.9820 (98.20%)
+🕐 Hora: 2026-01-27 10:28:49
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: x6916Cc00AA1c3e75ECf4081DF7caE7D2f3592fd4
+   Wallet: 0x6916cc00aa1c3e75ecf4081df7cae7d2f3592fd4
+   Perfil: https://polymarket.com/profile/0x6916cc00aa1c3e75ecf4081df7cae7d2f3592fd4
+   TX Hash: 0x4c86efc5b942775d9e...8bccf7280f
+   TX URL: https://polygonscan.com/tx/0x4c86efc5b942775d9e234bf764927fba3696896d96bed16577bd888bccf7280f
+================================================================================
+
+
+================================================================================
+🐋🐋🐋🐋 ULTRA BALLENA DETECTADA 🐋🐋🐋🐋
+================================================================================
+💰 Valor: $35,264.70 USD
+📊 Mercado: LoL: Anyone's Legend vs Invictus Gaming (BO3) - LPL Group Ascend
+🔗 URL: https://polymarket.com/event/lol-al-ig1-2026-01-27
+🎯 Outcome: Anyones Legend
+📈 Lado: VENTA
+💵 Precio: 0.9990 (99.90%)
+🕐 Hora: 2026-01-27 10:29:49
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: bubulalala
+   Wallet: 0x5d5ca491d5d6827988b278bfe4c719a2959f4302
+   Perfil: https://polymarket.com/profile/0x5d5ca491d5d6827988b278bfe4c719a2959f4302
+   TX Hash: 0xa8efb0610b18377c74...6f568f8327
+   TX URL: https://polygonscan.com/tx/0xa8efb0610b18377c749f8d81d9ca6beceda9d67ad893282cceb13f6f568f8327
+================================================================================
+
+
+================================================================================
+🐋🐋🐋🐋 ULTRA BALLENA DETECTADA 🐋🐋🐋🐋
+================================================================================
+💰 Valor: $21,783.23 USD
+📊 Mercado: Will Bitcoin reach $105,000 in January?
+🔗 URL: https://polymarket.com/event/what-price-will-bitcoin-hit-in-january-2026
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.9940 (99.40%)
+🕐 Hora: 2026-01-27 10:29:43
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0x01542a212c9696da5b409cae879143b89661
+   Wallet: 0x01542a212c9696da5b409cae879143b8966115a8
+   Perfil: https://polymarket.com/profile/0x01542a212c9696da5b409cae879143b8966115a8
+   TX Hash: 0x5f7dcde1daa9874c99...f54352a616
+   TX URL: https://polygonscan.com/tx/0x5f7dcde1daa9874c99517a660721cd68dc038cc96fa83e7cbc03c2f54352a616
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $5,500.00 USD
+📊 Mercado: Sabres vs. Maple Leafs
+🔗 URL: https://polymarket.com/event/nhl-buf-tor-2026-01-27
+🎯 Outcome: Sabres
+📈 Lado: COMPRA
+💵 Precio: 0.5000 (50.00%)
+🕐 Hora: 2026-01-27 10:29:25
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: stakesroyale
+   Wallet: 0xfb681e23db8d1cca8a6b7e2a70a29e000ddfa240
+   Perfil: https://polymarket.com/profile/0xfb681e23db8d1cca8a6b7e2a70a29e000ddfa240
+   TX Hash: 0xa94ac6ecff356a9271...d0995d31e7
+   TX URL: https://polygonscan.com/tx/0xa94ac6ecff356a9271dcee721d361a822e68c8760a5ec4f0b170cfd0995d31e7
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $14,200.00 USD
+📊 Mercado: US strikes Iran by January 31, 2026?
+🔗 URL: https://polymarket.com/event/us-strikes-iran-by
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.1000 (10.00%)
+🕐 Hora: 2026-01-27 10:30:33
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Fusion1
+   Wallet: 0x0a854897a06d4999e5b2dde5693609f1428ffe9d
+   Perfil: https://polymarket.com/profile/0x0a854897a06d4999e5b2dde5693609f1428ffe9d
+   TX Hash: 0xf1ccfb70391907cba7...c61e150a8e
+   TX URL: https://polygonscan.com/tx/0xf1ccfb70391907cba77c746c3d672245cdfa277dcb86639e553831c61e150a8e
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $17,950.53 USD
+📊 Mercado: Fed increases interest rates by 25+ bps after January 2026 meeting?
+🔗 URL: https://polymarket.com/event/fed-decision-in-january
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.9990 (99.90%)
+🕐 Hora: 2026-01-27 10:30:17
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: BASICKTRUST
+   Wallet: 0x714db9db52111f7138921541b7cd9621e09afe2d
+   Perfil: https://polymarket.com/profile/0x714db9db52111f7138921541b7cd9621e09afe2d
+   TX Hash: 0x4bbe66a16908f5c379...1738b0c061
+   TX URL: https://polygonscan.com/tx/0x4bbe66a16908f5c379a9fbc6b98b5a0923e7c51da1a12cc492c1651738b0c061
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $5,039.16 USD
+📊 Mercado: Will MrBeast win the 2028 Democratic presidential nomination?
+🔗 URL: https://polymarket.com/event/democratic-presidential-nominee-2028
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.9950 (99.50%)
+🕐 Hora: 2026-01-27 10:31:35
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: ingramjohn
+   Wallet: 0x6235e8ed5a5751f46d8e5d66f2df855a5303e7b6
+   Perfil: https://polymarket.com/profile/0x6235e8ed5a5751f46d8e5d66f2df855a5303e7b6
+   TX Hash: 0x16a9a77b1eef477e80...a33c419060
+   TX URL: https://polygonscan.com/tx/0x16a9a77b1eef477e802a5202070cc5bdbdcf9a06c103027b8bda93a33c419060
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $17,932.55 USD
+📊 Mercado: Fed increases interest rates by 25+ bps after January 2026 meeting?
+🔗 URL: https://polymarket.com/event/fed-decision-in-january
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.9980 (99.80%)
+🕐 Hora: 2026-01-27 10:31:19
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: BASICKTRUST
+   Wallet: 0x714db9db52111f7138921541b7cd9621e09afe2d
+   Perfil: https://polymarket.com/profile/0x714db9db52111f7138921541b7cd9621e09afe2d
+   TX Hash: 0x436c9c715f368e55a6...4636c0adba
+   TX URL: https://polygonscan.com/tx/0x436c9c715f368e55a68e068559f1ef0a800a5074fdc68bb3681cda4636c0adba
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $8,770.23 USD
+📊 Mercado: Will the price of Bitcoin be above $90,000 on January 27?
+🔗 URL: https://polymarket.com/event/bitcoin-above-on-january-27
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.9970 (99.70%)
+🕐 Hora: 2026-01-27 10:31:15
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: edseah
+   Wallet: 0x699dbf0a103daed6cb6d5fc5a7c2e4a911d30501
+   Perfil: https://polymarket.com/profile/0x699dbf0a103daed6cb6d5fc5a7c2e4a911d30501
+   TX Hash: 0x07b2eaf4e159de3879...eaf1e43f67
+   TX URL: https://polygonscan.com/tx/0x07b2eaf4e159de3879a7761ef8323cefd2125a302cc98134221069eaf1e43f67
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $9,989.97 USD
+📊 Mercado: Will Canada win the 2026 FIFA World Cup?
+🔗 URL: https://polymarket.com/event/2026-fifa-world-cup-winner-595
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.9960 (99.60%)
+🕐 Hora: 2026-01-27 10:31:57
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 1ethem
+   Wallet: 0xa33f2fffbdbb10da3d66898822a1cf5572d16403
+   Perfil: https://polymarket.com/profile/0xa33f2fffbdbb10da3d66898822a1cf5572d16403
+   TX Hash: 0xcb2f77d97ffbf44ea4...5d2a81b161
+   TX URL: https://polygonscan.com/tx/0xcb2f77d97ffbf44ea4b63de0adda25fc96a49743b2e3c06b45674f5d2a81b161
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $10,000.00 USD
+📊 Mercado: Will Leeds win the 2025–26 English Premier League?
+🔗 URL: https://polymarket.com/event/english-premier-league-winner
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.9990 (99.90%)
+🕐 Hora: 2026-01-27 10:32:45
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 1ethem
+   Wallet: 0xa33f2fffbdbb10da3d66898822a1cf5572d16403
+   Perfil: https://polymarket.com/profile/0xa33f2fffbdbb10da3d66898822a1cf5572d16403
+   TX Hash: 0xc93fe5dbe022f5750a...a0047b821d
+   TX URL: https://polygonscan.com/tx/0xc93fe5dbe022f5750a24696f6d11fad35a883d30d8b83a88fdcc32a0047b821d
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $14,582.39 USD
+📊 Mercado: No change in Fed interest rates after January 2026 meeting?
+🔗 URL: https://polymarket.com/event/fed-decision-in-january
+🎯 Outcome: Yes
+📈 Lado: VENTA
+💵 Precio: 0.9920 (99.20%)
+🕐 Hora: 2026-01-27 10:36:17
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: DieselDiesel
+   Wallet: 0xffc49504efd8126650580438d4b22b1e7316a9f2
+   Perfil: https://polymarket.com/profile/0xffc49504efd8126650580438d4b22b1e7316a9f2
+   TX Hash: 0x215a69fe85add9605f...fc31c9e0d2
+   TX URL: https://polygonscan.com/tx/0x215a69fe85add9605f4a1a9e88f596211351db2c725b7a9f43faebfc31c9e0d2
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $18,678.80 USD
+📊 Mercado: Fed decreases interest rates by 50+ bps after January 2026 meeting?
+🔗 URL: https://polymarket.com/event/fed-decision-in-january
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.9990 (99.90%)
+🕐 Hora: 2026-01-27 10:36:25
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Mdjamil0786
+   Wallet: 0xf309f6b068c735f5710ae07486dd30666dc48521
+   Perfil: https://polymarket.com/profile/0xf309f6b068c735f5710ae07486dd30666dc48521
+   TX Hash: 0x90589f013a86548e3f...b7cd1e9c02
+   TX URL: https://polygonscan.com/tx/0x90589f013a86548e3f812ec99a65468d8a2b0b92263b35ec1c98d7b7cd1e9c02
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $14,400.00 USD
+📊 Mercado: US government shutdown Saturday?
+🔗 URL: https://polymarket.com/event/will-there-be-another-us-government-shutdown-by-january-31
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.8000 (80.00%)
+🕐 Hora: 2026-01-27 10:37:45
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: DieselDiesel
+   Wallet: 0xffc49504efd8126650580438d4b22b1e7316a9f2
+   Perfil: https://polymarket.com/profile/0xffc49504efd8126650580438d4b22b1e7316a9f2
+   TX Hash: 0xfa37a9f67a4bfce134...be29877a8c
+   TX URL: https://polygonscan.com/tx/0xfa37a9f67a4bfce13424119671cb9935dc59c0ae284f0ddec9d11cbe29877a8c
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $18,660.10 USD
+📊 Mercado: Fed decreases interest rates by 50+ bps after January 2026 meeting?
+🔗 URL: https://polymarket.com/event/fed-decision-in-january
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.9980 (99.80%)
+🕐 Hora: 2026-01-27 10:37:31
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Mdjamil0786
+   Wallet: 0xf309f6b068c735f5710ae07486dd30666dc48521
+   Perfil: https://polymarket.com/profile/0xf309f6b068c735f5710ae07486dd30666dc48521
+   TX Hash: 0x834a9b824e6d285943...efbb56a40d
+   TX URL: https://polygonscan.com/tx/0x834a9b824e6d285943d7665324e7d4638f723057710cdcbabf6c23efbb56a40d
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $12,425.73 USD
+📊 Mercado: Pistons vs. Nuggets
+🔗 URL: https://polymarket.com/event/nba-det-den-2026-01-27
+🎯 Outcome: Pistons
+📈 Lado: COMPRA
+💵 Precio: 0.6900 (69.00%)
+🕐 Hora: 2026-01-27 10:37:53
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: jgriffith
+   Wallet: 0x3644c0c7e4dfa44c8755016ad900d3733a736fdf
+   Perfil: https://polymarket.com/profile/0x3644c0c7e4dfa44c8755016ad900d3733a736fdf
+   TX Hash: 0x608009479c589929c1...1299bac215
+   TX URL: https://polygonscan.com/tx/0x608009479c589929c1788f3761715a80ba4350d87fc857162d32331299bac215
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $17,915.59 USD
+📊 Mercado: Fed increases interest rates by 25+ bps after January 2026 meeting?
+🔗 URL: https://polymarket.com/event/fed-decision-in-january
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.9990 (99.90%)
+🕐 Hora: 2026-01-27 10:42:07
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: AnonymousGodCha
+   Wallet: 0x08033fa309698438845431f381b3e774c2e382ff
+   Perfil: https://polymarket.com/profile/0x08033fa309698438845431f381b3e774c2e382ff
+   TX Hash: 0x00f282d10e5d3b6d38...5ef572e9ae
+   TX URL: https://polygonscan.com/tx/0x00f282d10e5d3b6d38dcca1e190cac52f73d607c0a7b91f59055db5ef572e9ae
+================================================================================
+
+
+================================================================================
+🐋🐋🐋🐋🐋 TITAN BALLENA DETECTADA 🐋🐋🐋🐋🐋
+================================================================================
+💰 Valor: $49,600.00 USD
+📊 Mercado: No change in Fed interest rates after January 2026 meeting?
+🔗 URL: https://polymarket.com/event/fed-decision-in-january
+🎯 Outcome: Yes
+📈 Lado: VENTA
+💵 Precio: 0.9920 (99.20%)
+🕐 Hora: 2026-01-27 10:44:05
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: predictgeek
+   Wallet: 0x21ff16230285273f6097846437b46d35e97f5e2a
+   Perfil: https://polymarket.com/profile/0x21ff16230285273f6097846437b46d35e97f5e2a
+   TX Hash: 0x71ea37ac1f6254f9b5...de199ea481
+   TX URL: https://polygonscan.com/tx/0x71ea37ac1f6254f9b5c907c650081a54ab83e7e6f6a27717d794d4de199ea481
+================================================================================
+
+
+================================================================================
+🐋🐋🐋🐋🐋 TITAN BALLENA DETECTADA 🐋🐋🐋🐋🐋
+================================================================================
+💰 Valor: $49,600.00 USD
+📊 Mercado: No change in Fed interest rates after January 2026 meeting?
+🔗 URL: https://polymarket.com/event/fed-decision-in-january
+🎯 Outcome: Yes
+📈 Lado: VENTA
+💵 Precio: 0.9920 (99.20%)
+🕐 Hora: 2026-01-27 10:43:37
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: predictgeek
+   Wallet: 0x21ff16230285273f6097846437b46d35e97f5e2a
+   Perfil: https://polymarket.com/profile/0x21ff16230285273f6097846437b46d35e97f5e2a
+   TX Hash: 0x4446191e2e7d63ba47...a556c8f8f2
+   TX URL: https://polygonscan.com/tx/0x4446191e2e7d63ba478cb57adc725ca57b82f7982e5cfdd2d24dd8a556c8f8f2
+================================================================================
+
+
+================================================================================
+🐋🐋🐋🐋🐋 TITAN BALLENA DETECTADA 🐋🐋🐋🐋🐋
+================================================================================
+💰 Valor: $85,665.15 USD
+📊 Mercado: No change in Fed interest rates after January 2026 meeting?
+🔗 URL: https://polymarket.com/event/fed-decision-in-january
+🎯 Outcome: Yes
+📈 Lado: VENTA
+💵 Precio: 0.9920 (99.20%)
+🕐 Hora: 2026-01-27 10:44:49
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: predictgeek
+   Wallet: 0x21ff16230285273f6097846437b46d35e97f5e2a
+   Perfil: https://polymarket.com/profile/0x21ff16230285273f6097846437b46d35e97f5e2a
+   TX Hash: 0x6547546bde4c0bd03e...0d5b733460
+   TX URL: https://polygonscan.com/tx/0x6547546bde4c0bd03ee742453c1c3f12f05f4eccfe3b27a52a2b7c0d5b733460
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $9,540.00 USD
+📊 Mercado: Kings vs. Red Wings
+🔗 URL: https://polymarket.com/event/nhl-lak-det-2026-01-27
+🎯 Outcome: Red Wings
+📈 Lado: COMPRA
+💵 Precio: 0.5300 (53.00%)
+🕐 Hora: 2026-01-27 10:46:57
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0xb7511d7b0dcb75ffad0507cbac7223653d08915
+   Wallet: 0xe60a9b0be459d9849bc2339dac20517639ae6a47
+   Perfil: https://polymarket.com/profile/0xe60a9b0be459d9849bc2339dac20517639ae6a47
+   TX Hash: 0x741bf74d8801a71909...9c76bba2ad
+   TX URL: https://polygonscan.com/tx/0x741bf74d8801a71909e779d37a7a14fe67074c910ce7e6463579939c76bba2ad
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $9,950.00 USD
+📊 Mercado: Russia x Ukraine ceasefire by January 31, 2026?
+🔗 URL: https://polymarket.com/event/russia-x-ukraine-ceasefire-by-january-31-2026
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.9950 (99.50%)
+🕐 Hora: 2026-01-27 10:47:09
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Legi
+   Wallet: 0x6ea6e1d28acc1c393b8fbf360c06d71a99a39261
+   Perfil: https://polymarket.com/profile/0x6ea6e1d28acc1c393b8fbf360c06d71a99a39261
+   TX Hash: 0x090b1abbf4e6fc934e...0b64e8f9e0
+   TX URL: https://polygonscan.com/tx/0x090b1abbf4e6fc934e1f2fd2fd9a7b1618299910747f8c3783ea280b64e8f9e0
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $7,441.80 USD
+📊 Mercado: Will the next Prime Minister of Hungary be Péter Magyar?
+🔗 URL: https://polymarket.com/event/next-prime-minister-of-hungary
+🎯 Outcome: Yes
+📈 Lado: VENTA
+💵 Precio: 0.5080 (50.80%)
+🕐 Hora: 2026-01-27 10:48:01
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: torgyan-jozsef
+   Wallet: 0x3aa8f5cc5fe22b343de06c418c5db63822ee5937
+   Perfil: https://polymarket.com/profile/0x3aa8f5cc5fe22b343de06c418c5db63822ee5937
+   TX Hash: 0x2746badd95c29115ab...263a8b7ab9
+   TX URL: https://polygonscan.com/tx/0x2746badd95c29115abfd60ce3fda82c57826356f032b437a4fdca7263a8b7ab9
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $17,990.23 USD
+📊 Mercado: Fed increases interest rates by 25+ bps after January 2026 meeting?
+🔗 URL: https://polymarket.com/event/fed-decision-in-january
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.9980 (99.80%)
+🕐 Hora: 2026-01-27 10:48:41
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: MimiChaudhury1
+   Wallet: 0x9110e87709866c3554dd33258ea1977e521aee24
+   Perfil: https://polymarket.com/profile/0x9110e87709866c3554dd33258ea1977e521aee24
+   TX Hash: 0x0590152637ed18fd7f...b460d589e6
+   TX URL: https://polygonscan.com/tx/0x0590152637ed18fd7f114f4e6fea3c64c59803fb1bb7d7eabc59a0b460d589e6
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $19,955.63 USD
+📊 Mercado: Pistons vs. Nuggets
+🔗 URL: https://polymarket.com/event/nba-det-den-2026-01-27
+🎯 Outcome: Pistons
+📈 Lado: COMPRA
+💵 Precio: 0.6900 (69.00%)
+🕐 Hora: 2026-01-27 10:49:43
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: benwyatt
+   Wallet: 0x1117eade222413335b7ec959e5b48c1d3dbc3532
+   Perfil: https://polymarket.com/profile/0x1117eade222413335b7ec959e5b48c1d3dbc3532
+   TX Hash: 0x761811987b3bff8607...7264b61912
+   TX URL: https://polygonscan.com/tx/0x761811987b3bff8607244d63c91b452d2560758cc29457569dda497264b61912
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $18,585.74 USD
+📊 Mercado: Fed decreases interest rates by 50+ bps after January 2026 meeting?
+🔗 URL: https://polymarket.com/event/fed-decision-in-january
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.9980 (99.80%)
+🕐 Hora: 2026-01-27 10:51:11
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Luisthuchiki
+   Wallet: 0x5e7f62a151d8d9f14fabe637efa4cfe1dfb6155b
+   Perfil: https://polymarket.com/profile/0x5e7f62a151d8d9f14fabe637efa4cfe1dfb6155b
+   TX Hash: 0xb8a857c5ada5d99572...5e55dfca93
+   TX URL: https://polygonscan.com/tx/0xb8a857c5ada5d99572fc1fbb6583422225c2ab19fb4080d1797dab5e55dfca93
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $18,832.57 USD
+📊 Mercado: Fed increases interest rates by 25+ bps after January 2026 meeting?
+🔗 URL: https://polymarket.com/event/fed-decision-in-january
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.9980 (99.80%)
+🕐 Hora: 2026-01-27 10:54:31
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Balamur53720001
+   Wallet: 0x6310c1c2f59a8b3fbd6e5f7e6776d654e3993619
+   Perfil: https://polymarket.com/profile/0x6310c1c2f59a8b3fbd6e5f7e6776d654e3993619
+   TX Hash: 0xde1309498aa3314c93...af007c6adc
+   TX URL: https://polygonscan.com/tx/0xde1309498aa3314c93e826e087b5f7f19d4b1f4a9bfb51262b88a5af007c6adc
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $8,026.19 USD
+📊 Mercado: Will Manchester United win the 2025–26 English Premier League?
+🔗 URL: https://polymarket.com/event/english-premier-league-winner
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.9830 (98.30%)
+🕐 Hora: 2026-01-27 10:54:29
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Anónimo
+   Wallet: 0x13bd9529931bb4012264056823328b4488d91678
+   Perfil: https://polymarket.com/profile/0x13bd9529931bb4012264056823328b4488d91678
+   TX Hash: 0x41f3a97a9cb4ff975c...396c3ae25c
+   TX URL: https://polygonscan.com/tx/0x41f3a97a9cb4ff975cb951664d412c2a69930e656e702ef91485aa396c3ae25c
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $6,411.54 USD
+📊 Mercado: Will the Boston Celtics win the 2025–2026 NBA Atlantic Division?
+🔗 URL: https://polymarket.com/event/nba-2025-26-atlantic-division-winner
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.4713 (47.13%)
+🕐 Hora: 2026-01-27 10:54:13
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: elPolloLoco
+   Wallet: 0xa2f1fecf1cc7db65a46588f764b6691533052d22
+   Perfil: https://polymarket.com/profile/0xa2f1fecf1cc7db65a46588f764b6691533052d22
+   TX Hash: 0x8c84e83c45f7c22106...ce613539fb
+   TX URL: https://polygonscan.com/tx/0x8c84e83c45f7c221065e2afd52717763c5387acf23aaf1c63a3e64ce613539fb
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $7,503.84 USD
+📊 Mercado: Will the next Prime Minister of Hungary be Péter Magyar?
+🔗 URL: https://polymarket.com/event/next-prime-minister-of-hungary
+🎯 Outcome: Yes
+📈 Lado: VENTA
+💵 Precio: 0.4596 (45.96%)
+🕐 Hora: 2026-01-27 10:56:05
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: torgyan-jozsef
+   Wallet: 0x3aa8f5cc5fe22b343de06c418c5db63822ee5937
+   Perfil: https://polymarket.com/profile/0x3aa8f5cc5fe22b343de06c418c5db63822ee5937
+   TX Hash: 0x8d0ea333c4334cc998...7eb8158353
+   TX URL: https://polygonscan.com/tx/0x8d0ea333c4334cc998a9adf69d020c74421eb56a3f32ba3d48441f7eb8158353
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $5,941.90 USD
+📊 Mercado: Will Manchester United win the 2025–26 English Premier League?
+🔗 URL: https://polymarket.com/event/english-premier-league-winner
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.9830 (98.30%)
+🕐 Hora: 2026-01-27 10:56:09
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Anónimo
+   Wallet: 0x0c0cadb6d71eafa6affb3f3ca77298fa131dc53b
+   Perfil: https://polymarket.com/profile/0x0c0cadb6d71eafa6affb3f3ca77298fa131dc53b
+   TX Hash: 0x18101e9291448a88fd...4baa02b65e
+   TX URL: https://polygonscan.com/tx/0x18101e9291448a88fd51cc3f63e8bebf4b1038c54deb13b36fb7c64baa02b65e
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $5,788.80 USD
+📊 Mercado: Will Bitcoin dip to $80,000 in January?
+🔗 URL: https://polymarket.com/event/what-price-will-bitcoin-hit-in-january-2026
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.9600 (96.00%)
+🕐 Hora: 2026-01-27 10:57:11
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0x01542a212c9696da5b409cae879143b89661
+   Wallet: 0x01542a212c9696da5b409cae879143b8966115a8
+   Perfil: https://polymarket.com/profile/0x01542a212c9696da5b409cae879143b8966115a8
+   TX Hash: 0x12846456fb7d5bd47d...0539c1bd6f
+   TX URL: https://polygonscan.com/tx/0x12846456fb7d5bd47ddd2eea7e34f83a85ad14792f3c214ee3b1be0539c1bd6f
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $11,915.98 USD
+📊 Mercado: Will Wolves win the 2025–26 English Premier League?
+🔗 URL: https://polymarket.com/event/english-premier-league-winner
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.9990 (99.90%)
+🕐 Hora: 2026-01-27 10:59:05
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: dhuumm
+   Wallet: 0x115801c63888c26cea18b679d1c0e341453dea24
+   Perfil: https://polymarket.com/profile/0x115801c63888c26cea18b679d1c0e341453dea24
+   TX Hash: 0x79b4e4dafb082083f2...0bda0b0e5c
+   TX URL: https://polygonscan.com/tx/0x79b4e4dafb082083f26c6673fe6abbc0de545b3a771b80d29ce9b20bda0b0e5c
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $17,845.67 USD
+📊 Mercado: Fed decreases interest rates by 50+ bps after January 2026 meeting?
+🔗 URL: https://polymarket.com/event/fed-decision-in-january
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.9990 (99.90%)
+🕐 Hora: 2026-01-27 10:58:11
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Misugihzun182
+   Wallet: 0x823cbcc229ad952068ff526a94df235e0fb70e63
+   Perfil: https://polymarket.com/profile/0x823cbcc229ad952068ff526a94df235e0fb70e63
+   TX Hash: 0xe700fd7200bf7b2ca2...ee789f9d5d
+   TX URL: https://polygonscan.com/tx/0xe700fd7200bf7b2ca2f286e10003438714eebd09bcb02ec34406a5ee789f9d5d
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $9,615.00 USD
+📊 Mercado: Clippers vs. Jazz
+🔗 URL: https://polymarket.com/event/nba-lac-uta-2026-01-27
+🎯 Outcome: Clippers
+📈 Lado: COMPRA
+💵 Precio: 0.7500 (75.00%)
+🕐 Hora: 2026-01-27 10:58:07
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: elkmonkey
+   Wallet: 0xead152b855effa6b5b5837f53b24c0756830c76a
+   Perfil: https://polymarket.com/profile/0xead152b855effa6b5b5837f53b24c0756830c76a
+   TX Hash: 0x234c10286573f468b3...8f5104e9aa
+   TX URL: https://polygonscan.com/tx/0x234c10286573f468b380ff842bd71e9f43abef5dd719a3dd34ffee8f5104e9aa
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $6,421.00 USD
+📊 Mercado: Will Manchester United win the 2025–26 English Premier League?
+🔗 URL: https://polymarket.com/event/english-premier-league-winner
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.9830 (98.30%)
+🕐 Hora: 2026-01-27 10:58:05
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Anónimo
+   Wallet: 0x68c8b55d8082876e3487fc984f1e7a4eede822b9
+   Perfil: https://polymarket.com/profile/0x68c8b55d8082876e3487fc984f1e7a4eede822b9
+   TX Hash: 0x808f7df72ab58d183b...4e393dc805
+   TX URL: https://polygonscan.com/tx/0x808f7df72ab58d183bae5238fcf9bb440bda11b97a432d6be653104e393dc805
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $8,606.75 USD
+📊 Mercado: Will the total domestic gross for Avatar: Fire and Ash be between 440m and 480m by January 31?
+🔗 URL: https://polymarket.com/event/avatar-fire-and-ash-total-domestic-gross-by-january-31
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.9990 (99.90%)
+🕐 Hora: 2026-01-27 10:59:27
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: ilovepepefrog
+   Wallet: 0xc6cba81c4ae72ee220f008e4b097aa1f1453bbf0
+   Perfil: https://polymarket.com/profile/0xc6cba81c4ae72ee220f008e4b097aa1f1453bbf0
+   TX Hash: 0x0000bb00044e78204a...f4e033c22c
+   TX URL: https://polygonscan.com/tx/0x0000bb00044e78204a4cea8f1be64004ba2e3183fb209bdd95c6f6f4e033c22c
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $17,827.80 USD
+📊 Mercado: Fed decreases interest rates by 50+ bps after January 2026 meeting?
+🔗 URL: https://polymarket.com/event/fed-decision-in-january
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.9980 (99.80%)
+🕐 Hora: 2026-01-27 10:59:17
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Misugihzun182
+   Wallet: 0x823cbcc229ad952068ff526a94df235e0fb70e63
+   Perfil: https://polymarket.com/profile/0x823cbcc229ad952068ff526a94df235e0fb70e63
+   TX Hash: 0x72acc85aea2d84022d...b32026c683
+   TX URL: https://polygonscan.com/tx/0x72acc85aea2d84022d928385094641af97f0f0e43065ecc6f51d60b32026c683
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $5,216.39 USD
+📊 Mercado: Fed rate cut by January 2026 meeting?
+🔗 URL: https://polymarket.com/event/fed-rate-cut-by-629
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.9910 (99.10%)
+🕐 Hora: 2026-01-27 11:03:39
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: crazycary
+   Wallet: 0xd8d5c4ea4c40789cc215c9695a0b300f27863071
+   Perfil: https://polymarket.com/profile/0xd8d5c4ea4c40789cc215c9695a0b300f27863071
+   TX Hash: 0xd3a85fc29764a15d89...3936c2e602
+   TX URL: https://polygonscan.com/tx/0xd3a85fc29764a15d89c12c0a9f1781bb3b1ffbd3ef09c4437f63f73936c2e602
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $6,823.89 USD
+📊 Mercado: Will the price of Bitcoin be above $86,000 on January 27?
+🔗 URL: https://polymarket.com/event/bitcoin-above-on-january-27
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.9980 (99.80%)
+🕐 Hora: 2026-01-27 11:04:41
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: A P
+   Wallet: 0x421bf8e567f99bb544f317f38fe71719dbb6ac12
+   Perfil: https://polymarket.com/profile/0x421bf8e567f99bb544f317f38fe71719dbb6ac12
+   TX Hash: 0x750bbda906f86049ae...09079e77f2
+   TX URL: https://polygonscan.com/tx/0x750bbda906f86049aed9ad6705b114c4291ccbb07e98aebd486c1b09079e77f2
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $17,626.86 USD
+📊 Mercado: Fed increases interest rates by 25+ bps after January 2026 meeting?
+🔗 URL: https://polymarket.com/event/fed-decision-in-january
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.9990 (99.90%)
+🕐 Hora: 2026-01-27 11:06:59
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: JulioLpezmelga2
+   Wallet: 0x1f5a480db584851bc52cac0c46d56aa7afcc7332
+   Perfil: https://polymarket.com/profile/0x1f5a480db584851bc52cac0c46d56aa7afcc7332
+   TX Hash: 0x24900f290ccf638c6b...659ee1aae9
+   TX URL: https://polygonscan.com/tx/0x24900f290ccf638c6bdb59155539288b80dfde18f860873c731fd7659ee1aae9
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $9,920.00 USD
+📊 Mercado: Will Bitcoin reach $100,000 in January?
+🔗 URL: https://polymarket.com/event/what-price-will-bitcoin-hit-in-january-2026
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.9920 (99.20%)
+🕐 Hora: 2026-01-27 11:06:55
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Anónimo
+   Wallet: 0xf705fa045201391d9632b7f3cde06a5e24453ca7
+   Perfil: https://polymarket.com/profile/0xf705fa045201391d9632b7f3cde06a5e24453ca7
+   TX Hash: 0x2b178d05396d67b3d8...baa3a5c38e
+   TX URL: https://polygonscan.com/tx/0x2b178d05396d67b3d870da6dff29f637dec84e15dba22b594f9545baa3a5c38e
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $8,907.70 USD
+📊 Mercado: US strikes Iran by January 27, 2026?
+🔗 URL: https://polymarket.com/event/us-strikes-iran-by
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.9897 (98.97%)
+🕐 Hora: 2026-01-27 11:16:09
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: mitikohalls
+   Wallet: 0x5b1dffd5d3eaeab3544c0fe3aa5ccf55f287b3b0
+   Perfil: https://polymarket.com/profile/0x5b1dffd5d3eaeab3544c0fe3aa5ccf55f287b3b0
+   TX Hash: 0x3b6b90249de0cf3620...7a94fefeb7
+   TX URL: https://polygonscan.com/tx/0x3b6b90249de0cf36201a4a85e4e50c89bd690e20540217547892fe7a94fefeb7
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $6,073.59 USD
+📊 Mercado: Bitcoin Up or Down - January 27, 11:15AM-11:30AM ET
+🔗 URL: https://polymarket.com/event/btc-updown-15m-1769530500
+🎯 Outcome: Down
+📈 Lado: COMPRA
+💵 Precio: 0.6833 (68.33%)
+🕐 Hora: 2026-01-27 11:15:51
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: marketmaker1203
+   Wallet: 0xa8564629c0aa7f2075c5dd8d2abbcc927138fa8f
+   Perfil: https://polymarket.com/profile/0xa8564629c0aa7f2075c5dd8d2abbcc927138fa8f
+   TX Hash: 0x47af9e584620bc15aa...8c723e4876
+   TX URL: https://polygonscan.com/tx/0x47af9e584620bc15aada52c5257bd92a25189205b3c7dd3188a1068c723e4876
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $17,646.62 USD
+📊 Mercado: Fed increases interest rates by 25+ bps after January 2026 meeting?
+🔗 URL: https://polymarket.com/event/fed-decision-in-january
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.9990 (99.90%)
+🕐 Hora: 2026-01-27 11:17:11
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: JohnBui18737781
+   Wallet: 0xf13e0544767b0b1bdf83750d1d000b1af2a9013b
+   Perfil: https://polymarket.com/profile/0xf13e0544767b0b1bdf83750d1d000b1af2a9013b
+   TX Hash: 0x4558478dc206ae5b71...c7e6288f38
+   TX URL: https://polygonscan.com/tx/0x4558478dc206ae5b71cb60efad796509742d94a9f0dd632be28fcec7e6288f38
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $16,037.31 USD
+📊 Mercado: Will the price of Bitcoin be above $90,000 on January 27?
+🔗 URL: https://polymarket.com/event/bitcoin-above-on-january-27
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.9890 (98.90%)
+🕐 Hora: 2026-01-27 11:18:21
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: A P
+   Wallet: 0x421bf8e567f99bb544f317f38fe71719dbb6ac12
+   Perfil: https://polymarket.com/profile/0x421bf8e567f99bb544f317f38fe71719dbb6ac12
+   TX Hash: 0x7a63671e293e8fd47d...d8d95ff93c
+   TX URL: https://polygonscan.com/tx/0x7a63671e293e8fd47d9777d6167a4671b5409aa5c2267c9aa2189cd8d95ff93c
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $6,824.03 USD
+📊 Mercado: Will the New England Patriots win Super Bowl 2026?
+🔗 URL: https://polymarket.com/event/super-bowl-champion-2026-731
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.6750 (67.50%)
+🕐 Hora: 2026-01-27 11:19:17
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Syrra
+   Wallet: 0x7ba5354929bf388707f397c8b21b8322dc954252
+   Perfil: https://polymarket.com/profile/0x7ba5354929bf388707f397c8b21b8322dc954252
+   TX Hash: 0xf9ec97eb9172cddcb1...2e0f00e981
+   TX URL: https://polygonscan.com/tx/0xf9ec97eb9172cddcb132534e48dc012e6520cca056040176ee53292e0f00e981
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $5,669.00 USD
+📊 Mercado: Will Manchester United win the 2025–26 English Premier League?
+🔗 URL: https://polymarket.com/event/english-premier-league-winner
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.9830 (98.30%)
+🕐 Hora: 2026-01-27 11:19:11
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Anónimo
+   Wallet: 0x68c8b55d8082876e3487fc984f1e7a4eede822b9
+   Perfil: https://polymarket.com/profile/0x68c8b55d8082876e3487fc984f1e7a4eede822b9
+   TX Hash: 0x32b4bf3247002ac713...d519c92324
+   TX URL: https://polygonscan.com/tx/0x32b4bf3247002ac7131455eec46accd1ac23d96e90e2dc3179e0fbd519c92324
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $6,977.00 USD
+📊 Mercado: Spread: Suns (-8.5)
+🔗 URL: https://polymarket.com/event/nba-bkn-phx-2026-01-27
+🎯 Outcome: Nets
+📈 Lado: COMPRA
+💵 Precio: 0.5000 (50.00%)
+🕐 Hora: 2026-01-27 11:20:09
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: phamhuan
+   Wallet: 0x7973663c1908326176d1823dc22ff7c5d3db34d4
+   Perfil: https://polymarket.com/profile/0x7973663c1908326176d1823dc22ff7c5d3db34d4
+   TX Hash: 0xb908b8eb644f347f65...bef1541e4c
+   TX URL: https://polygonscan.com/tx/0xb908b8eb644f347f65c05b416500fafd0f98deb727dbe2e7019aebbef1541e4c
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $12,275.67 USD
+📊 Mercado: Will the Fed decrease interest rates by 25 bps after the March 2026 meeting?
+🔗 URL: https://polymarket.com/event/fed-decision-in-march-885
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.8711 (87.11%)
+🕐 Hora: 2026-01-27 11:22:59
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: JAHODA
+   Wallet: 0x0e5bd76779e74304d08e759072abf126d87da593
+   Perfil: https://polymarket.com/profile/0x0e5bd76779e74304d08e759072abf126d87da593
+   TX Hash: 0x80f74bb910e08c07e0...fe9f28e252
+   TX URL: https://polygonscan.com/tx/0x80f74bb910e08c07e042cc0ca60db51e57fa54f2e587e5c128f702fe9f28e252
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $17,948.04 USD
+📊 Mercado: Fed decreases interest rates by 50+ bps after January 2026 meeting?
+🔗 URL: https://polymarket.com/event/fed-decision-in-january
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.9980 (99.80%)
+🕐 Hora: 2026-01-27 11:22:57
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: mosyanikol
+   Wallet: 0x4350b665bc1e950826d448b0cafeae8e59ada17f
+   Perfil: https://polymarket.com/profile/0x4350b665bc1e950826d448b0cafeae8e59ada17f
+   TX Hash: 0xf63a49217b3d4f5ff8...0e454a8d77
+   TX URL: https://polygonscan.com/tx/0xf63a49217b3d4f5ff8e9eb3a7254d8e9856045f1056c5cee8141cd0e454a8d77
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $6,150.00 USD
+📊 Mercado: Utah vs. Panthers
+🔗 URL: https://polymarket.com/event/nhl-utah-fla-2026-01-27
+🎯 Outcome: Utah
+📈 Lado: COMPRA
+💵 Precio: 0.4100 (41.00%)
+🕐 Hora: 2026-01-27 11:22:53
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: TheOneto3
+   Wallet: 0xe7a2052a8b7c6b865e3eb3d16300a4db7432ae70
+   Perfil: https://polymarket.com/profile/0xe7a2052a8b7c6b865e3eb3d16300a4db7432ae70
+   TX Hash: 0x7a5ec86da23f391876...ceeb700629
+   TX URL: https://polygonscan.com/tx/0x7a5ec86da23f391876115e5c9eac73e42e45f2aa878e32663e1b56ceeb700629
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $17,966.03 USD
+📊 Mercado: Fed decreases interest rates by 50+ bps after January 2026 meeting?
+🔗 URL: https://polymarket.com/event/fed-decision-in-january
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.9990 (99.90%)
+🕐 Hora: 2026-01-27 11:21:51
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: mosyanikol
+   Wallet: 0x4350b665bc1e950826d448b0cafeae8e59ada17f
+   Perfil: https://polymarket.com/profile/0x4350b665bc1e950826d448b0cafeae8e59ada17f
+   TX Hash: 0x6b5a737912e256ca46...85b4dbd9b6
+   TX URL: https://polygonscan.com/tx/0x6b5a737912e256ca465ec10fbad47402b8f4cbc64c051412e8501985b4dbd9b6
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $9,989.99 USD
+📊 Mercado: Will Leeds win the 2025–26 English Premier League?
+🔗 URL: https://polymarket.com/event/english-premier-league-winner
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.9980 (99.80%)
+🕐 Hora: 2026-01-27 11:23:39
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 1ethem
+   Wallet: 0xa33f2fffbdbb10da3d66898822a1cf5572d16403
+   Perfil: https://polymarket.com/profile/0xa33f2fffbdbb10da3d66898822a1cf5572d16403
+   TX Hash: 0x1645de93f6000f951a...325503ee72
+   TX URL: https://polygonscan.com/tx/0x1645de93f6000f951a5680db5f152fa310caba31a80a7b258310ef325503ee72
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $10,390.13 USD
+📊 Mercado: International ODI: Sri Lanka vs England (Game 3)
+🔗 URL: https://polymarket.com/event/crint-lka-gbr-2026-01-27
+🎯 Outcome: England
+📈 Lado: VENTA
+💵 Precio: 0.9990 (99.90%)
+🕐 Hora: 2026-01-27 11:24:39
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0x9DEA8D992d60Dff9BBB45CfC848D86D0541D3792-1766217060729
+   Wallet: 0x9dea8d992d60dff9bbb45cfc848d86d0541d3792
+   Perfil: https://polymarket.com/profile/0x9dea8d992d60dff9bbb45cfc848d86d0541d3792
+   TX Hash: 0xf526b608e449e63113...e1e73c5703
+   TX URL: https://polygonscan.com/tx/0xf526b608e449e6311337d7ab54065c367666dafdae1af12dcb934be1e73c5703
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $10,000.00 USD
+📊 Mercado: Will Liz Cheney win the 2028 Democratic presidential nomination?
+🔗 URL: https://polymarket.com/event/democratic-presidential-nominee-2028
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.9950 (99.50%)
+🕐 Hora: 2026-01-27 11:24:21
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 1ethem
+   Wallet: 0xa33f2fffbdbb10da3d66898822a1cf5572d16403
+   Perfil: https://polymarket.com/profile/0xa33f2fffbdbb10da3d66898822a1cf5572d16403
+   TX Hash: 0x3263f238b0462304d5...20448bad9f
+   TX URL: https://polygonscan.com/tx/0x3263f238b0462304d52c103eed9f5267f4f3a0fb855615c5b9089120448bad9f
+================================================================================
+
+
+================================================================================
+🐋🐋🐋🐋🐋 TITAN BALLENA DETECTADA 🐋🐋🐋🐋🐋
+================================================================================
+💰 Valor: $363,394.73 USD
+📊 Mercado: No change in Fed interest rates after January 2026 meeting?
+🔗 URL: https://polymarket.com/event/fed-decision-in-january
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.9930 (99.30%)
+🕐 Hora: 2026-01-27 11:24:47
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: bobe2
+   Wallet: 0xed107a85a4585a381e48c7f7ca4144909e7dd2e5
+   Perfil: https://polymarket.com/profile/0xed107a85a4585a381e48c7f7ca4144909e7dd2e5
+   TX Hash: 0x0c144c4a1bbf67034a...886c2db330
+   TX URL: https://polygonscan.com/tx/0x0c144c4a1bbf67034a5ab321dc54bdf6b8182c50f4a0d7d3281227886c2db330
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $6,262.53 USD
+📊 Mercado: Will Manchester United win the 2025–26 English Premier League?
+🔗 URL: https://polymarket.com/event/english-premier-league-winner
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.9830 (98.30%)
+🕐 Hora: 2026-01-27 11:28:03
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Anónimo
+   Wallet: 0x13bd9529931bb4012264056823328b4488d91678
+   Perfil: https://polymarket.com/profile/0x13bd9529931bb4012264056823328b4488d91678
+   TX Hash: 0x9f7a3360a46037e403...508959bca3
+   TX URL: https://polygonscan.com/tx/0x9f7a3360a46037e403588c576c3cda6a1940a7caab18d46bb1bf2d508959bca3
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $13,275.81 USD
+📊 Mercado: New "Stranger Things" episode released by January 31? 
+🔗 URL: https://polymarket.com/event/new-stranger-things-episode-released-by-wednesday
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.9970 (99.70%)
+🕐 Hora: 2026-01-27 11:35:27
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: debased
+   Wallet: 0x24c8cf69a0e0a17eee21f69d29752bfa32e823e1
+   Perfil: https://polymarket.com/profile/0x24c8cf69a0e0a17eee21f69d29752bfa32e823e1
+   TX Hash: 0x70a5b251dd404b0273...c256ba2c83
+   TX URL: https://polygonscan.com/tx/0x70a5b251dd404b02735db90247a860be67190251527841bdff8e64c256ba2c83
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $6,665.66 USD
+📊 Mercado: Will the New England Patriots win Super Bowl 2026?
+🔗 URL: https://polymarket.com/event/super-bowl-champion-2026-731
+🎯 Outcome: Yes
+📈 Lado: VENTA
+💵 Precio: 0.3210 (32.10%)
+🕐 Hora: 2026-01-27 11:37:39
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Bigboss81111
+   Wallet: 0xaa98a9c724c5609e29c1a62e4df747b20cbdb8f7
+   Perfil: https://polymarket.com/profile/0xaa98a9c724c5609e29c1a62e4df747b20cbdb8f7
+   TX Hash: 0x8d06dd2b8789146211...8bbfd7ec8c
+   TX URL: https://polygonscan.com/tx/0x8d06dd2b8789146211d6c01dcc053fe9e4d3be0d74877f228e23098bbfd7ec8c
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $17,609.21 USD
+📊 Mercado: Fed increases interest rates by 25+ bps after January 2026 meeting?
+🔗 URL: https://polymarket.com/event/fed-decision-in-january
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.9980 (99.80%)
+🕐 Hora: 2026-01-27 11:40:39
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: JulioLpezmelga2
+   Wallet: 0x1f5a480db584851bc52cac0c46d56aa7afcc7332
+   Perfil: https://polymarket.com/profile/0x1f5a480db584851bc52cac0c46d56aa7afcc7332
+   TX Hash: 0x056a198a3e58fe4470...0c5ba9d9b9
+   TX URL: https://polygonscan.com/tx/0x056a198a3e58fe4470bab6b5c837ce2dab8a520931096fed90ad4c0c5ba9d9b9
+================================================================================
+
+
+================================================================================
+🐋🐋🐋🐋🐋 TITAN BALLENA DETECTADA 🐋🐋🐋🐋🐋
+================================================================================
+💰 Valor: $53,538.42 USD
+📊 Mercado: No change in Fed interest rates after January 2026 meeting?
+🔗 URL: https://polymarket.com/event/fed-decision-in-january
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.9940 (99.40%)
+🕐 Hora: 2026-01-27 11:44:13
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: chriszyy
+   Wallet: 0x052f4191cd324a348835a846d34df5b0061e53fb
+   Perfil: https://polymarket.com/profile/0x052f4191cd324a348835a846d34df5b0061e53fb
+   TX Hash: 0x5f342bcfa187907730...6124d8ecf6
+   TX URL: https://polygonscan.com/tx/0x5f342bcfa187907730d26237ee4789a77b89918f9cd7605160109c6124d8ecf6
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $10,312.34 USD
+📊 Mercado: Fed decreases interest rates by 50+ bps after January 2026 meeting?
+🔗 URL: https://polymarket.com/event/fed-decision-in-january
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.9980 (99.80%)
+🕐 Hora: 2026-01-27 11:47:17
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: chriszyy
+   Wallet: 0x052f4191cd324a348835a846d34df5b0061e53fb
+   Perfil: https://polymarket.com/profile/0x052f4191cd324a348835a846d34df5b0061e53fb
+   TX Hash: 0xad054edf12e6252de5...4aee50576a
+   TX URL: https://polygonscan.com/tx/0xad054edf12e6252de5a53015bdc0579caec473af03978235f65ed64aee50576a
+================================================================================
+
+
+================================================================================
+🐋🐋🐋🐋 ULTRA BALLENA DETECTADA 🐋🐋🐋🐋
+================================================================================
+💰 Valor: $23,160.07 USD
+📊 Mercado: Will Elon Musk post 380-399 tweets from January 20 to January 27, 2026?
+🔗 URL: https://polymarket.com/event/elon-musk-of-tweets-january-20-january-27
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.9745 (97.45%)
+🕐 Hora: 2026-01-27 11:48:41
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Oxford-Alpha-Fund
+   Wallet: 0x641977cc7e8ec427107ab6a571b398a1b3bb5997
+   Perfil: https://polymarket.com/profile/0x641977cc7e8ec427107ab6a571b398a1b3bb5997
+   TX Hash: 0xed622514ba940b4759...8c8479fc4f
+   TX URL: https://polygonscan.com/tx/0xed622514ba940b4759bf2698bf66dfd052733965ea03f49ed3ac008c8479fc4f
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $5,941.16 USD
+📊 Mercado: Utah vs. Panthers
+🔗 URL: https://polymarket.com/event/nhl-utah-fla-2026-01-27
+🎯 Outcome: Panthers
+📈 Lado: COMPRA
+💵 Precio: 0.5700 (57.00%)
+🕐 Hora: 2026-01-27 11:48:13
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: theyseemeloosintheyhatin
+   Wallet: 0x14333d20e95f39472970d2feff6c9c4c16fd56a0
+   Perfil: https://polymarket.com/profile/0x14333d20e95f39472970d2feff6c9c4c16fd56a0
+   TX Hash: 0xbf89b761262d6e7841...3bc170f080
+   TX URL: https://polygonscan.com/tx/0xbf89b761262d6e7841ec5fff64d4ba9b867502e34b2d84e8968eb13bc170f080
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $12,043.53 USD
+📊 Mercado: Counter-Strike: Virtus.pro vs Nemiga (BO3) - CCT Europe Series #13 Playoffs
+🔗 URL: https://polymarket.com/event/cs2-vp-nemi1-2026-01-27
+🎯 Outcome: Nemiga
+📈 Lado: VENTA
+💵 Precio: 0.9990 (99.90%)
+🕐 Hora: 2026-01-27 11:47:59
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: luckydobby
+   Wallet: 0x61faa7b73071accbc4bb71a343e3bed3939f7f62
+   Perfil: https://polymarket.com/profile/0x61faa7b73071accbc4bb71a343e3bed3939f7f62
+   TX Hash: 0xe68427dc33c19c69e2...8b06aa804b
+   TX URL: https://polygonscan.com/tx/0xe68427dc33c19c69e2a6477afd1a175e47de528b1b9bae4c5eb3f58b06aa804b
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $8,447.58 USD
+📊 Mercado: Counter-Strike: GamerLegion vs 33 (BO3) - CCT Europe Series #13 Playoffs
+🔗 URL: https://polymarket.com/event/cs2-gl1-33-2026-01-27
+🎯 Outcome: GamerLegion
+📈 Lado: COMPRA
+💵 Precio: 0.8068 (80.68%)
+🕐 Hora: 2026-01-27 11:51:41
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: luckydobby
+   Wallet: 0x61faa7b73071accbc4bb71a343e3bed3939f7f62
+   Perfil: https://polymarket.com/profile/0x61faa7b73071accbc4bb71a343e3bed3939f7f62
+   TX Hash: 0xd1429134af5ad46ac1...b4ddb53ab9
+   TX URL: https://polygonscan.com/tx/0xd1429134af5ad46ac194ecc85e6f02d42a0607e4a86280ba66b337b4ddb53ab9
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $6,069.00 USD
+📊 Mercado: Will Elon Musk post 400-419 tweets from January 20 to January 27, 2026?
+🔗 URL: https://polymarket.com/event/elon-musk-of-tweets-january-20-january-27
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.9700 (97.00%)
+🕐 Hora: 2026-01-27 11:51:37
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: KARMASUR
+   Wallet: 0xf5d92058c977a9c957c6cbfbe3e9a27c83a9be50
+   Perfil: https://polymarket.com/profile/0xf5d92058c977a9c957c6cbfbe3e9a27c83a9be50
+   TX Hash: 0xd8fbe6516e070ca7f7...5a0a807d11
+   TX URL: https://polygonscan.com/tx/0xd8fbe6516e070ca7f70c157d434e8c8240b3a42f2531f0352d61165a0a807d11
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $5,738.83 USD
+📊 Mercado: Russia x Ukraine ceasefire by January 31, 2026?
+🔗 URL: https://polymarket.com/event/russia-x-ukraine-ceasefire-by-january-31-2026
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.9950 (99.50%)
+🕐 Hora: 2026-01-27 11:53:03
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Legi
+   Wallet: 0x6ea6e1d28acc1c393b8fbf360c06d71a99a39261
+   Perfil: https://polymarket.com/profile/0x6ea6e1d28acc1c393b8fbf360c06d71a99a39261
+   TX Hash: 0xf409c8fb8383fc9d2a...7c5bd754a9
+   TX URL: https://polygonscan.com/tx/0xf409c8fb8383fc9d2a8f7d4aef94354b0bb36d92cd53f71dbbb9177c5bd754a9
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $5,461.90 USD
+📊 Mercado: Blackhawks vs. Wild
+🔗 URL: https://polymarket.com/event/nhl-chi-min-2026-01-27
+🎯 Outcome: Wild
+📈 Lado: COMPRA
+💵 Precio: 0.6500 (65.00%)
+🕐 Hora: 2026-01-27 11:54:35
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: jtwyslljy
+   Wallet: 0x9cb990f1862568a63d8601efeebe0304225c32f2
+   Perfil: https://polymarket.com/profile/0x9cb990f1862568a63d8601efeebe0304225c32f2
+   TX Hash: 0xc0a3e7319572a512e6...b1b6b18345
+   TX URL: https://polygonscan.com/tx/0xc0a3e7319572a512e61607e17dab2a940b047cab6f52db57994a40b1b6b18345
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $16,739.78 USD
+📊 Mercado: LoL: KIA.eSuba Academy vs Meavedron (BO1) - Hitpoint Masters Group Stage
+🔗 URL: https://polymarket.com/event/lol-esba-mea-2026-01-27
+🎯 Outcome: KIA.eSuba Academy
+📈 Lado: VENTA
+💵 Precio: 0.9990 (99.90%)
+🕐 Hora: 2026-01-27 11:54:33
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: luckydobby
+   Wallet: 0x61faa7b73071accbc4bb71a343e3bed3939f7f62
+   Perfil: https://polymarket.com/profile/0x61faa7b73071accbc4bb71a343e3bed3939f7f62
+   TX Hash: 0x9221b058d594355348...a9574e559f
+   TX URL: https://polygonscan.com/tx/0x9221b058d5943553481665cb5776a5e2c7d1e7d6b86588882a15f0a9574e559f
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $10,000.00 USD
+📊 Mercado: Pistons vs. Nuggets
+🔗 URL: https://polymarket.com/event/nba-det-den-2026-01-27
+🎯 Outcome: Nuggets
+📈 Lado: COMPRA
+💵 Precio: 0.3114 (31.14%)
+🕐 Hora: 2026-01-27 11:54:01
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Hugewinner
+   Wallet: 0xc8ec6d4cef5c5fe8409ef69303c37f05b678e8f1
+   Perfil: https://polymarket.com/profile/0xc8ec6d4cef5c5fe8409ef69303c37f05b678e8f1
+   TX Hash: 0xb356f7906a9e959b5d...c06c805006
+   TX URL: https://polygonscan.com/tx/0xb356f7906a9e959b5df48a3e5b4f12f33a50ec9793b1e026a80fcdc06c805006
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $5,592.84 USD
+📊 Mercado: Sabres vs. Maple Leafs
+🔗 URL: https://polymarket.com/event/nhl-buf-tor-2026-01-27
+🎯 Outcome: Maple Leafs
+📈 Lado: COMPRA
+💵 Precio: 0.5100 (51.00%)
+🕐 Hora: 2026-01-27 11:56:07
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 432614799197
+   Wallet: 0xdc876e6873772d38716fda7f2452a78d426d7ab6
+   Perfil: https://polymarket.com/profile/0xdc876e6873772d38716fda7f2452a78d426d7ab6
+   TX Hash: 0xb8f72893f957147007...ff6c214460
+   TX URL: https://polygonscan.com/tx/0xb8f72893f957147007c6f9c224a1e1dec974e3259eccc5f20d2100ff6c214460
+================================================================================
+
+
+================================================================================
+🐋🐋🐋🐋 ULTRA BALLENA DETECTADA 🐋🐋🐋🐋
+================================================================================
+💰 Valor: $25,802.75 USD
+📊 Mercado: Will the next Prime Minister of Hungary be Péter Magyar?
+🔗 URL: https://polymarket.com/event/next-prime-minister-of-hungary
+🎯 Outcome: Yes
+📈 Lado: VENTA
+💵 Precio: 0.4075 (40.75%)
+🕐 Hora: 2026-01-27 11:55:55
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: torgyan-jozsef
+   Wallet: 0x3aa8f5cc5fe22b343de06c418c5db63822ee5937
+   Perfil: https://polymarket.com/profile/0x3aa8f5cc5fe22b343de06c418c5db63822ee5937
+   TX Hash: 0x2876c562f9dc085994...6db26e665a
+   TX URL: https://polygonscan.com/tx/0x2876c562f9dc085994a7c25b53dab63fb7ac7dbe58baa7321453486db26e665a
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $8,063.84 USD
+📊 Mercado: Will Bitcoin reach $125,000 in January?
+🔗 URL: https://polymarket.com/event/what-price-will-bitcoin-hit-in-january-2026
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.9980 (99.80%)
+🕐 Hora: 2026-01-27 11:55:47
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: mazan
+   Wallet: 0x802b8b1ed0816d78637f88a04ff3b771737d712e
+   Perfil: https://polymarket.com/profile/0x802b8b1ed0816d78637f88a04ff3b771737d712e
+   TX Hash: 0xbbc7280ab0b9d0da4e...b3b57b6059
+   TX URL: https://polygonscan.com/tx/0xbbc7280ab0b9d0da4e003c14ce85d17352c31f9d23c74fcb911cc3b3b57b6059
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $18,034.67 USD
+📊 Mercado: Will Elon Musk post 380-399 tweets from January 20 to January 27, 2026?
+🔗 URL: https://polymarket.com/event/elon-musk-of-tweets-january-20-january-27
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.9950 (99.50%)
+🕐 Hora: 2026-01-27 11:55:39
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Gustav4
+   Wallet: 0x471abf0558dcd381dcea2fdf54390760c9a30328
+   Perfil: https://polymarket.com/profile/0x471abf0558dcd381dcea2fdf54390760c9a30328
+   TX Hash: 0x4088d3ed3fe2bb3dd3...3fdf0cdbcd
+   TX URL: https://polygonscan.com/tx/0x4088d3ed3fe2bb3dd3dd7c4c48f49c0e40a76a09a4b13c90c3337f3fdf0cdbcd
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $5,028.71 USD
+📊 Mercado: Will Elon Musk post 400-419 tweets from January 20 to January 27, 2026?
+🔗 URL: https://polymarket.com/event/elon-musk-of-tweets-january-20-january-27
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.9980 (99.80%)
+🕐 Hora: 2026-01-27 11:56:17
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Gustav4
+   Wallet: 0x471abf0558dcd381dcea2fdf54390760c9a30328
+   Perfil: https://polymarket.com/profile/0x471abf0558dcd381dcea2fdf54390760c9a30328
+   TX Hash: 0x1790dc8804da82e6cb...85a163f982
+   TX URL: https://polygonscan.com/tx/0x1790dc8804da82e6cbb155ef02b609ad7f4495a36009a58873921685a163f982
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $8,508.56 USD
+📊 Mercado: Kings vs. Red Wings
+🔗 URL: https://polymarket.com/event/nhl-lak-det-2026-01-27
+🎯 Outcome: Red Wings
+📈 Lado: COMPRA
+💵 Precio: 0.5200 (52.00%)
+🕐 Hora: 2026-01-27 11:57:41
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: jtwyslljy
+   Wallet: 0x9cb990f1862568a63d8601efeebe0304225c32f2
+   Perfil: https://polymarket.com/profile/0x9cb990f1862568a63d8601efeebe0304225c32f2
+   TX Hash: 0xf97642d3311279e6d4...a7129752a8
+   TX URL: https://polygonscan.com/tx/0xf97642d3311279e6d4818e47c9a514b2a259bf104ad7899ee089fba7129752a8
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $17,610.97 USD
+📊 Mercado: Fed decreases interest rates by 50+ bps after January 2026 meeting?
+🔗 URL: https://polymarket.com/event/fed-decision-in-january
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.9990 (99.90%)
+🕐 Hora: 2026-01-27 11:57:35
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: JulioLpezmelga2
+   Wallet: 0x1f5a480db584851bc52cac0c46d56aa7afcc7332
+   Perfil: https://polymarket.com/profile/0x1f5a480db584851bc52cac0c46d56aa7afcc7332
+   TX Hash: 0x4b9bb384ec2398429e...3f4b7d69c2
+   TX URL: https://polygonscan.com/tx/0x4b9bb384ec2398429e68a5e7160d8e5b75619c45bd430fbdd685633f4b7d69c2
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $7,781.40 USD
+📊 Mercado: Will the price of Ethereum be above $3,000 on January 27?
+🔗 URL: https://polymarket.com/event/ethereum-above-on-january-27
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.9900 (99.00%)
+🕐 Hora: 2026-01-27 11:57:29
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0x80e9D5D164D0917299c9Efb18A739338C6cD796
+   Wallet: 0x80e9d5d164d0917299c9efb18a739338c6cd7967
+   Perfil: https://polymarket.com/profile/0x80e9d5d164d0917299c9efb18a739338c6cd7967
+   TX Hash: 0x714a1513f3b8b51246...4f6019263f
+   TX URL: https://polygonscan.com/tx/0x714a1513f3b8b51246ecee0448efe06a9bd6ad35f8ea24aae2c6244f6019263f
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $15,000.00 USD
+📊 Mercado: Predators vs. Bruins
+🔗 URL: https://polymarket.com/event/nhl-nsh-bos-2026-01-27
+🎯 Outcome: Predators
+📈 Lado: COMPRA
+💵 Precio: 0.5000 (50.00%)
+🕐 Hora: 2026-01-27 11:56:59
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: theyseemeloosintheyhatin
+   Wallet: 0x14333d20e95f39472970d2feff6c9c4c16fd56a0
+   Perfil: https://polymarket.com/profile/0x14333d20e95f39472970d2feff6c9c4c16fd56a0
+   TX Hash: 0xca00af7198ac71f982...4b8edc26fd
+   TX URL: https://polygonscan.com/tx/0xca00af7198ac71f9826bdb9fb881bc840efd991bf762e5d00c66194b8edc26fd
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $11,612.35 USD
+📊 Mercado: Will Elon Musk post 400-419 tweets from January 20 to January 27, 2026?
+🔗 URL: https://polymarket.com/event/elon-musk-of-tweets-january-20-january-27
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.9980 (99.80%)
+🕐 Hora: 2026-01-27 11:56:55
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Gustav4
+   Wallet: 0x471abf0558dcd381dcea2fdf54390760c9a30328
+   Perfil: https://polymarket.com/profile/0x471abf0558dcd381dcea2fdf54390760c9a30328
+   TX Hash: 0xf07ed197331a0ffd5f...845ac764c0
+   TX URL: https://polygonscan.com/tx/0xf07ed197331a0ffd5f0f6ad70d75291602ded1d51caa456f498c66845ac764c0
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $10,000.00 USD
+📊 Mercado: Will Elon Musk post 380-399 tweets from January 20 to January 27, 2026?
+🔗 URL: https://polymarket.com/event/elon-musk-of-tweets-january-20-january-27
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.9990 (99.90%)
+🕐 Hora: 2026-01-27 11:57:51
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: edentrading
+   Wallet: 0xc757850237e266d3b08d16b8455777a88590ccfc
+   Perfil: https://polymarket.com/profile/0xc757850237e266d3b08d16b8455777a88590ccfc
+   TX Hash: 0x47fcb053d8e60da98b...3985733403
+   TX URL: https://polygonscan.com/tx/0x47fcb053d8e60da98bbe874fd503b577ef2ece59d4d051bd5331dd3985733403
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $9,990.00 USD
+📊 Mercado: Will Elon Musk post 380-399 tweets from January 20 to January 27, 2026?
+🔗 URL: https://polymarket.com/event/elon-musk-of-tweets-january-20-january-27
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.9990 (99.90%)
+🕐 Hora: 2026-01-27 11:59:09
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Prexpect
+   Wallet: 0xa59c570a9eca148da55f6e1f47a538c0c600bb62
+   Perfil: https://polymarket.com/profile/0xa59c570a9eca148da55f6e1f47a538c0c600bb62
+   TX Hash: 0x28ddd509c066655a0f...5116f19b56
+   TX URL: https://polygonscan.com/tx/0x28ddd509c066655a0f08d1952b2b41eb60bb2eabad1a334a80ec3a5116f19b56
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $17,593.33 USD
+📊 Mercado: Fed decreases interest rates by 50+ bps after January 2026 meeting?
+🔗 URL: https://polymarket.com/event/fed-decision-in-january
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.9980 (99.80%)
+🕐 Hora: 2026-01-27 11:58:39
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: JulioLpezmelga2
+   Wallet: 0x1f5a480db584851bc52cac0c46d56aa7afcc7332
+   Perfil: https://polymarket.com/profile/0x1f5a480db584851bc52cac0c46d56aa7afcc7332
+   TX Hash: 0xbf41c90f00633d161b...4504fa047d
+   TX URL: https://polygonscan.com/tx/0xbf41c90f00633d161bb68f595a7a18e5ac1972ba0b1908a44945454504fa047d
+================================================================================
+
+
+================================================================================
+🐋🐋🐋🐋🐋 TITAN BALLENA DETECTADA 🐋🐋🐋🐋🐋
+================================================================================
+💰 Valor: $497,362.62 USD
+📊 Mercado: No change in Fed interest rates after January 2026 meeting?
+🔗 URL: https://polymarket.com/event/fed-decision-in-january
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.9940 (99.40%)
+🕐 Hora: 2026-01-27 11:58:33
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: bobe2
+   Wallet: 0xed107a85a4585a381e48c7f7ca4144909e7dd2e5
+   Perfil: https://polymarket.com/profile/0xed107a85a4585a381e48c7f7ca4144909e7dd2e5
+   TX Hash: 0x80171e99ab8d788a8b...79150d394c
+   TX URL: https://polygonscan.com/tx/0x80171e99ab8d788a8b1747d0fd9a2cb33993631f282add82ebf3c879150d394c
+================================================================================
+
+
+================================================================================
+🐋🐋🐋🐋🐋 TITAN BALLENA DETECTADA 🐋🐋🐋🐋🐋
+================================================================================
+💰 Valor: $381,084.06 USD
+📊 Mercado: No change in Fed interest rates after January 2026 meeting?
+🔗 URL: https://polymarket.com/event/fed-decision-in-january
+🎯 Outcome: Yes
+📈 Lado: VENTA
+💵 Precio: 0.9930 (99.30%)
+🕐 Hora: 2026-01-27 11:58:29
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: JAHODA
+   Wallet: 0x0e5bd76779e74304d08e759072abf126d87da593
+   Perfil: https://polymarket.com/profile/0x0e5bd76779e74304d08e759072abf126d87da593
+   TX Hash: 0xe5761d617f66406317...821385a23d
+   TX URL: https://polygonscan.com/tx/0xe5761d617f66406317b3f3bbe82530e7e8921e164920bc8f387cad821385a23d
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $9,146.23 USD
+📊 Mercado: Will the price of Ethereum be above $3,100 on January 27?
+🔗 URL: https://polymarket.com/event/ethereum-above-on-january-27
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.9990 (99.90%)
+🕐 Hora: 2026-01-27 12:00:53
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0xa9E8FaF20424F3efBF12abaEa0e7069d7546C443-1727183987392
+   Wallet: 0xa9e8faf20424f3efbf12abaea0e7069d7546c443
+   Perfil: https://polymarket.com/profile/0xa9e8faf20424f3efbf12abaea0e7069d7546c443
+   TX Hash: 0x9cc69f2756b6e484c0...9392a95a4c
+   TX URL: https://polygonscan.com/tx/0x9cc69f2756b6e484c0cf9f25633b016b53c51578561c4386a674c49392a95a4c
+================================================================================
+
+
+================================================================================
+🐋🐋🐋🐋🐋 TITAN BALLENA DETECTADA 🐋🐋🐋🐋🐋
+================================================================================
+💰 Valor: $62,397.18 USD
+📊 Mercado: US strikes Iran by January 27, 2026?
+🔗 URL: https://polymarket.com/event/us-strikes-iran-by
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.9921 (99.21%)
+🕐 Hora: 2026-01-27 12:02:17
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 19HO
+   Wallet: 0x06c0d07d5b59b25316bf1e6007aca6ad8f20bc23
+   Perfil: https://polymarket.com/profile/0x06c0d07d5b59b25316bf1e6007aca6ad8f20bc23
+   TX Hash: 0xeeb0b2c49f01004fd0...cba4c5a909
+   TX URL: https://polygonscan.com/tx/0xeeb0b2c49f01004fd024a68d9d254c9f8eca1f23639e67ecb16553cba4c5a909
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $17,510.23 USD
+📊 Mercado: Will Ethereum reach $6,000 in January?
+🔗 URL: https://polymarket.com/event/what-price-will-ethereum-hit-in-january-2026
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.9980 (99.80%)
+🕐 Hora: 2026-01-27 12:06:57
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: havu76114190
+   Wallet: 0x827bbe88754aa48734e0a0082898e0dab44dbb5f
+   Perfil: https://polymarket.com/profile/0x827bbe88754aa48734e0a0082898e0dab44dbb5f
+   TX Hash: 0x0802a54f507e8818e0...64aa421a29
+   TX URL: https://polygonscan.com/tx/0x0802a54f507e8818e0059f2a334782c6a52f661ddd025cde5cfde564aa421a29
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $8,723.19 USD
+📊 Mercado: Seahawks vs. Patriots
+🔗 URL: https://polymarket.com/event/nfl-sea-ne-2026-02-08
+🎯 Outcome: Patriots
+📈 Lado: COMPRA
+💵 Precio: 0.3300 (33.00%)
+🕐 Hora: 2026-01-27 12:07:57
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0xade5c1394B280b236511c6128fcdf58C7D9A0113-1763385130815
+   Wallet: 0xade5c1394b280b236511c6128fcdf58c7d9a0113
+   Perfil: https://polymarket.com/profile/0xade5c1394b280b236511c6128fcdf58c7d9a0113
+   TX Hash: 0x2d0234cf056c552ad3...18a616c562
+   TX URL: https://polygonscan.com/tx/0x2d0234cf056c552ad33385cf25b72e14b8b0f963b867728935d06b18a616c562
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $5,000.00 USD
+📊 Mercado: Pelicans vs. Thunder
+🔗 URL: https://polymarket.com/event/nba-nop-okc-2026-01-27
+🎯 Outcome: Pelicans
+📈 Lado: COMPRA
+💵 Precio: 0.1537 (15.37%)
+🕐 Hora: 2026-01-27 12:09:31
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Hugewinner
+   Wallet: 0xc8ec6d4cef5c5fe8409ef69303c37f05b678e8f1
+   Perfil: https://polymarket.com/profile/0xc8ec6d4cef5c5fe8409ef69303c37f05b678e8f1
+   TX Hash: 0xf6df8c5d6ad20db608...d3c5f0cd96
+   TX URL: https://polygonscan.com/tx/0xf6df8c5d6ad20db60843271763a585c7a1595af13c827155dadf83d3c5f0cd96
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $11,513.36 USD
+📊 Mercado: Trail Blazers vs. Wizards
+🔗 URL: https://polymarket.com/event/nba-por-was-2026-01-27
+🎯 Outcome: Trail Blazers
+📈 Lado: COMPRA
+💵 Precio: 0.7100 (71.00%)
+🕐 Hora: 2026-01-27 12:09:13
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0xb7511d7b0dcb75ffad0507cbac7223653d08915
+   Wallet: 0xe60a9b0be459d9849bc2339dac20517639ae6a47
+   Perfil: https://polymarket.com/profile/0xe60a9b0be459d9849bc2339dac20517639ae6a47
+   TX Hash: 0x4d26cde62d0bc5299e...d21a6c4c5f
+   TX URL: https://polygonscan.com/tx/0x4d26cde62d0bc5299e0d94a06a62c8b292b54b5b0f387b75d10372d21a6c4c5f
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $10,000.00 USD
+📊 Mercado: US government shutdown Saturday?
+🔗 URL: https://polymarket.com/event/will-there-be-another-us-government-shutdown-by-january-31
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.2241 (22.41%)
+🕐 Hora: 2026-01-27 12:12:13
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0x6954D3E807749511E79F6F6C1cFE53A3BE549fd8-1769527187934
+   Wallet: 0x6954d3e807749511e79f6f6c1cfe53a3be549fd8
+   Perfil: https://polymarket.com/profile/0x6954d3e807749511e79f6f6c1cfe53a3be549fd8
+   TX Hash: 0xc2972d8c3e47b04840...f84ce80eaa
+   TX URL: https://polygonscan.com/tx/0xc2972d8c3e47b04840a0561c6d12f066b2fe49a1425e72c82952e8f84ce80eaa
+================================================================================
+
+
+================================================================================
+🐋🐋🐋🐋 ULTRA BALLENA DETECTADA 🐋🐋🐋🐋
+================================================================================
+💰 Valor: $21,934.74 USD
+📊 Mercado: Trail Blazers vs. Wizards
+🔗 URL: https://polymarket.com/event/nba-por-was-2026-01-27
+🎯 Outcome: Trail Blazers
+📈 Lado: COMPRA
+💵 Precio: 0.7100 (71.00%)
+🕐 Hora: 2026-01-27 12:14:13
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: elkmonkey
+   Wallet: 0xead152b855effa6b5b5837f53b24c0756830c76a
+   Perfil: https://polymarket.com/profile/0xead152b855effa6b5b5837f53b24c0756830c76a
+   TX Hash: 0x3e619d6a83f3f12f82...9e4e315c70
+   TX URL: https://polygonscan.com/tx/0x3e619d6a83f3f12f82309ddd3582c17fb72c8567f076f1a8b420289e4e315c70
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $9,554.49 USD
+📊 Mercado: Will Bitcoin reach $100,000 in January?
+🔗 URL: https://polymarket.com/event/what-price-will-bitcoin-hit-in-january-2026
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.9900 (99.00%)
+🕐 Hora: 2026-01-27 12:15:31
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: x6916Cc00AA1c3e75ECf4081DF7caE7D2f3592fd4
+   Wallet: 0x6916cc00aa1c3e75ecf4081df7cae7d2f3592fd4
+   Perfil: https://polymarket.com/profile/0x6916cc00aa1c3e75ecf4081df7cae7d2f3592fd4
+   TX Hash: 0x9ec622e73279fdcaf8...14e4652575
+   TX URL: https://polygonscan.com/tx/0x9ec622e73279fdcaf8880f9a7c590b8381c33e07d8d33c76be0fdb14e4652575
+================================================================================
+
+
+================================================================================
+🐋🐋🐋🐋 ULTRA BALLENA DETECTADA 🐋🐋🐋🐋
+================================================================================
+💰 Valor: $25,000.00 USD
+📊 Mercado: Spread: Seahawks (-4.5)
+🔗 URL: https://polymarket.com/event/nfl-sea-ne-2026-02-08
+🎯 Outcome: Seahawks
+📈 Lado: COMPRA
+💵 Precio: 0.5000 (50.00%)
+🕐 Hora: 2026-01-27 12:17:17
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: gatorr
+   Wallet: 0x93abbc022ce98d6f45d4444b594791cc4b7a9723
+   Perfil: https://polymarket.com/profile/0x93abbc022ce98d6f45d4444b594791cc4b7a9723
+   TX Hash: 0x89665a1f0aa8ef7157...801ed838aa
+   TX URL: https://polygonscan.com/tx/0x89665a1f0aa8ef7157f0d8297bfd345b75081ca871790add240f27801ed838aa
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $19,993.25 USD
+📊 Mercado: Will Sanae Takaichi be the Prime Minister of Japan as a result of the 2026 snap election?
+🔗 URL: https://polymarket.com/event/prime-minister-of-japan-after-snap-election
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.9500 (95.00%)
+🕐 Hora: 2026-01-27 12:18:29
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Annieelisa
+   Wallet: 0xf33d2aab3dd3af01829f5bbaafd8ab6511cbc852
+   Perfil: https://polymarket.com/profile/0xf33d2aab3dd3af01829f5bbaafd8ab6511cbc852
+   TX Hash: 0x2fae25f5ea3a359a5b...afc64300fa
+   TX URL: https://polygonscan.com/tx/0x2fae25f5ea3a359a5b47a4d3595f6b9a73348991d5a4d3b9e71065afc64300fa
+================================================================================
+
+
+================================================================================
+🐋🐋🐋🐋🐋 TITAN BALLENA DETECTADA 🐋🐋🐋🐋🐋
+================================================================================
+💰 Valor: $44,985.75 USD
+📊 Mercado: Spread: Seahawks (-4.5)
+🔗 URL: https://polymarket.com/event/nfl-sea-ne-2026-02-08
+🎯 Outcome: Patriots
+📈 Lado: COMPRA
+💵 Precio: 0.5000 (50.00%)
+🕐 Hora: 2026-01-27 12:20:01
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 432614799197
+   Wallet: 0xdc876e6873772d38716fda7f2452a78d426d7ab6
+   Perfil: https://polymarket.com/profile/0xdc876e6873772d38716fda7f2452a78d426d7ab6
+   TX Hash: 0xbb358ccd11b3deb4e9...89fbc2db13
+   TX URL: https://polygonscan.com/tx/0xbb358ccd11b3deb4e96ec5a867fa185f51ab995e34e8ff98eceea689fbc2db13
+================================================================================
+
+
+================================================================================
+🐋🐋🐋🐋🐋 TITAN BALLENA DETECTADA 🐋🐋🐋🐋🐋
+================================================================================
+💰 Valor: $96,231.00 USD
+📊 Mercado: Spread: Seahawks (-4.5)
+🔗 URL: https://polymarket.com/event/nfl-sea-ne-2026-02-08
+🎯 Outcome: Patriots
+📈 Lado: COMPRA
+💵 Precio: 0.5000 (50.00%)
+🕐 Hora: 2026-01-27 12:19:59
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 432614799197
+   Wallet: 0xdc876e6873772d38716fda7f2452a78d426d7ab6
+   Perfil: https://polymarket.com/profile/0xdc876e6873772d38716fda7f2452a78d426d7ab6
+   TX Hash: 0x9d7bfd4253aaa4e7f6...923eae10fa
+   TX URL: https://polygonscan.com/tx/0x9d7bfd4253aaa4e7f6892d7f274f6f8baf4923bcb361a01a41ec96923eae10fa
+================================================================================
+
+
+================================================================================
+🐋🐋🐋🐋🐋 TITAN BALLENA DETECTADA 🐋🐋🐋🐋🐋
+================================================================================
+💰 Valor: $108,610.99 USD
+📊 Mercado: Spread: Seahawks (-4.5)
+🔗 URL: https://polymarket.com/event/nfl-sea-ne-2026-02-08
+🎯 Outcome: Seahawks
+📈 Lado: COMPRA
+💵 Precio: 0.5000 (50.00%)
+🕐 Hora: 2026-01-27 12:19:59
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: kch123
+   Wallet: 0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee
+   Perfil: https://polymarket.com/profile/0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee
+   TX Hash: 0x5a078300696d537e3a...1800305481
+   TX URL: https://polygonscan.com/tx/0x5a078300696d537e3a65fbbb9b329fa8fec7a7b71fd43e83438e351800305481
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $6,538.30 USD
+📊 Mercado: Seahawks vs. Patriots
+🔗 URL: https://polymarket.com/event/nfl-sea-ne-2026-02-08
+🎯 Outcome: Patriots
+📈 Lado: COMPRA
+💵 Precio: 0.3200 (32.00%)
+🕐 Hora: 2026-01-27 12:19:53
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: BlindOrangutan
+   Wallet: 0x97317409bfd9e992611596acee93e8b938019b35
+   Perfil: https://polymarket.com/profile/0x97317409bfd9e992611596acee93e8b938019b35
+   TX Hash: 0x60cca69077eb7d9204...c6bee9da49
+   TX URL: https://polygonscan.com/tx/0x60cca69077eb7d92043b6ff366517e8f2aa9ab5280ecc2f76ce0a7c6bee9da49
+================================================================================
+
+
+================================================================================
+🐋🐋🐋🐋🐋 TITAN BALLENA DETECTADA 🐋🐋🐋🐋🐋
+================================================================================
+💰 Valor: $65,383.00 USD
+📊 Mercado: Seahawks vs. Patriots
+🔗 URL: https://polymarket.com/event/nfl-sea-ne-2026-02-08
+🎯 Outcome: Patriots
+📈 Lado: COMPRA
+💵 Precio: 0.3200 (32.00%)
+🕐 Hora: 2026-01-27 12:19:49
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 432614799197
+   Wallet: 0xdc876e6873772d38716fda7f2452a78d426d7ab6
+   Perfil: https://polymarket.com/profile/0xdc876e6873772d38716fda7f2452a78d426d7ab6
+   TX Hash: 0xee09b629392752e45e...5159148afd
+   TX URL: https://polygonscan.com/tx/0xee09b629392752e45e92bb581af6566abbafd607e4d64203f785265159148afd
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $17,250.36 USD
+📊 Mercado: Will Bitcoin reach $150,000 in January?
+🔗 URL: https://polymarket.com/event/what-price-will-bitcoin-hit-in-january-2026
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.9980 (99.80%)
+🕐 Hora: 2026-01-27 12:18:59
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: minhtamn89b
+   Wallet: 0x9159cca71610a61a556319ad06b0e8d0c18e699b
+   Perfil: https://polymarket.com/profile/0x9159cca71610a61a556319ad06b0e8d0c18e699b
+   TX Hash: 0xe4ae99d11d54c5e8b4...d5c570545b
+   TX URL: https://polygonscan.com/tx/0xe4ae99d11d54c5e8b4248300b7dfbbb71d37ca59fb3ec7a1040451d5c570545b
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $5,974.52 USD
+📊 Mercado: Will Bitcoin dip to $85,000 in January?
+🔗 URL: https://polymarket.com/event/what-price-will-bitcoin-hit-in-january-2026
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.4100 (41.00%)
+🕐 Hora: 2026-01-27 12:23:25
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0x01542a212c9696da5b409cae879143b89661
+   Wallet: 0x01542a212c9696da5b409cae879143b8966115a8
+   Perfil: https://polymarket.com/profile/0x01542a212c9696da5b409cae879143b8966115a8
+   TX Hash: 0xd6316372e73fd8cbd6...16d12c7f87
+   TX URL: https://polygonscan.com/tx/0xd6316372e73fd8cbd638559030bcf10d9a2332275edca9a33bf41016d12c7f87
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $13,724.28 USD
+📊 Mercado: Bitcoin Up or Down - January 27, 12PM ET
+🔗 URL: https://polymarket.com/event/bitcoin-up-or-down-january-27-12pm-et
+🎯 Outcome: Down
+📈 Lado: COMPRA
+💵 Precio: 0.9825 (98.25%)
+🕐 Hora: 2026-01-27 12:23:01
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: UwO
+   Wallet: 0x0c4b64af62a0ac3dd477e9f80ec3eaa18e92f6db
+   Perfil: https://polymarket.com/profile/0x0c4b64af62a0ac3dd477e9f80ec3eaa18e92f6db
+   TX Hash: 0xef48af8d1e30540fd2...9dbb862a6c
+   TX URL: https://polygonscan.com/tx/0xef48af8d1e30540fd2ca005818c410223e0186730a871e1b56020d9dbb862a6c
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $9,989.95 USD
+📊 Mercado: Will Liz Cheney win the 2028 Democratic presidential nomination?
+🔗 URL: https://polymarket.com/event/democratic-presidential-nominee-2028
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.9940 (99.40%)
+🕐 Hora: 2026-01-27 12:23:35
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 1ethem
+   Wallet: 0xa33f2fffbdbb10da3d66898822a1cf5572d16403
+   Perfil: https://polymarket.com/profile/0xa33f2fffbdbb10da3d66898822a1cf5572d16403
+   TX Hash: 0x3bf8c1bd20c0665834...453d35874c
+   TX URL: https://polygonscan.com/tx/0x3bf8c1bd20c0665834f7c5060ca1cfb43607ac74a21a74d37b5da0453d35874c
+================================================================================
+
+
+================================================================================
+🐋🐋🐋🐋 ULTRA BALLENA DETECTADA 🐋🐋🐋🐋
+================================================================================
+💰 Valor: $20,240.00 USD
+📊 Mercado: Jets vs. Devils
+🔗 URL: https://polymarket.com/event/nhl-wpg-nj-2026-01-27
+🎯 Outcome: Jets
+📈 Lado: COMPRA
+💵 Precio: 0.4600 (46.00%)
+🕐 Hora: 2026-01-27 12:24:51
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: FollowMeABC123
+   Wallet: 0xc257ea7e3a81ca8e16df8935d44d513959fa358e
+   Perfil: https://polymarket.com/profile/0xc257ea7e3a81ca8e16df8935d44d513959fa358e
+   TX Hash: 0xb80e8d98b1534527fe...3f2b576511
+   TX URL: https://polygonscan.com/tx/0xb80e8d98b1534527feedc5877b34c1444e2729c67fe3b9bb3bbc583f2b576511
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $10,880.37 USD
+📊 Mercado: New "Stranger Things" episode released by January 31? 
+🔗 URL: https://polymarket.com/event/new-stranger-things-episode-released-by-wednesday
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.9970 (99.70%)
+🕐 Hora: 2026-01-27 12:27:25
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: davisb12
+   Wallet: 0xdf17f4a8dd01a4cfa6fc3da323a2baee5f8697d1
+   Perfil: https://polymarket.com/profile/0xdf17f4a8dd01a4cfa6fc3da323a2baee5f8697d1
+   TX Hash: 0x0fca49f5193bc8eb71...a2f47de2b7
+   TX URL: https://polygonscan.com/tx/0x0fca49f5193bc8eb71cd2fb753ac3dc9367585b37cb191c85a64f2a2f47de2b7
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $7,162.74 USD
+📊 Mercado: Sabres vs. Maple Leafs
+🔗 URL: https://polymarket.com/event/nhl-buf-tor-2026-01-27
+🎯 Outcome: Maple Leafs
+📈 Lado: COMPRA
+💵 Precio: 0.5200 (52.00%)
+🕐 Hora: 2026-01-27 12:27:03
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: aricha
+   Wallet: 0x5316f16a7ebc5dc9e32130d3d15c5f051a14a095
+   Perfil: https://polymarket.com/profile/0x5316f16a7ebc5dc9e32130d3d15c5f051a14a095
+   TX Hash: 0x397f552223d1cd0c4e...b4c8c2dbd3
+   TX URL: https://polygonscan.com/tx/0x397f552223d1cd0c4e399657f223c23a6b1889cf690238073ae1f3b4c8c2dbd3
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $5,159.52 USD
+📊 Mercado: Kings vs. Red Wings
+🔗 URL: https://polymarket.com/event/nhl-lak-det-2026-01-27
+🎯 Outcome: Kings
+📈 Lado: COMPRA
+💵 Precio: 0.4800 (48.00%)
+🕐 Hora: 2026-01-27 12:28:13
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: FollowMeABC123
+   Wallet: 0xc257ea7e3a81ca8e16df8935d44d513959fa358e
+   Perfil: https://polymarket.com/profile/0xc257ea7e3a81ca8e16df8935d44d513959fa358e
+   TX Hash: 0x43049ee11f3cc4a5ad...9a920acc68
+   TX URL: https://polygonscan.com/tx/0x43049ee11f3cc4a5ad55e83fb43e823c211b7d546c133587f47e089a920acc68
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $6,042.92 USD
+📊 Mercado: Kings vs. Red Wings
+🔗 URL: https://polymarket.com/event/nhl-lak-det-2026-01-27
+🎯 Outcome: Red Wings
+📈 Lado: COMPRA
+💵 Precio: 0.5200 (52.00%)
+🕐 Hora: 2026-01-27 12:29:19
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: jtwyslljy
+   Wallet: 0x9cb990f1862568a63d8601efeebe0304225c32f2
+   Perfil: https://polymarket.com/profile/0x9cb990f1862568a63d8601efeebe0304225c32f2
+   TX Hash: 0xbeaf20344bb8a284ec...1ded66cf14
+   TX URL: https://polygonscan.com/tx/0xbeaf20344bb8a284ecb16251888ffcf985ee20cbb0a46265e4b1531ded66cf14
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $6,625.05 USD
+📊 Mercado: Ethereum Up or Down - January 27, 11AM ET
+🔗 URL: https://polymarket.com/event/ethereum-up-or-down-january-27-11am-et
+🎯 Outcome: Up
+📈 Lado: VENTA
+💵 Precio: 0.9990 (99.90%)
+🕐 Hora: 2026-01-27 12:28:47
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Imorpheus
+   Wallet: 0x93b110ff31deb58847e841b3cbc6535b3e7b746e
+   Perfil: https://polymarket.com/profile/0x93b110ff31deb58847e841b3cbc6535b3e7b746e
+   TX Hash: 0x15d87baf31d42efd90...50bae3ba75
+   TX URL: https://polygonscan.com/tx/0x15d87baf31d42efd90f135496cf0649aef2374f29ba5ee759ad66550bae3ba75
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $17,750.12 USD
+📊 Mercado: Will Ethereum reach $6,000 in January?
+🔗 URL: https://polymarket.com/event/what-price-will-ethereum-hit-in-january-2026
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.9990 (99.90%)
+🕐 Hora: 2026-01-27 12:30:43
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: AhmmedSoyeb
+   Wallet: 0xf01120f5d4837fbab733c64bbd8cb4db1b2e2551
+   Perfil: https://polymarket.com/profile/0xf01120f5d4837fbab733c64bbd8cb4db1b2e2551
+   TX Hash: 0x2a44f6896a1c78e85e...2d016b7d3d
+   TX URL: https://polygonscan.com/tx/0x2a44f6896a1c78e85eb87b1f14cbe3092f6a393d51eac23dfb38e52d016b7d3d
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $17,732.34 USD
+📊 Mercado: Will Ethereum reach $6,000 in January?
+🔗 URL: https://polymarket.com/event/what-price-will-ethereum-hit-in-january-2026
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.9980 (99.80%)
+🕐 Hora: 2026-01-27 12:31:49
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: AhmmedSoyeb
+   Wallet: 0xf01120f5d4837fbab733c64bbd8cb4db1b2e2551
+   Perfil: https://polymarket.com/profile/0xf01120f5d4837fbab733c64bbd8cb4db1b2e2551
+   TX Hash: 0x6a98bee081a3f98631...df28a078f4
+   TX URL: https://polygonscan.com/tx/0x6a98bee081a3f986313e2ed7b9d069324c85c692acdd0369077307df28a078f4
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $5,631.64 USD
+📊 Mercado: Will Trump nominate Rick Rieder as the next Fed chair?
+🔗 URL: https://polymarket.com/event/who-will-trump-nominate-as-fed-chair
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.5245 (52.45%)
+🕐 Hora: 2026-01-27 12:33:43
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: SheepToken
+   Wallet: 0xff72a6a01da59f9a8656e0ad39cdb048d0a4cdaa
+   Perfil: https://polymarket.com/profile/0xff72a6a01da59f9a8656e0ad39cdb048d0a4cdaa
+   TX Hash: 0x92369e380a7f7a5ef6...cd66165680
+   TX URL: https://polygonscan.com/tx/0x92369e380a7f7a5ef64f324ed39233c444248d0f6323730f5cd76fcd66165680
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $5,027.32 USD
+📊 Mercado: Will Egypt win the 2026 FIFA World Cup?
+🔗 URL: https://polymarket.com/event/2026-fifa-world-cup-winner-595
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.9950 (99.50%)
+🕐 Hora: 2026-01-27 12:33:05
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: catherine66
+   Wallet: 0x7d2ff76010034cf60cc1fb5ca57e4b3a8c8c583e
+   Perfil: https://polymarket.com/profile/0x7d2ff76010034cf60cc1fb5ca57e4b3a8c8c583e
+   TX Hash: 0xf7a61deab1a770e453...3b9edd9846
+   TX URL: https://polygonscan.com/tx/0xf7a61deab1a770e453f63624ab52e8f64ec8453726af3ef9dc8e8b3b9edd9846
+================================================================================
+
+
+
+================================================================================
+📊 RESUMEN DE SESIÓN
+================================================================================
+⏱️  Tiempo de monitoreo:     2h 23m 34s
+🐋 Total de ballenas:       142
+💰 Valor promedio:          $24,584.92 USD
+💎 Ballena más grande:      $497,362.62 USD
+   └─ Mercado: No change in Fed interest rates after January 2026...
+   └─ Wallet: 0xed107a85a4585a381e...
+📊 Mercados monitoreados:   66
+
+💾 Archivos guardados:
+   - trades_live/whales_20260127_101606.txt (log formateado)
+   - trades_live/historial_trades.json (historial de trades)
+
+🏆 TOP 5 MERCADOS CON MÁS BALLENAS:
+   1. Fed decreases interest rates by 50+ bps after January 2026 m... (16 ballenas)
+   2. Fed increases interest rates by 25+ bps after January 2026 m... (9 ballenas)
+   3. No change in Fed interest rates after January 2026 meeting?... (8 ballenas)
+   4. Will Manchester United win the 2025–26 English Premier Leagu... (6 ballenas)
+   5. Will Bitcoin reach $105,000 in January?... (6 ballenas)
+
+================================================================================

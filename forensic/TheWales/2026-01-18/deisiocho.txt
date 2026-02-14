@@ -1,0 +1,4581 @@
+================================================================================
+REPORTE INTELIGENCIA V17.0 (V5 ADJUSTED) - 2026-01-18 15:38:24.822309
+Fuente: whales_20260118_110654.txt
+--------------------------------------------------------------------------------
+📊 RESUMEN EJECUTIVO:
+   🐋 TOTAL ANALIZADOS: 95
+   👤 HUMANOS:          85 (Alpha Potencial)
+   🤖 BOTS / MM:        10 (Descartados)
+
+   🏆 DISTRIBUCIÓN POR TIER:
+      💀 HIGH RISK: 38
+      🥈 SILVER: 18
+      ⚠️ RISKY: 9
+      🥉 BRONZE: 9
+      🥇 GOLD: 8
+      📊 STANDARD: 7
+      💎 DIAMOND: 3
+      🤖 BOT/MM: 3
+================================================================================
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: 0x2E9821aF10fnztro1
+🔗 Wallet: 0xe6a3778e5c3f93958534684ed7308b4625622f0d
+🔗 Perfil: https://polymarket.com/profile/0xe6a3778e5c3f93958534684ed7308b4625622f0d
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      40/100 (⚠️ RISKY)
+   ⚠️ ALERTA:     Entidad Algorítmica.
+
+✅ FORTALEZAS
+   ✓ Ganancias bien distribuidas
+   ✓ Opera en 10 categorías
+   ✓ Cuenta con más de 1 año
+
+⚠️ RED FLAGS
+   🤖 POSIBLE BOT/MM (confianza BAJA: 35%)
+   ⚠️ Pérdidas promedio mayores que ganancias
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       9/35
+   • Consistencia:       13/25
+   • Gestión Riesgo:     14/20
+   • Experiencia:        14/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🔴 MUY ALTO (Kamikaze) (Concentración: 94.3%)
+
+📊 ESPECIALIZACIÓN
+   Deportes ⚽           +$201,862.46
+
+💰 FINANZAS
+   🚀 PnL Total:  🟢 $24,773.77 (ROI: 0.76%)
+   📥 Volumen:    $3,345,980.76
+   📊 Trades:     1434
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Will Stade Rennais FC 1901 win on 2026-01-18?..    | $148,089.92
+   Pelicans vs. Rockets..                             | $3,574.18
+   Senators vs. Red Wings..                           | $3,509.20
+   Texans vs. Patriots..                              | $1,849.39
+   Magic vs. Grizzlies..                              | $18.98
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: 432614799197
+🔗 Wallet: 0xdc876e6873772d38716fda7f2452a78d426d7ab6
+🔗 Perfil: https://polymarket.com/profile/0xdc876e6873772d38716fda7f2452a78d426d7ab6
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      69/100 (🥈 SILVER)
+
+✅ FORTALEZAS
+   ✓ ROI muy bueno: 15.7%
+   ✓ Profit Factor positivo: 1.37
+   ✓ Ganancias bien distribuidas
+   ✓ Pérdidas bien controladas
+   ✓ Opera en 8 categorías
+   ✓ Cuenta con más de 1 año
+   ✓ Top 100 global (#28)
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       24/35
+   • Consistencia:       11/25
+   • Gestión Riesgo:     17/20
+   • Experiencia:        17/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🟢 MEDIO (Equilibrado) (Concentración: 33.3%)
+
+📊 ESPECIALIZACIÓN
+   Deportes ⚽           $-3,016,800.44
+
+💰 FINANZAS
+   🚀 PnL Total:  🟢 $139,267.47 (ROI: 1.56%)
+   📥 Volumen:    $8,905,646.27
+   📊 Trades:     10000
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Will Stade Rennais FC 1901 win on 2026-01-18?..    | $1,565,393.10
+   Will Aston Villa FC win on 2026-01-18?..           | $1,095,252.68
+   Spread: Patriots (-3.5)..                          | $587,735.46
+   Spread: Rams (-3.5)..                              | $507,850.40
+   Texans vs. Patriots..                              | $118,210.96
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: gmanas
+🔗 Wallet: 0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2
+🔗 Perfil: https://polymarket.com/profile/0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      60/100 (🥉 BRONZE)
+
+✅ FORTALEZAS
+   ✓ Ganancias bien distribuidas
+   ✓ Pérdidas bien controladas
+   ✓ Opera en 10 categorías
+   ✓ Top 100 global (#10)
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       19/35
+   • Consistencia:       9/25
+   • Gestión Riesgo:     20/20
+   • Experiencia:        12/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🟢 MEDIO (Equilibrado) (Concentración: 32.1%)
+
+📊 ESPECIALIZACIÓN
+   Deportes ⚽           +$15,296,955.13
+   Geopolítica 🌍        $-10,307.94
+
+💰 FINANZAS
+   🚀 PnL Total:  🟢 $13,133,419.59 (ROI: 57.34%)
+   📥 Volumen:    $18,906,680.39
+   📊 Trades:     10000
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Will FC Barcelona win on 2026-01-18?..             | $693,663.85
+   Will Stade Rennais FC 1901 win on 2026-01-18?..    | $594,666.04
+   Penn State Nittany Lions vs. Maryland Terrapins..  | $194,671.97
+   Magic vs. Grizzlies: O/U 228.5..                   | $117,637.92
+   Aston Villa FC vs. Everton FC: O/U 2.5..           | $99,950.00
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: Anjun
+🔗 Wallet: 0x43372356634781eea88d61bbdd7824cdce958882
+🔗 Perfil: https://polymarket.com/profile/0x43372356634781eea88d61bbdd7824cdce958882
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      85/100 (💎 DIAMOND)
+
+✅ FORTALEZAS
+   ✓ ROI excelente: 23.5%
+   ✓ Win Rate alto: 66.2%
+   ✓ Ganancias bien distribuidas
+   ✓ Pérdidas bien controladas
+   ✓ Opera en 10 categorías
+   ✓ Cuenta con más de 1 año
+   ✓ Top 100 global (#76)
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       28/35
+   • Consistencia:       17/25
+   • Gestión Riesgo:     20/20
+   • Experiencia:        20/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🟠 ALTO (Concentrado) (Concentración: 63.8%)
+
+📊 ESPECIALIZACIÓN
+   Economía 📉           +$3,934,087.54
+   Crypto ₿             +$1,402,043.33
+   Pop Culture 🍿        +$216,847.05
+   Otros 🌐              +$99,022.73
+   Geopolítica 🌍        $-20,520.43
+   Ciencia/Tech 🚀       $-31,069.32
+   Deportes ⚽           $-3,451,021.87
+
+💰 FINANZAS
+   🚀 PnL Total:  🟢 $2,389,494.92 (ROI: 20.27%)
+   📥 Volumen:    $11,989,187.94
+   📊 Trades:     10000
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   New "Stranger Things" episode released by Januar.. | $110,568.74
+   LoL: Los Ratones vs Karmine Corp Blue (BO1)..      | $40,659.96
+   Will FC Barcelona win on 2026-01-18?..             | $22,098.98
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: beachboy4
+🔗 Wallet: 0xc2e7800b5af46e6093872b177b7a5e7f0563be51
+🔗 Perfil: https://polymarket.com/profile/0xc2e7800b5af46e6093872b177b7a5e7f0563be51
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      3/100 (🤖 BOT/MM)
+   ⚠️ ALERTA:     Entidad Algorítmica.
+
+✅ FORTALEZAS
+   ✓ Ganancias bien distribuidas
+   ✓ Pérdidas bien controladas
+   ✓ Opera en 10 categorías
+
+⚠️ RED FLAGS
+   🤖 POSIBLE BOT/MM (confianza ALTA: 90%)
+   ⚠️ Profit Factor < 1: 0.83
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       0/35
+   • Consistencia:       9/25
+   • Gestión Riesgo:     16/20
+   • Experiencia:        5/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🟢 MEDIO (Equilibrado) (Concentración: 33.2%)
+
+📊 ESPECIALIZACIÓN
+   Política 🏛️          +$11,805.26
+   Deportes ⚽           $-469,499.85
+
+💰 FINANZAS
+   🚀 PnL Total:  🔴 $-3,795,837.82 (ROI: -7.83%)
+   📥 Volumen:    $48,821,384.08
+   📊 Trades:     2337
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Will Aston Villa FC win on 2026-01-18?..           | $2,040,721.38
+   Will FC Barcelona win on 2026-01-18?..             | $2,023,339.82
+   Will Club Atlético de Madrid win on 2026-01-18?..  | $2,017,445.56
+   Will Newcastle United FC win on 2026-01-18?..      | $43,527.67
+   Will Donald Trump win the 2028 Republican presid.. | $10,336.23
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: Tirdenchi
+🔗 Wallet: 0xad947fcb81100b67a4e43727449b845aa2c585b1
+🔗 Perfil: https://polymarket.com/profile/0xad947fcb81100b67a4e43727449b845aa2c585b1
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      65/100 (🥈 SILVER)
+
+✅ FORTALEZAS
+   ✓ Ganancias bien distribuidas
+   ✓ Pérdidas bien controladas
+   ✓ Opera en 10 categorías
+   ✓ Cuenta con más de 1 año
+
+⚠️ RED FLAGS
+   ⚠️ Win Rate bajo: 39.1%
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       17/35
+   • Consistencia:       11/25
+   • Gestión Riesgo:     19/20
+   • Experiencia:        18/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🔴 MUY ALTO (Kamikaze) (Concentración: 100.0%)
+
+📊 ESPECIALIZACIÓN
+   Otros 🌐              $-747.50
+   Crypto ₿             $-9,189.26
+   Deportes ⚽           $-263,799.13
+
+💰 FINANZAS
+   🚀 PnL Total:  🔴 $-16,647.66 (ROI: -0.96%)
+   📥 Volumen:    $2,939,198.67
+   📊 Trades:     10000
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Will FC Barcelona win on 2026-01-18?..             | $18,675.00
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: circleraybaococoboba
+🔗 Wallet: 0x0d16999d6ba24c2c2c8bff93f91014cc43fad24d
+🔗 Perfil: https://polymarket.com/profile/0x0d16999d6ba24c2c2c8bff93f91014cc43fad24d
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      44/100 (⚠️ RISKY)
+   ⚠️ ALERTA:     Entidad Algorítmica.
+
+✅ FORTALEZAS
+   ✓ Win Rate excepcional: 79.2%
+   ✓ Ganancias bien distribuidas
+   ✓ Pérdidas bien controladas
+   ✓ Opera en 10 categorías
+
+⚠️ RED FLAGS
+   🤖 POSIBLE BOT/MM (confianza BAJA: 35%)
+   ⚠️ Pérdidas promedio mayores que ganancias
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       11/35
+   • Consistencia:       17/25
+   • Gestión Riesgo:     16/20
+   • Experiencia:        10/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🟢 MEDIO (Equilibrado) (Concentración: 47.5%)
+
+📊 ESPECIALIZACIÓN
+   Deportes ⚽           +$3,314,210.17
+   Otros 🌐              +$11,163.50
+   Política 🏛️          $-7,369,013.00
+
+💰 FINANZAS
+   🚀 PnL Total:  🔴 $-4,105,534.89 (ROI: -24.97%)
+   📥 Volumen:    $2,926,533.70
+   📊 Trades:     10000
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Will the Republicans win the 2028 US Presidentia.. | $1,819,000.00
+   Will the Republicans win the 2028 US Presidentia.. | $1,581,000.00
+   Will Arsenal win the 2025–26 English Premier Lea.. | $258,264.04
+   Will Stade Rennais FC 1901 win on 2026-01-18?..    | $68,385.79
+   Will Manchester City win the 2025–26 English Pre.. | $51,695.79
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: 78RepLittleton
+🔗 Wallet: 0x99a56d3fdcdb4d65884bca806c784515983eb3ca
+🔗 Perfil: https://polymarket.com/profile/0x99a56d3fdcdb4d65884bca806c784515983eb3ca
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      11/100 (💀 HIGH RISK)
+
+✅ FORTALEZAS
+   ✓ Opera en 5 categorías
+   ✓ Cuenta con más de 1 año
+
+⚠️ RED FLAGS
+   ⚠️ ROI negativo: -100.0%
+   ⚠️ Profit Factor < 1: 0.00
+   ⚠️ Win Rate bajo: 16.7%
+   ⚠️ Pérdidas promedio mayores que ganancias
+   ⚠️ 61% de pérdidas en 1 trade
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       0/35
+   • Consistencia:       0/25
+   • Gestión Riesgo:     6/20
+   • Experiencia:        5/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🔵 BAJO (Diversificado) (Concentración: 0.0%)
+
+📊 ESPECIALIZACIÓN
+   Geopolítica 🌍        +$0.01
+   Otros 🌐              $-1.17
+   Deportes ⚽           $-1.77
+   Política 🏛️          $-6.62
+   Economía 📉           $-13.55
+
+💰 FINANZAS
+   🚀 PnL Total:  🔴 $-23.10 (ROI: -0.14%)
+   📥 Volumen:    $32,224.19
+   📊 Trades:     134
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   (Sin inventario)
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: allen114
+🔗 Wallet: 0x7cde9cc2fc1ff9556b5167aaaa6fc5b3ce0ab97d
+🔗 Perfil: https://polymarket.com/profile/0x7cde9cc2fc1ff9556b5167aaaa6fc5b3ce0ab97d
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      56/100 (🥉 BRONZE)
+
+✅ FORTALEZAS
+   ✓ ROI excepcional: 50.7%
+   ✓ Profit Factor elite: 3.06
+   ✓ Win Rate excepcional: 93.0%
+   ✓ Opera en 10 categorías
+   ✓ Cuenta con más de 1 año
+
+⚠️ RED FLAGS
+   ⚠️ Pérdidas promedio mayores que ganancias
+   ⚠️ 75% de pérdidas en 1 trade
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       28/35
+   • Consistencia:       16/25
+   • Gestión Riesgo:     7/20
+   • Experiencia:        5/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🟢 MEDIO (Equilibrado) (Concentración: 35.6%)
+
+📊 ESPECIALIZACIÓN
+   Economía 📉           +$349,254.36
+   Crypto ₿             +$67,931.33
+   Ciencia/Tech 🚀       +$60,142.02
+   Geopolítica 🌍        +$3,515.28
+   Otros 🌐              +$853.25
+   Política 🏛️          +$282.58
+   Deportes ⚽           +$260.03
+
+💰 FINANZAS
+   🚀 PnL Total:  🟢 $3,828.47 (ROI: 0.44%)
+   📥 Volumen:    $1,050,975.74
+   📊 Trades:     563
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Fed increases interest rates by 25+ bps after Ja.. | $169,745.00
+   No change in Fed interest rates after January 20.. | $112,095.70
+   Will no Fed rate cuts happen in 2026?..            | $38,871.99
+   Will OpenAI have the best AI model at the end of.. | $29,689.35
+   Will Google have the best AI model at the end of.. | $23,321.80
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: ThewhitewhaleV2
+🔗 Wallet: 0xae0f21790d847393dcc4da8b4d15f72ff84cf647
+🔗 Perfil: https://polymarket.com/profile/0xae0f21790d847393dcc4da8b4d15f72ff84cf647
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      53/100 (📊 STANDARD)
+
+✅ FORTALEZAS
+   ✓ Ganancias bien distribuidas
+   ✓ Pérdidas bien controladas
+   ✓ Opera en 10 categorías
+   ✓ Cuenta con más de 1 año
+
+⚠️ RED FLAGS
+   ⚠️ Pérdidas promedio mayores que ganancias
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       11/35
+   • Consistencia:       11/25
+   • Gestión Riesgo:     16/20
+   • Experiencia:        15/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🔴 MUY ALTO (Kamikaze) (Concentración: 99.1%)
+
+📊 ESPECIALIZACIÓN
+   Deportes ⚽           +$152,736.03
+   Crypto ₿             +$6,697.31
+   Geopolítica 🌍        +$1,379.59
+   Economía 📉           +$819.97
+   Pop Culture 🍿        +$27.90
+   Ciencia/Tech 🚀       $-475.37
+   Otros 🌐              $-8,339.61
+   Política 🏛️          $-622,825.42
+
+💰 FINANZAS
+   🚀 PnL Total:  🔴 $-492,924.12 (ROI: -10.58%)
+   📥 Volumen:    $8,455,615.98
+   📊 Trades:     10000
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Texans vs. Patriots: O/U 41.5..                    | $2,850.00
+   OKC breaks NBA single-season wins record?..        | $19.00
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: 0x8b71010f8D18CccE16a37434778117EE2d6b8044-1735105889785
+🔗 Wallet: 0x8b71010f8d18ccce16a37434778117ee2d6b8044
+🔗 Perfil: https://polymarket.com/profile/0x8b71010f8d18ccce16a37434778117ee2d6b8044
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      48/100 (📊 STANDARD)
+
+✅ FORTALEZAS
+   ✓ Ganancias bien distribuidas
+   ✓ Pérdidas bien controladas
+   ✓ Opera en 10 categorías
+
+⚠️ RED FLAGS
+   ⚠️ Win Rate bajo: 39.1%
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       11/35
+   • Consistencia:       11/25
+   • Gestión Riesgo:     17/20
+   • Experiencia:        9/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🔵 BAJO (Diversificado) (Concentración: 17.1%)
+
+📊 ESPECIALIZACIÓN
+   Deportes ⚽           +$77,291.51
+   Otros 🌐              +$48,600.06
+   Geopolítica 🌍        +$39,597.16
+   Economía 📉           +$10,167.85
+   Política 🏛️          +$6,146.86
+   Crypto ₿             $-1,594.87
+
+💰 FINANZAS
+   🚀 PnL Total:  🟢 $22,744.90 (ROI: 2.69%)
+   📥 Volumen:    $984,950.58
+   📊 Trades:     2009
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Will the Iranian regime fall before 2027?..        | $22,693.02
+   Will Gavin Newsom win the 2028 Democratic presid.. | $19,650.00
+   Will the Democratic Party control the House afte.. | $15,112.50
+   Will Ukraine agree to cede territory to Russia b.. | $13,555.99
+   Will Jannik Sinner win the 2026 Australian Open?.. | $13,129.96
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: 0x492442EaB586F242B53bDa933fD5dE859c8A3782-1766317541188
+🔗 Wallet: 0x492442eab586f242b53bda933fd5de859c8a3782
+🔗 Perfil: https://polymarket.com/profile/0x492442eab586f242b53bda933fd5de859c8a3782
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      4/100 (🤖 BOT/MM)
+   ⚠️ ALERTA:     Entidad Algorítmica.
+
+✅ FORTALEZAS
+   ✓ Ganancias bien distribuidas
+   ✓ Pérdidas bien controladas
+   ✓ Cuenta con más de 1 año
+
+⚠️ RED FLAGS
+   🤖 POSIBLE BOT/MM (confianza ALTA: 90%)
+   ⚠️ ROI negativo: -10.2%
+   ⚠️ Profit Factor < 1: 0.82
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       0/35
+   • Consistencia:       7/25
+   • Gestión Riesgo:     14/20
+   • Experiencia:        10/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🟢 MEDIO (Equilibrado) (Concentración: 25.7%)
+
+📊 ESPECIALIZACIÓN
+   Deportes ⚽           +$14,672,171.00
+
+💰 FINANZAS
+   🚀 PnL Total:  🟢 $12,161,241.01 (ROI: 9.89%)
+   📥 Volumen:    $123,986,781.07
+   📊 Trades:     10000
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Penn State Nittany Lions vs. Maryland Terrapins:.. | $645,501.59
+   Charlotte 49ers vs. East Carolina Pirates: O/U 1.. | $376,038.83
+   Pelicans vs. Rockets: O/U 231.5..                  | $311,410.25
+   Spread: Heat (-6.5)..                              | $291,322.75
+   American Eagles vs. Army Black Knights: O/U 146... | $264,946.27
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: Andromeda1
+🔗 Wallet: 0x39932ca2b7a1b8ab6cbf0b8f7419261b950ccded
+🔗 Perfil: https://polymarket.com/profile/0x39932ca2b7a1b8ab6cbf0b8f7419261b950ccded
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      61/100 (🥉 BRONZE)
+
+✅ FORTALEZAS
+   ✓ Ganancias bien distribuidas
+   ✓ Pérdidas bien controladas
+   ✓ Opera en 10 categorías
+   ✓ Top 500 global (#309)
+
+⚠️ RED FLAGS
+   ⚠️ Pérdidas promedio mayores que ganancias
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       19/35
+   • Consistencia:       11/25
+   • Gestión Riesgo:     17/20
+   • Experiencia:        14/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🟠 ALTO (Concentrado) (Concentración: 67.2%)
+
+📊 ESPECIALIZACIÓN
+   Deportes ⚽           +$140,652.69
+   Otros 🌐              $-36,359.25
+   Geopolítica 🌍        $-97,638.07
+
+💰 FINANZAS
+   🚀 PnL Total:  🟢 $320,261.26 (ROI: 7.31%)
+   📥 Volumen:    $4,406,733.74
+   📊 Trades:     10000
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Will Aston Villa FC win on 2026-01-18?..           | $59,969.97
+   Will FC Barcelona win on 2026-01-18?..             | $29,250.00
+   Will Aston Villa FC win on 2026-01-18?..           | $44.44
+   Will Newcastle United FC win on 2026-01-18?..      | $12.56
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: TheOnlyHuman
+🔗 Wallet: 0x6ade597c0e2b43c0bf3542cada8a5e330d73f5b0
+🔗 Perfil: https://polymarket.com/profile/0x6ade597c0e2b43c0bf3542cada8a5e330d73f5b0
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      62/100 (🥉 BRONZE)
+
+✅ FORTALEZAS
+   ✓ Ganancias bien distribuidas
+   ✓ Pérdidas bien controladas
+   ✓ Opera en 10 categorías
+   ✓ Top 500 global (#287)
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       17/35
+   • Consistencia:       13/25
+   • Gestión Riesgo:     18/20
+   • Experiencia:        14/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🟠 ALTO (Concentrado) (Concentración: 57.5%)
+
+📊 ESPECIALIZACIÓN
+   Deportes ⚽           $-1,196,619.15
+
+💰 FINANZAS
+   🚀 PnL Total:  🔴 $-1,196,662.66 (ROI: -17.57%)
+   📥 Volumen:    $7,000,493.13
+   📊 Trades:     10000
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Magic vs. Grizzlies..                              | $25.00
+   Spread: Magic (-4.5)..                             | $18.50
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: hanlunzhang
+🔗 Wallet: 0xf691f591c22106e1b976d5dd73689f5a5dfbef99
+🔗 Perfil: https://polymarket.com/profile/0xf691f591c22106e1b976d5dd73689f5a5dfbef99
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      34/100 (💀 HIGH RISK)
+
+✅ FORTALEZAS
+   ✓ Win Rate excepcional: 84.3%
+   ✓ Ganancias bien distribuidas
+   ✓ Opera en 10 categorías
+   ✓ Cuenta con más de 1 año
+
+⚠️ RED FLAGS
+   ⚠️ ROI negativo: -19.6%
+   ⚠️ Profit Factor < 1: 0.67
+   ⚠️ Pérdidas promedio mayores que ganancias
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       0/35
+   • Consistencia:       17/25
+   • Gestión Riesgo:     11/20
+   • Experiencia:        6/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🔴 MUY ALTO (Kamikaze) (Concentración: 100.0%)
+
+📊 ESPECIALIZACIÓN
+   Deportes ⚽           +$3,927.18
+   Geopolítica 🌍        +$177.51
+   Economía 📉           +$0.04
+   Crypto ₿             $-67.44
+
+💰 FINANZAS
+   🚀 PnL Total:  🔴 $-8,679.42 (ROI: -1.23%)
+   📥 Volumen:    $1,201,317.41
+   📊 Trades:     743
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Magic vs. Grizzlies..                              | $12,683.43
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: HalCranmer
+🔗 Wallet: 0xc480b20ffa1cf848ff2590da15907ecfa51375e2
+🔗 Perfil: https://polymarket.com/profile/0xc480b20ffa1cf848ff2590da15907ecfa51375e2
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      13/100 (💀 HIGH RISK)
+
+✅ FORTALEZAS
+   ✓ Opera en 6 categorías
+   ✓ Cuenta con más de 1 año
+
+⚠️ RED FLAGS
+   ⚠️ ROI negativo: -98.1%
+   ⚠️ Profit Factor < 1: 0.01
+   ⚠️ Win Rate bajo: 11.1%
+   ⚠️ Pérdidas promedio mayores que ganancias
+   ⚠️ 100% de ganancias en 1 trade
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       0/35
+   • Consistencia:       0/25
+   • Gestión Riesgo:     8/20
+   • Experiencia:        5/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🔵 BAJO (Diversificado) (Concentración: 0.0%)
+
+📊 ESPECIALIZACIÓN
+   Crypto ₿             +$0.62
+   Otros 🌐              $-0.36
+   Economía 📉           $-13.65
+   Deportes ⚽           $-23.79
+   Política 🏛️          $-63.78
+
+💰 FINANZAS
+   🚀 PnL Total:  🔴 $-100.96 (ROI: -0.53%)
+   📥 Volumen:    $37,981.72
+   📊 Trades:     181
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   (Sin inventario)
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: Snow-White
+🔗 Wallet: 0xa81eefec9c08fa157d855f1ac5caf8feab1903dc
+🔗 Perfil: https://polymarket.com/profile/0xa81eefec9c08fa157d855f1ac5caf8feab1903dc
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      65/100 (🥈 SILVER)
+
+✅ FORTALEZAS
+   ✓ ROI muy bueno: 16.8%
+   ✓ Profit Factor positivo: 1.40
+   ✓ Win Rate excepcional: 73.7%
+   ✓ Ganancias bien distribuidas
+   ✓ Opera en 10 categorías
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       20/35
+   • Consistencia:       21/25
+   • Gestión Riesgo:     15/20
+   • Experiencia:        9/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🟢 MEDIO (Equilibrado) (Concentración: 39.1%)
+
+📊 ESPECIALIZACIÓN
+   Deportes ⚽           +$135,870.30
+   Economía 📉           +$2,479.78
+   Ciencia/Tech 🚀       $-323.79
+   Crypto ₿             $-5,367.34
+   Pop Culture 🍿        $-44,728.96
+   Política 🏛️          $-96,753.70
+   Geopolítica 🌍        $-153,479.21
+   Otros 🌐              $-347,113.04
+
+💰 FINANZAS
+   🚀 PnL Total:  🔴 $-606,845.86 (ROI: -17.80%)
+   📥 Volumen:    $4,476,120.76
+   📊 Trades:     10000
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Russia x Ukraine ceasefire by January 31, 2026?..  | $51,273.69
+   Will the U.S. collect between $200b and $500b in.. | $14,674.66
+   Will the U.S. collect less than $100b in revenue.. | $11,116.94
+   Will the Iranian regime fall by January 31?..      | $10,139.34
+   Zelenskyy out as Ukraine president by end of 202.. | $5,127.28
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: MrSparklySimpsons
+🔗 Wallet: 0xd0b4c4c020abdc88ad9a884f999f3d8cff8ffed6
+🔗 Perfil: https://polymarket.com/profile/0xd0b4c4c020abdc88ad9a884f999f3d8cff8ffed6
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      11/100 (💀 HIGH RISK)
+   ⚠️ ALERTA:     Entidad Algorítmica.
+
+✅ FORTALEZAS
+   ✓ Ganancias bien distribuidas
+   ✓ Pérdidas bien controladas
+   ✓ Opera en 10 categorías
+
+⚠️ RED FLAGS
+   🤖 POSIBLE BOT/MM (confianza MEDIA: 70%)
+   ⚠️ Profit Factor < 1: 0.96
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       0/35
+   • Consistencia:       11/25
+   • Gestión Riesgo:     16/20
+   • Experiencia:        5/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🟢 MEDIO (Equilibrado) (Concentración: 23.6%)
+
+📊 ESPECIALIZACIÓN
+   Deportes ⚽           +$2,811,447.27
+
+💰 FINANZAS
+   🚀 PnL Total:  🟢 $4,416,930.30 (ROI: 74.13%)
+   📥 Volumen:    $6,546,152.21
+   📊 Trades:     10000
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Will RC Strasbourg Alsace win on 2026-01-18?..     | $452,212.98
+   Will AS Roma win on 2026-01-18?..                  | $379,553.79
+   Will Bologna FC 1909 win on 2026-01-18?..          | $256,177.20
+   Will RC Celta de Vigo win on 2026-01-18?..         | $255,162.52
+   Burgos CF vs. SD Huesca: O/U 1.5..                 | $130,380.26
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: ruby007
+🔗 Wallet: 0x439b4cac193239c5769ac26e1d0b167e22182c9a
+🔗 Perfil: https://polymarket.com/profile/0x439b4cac193239c5769ac26e1d0b167e22182c9a
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      38/100 (⚠️ RISKY)
+
+✅ FORTALEZAS
+   ✓ Win Rate excepcional: 72.4%
+   ✓ Ganancias bien distribuidas
+   ✓ Pérdidas bien controladas
+   ✓ Opera en 10 categorías
+
+⚠️ RED FLAGS
+   ⚠️ Profit Factor < 1: 0.94
+   ⚠️ Pérdidas promedio mayores que ganancias
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       0/35
+   • Consistencia:       17/25
+   • Gestión Riesgo:     16/20
+   • Experiencia:        5/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🟢 MEDIO (Equilibrado) (Concentración: 24.9%)
+
+📊 ESPECIALIZACIÓN
+   Otros 🌐              +$732,254.60
+   Crypto ₿             $-293.00
+   Deportes ⚽           $-108,744.16
+   Ciencia/Tech 🚀       $-113,738.05
+
+💰 FINANZAS
+   🚀 PnL Total:  🟢 $359,639.49 (ROI: 5.03%)
+   📥 Volumen:    $7,604,056.77
+   📊 Trades:     10000
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Will the Denver Broncos win Super Bowl 2026?..     | $74,036.17
+   Will Shai Gilgeous-Alexander win the 2025–2026 N.. | $44,281.28
+   Will Bournemouth finish in the top 4 of the EPL .. | $40,765.51
+   Will Crystal Palace finish in the top 4 of the E.. | $29,325.61
+   Will the Oklahoma City Thunder win the 2026 NBA .. | $19,898.53
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: TeamRoby
+🔗 Wallet: 0xec92bb4ed52b029ad64bf0447f5e08151984a0dd
+🔗 Perfil: https://polymarket.com/profile/0xec92bb4ed52b029ad64bf0447f5e08151984a0dd
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      11/100 (💀 HIGH RISK)
+
+✅ FORTALEZAS
+   ✓ Opera en 6 categorías
+   ✓ Cuenta con más de 1 año
+
+⚠️ RED FLAGS
+   ⚠️ ROI negativo: -100.0%
+   ⚠️ Profit Factor < 1: 0.00
+   ⚠️ Win Rate bajo: 16.7%
+   ⚠️ Pérdidas promedio mayores que ganancias
+   ⚠️ 64% de pérdidas en 1 trade
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       0/35
+   • Consistencia:       0/25
+   • Gestión Riesgo:     6/20
+   • Experiencia:        5/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🔵 BAJO (Diversificado) (Concentración: 0.0%)
+
+📊 ESPECIALIZACIÓN
+   Crypto ₿             $-0.01
+   Otros 🌐              $-0.55
+   Deportes ⚽           $-0.80
+   Política 🏛️          $-6.84
+   Economía 📉           $-13.56
+
+💰 FINANZAS
+   🚀 PnL Total:  🔴 $-21.75 (ROI: -0.14%)
+   📥 Volumen:    $30,596.48
+   📊 Trades:     126
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   (Sin inventario)
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: NonFungibleJourney
+🔗 Wallet: 0x831f87d0eceffb04ca15370e106bda49bdf27443
+🔗 Perfil: https://polymarket.com/profile/0x831f87d0eceffb04ca15370e106bda49bdf27443
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      52/100 (📊 STANDARD)
+
+✅ FORTALEZAS
+   ✓ ROI excepcional: 47.9%
+   ✓ Profit Factor elite: 2.84
+   ✓ Ganancias 2x mayores que pérdidas
+   ✓ Opera en 10 categorías
+
+⚠️ RED FLAGS
+   ⚠️ 85% de ganancias en 1 trade
+   ⚠️ 52% de pérdidas en 1 trade
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       28/35
+   • Consistencia:       16/25
+   • Gestión Riesgo:     8/20
+   • Experiencia:        0/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🟢 MEDIO (Equilibrado) (Concentración: 39.2%)
+
+📊 ESPECIALIZACIÓN
+   Otros 🌐              +$53,612.64
+   Geopolítica 🌍        +$7,304.13
+   Política 🏛️          +$5,527.52
+   Economía 📉           +$734.98
+   Crypto ₿             +$24.20
+
+💰 FINANZAS
+   🚀 PnL Total:  🟢 $1,708.19 (ROI: 1.70%)
+   📥 Volumen:    $115,812.64
+   📊 Trades:     140
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Will the US acquire part of Greenland in 2026?..   | $25,674.62
+   Will there be another US government shutdown by .. | $25,203.17
+   Trump x Greenland deal signed by March 31?..       | $5,680.29
+   US strikes Iran by January 23, 2026?..             | $4,021.74
+   Han Duck-soo in jail by January 31?..              | $3,210.75
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: Comebackking2026
+🔗 Wallet: 0xb3ae8034418a5a6163a6b1657a1428300e9f3020
+🔗 Perfil: https://polymarket.com/profile/0xb3ae8034418a5a6163a6b1657a1428300e9f3020
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      37/100 (⚠️ RISKY)
+
+✅ FORTALEZAS
+   ✓ Ganancias bien distribuidas
+   ✓ Opera en 7 categorías
+   ✓ Cuenta con más de 1 año
+
+⚠️ RED FLAGS
+   ⚠️ ROI negativo: -11.4%
+   ⚠️ Profit Factor < 1: 0.80
+   ⚠️ Pérdidas promedio mayores que ganancias
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       0/35
+   • Consistencia:       13/25
+   • Gestión Riesgo:     14/20
+   • Experiencia:        10/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🔴 MUY ALTO (Kamikaze) (Concentración: 100.0%)
+
+📊 ESPECIALIZACIÓN
+   Deportes ⚽           $-99,894.36
+
+💰 FINANZAS
+   🚀 PnL Total:  🔴 $-99,916.21 (ROI: -9.59%)
+   📥 Volumen:    $1,675,341.86
+   📊 Trades:     621
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Magic vs. Grizzlies: O/U 231.5..                   | $21.80
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: 8x8jkni8MeAMkhe4L2fg4
+🔗 Wallet: 0xd5b45e52050d2cc64e6b8627cb115ef582d09785
+🔗 Perfil: https://polymarket.com/profile/0xd5b45e52050d2cc64e6b8627cb115ef582d09785
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      48/100 (📊 STANDARD)
+
+✅ FORTALEZAS
+   ✓ Opera en 10 categorías
+   ✓ Cuenta con más de 1 año
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       11/35
+   • Consistencia:       12/25
+   • Gestión Riesgo:     11/20
+   • Experiencia:        14/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🟠 ALTO (Concentrado) (Concentración: 57.8%)
+
+📊 ESPECIALIZACIÓN
+   Deportes ⚽           +$1,135,204.03
+   Otros 🌐              $-43,241.63
+
+💰 FINANZAS
+   🚀 PnL Total:  🟢 $1,091,756.59 (ROI: 41.80%)
+   📥 Volumen:    $4,293,173.65
+   📊 Trades:     10000
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Will AS Roma win on 2026-01-18?..                  | $115.08
+   Will ACF Fiorentina win on 2026-01-18?..           | $65.54
+   Will Bologna FC 1909 win on 2026-01-18?..          | $18.32
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: FatEmperor
+🔗 Wallet: 0xf980aa1981f98cbb04c8158a96a2fedaf0187643
+🔗 Perfil: https://polymarket.com/profile/0xf980aa1981f98cbb04c8158a96a2fedaf0187643
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      11/100 (💀 HIGH RISK)
+
+✅ FORTALEZAS
+   ✓ Opera en 5 categorías
+   ✓ Cuenta con más de 1 año
+
+⚠️ RED FLAGS
+   ⚠️ ROI negativo: -100.0%
+   ⚠️ Profit Factor < 1: 0.00
+   ⚠️ Win Rate bajo: 16.7%
+   ⚠️ Pérdidas promedio mayores que ganancias
+   ⚠️ 70% de pérdidas en 1 trade
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       0/35
+   • Consistencia:       0/25
+   • Gestión Riesgo:     6/20
+   • Experiencia:        5/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     🐇 Day Trader (1 días activos)
+   ⚖️  Riesgo:     🔵 BAJO (Diversificado) (Concentración: 0.0%)
+
+📊 ESPECIALIZACIÓN
+   Geopolítica 🌍        +$0.10
+   Otros 🌐              $-0.42
+   Deportes ⚽           $-0.81
+   Política 🏛️          $-5.04
+   Economía 📉           $-13.55
+
+💰 FINANZAS
+   🚀 PnL Total:  🔴 $-19.72 (ROI: -0.13%)
+   📥 Volumen:    $30,102.80
+   📊 Trades:     92
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   (Sin inventario)
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: DrPufferfish
+🔗 Wallet: 0xdb27bf2ac5d428a9c63dbc914611036855a6c56e
+🔗 Perfil: https://polymarket.com/profile/0xdb27bf2ac5d428a9c63dbc914611036855a6c56e
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      71/100 (🥈 SILVER)
+
+✅ FORTALEZAS
+   ✓ ROI muy bueno: 15.4%
+   ✓ Profit Factor positivo: 1.37
+   ✓ Ganancias bien distribuidas
+   ✓ Pérdidas bien controladas
+   ✓ Opera en 10 categorías
+   ✓ Top 100 global (#16)
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       24/35
+   • Consistencia:       15/25
+   • Gestión Riesgo:     20/20
+   • Experiencia:        12/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🟠 ALTO (Concentrado) (Concentración: 55.0%)
+
+📊 ESPECIALIZACIÓN
+   Otros 🌐              $-12,736.86
+   Deportes ⚽           $-9,337,367.95
+
+💰 FINANZAS
+   🚀 PnL Total:  🔴 $-4,063,834.73 (ROI: -65.77%)
+   📥 Volumen:    $6,643,572.86
+   📊 Trades:     10000
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Magic vs. Grizzlies..                              | $494,705.53
+   Texans vs. Patriots..                              | $350,643.03
+   Will the Boston Celtics win the 2026 NBA Finals?.. | $14,414.57
+   Will the Houston Rockets win the 2026 NBA Finals.. | $14,383.48
+   Will the Cleveland Cavaliers win the 2026 NBA Fi.. | $7,846.72
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: LOOKINGBACK
+🔗 Wallet: 0xc65ca4755436f82d8eb461e65781584b8cadea39
+🔗 Perfil: https://polymarket.com/profile/0xc65ca4755436f82d8eb461e65781584b8cadea39
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      38/100 (⚠️ RISKY)
+   ⚠️ ALERTA:     Entidad Algorítmica.
+
+✅ FORTALEZAS
+   ✓ Ganancias bien distribuidas
+   ✓ Pérdidas bien controladas
+   ✓ Opera en 10 categorías
+   ✓ Cuenta con más de 1 año
+
+⚠️ RED FLAGS
+   🤖 POSIBLE BOT/MM (confianza BAJA: 35%)
+   ⚠️ Pérdidas promedio mayores que ganancias
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       9/35
+   • Consistencia:       11/25
+   • Gestión Riesgo:     16/20
+   • Experiencia:        12/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🟢 MEDIO (Equilibrado) (Concentración: 25.1%)
+
+📊 ESPECIALIZACIÓN
+   Crypto ₿             $-98.64
+   Geopolítica 🌍        $-10,741.29
+   Deportes ⚽           $-377,530.63
+
+💰 FINANZAS
+   🚀 PnL Total:  🔴 $-513,551.50 (ROI: -12.47%)
+   📥 Volumen:    $4,119,352.89
+   📊 Trades:     10000
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   LoL: paiN Gaming vs FURIA Esports (BO1)..          | $31,536.30
+   Magic vs. Grizzlies..                              | $27,562.40
+   American Eagles vs. Army Black Knights: O/U 146... | $27,500.00
+   Lightning vs. Stars..                              | $20,999.99
+   LoL: G2 Esports vs GIANTX (BO1)..                  | $7,525.43
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: TeamCavuto
+🔗 Wallet: 0xe0e25bb9e358fe4a1e42f9d0e14c3ada5979accc
+🔗 Perfil: https://polymarket.com/profile/0xe0e25bb9e358fe4a1e42f9d0e14c3ada5979accc
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      9/100 (💀 HIGH RISK)
+
+✅ FORTALEZAS
+   ✓ Cuenta con más de 1 año
+
+⚠️ RED FLAGS
+   ⚠️ ROI negativo: -100.0%
+   ⚠️ Profit Factor < 1: 0.00
+   ⚠️ Win Rate bajo: 20.0%
+   ⚠️ Pérdidas promedio mayores que ganancias
+   ⚠️ 70% de pérdidas en 1 trade
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       0/35
+   • Consistencia:       0/25
+   • Gestión Riesgo:     4/20
+   • Experiencia:        5/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     🐇 Day Trader (1 días activos)
+   ⚖️  Riesgo:     🔵 BAJO (Diversificado) (Concentración: 0.0%)
+
+📊 ESPECIALIZACIÓN
+   Deportes ⚽           $-1.32
+   Política 🏛️          $-5.04
+   Economía 📉           $-13.57
+
+💰 FINANZAS
+   🚀 PnL Total:  🔴 $-19.93 (ROI: -0.13%)
+   📥 Volumen:    $31,045.91
+   📊 Trades:     92
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   (Sin inventario)
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: joosangyoo
+🔗 Wallet: 0x07b8e44b90cc3e91b8d5fe60ea810d2534638e25
+🔗 Perfil: https://polymarket.com/profile/0x07b8e44b90cc3e91b8d5fe60ea810d2534638e25
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      14/100 (💀 HIGH RISK)
+
+✅ FORTALEZAS
+   ✓ Opera en 5 categorías
+   ✓ Cuenta con más de 1 año
+
+⚠️ RED FLAGS
+   ⚠️ ROI negativo: -100.0%
+   ⚠️ Profit Factor < 1: 0.00
+   ⚠️ Win Rate bajo: 25.0%
+   ⚠️ Pérdidas promedio mayores que ganancias
+   ⚠️ 99% de pérdidas en 1 trade
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       0/35
+   • Consistencia:       0/25
+   • Gestión Riesgo:     6/20
+   • Experiencia:        8/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     🐇 Day Trader (1 días activos)
+   ⚖️  Riesgo:     🟠 ALTO (Concentrado) (Concentración: 78.5%)
+
+📊 ESPECIALIZACIÓN
+   Deportes ⚽           $-114,979.83
+
+💰 FINANZAS
+   🚀 PnL Total:  🔴 $-139,912.77 (ROI: -84.88%)
+   📥 Volumen:    $164,841.79
+   📊 Trades:     86
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Will FC Barcelona win on 2026-01-18?..             | $19,565.38
+   Texans vs. Patriots..                              | $5,159.64
+   Magic vs. Grizzlies..                              | $122.23
+   Will Indiana win the 2026 College Football Natio.. | $81.76
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: JECRepublicans
+🔗 Wallet: 0xb8693a33898a8b53993c9b8ef47799035338875c
+🔗 Perfil: https://polymarket.com/profile/0xb8693a33898a8b53993c9b8ef47799035338875c
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      11/100 (💀 HIGH RISK)
+
+✅ FORTALEZAS
+   ✓ Opera en 6 categorías
+   ✓ Cuenta con más de 1 año
+
+⚠️ RED FLAGS
+   ⚠️ ROI negativo: -100.0%
+   ⚠️ Profit Factor < 1: 0.00
+   ⚠️ Win Rate bajo: 16.7%
+   ⚠️ Pérdidas promedio mayores que ganancias
+   ⚠️ 74% de pérdidas en 1 trade
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       0/35
+   • Consistencia:       0/25
+   • Gestión Riesgo:     6/20
+   • Experiencia:        5/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     🐇 Day Trader (1 días activos)
+   ⚖️  Riesgo:     🔵 BAJO (Diversificado) (Concentración: 0.0%)
+
+📊 ESPECIALIZACIÓN
+   Crypto ₿             +$0.01
+   Otros 🌐              $-0.23
+   Deportes ⚽           $-0.54
+   Política 🏛️          $-4.75
+   Economía 📉           $-13.55
+
+💰 FINANZAS
+   🚀 PnL Total:  🔴 $-19.07 (ROI: -0.12%)
+   📥 Volumen:    $30,888.73
+   📊 Trades:     88
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   (Sin inventario)
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: AlabasterDisaster
+🔗 Wallet: 0xccdb7d6b741aba0873690476fa14b365f403ffa9
+🔗 Perfil: https://polymarket.com/profile/0xccdb7d6b741aba0873690476fa14b365f403ffa9
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      31/100 (💀 HIGH RISK)
+
+✅ FORTALEZAS
+   ✓ Ganancias bien distribuidas
+   ✓ Opera en 10 categorías
+
+⚠️ RED FLAGS
+   ⚠️ Profit Factor < 1: 0.89
+   ⚠️ Pérdidas promedio mayores que ganancias
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       0/35
+   • Consistencia:       13/25
+   • Gestión Riesgo:     14/20
+   • Experiencia:        4/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🟢 MEDIO (Equilibrado) (Concentración: 30.3%)
+
+📊 ESPECIALIZACIÓN
+   Deportes ⚽           +$74,778.25
+   Geopolítica 🌍        +$551.01
+   Ciencia/Tech 🚀       +$2.11
+   Crypto ₿             $-4,000.00
+
+💰 FINANZAS
+   🚀 PnL Total:  🔴 $-27,210.96 (ROI: -4.21%)
+   📥 Volumen:    $739,597.44
+   📊 Trades:     167
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Rams vs. Bears..                                   | $19,846.15
+   Texans vs. Patriots..                              | $8,112.26
+   Magic vs. Grizzlies: O/U 228.5..                   | $7,543.40
+   Magic vs. Grizzlies..                              | $6,814.77
+   Will RC Celta de Vigo win on 2026-01-18?..         | $5,879.41
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: Liquorme3
+🔗 Wallet: 0x44d4c6f385f1b0b738369e5a0b4ae4030e401970
+🔗 Perfil: https://polymarket.com/profile/0x44d4c6f385f1b0b738369e5a0b4ae4030e401970
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      68/100 (🥈 SILVER)
+
+✅ FORTALEZAS
+   ✓ ROI excelente: 21.7%
+   ✓ Ganancias bien distribuidas
+   ✓ Opera en 10 categorías
+   ✓ Cuenta con más de 1 año
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       28/35
+   • Consistencia:       13/25
+   • Gestión Riesgo:     9/20
+   • Experiencia:        18/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🟠 ALTO (Concentrado) (Concentración: 52.8%)
+
+📊 ESPECIALIZACIÓN
+   Deportes ⚽           +$138,278.39
+   Política 🏛️          $-319.20
+   Geopolítica 🌍        $-500.00
+
+💰 FINANZAS
+   🚀 PnL Total:  🟢 $137,434.16 (ROI: 20.66%)
+   📥 Volumen:    $685,210.06
+   📊 Trades:     457
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Magic vs. Grizzlies..                              | $12.94
+   Magic vs. Grizzlies: O/U 230.5..                   | $11.57
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: kkkkkkkkkkk
+🔗 Wallet: 0x66fe8149ec5811c265b882fdade058b81e6ee123
+🔗 Perfil: https://polymarket.com/profile/0x66fe8149ec5811c265b882fdade058b81e6ee123
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      29/100 (💀 HIGH RISK)
+
+✅ FORTALEZAS
+   ✓ Win Rate alto: 63.9%
+   ✓ Ganancias bien distribuidas
+   ✓ Opera en 10 categorías
+   ✓ Cuenta con más de 1 año
+
+⚠️ RED FLAGS
+   ⚠️ ROI negativo: -34.7%
+   ⚠️ Profit Factor < 1: 0.48
+   ⚠️ Pérdidas promedio mayores que ganancias
+   ⚠️ 77% de pérdidas en 1 trade
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       0/35
+   • Consistencia:       15/25
+   • Gestión Riesgo:     6/20
+   • Experiencia:        8/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🟢 MEDIO (Equilibrado) (Concentración: 48.4%)
+
+📊 ESPECIALIZACIÓN
+   Geopolítica 🌍        +$43,689.22
+   Crypto ₿             +$31.99
+   Otros 🌐              +$18.19
+   Ciencia/Tech 🚀       +$12.00
+   Política 🏛️          $-96.00
+   Deportes ⚽           $-758,820.41
+
+💰 FINANZAS
+   🚀 PnL Total:  🔴 $-810,225.61 (ROI: -8.16%)
+   📥 Volumen:    $9,930,239.71
+   📊 Trades:     10000
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Will ACF Fiorentina win on 2026-01-18?..           | $49,975.00
+   Will Aston Villa FC win on 2026-01-18?..           | $33,983.00
+   Will Deportivo Alavés win on 2026-01-18?..         | $15,992.00
+   Penn State Nittany Lions vs. Maryland Terrapins:.. | $2,998.50
+   Texans vs. Patriots..                              | $127.00
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: 0xa9E8FaF20424F3efBF12abaEa0e7069d7546C443-1727183987392
+🔗 Wallet: 0xa9e8faf20424f3efbf12abaea0e7069d7546c443
+🔗 Perfil: https://polymarket.com/profile/0xa9e8faf20424f3efbf12abaea0e7069d7546c443
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      43/100 (⚠️ RISKY)
+
+✅ FORTALEZAS
+   ✓ Win Rate excepcional: 89.6%
+   ✓ Ganancias bien distribuidas
+   ✓ Pérdidas bien controladas
+   ✓ Opera en 10 categorías
+   ✓ Cuenta con más de 1 año
+
+⚠️ RED FLAGS
+   ⚠️ Profit Factor < 1: 0.87
+   ⚠️ Pérdidas promedio mayores que ganancias
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       0/35
+   • Consistencia:       17/25
+   • Gestión Riesgo:     16/20
+   • Experiencia:        10/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🟠 ALTO (Concentrado) (Concentración: 78.7%)
+
+📊 ESPECIALIZACIÓN
+   Geopolítica 🌍        +$345,947.32
+   Otros 🌐              +$12,467.14
+   Deportes ⚽           +$2,878.12
+   Economía 📉           +$184.29
+   Pop Culture 🍿        +$67.35
+   Crypto ₿             $-100,527.30
+
+💰 FINANZAS
+   🚀 PnL Total:  🟢 $136,607.94 (ROI: 3.85%)
+   📥 Volumen:    $5,566,374.93
+   📊 Trades:     10000
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   US strikes Iran by January 18, 2026?..             | $97,025.62
+   Magic vs. Grizzlies..                              | $8,079.72
+   Will Ethereum reach $3,500 January 12-18?..        | $4,877.66
+   Will Feyenoord Rotterdam win on 2026-01-18?..      | $3,902.66
+   Insurrection Act invoked by January 31?..          | $3,678.77
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: primm
+🔗 Wallet: 0xd38b71f3e8ed1af71983e5c309eac3dfa9b35029
+🔗 Perfil: https://polymarket.com/profile/0xd38b71f3e8ed1af71983e5c309eac3dfa9b35029
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      73/100 (🥈 SILVER)
+
+✅ FORTALEZAS
+   ✓ ROI excelente: 21.1%
+   ✓ Ganancias bien distribuidas
+   ✓ Pérdidas bien controladas
+   ✓ Opera en 9 categorías
+   ✓ Top 100 global (#25)
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       28/35
+   • Consistencia:       13/25
+   • Gestión Riesgo:     20/20
+   • Experiencia:        12/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🟠 ALTO (Concentrado) (Concentración: 60.9%)
+
+📊 ESPECIALIZACIÓN
+   Deportes ⚽           +$3,494,468.19
+   Otros 🌐              +$21,142.92
+
+💰 FINANZAS
+   🚀 PnL Total:  🟢 $2,815,373.40 (ROI: 21.15%)
+   📥 Volumen:    $13,309,464.76
+   📊 Trades:     2451
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Spread: Rams (-3.5)..                              | $101,854.63
+   Texans vs. Patriots: O/U 41.5..                    | $65,395.93
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: yyyyyyyyyyyyyyang
+🔗 Wallet: 0x77492c5450b5d36eaaf09ffd042bee59c2065c5b
+🔗 Perfil: https://polymarket.com/profile/0x77492c5450b5d36eaaf09ffd042bee59c2065c5b
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      32/100 (💀 HIGH RISK)
+
+✅ FORTALEZAS
+   ✓ Win Rate excepcional: 82.9%
+   ✓ Opera en 10 categorías
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       8/35
+   • Consistencia:       16/25
+   • Gestión Riesgo:     8/20
+   • Experiencia:        0/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🟢 MEDIO (Equilibrado) (Concentración: 41.2%)
+
+📊 ESPECIALIZACIÓN
+   Crypto ₿             +$44,786.77
+   Otros 🌐              +$9,734.37
+   Economía 📉           +$5,042.14
+   Pop Culture 🍿        +$1,386.34
+   Política 🏛️          +$41.67
+   Deportes ⚽           +$3.00
+   Geopolítica 🌍        $-88.12
+   Ciencia/Tech 🚀       $-6,814.25
+
+💰 FINANZAS
+   🚀 PnL Total:  🟢 $27,696.19 (ROI: 1.17%)
+   📥 Volumen:    $4,328,058.93
+   📊 Trades:     10000
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Will Elon Musk post 440-459 tweets from January .. | $10,871.25
+   Will Elon Musk post 320-339 tweets from January .. | $6,436.43
+   Will Elon Musk post 280-299 tweets from January .. | $3,772.49
+   Will Elon Musk post 180-199 tweets from January .. | $3,435.44
+   Will Elon Musk post 300-319 tweets from January .. | $1,423.88
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: 0x9b35b6c0bA7F4eA9d27F16dCdFd7D4D13E12F5dD-1768756499429
+🔗 Wallet: 0x9b35b6c0ba7f4ea9d27f16dcdfd7d4d13e12f5dd
+🔗 Perfil: https://polymarket.com/profile/0x9b35b6c0ba7f4ea9d27f16dcdfd7d4d13e12f5dd
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      5/100 (💀 HIGH RISK)
+
+✅ FORTALEZAS
+   ✓ Cuenta con más de 1 año
+
+⚠️ RED FLAGS
+   ⚠️ ROI negativo: -100.0%
+   ⚠️ Profit Factor < 1: 0.00
+   ⚠️ Win Rate bajo: 0.0%
+   ⚠️ Pérdidas promedio mayores que ganancias
+   ⚠️ 100% de pérdidas en 1 trade
+   ⚠️ Solo opera en 1 categoría
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       0/35
+   • Consistencia:       0/25
+   • Gestión Riesgo:     0/20
+   • Experiencia:        5/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     🐆 Swing Trader (1 días activos)
+   ⚖️  Riesgo:     🔴 MUY ALTO (Kamikaze) (Concentración: 100.0%)
+
+📊 ESPECIALIZACIÓN
+   Otros 🌐              +$17,649.36
+
+💰 FINANZAS
+   🚀 PnL Total:  🔴 $-2,293.24 (ROI: -10.31%)
+   📥 Volumen:    $22,235.80
+   📊 Trades:     2
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Nothing Ever Happens: MicroStrategy..              | $19,942.56
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: JBPetersonQuote
+🔗 Wallet: 0xd74a03d6c9523977ea4add701e067f9881517caa
+🔗 Perfil: https://polymarket.com/profile/0xd74a03d6c9523977ea4add701e067f9881517caa
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      5/100 (💀 HIGH RISK)
+
+✅ FORTALEZAS
+   ✓ Cuenta con más de 1 año
+
+⚠️ RED FLAGS
+   ⚠️ ROI negativo: -100.0%
+   ⚠️ Profit Factor < 1: 0.00
+   ⚠️ Win Rate bajo: 0.0%
+   ⚠️ Pérdidas promedio mayores que ganancias
+   ⚠️ 67% de pérdidas en 1 trade
+   ⚠️ Solo opera en 1 categoría
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       0/35
+   • Consistencia:       0/25
+   • Gestión Riesgo:     0/20
+   • Experiencia:        5/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🔵 BAJO (Diversificado) (Concentración: 0.0%)
+
+📊 ESPECIALIZACIÓN
+   Otros 🌐              $-0.87
+   Deportes ⚽           $-1.52
+   Política 🏛️          $-4.87
+   Economía 📉           $-13.57
+
+💰 FINANZAS
+   🚀 PnL Total:  🔴 $-20.83 (ROI: -0.13%)
+   📥 Volumen:    $30,986.91
+   📊 Trades:     106
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   (Sin inventario)
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: cometwtf
+🔗 Wallet: 0x1ea31175e1d85cda092e6c298d923b155c093402
+🔗 Perfil: https://polymarket.com/profile/0x1ea31175e1d85cda092e6c298d923b155c093402
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      9/100 (💀 HIGH RISK)
+
+✅ FORTALEZAS
+   ✓ Cuenta con más de 1 año
+
+⚠️ RED FLAGS
+   ⚠️ ROI negativo: -100.0%
+   ⚠️ Profit Factor < 1: 0.00
+   ⚠️ Win Rate bajo: 16.7%
+   ⚠️ Pérdidas promedio mayores que ganancias
+   ⚠️ 64% de pérdidas en 1 trade
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       0/35
+   • Consistencia:       0/25
+   • Gestión Riesgo:     4/20
+   • Experiencia:        5/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🔵 BAJO (Diversificado) (Concentración: 0.0%)
+
+📊 ESPECIALIZACIÓN
+   Otros 🌐              $-0.97
+   Deportes ⚽           $-1.66
+   Política 🏛️          $-5.65
+   Economía 📉           $-13.56
+
+💰 FINANZAS
+   🚀 PnL Total:  🔴 $-21.85 (ROI: -0.14%)
+   📥 Volumen:    $31,863.45
+   📊 Trades:     121
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   (Sin inventario)
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: AlexParkerShort
+🔗 Wallet: 0x4b786ddc5c56d0429094bedd15320def5b464d2f
+🔗 Perfil: https://polymarket.com/profile/0x4b786ddc5c56d0429094bedd15320def5b464d2f
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      84/100 (🥇 GOLD)
+
+✅ FORTALEZAS
+   ✓ ROI excepcional: 44.9%
+   ✓ Profit Factor excelente: 2.63
+   ✓ Win Rate alto: 66.4%
+   ✓ Ganancias 2x mayores que pérdidas
+   ✓ Opera en 10 categorías
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       33/35
+   • Consistencia:       22/25
+   • Gestión Riesgo:     17/20
+   • Experiencia:        12/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🟢 MEDIO (Equilibrado) (Concentración: 27.7%)
+
+📊 ESPECIALIZACIÓN
+   Otros 🌐              +$557,410.93
+   Crypto ₿             +$439,426.72
+   Pop Culture 🍿        +$71,158.11
+   Ciencia/Tech 🚀       +$493.72
+   Economía 📉           $-2,228.30
+   Política 🏛️          $-68,821.62
+   Deportes ⚽           $-116,367.91
+   Geopolítica 🌍        $-178,414.52
+
+💰 FINANZAS
+   🚀 PnL Total:  🟢 $437,876.23 (ROI: 10.14%)
+   📥 Volumen:    $8,761,756.66
+   📊 Trades:     10000
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Will XRP dip to $2.00 January 12-18?..             | $73,368.46
+   Will Bitcoin dip to $75,000 by December 31, 2026.. | $58,515.94
+   Will XRP dip to $1.80 in January?..                | $46,444.17
+   Will Ethereum dip to $2,500 by December 31, 2026.. | $43,243.33
+   Will Bitcoin dip to $85,000 in January?..          | $42,828.12
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: swisstony
+🔗 Wallet: 0x204f72f35326db932158cba6adff0b9a1da95e14
+🔗 Perfil: https://polymarket.com/profile/0x204f72f35326db932158cba6adff0b9a1da95e14
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      71/100 (🥈 SILVER)
+
+✅ FORTALEZAS
+   ✓ ROI sólido: 11.0%
+   ✓ Profit Factor positivo: 1.25
+   ✓ Ganancias bien distribuidas
+   ✓ Pérdidas bien controladas
+   ✓ Opera en 10 categorías
+   ✓ Top 100 global (#17)
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       22/35
+   • Consistencia:       17/25
+   • Gestión Riesgo:     20/20
+   • Experiencia:        12/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🔵 BAJO (Diversificado) (Concentración: 8.0%)
+
+📊 ESPECIALIZACIÓN
+   Crypto ₿             $-23.53
+   Deportes ⚽           $-21,815.79
+
+💰 FINANZAS
+   🚀 PnL Total:  🟢 $749,778.02 (ROI: 44.06%)
+   📥 Volumen:    $1,701,530.40
+   📊 Trades:     10000
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Will Aston Villa FC win on 2026-01-18?..           | $160,708.22
+   Will AS Roma win on 2026-01-18?..                  | $123,450.25
+   Will Stade Rennais FC 1901 win on 2026-01-18?..    | $90,783.83
+   Will Club Atlético de Madrid win on 2026-01-18?..  | $89,043.82
+   Will ACF Fiorentina win on 2026-01-18?..           | $86,711.32
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: RN1
+🔗 Wallet: 0x2005d16a84ceefa912d4e380cd32e7ff827875ea
+🔗 Perfil: https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      83/100 (🥇 GOLD)
+
+✅ FORTALEZAS
+   ✓ ROI excepcional: 30.1%
+   ✓ Ganancias 2x mayores que pérdidas
+   ✓ Ganancias bien distribuidas
+   ✓ Pérdidas bien controladas
+   ✓ Opera en 10 categorías
+   ✓ Top 100 global (#18)
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       30/35
+   • Consistencia:       21/25
+   • Gestión Riesgo:     20/20
+   • Experiencia:        12/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🟢 MEDIO (Equilibrado) (Concentración: 34.6%)
+
+📊 ESPECIALIZACIÓN
+   Geopolítica 🌍        +$231,500.15
+   Otros 🌐              +$111,686.86
+   Deportes ⚽           $-869,930.96
+
+💰 FINANZAS
+   🚀 PnL Total:  🟢 $563,419.10 (ROI: 60.38%)
+   📥 Volumen:    $933,071.28
+   📊 Trades:     10000
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Counter-Strike: EYEBALLERS vs Vitality (BO3) - B.. | $33,232.09
+   Counter-Strike: FUT Esports vs FURIA - Map 2 Win.. | $27,690.68
+   Counter-Strike: FUT Esports vs FURIA (BO3) - BLA.. | $25,264.21
+   AC Milan vs. US Lecce: O/U 4.5..                   | $8,054.39
+   Counter-Strike: FUT Esports vs FURIA - Map 2 Win.. | $1,726.79
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: hersodolphi
+🔗 Wallet: 0x7d3a81f7c2490d7eecb74893e69a36c0b4d8d8b8
+🔗 Perfil: https://polymarket.com/profile/0x7d3a81f7c2490d7eecb74893e69a36c0b4d8d8b8
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      59/100 (🥉 BRONZE)
+
+✅ FORTALEZAS
+   ✓ ROI excepcional: 45.9%
+   ✓ Profit Factor excelente: 2.70
+   ✓ Ganancias 2x mayores que pérdidas
+   ✓ Opera en 10 categorías
+   ✓ Cuenta con más de 1 año
+
+⚠️ RED FLAGS
+   ⚠️ 94% de pérdidas en 1 trade
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       27/35
+   • Consistencia:       18/25
+   • Gestión Riesgo:     7/20
+   • Experiencia:        7/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🟢 MEDIO (Equilibrado) (Concentración: 48.4%)
+
+📊 ESPECIALIZACIÓN
+   Economía 📉           +$44,553.74
+   Geopolítica 🌍        +$44,052.50
+   Deportes ⚽           +$4,532.24
+   Otros 🌐              +$2,856.42
+
+💰 FINANZAS
+   🚀 PnL Total:  🟢 $9,159.35 (ROI: 0.78%)
+   📥 Volumen:    $1,277,190.90
+   📊 Trades:     1469
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   No change in Fed interest rates after January 20.. | $42,013.50
+   US strikes Iran by January 18, 2026?..             | $33,444.15
+   Israel and Syria normalize relations by June 30,.. | $10,564.16
+   Israeli parliament dissolved by March 31?..        | $613.38
+   Will Israel or the US target an Iranian oil or g.. | $183.53
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: Jsram
+🔗 Wallet: 0x83720820a8aa6c3f20ad71850e7a1a17d16c5223
+🔗 Perfil: https://polymarket.com/profile/0x83720820a8aa6c3f20ad71850e7a1a17d16c5223
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      16/100 (💀 HIGH RISK)
+
+✅ FORTALEZAS
+   ✓ Cuenta con más de 1 año
+
+⚠️ RED FLAGS
+   ⚠️ ROI negativo: -51.9%
+   ⚠️ Profit Factor < 1: 0.32
+   ⚠️ Pérdidas promedio mayores que ganancias
+   ⚠️ 100% de ganancias en 1 trade
+   ⚠️ 93% de pérdidas en 1 trade
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       0/35
+   • Consistencia:       4/25
+   • Gestión Riesgo:     4/20
+   • Experiencia:        8/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     🐇 Day Trader (1 días activos)
+   ⚖️  Riesgo:     🔴 MUY ALTO (Kamikaze) (Concentración: 100.0%)
+
+📊 ESPECIALIZACIÓN
+   Deportes ⚽           +$74,562.65
+   Política 🏛️          $-153.40
+
+💰 FINANZAS
+   🚀 PnL Total:  🔴 $-73,932.92 (ROI: -15.56%)
+   📥 Volumen:    $475,116.77
+   📊 Trades:     16
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Spread: Patriots (-3.5)..                          | $148,341.54
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: kch123
+🔗 Wallet: 0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee
+🔗 Perfil: https://polymarket.com/profile/0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      65/100 (🥈 SILVER)
+
+✅ FORTALEZAS
+   ✓ ROI sólido: 10.5%
+   ✓ Profit Factor positivo: 1.23
+   ✓ Ganancias bien distribuidas
+   ✓ Pérdidas bien controladas
+   ✓ Opera en 10 categorías
+   ✓ Top 100 global (#6)
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       22/35
+   • Consistencia:       11/25
+   • Gestión Riesgo:     20/20
+   • Experiencia:        12/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🟢 MEDIO (Equilibrado) (Concentración: 22.6%)
+
+📊 ESPECIALIZACIÓN
+   Deportes ⚽           +$693,091.56
+   Política 🏛️          $-62,103.19
+
+💰 FINANZAS
+   🚀 PnL Total:  🟢 $14,660,471.19 (ROI: 107.56%)
+   📥 Volumen:    $13,629,718.70
+   📊 Trades:     10000
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Rams vs. Bears..                                   | $712,701.23
+   Will FC Barcelona win on 2026-01-18?..             | $702,000.00
+   Will Stade Rennais FC 1901 win on 2026-01-18?..    | $599,700.00
+   Texans vs. Patriots..                              | $507,999.90
+   Will Aston Villa FC win on 2026-01-18?..           | $307,598.37
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: HaileyWelch
+🔗 Wallet: 0x80cd8310aa624521e9e1b2b53b568cafb0ef0273
+🔗 Perfil: https://polymarket.com/profile/0x80cd8310aa624521e9e1b2b53b568cafb0ef0273
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      71/100 (🥈 SILVER)
+
+✅ FORTALEZAS
+   ✓ ROI excelente: 19.7%
+   ✓ Profit Factor positivo: 1.49
+   ✓ Ganancias bien distribuidas
+   ✓ Pérdidas bien controladas
+   ✓ Opera en 10 categorías
+   ✓ Top 100 global (#66)
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       26/35
+   • Consistencia:       15/25
+   • Gestión Riesgo:     18/20
+   • Experiencia:        12/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🔴 MUY ALTO (Kamikaze) (Concentración: 95.7%)
+
+📊 ESPECIALIZACIÓN
+   Deportes ⚽           +$185,535.36
+   Crypto ₿             $-293,133.45
+
+💰 FINANZAS
+   🚀 PnL Total:  🔴 $-302,786.70 (ROI: -18.34%)
+   📥 Volumen:    $1,650,529.76
+   📊 Trades:     10000
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Spread: Rams (-3.5)..                              | $187,390.71
+   Will the price of XRP be between $1.90 and $2.00.. | $3,276.45
+   Will the price of XRP be between $1.90 and $2.00.. | $2,527.70
+   Will the price of Ethereum be between $3,000 and.. | $970.00
+   Will the price of Ethereum be between $3,500 and.. | $755.68
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: OhioACC
+🔗 Wallet: 0x67f82b129ff4ea62c01fbbb962353db2b3faacd0
+🔗 Perfil: https://polymarket.com/profile/0x67f82b129ff4ea62c01fbbb962353db2b3faacd0
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      16/100 (💀 HIGH RISK)
+
+✅ FORTALEZAS
+   ✓ Opera en 6 categorías
+   ✓ Cuenta con más de 1 año
+
+⚠️ RED FLAGS
+   ⚠️ ROI negativo: -92.6%
+   ⚠️ Profit Factor < 1: 0.04
+   ⚠️ Win Rate bajo: 10.0%
+   ⚠️ Pérdidas promedio mayores que ganancias
+   ⚠️ 100% de ganancias en 1 trade
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       0/35
+   • Consistencia:       0/25
+   • Gestión Riesgo:     11/20
+   • Experiencia:        5/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🔵 BAJO (Diversificado) (Concentración: 0.0%)
+
+📊 ESPECIALIZACIÓN
+   Ciencia/Tech 🚀       +$3.49
+   Otros 🌐              $-1.08
+   Economía 📉           $-13.72
+   Deportes ⚽           $-21.59
+   Política 🏛️          $-41.98
+
+💰 FINANZAS
+   🚀 PnL Total:  🔴 $-74.88 (ROI: -0.40%)
+   📥 Volumen:    $37,372.20
+   📊 Trades:     170
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   (Sin inventario)
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: MakerDAO
+🔗 Wallet: 0x9970eddc5cd50f680d969b4ecd473b20d2252d3f
+🔗 Perfil: https://polymarket.com/profile/0x9970eddc5cd50f680d969b4ecd473b20d2252d3f
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      5/100 (💀 HIGH RISK)
+
+✅ FORTALEZAS
+   ✓ Cuenta con más de 1 año
+
+⚠️ RED FLAGS
+   ⚠️ ROI negativo: -100.0%
+   ⚠️ Profit Factor < 1: 0.00
+   ⚠️ Win Rate bajo: 0.0%
+   ⚠️ Pérdidas promedio mayores que ganancias
+   ⚠️ 70% de pérdidas en 1 trade
+   ⚠️ Solo opera en 1 categoría
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       0/35
+   • Consistencia:       0/25
+   • Gestión Riesgo:     0/20
+   • Experiencia:        5/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     🐇 Day Trader (1 días activos)
+   ⚖️  Riesgo:     🔵 BAJO (Diversificado) (Concentración: 0.0%)
+
+📊 ESPECIALIZACIÓN
+   Otros 🌐              $-0.68
+   Deportes ⚽           $-1.32
+   Política 🏛️          $-4.29
+   Economía 📉           $-13.58
+
+💰 FINANZAS
+   🚀 PnL Total:  🔴 $-19.88 (ROI: -0.13%)
+   📥 Volumen:    $31,038.58
+   📊 Trades:     98
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   (Sin inventario)
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: BITCOINTO500K
+🔗 Wallet: 0xcd9bc2939f0dac121f6ccde59cca5e0b6a91414d
+🔗 Perfil: https://polymarket.com/profile/0xcd9bc2939f0dac121f6ccde59cca5e0b6a91414d
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      72/100 (🥈 SILVER)
+
+✅ FORTALEZAS
+   ✓ ROI muy bueno: 13.6%
+   ✓ Profit Factor positivo: 1.31
+   ✓ Ganancias bien distribuidas
+   ✓ Pérdidas bien controladas
+   ✓ Opera en 10 categorías
+   ✓ Top 100 global (#52)
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       24/35
+   • Consistencia:       17/25
+   • Gestión Riesgo:     19/20
+   • Experiencia:        12/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🟠 ALTO (Concentrado) (Concentración: 50.8%)
+
+📊 ESPECIALIZACIÓN
+   Política 🏛️          +$2,388,500.00
+   Deportes ⚽           $-3,612,525.05
+
+💰 FINANZAS
+   🚀 PnL Total:  🔴 $-558,646.88 (ROI: -7.81%)
+   📥 Volumen:    $6,263,288.31
+   📊 Trades:     10000
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Will JD Vance win the 2028 US Presidential Elect.. | $661,500.00
+   Will JD Vance win the 2028 US Presidential Elect.. | $238,500.00
+   Magic vs. Grizzlies..                              | $187,353.69
+   Spread: Magic (-5.5)..                             | $126,148.29
+   Nets vs. Bulls..                                   | $35,279.96
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: bossoskil1
+🔗 Wallet: 0xa5ea13a81d2b7e8e424b182bdc1db08e756bd96a
+🔗 Perfil: https://polymarket.com/profile/0xa5ea13a81d2b7e8e424b182bdc1db08e756bd96a
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      4/100 (🤖 BOT/MM)
+   ⚠️ ALERTA:     Entidad Algorítmica.
+
+✅ FORTALEZAS
+   ✓ Ganancias bien distribuidas
+   ✓ Cuenta con más de 1 año
+
+⚠️ RED FLAGS
+   🤖 POSIBLE BOT/MM (confianza ALTA: 90%)
+   ⚠️ ROI negativo: -23.8%
+   ⚠️ Profit Factor < 1: 0.62
+   ⚠️ Pérdidas promedio mayores que ganancias
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       0/35
+   • Consistencia:       9/25
+   • Gestión Riesgo:     12/20
+   • Experiencia:        10/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🟠 ALTO (Concentrado) (Concentración: 59.9%)
+
+📊 ESPECIALIZACIÓN
+   Geopolítica 🌍        $-36,599.04
+   Deportes ⚽           $-7,451,379.25
+
+💰 FINANZAS
+   🚀 PnL Total:  🔴 $-5,415,944.28 (ROI: -28.82%)
+   📥 Volumen:    $29,259,974.12
+   📊 Trades:     10000
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Spread: Patriots (-3.5)..                          | $256,454.53
+   Texans vs. Patriots..                              | $155,857.38
+   Counter-Strike: FUT Esports vs FURIA (BO3) - BLA.. | $15,571.34
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: one8tyfive
+🔗 Wallet: 0xcf6c5492124794394dd9eac46498a8babbe47e66
+🔗 Perfil: https://polymarket.com/profile/0xcf6c5492124794394dd9eac46498a8babbe47e66
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      47/100 (📊 STANDARD)
+   ⚠️ ALERTA:     Entidad Algorítmica.
+
+✅ FORTALEZAS
+   ✓ Win Rate alto: 65.9%
+   ✓ Ganancias bien distribuidas
+   ✓ Pérdidas bien controladas
+   ✓ Opera en 10 categorías
+   ✓ Cuenta con más de 1 año
+
+⚠️ RED FLAGS
+   🤖 POSIBLE BOT/MM (confianza BAJA: 35%)
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       9/35
+   • Consistencia:       17/25
+   • Gestión Riesgo:     16/20
+   • Experiencia:        15/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🟢 MEDIO (Equilibrado) (Concentración: 48.1%)
+
+📊 ESPECIALIZACIÓN
+   Geopolítica 🌍        +$40,282.67
+   Ciencia/Tech 🚀       +$6,407.98
+   Otros 🌐              $-3,647.81
+   Deportes ⚽           $-593,214.72
+
+💰 FINANZAS
+   🚀 PnL Total:  🟢 $299,102.33 (ROI: 5.53%)
+   📥 Volumen:    $5,479,690.36
+   📊 Trades:     10000
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Magic vs. Grizzlies..                              | $64,865.81
+   Texans vs. Patriots: O/U 41.5..                    | $23,408.00
+   Will Carlos Alcaraz win the 2026 Australian Open.. | $20,128.08
+   Will the Los Angeles Rams win Super Bowl 2026?..   | $15,546.52
+   Blues vs. Oilers..                                 | $11,011.25
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: SemyonMarmeladov
+🔗 Wallet: 0x37e4728b3c4607fb2b3b205386bb1d1fb1a8c991
+🔗 Perfil: https://polymarket.com/profile/0x37e4728b3c4607fb2b3b205386bb1d1fb1a8c991
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      63/100 (🥉 BRONZE)
+
+✅ FORTALEZAS
+   ✓ Ganancias bien distribuidas
+   ✓ Pérdidas bien controladas
+   ✓ Opera en 10 categorías
+   ✓ Cuenta con más de 1 año
+   ✓ Top 100 global (#61)
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       17/35
+   • Consistencia:       11/25
+   • Gestión Riesgo:     18/20
+   • Experiencia:        17/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🟢 MEDIO (Equilibrado) (Concentración: 28.2%)
+
+📊 ESPECIALIZACIÓN
+   Política 🏛️          $-2,360.84
+   Pop Culture 🍿        $-14,644.27
+   Economía 📉           $-30,437.47
+   Otros 🌐              $-34,144.82
+   Geopolítica 🌍        $-357,109.94
+   Deportes ⚽           $-6,140,779.40
+
+💰 FINANZAS
+   🚀 PnL Total:  🔴 $-3,551,900.78 (ROI: -34.98%)
+   📥 Volumen:    $10,153,014.04
+   📊 Trades:     10000
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   American Eagles vs. Army Black Knights: O/U 146... | $149,475.00
+   Will FC Barcelona win on 2026-01-18?..             | $131,625.00
+   Penn State Nittany Lions vs. Maryland Terrapins..  | $99,950.00
+   Spread: South Florida Bulls (-7.5)..               | $73,155.41
+   Lightning vs. Stars..                              | $48,500.00
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: lwalsh
+🔗 Wallet: 0x3fbb4ffc38f9ffde960b29f0080588b3767ff49b
+🔗 Perfil: https://polymarket.com/profile/0x3fbb4ffc38f9ffde960b29f0080588b3767ff49b
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      5/100 (💀 HIGH RISK)
+
+✅ FORTALEZAS
+   ✓ Cuenta con más de 1 año
+
+⚠️ RED FLAGS
+   ⚠️ ROI negativo: -100.0%
+   ⚠️ Profit Factor < 1: 0.00
+   ⚠️ Win Rate bajo: 0.0%
+   ⚠️ Pérdidas promedio mayores que ganancias
+   ⚠️ 64% de pérdidas en 1 trade
+   ⚠️ Solo opera en 1 categoría
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       0/35
+   • Consistencia:       0/25
+   • Gestión Riesgo:     0/20
+   • Experiencia:        5/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🔵 BAJO (Diversificado) (Concentración: 0.0%)
+
+📊 ESPECIALIZACIÓN
+   Deportes ⚽           $-0.76
+   Política 🏛️          $-7.44
+   Economía 📉           $-13.52
+
+💰 FINANZAS
+   🚀 PnL Total:  🔴 $-21.72 (ROI: -0.14%)
+   📥 Volumen:    $31,887.26
+   📊 Trades:     124
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   (Sin inventario)
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: helloiamhere
+🔗 Wallet: 0x926df8dd0519e7408636170f3a02989c4e75635e
+🔗 Perfil: https://polymarket.com/profile/0x926df8dd0519e7408636170f3a02989c4e75635e
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      67/100 (🥈 SILVER)
+
+✅ FORTALEZAS
+   ✓ ROI excepcional: 53.4%
+   ✓ Profit Factor elite: 3.29
+   ✓ Ganancias 2x mayores que pérdidas
+   ✓ Pérdidas bien controladas
+   ✓ Opera en 10 categorías
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       29/35
+   • Consistencia:       14/25
+   • Gestión Riesgo:     20/20
+   • Experiencia:        4/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🟠 ALTO (Concentrado) (Concentración: 51.6%)
+
+📊 ESPECIALIZACIÓN
+   Geopolítica 🌍        +$83,536.34
+   Política 🏛️          +$33,212.91
+   Deportes ⚽           +$9,488.71
+   Otros 🌐              +$5,401.94
+   Crypto ₿             +$1,859.66
+   Ciencia/Tech 🚀       +$31.75
+   Economía 📉           $-61.17
+   Pop Culture 🍿        $-213.60
+
+💰 FINANZAS
+   🚀 PnL Total:  🟢 $15,541.77 (ROI: 2.62%)
+   📥 Volumen:    $887,627.41
+   📊 Trades:     681
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   US strikes Iran by January 23, 2026?..             | $60,378.41
+   Will António José Seguro win the 1st round of th.. | $16,637.10
+   US strikes Iran by January 18, 2026?..             | $14,784.68
+   Will Luís Marques Mendes win the 2026 Portugal p.. | $12,359.89
+   Will Golden (Ejae and Mark Sonnenblick) win Song.. | $8,691.11
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: NegativeIQ
+🔗 Wallet: 0xc2d751e917519cc400e02da6e02339a4bfd2a36d
+🔗 Perfil: https://polymarket.com/profile/0xc2d751e917519cc400e02da6e02339a4bfd2a36d
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      31/100 (💀 HIGH RISK)
+
+✅ FORTALEZAS
+   ✓ Win Rate alto: 68.9%
+   ✓ Ganancias bien distribuidas
+   ✓ Opera en 10 categorías
+
+⚠️ RED FLAGS
+   ⚠️ Pérdidas promedio mayores que ganancias
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       6/35
+   • Consistencia:       15/25
+   • Gestión Riesgo:     8/20
+   • Experiencia:        2/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🔴 MUY ALTO (Kamikaze) (Concentración: 99.8%)
+
+📊 ESPECIALIZACIÓN
+   Crypto ₿             +$3,694.49
+   Otros 🌐              +$702.03
+   Economía 📉           +$20.56
+   Pop Culture 🍿        $-18.00
+   Política 🏛️          $-23.63
+   Deportes ⚽           $-2,696.64
+
+💰 FINANZAS
+   🚀 PnL Total:  🟢 $276.14 (ROI: 0.03%)
+   📥 Volumen:    $1,975,967.83
+   📊 Trades:     2348
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Hornets vs. Nuggets..                              | $1,399.92
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: HouseSmallBiz
+🔗 Wallet: 0xf08f70e60b4f1453dd7662d244b72f796b5bcb82
+🔗 Perfil: https://polymarket.com/profile/0xf08f70e60b4f1453dd7662d244b72f796b5bcb82
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      5/100 (💀 HIGH RISK)
+
+✅ FORTALEZAS
+   ✓ Cuenta con más de 1 año
+
+⚠️ RED FLAGS
+   ⚠️ ROI negativo: -100.0%
+   ⚠️ Profit Factor < 1: 0.00
+   ⚠️ Win Rate bajo: 0.0%
+   ⚠️ Pérdidas promedio mayores que ganancias
+   ⚠️ 70% de pérdidas en 1 trade
+   ⚠️ Solo opera en 1 categoría
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       0/35
+   • Consistencia:       0/25
+   • Gestión Riesgo:     0/20
+   • Experiencia:        5/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     🐇 Day Trader (1 días activos)
+   ⚖️  Riesgo:     🔵 BAJO (Diversificado) (Concentración: 0.0%)
+
+📊 ESPECIALIZACIÓN
+   Otros 🌐              $-0.65
+   Deportes ⚽           $-1.12
+   Política 🏛️          $-4.71
+   Economía 📉           $-13.58
+
+💰 FINANZAS
+   🚀 PnL Total:  🔴 $-20.06 (ROI: -0.13%)
+   📥 Volumen:    $30,681.60
+   📊 Trades:     96
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   (Sin inventario)
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: ka-wa-wa
+🔗 Wallet: 0xcd3a86397374792ea12ace64471470ec525867ca
+🔗 Perfil: https://polymarket.com/profile/0xcd3a86397374792ea12ace64471470ec525867ca
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      44/100 (⚠️ RISKY)
+
+✅ FORTALEZAS
+   ✓ Ganancias bien distribuidas
+   ✓ Pérdidas bien controladas
+   ✓ Opera en 6 categorías
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       9/35
+   • Consistencia:       11/25
+   • Gestión Riesgo:     17/20
+   • Experiencia:        7/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🔴 MUY ALTO (Kamikaze) (Concentración: 87.0%)
+
+📊 ESPECIALIZACIÓN
+   Otros 🌐              $-51.87
+   Deportes ⚽           $-74,977.09
+
+💰 FINANZAS
+   🚀 PnL Total:  🔴 $-79,627.81 (ROI: -12.76%)
+   📥 Volumen:    $1,161,430.45
+   📊 Trades:     4078
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Nets vs. Bulls..                                   | $2,220.79
+   Pelicans vs. Rockets..                             | $321.11
+   Magic vs. Grizzlies..                              | $10.30
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: Obamnna
+🔗 Wallet: 0x3ab5ad27c676c4be1218397912eab5396e6de56f
+🔗 Perfil: https://polymarket.com/profile/0x3ab5ad27c676c4be1218397912eab5396e6de56f
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      63/100 (🥉 BRONZE)
+
+✅ FORTALEZAS
+   ✓ ROI excepcional: 25.3%
+   ✓ Ganancias bien distribuidas
+   ✓ Opera en 10 categorías
+   ✓ Cuenta con más de 1 año
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       26/35
+   • Consistencia:       13/25
+   • Gestión Riesgo:     12/20
+   • Experiencia:        12/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🟠 ALTO (Concentrado) (Concentración: 64.0%)
+
+📊 ESPECIALIZACIÓN
+   Política 🏛️          +$90,663.17
+   Otros 🌐              +$23,554.07
+   Geopolítica 🌍        +$6,727.48
+   Deportes ⚽           +$5,516.64
+   Economía 📉           +$2,338.07
+   Pop Culture 🍿        +$32.12
+   Ciencia/Tech 🚀       $-135.56
+   Crypto ₿             $-15,347.58
+
+💰 FINANZAS
+   🚀 PnL Total:  🟢 $31,068.96 (ROI: 2.94%)
+   📥 Volumen:    $1,976,722.05
+   📊 Trades:     1540
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Will André Ventura win the 2026 Portugal preside.. | $52,214.94
+   Will the Iranian regime fall by January 31?..      | $19,812.27
+   Will US or Israel strike Iran by January 31, 202.. | $5,346.33
+   Will turnout in the first round of the 2026 Port.. | $3,342.61
+   Will André Ventura win between 24% and 26% of vo.. | $234.74
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: Anointed-Connect
+🔗 Wallet: 0x8f037a2e4fd49d11267f4ab874ab7ba745ac64d6
+🔗 Perfil: https://polymarket.com/profile/0x8f037a2e4fd49d11267f4ab874ab7ba745ac64d6
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      11/100 (💀 HIGH RISK)
+   ⚠️ ALERTA:     Entidad Algorítmica.
+
+✅ FORTALEZAS
+   ✓ Ganancias bien distribuidas
+   ✓ Pérdidas bien controladas
+   ✓ Opera en 10 categorías
+
+⚠️ RED FLAGS
+   🤖 POSIBLE BOT/MM (confianza MEDIA: 70%)
+   ⚠️ Profit Factor < 1: 0.99
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       0/35
+   • Consistencia:       11/25
+   • Gestión Riesgo:     16/20
+   • Experiencia:        5/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🔴 MUY ALTO (Kamikaze) (Concentración: 100.0%)
+
+📊 ESPECIALIZACIÓN
+   Otros 🌐              $-25,370.58
+   Deportes ⚽           $-1,937,876.03
+
+💰 FINANZAS
+   🚀 PnL Total:  🟢 $1,082,589.35 (ROI: 10.44%)
+   📥 Volumen:    $10,367,525.87
+   📊 Trades:     10000
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Texans vs. Patriots..                              | $50,000.00
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: surel0ck
+🔗 Wallet: 0x7caf5b10da0bd87b1ccd1d56c71484c43155058b
+🔗 Perfil: https://polymarket.com/profile/0x7caf5b10da0bd87b1ccd1d56c71484c43155058b
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      66/100 (🥈 SILVER)
+
+✅ FORTALEZAS
+   ✓ ROI excelente: 21.7%
+   ✓ Opera en 10 categorías
+   ✓ Cuenta con más de 1 año
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       26/35
+   • Consistencia:       14/25
+   • Gestión Riesgo:     12/20
+   • Experiencia:        14/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🟠 ALTO (Concentrado) (Concentración: 60.8%)
+
+📊 ESPECIALIZACIÓN
+   Deportes ⚽           +$173,210.45
+
+💰 FINANZAS
+   🚀 PnL Total:  🟢 $66,632.38 (ROI: 20.57%)
+   📥 Volumen:    $343,946.30
+   📊 Trades:     799
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Penn State Nittany Lions vs. Maryland Terrapins:.. | $64,767.60
+   Charlotte 49ers vs. East Carolina Pirates: O/U 1.. | $30,002.40
+   Penn State Nittany Lions vs. Maryland Terrapins:.. | $11,802.93
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: moisturizer
+🔗 Wallet: 0x17559efac103ac7f361be37ec0b93888d4c55aac
+🔗 Perfil: https://polymarket.com/profile/0x17559efac103ac7f361be37ec0b93888d4c55aac
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      78/100 (🥇 GOLD)
+
+✅ FORTALEZAS
+   ✓ ROI excepcional: 50.1%
+   ✓ Profit Factor elite: 3.01
+   ✓ Win Rate alto: 66.8%
+   ✓ Ganancias 2x mayores que pérdidas
+   ✓ Opera en 10 categorías
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       31/35
+   • Consistencia:       22/25
+   • Gestión Riesgo:     18/20
+   • Experiencia:        7/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🟠 ALTO (Concentrado) (Concentración: 68.3%)
+
+📊 ESPECIALIZACIÓN
+   Otros 🌐              +$1,342,756.94
+   Ciencia/Tech 🚀       +$153,973.67
+   Economía 📉           +$27,469.92
+   Deportes ⚽           +$24,533.11
+
+💰 FINANZAS
+   🚀 PnL Total:  🟢 $1,505,275.76 (ROI: 324.24%)
+   📥 Volumen:    $464,245.09
+   📊 Trades:     10000
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Texans vs. Patriots: O/U 41.5..                    | $26,986.42
+   Will Opendoor (OPEN) close above $10 end of Janu.. | $2,111.96
+   Will Tesla (TSLA) close above $470 end of Januar.. | $1,972.70
+   Will NVIDIA (NVDA) close above $180 end of Janua.. | $1,951.77
+   Will Tesla (TSLA) close above $430 end of Januar.. | $973.52
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: modenetwork
+🔗 Wallet: 0xc55e66b277ed94719c40b48aac7669ebfea5dd6c
+🔗 Perfil: https://polymarket.com/profile/0xc55e66b277ed94719c40b48aac7669ebfea5dd6c
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      5/100 (💀 HIGH RISK)
+
+✅ FORTALEZAS
+   ✓ Cuenta con más de 1 año
+
+⚠️ RED FLAGS
+   ⚠️ ROI negativo: -100.0%
+   ⚠️ Profit Factor < 1: 0.00
+   ⚠️ Win Rate bajo: 0.0%
+   ⚠️ Pérdidas promedio mayores que ganancias
+   ⚠️ 67% de pérdidas en 1 trade
+   ⚠️ Solo opera en 1 categoría
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       0/35
+   • Consistencia:       0/25
+   • Gestión Riesgo:     0/20
+   • Experiencia:        5/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🔵 BAJO (Diversificado) (Concentración: 0.0%)
+
+📊 ESPECIALIZACIÓN
+   Deportes ⚽           $-0.82
+   Otros 🌐              $-1.33
+   Política 🏛️          $-5.39
+   Economía 📉           $-13.53
+
+💰 FINANZAS
+   🚀 PnL Total:  🔴 $-21.07 (ROI: -0.14%)
+   📥 Volumen:    $30,691.52
+   📊 Trades:     130
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   (Sin inventario)
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: BridgetPhetasy
+🔗 Wallet: 0x33e064474bb6a200374ff6426cca840145b44c84
+🔗 Perfil: https://polymarket.com/profile/0x33e064474bb6a200374ff6426cca840145b44c84
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      11/100 (💀 HIGH RISK)
+
+✅ FORTALEZAS
+   ✓ Opera en 6 categorías
+   ✓ Cuenta con más de 1 año
+
+⚠️ RED FLAGS
+   ⚠️ ROI negativo: -95.7%
+   ⚠️ Profit Factor < 1: 0.00
+   ⚠️ Win Rate bajo: 16.7%
+   ⚠️ Pérdidas promedio mayores que ganancias
+   ⚠️ 61% de pérdidas en 1 trade
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       0/35
+   • Consistencia:       0/25
+   • Gestión Riesgo:     6/20
+   • Experiencia:        5/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🔵 BAJO (Diversificado) (Concentración: 0.0%)
+
+📊 ESPECIALIZACIÓN
+   Crypto ₿             +$0.07
+   Deportes ⚽           $-1.25
+   Otros 🌐              $-1.43
+   Política 🏛️          $-6.29
+   Economía 📉           $-13.57
+
+💰 FINANZAS
+   🚀 PnL Total:  🔴 $-22.47 (ROI: -0.15%)
+   📥 Volumen:    $30,689.85
+   📊 Trades:     123
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   (Sin inventario)
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: TheHog
+🔗 Wallet: 0x8d7630a87299eaa085c26f85da8e5dab153beb01
+🔗 Perfil: https://polymarket.com/profile/0x8d7630a87299eaa085c26f85da8e5dab153beb01
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      29/100 (💀 HIGH RISK)
+
+✅ FORTALEZAS
+   ✓ Opera en 7 categorías
+   ✓ Cuenta con más de 1 año
+
+⚠️ RED FLAGS
+   ⚠️ Win Rate bajo: 25.0%
+   ⚠️ 100% de ganancias en 1 trade
+   ⚠️ 92% de pérdidas en 1 trade
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       10/35
+   • Consistencia:       6/25
+   • Gestión Riesgo:     6/20
+   • Experiencia:        7/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     🐇 Day Trader (1 días activos)
+   ⚖️  Riesgo:     🟠 ALTO (Concentrado) (Concentración: 51.9%)
+
+📊 ESPECIALIZACIÓN
+   Deportes ⚽           +$121,730.04
+   Otros 🌐              +$1,750.01
+   Política 🏛️          +$661.67
+   Geopolítica 🌍        +$439.03
+   Economía 📉           +$150.21
+
+💰 FINANZAS
+   🚀 PnL Total:  🟢 $2,471.86 (ROI: 1.23%)
+   📥 Volumen:    $285,450.65
+   📊 Trades:     13
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Rams vs. Bears..                                   | $61,523.08
+   Will the New England Patriots win Super Bowl 202.. | $23,121.88
+   Texans vs. Patriots..                              | $19,108.33
+   Will the Chicago Bears win Super Bowl 2026?..      | $11,329.47
+   Will the US acquire part of Greenland in 2026?..   | $1,875.00
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: VPenguin
+🔗 Wallet: 0xfbf3d501e88815464642d0e913f15379c3eeb218
+🔗 Perfil: https://polymarket.com/profile/0xfbf3d501e88815464642d0e913f15379c3eeb218
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      73/100 (🥈 SILVER)
+
+✅ FORTALEZAS
+   ✓ ROI sólido: 11.6%
+   ✓ Profit Factor positivo: 1.26
+   ✓ Ganancias bien distribuidas
+   ✓ Pérdidas bien controladas
+   ✓ Opera en 10 categorías
+   ✓ Cuenta con más de 1 año
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       22/35
+   • Consistencia:       15/25
+   • Gestión Riesgo:     18/20
+   • Experiencia:        18/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🔴 MUY ALTO (Kamikaze) (Concentración: 91.2%)
+
+📊 ESPECIALIZACIÓN
+   Deportes ⚽           +$180,734.53
+   Geopolítica 🌍        +$92.10
+
+💰 FINANZAS
+   🚀 PnL Total:  🟢 $161,061.01 (ROI: 4.46%)
+   📥 Volumen:    $7,086,978.43
+   📊 Trades:     10000
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Will AC Milan win on 2026-01-18?..                 | $18,016.27
+   Lightning vs. Stars..                              | $1,749.13
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: SabretoothSG
+🔗 Wallet: 0xbd444257d80ee3ed99b412724ceab2c241c555f0
+🔗 Perfil: https://polymarket.com/profile/0xbd444257d80ee3ed99b412724ceab2c241c555f0
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      11/100 (💀 HIGH RISK)
+
+✅ FORTALEZAS
+   ✓ Opera en 6 categorías
+   ✓ Cuenta con más de 1 año
+
+⚠️ RED FLAGS
+   ⚠️ ROI negativo: -100.0%
+   ⚠️ Profit Factor < 1: 0.00
+   ⚠️ Win Rate bajo: 16.7%
+   ⚠️ Pérdidas promedio mayores que ganancias
+   ⚠️ 67% de pérdidas en 1 trade
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       0/35
+   • Consistencia:       0/25
+   • Gestión Riesgo:     6/20
+   • Experiencia:        5/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     🐇 Day Trader (1 días activos)
+   ⚖️  Riesgo:     🔵 BAJO (Diversificado) (Concentración: 0.0%)
+
+📊 ESPECIALIZACIÓN
+   Crypto ₿             +$0.07
+   Otros 🌐              $-1.33
+   Deportes ⚽           $-1.44
+   Política 🏛️          $-4.70
+   Economía 📉           $-13.54
+
+💰 FINANZAS
+   🚀 PnL Total:  🔴 $-20.94 (ROI: -0.14%)
+   📥 Volumen:    $29,668.64
+   📊 Trades:     96
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   (Sin inventario)
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: 0x163EfF4d251dF4BFC95C49f4D90Cd1bF224eDC5B-1768366778047
+🔗 Wallet: 0x163eff4d251df4bfc95c49f4d90cd1bf224edc5b
+🔗 Perfil: https://polymarket.com/profile/0x163eff4d251df4bfc95c49f4d90cd1bf224edc5b
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      37/100 (⚠️ RISKY)
+
+✅ FORTALEZAS
+   ✓ Opera en 6 categorías
+   ✓ Cuenta con más de 1 año
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       8/35
+   • Consistencia:       8/25
+   • Gestión Riesgo:     11/20
+   • Experiencia:        10/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     🐇 Day Trader (1 días activos)
+   ⚖️  Riesgo:     🔴 MUY ALTO (Kamikaze) (Concentración: 85.0%)
+
+📊 ESPECIALIZACIÓN
+   Deportes ⚽           +$37,330.56
+
+💰 FINANZAS
+   🚀 PnL Total:  🟢 $5,564.07 (ROI: 3.20%)
+   📥 Volumen:    $214,226.22
+   📊 Trades:     30
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Spread: South Florida Bulls (-7.5)..               | $26,992.78
+   Charlotte 49ers vs. East Carolina Pirates: O/U 1.. | $4,773.58
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: OhioBrian
+🔗 Wallet: 0xe8f772aa4238fbda851139682945d112412ecd1b
+🔗 Perfil: https://polymarket.com/profile/0xe8f772aa4238fbda851139682945d112412ecd1b
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      11/100 (💀 HIGH RISK)
+
+✅ FORTALEZAS
+   ✓ Opera en 5 categorías
+   ✓ Cuenta con más de 1 año
+
+⚠️ RED FLAGS
+   ⚠️ ROI negativo: -100.0%
+   ⚠️ Profit Factor < 1: 0.00
+   ⚠️ Win Rate bajo: 16.7%
+   ⚠️ Pérdidas promedio mayores que ganancias
+   ⚠️ 64% de pérdidas en 1 trade
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       0/35
+   • Consistencia:       0/25
+   • Gestión Riesgo:     6/20
+   • Experiencia:        5/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🔵 BAJO (Diversificado) (Concentración: 0.0%)
+
+📊 ESPECIALIZACIÓN
+   Geopolítica 🌍        +$0.16
+   Otros 🌐              $-0.77
+   Deportes ⚽           $-1.61
+   Política 🏛️          $-6.19
+   Economía 📉           $-13.58
+
+💰 FINANZAS
+   🚀 PnL Total:  🔴 $-21.99 (ROI: -0.15%)
+   📥 Volumen:    $29,852.67
+   📊 Trades:     108
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   (Sin inventario)
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: gmpm
+🔗 Wallet: 0x14964aefa2cd7caff7878b3820a690a03c5aa429
+🔗 Perfil: https://polymarket.com/profile/0x14964aefa2cd7caff7878b3820a690a03c5aa429
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      67/100 (🥈 SILVER)
+
+✅ FORTALEZAS
+   ✓ ROI muy bueno: 15.9%
+   ✓ Profit Factor positivo: 1.38
+   ✓ Ganancias bien distribuidas
+   ✓ Pérdidas bien controladas
+   ✓ Opera en 10 categorías
+   ✓ Top 100 global (#23)
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       24/35
+   • Consistencia:       13/25
+   • Gestión Riesgo:     18/20
+   • Experiencia:        12/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🟢 MEDIO (Equilibrado) (Concentración: 35.5%)
+
+📊 ESPECIALIZACIÓN
+   Deportes ⚽           +$147,983.07
+
+💰 FINANZAS
+   🚀 PnL Total:  🔴 $-71,118.37 (ROI: -2.68%)
+   📥 Volumen:    $2,711,692.45
+   📊 Trades:     10000
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Spread: Patriots (-3.5)..                          | $135,210.58
+   Texans vs. Patriots..                              | $104,989.12
+   Spread: Indiana (-7.5)..                           | $92,742.72
+   Spread: Indiana (-7.5)..                           | $19,822.67
+   Blues vs. Oilers..                                 | $13,799.97
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: norrisfan
+🔗 Wallet: 0xe72bb501df5306c75c89383d48a1e81073fbb0a0
+🔗 Perfil: https://polymarket.com/profile/0xe72bb501df5306c75c89383d48a1e81073fbb0a0
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      84/100 (🥇 GOLD)
+
+✅ FORTALEZAS
+   ✓ ROI excepcional: 25.8%
+   ✓ Win Rate alto: 67.8%
+   ✓ Ganancias bien distribuidas
+   ✓ Pérdidas bien controladas
+   ✓ Opera en 10 categorías
+   ✓ Cuenta con más de 1 año
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       30/35
+   • Consistencia:       19/25
+   • Gestión Riesgo:     18/20
+   • Experiencia:        17/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🟠 ALTO (Concentrado) (Concentración: 50.6%)
+
+📊 ESPECIALIZACIÓN
+   Deportes ⚽           +$137,307.62
+   Otros 🌐              +$12,733.05
+   Crypto ₿             +$2,532.93
+   Geopolítica 🌍        +$480.00
+   Política 🏛️          +$10.33
+
+💰 FINANZAS
+   🚀 PnL Total:  🟢 $127,218.89 (ROI: 23.05%)
+   📥 Volumen:    $731,982.51
+   📊 Trades:     2130
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Lightning vs. Stars..                              | $13,213.20
+   Will Michael Carrick be appointed as manager of .. | $4,990.67
+   Will Stellan Skarsgård win Best Supporting Actor.. | $1,593.17
+   Will Ole Gunnar Solskjær be appointed as manager.. | $1,341.28
+   Will Max Verstappen be the 2026 F1 Drivers' Cham.. | $1,155.91
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: 0x1D8A377C5020f612cE63a0a151970DF64BAAE842-1761442049319
+🔗 Wallet: 0x1d8a377c5020f612ce63a0a151970df64baae842
+🔗 Perfil: https://polymarket.com/profile/0x1d8a377c5020f612ce63a0a151970df64baae842
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      65/100 (🥈 SILVER)
+
+✅ FORTALEZAS
+   ✓ ROI excelente: 20.8%
+   ✓ Win Rate alto: 65.9%
+   ✓ Opera en 10 categorías
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       26/35
+   • Consistencia:       18/25
+   • Gestión Riesgo:     12/20
+   • Experiencia:        9/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🟠 ALTO (Concentrado) (Concentración: 75.4%)
+
+📊 ESPECIALIZACIÓN
+   Deportes ⚽           +$62,539.75
+   Otros 🌐              +$8.89
+
+💰 FINANZAS
+   🚀 PnL Total:  🟢 $76,992.38 (ROI: 18.18%)
+   📥 Volumen:    $425,009.63
+   📊 Trades:     201
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Spread: Patriots (-3.5)..                          | $25,744.68
+   Spread: Patriots (-3.5)..                          | $8,421.70
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: fixedgame
+🔗 Wallet: 0x30a4ae43ce2a8c55fc911b6615fb429a52898441
+🔗 Perfil: https://polymarket.com/profile/0x30a4ae43ce2a8c55fc911b6615fb429a52898441
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      75/100 (🥇 GOLD)
+
+✅ FORTALEZAS
+   ✓ ROI excelente: 19.6%
+   ✓ Profit Factor positivo: 1.49
+   ✓ Ganancias bien distribuidas
+   ✓ Pérdidas bien controladas
+   ✓ Opera en 10 categorías
+   ✓ Cuenta con más de 1 año
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       24/35
+   • Consistencia:       17/25
+   • Gestión Riesgo:     20/20
+   • Experiencia:        14/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🟢 MEDIO (Equilibrado) (Concentración: 27.6%)
+
+📊 ESPECIALIZACIÓN
+   Deportes ⚽           +$121,294.93
+   Otros 🌐              +$1,256.15
+
+💰 FINANZAS
+   🚀 PnL Total:  🟢 $65,944.43 (ROI: 14.60%)
+   📥 Volumen:    $555,535.43
+   📊 Trades:     2682
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   American Eagles vs. Army Black Knights: O/U 146... | $13,865.25
+   Rams vs. Bears..                                   | $6,450.00
+   Penn State Nittany Lions vs. Maryland Terrapins..  | $5,997.00
+   UFC 324: Gaethje vs. Pimblett (Lightweight, Main.. | $3,851.74
+   Texans vs. Patriots: O/U 41.5..                    | $2,549.98
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: gamblingdebt
+🔗 Wallet: 0xc8b438e4a1c10643ea0ea3e59bcaadc73174f05d
+🔗 Perfil: https://polymarket.com/profile/0xc8b438e4a1c10643ea0ea3e59bcaadc73174f05d
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      64/100 (🥉 BRONZE)
+
+✅ FORTALEZAS
+   ✓ Ganancias bien distribuidas
+   ✓ Pérdidas bien controladas
+   ✓ Opera en 10 categorías
+   ✓ Top 500 global (#109)
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       17/35
+   • Consistencia:       13/25
+   • Gestión Riesgo:     20/20
+   • Experiencia:        14/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🔵 BAJO (Diversificado) (Concentración: 9.9%)
+
+📊 ESPECIALIZACIÓN
+   Deportes ⚽           +$2,103,821.41
+   Geopolítica 🌍        +$1,762.56
+
+💰 FINANZAS
+   🚀 PnL Total:  🟢 $1,601,612.74 (ROI: 47.34%)
+   📥 Volumen:    $3,727,563.66
+   📊 Trades:     10000
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Will AS Roma win on 2026-01-18?..                  | $49,974.97
+   Will Morocco win on 2026-01-18?..                  | $45,599.63
+   Texans vs. Patriots: O/U 41.5..                    | $33,135.85
+   Will RC Celta de Vigo win on 2026-01-18?..         | $32,611.02
+   Raptors vs. Lakers..                               | $25,277.03
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: kcnyekchno
+🔗 Wallet: 0x7177a7f5c216809c577c50c77b12aae81f81ddef
+🔗 Perfil: https://polymarket.com/profile/0x7177a7f5c216809c577c50c77b12aae81f81ddef
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      89/100 (💎 DIAMOND)
+
+✅ FORTALEZAS
+   ✓ ROI excepcional: 70.9%
+   ✓ Profit Factor elite: 5.86
+   ✓ Win Rate excepcional: 75.0%
+   ✓ Ganancias 2x mayores que pérdidas
+   ✓ Ganancias bien distribuidas
+   ✓ Opera en 10 categorías
+   ✓ Top 500 global (#112)
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       35/35
+   • Consistencia:       25/25
+   • Gestión Riesgo:     15/20
+   • Experiencia:        14/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🟠 ALTO (Concentrado) (Concentración: 69.4%)
+
+📊 ESPECIALIZACIÓN
+   Política 🏛️          +$18,875,754.77
+   Geopolítica 🌍        +$193,893.93
+   Ciencia/Tech 🚀       +$23,834.84
+   Pop Culture 🍿        +$17,295.11
+   Economía 📉           +$7,643.62
+   Otros 🌐              $-26,091.86
+   Deportes ⚽           $-957,129.83
+
+💰 FINANZAS
+   🚀 PnL Total:  🟢 $17,632,254.02 (ROI: 408.16%)
+   📥 Volumen:    $6,750,671.91
+   📊 Trades:     10000
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Will André Ventura win the 2026 Portugal preside.. | $365,305.61
+   Khamenei out as Supreme Leader of Iran by Januar.. | $69,374.51
+   Will Trump acquire Greenland before 2027?..        | $43,724.63
+   Will the Iranian regime fall by January 31?..      | $22,544.25
+   Will Janet Mills be the Democratic nominee for S.. | $9,450.00
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: GamblingRuinsLives
+🔗 Wallet: 0xe522e8543f77c441c1b83f3dbb59e660972e2ad8
+🔗 Perfil: https://polymarket.com/profile/0xe522e8543f77c441c1b83f3dbb59e660972e2ad8
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      5/100 (💀 HIGH RISK)
+
+✅ FORTALEZAS
+   ✓ Cuenta con más de 1 año
+
+⚠️ RED FLAGS
+   ⚠️ ROI negativo: -100.0%
+   ⚠️ Profit Factor < 1: 0.00
+   ⚠️ Win Rate bajo: 0.0%
+   ⚠️ Pérdidas promedio mayores que ganancias
+   ⚠️ 100% de pérdidas en 1 trade
+   ⚠️ Solo opera en 1 categoría
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       0/35
+   • Consistencia:       0/25
+   • Gestión Riesgo:     0/20
+   • Experiencia:        5/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     🐆 Swing Trader (1 días activos)
+   ⚖️  Riesgo:     🔴 MUY ALTO (Kamikaze) (Concentración: 100.0%)
+
+📊 ESPECIALIZACIÓN
+   Política 🏛️          +$51,107.78
+
+💰 FINANZAS
+   🚀 PnL Total:  🔴 $-1,277.69 (ROI: -2.38%)
+   📥 Volumen:    $53,663.17
+   📊 Trades:     7
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Will Trump acquire Greenland before 2027?..        | $52,385.47
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: tsybka
+🔗 Wallet: 0xd5ccdf772f795547e299de57f47966e24de8dea4
+🔗 Perfil: https://polymarket.com/profile/0xd5ccdf772f795547e299de57f47966e24de8dea4
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      92/100 (💎 DIAMOND)
+
+✅ FORTALEZAS
+   ✓ ROI excepcional: 62.1%
+   ✓ Profit Factor elite: 4.28
+   ✓ Win Rate excepcional: 85.1%
+   ✓ Ganancias 2x mayores que pérdidas
+   ✓ Ganancias bien distribuidas
+   ✓ Opera en 10 categorías
+   ✓ Cuenta con más de 1 año
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       35/35
+   • Consistencia:       25/25
+   • Gestión Riesgo:     15/20
+   • Experiencia:        17/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🟠 ALTO (Concentrado) (Concentración: 51.8%)
+
+📊 ESPECIALIZACIÓN
+   Otros 🌐              +$501,825.89
+   Crypto ₿             +$367,129.01
+   Geopolítica 🌍        +$125,150.95
+   Deportes ⚽           +$10,680.11
+   Economía 📉           +$500.00
+   Ciencia/Tech 🚀       +$226.69
+   Política 🏛️          $-150,681.79
+
+💰 FINANZAS
+   🚀 PnL Total:  🟢 $612,534.24 (ROI: 5.83%)
+   📥 Volumen:    $17,636,066.33
+   📊 Trades:     10000
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Will Trump acquire Greenland before 2027?..        | $125,093.43
+   Khamenei out as Supreme Leader of Iran by Januar.. | $116,235.43
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: TimRunsHisMouth
+🔗 Wallet: 0xaf3a4d613dd757cc8e5dbd44f9e6b97d0a35082f
+🔗 Perfil: https://polymarket.com/profile/0xaf3a4d613dd757cc8e5dbd44f9e6b97d0a35082f
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      9/100 (💀 HIGH RISK)
+
+✅ FORTALEZAS
+   ✓ Cuenta con más de 1 año
+
+⚠️ RED FLAGS
+   ⚠️ ROI negativo: -100.0%
+   ⚠️ Profit Factor < 1: 0.00
+   ⚠️ Win Rate bajo: 16.7%
+   ⚠️ Pérdidas promedio mayores que ganancias
+   ⚠️ 64% de pérdidas en 1 trade
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       0/35
+   • Consistencia:       0/25
+   • Gestión Riesgo:     4/20
+   • Experiencia:        5/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🔵 BAJO (Diversificado) (Concentración: 0.0%)
+
+📊 ESPECIALIZACIÓN
+   Deportes ⚽           $-0.91
+   Otros 🌐              $-1.01
+   Política 🏛️          $-6.29
+   Economía 📉           $-13.59
+
+💰 FINANZAS
+   🚀 PnL Total:  🔴 $-21.79 (ROI: -0.14%)
+   📥 Volumen:    $31,338.98
+   📊 Trades:     109
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   (Sin inventario)
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: jocpolitic
+🔗 Wallet: 0xdc03d611e5bcc9f1c87edb95edeb91671471804c
+🔗 Perfil: https://polymarket.com/profile/0xdc03d611e5bcc9f1c87edb95edeb91671471804c
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      49/100 (📊 STANDARD)
+
+✅ FORTALEZAS
+   ✓ ROI sólido: 11.4%
+   ✓ Profit Factor positivo: 1.26
+   ✓ Ganancias 2x mayores que pérdidas
+   ✓ Opera en 10 categorías
+   ✓ Cuenta con más de 1 año
+
+⚠️ RED FLAGS
+   ⚠️ 55% de ganancias en 1 trade
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       16/35
+   • Consistencia:       14/25
+   • Gestión Riesgo:     11/20
+   • Experiencia:        8/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🟠 ALTO (Concentrado) (Concentración: 64.4%)
+
+📊 ESPECIALIZACIÓN
+   Política 🏛️          +$192,334.89
+   Deportes ⚽           +$27,156.68
+   Pop Culture 🍿        +$733.25
+   Crypto ₿             $-602.87
+   Economía 📉           $-7,586.85
+   Otros 🌐              $-10,236.12
+
+💰 FINANZAS
+   🚀 PnL Total:  🟢 $8,146.43 (ROI: 1.62%)
+   📥 Volumen:    $676,308.93
+   📊 Trades:     1350
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Will André Ventura win the 2026 Portugal preside.. | $140,133.65
+   Will the U.S. invade Venezuela by January 31, 20.. | $17,481.29
+   Will Luís Marques Mendes win the 2026 Portugal p.. | $17,172.03
+   Will John Cornyn win the 2026 Texas Republican P.. | $10,140.37
+   Will María Corina Machado enter Venezuela by Jan.. | $9,195.51
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: kahe
+🔗 Wallet: 0x88d17ad6bf91ca0935f6e70b37ebe3db92b618da
+🔗 Perfil: https://polymarket.com/profile/0x88d17ad6bf91ca0935f6e70b37ebe3db92b618da
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      35/100 (⚠️ RISKY)
+
+✅ FORTALEZAS
+   ✓ Ganancias bien distribuidas
+   ✓ Pérdidas bien controladas
+   ✓ Opera en 6 categorías
+   ✓ Cuenta con más de 1 año
+
+⚠️ RED FLAGS
+   ⚠️ ROI negativo: -24.0%
+   ⚠️ Profit Factor < 1: 0.61
+   ⚠️ Pérdidas promedio mayores que ganancias
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       0/35
+   • Consistencia:       11/25
+   • Gestión Riesgo:     16/20
+   • Experiencia:        8/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🔴 MUY ALTO (Kamikaze) (Concentración: 100.0%)
+
+📊 ESPECIALIZACIÓN
+   Geopolítica 🌍        +$812.84
+   Deportes ⚽           $-31,289.21
+
+💰 FINANZAS
+   🚀 PnL Total:  🔴 $-40,232.73 (ROI: -11.47%)
+   📥 Volumen:    $493,176.90
+   📊 Trades:     163
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Counter-Strike: FUT Esports vs FURIA (BO3) - BLA.. | $9,756.34
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: Kidpoker007
+🔗 Wallet: 0xf397068fa02ee20639d54ae4595efeeff595e1da
+🔗 Perfil: https://polymarket.com/profile/0xf397068fa02ee20639d54ae4595efeeff595e1da
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      75/100 (🥇 GOLD)
+
+✅ FORTALEZAS
+   ✓ ROI excepcional: 42.8%
+   ✓ Profit Factor excelente: 2.49
+   ✓ Win Rate excepcional: 75.7%
+   ✓ Ganancias bien distribuidas
+   ✓ Pérdidas bien controladas
+   ✓ Opera en 10 categorías
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       27/35
+   • Consistencia:       23/25
+   • Gestión Riesgo:     20/20
+   • Experiencia:        5/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🟢 MEDIO (Equilibrado) (Concentración: 37.5%)
+
+📊 ESPECIALIZACIÓN
+   Deportes ⚽           +$481,506.21
+   Política 🏛️          +$7,920.96
+   Economía 📉           +$317.34
+   Pop Culture 🍿        +$0.46
+   Geopolítica 🌍        $-4.06
+   Otros 🌐              $-165.84
+   Crypto ₿             $-2,940.43
+
+💰 FINANZAS
+   🚀 PnL Total:  🟢 $456,684.57 (ROI: 17.33%)
+   📥 Volumen:    $2,634,981.84
+   📊 Trades:     10000
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Will Torino FC win on 2026-01-18?..                | $13,079.82
+   SA20: Sunrisers Eastern Cape vs MI Cape Town (Ga.. | $5,910.08
+   SA20: Sunrisers Eastern Cape vs MI Cape Town (Ga.. | $3,840.36
+   Will Trump nominate Kevin Warsh as the next Fed .. | $2,173.38
+   Will Trump nominate Rick Rieder as the next Fed .. | $2,021.00
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: LickMyLovePump
+🔗 Wallet: 0x85b98c1d00974a22624dcccf89175af5aef0d1ab
+🔗 Perfil: https://polymarket.com/profile/0x85b98c1d00974a22624dcccf89175af5aef0d1ab
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      30/100 (💀 HIGH RISK)
+
+✅ FORTALEZAS
+   ✓ Ganancias bien distribuidas
+   ✓ Pérdidas bien controladas
+   ✓ Opera en 8 categorías
+
+⚠️ RED FLAGS
+   ⚠️ ROI negativo: -10.5%
+   ⚠️ Profit Factor < 1: 0.81
+   ⚠️ Pérdidas promedio mayores que ganancias
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       0/35
+   • Consistencia:       13/25
+   • Gestión Riesgo:     16/20
+   • Experiencia:        1/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🟠 ALTO (Concentrado) (Concentración: 50.8%)
+
+📊 ESPECIALIZACIÓN
+   Otros 🌐              $-9.52
+   Crypto ₿             $-10.04
+   Geopolítica 🌍        $-164.01
+   Política 🏛️          $-258.43
+   Deportes ⚽           $-612.87
+   Economía 📉           $-745.90
+
+💰 FINANZAS
+   🚀 PnL Total:  🔴 $-4,205.79 (ROI: -1.61%)
+   📥 Volumen:    $424,840.71
+   📊 Trades:     1535
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   LoL: Los Ratones vs Karmine Corp Blue (BO1)..      | $5,800.00
+   LoL: paiN Gaming vs LOUD (BO1)..                   | $4,962.41
+   LoL: Vivo Keyd Stars vs Fluxo W7M (BO1)..          | $657.57
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: JulianGilliam
+🔗 Wallet: 0x05fee38a80f9bb57df644e11dd7e5b9486442c6a
+🔗 Perfil: https://polymarket.com/profile/0x05fee38a80f9bb57df644e11dd7e5b9486442c6a
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      11/100 (💀 HIGH RISK)
+
+✅ FORTALEZAS
+   ✓ Opera en 6 categorías
+   ✓ Cuenta con más de 1 año
+
+⚠️ RED FLAGS
+   ⚠️ ROI negativo: -100.0%
+   ⚠️ Profit Factor < 1: 0.00
+   ⚠️ Win Rate bajo: 16.7%
+   ⚠️ Pérdidas promedio mayores que ganancias
+   ⚠️ 74% de pérdidas en 1 trade
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       0/35
+   • Consistencia:       0/25
+   • Gestión Riesgo:     6/20
+   • Experiencia:        5/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     🐇 Day Trader (1 días activos)
+   ⚖️  Riesgo:     🔵 BAJO (Diversificado) (Concentración: 0.0%)
+
+📊 ESPECIALIZACIÓN
+   Crypto ₿             +$0.00
+   Otros 🌐              $-0.66
+   Deportes ⚽           $-0.78
+   Política 🏛️          $-3.76
+   Economía 📉           $-13.55
+
+💰 FINANZAS
+   🚀 PnL Total:  🔴 $-18.76 (ROI: -0.12%)
+   📥 Volumen:    $30,848.82
+   📊 Trades:     100
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   (Sin inventario)
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: alliswell
+🔗 Wallet: 0x1521b47bf0c41f6b7fd3ad41cdec566812c8f23e
+🔗 Perfil: https://polymarket.com/profile/0x1521b47bf0c41f6b7fd3ad41cdec566812c8f23e
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      83/100 (🥇 GOLD)
+
+✅ FORTALEZAS
+   ✓ ROI excepcional: 93.6%
+   ✓ Profit Factor elite: 30.10
+   ✓ Win Rate excepcional: 95.1%
+   ✓ Ganancias 2x mayores que pérdidas
+   ✓ Ganancias bien distribuidas
+   ✓ Opera en 10 categorías
+   ✓ Top 500 global (#438)
+
+⚠️ RED FLAGS
+   ⚠️ 95% de pérdidas en 1 trade
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       35/35
+   • Consistencia:       25/25
+   • Gestión Riesgo:     10/20
+   • Experiencia:        13/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🟢 MEDIO (Equilibrado) (Concentración: 42.2%)
+
+📊 ESPECIALIZACIÓN
+   Política 🏛️          +$436,697.57
+   Ciencia/Tech 🚀       +$36,542.36
+   Geopolítica 🌍        +$0.34
+
+💰 FINANZAS
+   🚀 PnL Total:  🟢 $359,611.93 (ROI: 50.17%)
+   📥 Volumen:    $1,146,941.15
+   📊 Trades:     10000
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Will Trump say "Unbelievable" or "Fantastic" or .. | $149,929.50
+   Supreme Court rules in favor of Trump's tariffs?.. | $146,309.71
+   Will Melania say "Career" during AI talk on Frid.. | $36,229.00
+   Will the Supreme Court rule on Trump's tarriff's.. | $20,805.00
+   Will 7 judges rule in favor of Trump's Tarriffs?.. | $2,287.54
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: EA-SY
+🔗 Wallet: 0x562fa836dd0c7ecaf666cd02e88652b8acfde46f
+🔗 Perfil: https://polymarket.com/profile/0x562fa836dd0c7ecaf666cd02e88652b8acfde46f
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      66/100 (🥈 SILVER)
+
+✅ FORTALEZAS
+   ✓ ROI excepcional: 28.6%
+   ✓ Win Rate excepcional: 85.7%
+   ✓ Ganancias bien distribuidas
+   ✓ Opera en 10 categorías
+   ✓ Cuenta con más de 1 año
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       24/35
+   • Consistencia:       21/25
+   • Gestión Riesgo:     12/20
+   • Experiencia:        9/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🟠 ALTO (Concentrado) (Concentración: 51.9%)
+
+📊 ESPECIALIZACIÓN
+   Crypto ₿             +$623,623.95
+   Otros 🌐              +$60.06
+   Deportes ⚽           $-28,384.66
+   Geopolítica 🌍        $-228,343.82
+
+💰 FINANZAS
+   🚀 PnL Total:  🟢 $338,658.77 (ROI: 10.34%)
+   📥 Volumen:    $4,346,801.23
+   📊 Trades:     10000
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Will AS Roma win on 2026-01-18?..                  | $14,687.81
+   Will Al Qadisiyah Saudi Club win on 2026-01-18?..  | $3,899.70
+   Will FC Nantes win on 2026-01-18?..                | $2,960.97
+   Will Al Hazem SC win on 2026-01-18?..              | $2,769.10
+   Will Torino FC win on 2026-01-18?..                | $1,833.47
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: MrDouche
+🔗 Wallet: 0xc2c89e23a69936da2991ddffdc7c99d4f0bd5471
+🔗 Perfil: https://polymarket.com/profile/0xc2c89e23a69936da2991ddffdc7c99d4f0bd5471
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      80/100 (🥇 GOLD)
+
+✅ FORTALEZAS
+   ✓ ROI excepcional: 33.9%
+   ✓ Win Rate excepcional: 72.1%
+   ✓ Ganancias bien distribuidas
+   ✓ Pérdidas bien controladas
+   ✓ Opera en 10 categorías
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       29/35
+   • Consistencia:       23/25
+   • Gestión Riesgo:     20/20
+   • Experiencia:        8/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🟠 ALTO (Concentrado) (Concentración: 61.0%)
+
+📊 ESPECIALIZACIÓN
+   Deportes ⚽           +$103,779.48
+
+💰 FINANZAS
+   🚀 PnL Total:  🟢 $235,924.51 (ROI: 20.83%)
+   📥 Volumen:    $2,350,738.97
+   📊 Trades:     10000
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Will FC Barcelona win on 2026-01-18?..             | $15,250.15
+   Will FC Barcelona win on 2026-01-18?..             | $9,750.14
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: meropi
+🔗 Wallet: 0x9977760c6bd6f824cac834d1a36ee99478d63020
+🔗 Perfil: https://polymarket.com/profile/0x9977760c6bd6f824cac834d1a36ee99478d63020
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      74/100 (🥈 SILVER)
+
+✅ FORTALEZAS
+   ✓ ROI excepcional: 56.4%
+   ✓ Profit Factor elite: 3.59
+   ✓ Win Rate excepcional: 83.5%
+   ✓ Ganancias bien distribuidas
+   ✓ Opera en 10 categorías
+   ✓ Cuenta con más de 1 año
+
+⚠️ RED FLAGS
+   ⚠️ 50% de pérdidas en 1 trade
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       31/35
+   • Consistencia:       23/25
+   • Gestión Riesgo:     9/20
+   • Experiencia:        11/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🟢 MEDIO (Equilibrado) (Concentración: 46.7%)
+
+📊 ESPECIALIZACIÓN
+   Deportes ⚽           +$5,857.08
+   Geopolítica 🌍        +$3,368.07
+   Economía 📉           +$512.36
+   Otros 🌐              $-2,780.92
+   Ciencia/Tech 🚀       $-11,621.03
+   Política 🏛️          $-29,506.41
+
+💰 FINANZAS
+   🚀 PnL Total:  🔴 $-40,202.97 (ROI: -2.14%)
+   📥 Volumen:    $2,480,579.92
+   📊 Trades:     10000
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Will António José Seguro win the 2026 Portugal p.. | $2,859.02
+   Will António José Seguro qualify for the second .. | $2,296.41
+   Will Luís Marques Mendes qualify for the second .. | $737.13
+   Will Henrique Gouveia e Melo qualify for the sec.. | $222.83
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: Tradoor99-Account2
+🔗 Wallet: 0xc6fd646b15d976d7c3e9f410f3419f5c2452f43e
+🔗 Perfil: https://polymarket.com/profile/0xc6fd646b15d976d7c3e9f410f3419f5c2452f43e
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      28/100 (💀 HIGH RISK)
+
+✅ FORTALEZAS
+   ✓ Ganancias bien distribuidas
+   ✓ Opera en 6 categorías
+   ✓ Cuenta con más de 1 año
+
+⚠️ RED FLAGS
+   ⚠️ ROI negativo: -19.7%
+   ⚠️ Profit Factor < 1: 0.67
+   ⚠️ Pérdidas promedio mayores que ganancias
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       0/35
+   • Consistencia:       7/25
+   • Gestión Riesgo:     11/20
+   • Experiencia:        10/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🔴 MUY ALTO (Kamikaze) (Concentración: 93.1%)
+
+📊 ESPECIALIZACIÓN
+   Deportes ⚽           $-130,894.38
+
+💰 FINANZAS
+   🚀 PnL Total:  🔴 $-176,448.42 (ROI: -15.66%)
+   📥 Volumen:    $1,987,447.23
+   📊 Trades:     102
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Texans vs. Patriots..                              | $11,146.22
+   Will Senegal win on 2026-01-18?..                  | $830.89
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: EmeraldCoastMag
+🔗 Wallet: 0x7a65da886bf14440c7a2af83181d5700f9bf9c67
+🔗 Perfil: https://polymarket.com/profile/0x7a65da886bf14440c7a2af83181d5700f9bf9c67
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      9/100 (💀 HIGH RISK)
+
+✅ FORTALEZAS
+   ✓ Cuenta con más de 1 año
+
+⚠️ RED FLAGS
+   ⚠️ ROI negativo: -100.0%
+   ⚠️ Profit Factor < 1: 0.00
+   ⚠️ Win Rate bajo: 25.0%
+   ⚠️ Pérdidas promedio mayores que ganancias
+   ⚠️ 70% de pérdidas en 1 trade
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       0/35
+   • Consistencia:       0/25
+   • Gestión Riesgo:     4/20
+   • Experiencia:        5/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🔵 BAJO (Diversificado) (Concentración: 0.0%)
+
+📊 ESPECIALIZACIÓN
+   Deportes ⚽           $-0.52
+   Política 🏛️          $-5.67
+   Economía 📉           $-13.54
+
+💰 FINANZAS
+   🚀 PnL Total:  🔴 $-19.73 (ROI: -0.13%)
+   📥 Volumen:    $30,654.26
+   📊 Trades:     103
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   (Sin inventario)
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: Nihaww
+🔗 Wallet: 0xc452bc4c4ffb4e17a141ac9d49b79d87dedf7234
+🔗 Perfil: https://polymarket.com/profile/0xc452bc4c4ffb4e17a141ac9d49b79d87dedf7234
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      60/100 (🥉 BRONZE)
+
+✅ FORTALEZAS
+   ✓ ROI excepcional: 27.4%
+   ✓ Win Rate alto: 64.9%
+   ✓ Opera en 10 categorías
+   ✓ Cuenta con más de 1 año
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       24/35
+   • Consistencia:       16/25
+   • Gestión Riesgo:     9/20
+   • Experiencia:        11/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🔴 MUY ALTO (Kamikaze) (Concentración: 96.1%)
+
+📊 ESPECIALIZACIÓN
+   Política 🏛️          +$40,963.46
+   Deportes ⚽           +$19,274.68
+   Crypto ₿             +$2,858.60
+   Economía 📉           +$81.90
+   Otros 🌐              $-994.64
+   Geopolítica 🌍        $-1,027.00
+   Ciencia/Tech 🚀       $-7,553.16
+
+💰 FINANZAS
+   🚀 PnL Total:  🟢 $16,032.00 (ROI: 5.50%)
+   📥 Volumen:    $405,512.89
+   📊 Trades:     254
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Will António José Seguro win the 2026 Portugal p.. | $36,098.73
+   Will André Ventura win the 2026 Portugal preside.. | $1,473.03
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: gatorr
+🔗 Wallet: 0x93abbc022ce98d6f45d4444b594791cc4b7a9723
+🔗 Perfil: https://polymarket.com/profile/0x93abbc022ce98d6f45d4444b594791cc4b7a9723
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      74/100 (🥈 SILVER)
+
+✅ FORTALEZAS
+   ✓ ROI excelente: 23.3%
+   ✓ Ganancias 2x mayores que pérdidas
+   ✓ Opera en 6 categorías
+   ✓ Cuenta con más de 1 año
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       28/35
+   • Consistencia:       12/25
+   • Gestión Riesgo:     16/20
+   • Experiencia:        18/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🟠 ALTO (Concentrado) (Concentración: 75.8%)
+
+📊 ESPECIALIZACIÓN
+   Deportes ⚽           +$374,563.31
+   Otros 🌐              +$115.95
+   Pop Culture 🍿        +$4.61
+
+💰 FINANZAS
+   🚀 PnL Total:  🟢 $166,446.23 (ROI: 16.43%)
+   📥 Volumen:    $1,078,377.06
+   📊 Trades:     2346
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Texans vs. Patriots..                              | $157,893.59
+   Rams vs. Bears..                                   | $40,172.65
+   Texans vs. Patriots: O/U 41.5..                    | $10,047.69
+   Texans Team Total: O/U 19.5..                      | $119.58
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: UrbanaCitizen
+🔗 Wallet: 0x143db889ba8c21a542776a57c5b1a84e1b6c28c5
+🔗 Perfil: https://polymarket.com/profile/0x143db889ba8c21a542776a57c5b1a84e1b6c28c5
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      11/100 (💀 HIGH RISK)
+
+✅ FORTALEZAS
+   ✓ Opera en 6 categorías
+   ✓ Cuenta con más de 1 año
+
+⚠️ RED FLAGS
+   ⚠️ ROI negativo: -100.0%
+   ⚠️ Profit Factor < 1: 0.00
+   ⚠️ Win Rate bajo: 16.7%
+   ⚠️ Pérdidas promedio mayores que ganancias
+   ⚠️ 67% de pérdidas en 1 trade
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       0/35
+   • Consistencia:       0/25
+   • Gestión Riesgo:     6/20
+   • Experiencia:        5/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🔵 BAJO (Diversificado) (Concentración: 0.0%)
+
+📊 ESPECIALIZACIÓN
+   Crypto ₿             +$0.01
+   Otros 🌐              $-0.90
+   Deportes ⚽           $-1.10
+   Política 🏛️          $-5.82
+   Economía 📉           $-13.59
+
+💰 FINANZAS
+   🚀 PnL Total:  🔴 $-21.40 (ROI: -0.14%)
+   📥 Volumen:    $30,108.08
+   📊 Trades:     118
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   (Sin inventario)
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: Messi4ever
+🔗 Wallet: 0x4c0e923478df1e969891f330d1586b831956c51d
+🔗 Perfil: https://polymarket.com/profile/0x4c0e923478df1e969891f330d1586b831956c51d
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      47/100 (📊 STANDARD)
+
+✅ FORTALEZAS
+   ✓ ROI excepcional: 100.0%
+   ✓ Win Rate excepcional: 100.0%
+   ✓ Ganancias 2x mayores que pérdidas
+   ✓ Opera en 8 categorías
+   ✓ Cuenta con más de 1 año
+
+⚠️ RED FLAGS
+   ⚠️ Profit Factor < 1: 0.00
+   ⚠️ 85% de ganancias en 1 trade
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       16/35
+   • Consistencia:       20/25
+   • Gestión Riesgo:     6/20
+   • Experiencia:        5/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     🐇 Day Trader (1 días activos)
+   ⚖️  Riesgo:     🔴 MUY ALTO (Kamikaze) (Concentración: 100.0%)
+
+📊 ESPECIALIZACIÓN
+   Política 🏛️          +$16,692.39
+
+💰 FINANZAS
+   🚀 PnL Total:  🟢 $1,316.22 (ROI: 3.90%)
+   📥 Volumen:    $53,472.24
+   📊 Trades:     14
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Will António José Seguro win the 2026 Portugal p.. | $15,376.17
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: jakubrusiecki
+🔗 Wallet: 0xf339682d02d0d4ea7d0075ca8fd2d2915ec858ac
+🔗 Perfil: https://polymarket.com/profile/0xf339682d02d0d4ea7d0075ca8fd2d2915ec858ac
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      11/100 (💀 HIGH RISK)
+
+✅ FORTALEZAS
+   ✓ Opera en 5 categorías
+   ✓ Cuenta con más de 1 año
+
+⚠️ RED FLAGS
+   ⚠️ ROI negativo: -100.0%
+   ⚠️ Profit Factor < 1: 0.00
+   ⚠️ Win Rate bajo: 16.7%
+   ⚠️ Pérdidas promedio mayores que ganancias
+   ⚠️ 61% de pérdidas en 1 trade
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       0/35
+   • Consistencia:       0/25
+   • Gestión Riesgo:     6/20
+   • Experiencia:        5/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🔵 BAJO (Diversificado) (Concentración: 0.0%)
+
+📊 ESPECIALIZACIÓN
+   Geopolítica 🌍        +$0.08
+   Deportes ⚽           $-1.20
+   Otros 🌐              $-1.94
+   Política 🏛️          $-5.97
+   Economía 📉           $-13.57
+
+💰 FINANZAS
+   🚀 PnL Total:  🔴 $-22.59 (ROI: -0.15%)
+   📥 Volumen:    $30,404.55
+   📊 Trades:     121
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   (Sin inventario)
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: skhvv
+🔗 Wallet: 0x765da8d173729080c78b4272b2d2641044cbf447
+🔗 Perfil: https://polymarket.com/profile/0x765da8d173729080c78b4272b2d2641044cbf447
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      33/100 (💀 HIGH RISK)
+
+✅ FORTALEZAS
+   ✓ Ganancias bien distribuidas
+   ✓ Pérdidas bien controladas
+   ✓ Opera en 10 categorías
+   ✓ Cuenta con más de 1 año
+
+⚠️ RED FLAGS
+   ⚠️ ROI negativo: -18.9%
+   ⚠️ Profit Factor < 1: 0.68
+   ⚠️ Pérdidas promedio mayores que ganancias
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       0/35
+   • Consistencia:       11/25
+   • Gestión Riesgo:     16/20
+   • Experiencia:        6/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🔴 MUY ALTO (Kamikaze) (Concentración: 98.5%)
+
+📊 ESPECIALIZACIÓN
+   Economía 📉           $-0.46
+   Deportes ⚽           $-341.95
+   Crypto ₿             $-3,596.25
+
+💰 FINANZAS
+   🚀 PnL Total:  🔴 $-1,444.19 (ROI: -1.43%)
+   📥 Volumen:    $116,763.12
+   📊 Trades:     10000
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Charlotte 49ers vs. East Carolina Pirates..        | $118.67
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: Pimping
+🔗 Wallet: 0x1af1dfc2c523af1d7551597c985277cd11b30f7b
+🔗 Perfil: https://polymarket.com/profile/0x1af1dfc2c523af1d7551597c985277cd11b30f7b
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      25/100 (💀 HIGH RISK)
+
+✅ FORTALEZAS
+   ✓ Win Rate alto: 68.4%
+   ✓ Ganancias bien distribuidas
+
+⚠️ RED FLAGS
+   ⚠️ ROI negativo: -10.8%
+   ⚠️ Profit Factor < 1: 0.80
+   ⚠️ Pérdidas promedio mayores que ganancias
+   ⚠️ Solo opera en 1 categoría
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       0/35
+   • Consistencia:       15/25
+   • Gestión Riesgo:     5/20
+   • Experiencia:        5/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🔴 MUY ALTO (Kamikaze) (Concentración: 100.0%)
+
+📊 ESPECIALIZACIÓN
+   Deportes ⚽           +$54,324.55
+
+💰 FINANZAS
+   🚀 PnL Total:  🔴 $-469,884.35 (ROI: -9.18%)
+   📥 Volumen:    $8,652,956.78
+   📊 Trades:     268
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Spread: Patriots (-3.5)..                          | $524,181.65
+
+
+
+══════════════════════════════════════════════════════════════════════
+🦈 PERFIL DE BALLENA: Lugh-do
+🔗 Wallet: 0xc31d0a0d63d760d72a1236d16beaa6a71c854ebe
+🔗 Perfil: https://polymarket.com/profile/0xc31d0a0d63d760d72a1236d16beaa6a71c854ebe
+══════════════════════════════════════════════════════════════════════
+
+🎯 VEREDICTO
+   🏆 Score:      28/100 (💀 HIGH RISK)
+   ⚠️ ALERTA:     Entidad Algorítmica.
+
+✅ FORTALEZAS
+   ✓ Ganancias bien distribuidas
+   ✓ Pérdidas bien controladas
+   ✓ Opera en 10 categorías
+   ✓ Cuenta con más de 1 año
+
+⚠️ RED FLAGS
+   🤖 POSIBLE BOT/MM (confianza BAJA: 30%)
+   ⚠️ Profit Factor < 1: 0.82
+   ⚠️ Pérdidas promedio mayores que ganancias
+
+📈 DESGLOSE DE PUNTUACIÓN
+   • Rentabilidad:       0/35
+   • Consistencia:       11/25
+   • Gestión Riesgo:     16/20
+   • Experiencia:        10/20
+
+🧠 INTELIGENCIA
+   ⏱️  Estilo:     ⚡ HFT / Bot (1 días activos)
+   ⚖️  Riesgo:     🟢 MEDIO (Equilibrado) (Concentración: 40.7%)
+
+📊 ESPECIALIZACIÓN
+   Deportes ⚽           +$333,288.27
+   Geopolítica 🌍        +$92,716.70
+   Ciencia/Tech 🚀       +$2,690.35
+   Crypto ₿             +$1,366.87
+   Economía 📉           $-56.77
+   Otros 🌐              $-67,640.00
+   Política 🏛️          $-234,029.08
+
+💰 FINANZAS
+   🚀 PnL Total:  🔴 $-1,063,353.74 (ROI: -8.15%)
+   📥 Volumen:    $15,105,520.52
+   📊 Trades:     10000
+
+🏦 POSICIONES ABIERTAS (Top 5)
+   Mercado                                            | Valor
+   -----------------------------------------------------------------
+   Will Stade Rennais FC 1901 win on 2026-01-18?..    | $399,800.00
+   Will FC Barcelona win on 2026-01-18?..             | $378,750.03
+   Lightning vs. Stars: O/U 6.5..                     | $66,849.13
+   Khamenei out as Supreme Leader of Iran by Januar.. | $37,888.13
+   Will Real Sociedad de Fútbol win on 2026-01-18?..  | $31,500.00
+
+

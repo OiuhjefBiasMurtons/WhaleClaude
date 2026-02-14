@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m venv:*)",
+      "Bash(source:*)",
+      "Bash(pip --version:*)",
+      "Bash(pip install:*)",
+      "Bash(python polywhale_v3.py:*)",
+      "Bash(playwright:*)",
+      "Bash(pip show:*)",
+      "Bash(sudo apt-get install:*)",
+      "Bash(sudo -S apt-get update:*)",
+      "Bash(sudo -S apt-get install:*)"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+
+================================================================================
+🚀 MONITOR INICIADO
+================================================================================
+💵 Umbral de ballena:        $5,000.00 USD
+⏱️  Intervalo de polling:     3 segundos
+📊 Límite de trades/ciclo:   1000
+⏰ Ventana de tiempo:        30 minutos (solo trades recientes)
+💾 Archivo de log:           trades_live/whales_20260122_141730.txt
+📂 Trades en memoria:        0
+🔄 Esperando trades...
+================================================================================
+
+
+================================================================================
+🐋🐋🐋🐋 ULTRA BALLENA DETECTADA 🐋🐋🐋🐋
+================================================================================
+💰 Valor: $26,600.23 USD
+📊 Mercado: Will RC Celta de Vigo win on 2026-01-22?
+🔗 URL: https://polymarket.com/event/uel-cel4-lil-2026-01-22
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.4199 (41.99%)
+🕐 Hora: 2026-01-22 14:16:16
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: beachboy4
+   Wallet: 0xc2e7800b5af46e6093872b177b7a5e7f0563be51
+   Perfil: https://polymarket.com/profile/0xc2e7800b5af46e6093872b177b7a5e7f0563be51
+   TX Hash: 0x75b7916654d0edf6b2...2bc326f535
+   TX URL: https://polygonscan.com/tx/0x75b7916654d0edf6b2d796631bf3387bed1918c4966ad0e0c3ee212bc326f535
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $8,854.95 USD
+📊 Mercado: Israel strikes Iran by January 23, 2026?
+🔗 URL: https://polymarket.com/event/israel-strikes-iran-by-january-23-2026
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.9724 (97.24%)
+🕐 Hora: 2026-01-22 14:19:30
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: user21111111111
+   Wallet: 0x5d861bcdd27e8a74d1aa14f2eade9e53e4500e96
+   Perfil: https://polymarket.com/profile/0x5d861bcdd27e8a74d1aa14f2eade9e53e4500e96
+   TX Hash: 0xacc63af353bb9f9317...3086bb4699
+   TX URL: https://polygonscan.com/tx/0xacc63af353bb9f9317e284f283163999ea5140986fb6fd3bfea6ac3086bb4699
+================================================================================
+
+
+================================================================================
+🐋🐋🐋🐋 ULTRA BALLENA DETECTADA 🐋🐋🐋🐋
+================================================================================
+💰 Valor: $21,603.72 USD
+📊 Mercado: Will Rangers FC win on 2026-01-22?
+🔗 URL: https://polymarket.com/event/uel-ran1-lud1-2026-01-22
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.5100 (51.00%)
+🕐 Hora: 2026-01-22 14:21:22
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: beachboy4
+   Wallet: 0xc2e7800b5af46e6093872b177b7a5e7f0563be51
+   Perfil: https://polymarket.com/profile/0xc2e7800b5af46e6093872b177b7a5e7f0563be51
+   TX Hash: 0xcef6ce27177fa51021...811dc8c704
+   TX URL: https://polygonscan.com/tx/0xcef6ce27177fa510211f0c5c6ffef4f842485bfd72a5be40b60404811dc8c704
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $5,430.36 USD
+📊 Mercado: Will Feyenoord Rotterdam win on 2026-01-22?
+🔗 URL: https://polymarket.com/event/uel-fey-stu4-2026-01-22
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.9956 (99.56%)
+🕐 Hora: 2026-01-22 14:21:22
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: RuggedVibes
+   Wallet: 0xc2d751e917519cc400e02da6e02339a4bfd2a36d
+   Perfil: https://polymarket.com/profile/0xc2d751e917519cc400e02da6e02339a4bfd2a36d
+   TX Hash: 0xe0d610f0539c5b5c8d...ae6161a9cf
+   TX URL: https://polygonscan.com/tx/0xe0d610f0539c5b5c8d0c669dbdea00bd4ebdde83d73aae1111407dae6161a9cf
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $5,270.18 USD
+📊 Mercado: Will Al Qadisiyah Saudi Club win on 2026-01-22?
+🔗 URL: https://polymarket.com/event/spl-qad-ith-2026-01-22
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.9419 (94.19%)
+🕐 Hora: 2026-01-22 14:20:54
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: blackprince69
+   Wallet: 0xd5e865f2dd2b91438f5f58d1b4b9819914f1ceef
+   Perfil: https://polymarket.com/profile/0xd5e865f2dd2b91438f5f58d1b4b9819914f1ceef
+   TX Hash: 0x9f95bafc345a6411fe...5db512536b
+   TX URL: https://polygonscan.com/tx/0x9f95bafc345a6411fe3b8d67385b5d803ed70573c2e393757cbd405db512536b
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $7,769.26 USD
+📊 Mercado: Will Aston Villa FC win on 2026-01-22?
+🔗 URL: https://polymarket.com/event/uel-fen1-ast4-2026-01-22
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.7400 (74.00%)
+🕐 Hora: 2026-01-22 14:20:42
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: swisstony
+   Wallet: 0x204f72f35326db932158cba6adff0b9a1da95e14
+   Perfil: https://polymarket.com/profile/0x204f72f35326db932158cba6adff0b9a1da95e14
+   TX Hash: 0x19bd3506f69dd8ac48...9b27daf0f5
+   TX URL: https://polygonscan.com/tx/0x19bd3506f69dd8ac4841a5791c281dab8fcb62d8245c23b5cb00c99b27daf0f5
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $8,737.68 USD
+📊 Mercado: Will Rangers FC win on 2026-01-22?
+🔗 URL: https://polymarket.com/event/uel-ran1-lud1-2026-01-22
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.4900 (49.00%)
+🕐 Hora: 2026-01-22 14:27:18
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: c4c4
+   Wallet: 0x1455445e9a775cfa3fe9fc4b02bb4d2f682ae5cd
+   Perfil: https://polymarket.com/profile/0x1455445e9a775cfa3fe9fc4b02bb4d2f682ae5cd
+   TX Hash: 0xb0f5552d4b252bee81...c4959c77cb
+   TX URL: https://polygonscan.com/tx/0xb0f5552d4b252bee81e8a4b0e250bef8a765b35fda56565b1c504cc4959c77cb
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $5,867.91 USD
+📊 Mercado: Will Bitcoin hit $80k or $150k first?
+🔗 URL: https://polymarket.com/event/will-bitcoin-hit-80k-or-150k-first
+🎯 Outcome: 80k
+📈 Lado: COMPRA
+💵 Precio: 0.8299 (82.99%)
+🕐 Hora: 2026-01-22 14:27:12
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Spanky.io
+   Wallet: 0x9fba105a62b838769d4c389517cadb973f9056d0
+   Perfil: https://polymarket.com/profile/0x9fba105a62b838769d4c389517cadb973f9056d0
+   TX Hash: 0x38130d36396daf521b...d0e4223438
+   TX URL: https://polygonscan.com/tx/0x38130d36396daf521bfc75364cd4d06e1fa8f91c38aee9bc939955d0e4223438
+================================================================================
+
+
+
+================================================================================
+📊 RESUMEN DE SESIÓN
+================================================================================
+⏱️  Tiempo de monitoreo:     0h 11m 14s
+🐋 Total de ballenas:       8
+💰 Valor promedio:          $11,266.79 USD
+💎 Ballena más grande:      $26,600.23 USD
+   └─ Mercado: Will RC Celta de Vigo win on 2026-01-22?...
+   └─ Wallet: 0xc2e7800b5af46e6093...
+📊 Mercados monitoreados:   7
+
+💾 Archivos guardados:
+   - trades_live/whales_20260122_141730.txt (log formateado)
+   - trades_live/historial_trades.json (historial de trades)
+
+🏆 TOP 5 MERCADOS CON MÁS BALLENAS:
+   1. Will Rangers FC win on 2026-01-22?... (2 ballenas)
+   2. Will RC Celta de Vigo win on 2026-01-22?... (1 ballenas)
+   3. Israel strikes Iran by January 23, 2026?... (1 ballenas)
+   4. Will Feyenoord Rotterdam win on 2026-01-22?... (1 ballenas)
+   5. Will Al Qadisiyah Saudi Club win on 2026-01-22?... (1 ballenas)
+
+================================================================================
