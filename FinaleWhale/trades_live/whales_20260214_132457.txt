@@ -2754,3 +2754,30 @@
    TX URL: https://polygonscan.com/tx/0x79058e619acd9db9c95eac8f42bacfe3905d82b45654789d8e1e9d0013b9781d
 ================================================================================
 
+
+
+================================================================================
+📊 RESUMEN DE SESIÓN
+================================================================================
+⏱️  Tiempo de monitoreo:     11h 49m 30s
+🐋 Total de ballenas:       471
+✅ Ballenas capturadas:     128
+⛔ Ballenas ignoradas:      343
+💰 Valor promedio:          $5,039.42 USD
+💎 Ballena más grande:      $145,221.74 USD
+   └─ Mercado: Will Trump nominate Judy Shelton as the next Fed c...
+   └─ Wallet: 0x9d84ce0306f8551e02...
+📊 Mercados monitoreados:   79
+
+💾 Archivos guardados:
+   - trades_live/whales_20260214_132457.txt (log formateado)
+   - trades_live/historial_trades.json (historial de trades)
+
+🏆 TOP 5 MERCADOS CON MÁS BALLENAS:
+   1. Ethereum Up or Down - February 14, 10PM ET... (15 ballenas)
+   2. Mississippi State Bulldogs vs. Ole Miss Rebels: O/U 144.5... (5 ballenas)
+   3. Paris FC vs. Racing Club de Lens: O/U 2.5... (4 ballenas)
+   4. Dallas Open: Denis Shapovalov vs Ben Shelton... (4 ballenas)
+   5. Ethereum Up or Down - February 14, 11PM ET... (3 ballenas)
+
+================================================================================

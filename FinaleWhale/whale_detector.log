@@ -495,3 +495,32 @@
 2026-02-15 00:56:37,297 - INFO - 💾 Historial guardado: 5000 trades
 2026-02-15 00:59:15,325 - INFO - 💾 Historial guardado: 5000 trades
 2026-02-15 00:59:15,325 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 79 | Capturadas: 128 | Ignoradas: 330
+2026-02-15 01:01:55,397 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-15 01:04:35,320 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-15 01:04:35,321 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 79 | Capturadas: 128 | Ignoradas: 336
+2026-02-15 01:07:13,648 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-15 01:09:53,671 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-15 01:09:53,676 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 79 | Capturadas: 128 | Ignoradas: 339
+2026-02-15 01:12:31,789 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-15 01:14:27,928 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-15 01:15:32,177 - INFO - 📂 Historial cargado: 5000 trades previos
+2026-02-15 01:15:32,178 - INFO - 🚀 Monitor iniciado. Umbral: $1,500.00
+2026-02-15 01:18:07,358 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-15 01:20:47,394 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-15 01:20:47,394 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 0 | Capturadas: 0 | Ignoradas: 1
+2026-02-15 01:23:25,757 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-15 01:26:05,756 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-15 01:26:05,757 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 0 | Capturadas: 0 | Ignoradas: 3
+2026-02-15 01:28:47,105 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-15 01:31:25,753 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-15 01:31:25,753 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 0 | Capturadas: 0 | Ignoradas: 5
+2026-02-15 01:33:36,264 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-15 01:33:42,681 - INFO - 📂 Historial cargado: 5000 trades previos
+2026-02-15 01:33:42,681 - INFO - 🚀 Monitor iniciado. Umbral: $1,500.00
+2026-02-15 01:35:22,979 - INFO - 🔍 Trader hlopack (0x91e8a6ed...) → 💀 HIGH RISK (score: 24) — No se envía a Telegram
+2026-02-15 01:36:20,504 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-15 01:38:56,892 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-15 01:38:56,892 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 1 | Capturadas: 1 | Ignoradas: 1
+2026-02-15 01:41:35,663 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-15 01:44:12,093 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-15 01:44:12,095 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 1 | Capturadas: 1 | Ignoradas: 8

@@ -379,6 +379,48 @@ except Exception as e:
             except:
                 pass
 
+    def _detect_sport_subtypes(self, d):
+        """Analiza biggest_wins y biggest_losses para detectar deportes específicos"""
+        sport_keywords = {
+            'NBA / Basketball': ['nba', 'lakers', 'celtics', 'bulls', 'warriors', 'nets', 'bucks',
+                                  'knicks', 'sixers', 'suns', 'nuggets', 'heat', 'basketball'],
+            'NFL / Football': ['nfl', 'chiefs', 'eagles', 'cowboys', 'packers', 'patriots',
+                                '49ers', 'ravens', 'bills', 'football', 'super bowl', 'touchdown'],
+            'Soccer / Premier League': ['premier', 'chelsea', 'arsenal', 'liverpool', 'tottenham',
+                                         'manchester', 'newcastle', 'epl'],
+            'Soccer / La Liga': ['la liga', 'barcelona', 'real madrid', 'atletico', 'sevilla',
+                                  'villarreal', 'betis'],
+            'Soccer / Ligue 1': ['ligue', 'lille', 'psg', 'lyon', 'marseille', 'monaco', 'paris'],
+            'Soccer / Serie A': ['serie a', 'inter', 'ac milan', 'juventus', 'napoli', 'roma', 'lazio'],
+            'Soccer / Bundesliga': ['bundesliga', 'bayern', 'dortmund', 'leverkusen', 'leipzig'],
+            'Soccer / Other': ['fc ', ' fc', 'united', 'city', 'cup', 'world cup', 'euro ',
+                                'champions league', 'copa'],
+            'MLB / Baseball': ['mlb', 'yankees', 'dodgers', 'astros', 'braves', 'mets', 'baseball'],
+            'NHL / Hockey': ['nhl', 'hockey', 'bruins', 'rangers', 'penguins', 'maple leafs'],
+            'UFC / MMA': ['ufc', 'mma', 'fight', 'boxing', 'bout'],
+            'Tennis': ['tennis', 'wimbledon', 'us open', 'french open', 'australian open',
+                        'roland garros', 'atp', 'wta'],
+            'Cricket': ['cricket', 'ipl', 'test match', 'odi', 't20'],
+        }
+
+        subtypes = {}
+        all_trades = []
+        for w in d.get('biggest_wins', []):
+            all_trades.append((w['market'].lower(), w['amount']))
+        for l in d.get('biggest_losses', []):
+            all_trades.append((l['market'].lower(), -l['amount']))
+
+        for market, amount in all_trades:
+            for sport, keywords in sport_keywords.items():
+                if any(kw in market for kw in keywords):
+                    if sport not in subtypes:
+                        subtypes[sport] = {'pnl': 0, 'count': 0}
+                    subtypes[sport]['pnl'] += amount
+                    subtypes[sport]['count'] += 1
+                    break
+
+        return subtypes
+
     # --- GENERACIÓN DE REPORTE ---
     def generate_report(self):
         print("\n" + "="*70)
@@ -554,6 +596,17 @@ except Exception as e:
                 pnl = cat['pnl']
                 pnl_str = f"+${pnl:,.0f}" if pnl >= 0 else f"-${abs(pnl):,.0f}"
                 self.report(f"   #{cat['rank']} {cat['name']:<20} {pnl_str:>12}")
+
+        # Sub-especialización deportiva (analizar trades para detectar deportes específicos)
+        sport_subtypes = self._detect_sport_subtypes(d)
+        if sport_subtypes:
+            self.report(f"\n⚽ DETALLE DEPORTIVO (basado en trades)")
+            for sport, info in sorted(sport_subtypes.items(), key=lambda x: x[1]['pnl'], reverse=True):
+                pnl = info['pnl']
+                count = info['count']
+                pnl_str = f"+${pnl:,.0f}" if pnl >= 0 else f"-${abs(pnl):,.0f}"
+                icon = "🟢" if pnl > 0 else "🔴"
+                self.report(f"   {icon} {sport:<25} {pnl_str:>12} ({count} trades)")
 
         # Top trades
         wins = d.get('biggest_wins', [])

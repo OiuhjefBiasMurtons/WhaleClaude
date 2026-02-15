@@ -1,0 +1,35 @@
+
+================================================================================
+🚀 MONITOR INICIADO
+================================================================================
+💵 Umbral de ballena:        $1,500.00 USD
+⏱️  Intervalo de polling:     3 segundos
+📊 Límite de trades/ciclo:   1000
+⏰ Ventana de tiempo:        30 minutos (solo trades recientes)
+💾 Archivo de log:           trades_live/whales_20260215_013342.txt
+📂 Trades en memoria:        5000
+📱 Notificaciones Telegram:  ✅ ACTIVO
+🔄 Esperando trades...
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $3,574.38 USD
+📊 Mercado: Russia x Ukraine ceasefire by end of 2026?
+🔗 URL: https://polymarket.com/event/russia-x-ukraine-ceasefire-before-2027
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.5800 (58.00%)
+📦 Volumen: $9,538,488.67
+🕐 Hora: 2026-02-15 01:30:07
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: hlopack
+   Wallet: 0x91e8a6edec03e7a81c88621123ebd041cb5ef1ab
+   Perfil: https://polymarket.com/profile/0x91e8a6edec03e7a81c88621123ebd041cb5ef1ab
+   TX Hash: 0x67f3eb55c4b18e439a...7b0e2bc1ba
+   TX URL: https://polygonscan.com/tx/0x67f3eb55c4b18e439a7abdba4f1fa33e529b86ca42e423992691cc7b0e2bc1ba
+================================================================================
+

@@ -14,10 +14,12 @@ import os
 from datetime import datetime
 from pathlib import Path
 from collections import deque
+from concurrent.futures import ThreadPoolExecutor
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 from dotenv import load_dotenv
 from whale_scorer import WHALE_TIERS
+from sports_edge_detector import SportsEdgeDetector
 
 load_dotenv()
 
@@ -53,38 +55,46 @@ class TradeFilter:
 
     def is_worth_copying(self, trade, valor) -> tuple:
         price = float(trade.get('price', 0))
+        side = trade.get('side', '').upper()
 
         # Filtro 1: Precio fuera de rango +EV
         if price < 0.15 or price > 0.82:
             return False, "Precio fuera de rango (+EV)"
 
-        # Filtro 2: Volumen del mercado
-        condition_id = trade.get('conditionId', trade.get('market', ''))
-        if condition_id and condition_id not in self.markets_cache:
+        # Filtro 2: Volumen del mercado (usar slug para query precisa)
+        slug = trade.get('slug', '')
+        cache_key = slug or trade.get('conditionId', trade.get('market', ''))
+        if cache_key and cache_key not in self.markets_cache:
             try:
-                # CORRECCIÓN: usar condition_id (guión bajo) como parámetro
                 url = f"{GAMMA_API}/markets"
-                res = self.session.get(url, timeout=10, params={'condition_id': condition_id})
+                res = self.session.get(url, timeout=10, params={'slug': slug} if slug else {'limit': 1})
                 data = res.json()
                 if isinstance(data, list) and data:
-                    self.markets_cache[condition_id] = float(data[0].get('volume', 0))
-                elif isinstance(data, dict):
-                    self.markets_cache[condition_id] = float(data.get('volume', 0))
+                    self.markets_cache[cache_key] = float(data[0].get('volume', 0))
                 else:
-                    self.markets_cache[condition_id] = 0
+                    self.markets_cache[cache_key] = 0
             except Exception as e:
-                # Si falla la API, asumir volumen suficiente (no bloquear)
-                logger.warning(f"Error obteniendo volumen para {condition_id}: {e}")
-                self.markets_cache[condition_id] = 100_000  # Valor por defecto alto
+                logger.warning(f"Error obteniendo volumen para {cache_key}: {e}")
+                self.markets_cache[cache_key] = 100_000
 
-        market_volume = self.markets_cache.get(condition_id, 100_000)
+        market_volume = self.markets_cache.get(cache_key, 100_000)
         if market_volume < 25_000:
-            return False, "Mercado sin liquidez"
+            return False, f"Mercado sin liquidez (${market_volume:,.0f})"
 
         # Filtro 3: Retorno potencial
         potential_return_pct = ((1 / price) - 1) * 100 if price > 0 else 0
         if potential_return_pct < 40:
             return False, "Retorno insuficiente para capital bajo"
+
+        # Filtro 4: Ventas en mercados deportivos (posible farming de liquidez)
+        title = trade.get('title', '').lower()
+        # Keywords específicos de deportes (sin 'win' que es demasiado genérico)
+        sports_kw = ['vs', ' fc', 'nba', 'nfl', 'liga', 'premier', 'serie a',
+                      'bundesliga', 'ligue', 'ufc', 'nhl', 'mlb', 'tennis', 'cup',
+                      'match', 'game', 'championship', 'tournament']
+        is_sports = any(kw in title for kw in sports_kw)
+        if is_sports and side == 'SELL':
+            return False, "Venta en mercado deportivo (posible farming)"
 
         return True, "✅ Trade válido"
 
@@ -249,6 +259,13 @@ class AllMarketsWhaleDetector:
         self.trade_filter = TradeFilter(self.session)
         self.consensus = ConsensusTracker(window_minutes=30)
         self.coordination = CoordinationDetector(coordination_window=300)  # 5 minutos
+
+        # Detector de edge deportivo (Polymarket vs Pinnacle)
+        odds_api_key = os.getenv("ODDS_API_KEY", "")
+        self.sports_edge = SportsEdgeDetector(odds_api_key, self.session)
+
+        # ThreadPool para análisis paralelos (max 2 simultáneos para evitar saturación)
+        self.analysis_executor = ThreadPoolExecutor(max_workers=2, thread_name_prefix="trader_analysis")
 
         # Archivos
         trades_live_dir = Path("trades_live")
@@ -462,8 +479,9 @@ class AllMarketsWhaleDetector:
         is_valid, reason = self.trade_filter.is_worth_copying(trade, valor)
 
         # Obtener volumen del mercado para mostrar
-        condition_id = trade.get('conditionId', trade.get('market', ''))
-        market_volume = self.trade_filter.markets_cache.get(condition_id, 0)
+        slug = trade.get('slug', '')
+        cache_key = slug or trade.get('conditionId', trade.get('market', ''))
+        market_volume = self.trade_filter.markets_cache.get(cache_key, 0)
 
         if not is_valid:
             self.ballenas_ignoradas += 1
@@ -471,14 +489,21 @@ class AllMarketsWhaleDetector:
             print(f"⛔ [{hora}] BALLENA IGNORADA — {categoria} ${valor:,.0f} — Razón: {reason} | Volumen: ${market_volume:,.0f}")
             return
 
-        # Ballena capturada
-        self.ballenas_capturadas += 1
-
         market_info = self._obtener_info_mercado(trade)
         ts = self._parsear_timestamp(trade.get('timestamp') or trade.get('createdAt'))
         side = trade.get('side', 'N/A').upper()
         price = float(trade.get('price', 0))
         outcome = trade.get('outcome', 'N/A')
+
+        # Análisis de edge deportivo (Polymarket vs Pinnacle)
+        edge_result = self.sports_edge.check_edge(
+            market_title=trade.get('title', ''),
+            poly_price=price,
+            side=side
+        )
+
+        # Ballena capturada (incluso si es sucker bet, solo advertir)
+        self.ballenas_capturadas += 1
 
         # Contar ballena para este mercado
         mercado_nombre = market_info.get('question', 'Desconocido')
@@ -556,6 +581,23 @@ class AllMarketsWhaleDetector:
         if is_coordinated:
             msg += f"⚠️ GRUPO COORDINADO: {coord_desc} | Wallets: {coord_count}\n"
 
+        # Info de edge deportivo
+        edge_msg = ""
+        if edge_result['is_sports'] and edge_result['pinnacle_price'] > 0:
+            pp = edge_result['pinnacle_price']
+            ep = edge_result['edge_pct']
+            edge_icon = "✅" if ep > 3 else "⚠️" if ep > 0 else "❌"
+            edge_msg = f"""📊 ANÁLISIS DE ODDS:
+   Pinnacle:     {pp:.2f} ({pp*100:.1f}%)
+   Polymarket:   {price:.2f} ({price*100:.1f}%)
+   Edge:         {ep:+.1f}% {edge_icon}
+"""
+            msg += edge_msg
+
+            # Warning adicional si es sucker bet
+            if edge_result.get('is_sucker_bet', False):
+                msg += f"⚠️⚠️ WARNING: SUCKER BET - Ballena pagando {abs(ep):.1f}% MÁS que Pinnacle\n"
+
         # Imprimir en consola y guardar en archivo
         print(msg)
         with open(self.filename_log, "a", encoding="utf-8") as f:
@@ -563,17 +605,30 @@ class AllMarketsWhaleDetector:
 
         # Notificación por Telegram
         if TELEGRAM_ENABLED:
-            # Mensaje corto para Telegram
+            lado_texto = 'COMPRA' if side == 'BUY' else 'VENTA'
             telegram_msg = f"<b>{emoji} {categoria} CAPTURADA {emoji}</b>\n\n"
             telegram_msg += f"💰 <b>Valor:</b> ${valor:,.2f}\n"
             telegram_msg += f"📊 <b>Mercado:</b> {market_info.get('question', 'N/A')[:80]}\n"
-            telegram_msg += f"📈 <b>Lado:</b> {'COMPRA' if side == 'BUY' else 'VENTA'}\n"
+            telegram_msg += f"🎯 <b>Outcome:</b> {outcome}\n"
+            telegram_msg += f"📈 <b>Lado:</b> {lado_texto}\n"
             telegram_msg += f"💵 <b>Precio:</b> {price:.4f} ({price*100:.2f}%)\n"
             telegram_msg += f"📦 <b>Volumen:</b> ${market_volume:,.0f}\n"
-            telegram_msg += f"👤 <b>Trader:</b> {display_name}\n\n"
+            telegram_msg += f"👤 <b>Trader:</b> {display_name}\n"
+            telegram_msg += f"🔗 <a href='{profile_url}'>Perfil del trader</a>\n"
+
+            if edge_result['is_sports'] and edge_result['pinnacle_price'] > 0:
+                pp = edge_result['pinnacle_price']
+                ep = edge_result['edge_pct']
+                edge_icon = "✅" if ep > 3 else "⚠️" if ep > 0 else "❌"
+                telegram_msg += f"\n📊 <b>Odds Pinnacle:</b> {pp:.2f} ({pp*100:.1f}%)\n"
+                telegram_msg += f"📊 <b>Edge:</b> {ep:+.1f}% {edge_icon}\n"
+
+                # Warning si es sucker bet
+                if edge_result.get('is_sucker_bet', False):
+                    telegram_msg += f"⚠️⚠️ <b>SUCKER BET</b> - Pagando {abs(ep):.1f}% MÁS que Pinnacle\n"
 
             if is_consensus:
-                telegram_msg += f"🔥 <b>CONSENSO:</b> {count} ballenas → {consensus_side}\n"
+                telegram_msg += f"\n🔥 <b>CONSENSO:</b> {count} ballenas → {consensus_side}\n"
 
             if is_coordinated:
                 telegram_msg += f"⚠️ <b>COORDINACIÓN:</b> {coord_count} wallets en {coord_desc.split('en')[1]}\n"
@@ -581,6 +636,110 @@ class AllMarketsWhaleDetector:
             telegram_msg += f"\n🔗 <a href='{market_url}'>Ver mercado</a>"
 
             send_telegram_notification(telegram_msg)
+
+        # Análisis paralelo del trader con polywhale_v5
+        self._analizar_trader_async(wallet, display_name, trade.get('title', '').lower())
+
+    def _analizar_trader_async(self, wallet, display_name, title_lower):
+        """Ejecuta polywhale_v5 en un hilo paralelo. Si silver/gold/diamond, envía a Telegram."""
+        if wallet == 'N/A':
+            return
+
+        # No analizar la misma wallet dos veces en la misma sesión
+        if not hasattr(self, '_wallets_analizadas'):
+            self._wallets_analizadas = set()
+
+        if wallet in self._wallets_analizadas:
+            return
+        self._wallets_analizadas.add(wallet)
+
+        def _run_analysis():
+            try:
+                from polywhale_v5_adjusted import TraderAnalyzer
+
+                analyzer = TraderAnalyzer(wallet)
+                if not analyzer.scrape_polymarketanalytics():
+                    return
+
+                analyzer.calculate_profitability_score()
+                analyzer.calculate_consistency_score()
+                analyzer.calculate_risk_management_score()
+                analyzer.calculate_experience_score()
+                analyzer.calculate_final_score()
+
+                tier = analyzer.scores.get('tier', '')
+                total = analyzer.scores.get('total', 0)
+                d = analyzer.scraped_data
+
+                # Solo enviar a Telegram si es silver, gold o diamond
+                tiers_validos = ['SILVER', 'GOLD', 'DIAMOND']
+                if not any(t in tier.upper() for t in tiers_validos):
+                    logger.info(f"🔍 Trader {display_name} ({wallet[:10]}...) → {tier} (score: {total}) — No se envía a Telegram")
+                    return
+
+                logger.info(f"🔍 Trader {display_name} ({wallet[:10]}...) → {tier} (score: {total}) — Enviando a Telegram")
+
+                # Construir mensaje de Telegram
+                rec = analyzer.generate_recommendation()
+                tg = f"<b>🔍 ANÁLISIS DE TRADER</b>\n\n"
+                tg += f"👤 <b>{display_name}</b> | {tier}\n"
+                tg += f"📊 <b>Score:</b> {total}/100\n"
+                tg += f"📈 <b>PnL:</b> ${d.get('pnl', 0):,.0f}\n"
+                tg += f"🎯 <b>Win Rate:</b> {d.get('win_rate', 0):.1f}%\n"
+                tg += f"📊 <b>Trades:</b> {d.get('total_trades', 0):,}\n"
+                tg += f"🏆 <b>Ranking:</b> #{d.get('rank', 'N/A')}\n"
+
+                # Especialización con detalle
+                categories = d.get('categories', [])
+                if categories:
+                    tg += f"\n<b>🧠 ESPECIALIZACIÓN:</b>\n"
+                    # Detectar si el mercado actual matchea una categoría
+                    sports_kw = ['win', 'vs', ' fc', 'nba', 'nfl', 'liga', 'premier',
+                                 'serie a', 'bundesliga', 'ligue', 'ufc', 'nhl', 'mlb', 'tennis', 'cup']
+                    is_current_sports = any(kw in title_lower for kw in sports_kw)
+
+                    for cat in categories[:5]:
+                        pnl = cat['pnl']
+                        pnl_icon = "🟢" if pnl > 0 else "🔴"
+                        pnl_str = f"+${pnl:,.0f}" if pnl >= 0 else f"-${abs(pnl):,.0f}"
+                        cat_name = cat['name']
+                        tg += f"  {pnl_icon} #{cat['rank']} {cat_name}: {pnl_str}\n"
+
+                        # Detectar si es especialista en el mercado actual
+                        if is_current_sports and pnl > 0:
+                            cat_lower = cat_name.lower()
+                            if any(kw in cat_lower for kw in ['sport', 'football', 'soccer', 'basket', 'baseball',
+                                                               'hockey', 'tennis', 'mma', 'boxing', 'cricket']):
+                                tg += f"  ⭐ <b>ESPECIALISTA en {cat_name} con {pnl_str}</b>\n"
+
+                # Sub-especialización deportiva
+                sport_subtypes = analyzer._detect_sport_subtypes(d)
+                if sport_subtypes:
+                    tg += f"\n<b>⚽ DETALLE DEPORTIVO:</b>\n"
+                    for sport, info in sorted(sport_subtypes.items(), key=lambda x: x[1]['pnl'], reverse=True):
+                        spnl = info['pnl']
+                        icon = "🟢" if spnl > 0 else "🔴"
+                        spnl_str = f"+${spnl:,.0f}" if spnl >= 0 else f"-${abs(spnl):,.0f}"
+                        tg += f"  {icon} {sport}: {spnl_str} ({info['count']} trades)\n"
+
+                # Biggest wins relevantes
+                wins = d.get('biggest_wins', [])
+                if wins:
+                    tg += f"\n<b>🏆 Top Wins:</b>\n"
+                    for w in wins[:3]:
+                        tg += f"  +${w['amount']:,.0f} — {w['market'][:40]}\n"
+
+                tg += f"\n💡 <b>{rec[:100]}</b>\n"
+                tg += f"\n🔗 <a href='https://polymarket.com/profile/{wallet}'>Ver perfil</a>"
+                tg += f" | <a href='https://polymarketanalytics.com/traders/{wallet}'>Analytics</a>"
+
+                send_telegram_notification(tg)
+
+            except Exception as e:
+                logger.warning(f"Error en análisis paralelo de {wallet[:10]}...: {e}")
+
+        # Usar ThreadPoolExecutor para limitar concurrencia (max 2 análisis simultáneos)
+        self.analysis_executor.submit(_run_analysis)
 
     def ejecutar(self):
         # Mostrar resumen de configuración al iniciar

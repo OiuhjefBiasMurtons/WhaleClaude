@@ -1,0 +1,34 @@
+
+================================================================================
+🚀 MONITOR INICIADO
+================================================================================
+💵 Umbral de ballena:        $1,500.00 USD
+⏱️  Intervalo de polling:     3 segundos
+📊 Límite de trades/ciclo:   1000
+⏰ Ventana de tiempo:        30 minutos (solo trades recientes)
+💾 Archivo de log:           trades_live/whales_20260215_011532.txt
+📂 Trades en memoria:        5000
+📱 Notificaciones Telegram:  ✅ ACTIVO
+🔄 Esperando trades...
+================================================================================
+
+
+
+================================================================================
+📊 RESUMEN DE SESIÓN
+================================================================================
+⏱️  Tiempo de monitoreo:     0h 18m 4s
+🐋 Total de ballenas:       5
+✅ Ballenas capturadas:     0
+⛔ Ballenas ignoradas:      5
+💰 Valor promedio:          $2,940.68 USD
+💎 Ballena más grande:      $5,445.86 USD
+   └─ Mercado: Will Esteban Ocon be the 2026 F1 Drivers' Champion...
+   └─ Wallet: 0xbf2a62fcda2b07e094...
+📊 Mercados monitoreados:   0
+
+💾 Archivos guardados:
+   - trades_live/whales_20260215_011532.txt (log formateado)
+   - trades_live/historial_trades.json (historial de trades)
+
+================================================================================

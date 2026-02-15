@@ -1,0 +1,373 @@
+
+================================================================================
+🚀 MONITOR INICIADO
+================================================================================
+💵 Umbral de ballena:        $1,500.00 USD
+⏱️  Intervalo de polling:     3 segundos
+📊 Límite de trades/ciclo:   1000
+⏰ Ventana de tiempo:        30 minutos (solo trades recientes)
+💾 Archivo de log:           trades_live/whales_20260215_011744.txt
+📂 Trades en memoria:        0
+🔄 Esperando trades...
+================================================================================
+
+
+================================================================================
+🦈 TIBURÓN DETECTADA 🦈
+================================================================================
+💰 Valor: $1,542.75 USD
+📊 Mercado: Will Bitcoin reach $105,000 in February?
+🔗 URL: https://polymarket.com/event/what-price-will-bitcoin-hit-in-february-2026
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.9960 (99.60%)
+🕐 Hora: 2026-02-15 01:09:11
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: jwp9999
+   Wallet: 0xe1194d05876b71b05572c1b59bd49a157f21e30f
+   Perfil: https://polymarket.com/profile/0xe1194d05876b71b05572c1b59bd49a157f21e30f
+   TX Hash: 0x8067d0a90ec8095556...02a3ee9d26
+   TX URL: https://polygonscan.com/tx/0x8067d0a90ec8095556fde844ef7f34dd1fb656ac18f1c8889a295502a3ee9d26
+================================================================================
+
+
+================================================================================
+🐋🐋🐋🐋 ULTRA BALLENA DETECTADA 🐋🐋🐋🐋
+================================================================================
+💰 Valor: $22,265.60 USD
+📊 Mercado: Will the Fed increase interest rates by 25+ bps after the March 2026 meeting?
+🔗 URL: https://polymarket.com/event/fed-decision-in-march-885
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.9940 (99.40%)
+🕐 Hora: 2026-02-15 01:09:07
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Syrra
+   Wallet: 0x7ba5354929bf388707f397c8b21b8322dc954252
+   Perfil: https://polymarket.com/profile/0x7ba5354929bf388707f397c8b21b8322dc954252
+   TX Hash: 0x4a36dc2bd49de5c88f...e430fbafcf
+   TX URL: https://polygonscan.com/tx/0x4a36dc2bd49de5c88f775b223e747410c12898d074f35d68dd54c5e430fbafcf
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,038.64 USD
+📊 Mercado: Will Benfica win the 2025–26 Champions League?
+🔗 URL: https://polymarket.com/event/uefa-champions-league-winner
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.9970 (99.70%)
+🕐 Hora: 2026-02-15 01:08:49
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: KLGFDGS
+   Wallet: 0x51a879c248fbe87126cea93c608a3347121a610c
+   Perfil: https://polymarket.com/profile/0x51a879c248fbe87126cea93c608a3347121a610c
+   TX Hash: 0xbc9cfa59362ae28e80...4504e261a4
+   TX URL: https://polygonscan.com/tx/0xbc9cfa59362ae28e807d79c6793607280e0d2e3008d1e7068685334504e261a4
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $5,188.50 USD
+📊 Mercado: US strikes Iran by February 15, 2026?
+🔗 URL: https://polymarket.com/event/us-strikes-iran-by
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.9950 (99.50%)
+🕐 Hora: 2026-02-15 01:08:47
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: CalvinJudson
+   Wallet: 0x6e913f0e6cf4020cfd13311d2f7608fd41c26189
+   Perfil: https://polymarket.com/profile/0x6e913f0e6cf4020cfd13311d2f7608fd41c26189
+   TX Hash: 0xa586e00f2f58db0d45...7bc1b4e5a8
+   TX URL: https://polygonscan.com/tx/0xa586e00f2f58db0d45a36a750a4bfe387fa320ba217d09d93c12cf7bc1b4e5a8
+================================================================================
+
+
+================================================================================
+🦈 TIBURÓN DETECTADA 🦈
+================================================================================
+💰 Valor: $2,000.00 USD
+📊 Mercado: Bitcoin Up or Down - February 15, 1:10AM-1:15AM ET
+🔗 URL: https://polymarket.com/event/btc-updown-5m-1771135800
+🎯 Outcome: Down
+📈 Lado: COMPRA
+💵 Precio: 0.9900 (99.00%)
+🕐 Hora: 2026-02-15 01:15:03
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0xc4C6d8fa05FF891E3393BcA1D8c693a5cAD0a6c6-1770971679851
+   Wallet: 0xc4c6d8fa05ff891e3393bca1d8c693a5cad0a6c6
+   Perfil: https://polymarket.com/profile/0xc4c6d8fa05ff891e3393bca1d8c693a5cad0a6c6
+   TX Hash: 0xde930713d239765cdd...1a5e592081
+   TX URL: https://polygonscan.com/tx/0xde930713d239765cdde52c64b32a9c830353ef0a8ab8c627cc4e2a1a5e592081
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $5,445.86 USD
+📊 Mercado: Will Esteban Ocon be the 2026 F1 Drivers' Champion?
+🔗 URL: https://polymarket.com/event/2026-f1-drivers-champion
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.9980 (99.80%)
+🕐 Hora: 2026-02-15 01:19:41
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: MaudFrances
+   Wallet: 0xbf2a62fcda2b07e094e7407bf86bc1a7c08ff6b2
+   Perfil: https://polymarket.com/profile/0xbf2a62fcda2b07e094e7407bf86bc1a7c08ff6b2
+   TX Hash: 0xaccc616fa1e80139d3...1bdebdcc6e
+   TX URL: https://polygonscan.com/tx/0xaccc616fa1e80139d3190768bb03b15948c7a298d92263590e8ef61bdebdcc6e
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $3,164.19 USD
+📊 Mercado: Will the government shutdown last 7 days or more?
+🔗 URL: https://polymarket.com/event/how-long-will-the-government-shutdown-last
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.9990 (99.90%)
+🕐 Hora: 2026-02-15 01:19:27
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: iForgor
+   Wallet: 0x0562e01b3c3e65bb93bf0de32f02cec238a79d66
+   Perfil: https://polymarket.com/profile/0x0562e01b3c3e65bb93bf0de32f02cec238a79d66
+   TX Hash: 0x59787b3ca336dca789...8541048090
+   TX URL: https://polygonscan.com/tx/0x59787b3ca336dca7891bce50d7becb29241fffd4f7177dad836f778541048090
+================================================================================
+
+
+================================================================================
+🦈 TIBURÓN DETECTADA 🦈
+================================================================================
+💰 Valor: $1,565.06 USD
+📊 Mercado: Bitcoin Up or Down - February 15, 1:20AM-1:25AM ET
+🔗 URL: https://polymarket.com/event/btc-updown-5m-1771136400
+🎯 Outcome: Up
+📈 Lado: COMPRA
+💵 Precio: 0.9605 (96.05%)
+🕐 Hora: 2026-02-15 01:24:11
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 12345432
+   Wallet: 0xe2cd2aea8e0b02d04d0733868c88273278b73897
+   Perfil: https://polymarket.com/profile/0xe2cd2aea8e0b02d04d0733868c88273278b73897
+   TX Hash: 0x22f25936737f0912de...635569beab
+   TX URL: https://polygonscan.com/tx/0x22f25936737f0912deac78a322f6f576aa5fa0312929344e4856bc635569beab
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,528.28 USD
+📊 Mercado: Bitcoin Up or Down - February 15, 1:15AM-1:30AM ET
+🔗 URL: https://polymarket.com/event/btc-updown-15m-1771136100
+🎯 Outcome: Up
+📈 Lado: COMPRA
+💵 Precio: 0.9514 (95.14%)
+🕐 Hora: 2026-02-15 01:23:59
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Ihavenoideeawhatimdoing
+   Wallet: 0x13f42593aadba1672e93a5f116684a5b7bb993cb
+   Perfil: https://polymarket.com/profile/0x13f42593aadba1672e93a5f116684a5b7bb993cb
+   TX Hash: 0x2fb746ace0a3d497fd...1fbf383cfb
+   TX URL: https://polygonscan.com/tx/0x2fb746ace0a3d497fd45de545ed90cb45f57fd37bcc215632a409b1fbf383cfb
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $3,574.38 USD
+📊 Mercado: Russia x Ukraine ceasefire by end of 2026?
+🔗 URL: https://polymarket.com/event/russia-x-ukraine-ceasefire-before-2027
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.5800 (58.00%)
+🕐 Hora: 2026-02-15 01:30:07
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: hlopack
+   Wallet: 0x91e8a6edec03e7a81c88621123ebd041cb5ef1ab
+   Perfil: https://polymarket.com/profile/0x91e8a6edec03e7a81c88621123ebd041cb5ef1ab
+   TX Hash: 0x67f3eb55c4b18e439a...7b0e2bc1ba
+   TX URL: https://polygonscan.com/tx/0x67f3eb55c4b18e439a7abdba4f1fa33e529b86ca42e423992691cc7b0e2bc1ba
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $5,895.63 USD
+📊 Mercado: Bitcoin Up or Down - February 15, 1:25AM-1:30AM ET
+🔗 URL: https://polymarket.com/event/btc-updown-5m-1771136700
+🎯 Outcome: Up
+📈 Lado: COMPRA
+💵 Precio: 0.9900 (99.00%)
+🕐 Hora: 2026-02-15 01:30:03
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: BoneReader
+   Wallet: 0xd84c2b6d65dc596f49c7b6aadd6d74ca91e407b9
+   Perfil: https://polymarket.com/profile/0xd84c2b6d65dc596f49c7b6aadd6d74ca91e407b9
+   TX Hash: 0x852de99237cf55ee8e...ac72fd0927
+   TX URL: https://polygonscan.com/tx/0x852de99237cf55ee8e859838eb8ca99eaddd92874d54641145b800ac72fd0927
+================================================================================
+
+
+================================================================================
+🦈 TIBURÓN DETECTADA 🦈
+================================================================================
+💰 Valor: $1,585.43 USD
+📊 Mercado: Russia x Ukraine ceasefire by June 30, 2026?
+🔗 URL: https://polymarket.com/event/russia-x-ukraine-ceasefire-by-june-30-2026
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.7700 (77.00%)
+🕐 Hora: 2026-02-15 01:34:49
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: ScottyNooo
+   Wallet: 0xbacd00c9080a82ded56f504ee8810af732b0ab35
+   Perfil: https://polymarket.com/profile/0xbacd00c9080a82ded56f504ee8810af732b0ab35
+   TX Hash: 0xb7d76acc67c5b51efc...37d25b9bf1
+   TX URL: https://polygonscan.com/tx/0xb7d76acc67c5b51efc9178507081efa1464fecb6d5c2f74ab512bc37d25b9bf1
+================================================================================
+
+
+================================================================================
+🦈 TIBURÓN DETECTADA 🦈
+================================================================================
+💰 Valor: $2,000.00 USD
+📊 Mercado: Bitcoin Up or Down - February 15, 1:30AM-1:35AM ET
+🔗 URL: https://polymarket.com/event/btc-updown-5m-1771137000
+🎯 Outcome: Up
+📈 Lado: COMPRA
+💵 Precio: 0.9872 (98.72%)
+🕐 Hora: 2026-02-15 01:34:43
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Tonyes
+   Wallet: 0x2c68dd0c1edb51bed21036580ef08e5163d4fa00
+   Perfil: https://polymarket.com/profile/0x2c68dd0c1edb51bed21036580ef08e5163d4fa00
+   TX Hash: 0xa8dc8204aa06e99887...98f01545df
+   TX URL: https://polygonscan.com/tx/0xa8dc8204aa06e99887d54e7be186694c96b1dad75240a63facba5098f01545df
+================================================================================
+
+
+================================================================================
+🦈 TIBURÓN DETECTADA 🦈
+================================================================================
+💰 Valor: $1,838.36 USD
+📊 Mercado: Will Iran win the 2026 FIFA World Cup?
+🔗 URL: https://polymarket.com/event/2026-fifa-world-cup-winner-595
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.9970 (99.70%)
+🕐 Hora: 2026-02-15 01:34:41
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: FCCCBNH
+   Wallet: 0xa538b5698ad2065cc5750641c2d8308d9049d3b0
+   Perfil: https://polymarket.com/profile/0xa538b5698ad2065cc5750641c2d8308d9049d3b0
+   TX Hash: 0xff062a669251dada55...43db65272b
+   TX URL: https://polygonscan.com/tx/0xff062a669251dada55706186005ff11a92e40928e406c8327780ca43db65272b
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $5,000.00 USD
+📊 Mercado: Will the price of Bitcoin be above $62,000 on February 15?
+🔗 URL: https://polymarket.com/event/bitcoin-above-on-february-15
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.9990 (99.90%)
+🕐 Hora: 2026-02-15 01:34:37
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: fghg3g
+   Wallet: 0xc50461d68854d0e31d8ced635967691d85af6e6b
+   Perfil: https://polymarket.com/profile/0xc50461d68854d0e31d8ced635967691d85af6e6b
+   TX Hash: 0x9f7f3f335eb91d4796...fd782bba87
+   TX URL: https://polygonscan.com/tx/0x9f7f3f335eb91d47960c75c38f487fbcdc5e3ebbdc48cc607c309efd782bba87
+================================================================================
+
+
+================================================================================
+🦈 TIBURÓN DETECTADA 🦈
+================================================================================
+💰 Valor: $1,608.47 USD
+📊 Mercado: Will Iran win the 2026 FIFA World Cup?
+🔗 URL: https://polymarket.com/event/2026-fifa-world-cup-winner-595
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.9980 (99.80%)
+🕐 Hora: 2026-02-15 01:34:23
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: GSTRYTUJG
+   Wallet: 0xea22c8fb1f1eed926c00de67e699d6997ee50b78
+   Perfil: https://polymarket.com/profile/0xea22c8fb1f1eed926c00de67e699d6997ee50b78
+   TX Hash: 0x15ed1557e346c8049d...d7087a99cd
+   TX URL: https://polygonscan.com/tx/0x15ed1557e346c8049de3e6fa52f50c0edef6fbf4ddd4fde45ee2c2d7087a99cd
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,678.40 USD
+📊 Mercado: Will the Fed decrease interest rates by 50+ bps after the March 2026 meeting?
+🔗 URL: https://polymarket.com/event/fed-decision-in-march-885
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.9920 (99.20%)
+🕐 Hora: 2026-02-15 01:34:15
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: bulibuli1
+   Wallet: 0x592298ee23a970de54e12b2fcb30fe996ac185b2
+   Perfil: https://polymarket.com/profile/0x592298ee23a970de54e12b2fcb30fe996ac185b2
+   TX Hash: 0x3b05236ce332e0382b...fd6defc3a2
+   TX URL: https://polygonscan.com/tx/0x3b05236ce332e0382b5935a58ed401197cee71c4e53be4cf85d219fd6defc3a2
+================================================================================
+
+
+================================================================================
+🦈 TIBURÓN DETECTADA 🦈
+================================================================================
+💰 Valor: $1,563.10 USD
+📊 Mercado: Bitcoin Up or Down - February 15, 1:30AM-1:35AM ET
+🔗 URL: https://polymarket.com/event/btc-updown-5m-1771137000
+🎯 Outcome: Up
+📈 Lado: COMPRA
+💵 Precio: 0.9669 (96.69%)
+🕐 Hora: 2026-02-15 01:34:05
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 12345432
+   Wallet: 0xe2cd2aea8e0b02d04d0733868c88273278b73897
+   Perfil: https://polymarket.com/profile/0xe2cd2aea8e0b02d04d0733868c88273278b73897
+   TX Hash: 0xc41ff8ee75bf509efb...ca210dce14
+   TX URL: https://polygonscan.com/tx/0xc41ff8ee75bf509efb165147132800a62264dc1cf05dc5e090a0a8ca210dce14
+================================================================================
+
