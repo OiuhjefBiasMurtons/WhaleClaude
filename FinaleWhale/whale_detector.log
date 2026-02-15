@@ -1,0 +1,497 @@
+2026-02-14 11:29:43,135 - INFO - 🚀 Monitor iniciado. Umbral: $1,500.00
+2026-02-14 11:32:11,182 - INFO - 💾 Historial guardado: 1000 trades
+2026-02-14 11:34:41,185 - INFO - 💾 Historial guardado: 1000 trades
+2026-02-14 11:34:41,185 - INFO - 💓 Heartbeat: 1000 trades en memoria. Cache mercados: 0
+2026-02-14 11:37:11,210 - INFO - 💾 Historial guardado: 2000 trades
+2026-02-14 11:39:41,213 - INFO - 💾 Historial guardado: 2000 trades
+2026-02-14 11:39:41,214 - INFO - 💓 Heartbeat: 2000 trades en memoria. Cache mercados: 0
+2026-02-14 11:42:11,211 - INFO - 💾 Historial guardado: 3000 trades
+2026-02-14 11:44:41,231 - INFO - 💾 Historial guardado: 3000 trades
+2026-02-14 11:44:41,231 - INFO - 💓 Heartbeat: 3000 trades en memoria. Cache mercados: 0
+2026-02-14 11:47:11,272 - INFO - 💾 Historial guardado: 4000 trades
+2026-02-14 11:49:41,276 - INFO - 💾 Historial guardado: 4000 trades
+2026-02-14 11:49:41,277 - INFO - 💓 Heartbeat: 4000 trades en memoria. Cache mercados: 0
+2026-02-14 11:52:12,103 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 11:54:42,103 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 11:54:42,103 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache mercados: 0
+2026-02-14 11:57:12,119 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 11:59:42,137 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 11:59:42,138 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache mercados: 0
+2026-02-14 12:02:12,157 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 12:04:42,170 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 12:04:42,171 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache mercados: 0
+2026-02-14 12:05:26,300 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 12:05:40,921 - INFO - 📂 Historial cargado: 5000 trades previos
+2026-02-14 12:05:40,922 - INFO - 🚀 Monitor iniciado. Umbral: $1,500.00
+2026-02-14 12:08:08,266 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 12:10:38,275 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 12:10:38,276 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache mercados: 0
+2026-02-14 12:13:08,299 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 12:15:38,319 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 12:15:38,320 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache mercados: 0
+2026-02-14 12:18:08,356 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 12:20:38,436 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 12:20:38,445 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache mercados: 0
+2026-02-14 12:23:08,438 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 12:25:00,267 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 12:25:06,611 - INFO - 📂 Historial cargado: 5000 trades previos
+2026-02-14 12:25:06,611 - INFO - 🚀 Monitor iniciado. Umbral: $1,500.00
+2026-02-14 12:27:33,943 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 12:30:03,979 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 12:30:03,980 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache mercados: 0
+2026-02-14 12:32:33,984 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 12:35:04,016 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 12:35:04,017 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache mercados: 1
+2026-02-14 12:37:34,013 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 12:40:04,053 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 12:40:04,062 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache mercados: 2
+2026-02-14 12:42:34,064 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 12:45:04,075 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 12:45:04,076 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache mercados: 2
+2026-02-14 12:47:34,583 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 12:50:04,993 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 12:50:04,995 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache mercados: 5
+2026-02-14 12:52:34,998 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 12:55:04,991 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 12:55:04,991 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache mercados: 5
+2026-02-14 12:57:31,773 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='data-api.polymarket.com', port=443): Read timed out. (read timeout=30)")': /trades?limit=1000
+2026-02-14 12:58:02,705 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 13:00:32,703 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 13:00:32,704 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache mercados: 5
+2026-02-14 13:03:02,722 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 13:04:53,688 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='data-api.polymarket.com', port=443): Read timed out. (read timeout=30)")': /trades?limit=1000
+2026-02-14 13:05:05,114 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='gamma-api.polymarket.com', port=443): Read timed out. (read timeout=10)")': /markets?condition_id=0xae987120ec0a4bafd9e71e74e9132525cbd8b6c7a2a58162c97e0bdb25adc07b
+2026-02-14 13:06:13,742 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 13:06:13,742 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache mercados: 7
+2026-02-14 13:08:43,786 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 13:11:13,798 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 13:11:13,798 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache mercados: 7
+2026-02-14 13:13:43,821 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 13:16:13,838 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 13:16:13,838 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache mercados: 7
+2026-02-14 13:18:43,870 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 13:21:13,879 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 13:21:13,880 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache mercados: 7
+2026-02-14 13:23:43,875 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 13:24:49,894 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 13:24:57,148 - INFO - 📂 Historial cargado: 5000 trades previos
+2026-02-14 13:24:57,148 - INFO - 🚀 Monitor iniciado. Umbral: $1,500.00
+2026-02-14 13:27:25,519 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 13:29:55,563 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 13:29:55,564 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 1 | Capturadas: 1 | Ignoradas: 4
+2026-02-14 13:32:28,810 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 13:34:58,856 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 13:34:58,856 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 3 | Capturadas: 3 | Ignoradas: 4
+2026-02-14 13:37:59,103 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='data-api.polymarket.com', port=443): Read timed out. (read timeout=30)")': /trades?limit=1000
+2026-02-14 13:38:00,350 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 13:40:30,366 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 13:40:30,366 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 3 | Capturadas: 3 | Ignoradas: 4
+2026-02-14 13:43:02,277 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 13:45:34,092 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 13:45:34,093 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 3 | Capturadas: 3 | Ignoradas: 9
+2026-02-14 13:48:08,227 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 13:50:40,128 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 13:50:40,128 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 7 | Capturadas: 7 | Ignoradas: 11
+2026-02-14 13:53:21,143 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='data-api.polymarket.com', port=443): Read timed out. (read timeout=30)")': /trades?limit=1000
+2026-02-14 13:53:32,909 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='gamma-api.polymarket.com', port=443): Read timed out. (read timeout=10)")': /markets?condition_id=0x21a8ea518e9cee8246ad33d45e4277e184f56579ba98454446dbf172b77771f4
+2026-02-14 13:53:54,990 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 13:56:27,059 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 13:56:27,060 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 8 | Capturadas: 8 | Ignoradas: 12
+2026-02-14 13:59:00,590 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 14:01:33,394 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 14:01:33,395 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 9 | Capturadas: 9 | Ignoradas: 12
+2026-02-14 14:04:06,628 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 14:06:38,426 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 14:06:38,426 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 10 | Capturadas: 10 | Ignoradas: 13
+2026-02-14 14:09:10,112 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 14:11:42,697 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 14:11:42,697 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 10 | Capturadas: 10 | Ignoradas: 17
+2026-02-14 14:14:14,917 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 14:16:47,776 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 14:16:47,776 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 10 | Capturadas: 10 | Ignoradas: 17
+2026-02-14 14:19:22,334 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 14:21:54,252 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 14:21:54,253 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 11 | Capturadas: 12 | Ignoradas: 17
+2026-02-14 14:24:27,349 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 14:26:59,847 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 14:26:59,847 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 11 | Capturadas: 12 | Ignoradas: 19
+2026-02-14 14:29:33,887 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 14:32:06,934 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 14:32:06,934 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 12 | Capturadas: 13 | Ignoradas: 22
+2026-02-14 14:34:39,885 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 14:37:13,003 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 14:37:13,003 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 13 | Capturadas: 14 | Ignoradas: 23
+2026-02-14 14:39:50,946 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 14:42:23,300 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 14:42:23,301 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 16 | Capturadas: 17 | Ignoradas: 27
+2026-02-14 14:44:56,210 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 14:47:28,832 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 14:47:28,833 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 16 | Capturadas: 17 | Ignoradas: 28
+2026-02-14 14:50:03,063 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 14:52:36,321 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 14:52:36,321 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 17 | Capturadas: 18 | Ignoradas: 28
+2026-02-14 14:55:08,483 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 14:57:41,020 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 14:57:41,020 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 18 | Capturadas: 19 | Ignoradas: 30
+2026-02-14 15:00:18,686 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 15:02:50,026 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 15:02:50,026 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 19 | Capturadas: 22 | Ignoradas: 31
+2026-02-14 15:05:31,646 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 15:08:04,399 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 15:08:04,400 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 22 | Capturadas: 27 | Ignoradas: 33
+2026-02-14 15:09:01,119 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='data-api.polymarket.com', port=443): Read timed out. (read timeout=30)")': /trades?limit=1000
+2026-02-14 15:09:47,676 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /trades?limit=1000
+2026-02-14 15:10:28,657 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='data-api.polymarket.com', port=443): Read timed out. (read timeout=30)")': /trades?limit=1000
+2026-02-14 15:11:14,207 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /trades?limit=1000
+2026-02-14 15:12:00,552 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /trades?limit=1000
+2026-02-14 15:12:46,004 - ERROR - ⚠️ Error de red/API: HTTPSConnectionPool(host='data-api.polymarket.com', port=443): Read timed out.
+2026-02-14 15:13:34,543 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='data-api.polymarket.com', port=443): Read timed out. (read timeout=30)")': /trades?limit=1000
+2026-02-14 15:14:21,672 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='data-api.polymarket.com', port=443): Read timed out. (read timeout=30)")': /trades?limit=1000
+2026-02-14 15:15:07,579 - ERROR - ⚠️ Error de red/API: HTTPSConnectionPool(host='data-api.polymarket.com', port=443): Read timed out.
+2026-02-14 15:15:07,587 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 15:15:53,394 - ERROR - ⚠️ Error de red/API: HTTPSConnectionPool(host='data-api.polymarket.com', port=443): Read timed out.
+2026-02-14 15:16:42,104 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='data-api.polymarket.com', port=443): Read timed out. (read timeout=30)")': /trades?limit=1000
+2026-02-14 15:16:54,131 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("HTTPSConnection(host='data-api.polymarket.com', port=443): Failed to resolve 'data-api.polymarket.com' ([Errno -2] Name or service not known)")': /trades?limit=1000
+2026-02-14 15:18:47,648 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 15:18:47,650 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 23 | Capturadas: 28 | Ignoradas: 47
+2026-02-14 15:21:18,335 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 15:23:49,714 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 15:23:49,714 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 23 | Capturadas: 29 | Ignoradas: 57
+2026-02-14 15:24:29,565 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /markets?condition_id=0xe2d5ca8d396f6ea3f066a05535742ef45cc6e884baa27310171b87fe52c34ac1
+2026-02-14 15:26:21,649 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 15:28:54,645 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 15:28:54,645 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 23 | Capturadas: 29 | Ignoradas: 65
+2026-02-14 15:31:27,409 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 15:33:59,235 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 15:33:59,235 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 24 | Capturadas: 30 | Ignoradas: 67
+2026-02-14 15:36:35,846 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 15:39:08,608 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 15:39:08,608 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 26 | Capturadas: 32 | Ignoradas: 68
+2026-02-14 15:41:42,398 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 15:44:16,265 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 15:44:16,266 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 26 | Capturadas: 32 | Ignoradas: 69
+2026-02-14 15:46:54,688 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 15:49:28,489 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 15:49:28,489 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 28 | Capturadas: 35 | Ignoradas: 70
+2026-02-14 15:52:02,212 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 15:54:35,366 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 15:54:35,366 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 29 | Capturadas: 36 | Ignoradas: 70
+2026-02-14 15:57:14,008 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 15:59:46,535 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 15:59:46,535 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 31 | Capturadas: 39 | Ignoradas: 70
+2026-02-14 16:02:22,725 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 16:04:56,124 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 16:04:56,124 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 32 | Capturadas: 40 | Ignoradas: 71
+2026-02-14 16:07:29,549 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 16:10:03,779 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 16:10:03,782 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 32 | Capturadas: 40 | Ignoradas: 71
+2026-02-14 16:12:37,899 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 16:15:11,276 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 16:15:11,276 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 32 | Capturadas: 40 | Ignoradas: 74
+2026-02-14 16:17:45,445 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 16:20:18,987 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 16:20:18,987 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 32 | Capturadas: 40 | Ignoradas: 74
+2026-02-14 16:22:53,554 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 16:25:28,076 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 16:25:28,076 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 32 | Capturadas: 40 | Ignoradas: 74
+2026-02-14 16:28:01,717 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 16:30:36,184 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 16:30:36,184 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 32 | Capturadas: 40 | Ignoradas: 75
+2026-02-14 16:33:10,859 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 16:35:44,590 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 16:35:44,593 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 32 | Capturadas: 40 | Ignoradas: 76
+2026-02-14 16:38:19,147 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 16:40:52,734 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 16:40:52,734 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 32 | Capturadas: 40 | Ignoradas: 78
+2026-02-14 16:43:27,576 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 16:46:02,257 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 16:46:02,257 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 32 | Capturadas: 40 | Ignoradas: 82
+2026-02-14 16:48:36,047 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 16:51:10,684 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 16:51:10,684 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 32 | Capturadas: 40 | Ignoradas: 84
+2026-02-14 16:53:44,557 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 16:56:19,291 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 16:56:19,291 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 32 | Capturadas: 40 | Ignoradas: 86
+2026-02-14 16:58:54,155 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 17:01:31,372 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 17:01:31,372 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 34 | Capturadas: 42 | Ignoradas: 90
+2026-02-14 17:04:06,150 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 17:06:43,964 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 17:06:43,965 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 35 | Capturadas: 44 | Ignoradas: 90
+2026-02-14 17:09:16,160 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 17:11:51,889 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 17:11:51,895 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 36 | Capturadas: 46 | Ignoradas: 91
+2026-02-14 17:14:24,991 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 17:16:55,978 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 17:16:55,978 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 36 | Capturadas: 46 | Ignoradas: 91
+2026-02-14 17:19:29,017 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 17:22:00,961 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 17:22:00,961 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 36 | Capturadas: 46 | Ignoradas: 92
+2026-02-14 17:24:32,999 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 17:27:11,080 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 17:27:11,080 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 37 | Capturadas: 48 | Ignoradas: 95
+2026-02-14 17:29:45,097 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 17:32:19,920 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 17:32:19,921 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 37 | Capturadas: 48 | Ignoradas: 98
+2026-02-14 17:34:53,963 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 17:37:28,807 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 17:37:28,807 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 37 | Capturadas: 48 | Ignoradas: 98
+2026-02-14 17:40:02,969 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 17:42:36,970 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 17:42:36,970 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 37 | Capturadas: 49 | Ignoradas: 102
+2026-02-14 17:45:10,094 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 17:47:57,926 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 17:47:57,926 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 41 | Capturadas: 55 | Ignoradas: 107
+2026-02-14 17:50:29,982 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 17:53:05,040 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 17:53:05,040 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 42 | Capturadas: 56 | Ignoradas: 109
+2026-02-14 17:55:37,122 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 17:58:16,734 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 17:58:16,735 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 44 | Capturadas: 59 | Ignoradas: 110
+2026-02-14 18:00:52,453 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 18:03:26,236 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 18:03:26,236 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 44 | Capturadas: 59 | Ignoradas: 113
+2026-02-14 18:06:01,723 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 18:08:37,076 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 18:08:37,076 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 44 | Capturadas: 59 | Ignoradas: 113
+2026-02-14 18:11:11,308 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 18:13:46,579 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 18:13:46,579 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 44 | Capturadas: 59 | Ignoradas: 114
+2026-02-14 18:16:24,807 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 18:19:00,271 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 18:19:00,271 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 45 | Capturadas: 62 | Ignoradas: 116
+2026-02-14 18:21:35,827 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 18:24:10,371 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 18:24:10,372 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 45 | Capturadas: 62 | Ignoradas: 118
+2026-02-14 18:26:45,988 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 18:29:21,198 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 18:29:21,198 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 45 | Capturadas: 63 | Ignoradas: 118
+2026-02-14 18:31:55,351 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 18:34:30,488 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 18:34:30,488 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 45 | Capturadas: 63 | Ignoradas: 119
+2026-02-14 18:37:04,966 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 18:39:40,493 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 18:39:40,493 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 45 | Capturadas: 63 | Ignoradas: 119
+2026-02-14 18:42:16,444 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 18:44:51,048 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 18:44:51,048 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 45 | Capturadas: 63 | Ignoradas: 119
+2026-02-14 18:47:27,937 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 18:50:01,332 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 18:50:01,333 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 46 | Capturadas: 64 | Ignoradas: 119
+2026-02-14 18:52:37,889 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 18:55:12,571 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 18:55:12,573 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 47 | Capturadas: 65 | Ignoradas: 121
+2026-02-14 18:57:47,133 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 19:00:22,243 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 19:00:22,243 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 47 | Capturadas: 65 | Ignoradas: 126
+2026-02-14 19:02:59,054 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 19:05:33,822 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 19:05:33,822 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 48 | Capturadas: 66 | Ignoradas: 128
+2026-02-14 19:08:08,633 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 19:10:44,459 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 19:10:44,459 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 48 | Capturadas: 66 | Ignoradas: 130
+2026-02-14 19:13:20,355 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 19:15:55,254 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 19:15:55,254 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 48 | Capturadas: 66 | Ignoradas: 130
+2026-02-14 19:18:31,397 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 19:21:06,384 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 19:21:06,388 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 48 | Capturadas: 66 | Ignoradas: 133
+2026-02-14 19:23:42,578 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 19:26:18,511 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 19:26:18,511 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 48 | Capturadas: 66 | Ignoradas: 134
+2026-02-14 19:28:54,221 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 19:31:30,416 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 19:31:30,416 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 49 | Capturadas: 67 | Ignoradas: 138
+2026-02-14 19:34:05,212 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 19:36:41,432 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 19:36:41,432 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 49 | Capturadas: 67 | Ignoradas: 142
+2026-02-14 19:39:17,576 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 19:41:52,589 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 19:41:52,589 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 49 | Capturadas: 67 | Ignoradas: 144
+2026-02-14 19:44:28,925 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 19:47:11,247 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 19:47:11,248 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 51 | Capturadas: 70 | Ignoradas: 146
+2026-02-14 19:49:44,939 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 19:52:22,152 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 19:52:22,152 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 52 | Capturadas: 71 | Ignoradas: 149
+2026-02-14 19:54:58,422 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 19:57:33,564 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 19:57:33,564 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 52 | Capturadas: 72 | Ignoradas: 150
+2026-02-14 20:00:09,958 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 20:03:12,644 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 20:03:12,644 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 54 | Capturadas: 89 | Ignoradas: 151
+2026-02-14 20:05:48,986 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 20:08:33,966 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 20:08:33,966 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 56 | Capturadas: 93 | Ignoradas: 151
+2026-02-14 20:11:09,423 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 20:13:45,513 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 20:13:45,513 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 57 | Capturadas: 94 | Ignoradas: 152
+2026-02-14 20:16:21,620 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 20:18:53,974 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 20:18:53,975 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 57 | Capturadas: 94 | Ignoradas: 153
+2026-02-14 20:21:29,953 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 20:24:05,297 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 20:24:05,298 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 57 | Capturadas: 94 | Ignoradas: 155
+2026-02-14 20:26:42,054 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 20:29:19,236 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 20:29:19,236 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 57 | Capturadas: 94 | Ignoradas: 158
+2026-02-14 20:31:54,405 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 20:34:31,965 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 20:34:31,965 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 58 | Capturadas: 95 | Ignoradas: 163
+2026-02-14 20:37:07,350 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 20:39:44,565 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 20:39:44,565 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 58 | Capturadas: 95 | Ignoradas: 166
+2026-02-14 20:42:22,289 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 20:44:57,761 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 20:44:57,763 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 59 | Capturadas: 96 | Ignoradas: 167
+2026-02-14 20:47:34,829 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 20:50:12,259 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 20:50:12,259 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 59 | Capturadas: 96 | Ignoradas: 168
+2026-02-14 20:52:50,652 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 20:55:26,321 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 20:55:26,321 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 60 | Capturadas: 98 | Ignoradas: 171
+2026-02-14 20:58:01,466 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 21:00:38,473 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 21:00:38,473 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 61 | Capturadas: 99 | Ignoradas: 173
+2026-02-14 21:03:17,868 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 21:05:53,604 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 21:05:53,604 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 62 | Capturadas: 101 | Ignoradas: 179
+2026-02-14 21:08:30,849 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 21:11:08,166 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 21:11:08,167 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 62 | Capturadas: 101 | Ignoradas: 180
+2026-02-14 21:13:43,779 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 21:16:20,914 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 21:16:20,914 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 62 | Capturadas: 101 | Ignoradas: 181
+2026-02-14 21:18:56,517 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 21:21:33,583 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 21:21:33,583 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 62 | Capturadas: 101 | Ignoradas: 182
+2026-02-14 21:24:10,805 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 21:26:46,713 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 21:26:46,714 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 62 | Capturadas: 101 | Ignoradas: 183
+2026-02-14 21:29:25,243 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 21:32:02,757 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 21:32:02,757 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 63 | Capturadas: 102 | Ignoradas: 184
+2026-02-14 21:34:38,576 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 21:37:15,813 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 21:37:15,815 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 63 | Capturadas: 102 | Ignoradas: 184
+2026-02-14 21:39:52,426 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 21:42:28,353 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 21:42:28,353 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 64 | Capturadas: 104 | Ignoradas: 186
+2026-02-14 21:45:06,785 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 21:47:50,045 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 21:47:50,045 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 68 | Capturadas: 108 | Ignoradas: 194
+2026-02-14 21:50:25,831 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 21:53:04,249 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 21:53:04,249 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 69 | Capturadas: 109 | Ignoradas: 195
+2026-02-14 21:55:38,947 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 21:58:16,436 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 21:58:16,436 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 69 | Capturadas: 109 | Ignoradas: 200
+2026-02-14 22:00:52,509 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 22:03:30,221 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 22:03:30,222 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 69 | Capturadas: 110 | Ignoradas: 202
+2026-02-14 22:06:07,919 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 22:08:43,615 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 22:08:43,615 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 69 | Capturadas: 110 | Ignoradas: 204
+2026-02-14 22:11:20,921 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 22:13:59,676 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 22:13:59,676 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 70 | Capturadas: 111 | Ignoradas: 213
+2026-02-14 22:16:34,435 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 22:19:15,118 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 22:19:15,118 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 71 | Capturadas: 113 | Ignoradas: 215
+2026-02-14 22:21:49,771 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 22:24:26,153 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 22:24:26,154 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 71 | Capturadas: 113 | Ignoradas: 223
+2026-02-14 22:26:59,142 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 22:29:37,736 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 22:29:37,736 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 72 | Capturadas: 114 | Ignoradas: 226
+2026-02-14 22:32:14,003 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 22:34:54,333 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 22:34:54,333 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 73 | Capturadas: 117 | Ignoradas: 228
+2026-02-14 22:37:29,266 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 22:40:08,542 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 22:40:08,542 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 74 | Capturadas: 118 | Ignoradas: 228
+2026-02-14 22:41:45,869 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='data-api.polymarket.com', port=443): Read timed out. (read timeout=30)")': /trades?limit=1000
+2026-02-14 22:43:13,437 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 22:45:51,675 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 22:45:51,677 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 74 | Capturadas: 118 | Ignoradas: 228
+2026-02-14 22:48:28,881 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 22:51:07,456 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 22:51:07,456 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 74 | Capturadas: 118 | Ignoradas: 229
+2026-02-14 22:53:45,985 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 22:56:22,788 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 22:56:22,789 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 74 | Capturadas: 118 | Ignoradas: 231
+2026-02-14 22:59:01,480 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 23:01:40,013 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 23:01:40,013 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 74 | Capturadas: 118 | Ignoradas: 233
+2026-02-14 23:04:17,175 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 23:06:56,243 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 23:06:56,244 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 74 | Capturadas: 118 | Ignoradas: 240
+2026-02-14 23:09:35,169 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 23:12:12,284 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 23:12:12,284 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 75 | Capturadas: 119 | Ignoradas: 247
+2026-02-14 23:14:51,174 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 23:17:30,068 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 23:17:30,069 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 75 | Capturadas: 119 | Ignoradas: 249
+2026-02-14 23:20:07,291 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 23:22:46,099 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 23:22:46,103 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 75 | Capturadas: 119 | Ignoradas: 252
+2026-02-14 23:25:23,578 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 23:26:48,211 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='data-api.polymarket.com', port=443): Read timed out. (read timeout=30)")': /trades?limit=1000
+2026-02-14 23:28:32,071 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 23:28:32,072 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 75 | Capturadas: 119 | Ignoradas: 252
+2026-02-14 23:31:08,469 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 23:32:03,911 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='gamma-api.polymarket.com', port=443): Read timed out. (read timeout=10)")': /markets?condition_id=0x3bc0428f89fe3da586532b4db21aabd451150079580acb85b839515a8339e1f4
+2026-02-14 23:33:53,057 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 23:33:53,058 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 75 | Capturadas: 119 | Ignoradas: 253
+2026-02-14 23:36:31,216 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 23:39:11,798 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 23:39:11,799 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 76 | Capturadas: 120 | Ignoradas: 262
+2026-02-14 23:41:48,460 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 23:44:27,420 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 23:44:27,420 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 76 | Capturadas: 122 | Ignoradas: 264
+2026-02-14 23:45:13,707 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='data-api.polymarket.com', port=443): Read timed out. (read timeout=30)")': /trades?limit=1000
+2026-02-14 23:47:33,867 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 23:50:12,703 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 23:50:12,705 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 76 | Capturadas: 122 | Ignoradas: 264
+2026-02-14 23:52:50,693 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 23:55:25,975 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-14 23:55:25,975 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 77 | Capturadas: 124 | Ignoradas: 281
+2026-02-14 23:58:03,020 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-15 00:00:42,300 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-15 00:00:42,300 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 77 | Capturadas: 124 | Ignoradas: 283
+2026-02-15 00:03:19,371 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-15 00:05:20,596 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /markets?condition_id=0x61aa39e873558a208cf506fec2285114159d2ce7a71f9f32e705f14a7dcb10f9
+2026-02-15 00:05:58,228 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-15 00:05:58,228 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 78 | Capturadas: 125 | Ignoradas: 290
+2026-02-15 00:08:37,604 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-15 00:11:15,178 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-15 00:11:15,178 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 78 | Capturadas: 126 | Ignoradas: 292
+2026-02-15 00:13:53,588 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-15 00:16:31,738 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-15 00:16:31,742 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 78 | Capturadas: 126 | Ignoradas: 298
+2026-02-15 00:19:08,705 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-15 00:20:28,805 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /markets?condition_id=0x9796a43d9801d05c8982ea481e1306a83dfd7ef07b9548aa32fe592daf52c89d
+2026-02-15 00:21:47,047 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-15 00:21:47,047 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 79 | Capturadas: 128 | Ignoradas: 304
+2026-02-15 00:24:26,107 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-15 00:27:04,067 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-15 00:27:04,067 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 79 | Capturadas: 128 | Ignoradas: 306
+2026-02-15 00:29:44,029 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-15 00:32:22,033 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-15 00:32:22,033 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 79 | Capturadas: 128 | Ignoradas: 311
+2026-02-15 00:33:57,617 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='data-api.polymarket.com', port=443): Read timed out. (read timeout=30)")': /trades?limit=1000
+2026-02-15 00:35:33,298 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-15 00:38:11,142 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-15 00:38:11,142 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 79 | Capturadas: 128 | Ignoradas: 313
+2026-02-15 00:40:46,797 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-15 00:43:24,671 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-15 00:43:24,672 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 79 | Capturadas: 128 | Ignoradas: 315
+2026-02-15 00:46:00,371 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-15 00:48:39,550 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-15 00:48:39,550 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 79 | Capturadas: 128 | Ignoradas: 319
+2026-02-15 00:51:16,973 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-15 00:53:56,919 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-15 00:53:56,919 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 79 | Capturadas: 128 | Ignoradas: 327
+2026-02-15 00:56:37,297 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-15 00:59:15,325 - INFO - 💾 Historial guardado: 5000 trades
+2026-02-15 00:59:15,325 - INFO - 💓 Heartbeat: 5000 trades en memoria. Cache: 79 | Capturadas: 128 | Ignoradas: 330

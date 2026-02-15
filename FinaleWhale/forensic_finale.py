@@ -1,0 +1,776 @@
+#!/usr/bin/env python3
+"""
+🦈 POLYWHALE BATCH V17.0 - INTEGRADO CON POLYWHALE V5 ADJUSTED
+Integración completa con polywhale_v5_adjusted.py:
+- Sistema de scoring ajustado (35/25/20/20 puntos)
+- Scraping de polymarketanalytics.com para métricas verificadas
+- Detección avanzada de bots con 9 indicadores
+- Sistema de reliability grades (A+, A, B+, etc.)
+- Recomendaciones específicas basadas en análisis completo
+"""
+
+import requests
+import sys
+import os
+import time
+import re
+import concurrent.futures
+import subprocess
+import json
+from datetime import datetime, timedelta
+from collections import defaultdict, Counter
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
+import math
+from whale_scorer import WhaleScorer
+
+# Verificar dependencias para scraping
+XVFB_AVAILABLE = subprocess.run(['which', 'xvfb-run'], capture_output=True).returncode == 0
+SELENIUM_AVAILABLE = False
+try:
+    import undetected_chromedriver as uc
+    from selenium.webdriver.common.by import By
+    SELENIUM_AVAILABLE = True
+except ImportError:
+    pass
+
+# --- CONFIGURACIÓN ---
+DATA_API = "https://data-api.polymarket.com"
+ANALYTICS_URL = "https://polymarketanalytics.com/traders"
+CHROME_PATH = os.path.expanduser("~/.cache/ms-playwright/chromium-1200/chrome-linux64/chrome")
+SCRAPE_TIMEOUT = 18
+INPUT_DIR = "trades_live"
+OUTPUT_ROOT = "TheWales"
+MAX_WORKERS = 10
+ANALYSIS_LIMIT = 10000  # Reducido para batch
+DEBUG_MODE = False
+USE_SCRAPING = SELENIUM_AVAILABLE and XVFB_AVAILABLE and os.path.exists(CHROME_PATH)
+
+session = requests.Session()
+retries = Retry(total=3, backoff_factor=0.5, status_forcelist=[500, 502, 503, 504, 429])
+session.mount('https://', HTTPAdapter(max_retries=retries))
+
+class PolyWhaleIntelligence(WhaleScorer):
+    def __init__(self, wallet, name):
+        self.wallet = wallet.lower()
+        self.name = name
+        self.output_buffer = [] 
+        self.positions = []
+        self.activity = []
+        self.timestamps = []
+        
+        # Datos scrapeados de polymarketanalytics.com
+        self.scraped_data = {}
+        
+        # Sistema de scoring V5 ADJUSTED (35/25/20/20)
+        self.scores = {
+            'profitability': 0,      # 35 puntos max
+            'consistency': 0,         # 25 puntos max
+            'risk_management': 0,     # 20 puntos max
+            'experience': 0,          # 20 puntos max
+            'total': 0,
+            'tier': 'UNKNOWN',
+            'reliability_grade': 'F'
+        }
+        
+        # Detección de bots
+        self.is_bot = False
+        self.bot_confidence = 0
+        self.bot_reasons = []
+        
+        # PnL tracking mejorado
+        self.market_pnl = {}
+        self.market_status = {}
+        self.closed_markets = []
+        
+        self.stats = {
+            'invested': 0.0, 'returned': 0.0, 'volume': 0.0, 'total_items': 0,
+            'buy_count': 0, 'sell_count': 0, 'merge_count': 0, 'split_count': 0,
+            'market_wins': 0, 'market_losses': 0
+        }
+        
+        self.sectors = defaultdict(float)
+        self.market_count = defaultdict(int)
+        self.red_flags = []
+        self.strengths = []
+        self.holding_style = "Desconocido"
+        self.risk_factor = "Bajo"
+
+
+    def log(self, msg):
+        self.output_buffer.append(msg)
+
+    def get_current_portfolio(self):
+        try:
+            url = f"{DATA_API}/positions?user={self.wallet}&size_gt=0.001"
+            res = session.get(url, timeout=10)
+            self.positions = res.json()
+            self.positions.sort(key=lambda x: float(x.get('currentValue', 0)), reverse=True)
+            return sum(float(p.get('currentValue', 0)) for p in self.positions)
+        except: return 0.0
+
+    def fetch_batch(self, offset):
+        try:
+            url = f"{DATA_API}/activity"
+            params = {"user": self.wallet, "limit": 500, "offset": offset}
+            res = session.get(url, params=params, timeout=10)
+            data = res.json()
+            return data if isinstance(data, list) else []
+        except: return []
+
+    def get_full_activity_threaded(self):
+        print(f"   ⏳ Descargando {self.name} ({ANALYSIS_LIMIT} ops)...", end='\r')
+        offsets = range(0, ANALYSIS_LIMIT, 500)
+        with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+            future_to_offset = {executor.submit(self.fetch_batch, off): off for off in offsets}
+            for future in concurrent.futures.as_completed(future_to_offset):
+                data = future.result()
+                if data: self.activity.extend(data)
+        self.activity.sort(key=lambda x: x.get('timestamp', 0), reverse=True)
+
+    def scrape_polymarketanalytics(self):
+        """Extrae TODOS los datos disponibles de polymarketanalytics.com"""
+        if not USE_SCRAPING:
+            return False
+
+        print(f"   🔹 Scraping polymarketanalytics.com para {self.name}...", end='\r')
+
+        script_content = f'''
+import undetected_chromedriver as uc
+from selenium.webdriver.common.by import By
+import time
+import json
+import re
+
+chrome_path = "{CHROME_PATH}"
+wallet = "{self.wallet}"
+
+options = uc.ChromeOptions()
+options.add_argument("--no-sandbox")
+options.add_argument("--disable-dev-shm-usage")
+options.add_argument("--window-size=1920,1080")
+options.binary_location = chrome_path
+
+try:
+    driver = uc.Chrome(options=options, version_main=143)
+
+    # Cargar página principal
+    url = f"https://polymarketanalytics.com/traders/{{wallet}}"
+    driver.get(url)
+    time.sleep({SCRAPE_TIMEOUT})
+
+    page_text = driver.find_element(By.TAG_NAME, "body").text
+    data = {{"success": True}}
+
+    # === USERNAME ===
+    try:
+        page_title = driver.title
+        if '|' in page_title:
+            username_raw = page_title.split('|')[0].strip()
+            data['username'] = username_raw
+            data['username_clean'] = re.sub(r'[^\\w\\-]', '_', username_raw)
+    except:
+        pass
+    
+    if 'username' not in data:
+        username_match = re.search(r'@([A-Za-z0-9_-]+)', page_text)
+        if username_match:
+            data['username'] = username_match.group(1)
+            data['username_clean'] = username_match.group(1)
+    
+    # === MÉTRICAS PRINCIPALES ===
+    rank_match = re.search(r'Rank#([\\d,]+)', page_text)
+    if rank_match:
+        data['rank'] = int(rank_match.group(1).replace(',', ''))
+
+    pnl_match = re.search(r'Polymarket PnL\\s*[-+]?\\$?([\\d,.-]+)', page_text)
+    if pnl_match:
+        pnl_str = pnl_match.group(1).replace(',', '')
+        negative_match = re.search(r'Polymarket PnL\\s*-', page_text)
+        data['pnl'] = -float(pnl_str) if negative_match else float(pnl_str)
+
+    gains_match = re.search(r'Total Gains\\s*\\+?\\$?([\\d,.-]+)', page_text)
+    if gains_match:
+        data['total_gains'] = float(gains_match.group(1).replace(',', ''))
+
+    losses_match = re.search(r'Total Losses\\s*[-]?\\$?([\\d,.-]+)', page_text)
+    if losses_match:
+        losses_str = losses_match.group(1).replace(',', '')
+        data['total_losses'] = abs(float(losses_str))
+
+    winrate_match = re.search(r'Win Rate\\s*([\\d.]+)%', page_text)
+    if winrate_match:
+        data['win_rate'] = float(winrate_match.group(1))
+
+    # === NÚMERO DE TRADES TOTALES ===
+    trades_match = re.search(r'Total Trades\\s*([\\d,]+)', page_text)
+    if not trades_match:
+        trades_match = re.search(r'Trades\\s*([\\d,]+)', page_text)
+    if not trades_match:
+        trades_match = re.search(r'([\\d,]+)\\s*trades', page_text, re.IGNORECASE)
+    if trades_match:
+        data['total_trades'] = int(trades_match.group(1).replace(',', ''))
+    
+    # === NÚMERO DE MARKETS ===
+    markets_match = re.search(r'Markets Traded\\s*([\\d,]+)', page_text)
+    if not markets_match:
+        markets_match = re.search(r'Markets\\s*([\\d,]+)', page_text)
+    if not markets_match:
+        markets_match = re.search(r'([\\d,]+)\\s*markets', page_text, re.IGNORECASE)
+    if markets_match:
+        data['markets_traded'] = int(markets_match.group(1).replace(',', ''))
+    
+    # === Si no encontramos trades/markets, intentar scroll ===
+    if 'total_trades' not in data or 'markets_traded' not in data:
+        try:
+            driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+            time.sleep(3)
+            driver.execute_script("window.scrollTo(0, 0);")
+            time.sleep(2)
+            
+            page_text = driver.find_element(By.TAG_NAME, "body").text
+            
+            if 'total_trades' not in data:
+                trades_match = re.search(r'([\\d,]+)\\s*[Tt]rades', page_text)
+                if trades_match:
+                    data['total_trades'] = int(trades_match.group(1).replace(',', ''))
+            
+            if 'markets_traded' not in data:
+                markets_match = re.search(r'([\\d,]+)\\s*[Mm]arkets', page_text)
+                if markets_match:
+                    data['markets_traded'] = int(markets_match.group(1).replace(',', ''))
+        except:
+            pass
+
+    value_match = re.search(r'Total Value\\s*\\$?([\\d,.-]+)', page_text)
+    if value_match:
+        data['total_value'] = float(value_match.group(1).replace(',', ''))
+
+    positions_match = re.search(r'Polymarket Positions\\s*\\$?([\\d,.-]+)', page_text)
+    if positions_match:
+        data['positions_value'] = float(positions_match.group(1).replace(',', ''))
+
+    # === BADGES ===
+    badges = []
+    if 'Overall PnL > $100k' in page_text:
+        badges.append('pnl_100k')
+    elif 'Overall PnL > $10k' in page_text:
+        badges.append('pnl_10k')
+    if '> 1 year old' in page_text:
+        badges.append('veteran')
+    if 'Overall Win Rate > 67%' in page_text:
+        badges.append('high_winrate')
+    elif 'Overall Win Rate > 60%' in page_text:
+        badges.append('good_winrate')
+    data['badges'] = badges
+
+    # === BIGGEST WINS ===
+    wins_pattern = r'#(\\d+)\\s+([^\\n]+?)\\s+\\+\\$([\\d,]+)'
+    wins = re.findall(wins_pattern, page_text)
+    data['biggest_wins'] = [{{'rank': int(w[0]), 'market': w[1].strip(), 'amount': float(w[2].replace(',', ''))}} for w in wins[:15]]
+
+    # === BIGGEST LOSSES ===
+    try:
+        losses_tab = driver.find_element(By.XPATH, "//*[contains(text(), 'Biggest Losses')]")
+        losses_tab.click()
+        time.sleep(2)
+        page_text_losses = driver.find_element(By.TAG_NAME, "body").text
+        losses_pattern = r'#(\\d+)\\s+([^\\n]+?)\\s+-\\$([\\d,]+)'
+        losses = re.findall(losses_pattern, page_text_losses)
+        data['biggest_losses'] = [{{'rank': int(l[0]), 'market': l[1].strip(), 'amount': float(l[2].replace(',', ''))}} for l in losses[:15]]
+    except:
+        data['biggest_losses'] = []
+
+    # === CATEGORIES ===
+    if 'Category Performance' in page_text:
+        cat_section = page_text.split('Category Performance')[-1].split('Polymarket Analytics')[0]
+        cat_pattern = r'#(\\d+)\\s+([A-Za-z\\s]+?)\\s+\\+?\\$?([\\d,.-]+)'
+        categories = re.findall(cat_pattern, cat_section)
+        data['categories'] = [{{'rank': int(c[0]), 'name': c[1].strip(), 'pnl': float(c[2].replace(',', ''))}} for c in categories[:10]]
+    else:
+        data['categories'] = []
+
+    # === MÉTRICAS DERIVADAS ===
+    if 'total_gains' in data and 'total_losses' in data and data['total_losses'] > 0:
+        data['profit_factor'] = data['total_gains'] / data['total_losses']
+
+    if data.get('biggest_wins'):
+        data['avg_win'] = sum(w['amount'] for w in data['biggest_wins']) / len(data['biggest_wins'])
+        data['max_win'] = max(w['amount'] for w in data['biggest_wins'])
+
+    if data.get('biggest_losses'):
+        data['avg_loss'] = sum(l['amount'] for l in data['biggest_losses']) / len(data['biggest_losses'])
+        data['max_loss'] = max(l['amount'] for l in data['biggest_losses'])
+
+    print(json.dumps(data))
+    driver.quit()
+
+except Exception as e:
+    print(json.dumps({{"success": False, "error": str(e)}}))
+    try:
+        driver.quit()
+    except:
+        pass
+'''
+
+        script_path = "/tmp/polywhale_scraper_batch.py"
+        with open(script_path, "w") as f:
+            f.write(script_content)
+
+        try:
+            result = subprocess.run(
+                ["xvfb-run", "-a", sys.executable, script_path],
+                capture_output=True,
+                text=True,
+                timeout=90
+            )
+
+            lines = result.stdout.strip().split('\n')
+            for line in reversed(lines):
+                try:
+                    data = json.loads(line)
+                    if data.get('success'):
+                        self.scraped_data = data
+                        print(f"   ✅ Scraping OK para {self.name}                    ")
+                        return True
+                    elif 'error' in data:
+                        return False
+                except json.JSONDecodeError:
+                    continue
+
+            return False
+
+        except (subprocess.TimeoutExpired, Exception):
+            return False
+        finally:
+            try:
+                os.remove(script_path)
+            except:
+                pass
+
+    def detect_sector(self, title):
+        t = title.lower()
+        def has_word(keywords, text):
+            pattern = r'\b(' + '|'.join(map(re.escape, keywords)) + r')\b'
+            return bool(re.search(pattern, text))
+
+        pol_kw = ['trump', 'biden', 'harris', 'election', 'senate', 'vote', 'president', 'republican', 'democrat', 'cabinet', 'nominee', 'poll', 'politics', 'vance', 'presidency']
+        if has_word(pol_kw, t): return "Política 🏛️"
+        
+        eco_kw = ['fed', 'rates', 'interest', 'inflation', 'cpi', 'gdp', 'recession', 'bank', 'spx', 'stocks', 'ipo', 'market', 'nasdaq', 'dow', 'rate', 'bps']
+        if has_word(eco_kw, t): return "Economía 📉"
+
+        cry_kw = ['bitcoin', 'ethereum', 'solana', 'price', 'etf', 'btc', 'eth', 'crypto', 'token', 'nft', 'airdrop', 'doge', 'memecoin', 'chain', 'wallet']
+        if has_word(cry_kw, t): return "Crypto ₿"
+
+        geo_kw = ['war', 'israel', 'iran', 'ukraine', 'russia', 'china', 'military', 'strike', 'border', 'ceasefire', 'gaza', 'hamas', 'weapon', 'nuclear', 'missile']
+        if has_word(geo_kw, t): return "Geopolítica 🌍"
+
+        spt_kw = ['nfl', 'nba', 'soccer', 'football', 'league', 'cup', 'winner', 'vs', 'score', 'champions', 'premier', 'ufc', 'game', 'win', 'lose', 'points', 'goals', 'season', 'mvp', 'fc', 'club', 'real', 'barcelona', 'madrid', 'city', 'utd', 'united', 'spread', 'handicap', 'over', 'under']
+        if has_word(spt_kw, t) or 'vs.' in t: return "Deportes ⚽"
+        
+        sci_kw = ['spacex', 'nasa', 'mars', 'ai', 'chatgpt', 'openai', 'apple', 'google', 'fda', 'temperature', 'covid', 'launch', 'tech', 'tesla']
+        if has_word(sci_kw, t): return "Ciencia/Tech 🚀"
+
+        pop_kw = ['movie', 'song', 'spotify', 'grammy', 'oscar', 'taylor', 'swift', 'box', 'office', 'actor', 'music', 'album', 'award']
+        if has_word(pop_kw, t): return "Pop Culture 🍿"
+            
+        return "Otros 🌐"
+
+    def get_market_key(self, item):
+        """
+        Sistema de linkeo mejorado (igual que claude_individual.py):
+        - Usa assetId (ID único de cada token/posición)
+        - Fallback a marketSlug + market
+        - Último fallback: title normalizado
+        """
+        asset_id = item.get('assetId') or item.get('asset_id')
+        if asset_id:
+            return ('asset', asset_id)
+        
+        slug = item.get('marketSlug')
+        market = item.get('market', '')
+        if slug and market:
+            return ('slug_market', f"{slug}:{market}")
+        
+        if slug:
+            return ('slug', slug)
+        
+        title = item.get('title', 'Unknown')
+        normalized = self.normalize_title(title)
+        return ('title', normalized)
+    
+    def normalize_title(self, title):
+        """Normaliza títulos para capturar variaciones"""
+        if not title or title == 'Unknown':
+            return 'unknown'
+        normalized = title.strip().lower()
+        normalized = normalized.rstrip('?.!')
+        normalized = normalized[:60]
+        return normalized
+
+    def analyze_data(self):
+        """
+        Cálculo de PnL mejorado usando marketSlug + cashPnl
+        Basado en claude_individual.py V2.2
+        """
+        # Estructura: (tipo, key) -> {invested, returned, title, ...}
+        market_flows = {}
+        
+        # 1. Mapear posiciones actuales (incluyendo liquidadas)
+        position_map = {}
+        for p in self.positions:
+            key = self.get_market_key(p)
+            
+            title = p.get('title', 'Unknown')
+            current_val = float(p.get('currentValue', 0))
+            initial_val = float(p.get('initialValue', 0))
+            cash_pnl = float(p.get('cashPnl', 0))
+            size = float(p.get('size', 0))
+            
+            position_map[key] = {
+                'title': title,
+                'current_value': current_val,
+                'initial_value': initial_val,
+                'cash_pnl': cash_pnl,
+                'size': size
+            }
+            
+            # Inicializar flujos
+            if key not in market_flows:
+                market_flows[key] = {
+                    'invested': 0,
+                    'returned': 0,
+                    'title': title
+                }
+        
+        # 2. Procesar actividad histórica
+        for activity in self.activity:
+            key = self.get_market_key(activity)
+            ts = activity.get('timestamp')
+            if ts: 
+                self.timestamps.append(ts)
+            
+            tipo = activity.get('type')
+            usdc = float(activity.get('usdcSize', 0))
+            title = activity.get('title', 'Unknown')
+            sector = self.detect_sector(title)
+            
+            self.stats['total_items'] += 1
+            
+            # Inicializar si no existe
+            if key not in market_flows:
+                market_flows[key] = {
+                    'invested': 0,
+                    'returned': 0,
+                    'title': title
+                }
+            
+            # Actualizar título si es mejor
+            if len(title) > len(market_flows[key]['title']):
+                market_flows[key]['title'] = title
+            
+            # Contabilizar flujos
+            if tipo == 'TRADE':
+                self.stats['volume'] += usdc
+                side_action = activity.get('side')
+                if side_action == 'BUY':
+                    market_flows[key]['invested'] += usdc
+                    self.stats['invested'] += usdc
+                    self.stats['buy_count'] += 1
+                elif side_action == 'SELL':
+                    market_flows[key]['returned'] += usdc
+                    self.stats['returned'] += usdc
+                    self.stats['sell_count'] += 1
+                
+                # Tracking de sectores
+                self.market_count[title] += 1
+                
+            elif tipo == 'REDEEM':
+                market_flows[key]['returned'] += usdc
+                self.stats['returned'] += usdc
+            elif tipo == 'MERGE':
+                market_flows[key]['returned'] += usdc
+                self.stats['returned'] += usdc
+                self.stats['merge_count'] += 1
+            elif tipo == 'SPLIT':
+                market_flows[key]['invested'] += usdc
+                self.stats['invested'] += usdc
+                self.stats['split_count'] += 1
+        
+        # 3. Calcular PnL por mercado usando cashPnl (método más preciso)
+        processed_keys = set()
+        
+        # 3A. Procesar posiciones CON cashPnl (datos más confiables)
+        for key, pos in position_map.items():
+            if key in market_flows:
+                flows = market_flows[key]
+                title = flows['title']
+                sector = self.detect_sector(title)
+                
+                # Usar cashPnl de la posición (incluye TODO el PnL histórico)
+                if pos['size'] > 0:
+                    # Posición abierta: cashPnl realizado + valor actual no realizado
+                    pnl = pos['cash_pnl'] + pos['current_value']
+                    self.market_status[title] = 'OPEN'
+                else:
+                    # Posición cerrada/liquidada
+                    pnl = pos['cash_pnl'] if pos['cash_pnl'] != 0 else (flows['returned'] - flows['invested'])
+                    self.market_status[title] = 'CLOSED'
+                
+                self.market_pnl[title] = pnl
+                self.sectors[sector] += pnl  # ✅ RESTAURADO: Acumular PnL por sector
+                processed_keys.add(key)
+                
+                # Detectar flujos residuales (posiciones cerradas no reportadas)
+                expected_investment = pos['initial_value'] if pos['initial_value'] > 0 else flows['invested']
+                residual_invested = flows['invested'] - expected_investment
+                residual_returned = flows['returned'] - pos['cash_pnl'] if pos['cash_pnl'] < 0 else flows['returned']
+                
+                if residual_invested > 100:
+                    residual_pnl = residual_returned - residual_invested
+                    residual_title = f"{title} [cerrada]"
+                    self.market_pnl[residual_title] = residual_pnl
+                    self.market_status[residual_title] = 'CLOSED'
+                    self.sectors[sector] += residual_pnl  # ✅ Acumular residual también
+        
+        # 3B. Procesar mercados SOLO en actividad (no en positions)
+        for key, flows in market_flows.items():
+            if key in processed_keys:
+                continue
+                
+            title = flows['title']
+            invested = flows['invested']
+            returned = flows['returned']
+            pnl = returned - invested
+            sector = self.detect_sector(title)
+            
+            self.market_status[title] = 'CLOSED'
+            self.market_pnl[title] = pnl
+            self.sectors[sector] += pnl  # ✅ RESTAURADO
+        
+        # 4. Posiciones sin historial
+        for key, pos in position_map.items():
+            title = pos['title']
+            sector = self.detect_sector(title)
+            
+            if key not in market_flows:
+                if pos['size'] == 0 and pos['current_value'] == 0 and pos['initial_value'] > 0:
+                    pnl = pos['cash_pnl'] if pos['cash_pnl'] != 0 else -pos['initial_value']
+                    self.market_pnl[title] = pnl
+                    self.market_status[title] = 'CLOSED'
+                    self.sectors[sector] += pnl  # ✅ RESTAURADO
+                elif pos['cash_pnl'] != 0 or pos['current_value'] > 0:
+                    pnl = pos['cash_pnl'] + pos['current_value']
+                    self.market_pnl[title] = pnl
+                    self.market_status[title] = 'OPEN'
+                    self.sectors[sector] += pnl  # ✅ RESTAURADO
+        
+        # Calcular wins/losses
+        for pnl in self.market_pnl.values():
+            if pnl > 10: self.stats['market_wins'] += 1
+            elif pnl < -10: self.stats['market_losses'] += 1
+        
+        return self.market_pnl
+
+    def analyze_context(self, total_pnl, duration_days, current_portfolio_val):
+        """Análisis contextual tradicional (mantenido para compatibilidad)"""
+        top_pos = float(self.positions[0].get('currentValue', 0)) if self.positions else 0
+        conc = (top_pos / current_portfolio_val * 100) if current_portfolio_val > 0 else 0
+        
+        if conc > 80: self.risk_factor = "🔴 MUY ALTO (Kamikaze)"
+        elif conc > 50: self.risk_factor = "🟠 ALTO (Concentrado)"
+        elif conc > 20: self.risk_factor = "🟢 MEDIO (Equilibrado)"
+        else: self.risk_factor = "🔵 BAJO (Diversificado)"
+
+        daily = self.stats['total_items'] / duration_days if duration_days > 0 else 0
+        if daily > 100: self.holding_style = "⚡ HFT / Bot"
+        elif daily > 10: self.holding_style = "🐇 Day Trader"
+        elif daily > 0.5: self.holding_style = "🐆 Swing Trader"
+        else: self.holding_style = "🐘 Investor"
+
+        # Usar el sistema nuevo de scoring
+        return self.scores['total'], self.scores['tier'], any("bot" in f.lower() for f in self.red_flags), self.red_flags, self.overall_win_rate if hasattr(self, 'overall_win_rate') else 0, conc
+
+    def run_analysis(self):
+        """Análisis principal - actualizado con sistema de scoring V2.2"""
+        curr_val = self.get_current_portfolio()
+        self.get_full_activity_threaded()
+        self.analyze_data()
+        
+        # Intento de scraping (solo si está disponible)
+        if USE_SCRAPING:
+            self.scrape_polymarketanalytics()
+        
+        # Calcular métricas de scoring V5 ADJUSTED
+        if self.scraped_data:
+            self.calculate_profitability_score()
+            self.calculate_consistency_score()
+            self.calculate_risk_management_score()
+            self.calculate_experience_score()
+            self.calculate_final_score()  # Ya incluye detect_bot_behavior
+        else:
+            # Fallback sin datos scrapeados
+            self.scores['total'] = 0
+            self.scores['tier'] = 'UNKNOWN'
+            self.scores['reliability_grade'] = 'N/A'
+        
+        active_days = self.days_active if hasattr(self, 'days_active') else 1
+        
+        net = self.stats['returned'] - self.stats['invested']
+        total_pnl = net + curr_val
+        roi = (total_pnl / self.stats['invested'] * 100) if self.stats['invested'] > 0 else 0
+        
+        score, tier, is_bot, reasons, win_rate, conc = self.analyze_context(total_pnl, active_days, curr_val)
+
+        sep = "═"*70
+        self.log("\n" + sep)
+        self.log(f"🦈 PERFIL DE BALLENA: {self.name}")
+        self.log(f"🔗 Wallet: {self.wallet}")
+        self.log(f"🔗 Perfil: https://polymarket.com/profile/{self.wallet}")
+        self.log(sep)
+        
+        self.log(f"\n🎯 VEREDICTO")
+        self.log(f"   🏆 Score:      {score}/100 ({tier})")
+        if is_bot: 
+            self.log(f"   ⚠️ ALERTA:     Entidad Algorítmica.")
+        
+        # Mostrar fortalezas y red flags
+        if self.strengths:
+            self.log(f"\n✅ FORTALEZAS")
+            for strength in self.strengths:
+                self.log(f"   {strength}")
+        
+        if self.red_flags:
+            self.log(f"\n⚠️ RED FLAGS")
+            for flag in self.red_flags:
+                self.log(f"   {flag}")
+        
+        self.log(f"\n📈 DESGLOSE DE PUNTUACIÓN")
+        self.log(f"   • Rentabilidad:       {self.scores['profitability']}/35")
+        self.log(f"   • Consistencia:       {self.scores['consistency']}/25")
+        self.log(f"   • Gestión Riesgo:     {self.scores['risk_management']}/20")
+        self.log(f"   • Experiencia:        {self.scores['experience']}/20")
+        
+        self.log(f"\n🧠 INTELIGENCIA")
+        self.log(f"   ⏱️  Estilo:     {self.holding_style} ({active_days} días activos)")
+        self.log(f"   ⚖️  Riesgo:     {self.risk_factor} (Concentración: {conc:.1f}%)")
+        if hasattr(self, 'overall_win_rate'):
+            self.log(f"   🎯 Acierto:    {self.overall_win_rate*100:.1f}% Win Rate")
+
+        # Especialización por sector - DETALLADA con PnL
+        if self.sectors:
+            self.log(f"\n📊 ESPECIALIZACIÓN")
+            sorted_sectors = sorted(self.sectors.items(), key=lambda x: x[1], reverse=True)
+            for sector, pnl in sorted_sectors:
+                if pnl != 0:
+                    symbol = "+" if pnl > 0 else ""
+                    self.log(f"   {sector:<20} {symbol}${pnl:,.2f}")
+
+        self.log(f"\n💰 FINANZAS")
+        clr = "🟢" if total_pnl >= 0 else "🔴"
+        self.log(f"   🚀 PnL Total:  {clr} ${total_pnl:,.2f} (ROI: {roi:.2f}%)")
+        self.log(f"   📥 Volumen:    ${self.stats['volume']:,.2f}")
+        self.log(f"   📊 Trades:     {self.stats['total_items']}")
+        
+        if hasattr(self, 'net_total'):
+            self.log(f"   💎 Gain:       +${self.total_gain:,.2f}")
+            self.log(f"   💀 Loss:       ${self.total_loss:,.2f}")
+
+        self.log(f"\n🏦 POSICIONES ABIERTAS (Top 5)")
+        self.log(f"   {'Mercado':<50} | {'Valor'}")
+        self.log("   " + "-"*65)
+        count = 0
+        for p in self.positions[:5]:
+            title = p.get('title', 'N/A')[:48] + ".."
+            val = float(p.get('currentValue', 0))
+            if val > 10:
+                self.log(f"   {title:<50} | ${val:,.2f}")
+                count += 1
+        if count == 0: self.log("   (Sin inventario)")
+        
+        self.log("\n")
+        return "\n".join(self.output_buffer), is_bot
+
+def get_targets_from_file(filename):
+    path = os.path.join(INPUT_DIR, filename)
+    if not os.path.exists(path): return []
+    with open(path, 'r', encoding='utf-8') as f: content = f.read()
+    pattern = r"Nombre:\s+(.+?)\n\s+Wallet:\s+(0x[a-fA-F0-9]{40})"
+    matches = re.findall(pattern, content)
+    targets = {}
+    for name, wallet in matches:
+        if wallet.lower() not in targets: targets[wallet.lower()] = name.strip()
+    return list(targets.items())
+
+def main():
+    print("\n🦈 POLYWHALE BATCH V17.0 - INTEGRADO CON POLYWHALE V5 ADJUSTED")
+    print("Scraping + scoring ajustado (35/25/20/20) + detección de bots avanzada\n")
+    try:
+        files = [f for f in os.listdir(INPUT_DIR) if f.endswith('.txt')]
+        if files:
+            print(f"📂 Logs disponibles:")
+            for f in files[-3:]: print(f"   - {f}")
+    except: pass
+
+    in_name = input("\n📝 Archivo de log a analizar: ").strip()
+    targets = get_targets_from_file(in_name)
+    if not targets: 
+        print("❌ No se encontraron wallets en el archivo")
+        return
+
+    today = datetime.now().strftime("%Y-%m-%d")
+    out_dir = os.path.join(OUTPUT_ROOT, today)
+    os.makedirs(out_dir, exist_ok=True)
+    out_name = input(f"💾 Nombre reporte salida: ").strip()
+    if not out_name.endswith('.txt'): out_name += ".txt"
+    final_path = os.path.join(out_dir, out_name)
+
+    print(f"\n🚀 Analizando {len(targets)} ballenas con sistema V5 ADJUSTED...")
+    
+    final_reports = []
+    count_bots = 0
+    count_humans = 0
+    tier_counts = defaultdict(int)
+    
+    for i, (wallet, name) in enumerate(targets, 1):
+        print(f"🔹 [{i}/{len(targets)}] Analizando: {name}...")
+        analyzer = PolyWhaleIntelligence(wallet, name)
+        report_text, is_bot = analyzer.run_analysis()
+        
+        if is_bot: 
+            count_bots += 1
+        else: 
+            count_humans += 1
+        
+        tier_counts[analyzer.scores['tier']] += 1
+        final_reports.append(report_text)
+        time.sleep(0.5)
+
+    print(f"\n💾 Guardando archivo maestro...")
+    with open(final_path, 'w', encoding='utf-8') as f:
+        f.write("="*80 + "\n")
+        f.write(f"REPORTE INTELIGENCIA V17.0 (V5 ADJUSTED) - {datetime.now()}\n")
+        f.write(f"Fuente: {in_name}\n")
+        f.write("-" * 80 + "\n")
+        f.write(f"📊 RESUMEN EJECUTIVO:\n")
+        f.write(f"   🐋 TOTAL ANALIZADOS: {len(targets)}\n")
+        f.write(f"   👤 HUMANOS:          {count_humans} (Alpha Potencial)\n")
+        f.write(f"   🤖 BOTS / MM:        {count_bots} (Descartados)\n")
+        f.write(f"\n   🏆 DISTRIBUCIÓN POR TIER:\n")
+        for tier, count in sorted(tier_counts.items(), key=lambda x: x[1], reverse=True):
+            f.write(f"      {tier}: {count}\n")
+        f.write("="*80 + "\n\n")
+        for rep in final_reports:
+            f.write(rep + "\n")
+
+    print(f"✨ COMPLETADO: {final_path}")
+    print(f"\n📊 Resumen:")
+    print(f"   • Total: {len(targets)}")
+    print(f"   • Humanos: {count_humans}")
+    print(f"   • Bots: {count_bots}")
+    for tier, count in sorted(tier_counts.items(), key=lambda x: x[1], reverse=True):
+        print(f"   • {tier}: {count}")
+
+if __name__ == "__main__":
+    main()

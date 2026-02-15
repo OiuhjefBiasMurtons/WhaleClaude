@@ -1,0 +1,31 @@
+
+================================================================================
+🚀 MONITOR INICIADO
+================================================================================
+💵 Umbral de ballena:        $1,500.00 USD
+⏱️  Intervalo de polling:     3 segundos
+📊 Límite de trades/ciclo:   1000
+⏰ Ventana de tiempo:        30 minutos (solo trades recientes)
+💾 Archivo de log:           trades_live/whales_20260214_112943.txt
+📂 Trades en memoria:        0
+🔄 Esperando trades...
+================================================================================
+
+
+
+================================================================================
+📊 RESUMEN DE SESIÓN
+================================================================================
+⏱️  Tiempo de monitoreo:     0h 35m 43s
+🐋 Total de ballenas:       45
+💰 Valor promedio:          $4,158.29 USD
+💎 Ballena más grande:      $25,660.58 USD
+   └─ Mercado: Counter-Strike: Team Falcons vs 3DMAX - Map 2 Winn...
+   └─ Wallet: 0xdb63fd9c2242008071...
+📊 Mercados monitoreados:   0
+
+💾 Archivos guardados:
+   - trades_live/whales_20260214_112943.txt (log formateado)
+   - trades_live/historial_trades.json (historial de trades)
+
+================================================================================

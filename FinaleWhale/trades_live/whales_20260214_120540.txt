@@ -1,0 +1,31 @@
+
+================================================================================
+🚀 MONITOR INICIADO
+================================================================================
+💵 Umbral de ballena:        $1,500.00 USD
+⏱️  Intervalo de polling:     3 segundos
+📊 Límite de trades/ciclo:   1000
+⏰ Ventana de tiempo:        30 minutos (solo trades recientes)
+💾 Archivo de log:           trades_live/whales_20260214_120540.txt
+📂 Trades en memoria:        5000
+🔄 Esperando trades...
+================================================================================
+
+
+
+================================================================================
+📊 RESUMEN DE SESIÓN
+================================================================================
+⏱️  Tiempo de monitoreo:     0h 19m 19s
+🐋 Total de ballenas:       13
+💰 Valor promedio:          $7,436.02 USD
+💎 Ballena más grande:      $24,983.96 USD
+   └─ Mercado: Will Getafe CF win on 2026-02-15?...
+   └─ Wallet: 0xfc25f141ed27bb1787...
+📊 Mercados monitoreados:   0
+
+💾 Archivos guardados:
+   - trades_live/whales_20260214_120540.txt (log formateado)
+   - trades_live/historial_trades.json (historial de trades)
+
+================================================================================
