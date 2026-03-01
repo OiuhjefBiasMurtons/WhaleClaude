@@ -10,7 +10,18 @@
       "Bash(pip show:*)",
       "Bash(sudo apt-get install:*)",
       "Bash(sudo -S apt-get update:*)",
-      "Bash(sudo -S apt-get install:*)"
+      "Bash(sudo -S apt-get install:*)",
+      "Bash(env:*)",
+      "Bash(chmod:*)",
+      "Bash(curl:*)",
+      "Bash(python gold_all_claude.py --single \"Jazz vs. Grizzlies\" \"HIGH RISK\" 0.42 8000)",
+      "Bash(for f in /home/nomadbias/GothamCode/CampCode/Python/Whales/Claude/FinaleWhale/trades_live/whales_20260224_*.txt)",
+      "Bash(do)",
+      "Bash(if strings \"$f\")",
+      "Bash(then)",
+      "Bash(__NEW_LINE_5ccb203186517e3a__ strings \"$f\")",
+      "Bash(fi)",
+      "Bash(python -c \"import ast; ast.parse\\(open\\(''gold_all_claude.py''\\).read\\(\\)\\); print\\(''Syntax OK''\\)\")"
     ]
   }
 }

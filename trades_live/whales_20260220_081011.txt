@@ -1,0 +1,33 @@
+
+================================================================================
+🚀 MONITOR INICIADO
+================================================================================
+💵 Umbral de ballena:        $2,500.00 USD
+⏱️  Intervalo de polling:     3 segundos
+📊 Límite de trades/ciclo:   1000
+⏰ Ventana de tiempo:        30 minutos (solo trades recientes)
+💾 Archivo de log:           trades_live/whales_20260220_081011.txt
+📂 Trades en memoria:        0
+🔄 Esperando trades...
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $4,720.00 USD
+📊 Mercado: Counter-Strike: MOUZ vs Natus Vincere (BO3) - PGL Cluj-Napoca Playoffs
+🔗 URL: https://polymarket.com/event/cs2-mouz-navi-2026-02-20
+🎯 Outcome: Natus Vincere
+📈 Lado: COMPRA
+💵 Precio: 0.5900 (59.00%)
+🕐 Hora: 2026-02-20 08:11:00
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: TheVeteran77
+   Wallet: 0x6304679c4bee05e560ebb637758a617086d4e570
+   Perfil: https://polymarket.com/profile/0x6304679c4bee05e560ebb637758a617086d4e570
+   TX Hash: 0xa2c28ae33dcc88868c...7f177575e5
+   TX URL: https://polygonscan.com/tx/0xa2c28ae33dcc88868c184d02944dd224a4166823cc8322e05f9b317f177575e5
+================================================================================
+

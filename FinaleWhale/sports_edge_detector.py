@@ -140,6 +140,11 @@ class SportsEdgeDetector:
         result['pinnacle_price'] = pinnacle_price
 
         # Paso 5: Calcular edge
+        # Convención: edge_pct = (pinnacle - poly) * 100
+        # edge_pct > 0 → poly más barato que Pinnacle → edge real para el apostador
+        # edge_pct < 0 → poly más caro → is_sucker_bet = True
+        # NOTA: el CSV histórico (whale_signals) usa la convención OPUESTA (poly - pinnacle).
+        # No confundir al cruzar datos del CSV con valores en tiempo real.
         edge_pct = (pinnacle_price - poly_price) * 100
         result['edge_pct'] = edge_pct
 

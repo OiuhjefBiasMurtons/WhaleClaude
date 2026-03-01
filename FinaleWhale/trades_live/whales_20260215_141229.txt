@@ -1,0 +1,483 @@
+
+================================================================================
+🚀 MONITOR INICIADO
+================================================================================
+💵 Umbral de ballena:        $2,500.00 USD
+⏱️  Intervalo de polling:     3 segundos
+📊 Límite de trades/ciclo:   1000
+⏰ Ventana de tiempo:        30 minutos (solo trades recientes)
+💾 Archivo de log:           trades_live/whales_20260215_141229.txt
+📂 Trades en memoria:        5000
+📱 Notificaciones Telegram:  ✅ ACTIVO
+🔄 Esperando trades...
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $4,661.72 USD
+📊 Mercado: Will Olympique Lyonnais win on 2026-02-15?
+🔗 URL: https://polymarket.com/event/fl1-lyo-ogc-2026-02-15
+🎯 Outcome: Yes
+📈 Lado: VENTA
+💵 Precio: 0.5100 (51.00%)
+📦 Volumen: $566,689.82
+🕐 Hora: 2026-02-15 14:10:59
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Sanitar
+   Wallet: 0xf68a281980f8c13828e84e147e3822381d6e5b1b
+   Perfil: https://polymarket.com/profile/0xf68a281980f8c13828e84e147e3822381d6e5b1b
+   TX Hash: 0x67daa8baea7e3736ee...d5a0b7a304
+   TX URL: https://polygonscan.com/tx/0x67daa8baea7e3736ee35b98021ee88dda2b6d98649aaf659bc7bbed5a0b7a304
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,920.50 USD
+📊 Mercado: Will SSC Napoli vs. AS Roma end in a draw?
+🔗 URL: https://polymarket.com/event/sea-nap-rom-2026-02-15
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.6600 (66.00%)
+📦 Volumen: $40,985.65
+🕐 Hora: 2026-02-15 14:10:49
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: piggyery
+   Wallet: 0x3f5ea0a8053e81ce2f59814118869322c35fe7db
+   Perfil: https://polymarket.com/profile/0x3f5ea0a8053e81ce2f59814118869322c35fe7db
+   TX Hash: 0xa133a0d84567d87089...772a540709
+   TX URL: https://polygonscan.com/tx/0xa133a0d84567d870894240c524b4c1ac4e50e9253a30955ace9699772a540709
+================================================================================
+
+
+================================================================================
+🐋🐋🐋🐋🐋 TITAN BALLENA DETECTADA 🐋🐋🐋🐋🐋
+================================================================================
+💰 Valor: $65,400.11 USD  ⚡ NICHO (11.5% del mercado)
+📊 Mercado: Will Olympique Lyonnais win on 2026-02-15?
+🔗 URL: https://polymarket.com/event/fl1-lyo-ogc-2026-02-15
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.5000 (50.00%)
+📦 Volumen: $566,689.82
+🕐 Hora: 2026-02-15 14:19:55
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465
+   Wallet: 0x2c335066fe58fe9237c3d3dc7b275c2a034a0563
+   Perfil: https://polymarket.com/profile/0x2c335066fe58fe9237c3d3dc7b275c2a034a0563
+   TX Hash: 0xe3a0c8a064740359a9...25526c411e
+   TX URL: https://polygonscan.com/tx/0xe3a0c8a064740359a9806cf838a4a25d8d39984f88157d306765fe25526c411e
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $7,936.50 USD
+📊 Mercado: Will Olympique Lyonnais win on 2026-02-15?
+🔗 URL: https://polymarket.com/event/fl1-lyo-ogc-2026-02-15
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.5000 (50.00%)
+📦 Volumen: $566,689.82
+🕐 Hora: 2026-02-15 14:19:53
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: c4c4
+   Wallet: 0x1455445e9a775cfa3fe9fc4b02bb4d2f682ae5cd
+   Perfil: https://polymarket.com/profile/0x1455445e9a775cfa3fe9fc4b02bb4d2f682ae5cd
+   TX Hash: 0x7082e5038fe712302a...835dcd5f34
+   TX URL: https://polygonscan.com/tx/0x7082e5038fe712302a9c9a2a6f4176d22e932288256764f1700f55835dcd5f34
+================================================================================
+🔥 SEÑAL CONSENSO: 2 ballenas → BUY | Total: $73,337
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $7,936.50 USD
+📊 Mercado: Will Olympique Lyonnais win on 2026-02-15?
+🔗 URL: https://polymarket.com/event/fl1-lyo-ogc-2026-02-15
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.5000 (50.00%)
+📦 Volumen: $566,689.82
+🕐 Hora: 2026-02-15 14:19:51
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: c4c4
+   Wallet: 0x1455445e9a775cfa3fe9fc4b02bb4d2f682ae5cd
+   Perfil: https://polymarket.com/profile/0x1455445e9a775cfa3fe9fc4b02bb4d2f682ae5cd
+   TX Hash: 0x2f669641364800bdde...ca5572fac5
+   TX URL: https://polygonscan.com/tx/0x2f669641364800bddeecbcebef70194c1621fd6fc6affec967cfd4ca5572fac5
+================================================================================
+🔥 SEÑAL CONSENSO: 3 ballenas → BUY | Total: $81,273
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $4,212.00 USD
+📊 Mercado: Will Olympique Lyonnais win on 2026-02-15?
+🔗 URL: https://polymarket.com/event/fl1-lyo-ogc-2026-02-15
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.5000 (50.00%)
+📦 Volumen: $566,689.82
+🕐 Hora: 2026-02-15 14:19:45
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: c4c4
+   Wallet: 0x1455445e9a775cfa3fe9fc4b02bb4d2f682ae5cd
+   Perfil: https://polymarket.com/profile/0x1455445e9a775cfa3fe9fc4b02bb4d2f682ae5cd
+   TX Hash: 0x120464d75116d3f39a...2100573608
+   TX URL: https://polygonscan.com/tx/0x120464d75116d3f39a114c27b4e20386c8a4d504dc9ae027fff4392100573608
+================================================================================
+🔥 SEÑAL CONSENSO: 4 ballenas → BUY | Total: $85,485
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $7,936.50 USD
+📊 Mercado: Will Olympique Lyonnais win on 2026-02-15?
+🔗 URL: https://polymarket.com/event/fl1-lyo-ogc-2026-02-15
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.5000 (50.00%)
+📦 Volumen: $566,689.82
+🕐 Hora: 2026-02-15 14:19:43
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: c4c4
+   Wallet: 0x1455445e9a775cfa3fe9fc4b02bb4d2f682ae5cd
+   Perfil: https://polymarket.com/profile/0x1455445e9a775cfa3fe9fc4b02bb4d2f682ae5cd
+   TX Hash: 0xe3869da4c019b8351c...23176e8a81
+   TX URL: https://polygonscan.com/tx/0xe3869da4c019b8351c98e8fec6349c8813e8fdbea4332d095630b923176e8a81
+================================================================================
+🔥 SEÑAL CONSENSO: 5 ballenas → BUY | Total: $93,422
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $9,301.50 USD
+📊 Mercado: Will Olympique Lyonnais win on 2026-02-15?
+🔗 URL: https://polymarket.com/event/fl1-lyo-ogc-2026-02-15
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.5000 (50.00%)
+📦 Volumen: $566,689.82
+🕐 Hora: 2026-02-15 14:19:41
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: TheLean
+   Wallet: 0x78f7ba025c366404e74c4315d2895bda4ce62c5d
+   Perfil: https://polymarket.com/profile/0x78f7ba025c366404e74c4315d2895bda4ce62c5d
+   TX Hash: 0x73afcc2172cee695aa...08e5e280eb
+   TX URL: https://polygonscan.com/tx/0x73afcc2172cee695aa5d9961e3cea4713e1f0f9b891bbbe679e97e08e5e280eb
+================================================================================
+🔥 SEÑAL CONSENSO: 6 ballenas → BUY | Total: $102,723
+⚠️ GRUPO COORDINADO: 3 wallets → BUY en 0.9 min | Wallets: 3
+
+
+================================================================================
+🐋🐋🐋🐋🐋 TITAN BALLENA DETECTADA 🐋🐋🐋🐋🐋
+================================================================================
+💰 Valor: $122,776.15 USD  ⚡ NICHO (21.7% del mercado)
+📊 Mercado: Will Olympique Lyonnais win on 2026-02-15?
+🔗 URL: https://polymarket.com/event/fl1-lyo-ogc-2026-02-15
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.5000 (50.00%)
+📦 Volumen: $566,689.82
+🕐 Hora: 2026-02-15 14:19:41
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: PuzzleTricker
+   Wallet: 0x003932bc605249fbfeb9ea6c3e15ec6e868a6beb
+   Perfil: https://polymarket.com/profile/0x003932bc605249fbfeb9ea6c3e15ec6e868a6beb
+   TX Hash: 0xfaaec14b6a68355d87...1daa720602
+   TX URL: https://polygonscan.com/tx/0xfaaec14b6a68355d8709996a280db0c3984a788407d8441b90449f1daa720602
+================================================================================
+🔥 SEÑAL CONSENSO: 7 ballenas → BUY | Total: $225,499
+⚠️ GRUPO COORDINADO: 4 wallets → BUY en 1.3 min | Wallets: 4
+
+
+================================================================================
+🐋🐋🐋🐋 ULTRA BALLENA DETECTADA 🐋🐋🐋🐋
+================================================================================
+💰 Valor: $31,500.00 USD
+📊 Mercado: Will Real Betis Balompié win on 2026-02-15?
+🔗 URL: https://polymarket.com/event/lal-mal-bet-2026-02-15
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.6300 (63.00%)
+📦 Volumen: $1,165,264.10
+🕐 Hora: 2026-02-15 14:34:55
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: BreezeScout
+   Wallet: 0xf208326de73e12994c0cd2b641dddc74a319fa74
+   Perfil: https://polymarket.com/profile/0xf208326de73e12994c0cd2b641dddc74a319fa74
+   TX Hash: 0xf9fc6b7601775f3ace...f1ebb7fef5
+   TX URL: https://polygonscan.com/tx/0xf9fc6b7601775f3acec6b3ed58afb8bbc20f3a20fd1c0a09830d9cf1ebb7fef5
+================================================================================
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.41 (41.2%)
+   Polymarket:   0.63 (63.0%)
+   Edge:         -21.8% ❌
+⚠️⚠️ WARNING: SUCKER BET - Ballena pagando 21.8% MÁS que Pinnacle
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $15,929.60 USD
+📊 Mercado: Will Real Betis Balompié win on 2026-02-15?
+🔗 URL: https://polymarket.com/event/lal-mal-bet-2026-02-15
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.3800 (38.00%)
+📦 Volumen: $1,165,264.10
+🕐 Hora: 2026-02-15 14:34:43
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: GamblingIsAllYouNeed
+   Wallet: 0x507e52ef684ca2dd91f90a9d26d149dd3288beae
+   Perfil: https://polymarket.com/profile/0x507e52ef684ca2dd91f90a9d26d149dd3288beae
+   TX Hash: 0x6afde15302ed538070...0ebc80d648
+   TX URL: https://polygonscan.com/tx/0x6afde15302ed538070255e7f9600038605aa4a83c4d18754ad39b10ebc80d648
+================================================================================
+🔥 SEÑAL CONSENSO: 2 ballenas → BUY | Total: $47,430
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.41 (41.2%)
+   Polymarket:   0.38 (38.0%)
+   Edge:         -21.8% ❌
+⚠️⚠️ WARNING: SUCKER BET - Ballena pagando 21.8% MÁS que Pinnacle
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,877.21 USD
+📊 Mercado: Will the price of Ethereum be above $1,900 on February 17?
+🔗 URL: https://polymarket.com/event/ethereum-above-on-february-17
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.6300 (63.00%)
+📦 Volumen: $34,626.80
+🕐 Hora: 2026-02-15 14:41:09
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: coinman2
+   Wallet: 0x55be7aa03ecfbe37aa5460db791205f7ac9ddca3
+   Perfil: https://polymarket.com/profile/0x55be7aa03ecfbe37aa5460db791205f7ac9ddca3
+   TX Hash: 0xeddc920ad447b0d205...d38f4fab52
+   TX URL: https://polygonscan.com/tx/0xeddc920ad447b0d2059b733baa8e6b7b2de17ffc20f2371c226f2fd38f4fab52
+================================================================================
+
+
+================================================================================
+🐋🐋🐋🐋🐋 TITAN BALLENA DETECTADA 🐋🐋🐋🐋🐋
+================================================================================
+💰 Valor: $63,758.72 USD  ⚡ NICHO (11.3% del mercado)
+📊 Mercado: Will Olympique Lyonnais win on 2026-02-15?
+🔗 URL: https://polymarket.com/event/fl1-lyo-ogc-2026-02-15
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.5000 (50.00%)
+📦 Volumen: $566,689.82
+🕐 Hora: 2026-02-15 14:41:03
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0x2E9821aF10fnztro1
+   Wallet: 0xe6a3778e5c3f93958534684ed7308b4625622f0d
+   Perfil: https://polymarket.com/profile/0xe6a3778e5c3f93958534684ed7308b4625622f0d
+   TX Hash: 0x54becbccd681200c55...f05846a874
+   TX URL: https://polygonscan.com/tx/0x54becbccd681200c5535fe9594db2b499c5589114f111eeb47ee78f05846a874
+================================================================================
+🔥 SEÑAL CONSENSO: 7 ballenas → BUY | Total: $225,499
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $3,700.00 USD
+📊 Mercado: Will SSC Napoli win on 2026-02-15?
+🔗 URL: https://polymarket.com/event/sea-nap-rom-2026-02-15
+🎯 Outcome: Yes
+📈 Lado: VENTA
+💵 Precio: 0.3700 (37.00%)
+📦 Volumen: $731,246.66
+🕐 Hora: 2026-02-15 14:40:51
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: VeryLucky888
+   Wallet: 0x6d3c5bd13984b2de47c3a88ddc455309aab3d294
+   Perfil: https://polymarket.com/profile/0x6d3c5bd13984b2de47c3a88ddc455309aab3d294
+   TX Hash: 0xa8106fc19b2eea0a33...1cf704b64c
+   TX URL: https://polygonscan.com/tx/0xa8106fc19b2eea0a33cd6d8712d06580d43ac774328e98ec0ffd491cf704b64c
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $5,932.94 USD
+📊 Mercado: Will Real Betis Balompié win on 2026-02-15?
+🔗 URL: https://polymarket.com/event/lal-mal-bet-2026-02-15
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.3800 (38.00%)
+📦 Volumen: $1,165,264.10
+🕐 Hora: 2026-02-15 14:45:35
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: swisstony
+   Wallet: 0x204f72f35326db932158cba6adff0b9a1da95e14
+   Perfil: https://polymarket.com/profile/0x204f72f35326db932158cba6adff0b9a1da95e14
+   TX Hash: 0x04e5994616ff2ee4f7...a220b941d0
+   TX URL: https://polygonscan.com/tx/0x04e5994616ff2ee4f78a5538b5e257dbdd30ead471234d9dd528b5a220b941d0
+================================================================================
+🔥 SEÑAL CONSENSO: 3 ballenas → BUY | Total: $53,363
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.41 (41.2%)
+   Polymarket:   0.38 (38.0%)
+   Edge:         +3.2% ✅
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $6,400.00 USD
+📊 Mercado: Will Real Betis Balompié win on 2026-02-15?
+🔗 URL: https://polymarket.com/event/lal-mal-bet-2026-02-15
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.6400 (64.00%)
+📦 Volumen: $1,165,264.10
+🕐 Hora: 2026-02-15 14:56:11
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: BreezeScout
+   Wallet: 0xf208326de73e12994c0cd2b641dddc74a319fa74
+   Perfil: https://polymarket.com/profile/0xf208326de73e12994c0cd2b641dddc74a319fa74
+   TX Hash: 0xe42909be279f6101e9...05acb375c8
+   TX URL: https://polygonscan.com/tx/0xe42909be279f6101e90e828a6c5bb884aeac7c5d1d632d5b86c55605acb375c8
+================================================================================
+🔥 SEÑAL CONSENSO: 4 ballenas → BUY | Total: $59,763
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.40 (40.3%)
+   Polymarket:   0.64 (64.0%)
+   Edge:         -23.7% ❌
+⚠️⚠️ WARNING: SUCKER BET - Ballena pagando 23.7% MÁS que Pinnacle
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $6,400.00 USD
+📊 Mercado: Will Real Betis Balompié win on 2026-02-15?
+🔗 URL: https://polymarket.com/event/lal-mal-bet-2026-02-15
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.6400 (64.00%)
+📦 Volumen: $1,165,264.10
+🕐 Hora: 2026-02-15 14:56:03
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: BreezeScout
+   Wallet: 0xf208326de73e12994c0cd2b641dddc74a319fa74
+   Perfil: https://polymarket.com/profile/0xf208326de73e12994c0cd2b641dddc74a319fa74
+   TX Hash: 0xce86b9449570081b1d...e0b4c9bb67
+   TX URL: https://polygonscan.com/tx/0xce86b9449570081b1d4d8f234af1013fced1e7c2c2fe8028b1efd5e0b4c9bb67
+================================================================================
+🔥 SEÑAL CONSENSO: 5 ballenas → BUY | Total: $66,163
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.40 (40.3%)
+   Polymarket:   0.64 (64.0%)
+   Edge:         -23.7% ❌
+⚠️⚠️ WARNING: SUCKER BET - Ballena pagando 23.7% MÁS que Pinnacle
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $6,400.00 USD
+📊 Mercado: Will Real Betis Balompié win on 2026-02-15?
+🔗 URL: https://polymarket.com/event/lal-mal-bet-2026-02-15
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.6400 (64.00%)
+📦 Volumen: $1,165,264.10
+🕐 Hora: 2026-02-15 14:55:55
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: BreezeScout
+   Wallet: 0xf208326de73e12994c0cd2b641dddc74a319fa74
+   Perfil: https://polymarket.com/profile/0xf208326de73e12994c0cd2b641dddc74a319fa74
+   TX Hash: 0x7dd2586953e8f7afc3...6293450904
+   TX URL: https://polygonscan.com/tx/0x7dd2586953e8f7afc300be35b6f7867c47bbebe2a666ae16f1e8a46293450904
+================================================================================
+🔥 SEÑAL CONSENSO: 6 ballenas → BUY | Total: $72,563
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.40 (40.3%)
+   Polymarket:   0.64 (64.0%)
+   Edge:         -23.7% ❌
+⚠️⚠️ WARNING: SUCKER BET - Ballena pagando 23.7% MÁS que Pinnacle
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $13,344.79 USD
+📊 Mercado: Valorant: MIBR vs NRG (BO5) - VCT Americas Kickoff Playoffs
+🔗 URL: https://polymarket.com/event/val-mibr-nrg-2026-02-15
+🎯 Outcome: MIBR
+📈 Lado: COMPRA
+💵 Precio: 0.4100 (41.00%)
+📦 Volumen: $68,387.41
+🕐 Hora: 2026-02-15 15:11:17
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: FollowMeABC123
+   Wallet: 0xc257ea7e3a81ca8e16df8935d44d513959fa358e
+   Perfil: https://polymarket.com/profile/0xc257ea7e3a81ca8e16df8935d44d513959fa358e
+   TX Hash: 0xce71ea13b8e110da3d...6d68cb01d2
+   TX URL: https://polygonscan.com/tx/0xce71ea13b8e110da3d02db85179ca1a9544a8c44eca0407a52d0826d68cb01d2
+================================================================================
+
+
+
+================================================================================
+📊 RESUMEN DE SESIÓN
+================================================================================
+⏱️  Tiempo de monitoreo:     2h 15m 40s
+🐋 Total de ballenas:       53
+✅ Ballenas capturadas:     19
+⛔ Ballenas ignoradas:      34
+💰 Valor promedio:          $12,809.27 USD
+💎 Ballena más grande:      $122,776.15 USD
+   └─ Mercado: Will Olympique Lyonnais win on 2026-02-15?...
+   └─ Wallet: 0x003932bc605249fbfe...
+📊 Mercados monitoreados:   6
+
+💾 Archivos guardados:
+   - trades_live/whales_20260215_141229.txt (log formateado)
+   - trades_live/historial_trades.json (historial de trades)
+
+🏆 TOP 5 MERCADOS CON MÁS BALLENAS:
+   1. Will Olympique Lyonnais win on 2026-02-15?... (9 ballenas)
+   2. Will Real Betis Balompié win on 2026-02-15?... (6 ballenas)
+   3. Will SSC Napoli vs. AS Roma end in a draw?... (1 ballenas)
+   4. Will the price of Ethereum be above $1,900 on February 17?... (1 ballenas)
+   5. Will SSC Napoli win on 2026-02-15?... (1 ballenas)
+
+================================================================================

@@ -1,0 +1,56 @@
+
+================================================================================
+🚀 MONITOR INICIADO
+================================================================================
+💵 Umbral de ballena:        $2,500.00 USD
+⏱️  Intervalo de polling:     3 segundos
+📊 Límite de trades/ciclo:   1000
+⏰ Ventana de tiempo:        30 minutos (solo trades recientes)
+💾 Archivo de log:           trades_live/whales_20260220_053231.txt
+📂 Trades en memoria:        0
+📱 Notificaciones Telegram:  ✅ ACTIVO
+🔄 Esperando trades...
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $4,304.01 USD
+📊 Mercado: LoL: Dplus KIA vs DN SOOPers - Game 4 Winner
+🔗 URL: https://polymarket.com/event/lol-dk-dnf-2026-02-20
+🎯 Outcome: DN SOOPers
+📈 Lado: COMPRA
+💵 Precio: 0.3731 (37.31%)
+📦 Volumen: $89,828.39
+🕐 Hora: 2026-02-20 06:04:16
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: chickenpenguin
+   Wallet: 0xbca8b97bdb5dbe33151074f04d0948238a6acf14
+   Perfil: https://polymarket.com/profile/0xbca8b97bdb5dbe33151074f04d0948238a6acf14
+   TX Hash: 0xdd6658d123d9cf23d3...796c1295c3
+   TX URL: https://polygonscan.com/tx/0xdd6658d123d9cf23d3d800bf1fc995a6724410ff9be5271ed91dcb796c1295c3
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $4,573.25 USD
+📊 Mercado: Will US Sassuolo Calcio win on 2026-02-20?
+🔗 URL: https://polymarket.com/event/sea-sas-ver-2026-02-20
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.5500 (55.00%)
+📦 Volumen: $144,341.27
+🕐 Hora: 2026-02-20 06:08:48
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: elkmonkey
+   Wallet: 0xead152b855effa6b5b5837f53b24c0756830c76a
+   Perfil: https://polymarket.com/profile/0xead152b855effa6b5b5837f53b24c0756830c76a
+   TX Hash: 0x9fe73c9c83305dc2d9...08b5c4bd95
+   TX URL: https://polygonscan.com/tx/0x9fe73c9c83305dc2d94c624f743457ee7671cdc5d86c0743d8364808b5c4bd95
+================================================================================
+

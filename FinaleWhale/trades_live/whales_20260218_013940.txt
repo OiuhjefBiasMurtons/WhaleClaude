@@ -1,0 +1,102 @@
+
+================================================================================
+🚀 MONITOR INICIADO
+================================================================================
+💵 Umbral de ballena:        $2,500.00 USD
+⏱️  Intervalo de polling:     3 segundos
+📊 Límite de trades/ciclo:   1000
+⏰ Ventana de tiempo:        30 minutos (solo trades recientes)
+💾 Archivo de log:           trades_live/whales_20260218_013940.txt
+📂 Trades en memoria:        5000
+📱 Notificaciones Telegram:  ✅ ACTIVO
+🔄 Esperando trades...
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,889.90 USD
+📊 Mercado: Spread: Newcastle United FC (-1.5)
+🔗 URL: https://polymarket.com/event/ucl-qar1-new-2026-02-18-more-markets
+🎯 Outcome: Newcastle United FC
+📈 Lado: COMPRA
+💵 Precio: 0.4700 (47.00%)
+📦 Volumen: $25,635.97
+🕐 Hora: 2026-02-18 02:21:26
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: hugesportswhale
+   Wallet: 0xb6aee7f281e13b23bd959127f6e2b3dccb4e4df8
+   Perfil: https://polymarket.com/profile/0xb6aee7f281e13b23bd959127f6e2b3dccb4e4df8
+   TX Hash: 0x99072775900cf97501...dc93f6864d
+   TX URL: https://polygonscan.com/tx/0x99072775900cf9750118382578922c7a737b637c153dcbb718c5a4dc93f6864d
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $9,374.95 USD  ⚡ NICHO (36.6% del mercado)
+📊 Mercado: Spread: Newcastle United FC (-1.5)
+🔗 URL: https://polymarket.com/event/ucl-qar1-new-2026-02-18-more-markets
+🎯 Outcome: Newcastle United FC
+📈 Lado: COMPRA
+💵 Precio: 0.4687 (46.87%)
+📦 Volumen: $25,635.97
+🕐 Hora: 2026-02-18 02:21:22
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: everton4life
+   Wallet: 0x23796015f5159c76921dc869b7f95a7c57e2bf16
+   Perfil: https://polymarket.com/profile/0x23796015f5159c76921dc869b7f95a7c57e2bf16
+   TX Hash: 0x0a00164ebb10b4ed26...39dc8a1d62
+   TX URL: https://polygonscan.com/tx/0x0a00164ebb10b4ed26d8e2eedf8f6b35240cb051823035c2e9d23f39dc8a1d62
+================================================================================
+🔥 SEÑAL CONSENSO: 2 ballenas → BUY | Total: $12,265
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $15,000.00 USD
+📊 Mercado: Will AC Milan win on 2026-02-18?
+🔗 URL: https://polymarket.com/event/sea-mil-com-2026-02-18
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.6068 (60.68%)
+📦 Volumen: $642,176.19
+🕐 Hora: 2026-02-18 02:42:10
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: BBPK
+   Wallet: 0xee0d153c17fe82b8866b484753b56a700ab457ab
+   Perfil: https://polymarket.com/profile/0xee0d153c17fe82b8866b484753b56a700ab457ab
+   TX Hash: 0x4cbf3a4448be92dae4...8dae6b6379
+   TX URL: https://polygonscan.com/tx/0x4cbf3a4448be92dae421a983daa3676e68d2a5ba938e386bfd1bac8dae6b6379
+================================================================================
+
+
+
+================================================================================
+📊 RESUMEN DE SESIÓN
+================================================================================
+⏱️  Tiempo de monitoreo:     1h 9m 19s
+🐋 Total de ballenas:       21
+✅ Ballenas capturadas:     3
+⛔ Ballenas ignoradas:      18
+💰 Valor promedio:          $5,242.77 USD
+💎 Ballena más grande:      $15,000.00 USD
+   └─ Mercado: Will AC Milan win on 2026-02-18?...
+   └─ Wallet: 0xee0d153c17fe82b886...
+📊 Mercados monitoreados:   2
+
+💾 Archivos guardados:
+   - trades_live/whales_20260218_013940.txt (log formateado)
+   - trades_live/historial_trades.json (historial de trades)
+
+🏆 TOP 5 MERCADOS CON MÁS BALLENAS:
+   1. Spread: Newcastle United FC (-1.5)... (2 ballenas)
+   2. Will AC Milan win on 2026-02-18?... (1 ballenas)
+
+================================================================================

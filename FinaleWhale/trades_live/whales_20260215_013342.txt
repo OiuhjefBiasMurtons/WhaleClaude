@@ -33,3 +33,26 @@
    TX URL: https://polygonscan.com/tx/0x67f3eb55c4b18e439a7abdba4f1fa33e529b86ca42e423992691cc7b0e2bc1ba
 ================================================================================
 
+
+
+================================================================================
+📊 RESUMEN DE SESIÓN
+================================================================================
+⏱️  Tiempo de monitoreo:     0h 28m 53s
+🐋 Total de ballenas:       16
+✅ Ballenas capturadas:     1
+⛔ Ballenas ignoradas:      15
+💰 Valor promedio:          $3,779.94 USD
+💎 Ballena más grande:      $8,063.85 USD
+   └─ Mercado: LoL: Ground Zero Gaming vs Deep Cross Gaming - Gam...
+   └─ Wallet: 0x2dc19b37c4e3aa62a7...
+📊 Mercados monitoreados:   1
+
+💾 Archivos guardados:
+   - trades_live/whales_20260215_013342.txt (log formateado)
+   - trades_live/historial_trades.json (historial de trades)
+
+🏆 TOP 5 MERCADOS CON MÁS BALLENAS:
+   1. Russia x Ukraine ceasefire by end of 2026?... (1 ballenas)
+
+================================================================================

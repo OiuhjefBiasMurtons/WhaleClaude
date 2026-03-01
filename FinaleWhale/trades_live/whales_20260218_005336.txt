@@ -1,0 +1,80 @@
+
+================================================================================
+🚀 MONITOR INICIADO
+================================================================================
+💵 Umbral de ballena:        $2,500.00 USD
+⏱️  Intervalo de polling:     3 segundos
+📊 Límite de trades/ciclo:   1000
+⏰ Ventana de tiempo:        30 minutos (solo trades recientes)
+💾 Archivo de log:           trades_live/whales_20260218_005336.txt
+📂 Trades en memoria:        0
+📱 Notificaciones Telegram:  ✅ ACTIVO
+🔄 Esperando trades...
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $3,620.49 USD
+📊 Mercado: Will Club Atlético de Madrid win on 2026-02-18?
+🔗 URL: https://polymarket.com/event/ucl-bru1-atm1-2026-02-18
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.5100 (51.00%)
+📦 Volumen: $144,725.14
+🕐 Hora: 2026-02-18 01:21:16
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: lionss
+   Wallet: 0xecfce3118f6f085a96c7d1a8bee42af34cb9cd05
+   Perfil: https://polymarket.com/profile/0xecfce3118f6f085a96c7d1a8bee42af34cb9cd05
+   TX Hash: 0x87e9396bdff1912807...2f5e7c3f7b
+   TX URL: https://polygonscan.com/tx/0x87e9396bdff19128074b67e30dcafe99054d41aeaeeb0ebcde3d4e2f5e7c3f7b
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,578.05 USD
+📊 Mercado: Will Club Atlético de Madrid win on 2026-02-18?
+🔗 URL: https://polymarket.com/event/ucl-bru1-atm1-2026-02-18
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.5100 (51.00%)
+📦 Volumen: $144,725.14
+🕐 Hora: 2026-02-18 01:21:16
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: elkmonkey
+   Wallet: 0xead152b855effa6b5b5837f53b24c0756830c76a
+   Perfil: https://polymarket.com/profile/0xead152b855effa6b5b5837f53b24c0756830c76a
+   TX Hash: 0xc1090ea14e4ca28771...dbd7e27acf
+   TX URL: https://polygonscan.com/tx/0xc1090ea14e4ca2877140e01cbe1c815141f1f7a3e6bd4cf7a5a06cdbd7e27acf
+================================================================================
+🔥 SEÑAL CONSENSO: 2 ballenas → BUY | Total: $6,199
+
+
+
+================================================================================
+📊 RESUMEN DE SESIÓN
+================================================================================
+⏱️  Tiempo de monitoreo:     0h 45m 44s
+🐋 Total de ballenas:       15
+✅ Ballenas capturadas:     2
+⛔ Ballenas ignoradas:      13
+💰 Valor promedio:          $7,209.77 USD
+💎 Ballena más grande:      $23,195.48 USD
+   └─ Mercado: Will Arsenal FC win on 2026-02-18?...
+   └─ Wallet: 0xada56a3f1a9d7d3fe7...
+📊 Mercados monitoreados:   1
+
+💾 Archivos guardados:
+   - trades_live/whales_20260218_005336.txt (log formateado)
+   - trades_live/historial_trades.json (historial de trades)
+
+🏆 TOP 5 MERCADOS CON MÁS BALLENAS:
+   1. Will Club Atlético de Madrid win on 2026-02-18?... (2 ballenas)
+
+================================================================================

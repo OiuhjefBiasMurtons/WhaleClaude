@@ -1,0 +1,82 @@
+
+================================================================================
+MONITOR GOLD v3.0 INICIADO
+================================================================================
+Umbral de ballena:        $2,500.00 USD
+Intervalo de polling:     3 segundos
+Limite de trades/ciclo:   1000
+Ventana de tiempo:        30 minutos (solo trades recientes)
+Archivo de log:           trades_live/whales_20260224_022110.txt
+Trades en memoria:        0
+Notificaciones Telegram:  ACTIVO
+Esperando trades...
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+Valor: $4,991.04 USD
+Mercado: LoL: JD Gaming vs Top Esports - Game 2 Winner
+URL: https://polymarket.com/event/lol-jdg-tes-2026-02-24
+Outcome: JD Gaming
+Lado: COMPRA
+Precio: 0.7300 (73.00%)
+Volumen: $190,542.93
+Hora: 2026-02-24 02:15:16
+
+INFORMACION DEL USUARIO:
+   Nombre: Jason886
+   Wallet: 0xe79547fad69ab28a48a49c6424975abc3cef8cae
+   Perfil: https://polymarket.com/profile/0xe79547fad69ab28a48a49c6424975abc3cef8cae
+   TX Hash: 0x5e0179ff5c72c62cb3...d5488fc970
+   TX URL: https://polygonscan.com/tx/0x5e0179ff5c72c62cb3a54bcd65f0cd03175fdb2d34537d040770b9d5488fc970
+
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+Valor: $4,340.00 USD
+Mercado: LoL: JD Gaming vs Top Esports (BO5) - LPL Playoffs
+URL: https://polymarket.com/event/lol-jdg-tes-2026-02-24
+Outcome: JD Gaming
+Lado: COMPRA
+Precio: 0.6200 (62.00%)
+Volumen: $1,154,017.88
+Hora: 2026-02-24 02:30:16
+
+INFORMACION DEL USUARIO:
+   Nombre: Deep7
+   Wallet: 0x23073ad0c9dff45353cedb11760570b995663934
+   Perfil: https://polymarket.com/profile/0x23073ad0c9dff45353cedb11760570b995663934
+   TX Hash: 0x350e80932f1ae12181...6adf6930f5
+   TX URL: https://polygonscan.com/tx/0x350e80932f1ae1218171d8dff25f6b41e57a675193c823a60859176adf6930f5
+
+================================================================================
+
+
+
+================================================================================
+RESUMEN DE SESION (GOLD v3.0)
+================================================================================
+Tiempo de monitoreo:     0h 19m 33s
+Total de ballenas:       9
+Ballenas capturadas:     2
+Ballenas ignoradas:      7
+Valor promedio:          $4,560.57 USD
+Ballena mas grande:      $12,760.89 USD
+   Mercado: LoL: JD Gaming vs Top Esports - Game 2 Winner...
+   Wallet: 0x1eb06435d217aafbc5...
+Mercados monitoreados:   2
+
+Archivos guardados:
+   - trades_live/whales_20260224_022110.txt (log formateado)
+   - trades_live/historial_trades.json (historial de trades)
+
+TOP 5 MERCADOS CON MAS BALLENAS:
+   1. LoL: JD Gaming vs Top Esports - Game 2 Winner... (1 ballenas)
+   2. LoL: JD Gaming vs Top Esports (BO5) - LPL Playoffs... (1 ballenas)
+
+================================================================================

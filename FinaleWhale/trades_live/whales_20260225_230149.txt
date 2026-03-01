@@ -1,0 +1,34 @@
+
+================================================================================
+MONITOR GOLD v3.0 INICIADO
+================================================================================
+Umbral de ballena:        $2,500.00 USD
+Intervalo de polling:     3 segundos
+Limite de trades/ciclo:   1000
+Ventana de tiempo:        30 minutos (solo trades recientes)
+Archivo de log:           trades_live/whales_20260225_230149.txt
+Trades en memoria:        5000
+Notificaciones Telegram:  ACTIVO
+Esperando trades...
+================================================================================
+
+
+
+================================================================================
+RESUMEN DE SESION (GOLD v3.0)
+================================================================================
+Tiempo de monitoreo:     0h 17m 14s
+Total de ballenas:       6
+Ballenas capturadas:     0
+Ballenas ignoradas:      6
+Valor promedio:          $5,160.52 USD
+Ballena mas grande:      $15,966.21 USD
+   Mercado: Counter-Strike: Lynn Vision vs Chinggis Warriors (...
+   Wallet: 0xa5ea13a81d2b7e8e42...
+Mercados monitoreados:   0
+
+Archivos guardados:
+   - trades_live/whales_20260225_230149.txt (log formateado)
+   - trades_live/historial_trades.json (historial de trades)
+
+================================================================================

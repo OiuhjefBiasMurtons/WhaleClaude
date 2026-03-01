@@ -1,0 +1,102 @@
+
+================================================================================
+🚀 MONITOR INICIADO
+================================================================================
+💵 Umbral de ballena:        $2,500.00 USD
+⏱️  Intervalo de polling:     3 segundos
+📊 Límite de trades/ciclo:   1000
+⏰ Ventana de tiempo:        30 minutos (solo trades recientes)
+💾 Archivo de log:           trades_live/whales_20260215_132324.txt
+📂 Trades en memoria:        5000
+📱 Notificaciones Telegram:  ✅ ACTIVO
+🔄 Esperando trades...
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $7,270.12 USD
+📊 Mercado: Will SSC Napoli win on 2026-02-15?
+🔗 URL: https://polymarket.com/event/sea-nap-rom-2026-02-15
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.6200 (62.00%)
+📦 Volumen: $444,308.84
+🕐 Hora: 2026-02-15 13:24:13
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: swisstony
+   Wallet: 0x204f72f35326db932158cba6adff0b9a1da95e14
+   Perfil: https://polymarket.com/profile/0x204f72f35326db932158cba6adff0b9a1da95e14
+   TX Hash: 0x4b5a67cbd5a2e2bbaf...91ebf197c6
+   TX URL: https://polygonscan.com/tx/0x4b5a67cbd5a2e2bbafebe28774133a150af30ea42fa5d42fcfc0b191ebf197c6
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $3,499.90 USD
+📊 Mercado: Will SSC Napoli win on 2026-02-15?
+🔗 URL: https://polymarket.com/event/sea-nap-rom-2026-02-15
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.6200 (62.00%)
+📦 Volumen: $444,308.84
+🕐 Hora: 2026-02-15 13:24:13
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: mortewfenloin
+   Wallet: 0x160bf4f27cdaaaed1408ccd1558ab30c210d4296
+   Perfil: https://polymarket.com/profile/0x160bf4f27cdaaaed1408ccd1558ab30c210d4296
+   TX Hash: 0x37eee3887f85711693...5e3b63ce99
+   TX URL: https://polygonscan.com/tx/0x37eee3887f85711693a29d54dd3d94fb459b13d0ff554f4bdc097f5e3b63ce99
+================================================================================
+🔥 SEÑAL CONSENSO: 2 ballenas → BUY | Total: $10,770
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $20,000.00 USD
+📊 Mercado: Counter-Strike: Vitality vs TheMongolz (BO3) - PGL Cluj-Napoca Group Stage
+🔗 URL: https://polymarket.com/event/cs2-vit-mglz-2026-02-15
+🎯 Outcome: Vitality
+📈 Lado: COMPRA
+💵 Precio: 0.6799 (67.99%)
+📦 Volumen: $625,525.67
+🕐 Hora: 2026-02-15 13:30:23
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0xb72665Ae7f1207572A96726d6Db3d696e7ca0664-1769084973208
+   Wallet: 0xb72665ae7f1207572a96726d6db3d696e7ca0664
+   Perfil: https://polymarket.com/profile/0xb72665ae7f1207572a96726d6db3d696e7ca0664
+   TX Hash: 0xde5eb7cacf89df1eac...feb4e245b5
+   TX URL: https://polygonscan.com/tx/0xde5eb7cacf89df1eacbffe65a78d7236ccb8a0929d7b08df828352feb4e245b5
+================================================================================
+
+
+
+================================================================================
+📊 RESUMEN DE SESIÓN
+================================================================================
+⏱️  Tiempo de monitoreo:     0h 29m 20s
+🐋 Total de ballenas:       10
+✅ Ballenas capturadas:     3
+⛔ Ballenas ignoradas:      7
+💰 Valor promedio:          $7,549.44 USD
+💎 Ballena más grande:      $20,000.00 USD
+   └─ Mercado: Counter-Strike: Vitality vs TheMongolz (BO3) - PGL...
+   └─ Wallet: 0xb72665ae7f1207572a...
+📊 Mercados monitoreados:   2
+
+💾 Archivos guardados:
+   - trades_live/whales_20260215_132324.txt (log formateado)
+   - trades_live/historial_trades.json (historial de trades)
+
+🏆 TOP 5 MERCADOS CON MÁS BALLENAS:
+   1. Will SSC Napoli win on 2026-02-15?... (2 ballenas)
+   2. Counter-Strike: Vitality vs TheMongolz (BO3) - PGL Cluj-Napo... (1 ballenas)
+
+================================================================================

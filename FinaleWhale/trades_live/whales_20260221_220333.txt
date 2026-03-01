@@ -1,0 +1,35 @@
+
+================================================================================
+🚀 MONITOR INICIADO
+================================================================================
+💵 Umbral de ballena:        $2,500.00 USD
+⏱️  Intervalo de polling:     3 segundos
+📊 Límite de trades/ciclo:   1000
+⏰ Ventana de tiempo:        30 minutos (solo trades recientes)
+💾 Archivo de log:           trades_live/whales_20260221_220333.txt
+📂 Trades en memoria:        5000
+📱 Notificaciones Telegram:  ✅ ACTIVO
+🔄 Esperando trades...
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $6,200.00 USD
+📊 Mercado: UFC Fight Night: Dan Ige vs. Melquizael Costa (Featherweight, Main Card)
+🔗 URL: https://polymarket.com/event/ufc-dan2-mel4-2026-02-21
+🎯 Outcome: Ige
+📈 Lado: COMPRA
+💵 Precio: 0.3100 (31.00%)
+📦 Volumen: $372,115.17
+🕐 Hora: 2026-02-21 22:04:18
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: theyseemeloosintheyhatin
+   Wallet: 0x14333d20e95f39472970d2feff6c9c4c16fd56a0
+   Perfil: https://polymarket.com/profile/0x14333d20e95f39472970d2feff6c9c4c16fd56a0
+   TX Hash: 0x839b7b5f4a246c8620...b74f2d2b0d
+   TX URL: https://polygonscan.com/tx/0x839b7b5f4a246c8620f954a590231126b3572601b81cfea522db6fb74f2d2b0d
+================================================================================
+

@@ -371,3 +371,143 @@
    TX URL: https://polygonscan.com/tx/0xc41ff8ee75bf509efb165147132800a62264dc1cf05dc5e090a0a8ca210dce14
 ================================================================================
 
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $7,967.43 USD
+📊 Mercado: Bitcoin Up or Down - February 15, 1:30AM-1:45AM ET
+🔗 URL: https://polymarket.com/event/btc-updown-15m-1771137000
+🎯 Outcome: Down
+📈 Lado: COMPRA
+💵 Precio: 0.9669 (96.69%)
+🕐 Hora: 2026-02-15 01:45:07
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: BoneReader
+   Wallet: 0xd84c2b6d65dc596f49c7b6aadd6d74ca91e407b9
+   Perfil: https://polymarket.com/profile/0xd84c2b6d65dc596f49c7b6aadd6d74ca91e407b9
+   TX Hash: 0x10afa34ac89f322ca6...a3812f5321
+   TX URL: https://polygonscan.com/tx/0x10afa34ac89f322ca6e89bdd18e1303d87ff8e3b406863e3a52165a3812f5321
+================================================================================
+
+
+================================================================================
+🦈 TIBURÓN DETECTADA 🦈
+================================================================================
+💰 Valor: $1,725.80 USD
+📊 Mercado: Bitcoin Up or Down - February 15, 1:30AM-1:45AM ET
+🔗 URL: https://polymarket.com/event/btc-updown-15m-1771137000
+🎯 Outcome: Down
+📈 Lado: COMPRA
+💵 Precio: 0.9807 (98.07%)
+🕐 Hora: 2026-02-15 01:45:05
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: BoneReader
+   Wallet: 0xd84c2b6d65dc596f49c7b6aadd6d74ca91e407b9
+   Perfil: https://polymarket.com/profile/0xd84c2b6d65dc596f49c7b6aadd6d74ca91e407b9
+   TX Hash: 0x4fb02dcbe39de316a6...81b427543c
+   TX URL: https://polygonscan.com/tx/0x4fb02dcbe39de316a6b75897d4a9ab0b468c98e2b63510d4a0d56f81b427543c
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $4,439.65 USD
+📊 Mercado: Ethereum Up or Down - February 15, 1:30AM-1:45AM ET
+🔗 URL: https://polymarket.com/event/eth-updown-15m-1771137000
+🎯 Outcome: Down
+📈 Lado: COMPRA
+💵 Precio: 0.9900 (99.00%)
+🕐 Hora: 2026-02-15 01:45:05
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: BoneReader
+   Wallet: 0xd84c2b6d65dc596f49c7b6aadd6d74ca91e407b9
+   Perfil: https://polymarket.com/profile/0xd84c2b6d65dc596f49c7b6aadd6d74ca91e407b9
+   TX Hash: 0xfb1cb1e799148fdaf4...17b720a5c8
+   TX URL: https://polygonscan.com/tx/0xfb1cb1e799148fdaf46c2bc35aa9149f5495654207be413304500617b720a5c8
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $4,900.29 USD
+📊 Mercado: Ethereum Up or Down - February 15, 1:30AM-1:45AM ET
+🔗 URL: https://polymarket.com/event/eth-updown-15m-1771137000
+🎯 Outcome: Down
+📈 Lado: COMPRA
+💵 Precio: 0.9801 (98.01%)
+🕐 Hora: 2026-02-15 01:45:05
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: BoneReader
+   Wallet: 0xd84c2b6d65dc596f49c7b6aadd6d74ca91e407b9
+   Perfil: https://polymarket.com/profile/0xd84c2b6d65dc596f49c7b6aadd6d74ca91e407b9
+   TX Hash: 0x6180eef2b40a3d8b95...5d9e3fdda5
+   TX URL: https://polygonscan.com/tx/0x6180eef2b40a3d8b959bd2da74b7d316f54ed6fea1abbca1e7a8bb5d9e3fdda5
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $8,063.85 USD
+📊 Mercado: LoL: Ground Zero Gaming vs Deep Cross Gaming - Game 1 Winner
+🔗 URL: https://polymarket.com/event/lol-gz-dcg-2026-02-15
+🎯 Outcome: Deep Cross Gaming
+📈 Lado: COMPRA
+💵 Precio: 0.9861 (98.61%)
+🕐 Hora: 2026-02-15 01:49:51
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: toanhtoanh
+   Wallet: 0x2dc19b37c4e3aa62a74a65e39f9e9cdd1e2174fc
+   Perfil: https://polymarket.com/profile/0x2dc19b37c4e3aa62a74a65e39f9e9cdd1e2174fc
+   TX Hash: 0xe75a0f99ca05c31244...749a7d379d
+   TX URL: https://polygonscan.com/tx/0xe75a0f99ca05c312443bd72d6750840e121c84c4daf0f8a2db2540749a7d379d
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $5,793.16 USD
+📊 Mercado: Will Sarah Huckabee Sanders win the 2028 Republican presidential nomination?
+🔗 URL: https://polymarket.com/event/republican-presidential-nominee-2028
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.9920 (99.20%)
+🕐 Hora: 2026-02-15 01:49:41
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: buret
+   Wallet: 0xbb7e80417ccabd5e6190b679432a21e46257f1be
+   Perfil: https://polymarket.com/profile/0xbb7e80417ccabd5e6190b679432a21e46257f1be
+   TX Hash: 0x6b7ccffaef8834467d...a98e0d3ac7
+   TX URL: https://polygonscan.com/tx/0x6b7ccffaef8834467d03ba689989e4f0666d07dc930b1e332d6cfaa98e0d3ac7
+================================================================================
+
+
+================================================================================
+🦈 TIBURÓN DETECTADA 🦈
+================================================================================
+💰 Valor: $1,845.05 USD
+📊 Mercado: Will Elon Musk post 340-359 tweets from February 13 to February 20, 2026?
+🔗 URL: https://polymarket.com/event/elon-musk-of-tweets-february-13-february-20
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.9200 (92.00%)
+🕐 Hora: 2026-02-15 01:55:31
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: kryptofantom
+   Wallet: 0xbf3731e66b2c5ce0f88918a380da39792f5a2454
+   Perfil: https://polymarket.com/profile/0xbf3731e66b2c5ce0f88918a380da39792f5a2454
+   TX Hash: 0xe75a23548fabe8d3ec...51d26ccc11
+   TX URL: https://polygonscan.com/tx/0xe75a23548fabe8d3ec2fcb1d1a5fe4f64dcd3757f5aa243655564851d26ccc11
+================================================================================
+

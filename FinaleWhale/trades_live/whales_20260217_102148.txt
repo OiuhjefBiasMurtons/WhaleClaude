@@ -1,0 +1,1073 @@
+
+================================================================================
+🚀 MONITOR INICIADO
+================================================================================
+💵 Umbral de ballena:        $2,500.00 USD
+⏱️  Intervalo de polling:     3 segundos
+📊 Límite de trades/ciclo:   1000
+⏰ Ventana de tiempo:        30 minutos (solo trades recientes)
+💾 Archivo de log:           trades_live/whales_20260217_102148.txt
+📂 Trades en memoria:        5000
+📱 Notificaciones Telegram:  ✅ ACTIVO
+🔄 Esperando trades...
+================================================================================
+
+
+================================================================================
+🐋🐋🐋🐋 ULTRA BALLENA DETECTADA 🐋🐋🐋🐋
+================================================================================
+💰 Valor: $33,272.02 USD
+📊 Mercado: Counter-Strike: FURIA vs PARIVISION (BO3) - PGL Cluj-Napoca Group Stage
+🔗 URL: https://polymarket.com/event/cs2-furia-prv-2026-02-17
+🎯 Outcome: FURIA
+📈 Lado: COMPRA
+💵 Precio: 0.6700 (67.00%)
+📦 Volumen: $203,040.31
+🕐 Hora: 2026-02-17 10:21:29
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: hioa
+   Wallet: 0xccb290b1c145d1c95695d3756346bba9f1398586
+   Perfil: https://polymarket.com/profile/0xccb290b1c145d1c95695d3756346bba9f1398586
+   TX Hash: 0xe3a9fedb3a3b2e16dd...26d0845d94
+   TX URL: https://polygonscan.com/tx/0xe3a9fedb3a3b2e16dd82bd69dd8ea8de28907925d8dc696942969126d0845d94
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $7,387.00 USD
+📊 Mercado: Will Real Madrid CF win on 2026-02-17?
+🔗 URL: https://polymarket.com/event/ucl-ben-rma-2026-02-17
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.5600 (56.00%)
+📦 Volumen: $1,623,932.78
+🕐 Hora: 2026-02-17 10:40:55
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: batya1
+   Wallet: 0x618534bef69023c72e9400f42191c412d1882965
+   Perfil: https://polymarket.com/profile/0x618534bef69023c72e9400f42191c412d1882965
+   TX Hash: 0xbdd5ee5c452c229434...d6ae35ed3e
+   TX URL: https://polygonscan.com/tx/0xbdd5ee5c452c2294345196549445457f51d5c54881dff8e154ca65d6ae35ed3e
+================================================================================
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.58 (58.5%)
+   Polymarket:   0.56 (56.0%)
+   Edge:         +2.5% ⚠️
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,529.00 USD
+📊 Mercado: Will Juventus FC win on 2026-02-17?
+🔗 URL: https://polymarket.com/event/ucl-gal1-juv-2026-02-17
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.5700 (57.00%)
+📦 Volumen: $595,524.52
+🕐 Hora: 2026-02-17 11:56:21
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: lu1zzz
+   Wallet: 0xc97485a44146b5db0b8b121358f57cf297cdb33b
+   Perfil: https://polymarket.com/profile/0xc97485a44146b5db0b8b121358f57cf297cdb33b
+   TX Hash: 0xbf38a0dc61ee892c54...20e3903478
+   TX URL: https://polygonscan.com/tx/0xbf38a0dc61ee892c54356dbbe4c90b6d470b952c5d01c7f2028e9920e3903478
+================================================================================
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.49 (49.0%)
+   Polymarket:   0.57 (57.0%)
+   Edge:         -8.0% ❌
+⚠️⚠️ WARNING: SUCKER BET - Ballena pagando 8.0% MÁS que Pinnacle
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,790.15 USD
+📊 Mercado: Will Juventus FC win on 2026-02-17?
+🔗 URL: https://polymarket.com/event/ucl-gal1-juv-2026-02-17
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.5700 (57.00%)
+📦 Volumen: $595,524.52
+🕐 Hora: 2026-02-17 11:56:17
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: swisstony
+   Wallet: 0x204f72f35326db932158cba6adff0b9a1da95e14
+   Perfil: https://polymarket.com/profile/0x204f72f35326db932158cba6adff0b9a1da95e14
+   TX Hash: 0xd08065048a767fd050...2560ef7d86
+   TX URL: https://polygonscan.com/tx/0xd08065048a767fd050465086dad73b6519b3707c07fe56b5d23ef12560ef7d86
+================================================================================
+🔥 SEÑAL CONSENSO: 2 ballenas → BUY | Total: $5,319
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.49 (49.0%)
+   Polymarket:   0.57 (57.0%)
+   Edge:         -8.0% ❌
+⚠️⚠️ WARNING: SUCKER BET - Ballena pagando 8.0% MÁS que Pinnacle
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $8,550.00 USD
+📊 Mercado: Will Juventus FC win on 2026-02-17?
+🔗 URL: https://polymarket.com/event/ucl-gal1-juv-2026-02-17
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.5700 (57.00%)
+📦 Volumen: $595,524.52
+🕐 Hora: 2026-02-17 11:56:11
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Trapital
+   Wallet: 0x18670d5a83b7b38d509398067c095d4c321992ca
+   Perfil: https://polymarket.com/profile/0x18670d5a83b7b38d509398067c095d4c321992ca
+   TX Hash: 0xc8c371164b6a3a27f1...66ea668aed
+   TX URL: https://polygonscan.com/tx/0xc8c371164b6a3a27f1b6ef1ec7f915479088cf2acc6b678d82463a66ea668aed
+================================================================================
+🔥 SEÑAL CONSENSO: 3 ballenas → BUY | Total: $13,869
+⚠️ GRUPO COORDINADO: 3 wallets → BUY en 0.7 min | Wallets: 3
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.49 (49.0%)
+   Polymarket:   0.57 (57.0%)
+   Edge:         -8.0% ❌
+⚠️⚠️ WARNING: SUCKER BET - Ballena pagando 8.0% MÁS que Pinnacle
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $3,489.10 USD
+📊 Mercado: LoL: Karmine Corp vs GIANTX (BO3) - LEC Versus Playoffs
+🔗 URL: https://polymarket.com/event/lol-kc-gx-2026-02-17
+🎯 Outcome: Karmine Corp
+📈 Lado: COMPRA
+💵 Precio: 0.7400 (74.00%)
+📦 Volumen: $469,239.37
+🕐 Hora: 2026-02-17 12:17:11
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 17th-floor
+   Wallet: 0x94a5e75f6fd0816b3490ba32b8b2b0ad88229838
+   Perfil: https://polymarket.com/profile/0x94a5e75f6fd0816b3490ba32b8b2b0ad88229838
+   TX Hash: 0xf29b5d6ea13de3718e...9d83d1bd6f
+   TX URL: https://polygonscan.com/tx/0xf29b5d6ea13de3718e5de645071faf6dc0da7d18dc7aa6ae84e2509d83d1bd6f
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $5,043.51 USD
+📊 Mercado: Will Galatasaray SK win on 2026-02-17?
+🔗 URL: https://polymarket.com/event/ucl-gal1-juv-2026-02-17
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.7200 (72.00%)
+📦 Volumen: $467,567.59
+🕐 Hora: 2026-02-17 13:02:11
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: swisstony
+   Wallet: 0x204f72f35326db932158cba6adff0b9a1da95e14
+   Perfil: https://polymarket.com/profile/0x204f72f35326db932158cba6adff0b9a1da95e14
+   TX Hash: 0xcd565333fa6e50acda...0d39efaba9
+   TX URL: https://polygonscan.com/tx/0xcd565333fa6e50acda9b9ee1f23d60e5cbbdc6fb2879ca9bd34e620d39efaba9
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,950.00 USD
+📊 Mercado: Will Juventus FC win on 2026-02-17?
+🔗 URL: https://polymarket.com/event/ucl-gal1-juv-2026-02-17
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.6000 (60.00%)
+📦 Volumen: $595,524.52
+🕐 Hora: 2026-02-17 13:06:47
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: metski29
+   Wallet: 0x762ee19681f0482dfe3e44ca42e9a26b34564bf0
+   Perfil: https://polymarket.com/profile/0x762ee19681f0482dfe3e44ca42e9a26b34564bf0
+   TX Hash: 0xc448b0110dc0811256...347e76ed44
+   TX URL: https://polygonscan.com/tx/0xc448b0110dc08112562476354cb38185c48d72fcadc0c8ea59d7d1347e76ed44
+================================================================================
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.49 (49.0%)
+   Polymarket:   0.60 (60.0%)
+   Edge:         -11.0% ❌
+⚠️⚠️ WARNING: SUCKER BET - Ballena pagando 11.0% MÁS que Pinnacle
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $12,067.75 USD
+📊 Mercado: Will Real Madrid CF win on 2026-02-17?
+🔗 URL: https://polymarket.com/event/ucl-ben-rma-2026-02-17
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.5500 (55.00%)
+📦 Volumen: $1,623,932.78
+🕐 Hora: 2026-02-17 13:11:35
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: TheOnlyHuman
+   Wallet: 0x6ade597c0e2b43c0bf3542cada8a5e330d73f5b0
+   Perfil: https://polymarket.com/profile/0x6ade597c0e2b43c0bf3542cada8a5e330d73f5b0
+   TX Hash: 0x2156d649b37bfa07af...73d9536c12
+   TX URL: https://polygonscan.com/tx/0x2156d649b37bfa07af82ea3c64e5d108822764427328b7fa3e901d73d9536c12
+================================================================================
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.58 (58.5%)
+   Polymarket:   0.55 (55.0%)
+   Edge:         +3.5% ✅
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $4,978.65 USD
+📊 Mercado: Counter-Strike: FURIA vs PARIVISION (BO3) - PGL Cluj-Napoca Group Stage
+🔗 URL: https://polymarket.com/event/cs2-furia-prv-2026-02-17
+🎯 Outcome: FURIA
+📈 Lado: COMPRA
+💵 Precio: 0.5900 (59.00%)
+📦 Volumen: $203,040.31
+🕐 Hora: 2026-02-17 13:11:31
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0x0fd9ed42a94F0784cc531f4B5B2D92AFBd9C3373-1761767690233
+   Wallet: 0x0fd9ed42a94f0784cc531f4b5b2d92afbd9c3373
+   Perfil: https://polymarket.com/profile/0x0fd9ed42a94f0784cc531f4b5b2d92afbd9c3373
+   TX Hash: 0xebf587bba5ced065e7...ddb16ec8d0
+   TX URL: https://polygonscan.com/tx/0xebf587bba5ced065e75980d5daf7d602d0b017799813bc32780f1eddb16ec8d0
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $3,894.29 USD
+📊 Mercado: Counter-Strike: FURIA vs PARIVISION (BO3) - PGL Cluj-Napoca Group Stage
+🔗 URL: https://polymarket.com/event/cs2-furia-prv-2026-02-17
+🎯 Outcome: PARIVISION
+📈 Lado: COMPRA
+💵 Precio: 0.4400 (44.00%)
+📦 Volumen: $203,040.31
+🕐 Hora: 2026-02-17 13:17:29
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: RN1
+   Wallet: 0x2005d16a84ceefa912d4e380cd32e7ff827875ea
+   Perfil: https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea
+   TX Hash: 0xf53a1786176e3b7df9...aef3ba51f3
+   TX URL: https://polygonscan.com/tx/0xf53a1786176e3b7df9bf5b1c1974120f592006f1870e1f8fbe6fb1aef3ba51f3
+================================================================================
+🔥 SEÑAL CONSENSO: 2 ballenas → BUY | Total: $8,873
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $4,400.00 USD
+📊 Mercado: Counter-Strike: FURIA vs PARIVISION (BO3) - PGL Cluj-Napoca Group Stage
+🔗 URL: https://polymarket.com/event/cs2-furia-prv-2026-02-17
+🎯 Outcome: PARIVISION
+📈 Lado: COMPRA
+💵 Precio: 0.4400 (44.00%)
+📦 Volumen: $203,040.31
+🕐 Hora: 2026-02-17 13:17:25
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: RN1
+   Wallet: 0x2005d16a84ceefa912d4e380cd32e7ff827875ea
+   Perfil: https://polymarket.com/profile/0x2005d16a84ceefa912d4e380cd32e7ff827875ea
+   TX Hash: 0x54453526e14261af5f...41448fe204
+   TX URL: https://polygonscan.com/tx/0x54453526e14261af5f56fb8e3dc1ee30b68e87f95ee2fa6a7d30f341448fe204
+================================================================================
+🔥 SEÑAL CONSENSO: 3 ballenas → BUY | Total: $13,273
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $4,744.14 USD
+📊 Mercado: Counter-Strike: FURIA vs PARIVISION (BO3) - PGL Cluj-Napoca Group Stage
+🔗 URL: https://polymarket.com/event/cs2-furia-prv-2026-02-17
+🎯 Outcome: PARIVISION
+📈 Lado: COMPRA
+💵 Precio: 0.4363 (43.63%)
+📦 Volumen: $203,040.31
+🕐 Hora: 2026-02-17 13:17:11
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: daydaygreen
+   Wallet: 0x1eb06435d217aafbc511e5e0225b46c6e2dbd25b
+   Perfil: https://polymarket.com/profile/0x1eb06435d217aafbc511e5e0225b46c6e2dbd25b
+   TX Hash: 0x4356313c66e2ee6bf8...279f11afd2
+   TX URL: https://polygonscan.com/tx/0x4356313c66e2ee6bf878589f8e74aa1401069ffa0db67f9057d2a0279f11afd2
+================================================================================
+🔥 SEÑAL CONSENSO: 4 ballenas → BUY | Total: $18,017
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $17,239.82 USD
+📊 Mercado: Will Juventus FC win on 2026-02-17?
+🔗 URL: https://polymarket.com/event/ucl-gal1-juv-2026-02-17
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.6100 (61.00%)
+📦 Volumen: $595,524.52
+🕐 Hora: 2026-02-17 13:21:53
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: EF203F2IPFC2ICP20W-CP3
+   Wallet: 0x4133bcbad1d9c41de776646696f41c34d0a65e70
+   Perfil: https://polymarket.com/profile/0x4133bcbad1d9c41de776646696f41c34d0a65e70
+   TX Hash: 0xb56987daa24c5097d5...57589b698d
+   TX URL: https://polygonscan.com/tx/0xb56987daa24c5097d523a07de1d56da038296fd9c7dce628a135c257589b698d
+================================================================================
+🔥 SEÑAL CONSENSO: 2 ballenas → BUY | Total: $20,190
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.49 (49.0%)
+   Polymarket:   0.61 (61.0%)
+   Edge:         -12.0% ❌
+⚠️⚠️ WARNING: SUCKER BET - Ballena pagando 12.0% MÁS que Pinnacle
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $3,307.55 USD
+📊 Mercado: Will Juventus FC win on 2026-02-17?
+🔗 URL: https://polymarket.com/event/ucl-gal1-juv-2026-02-17
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.6300 (63.00%)
+📦 Volumen: $595,524.52
+🕐 Hora: 2026-02-17 13:26:21
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: EF203F2IPFC2ICP20W-CP3
+   Wallet: 0x4133bcbad1d9c41de776646696f41c34d0a65e70
+   Perfil: https://polymarket.com/profile/0x4133bcbad1d9c41de776646696f41c34d0a65e70
+   TX Hash: 0xc45265247005c7a66f...67c2d839c9
+   TX URL: https://polygonscan.com/tx/0xc45265247005c7a66f9a9453bbd3a5b137a7099812e97e31c6edc667c2d839c9
+================================================================================
+🔥 SEÑAL CONSENSO: 3 ballenas → BUY | Total: $23,497
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.49 (49.0%)
+   Polymarket:   0.63 (63.0%)
+   Edge:         -14.0% ❌
+⚠️⚠️ WARNING: SUCKER BET - Ballena pagando 14.0% MÁS que Pinnacle
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $3,458.35 USD
+📊 Mercado: Will Real Madrid CF win on 2026-02-17?
+🔗 URL: https://polymarket.com/event/ucl-ben-rma-2026-02-17
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.5500 (55.00%)
+📦 Volumen: $1,623,932.78
+🕐 Hora: 2026-02-17 13:41:35
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: VeryLucky888
+   Wallet: 0x6d3c5bd13984b2de47c3a88ddc455309aab3d294
+   Perfil: https://polymarket.com/profile/0x6d3c5bd13984b2de47c3a88ddc455309aab3d294
+   TX Hash: 0x37315b63b0f8613acb...de5646c51a
+   TX URL: https://polygonscan.com/tx/0x37315b63b0f8613acb3a401a8fbdb81bf540a265a147e21a180c73de5646c51a
+================================================================================
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.58 (58.5%)
+   Polymarket:   0.55 (55.0%)
+   Edge:         +3.5% ✅
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $3,369.30 USD
+📊 Mercado: BV Borussia 09 Dortmund vs. Atalanta BC: O/U 2.5
+🔗 URL: https://polymarket.com/event/ucl-bvb1-ata1-2026-02-17-more-markets
+🎯 Outcome: Over
+📈 Lado: COMPRA
+💵 Precio: 0.5500 (55.00%)
+📦 Volumen: $103,843.62
+🕐 Hora: 2026-02-17 13:41:21
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: GetaLife
+   Wallet: 0xada56a3f1a9d7d3fe7ec8cbcaa0865109c57db70
+   Perfil: https://polymarket.com/profile/0xada56a3f1a9d7d3fe7ec8cbcaa0865109c57db70
+   TX Hash: 0xa9bd5b3a94890fb5c1...d9ef7f0ee1
+   TX URL: https://polygonscan.com/tx/0xa9bd5b3a94890fb5c112f12871ffb7fbd348a3336bd48bfcb71d97d9ef7f0ee1
+================================================================================
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.34 (33.9%)
+   Polymarket:   0.55 (55.0%)
+   Edge:         -21.1% ❌
+⚠️⚠️ WARNING: SUCKER BET - Ballena pagando 21.1% MÁS que Pinnacle
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,777.76 USD
+📊 Mercado: Starmer out by June 30, 2026?
+🔗 URL: https://polymarket.com/event/starmer-out-in-2025
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.5000 (50.00%)
+📦 Volumen: $929,640.71
+🕐 Hora: 2026-02-17 14:02:25
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Path7
+   Wallet: 0x5554a2163a49bf81cb7e15e798f5c8459632b17e
+   Perfil: https://polymarket.com/profile/0x5554a2163a49bf81cb7e15e798f5c8459632b17e
+   TX Hash: 0xe9dd25eafae5ade147...f23ae15d1d
+   TX URL: https://polygonscan.com/tx/0xe9dd25eafae5ade14778749e961cd4a246ed43fa5767c9bf1a614cf23ae15d1d
+================================================================================
+
+
+================================================================================
+🐋🐋🐋🐋 ULTRA BALLENA DETECTADA 🐋🐋🐋🐋
+================================================================================
+💰 Valor: $22,557.75 USD
+📊 Mercado: Spread: Paris Saint-Germain FC (-1.5)
+🔗 URL: https://polymarket.com/event/ucl-asm1-psg-2026-02-17-more-markets
+🎯 Outcome: Paris Saint-Germain FC
+📈 Lado: COMPRA
+💵 Precio: 0.4500 (45.00%)
+📦 Volumen: $25,095.43
+🕐 Hora: 2026-02-17 14:07:07
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: NorthBalticMan9
+   Wallet: 0x83d22814af497297b3023897a6e3a25cfcf7d196
+   Perfil: https://polymarket.com/profile/0x83d22814af497297b3023897a6e3a25cfcf7d196
+   TX Hash: 0x20343ab49110ef2932...9f81907cd6
+   TX URL: https://polygonscan.com/tx/0x20343ab49110ef29325fc72ced11bb07570594b853cc4238337b559f81907cd6
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,751.03 USD
+📊 Mercado: Will Sport Lisboa e Benfica win on 2026-02-17?
+🔗 URL: https://polymarket.com/event/ucl-ben-rma-2026-02-17
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.6900 (69.00%)
+📦 Volumen: $390,588.44
+🕐 Hora: 2026-02-17 14:17:27
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: swisstony
+   Wallet: 0x204f72f35326db932158cba6adff0b9a1da95e14
+   Perfil: https://polymarket.com/profile/0x204f72f35326db932158cba6adff0b9a1da95e14
+   TX Hash: 0x7afd47379d444a5ca8...467350e688
+   TX URL: https://polygonscan.com/tx/0x7afd47379d444a5ca814d8ca8dd8ea370fa13f5e77e202800c4d9c467350e688
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $3,161.61 USD
+📊 Mercado: Will the price of Ethereum be above $2,000 on February 18?
+🔗 URL: https://polymarket.com/event/ethereum-above-on-february-18
+🎯 Outcome: Yes
+📈 Lado: VENTA
+💵 Precio: 0.4707 (47.07%)
+📦 Volumen: $28,285.35
+🕐 Hora: 2026-02-17 14:37:01
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: pablosss
+   Wallet: 0xc229b43950cbd99d25cee1b1a934d314326edbea
+   Perfil: https://polymarket.com/profile/0xc229b43950cbd99d25cee1b1a934d314326edbea
+   TX Hash: 0x4d9c5daad62dddc549...debc0a5fad
+   TX URL: https://polygonscan.com/tx/0x4d9c5daad62dddc5497ee901dfa5ddef22951c2ffae7b2c2b01e52debc0a5fad
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $6,773.80 USD
+📊 Mercado: Will Real Madrid CF win on 2026-02-17?
+🔗 URL: https://polymarket.com/event/ucl-ben-rma-2026-02-17
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.5500 (55.00%)
+📦 Volumen: $1,623,932.78
+🕐 Hora: 2026-02-17 14:47:55
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: swisstony
+   Wallet: 0x204f72f35326db932158cba6adff0b9a1da95e14
+   Perfil: https://polymarket.com/profile/0x204f72f35326db932158cba6adff0b9a1da95e14
+   TX Hash: 0xef2846737c99ddf38c...821d5dff58
+   TX URL: https://polygonscan.com/tx/0xef2846737c99ddf38c81a606a37b410fc6f4919e45ea6631b8e822821d5dff58
+================================================================================
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.58 (58.5%)
+   Polymarket:   0.55 (55.0%)
+   Edge:         +3.5% ✅
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $17,980.00 USD
+📊 Mercado: Will BV Borussia 09 Dortmund win on 2026-02-17?
+🔗 URL: https://polymarket.com/event/ucl-bvb1-ata1-2026-02-17
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.5300 (53.00%)
+📦 Volumen: $4,338,563.00
+🕐 Hora: 2026-02-17 14:47:51
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 432614799197
+   Wallet: 0xdc876e6873772d38716fda7f2452a78d426d7ab6
+   Perfil: https://polymarket.com/profile/0xdc876e6873772d38716fda7f2452a78d426d7ab6
+   TX Hash: 0x9dffade94a3f320c5c...f7a3ed90dd
+   TX URL: https://polygonscan.com/tx/0x9dffade94a3f320c5ca2fcb4830b375c91cb1889226ed52e37cbf1f7a3ed90dd
+================================================================================
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.34 (33.9%)
+   Polymarket:   0.53 (53.0%)
+   Edge:         -19.1% ❌
+⚠️⚠️ WARNING: SUCKER BET - Ballena pagando 19.1% MÁS que Pinnacle
+
+
+================================================================================
+🐋🐋🐋🐋 ULTRA BALLENA DETECTADA 🐋🐋🐋🐋
+================================================================================
+💰 Valor: $35,981.00 USD
+📊 Mercado: Will BV Borussia 09 Dortmund win on 2026-02-17?
+🔗 URL: https://polymarket.com/event/ucl-bvb1-ata1-2026-02-17
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.5300 (53.00%)
+📦 Volumen: $4,338,563.00
+🕐 Hora: 2026-02-17 14:47:51
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 432614799197
+   Wallet: 0xdc876e6873772d38716fda7f2452a78d426d7ab6
+   Perfil: https://polymarket.com/profile/0xdc876e6873772d38716fda7f2452a78d426d7ab6
+   TX Hash: 0xa69c249565958952d9...a428566763
+   TX URL: https://polygonscan.com/tx/0xa69c249565958952d910e8e412e092319963542fa9c62e62a6874fa428566763
+================================================================================
+🔥 SEÑAL CONSENSO: 2 ballenas → BUY | Total: $53,961
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.34 (33.9%)
+   Polymarket:   0.53 (53.0%)
+   Edge:         -19.1% ❌
+⚠️⚠️ WARNING: SUCKER BET - Ballena pagando 19.1% MÁS que Pinnacle
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $4,490.00 USD
+📊 Mercado: Will BV Borussia 09 Dortmund win on 2026-02-17?
+🔗 URL: https://polymarket.com/event/ucl-bvb1-ata1-2026-02-17
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.5300 (53.00%)
+📦 Volumen: $4,338,563.00
+🕐 Hora: 2026-02-17 14:47:51
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 432614799197
+   Wallet: 0xdc876e6873772d38716fda7f2452a78d426d7ab6
+   Perfil: https://polymarket.com/profile/0xdc876e6873772d38716fda7f2452a78d426d7ab6
+   TX Hash: 0xbdd66c086cc9bbdbd2...b6dd687242
+   TX URL: https://polygonscan.com/tx/0xbdd66c086cc9bbdbd2e7c7a03a6630a7ff916c2624cabc21a89dfab6dd687242
+================================================================================
+🔥 SEÑAL CONSENSO: 3 ballenas → BUY | Total: $58,451
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.34 (33.9%)
+   Polymarket:   0.53 (53.0%)
+   Edge:         -19.1% ❌
+⚠️⚠️ WARNING: SUCKER BET - Ballena pagando 19.1% MÁS que Pinnacle
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $5,167.50 USD
+📊 Mercado: Will BV Borussia 09 Dortmund win on 2026-02-17?
+🔗 URL: https://polymarket.com/event/ucl-bvb1-ata1-2026-02-17
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.5300 (53.00%)
+📦 Volumen: $4,338,563.00
+🕐 Hora: 2026-02-17 14:47:51
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: swisstony
+   Wallet: 0x204f72f35326db932158cba6adff0b9a1da95e14
+   Perfil: https://polymarket.com/profile/0x204f72f35326db932158cba6adff0b9a1da95e14
+   TX Hash: 0x31303bca9331168bcb...df0e532baf
+   TX URL: https://polygonscan.com/tx/0x31303bca9331168bcb924f16dc4829c5cfd59880899cf5b719297edf0e532baf
+================================================================================
+🔥 SEÑAL CONSENSO: 4 ballenas → BUY | Total: $63,618
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.34 (33.9%)
+   Polymarket:   0.53 (53.0%)
+   Edge:         -19.1% ❌
+⚠️⚠️ WARNING: SUCKER BET - Ballena pagando 19.1% MÁS que Pinnacle
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $8,985.00 USD
+📊 Mercado: Will BV Borussia 09 Dortmund win on 2026-02-17?
+🔗 URL: https://polymarket.com/event/ucl-bvb1-ata1-2026-02-17
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.5300 (53.00%)
+📦 Volumen: $4,338,563.00
+🕐 Hora: 2026-02-17 14:47:51
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 432614799197
+   Wallet: 0xdc876e6873772d38716fda7f2452a78d426d7ab6
+   Perfil: https://polymarket.com/profile/0xdc876e6873772d38716fda7f2452a78d426d7ab6
+   TX Hash: 0xe8dda3ba877ef61f90...9ce20c28e7
+   TX URL: https://polygonscan.com/tx/0xe8dda3ba877ef61f90cfb0f3877a653bf7c1c17cbca6c683afac0b9ce20c28e7
+================================================================================
+🔥 SEÑAL CONSENSO: 5 ballenas → BUY | Total: $72,603
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.34 (33.9%)
+   Polymarket:   0.53 (53.0%)
+   Edge:         -19.1% ❌
+⚠️⚠️ WARNING: SUCKER BET - Ballena pagando 19.1% MÁS que Pinnacle
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,759.28 USD
+📊 Mercado: Will BV Borussia 09 Dortmund win on 2026-02-17?
+🔗 URL: https://polymarket.com/event/ucl-bvb1-ata1-2026-02-17
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.5300 (53.00%)
+📦 Volumen: $4,338,563.00
+🕐 Hora: 2026-02-17 14:47:49
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Cannae
+   Wallet: 0x7ea571c40408f340c1c8fc8eaacebab53c1bde7b
+   Perfil: https://polymarket.com/profile/0x7ea571c40408f340c1c8fc8eaacebab53c1bde7b
+   TX Hash: 0xd00f358c8abadb565a...a893911056
+   TX URL: https://polygonscan.com/tx/0xd00f358c8abadb565a3d6849847d00ce0cd7e7330562a3c488efc9a893911056
+================================================================================
+🔥 SEÑAL CONSENSO: 6 ballenas → BUY | Total: $75,363
+⚠️ GRUPO COORDINADO: 3 wallets → BUY en 0.5 min | Wallets: 3
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.34 (33.9%)
+   Polymarket:   0.53 (53.0%)
+   Edge:         -19.1% ❌
+⚠️⚠️ WARNING: SUCKER BET - Ballena pagando 19.1% MÁS que Pinnacle
+
+
+================================================================================
+🐋🐋🐋🐋🐋 TITAN BALLENA DETECTADA 🐋🐋🐋🐋🐋
+================================================================================
+💰 Valor: $95,787.00 USD
+📊 Mercado: Will BV Borussia 09 Dortmund win on 2026-02-17?
+🔗 URL: https://polymarket.com/event/ucl-bvb1-ata1-2026-02-17
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.5300 (53.00%)
+📦 Volumen: $4,338,563.00
+🕐 Hora: 2026-02-17 14:47:49
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 432614799197
+   Wallet: 0xdc876e6873772d38716fda7f2452a78d426d7ab6
+   Perfil: https://polymarket.com/profile/0xdc876e6873772d38716fda7f2452a78d426d7ab6
+   TX Hash: 0x74c17c6e10c90276b0...2c322252a0
+   TX URL: https://polygonscan.com/tx/0x74c17c6e10c90276b0b03a717b8430059004493f3333bdb6c7a03d2c322252a0
+================================================================================
+🔥 SEÑAL CONSENSO: 7 ballenas → BUY | Total: $171,150
+⚠️ GRUPO COORDINADO: 3 wallets → BUY en 0.8 min | Wallets: 3
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.34 (33.9%)
+   Polymarket:   0.53 (53.0%)
+   Edge:         -19.1% ❌
+⚠️⚠️ WARNING: SUCKER BET - Ballena pagando 19.1% MÁS que Pinnacle
+
+
+================================================================================
+🐋🐋🐋🐋🐋 TITAN BALLENA DETECTADA 🐋🐋🐋🐋🐋
+================================================================================
+💰 Valor: $72,004.00 USD
+📊 Mercado: Will BV Borussia 09 Dortmund win on 2026-02-17?
+🔗 URL: https://polymarket.com/event/ucl-bvb1-ata1-2026-02-17
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.5300 (53.00%)
+📦 Volumen: $4,338,563.00
+🕐 Hora: 2026-02-17 14:47:49
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 432614799197
+   Wallet: 0xdc876e6873772d38716fda7f2452a78d426d7ab6
+   Perfil: https://polymarket.com/profile/0xdc876e6873772d38716fda7f2452a78d426d7ab6
+   TX Hash: 0x9f55ef66f283092b9e...788a5213f7
+   TX URL: https://polygonscan.com/tx/0x9f55ef66f283092b9e29014f5f9ccbbae4bbf3628b20ebdfc208e0788a5213f7
+================================================================================
+🔥 SEÑAL CONSENSO: 8 ballenas → BUY | Total: $243,154
+⚠️ GRUPO COORDINADO: 3 wallets → BUY en 0.9 min | Wallets: 3
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.34 (33.9%)
+   Polymarket:   0.53 (53.0%)
+   Edge:         -19.1% ❌
+⚠️⚠️ WARNING: SUCKER BET - Ballena pagando 19.1% MÁS que Pinnacle
+
+
+================================================================================
+🐋🐋🐋🐋 ULTRA BALLENA DETECTADA 🐋🐋🐋🐋
+================================================================================
+💰 Valor: $28,014.74 USD
+📊 Mercado: Will BV Borussia 09 Dortmund win on 2026-02-17?
+🔗 URL: https://polymarket.com/event/ucl-bvb1-ata1-2026-02-17
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.5300 (53.00%)
+📦 Volumen: $4,338,563.00
+🕐 Hora: 2026-02-17 14:47:49
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: swisstony
+   Wallet: 0x204f72f35326db932158cba6adff0b9a1da95e14
+   Perfil: https://polymarket.com/profile/0x204f72f35326db932158cba6adff0b9a1da95e14
+   TX Hash: 0x34635f1cd42c68ac17...3823f9da8c
+   TX URL: https://polygonscan.com/tx/0x34635f1cd42c68ac17ea7c629fd12b20151d3ac67de1d0993923973823f9da8c
+================================================================================
+🔥 SEÑAL CONSENSO: 9 ballenas → BUY | Total: $271,168
+⚠️ GRUPO COORDINADO: 3 wallets → BUY en 0.9 min | Wallets: 3
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.34 (33.9%)
+   Polymarket:   0.53 (53.0%)
+   Edge:         -19.1% ❌
+⚠️⚠️ WARNING: SUCKER BET - Ballena pagando 19.1% MÁS que Pinnacle
+
+
+================================================================================
+🐋🐋🐋🐋🐋 TITAN BALLENA DETECTADA 🐋🐋🐋🐋🐋
+================================================================================
+💰 Valor: $132,275.34 USD  ⚡ NICHO (3.0% del mercado)
+📊 Mercado: Will BV Borussia 09 Dortmund win on 2026-02-17?
+🔗 URL: https://polymarket.com/event/ucl-bvb1-ata1-2026-02-17
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.4700 (47.00%)
+📦 Volumen: $4,338,563.00
+🕐 Hora: 2026-02-17 14:47:49
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: blackwall
+   Wallet: 0xac44cb78be973ec7d91b69678c4bdfa7009afbd7
+   Perfil: https://polymarket.com/profile/0xac44cb78be973ec7d91b69678c4bdfa7009afbd7
+   TX Hash: 0x63b2881458924f248c...9c2ab50310
+   TX URL: https://polygonscan.com/tx/0x63b2881458924f248cb420b7b0013a80a762fad3d4c101a412d1d59c2ab50310
+================================================================================
+🔥 SEÑAL CONSENSO: 10 ballenas → BUY | Total: $403,444
+⚠️ GRUPO COORDINADO: 4 wallets → BUY en 0.9 min | Wallets: 4
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.34 (33.9%)
+   Polymarket:   0.47 (47.0%)
+   Edge:         -19.1% ❌
+⚠️⚠️ WARNING: SUCKER BET - Ballena pagando 19.1% MÁS que Pinnacle
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,851.20 USD
+📊 Mercado: Will BV Borussia 09 Dortmund win on 2026-02-17?
+🔗 URL: https://polymarket.com/event/ucl-bvb1-ata1-2026-02-17
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.5400 (54.00%)
+📦 Volumen: $4,338,563.00
+🕐 Hora: 2026-02-17 14:47:43
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: triplemergexr
+   Wallet: 0xa42ecb9ab01781eb8c9e8e2582579f0527699a1c
+   Perfil: https://polymarket.com/profile/0xa42ecb9ab01781eb8c9e8e2582579f0527699a1c
+   TX Hash: 0xf979857afd313e699c...9ebf865881
+   TX URL: https://polygonscan.com/tx/0xf979857afd313e699ceb4639750668b548cdc8f21f175a7a9580a79ebf865881
+================================================================================
+🔥 SEÑAL CONSENSO: 11 ballenas → BUY | Total: $406,295
+⚠️ GRUPO COORDINADO: 5 wallets → BUY en 1.3 min | Wallets: 5
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.34 (33.9%)
+   Polymarket:   0.54 (54.0%)
+   Edge:         -19.1% ❌
+⚠️⚠️ WARNING: SUCKER BET - Ballena pagando 19.1% MÁS que Pinnacle
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,901.75 USD
+📊 Mercado: Will BV Borussia 09 Dortmund win on 2026-02-17?
+🔗 URL: https://polymarket.com/event/ucl-bvb1-ata1-2026-02-17
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.5300 (53.00%)
+📦 Volumen: $4,338,563.00
+🕐 Hora: 2026-02-17 14:52:25
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: BebeBatista
+   Wallet: 0x1f4a4d9875d62dbebe6f8a58df8a0eb2cb7c744a
+   Perfil: https://polymarket.com/profile/0x1f4a4d9875d62dbebe6f8a58df8a0eb2cb7c744a
+   TX Hash: 0x02dfc4cb94aa73e295...a0eac785e9
+   TX URL: https://polygonscan.com/tx/0x02dfc4cb94aa73e29594dff52815b14d2ce57155a4d08fcbf56d1ea0eac785e9
+================================================================================
+🔥 SEÑAL CONSENSO: 12 ballenas → BUY | Total: $409,197
+⚠️ GRUPO COORDINADO: 6 wallets → BUY en 5.0 min | Wallets: 6
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.34 (33.9%)
+   Polymarket:   0.53 (53.0%)
+   Edge:         -19.1% ❌
+⚠️⚠️ WARNING: SUCKER BET - Ballena pagando 19.1% MÁS que Pinnacle
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $3,302.00 USD
+📊 Mercado: Will BV Borussia 09 Dortmund win on 2026-02-17?
+🔗 URL: https://polymarket.com/event/ucl-bvb1-ata1-2026-02-17
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.5200 (52.00%)
+📦 Volumen: $4,338,563.00
+🕐 Hora: 2026-02-17 14:58:13
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: swisstony
+   Wallet: 0x204f72f35326db932158cba6adff0b9a1da95e14
+   Perfil: https://polymarket.com/profile/0x204f72f35326db932158cba6adff0b9a1da95e14
+   TX Hash: 0x7538d4a76e8928ca02...31135c9b8f
+   TX URL: https://polygonscan.com/tx/0x7538d4a76e8928ca023eaaac3691e8a8b7b0546beee11a474bc2de31135c9b8f
+================================================================================
+🔥 SEÑAL CONSENSO: 13 ballenas → BUY | Total: $412,499
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.34 (33.9%)
+   Polymarket:   0.52 (52.0%)
+   Edge:         -18.1% ❌
+⚠️⚠️ WARNING: SUCKER BET - Ballena pagando 18.1% MÁS que Pinnacle
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,865.50 USD
+📊 Mercado: Will Real Madrid CF win on 2026-02-17?
+🔗 URL: https://polymarket.com/event/ucl-ben-rma-2026-02-17
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.5500 (55.00%)
+📦 Volumen: $1,623,932.78
+🕐 Hora: 2026-02-17 14:58:11
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: koningtoto
+   Wallet: 0xb96c242c89095060344ea18969a83aa7d6c66cc6
+   Perfil: https://polymarket.com/profile/0xb96c242c89095060344ea18969a83aa7d6c66cc6
+   TX Hash: 0xe84761c1b82612fa84...81615997bc
+   TX URL: https://polygonscan.com/tx/0xe84761c1b82612fa84a54a9bd1174303653cd21b4d5792813c20f581615997bc
+================================================================================
+🔥 SEÑAL CONSENSO: 2 ballenas → BUY | Total: $9,639
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.58 (58.5%)
+   Polymarket:   0.55 (55.0%)
+   Edge:         +3.5% ✅
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $3,250.00 USD
+📊 Mercado: Will BV Borussia 09 Dortmund win on 2026-02-17?
+🔗 URL: https://polymarket.com/event/ucl-bvb1-ata1-2026-02-17
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.5200 (52.00%)
+📦 Volumen: $4,338,563.00
+🕐 Hora: 2026-02-17 15:02:45
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Trobusot
+   Wallet: 0x3e41d04582a988def91f7a9f1576ba6d2766a1c1
+   Perfil: https://polymarket.com/profile/0x3e41d04582a988def91f7a9f1576ba6d2766a1c1
+   TX Hash: 0xa53131fcb4cdc50759...81586281a2
+   TX URL: https://polygonscan.com/tx/0xa53131fcb4cdc50759528f07b2d1a64172bd512fc5c7e20e6e3d7281586281a2
+================================================================================
+🔥 SEÑAL CONSENSO: 14 ballenas → BUY | Total: $415,749
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.34 (33.9%)
+   Polymarket:   0.52 (52.0%)
+   Edge:         -18.1% ❌
+⚠️⚠️ WARNING: SUCKER BET - Ballena pagando 18.1% MÁS que Pinnacle
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,600.00 USD
+📊 Mercado: Will BV Borussia 09 Dortmund win on 2026-02-17?
+🔗 URL: https://polymarket.com/event/ucl-bvb1-ata1-2026-02-17
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.5200 (52.00%)
+📦 Volumen: $4,338,563.00
+🕐 Hora: 2026-02-17 15:13:19
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: CarlosMC
+   Wallet: 0x777d9f00c2b4f7b829c9de0049ca3e707db05143
+   Perfil: https://polymarket.com/profile/0x777d9f00c2b4f7b829c9de0049ca3e707db05143
+   TX Hash: 0x8c7e47e393ba7705ce...7f99098a17
+   TX URL: https://polygonscan.com/tx/0x8c7e47e393ba7705ce9f46044c128b04c7f7193c617a6353a9a8727f99098a17
+================================================================================
+🔥 SEÑAL CONSENSO: 15 ballenas → BUY | Total: $418,349
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.34 (33.9%)
+   Polymarket:   0.52 (52.0%)
+   Edge:         -18.1% ❌
+⚠️⚠️ WARNING: SUCKER BET - Ballena pagando 18.1% MÁS que Pinnacle
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,500.00 USD
+📊 Mercado: Sport Lisboa e Benfica vs. Real Madrid CF: O/U 2.5
+🔗 URL: https://polymarket.com/event/ucl-ben-rma-2026-02-17-more-markets
+🎯 Outcome: Under
+📈 Lado: COMPRA
+💵 Precio: 0.5000 (50.00%)
+📦 Volumen: $342,567.63
+🕐 Hora: 2026-02-17 15:13:15
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0x9DEA8D992d60Dff9BBB45CfC848D86D0541D3792-1766217060729
+   Wallet: 0x9dea8d992d60dff9bbb45cfc848d86d0541d3792
+   Perfil: https://polymarket.com/profile/0x9dea8d992d60dff9bbb45cfc848d86d0541d3792
+   TX Hash: 0x3075a4c3b423035353...0381a4a90f
+   TX URL: https://polygonscan.com/tx/0x3075a4c3b4230353533303f0b89184ccf38cedea7f1ec4213d8ab00381a4a90f
+================================================================================
+
+
+================================================================================
+🐋🐋🐋🐋 ULTRA BALLENA DETECTADA 🐋🐋🐋🐋
+================================================================================
+💰 Valor: $23,003.45 USD
+📊 Mercado: Will BV Borussia 09 Dortmund win on 2026-02-17?
+🔗 URL: https://polymarket.com/event/ucl-bvb1-ata1-2026-02-17
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.5000 (50.00%)
+📦 Volumen: $4,338,563.00
+🕐 Hora: 2026-02-17 15:17:45
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: gmanas
+   Wallet: 0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2
+   Perfil: https://polymarket.com/profile/0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2
+   TX Hash: 0x73360791ed8f06ebae...4959d43eb0
+   TX URL: https://polygonscan.com/tx/0x73360791ed8f06ebaeaccd61ed9322bde3fb2c85c112772487b7984959d43eb0
+================================================================================
+🔥 SEÑAL CONSENSO: 15 ballenas → BUY | Total: $423,372
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.34 (33.9%)
+   Polymarket:   0.50 (50.0%)
+   Edge:         -18.1% ❌
+⚠️⚠️ WARNING: SUCKER BET - Ballena pagando 18.1% MÁS que Pinnacle
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $3,389.72 USD
+📊 Mercado: Will BV Borussia 09 Dortmund win on 2026-02-17?
+🔗 URL: https://polymarket.com/event/ucl-bvb1-ata1-2026-02-17
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.7000 (70.00%)
+📦 Volumen: $4,338,563.00
+🕐 Hora: 2026-02-17 15:53:57
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: swisstony
+   Wallet: 0x204f72f35326db932158cba6adff0b9a1da95e14
+   Perfil: https://polymarket.com/profile/0x204f72f35326db932158cba6adff0b9a1da95e14
+   TX Hash: 0x73d1bffc2ebbcc32c2...006a23e196
+   TX URL: https://polygonscan.com/tx/0x73d1bffc2ebbcc32c296c585863ccdc40c5b613ffdd1ed4e554089006a23e196
+================================================================================
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.34 (33.9%)
+   Polymarket:   0.70 (70.0%)
+   Edge:         -36.1% ❌
+⚠️⚠️ WARNING: SUCKER BET - Ballena pagando 36.1% MÁS que Pinnacle
+
+
+
+================================================================================
+📊 RESUMEN DE SESIÓN
+================================================================================
+⏱️  Tiempo de monitoreo:     5h 34m 54s
+🐋 Total de ballenas:       127
+✅ Ballenas capturadas:     41
+⛔ Ballenas ignoradas:      86
+💰 Valor promedio:          $8,800.76 USD
+💎 Ballena más grande:      $132,275.34 USD
+   └─ Mercado: Will BV Borussia 09 Dortmund win on 2026-02-17?...
+   └─ Wallet: 0xac44cb78be973ec7d9...
+📊 Mercados monitoreados:   12
+
+💾 Archivos guardados:
+   - trades_live/whales_20260217_102148.txt (log formateado)
+   - trades_live/historial_trades.json (historial de trades)
+
+🏆 TOP 5 MERCADOS CON MÁS BALLENAS:
+   1. Will BV Borussia 09 Dortmund win on 2026-02-17?... (17 ballenas)
+   2. Will Juventus FC win on 2026-02-17?... (6 ballenas)
+   3. Counter-Strike: FURIA vs PARIVISION (BO3) - PGL Cluj-Napoca ... (5 ballenas)
+   4. Will Real Madrid CF win on 2026-02-17?... (5 ballenas)
+   5. LoL: Karmine Corp vs GIANTX (BO3) - LEC Versus Playoffs... (1 ballenas)
+
+================================================================================

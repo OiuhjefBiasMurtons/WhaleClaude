@@ -1,0 +1,215 @@
+
+================================================================================
+🚀 MONITOR INICIADO
+================================================================================
+💵 Umbral de ballena:        $2,500.00 USD
+⏱️  Intervalo de polling:     3 segundos
+📊 Límite de trades/ciclo:   1000
+⏰ Ventana de tiempo:        30 minutos (solo trades recientes)
+💾 Archivo de log:           trades_live/whales_20260215_110403.txt
+📂 Trades en memoria:        0
+📱 Notificaciones Telegram:  ✅ ACTIVO
+🔄 Esperando trades...
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $3,007.70 USD
+📊 Mercado: Will AJ Auxerre win on 2026-02-15?
+🔗 URL: https://polymarket.com/event/fl1-met-aja-2026-02-15
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.6100 (61.00%)
+📦 Volumen: $50,530.65
+🕐 Hora: 2026-02-15 11:08:39
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: VeryLucky888
+   Wallet: 0x6d3c5bd13984b2de47c3a88ddc455309aab3d294
+   Perfil: https://polymarket.com/profile/0x6d3c5bd13984b2de47c3a88ddc455309aab3d294
+   TX Hash: 0xd22661cf69828404b0...2fa9e7893b
+   TX URL: https://polygonscan.com/tx/0xd22661cf69828404b0290d47700f759936de9ab0f2b81bacbc4f452fa9e7893b
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $4,754.18 USD  ⚡ NICHO (9.4% del mercado)
+📊 Mercado: Will AJ Auxerre win on 2026-02-15?
+🔗 URL: https://polymarket.com/event/fl1-met-aja-2026-02-15
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.6100 (61.00%)
+📦 Volumen: $50,530.65
+🕐 Hora: 2026-02-15 11:08:39
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: VeryLucky888
+   Wallet: 0x6d3c5bd13984b2de47c3a88ddc455309aab3d294
+   Perfil: https://polymarket.com/profile/0x6d3c5bd13984b2de47c3a88ddc455309aab3d294
+   TX Hash: 0x131953db3df80a0ddf...086c6f3dba
+   TX URL: https://polygonscan.com/tx/0x131953db3df80a0ddf4176c06f9a7cbf66a0c10d5f28fc336f30ed086c6f3dba
+================================================================================
+🔥 SEÑAL CONSENSO: 2 ballenas → SELL | Total: $7,762
+
+
+================================================================================
+🐋🐋🐋🐋🐋 TITAN BALLENA DETECTADA 🐋🐋🐋🐋🐋
+================================================================================
+💰 Valor: $51,078.60 USD
+📊 Mercado: Counter-Strike: FURIA vs FUT Esports (BO3) - PGL Cluj-Napoca Group Stage
+🔗 URL: https://polymarket.com/event/cs2-furia-fut-2026-02-15
+🎯 Outcome: FURIA
+📈 Lado: COMPRA
+💵 Precio: 0.6200 (62.00%)
+📦 Volumen: $744,595.10
+🕐 Hora: 2026-02-15 11:39:03
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: bossoskil1
+   Wallet: 0xa5ea13a81d2b7e8e424b182bdc1db08e756bd96a
+   Perfil: https://polymarket.com/profile/0xa5ea13a81d2b7e8e424b182bdc1db08e756bd96a
+   TX Hash: 0x84f43debe5ccfffff5...6b464272e3
+   TX URL: https://polygonscan.com/tx/0x84f43debe5ccfffff5eb34ae467c867fe09a7dcc299ba111bc22906b464272e3
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $8,275.87 USD  ⚡ NICHO (16.4% del mercado)
+📊 Mercado: Will AJ Auxerre win on 2026-02-15?
+🔗 URL: https://polymarket.com/event/fl1-met-aja-2026-02-15
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.6100 (61.00%)
+📦 Volumen: $50,530.65
+🕐 Hora: 2026-02-15 11:38:57
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: swisstony
+   Wallet: 0x204f72f35326db932158cba6adff0b9a1da95e14
+   Perfil: https://polymarket.com/profile/0x204f72f35326db932158cba6adff0b9a1da95e14
+   TX Hash: 0x53590dcd8cc4d22186...37279b604f
+   TX URL: https://polygonscan.com/tx/0x53590dcd8cc4d2218659bc8fc28813cd03bc9c374d36a61f79714137279b604f
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,091.06 USD  ⚡ NICHO (4.1% del mercado)
+📊 Mercado: Will AJ Auxerre win on 2026-02-15?
+🔗 URL: https://polymarket.com/event/fl1-met-aja-2026-02-15
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.3800 (38.00%)
+📦 Volumen: $50,530.65
+🕐 Hora: 2026-02-15 11:43:19
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: JhonAlexanderHinestroza
+   Wallet: 0x44c58184f89a5c2f699dc8943009cb3d75a08d45
+   Perfil: https://polymarket.com/profile/0x44c58184f89a5c2f699dc8943009cb3d75a08d45
+   TX Hash: 0x3b353b9437bee1a5ca...29241ef28c
+   TX URL: https://polygonscan.com/tx/0x3b353b9437bee1a5ca3068631694322cf29f8e7e6dbf8e1e3f99af29241ef28c
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $3,623.22 USD
+📊 Mercado: Utah Utes vs. Cincinnati Bearcats: O/U 141.5
+🔗 URL: https://polymarket.com/event/cbb-utah-cin-2026-02-15
+🎯 Outcome: Over
+📈 Lado: COMPRA
+💵 Precio: 0.4600 (46.00%)
+📦 Volumen: $50,606.17
+🕐 Hora: 2026-02-15 11:59:59
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: bcda
+   Wallet: 0xb45a797faa52b0fd8adc56d30382022b7b12192c
+   Perfil: https://polymarket.com/profile/0xb45a797faa52b0fd8adc56d30382022b7b12192c
+   TX Hash: 0x0468ac9d441db83d37...f429477141
+   TX URL: https://polygonscan.com/tx/0x0468ac9d441db83d372ab3c9ef1a1f4cf234086daca82af05a2193f429477141
+================================================================================
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.38 (38.5%)
+   Polymarket:   0.46 (46.0%)
+   Edge:         -7.5% ❌
+⚠️⚠️ WARNING: SUCKER BET - Ballena pagando 7.5% MÁS que Pinnacle
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $6,000.00 USD
+📊 Mercado: Valorant: MIBR vs NRG (BO5) - VCT Americas Kickoff Playoffs
+🔗 URL: https://polymarket.com/event/val-mibr-nrg-2026-02-15
+🎯 Outcome: NRG
+📈 Lado: COMPRA
+💵 Precio: 0.6000 (60.00%)
+📦 Volumen: $62,908.98
+🕐 Hora: 2026-02-15 12:09:11
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0x163EfF4d251dF4BFC95C49f4D90Cd1bF224eDC5B-1768366778047
+   Wallet: 0x163eff4d251df4bfc95c49f4d90cd1bf224edc5b
+   Perfil: https://polymarket.com/profile/0x163eff4d251df4bfc95c49f4d90cd1bf224edc5b
+   TX Hash: 0x6f1fb87338436d8064...7b1c606b26
+   TX URL: https://polygonscan.com/tx/0x6f1fb87338436d80642ec82ec57248cb7d48ad83bb40a86b53151f7b1c606b26
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $4,800.00 USD
+📊 Mercado: Will VfL Wolfsburg win on 2026-02-15?
+🔗 URL: https://polymarket.com/event/bun-lei-wol-2026-02-15
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.5095 (50.95%)
+📦 Volumen: $135,721.59
+🕐 Hora: 2026-02-15 12:53:45
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: szxkxjk
+   Wallet: 0x8d362581a46300e5e3e314e245eaf26eea7668fd
+   Perfil: https://polymarket.com/profile/0x8d362581a46300e5e3e314e245eaf26eea7668fd
+   TX Hash: 0xa20af52619e191241c...eb083548f9
+   TX URL: https://polygonscan.com/tx/0xa20af52619e191241c291c3433efb47e5cb280f975085b1de98df6eb083548f9
+================================================================================
+
+
+
+================================================================================
+📊 RESUMEN DE SESIÓN
+================================================================================
+⏱️  Tiempo de monitoreo:     2h 6m 36s
+🐋 Total de ballenas:       50
+✅ Ballenas capturadas:     8
+⛔ Ballenas ignoradas:      42
+💰 Valor promedio:          $7,229.52 USD
+💎 Ballena más grande:      $51,078.60 USD
+   └─ Mercado: Counter-Strike: FURIA vs FUT Esports (BO3) - PGL C...
+   └─ Wallet: 0xa5ea13a81d2b7e8e42...
+📊 Mercados monitoreados:   5
+
+💾 Archivos guardados:
+   - trades_live/whales_20260215_110403.txt (log formateado)
+   - trades_live/historial_trades.json (historial de trades)
+
+🏆 TOP 5 MERCADOS CON MÁS BALLENAS:
+   1. Will AJ Auxerre win on 2026-02-15?... (4 ballenas)
+   2. Counter-Strike: FURIA vs FUT Esports (BO3) - PGL Cluj-Napoca... (1 ballenas)
+   3. Utah Utes vs. Cincinnati Bearcats: O/U 141.5... (1 ballenas)
+   4. Valorant: MIBR vs NRG (BO5) - VCT Americas Kickoff Playoffs... (1 ballenas)
+   5. Will VfL Wolfsburg win on 2026-02-15?... (1 ballenas)
+
+================================================================================

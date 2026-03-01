@@ -379,6 +379,30 @@ except Exception as e:
             except:
                 pass
 
+    def _enrich_from_api(self):
+        """Completa campos faltantes del scrape consultando la API de Polymarket directamente.
+        total_trades y markets_traded están disponibles en la API sin necesidad de renderizado JS.
+        Cuesta < 1s y resuelve falsos positivos cuando el scraper timeout antes de cargar esos campos.
+        """
+        if 'total_trades' in self.scraped_data and 'markets_traded' in self.scraped_data:
+            return  # Ya tenemos todo, no hace falta
+
+        try:
+            url = f"https://data-api.polymarket.com/profile?user={self.wallet}"
+            r = session.get(url, timeout=8)
+            if r.status_code == 200:
+                api_data = r.json()
+                if 'total_trades' not in self.scraped_data:
+                    val = api_data.get('tradesCount', api_data.get('numTrades', api_data.get('tradeCount')))
+                    if val is not None:
+                        self.scraped_data['total_trades'] = int(val)
+                if 'markets_traded' not in self.scraped_data:
+                    val = api_data.get('marketsCount', api_data.get('numMarkets', api_data.get('marketCount')))
+                    if val is not None:
+                        self.scraped_data['markets_traded'] = int(val)
+        except Exception:
+            pass  # Si falla, el análisis continúa con lo que hay del scrape
+
     def _detect_sport_subtypes(self, d):
         """Analiza biggest_wins y biggest_losses para detectar deportes específicos"""
         sport_keywords = {
@@ -433,6 +457,9 @@ except Exception as e:
             print("\n❌ No se pudieron obtener datos de polymarketanalytics.com")
             print("   Verifica que la wallet/dirección sea correcta.")
             return
+
+        # Completar campos que el scraper puede no haber capturado por timeout de JS
+        self._enrich_from_api()
 
         self.setup_file_logging()
 

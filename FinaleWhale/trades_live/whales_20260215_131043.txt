@@ -1,0 +1,30 @@
+
+================================================================================
+🚀 MONITOR INICIADO
+================================================================================
+💵 Umbral de ballena:        $2,500.00 USD
+⏱️  Intervalo de polling:     3 segundos
+📊 Límite de trades/ciclo:   1000
+⏰ Ventana de tiempo:        30 minutos (solo trades recientes)
+💾 Archivo de log:           trades_live/whales_20260215_131043.txt
+📂 Trades en memoria:        5000
+📱 Notificaciones Telegram:  ✅ ACTIVO
+🔄 Esperando trades...
+================================================================================
+
+
+
+================================================================================
+📊 RESUMEN DE SESIÓN
+================================================================================
+⏱️  Tiempo de monitoreo:     0h 0m 17s
+🐋 Total de ballenas:       0
+✅ Ballenas capturadas:     0
+⛔ Ballenas ignoradas:      0
+📊 Mercados monitoreados:   0
+
+💾 Archivos guardados:
+   - trades_live/whales_20260215_131043.txt (log formateado)
+   - trades_live/historial_trades.json (historial de trades)
+
+================================================================================

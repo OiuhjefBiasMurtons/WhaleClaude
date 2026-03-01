@@ -1,0 +1,203 @@
+
+================================================================================
+🚀 MONITOR INICIADO
+================================================================================
+💵 Umbral de ballena:        $2,500.00 USD
+⏱️  Intervalo de polling:     3 segundos
+📊 Límite de trades/ciclo:   1000
+⏰ Ventana de tiempo:        30 minutos (solo trades recientes)
+💾 Archivo de log:           trades_live/whales_20260220_065009.txt
+📂 Trades en memoria:        5000
+📱 Notificaciones Telegram:  ✅ ACTIVO
+🔄 Esperando trades...
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $4,350.29 USD
+📊 Mercado: Will Hilton Grand Vacations (HGV) beat quarterly earnings?
+🔗 URL: https://polymarket.com/event/hgv-quarterly-earnings-nongaap-eps-02-26-2026-1pt16
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.2900 (29.00%)
+📦 Volumen: $843,934.03
+🕐 Hora: 2026-02-20 07:10:42
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: rico1of1
+   Wallet: 0xbd7081ea65c486038cdb2e07c695327e988ecaa4
+   Perfil: https://polymarket.com/profile/0xbd7081ea65c486038cdb2e07c695327e988ecaa4
+   TX Hash: 0x0432fd37e7b16ad588...370e045ac2
+   TX URL: https://polygonscan.com/tx/0x0432fd37e7b16ad5881efbec6b714fd1b8e5ff41557397673baff3370e045ac2
+================================================================================
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.29 (28.7%)
+   Polymarket:   0.29 (29.0%)
+   Edge:         -0.3% ❌
+⚠️⚠️ WARNING: SUCKER BET - Ballena pagando 0.3% MÁS que Pinnacle
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,566.80 USD
+📊 Mercado: Will Frosinone Calcio win on 2026-02-20?
+🔗 URL: https://polymarket.com/event/itsb-fro-emp-2026-02-20
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.4600 (46.00%)
+📦 Volumen: $38,962.53
+🕐 Hora: 2026-02-20 07:19:50
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: matanovik
+   Wallet: 0x39d3c773be30fcc73161fc6768f46d563a779ef0
+   Perfil: https://polymarket.com/profile/0x39d3c773be30fcc73161fc6768f46d563a779ef0
+   TX Hash: 0x61097553e07b5aa4f5...93e3d53652
+   TX URL: https://polygonscan.com/tx/0x61097553e07b5aa4f56d12ef61850b5fcc3cc62404b6a4cc23883993e3d53652
+================================================================================
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.29 (28.7%)
+   Polymarket:   0.46 (46.0%)
+   Edge:         -17.3% ❌
+⚠️⚠️ WARNING: SUCKER BET - Ballena pagando 17.3% MÁS que Pinnacle
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $4,657.13 USD
+📊 Mercado: Will Papa John's International (PZZA) beat quarterly earnings?
+🔗 URL: https://polymarket.com/event/pzza-quarterly-earnings-nongaap-eps-02-26-2026-0pt33
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.3100 (31.00%)
+📦 Volumen: $30,112.89
+🕐 Hora: 2026-02-20 07:25:36
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: maoster
+   Wallet: 0xda1658af46c265cdeafcb7d49e54cf34a2c943c5
+   Perfil: https://polymarket.com/profile/0xda1658af46c265cdeafcb7d49e54cf34a2c943c5
+   TX Hash: 0xda3b0761f35ffed435...7c9d5143af
+   TX URL: https://polygonscan.com/tx/0xda3b0761f35ffed435875a80318329d5b3b7ab400699237152b7717c9d5143af
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $3,422.83 USD
+📊 Mercado: Counter-Strike: MOUZ vs Natus Vincere - Map 1 Winner
+🔗 URL: https://polymarket.com/event/cs2-mouz-navi-2026-02-20
+🎯 Outcome: MOUZ
+📈 Lado: COMPRA
+💵 Precio: 0.6600 (66.00%)
+📦 Volumen: $293,566.73
+🕐 Hora: 2026-02-20 07:30:10
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: redvinny
+   Wallet: 0x56c9fbdeccf198f1f5ad95ace39b24f5f7fb0d9e
+   Perfil: https://polymarket.com/profile/0x56c9fbdeccf198f1f5ad95ace39b24f5f7fb0d9e
+   TX Hash: 0x9a434fdf3117bde93b...7413f8c7e6
+   TX URL: https://polygonscan.com/tx/0x9a434fdf3117bde93b224880b7ac415344f3b6afd047061a5d71d27413f8c7e6
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,976.70 USD
+📊 Mercado: Counter-Strike: MOUZ vs Natus Vincere - Map 1 Winner
+🔗 URL: https://polymarket.com/event/cs2-mouz-navi-2026-02-20
+🎯 Outcome: MOUZ
+📈 Lado: COMPRA
+💵 Precio: 0.6500 (65.00%)
+📦 Volumen: $293,566.73
+🕐 Hora: 2026-02-20 07:30:02
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: redvinny
+   Wallet: 0x56c9fbdeccf198f1f5ad95ace39b24f5f7fb0d9e
+   Perfil: https://polymarket.com/profile/0x56c9fbdeccf198f1f5ad95ace39b24f5f7fb0d9e
+   TX Hash: 0x6a423055bbac9e2ad7...62ec93988d
+   TX URL: https://polygonscan.com/tx/0x6a423055bbac9e2ad71db8b50a88ffaa68f64fc88b589830bbed9762ec93988d
+================================================================================
+🔥 SEÑAL CONSENSO: 2 ballenas → BUY | Total: $6,400
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $18,393.40 USD
+📊 Mercado: Heat vs. Hawks: O/U 243.5
+🔗 URL: https://polymarket.com/event/nba-mia-atl-2026-02-20
+🎯 Outcome: Over
+📈 Lado: COMPRA
+💵 Precio: 0.5300 (53.00%)
+📦 Volumen: $91,899.60
+🕐 Hora: 2026-02-20 07:45:14
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Bethooven
+   Wallet: 0xea2b4224411e723499a803ce3f4758779fb31fc6
+   Perfil: https://polymarket.com/profile/0xea2b4224411e723499a803ce3f4758779fb31fc6
+   TX Hash: 0x0b9ceae8638f6c5f44...4575a6f3a2
+   TX URL: https://polygonscan.com/tx/0x0b9ceae8638f6c5f44446f89a867a7771a558c563affeeb81218f44575a6f3a2
+================================================================================
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.82 (82.0%)
+   Polymarket:   0.53 (53.0%)
+   Edge:         +29.0% ✅
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,604.00 USD
+📊 Mercado: Will Ukraine agree to cede territory to Russia before 2027?
+🔗 URL: https://polymarket.com/event/will-ukraine-agree-to-cede-territory-to-russia-before-2027
+🎯 Outcome: Yes
+📈 Lado: VENTA
+💵 Precio: 0.2800 (28.00%)
+📦 Volumen: $455,477.51
+🕐 Hora: 2026-02-20 07:55:38
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0x8b71010f8D18CccE16a37434778117EE2d6b8044-1735105889785
+   Wallet: 0x8b71010f8d18ccce16a37434778117ee2d6b8044
+   Perfil: https://polymarket.com/profile/0x8b71010f8d18ccce16a37434778117ee2d6b8044
+   TX Hash: 0x023a717b012ca72a6e...9563b3c7d5
+   TX URL: https://polygonscan.com/tx/0x023a717b012ca72a6ecff9999e1d28432daad1573b0dadb6ce4ec89563b3c7d5
+================================================================================
+
+
+
+================================================================================
+📊 RESUMEN DE SESIÓN
+================================================================================
+⏱️  Tiempo de monitoreo:     1h 8m 33s
+🐋 Total de ballenas:       36
+✅ Ballenas capturadas:     7
+⛔ Ballenas ignoradas:      29
+💰 Valor promedio:          $5,224.00 USD
+💎 Ballena más grande:      $18,393.40 USD
+   └─ Mercado: Heat vs. Hawks: O/U 243.5...
+   └─ Wallet: 0xea2b4224411e723499...
+📊 Mercados monitoreados:   6
+
+💾 Archivos guardados:
+   - trades_live/whales_20260220_065009.txt (log formateado)
+   - trades_live/historial_trades.json (historial de trades)
+
+🏆 TOP 5 MERCADOS CON MÁS BALLENAS:
+   1. Counter-Strike: MOUZ vs Natus Vincere - Map 1 Winner... (2 ballenas)
+   2. Will Hilton Grand Vacations (HGV) beat quarterly earnings?... (1 ballenas)
+   3. Will Frosinone Calcio win on 2026-02-20?... (1 ballenas)
+   4. Will Papa John's International (PZZA) beat quarterly earning... (1 ballenas)
+   5. Heat vs. Hawks: O/U 243.5... (1 ballenas)
+
+================================================================================

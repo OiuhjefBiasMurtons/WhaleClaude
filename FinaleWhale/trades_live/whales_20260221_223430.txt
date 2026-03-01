@@ -1,0 +1,172 @@
+
+================================================================================
+🚀 MONITOR INICIADO
+================================================================================
+💵 Umbral de ballena:        $2,500.00 USD
+⏱️  Intervalo de polling:     3 segundos
+📊 Límite de trades/ciclo:   1000
+⏰ Ventana de tiempo:        30 minutos (solo trades recientes)
+💾 Archivo de log:           trades_live/whales_20260221_223430.txt
+📂 Trades en memoria:        5000
+📱 Notificaciones Telegram:  ✅ ACTIVO
+🔄 Esperando trades...
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $10,800.00 USD
+📊 Mercado: UFC Fight Night: Geoff Neal vs. Uros Medic (Welterweight, Prelims)
+🔗 URL: https://polymarket.com/event/ufc-geo-uro-2026-02-21
+🎯 Outcome: Uros Medic
+📈 Lado: COMPRA
+💵 Precio: 0.3600 (36.00%)
+📦 Volumen: $601,787.20
+🕐 Hora: 2026-02-21 22:27:52
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Sharpyyy
+   Wallet: 0x68dd6269bb89d27a850dcde0d59ee824a227f0b2
+   Perfil: https://polymarket.com/profile/0x68dd6269bb89d27a850dcde0d59ee824a227f0b2
+   TX Hash: 0xd65af335e3c40d5751...34e8e57c5d
+   TX URL: https://polygonscan.com/tx/0xd65af335e3c40d575180df3f2df8cb55ab78ee81c8c67c582d410734e8e57c5d
+================================================================================
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.67 (67.1%)
+   Polymarket:   0.36 (36.0%)
+   Edge:         +31.1% ✅
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $3,054.18 USD
+📊 Mercado: Kentucky Wildcats vs. Auburn Tigers
+🔗 URL: https://polymarket.com/event/cbb-uk-aubrn-2026-02-21
+🎯 Outcome: Kentucky Wildcats
+📈 Lado: COMPRA
+💵 Precio: 0.2603 (26.03%)
+📦 Volumen: $69,801.77
+🕐 Hora: 2026-02-21 22:43:32
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: takeormake
+   Wallet: 0xa38a455bbdd4b68486548b7e19da99903f4f821d
+   Perfil: https://polymarket.com/profile/0xa38a455bbdd4b68486548b7e19da99903f4f821d
+   TX Hash: 0xae69eb21483a4795e4...e37b14cb51
+   TX URL: https://polygonscan.com/tx/0xae69eb21483a4795e47528fcdec7546fd21ca086f73ef727890634e37b14cb51
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,900.00 USD
+📊 Mercado: UFC Fight Night: Sean Strickland vs. Anthony Hernandez (Middleweight, Main Card)
+🔗 URL: https://polymarket.com/event/ufc-sea2-ant-2026-02-21
+🎯 Outcome: Strickland
+📈 Lado: COMPRA
+💵 Precio: 0.2900 (29.00%)
+📦 Volumen: $3,761,460.75
+🕐 Hora: 2026-02-21 22:53:36
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: theyseemeloosintheyhatin
+   Wallet: 0x14333d20e95f39472970d2feff6c9c4c16fd56a0
+   Perfil: https://polymarket.com/profile/0x14333d20e95f39472970d2feff6c9c4c16fd56a0
+   TX Hash: 0x43f177eebc0f1e0c00...d11e1261c2
+   TX URL: https://polygonscan.com/tx/0x43f177eebc0f1e0c00cac5a8fd64da9ea4e1c629bba822799f271fd11e1261c2
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,900.00 USD
+📊 Mercado: UFC Fight Night: Sean Strickland vs. Anthony Hernandez (Middleweight, Main Card)
+🔗 URL: https://polymarket.com/event/ufc-sea2-ant-2026-02-21
+🎯 Outcome: Strickland
+📈 Lado: COMPRA
+💵 Precio: 0.2900 (29.00%)
+📦 Volumen: $3,761,460.75
+🕐 Hora: 2026-02-21 22:58:14
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: joosangyoo
+   Wallet: 0x07b8e44b90cc3e91b8d5fe60ea810d2534638e25
+   Perfil: https://polymarket.com/profile/0x07b8e44b90cc3e91b8d5fe60ea810d2534638e25
+   TX Hash: 0xe936c54ed9079c81e3...03e0a54311
+   TX URL: https://polygonscan.com/tx/0xe936c54ed9079c81e383428c2c9fece19c652f3357d32e9f3667f603e0a54311
+================================================================================
+🔥 SEÑAL CONSENSO: 2 ballenas → BUY | Total: $5,800
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $14,500.00 USD
+📊 Mercado: UFC Fight Night: Sean Strickland vs. Anthony Hernandez (Middleweight, Main Card)
+🔗 URL: https://polymarket.com/event/ufc-sea2-ant-2026-02-21
+🎯 Outcome: Strickland
+📈 Lado: COMPRA
+💵 Precio: 0.2900 (29.00%)
+📦 Volumen: $3,761,460.75
+🕐 Hora: 2026-02-21 22:58:10
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Bertapotamous
+   Wallet: 0x134a63b764ac7b008356e8db1857db94e6b09e42
+   Perfil: https://polymarket.com/profile/0x134a63b764ac7b008356e8db1857db94e6b09e42
+   TX Hash: 0xd991735054b02ad393...7d861226e3
+   TX URL: https://polygonscan.com/tx/0xd991735054b02ad39332216f2b16fedfd29cc42ae50fb29306a7d27d861226e3
+================================================================================
+🔥 SEÑAL CONSENSO: 3 ballenas → BUY | Total: $20,300
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $4,555.10 USD
+📊 Mercado: Russia x Ukraine ceasefire by June 30, 2026?
+🔗 URL: https://polymarket.com/event/russia-x-ukraine-ceasefire-by-june-30-2026
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.8200 (82.00%)
+📦 Volumen: $1,708,239.35
+🕐 Hora: 2026-02-21 23:13:18
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: ScottyNooo
+   Wallet: 0xbacd00c9080a82ded56f504ee8810af732b0ab35
+   Perfil: https://polymarket.com/profile/0xbacd00c9080a82ded56f504ee8810af732b0ab35
+   TX Hash: 0xcfb84af3f96274118b...fdd24ab356
+   TX URL: https://polygonscan.com/tx/0xcfb84af3f96274118b80c1f241e679fa2f704f55df9e2cbcf0f210fdd24ab356
+================================================================================
+
+
+
+================================================================================
+📊 RESUMEN DE SESIÓN
+================================================================================
+⏱️  Tiempo de monitoreo:     0h 57m 37s
+🐋 Total de ballenas:       27
+✅ Ballenas capturadas:     6
+⛔ Ballenas ignoradas:      21
+💰 Valor promedio:          $10,811.71 USD
+💎 Ballena más grande:      $108,679.14 USD
+   └─ Mercado: Will Bitcoin reach $105,000 in February?...
+   └─ Wallet: 0x0d16999d6ba24c2c2c...
+📊 Mercados monitoreados:   4
+
+💾 Archivos guardados:
+   - trades_live/whales_20260221_223430.txt (log formateado)
+   - trades_live/historial_trades.json (historial de trades)
+
+🏆 TOP 5 MERCADOS CON MÁS BALLENAS:
+   1. UFC Fight Night: Sean Strickland vs. Anthony Hernandez (Midd... (3 ballenas)
+   2. UFC Fight Night: Geoff Neal vs. Uros Medic (Welterweight, Pr... (1 ballenas)
+   3. Kentucky Wildcats vs. Auburn Tigers... (1 ballenas)
+   4. Russia x Ukraine ceasefire by June 30, 2026?... (1 ballenas)
+
+================================================================================

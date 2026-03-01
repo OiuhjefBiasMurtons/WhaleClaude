@@ -11,6 +11,7 @@ import signal
 import sys
 import logging
 import os
+import threading
 from datetime import datetime
 from pathlib import Path
 from collections import deque
@@ -20,6 +21,7 @@ from urllib3.util.retry import Retry
 from dotenv import load_dotenv
 from whale_scorer import WHALE_TIERS
 from sports_edge_detector import SportsEdgeDetector
+from supabase import create_client, Client
 
 load_dotenv()
 
@@ -27,6 +29,11 @@ load_dotenv()
 TELEGRAM_TOKEN = os.getenv('API_TOKEN')
 TELEGRAM_CHAT_ID = os.getenv('CHAT_ID')
 TELEGRAM_ENABLED = bool(TELEGRAM_TOKEN and TELEGRAM_CHAT_ID)
+
+# Configuración de Supabase
+SUPABASE_URL = os.getenv('SUPABASE_URL')
+SUPABASE_KEY = os.getenv('SUPABASE_KEY')
+SUPABASE_ENABLED = bool(SUPABASE_URL and SUPABASE_KEY)
 
 # --- CONFIGURACIÓN ---
 GAMMA_API = "https://gamma-api.polymarket.com"
@@ -61,16 +68,19 @@ class TradeFilter:
         if price < 0.15 or price > 0.82:
             return False, "Precio fuera de rango (+EV)"
 
-        # Filtro 2: Volumen del mercado (usar slug para query precisa)
-        slug = trade.get('slug', '')
+        # Filtro 2: Volumen del mercado (usar slug del mercado específico, no eventSlug)
+        slug = trade.get('slug', '')  # slug específico del mercado (ej: ucl-qar1-new-2026-02-18-spread-away-1pt5)
         cache_key = slug or trade.get('conditionId', trade.get('market', ''))
         if cache_key and cache_key not in self.markets_cache:
             try:
                 url = f"{GAMMA_API}/markets"
-                res = self.session.get(url, timeout=10, params={'slug': slug} if slug else {'limit': 1})
-                data = res.json()
-                if isinstance(data, list) and data:
-                    self.markets_cache[cache_key] = float(data[0].get('volume', 0))
+                if slug:
+                    res = self.session.get(url, timeout=10, params={'slug': slug})
+                    data = res.json()
+                    if isinstance(data, list) and data:
+                        self.markets_cache[cache_key] = float(data[0].get('volume', 0))
+                    else:
+                        self.markets_cache[cache_key] = 0
                 else:
                     self.markets_cache[cache_key] = 0
             except Exception as e:
@@ -81,10 +91,10 @@ class TradeFilter:
         if market_volume < 25_000:
             return False, f"Mercado sin liquidez (${market_volume:,.0f})"
 
-        # Filtro 3: Retorno potencial
-        potential_return_pct = ((1 / price) - 1) * 100 if price > 0 else 0
-        if potential_return_pct < 40:
-            return False, "Retorno insuficiente para capital bajo"
+        # Filtro 3: Retorno potencial (COMENTADO - permite capturar más trades)
+        # potential_return_pct = ((1 / price) - 1) * 100 if price > 0 else 0
+        # if potential_return_pct < 40:
+        #     return False, "Retorno insuficiente para capital bajo"
 
         # Filtro 4: Ventas en mercados deportivos (posible farming de liquidez)
         title = trade.get('title', '').lower()
@@ -96,7 +106,65 @@ class TradeFilter:
         if is_sports and side == 'SELL':
             return False, "Venta en mercado deportivo (posible farming)"
 
+        # Filtro 5: Orden agresiva vs pasiva (solo deportes)
+        if is_sports:
+            es_agresiva, movimiento_pct = self._detectar_agresividad(trade, market_volume)
+            if not es_agresiva:
+                return False, f"Orden pasiva en deporte (farming de liquidez, movimiento {movimiento_pct:.1f}%)"
+
         return True, "✅ Trade válido"
+
+    def _detectar_agresividad(self, trade: dict, market_volume: float) -> tuple:
+        """
+        Determina si el trade fue una orden agresiva (tomó liquidez) o pasiva (puso liquidez).
+
+        Retorna: (es_agresiva: bool, precio_movimiento_pct: float)
+
+        Método de detección:
+        1. Consultar precio actual del mercado via GAMMA_API
+        2. Comparar con precio del trade
+        3. Si la diferencia es > 1.5%, fue agresiva (movió el mercado)
+        4. Si feeRateBps == 0, es maker (pasiva) — las órdenes agresivas siempre pagan fee
+        """
+        # Señal 1: feeRateBps
+        fee_rate = int(trade.get('feeRateBps', -1))
+        if fee_rate == 0:
+            return False, 0.0  # Maker order = pasiva
+
+        # Señal 2: diferencia de precio con el mercado actual
+        try:
+            condition_id = trade.get('conditionId', trade.get('market', ''))
+            slug = trade.get('marketSlug', trade.get('slug', ''))
+
+            url = f"{GAMMA_API}/markets?slug={slug}" if slug else f"{GAMMA_API}/markets?id={condition_id}"
+            res = self.session.get(url, timeout=8)
+            data = res.json()
+
+            if isinstance(data, list) and data:
+                market_data = data[0]
+            elif isinstance(data, dict):
+                market_data = data
+            else:
+                return True, 0.0  # Sin datos, asumir agresiva (fail-safe)
+
+            # Precio actual del token YES/NO según outcome del trade
+            outcome = trade.get('outcome', 'Yes')
+            if outcome.lower() == 'yes':
+                current_price = float(market_data.get('bestAsk', market_data.get('lastTradePrice', 0)))
+            else:
+                current_price = 1 - float(market_data.get('bestAsk', market_data.get('lastTradePrice', 0)))
+
+            trade_price = float(trade.get('price', 0))
+
+            if current_price > 0:
+                movimiento_pct = abs(trade_price - current_price) / current_price * 100
+                es_agresiva = movimiento_pct > 1.5
+                return es_agresiva, movimiento_pct
+
+            return True, 0.0  # Sin precio actual, asumir agresiva
+
+        except Exception:
+            return True, 0.0  # Fail-safe: si falla, no bloquear
 
 
 def send_telegram_notification(mensaje):
@@ -265,7 +333,20 @@ class AllMarketsWhaleDetector:
         self.sports_edge = SportsEdgeDetector(odds_api_key, self.session)
 
         # ThreadPool para análisis paralelos (max 2 simultáneos para evitar saturación)
-        self.analysis_executor = ThreadPoolExecutor(max_workers=2, thread_name_prefix="trader_analysis")
+        self.analysis_executor = ThreadPoolExecutor(max_workers=3, thread_name_prefix="trader_analysis")
+        self.scrape_semaphore = threading.Semaphore(1)  # Solo 1 Chrome activo a la vez
+
+        # Cache de análisis de traders para incluir tier en mensaje inicial
+        self.analysis_cache = {}
+
+        # Cliente de Supabase para tracking de ballenas deportivas
+        self.supabase: Client | None = None
+        if SUPABASE_ENABLED and SUPABASE_URL and SUPABASE_KEY:
+            try:
+                self.supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
+                logger.info("✅ Supabase conectado para tracking de ballenas deportivas")
+            except Exception as e:
+                logger.warning(f"⚠️ Error conectando a Supabase: {e}")
 
         # Archivos
         trades_live_dir = Path("trades_live")
@@ -292,6 +373,31 @@ class AllMarketsWhaleDetector:
         session.mount('http://', adapter)
         session.mount('https://', adapter)
         return session
+
+    def _es_ballena(self, valor: float, market_volume: float) -> tuple:
+        """
+        Umbral dinámico: alerta si cumple CUALQUIERA de estas condiciones:
+        1. Valor absoluto >= umbral configurado por el usuario (default 2500)
+        2. Valor representa >= 3% del volumen total del mercado
+
+        Returns:
+            (es_ballena: bool, mostrar_concentracion: bool, pct_mercado: float)
+            - mostrar_concentracion: True si representa ≥3% del mercado (muestra etiqueta NICHO)
+        """
+        es_ballena_absoluta = valor >= self.umbral
+        es_ballena_relativa = (
+            market_volume > 0 and
+            (valor / market_volume) >= 0.03 and
+            valor >= 500  # mínimo absoluto para evitar micro-trades
+        )
+
+        pct_mercado = (valor / market_volume * 100) if market_volume > 0 else 0
+
+        # Mostrar etiqueta NICHO si cumple criterio relativo (independiente del absoluto)
+        # Si representa ≥3% del mercado, SIEMPRE es información relevante
+        mostrar_concentracion = es_ballena_relativa
+
+        return (es_ballena_absoluta or es_ballena_relativa), mostrar_concentracion, pct_mercado
 
     def _cargar_historial(self):
         """Carga el historial de trades vistos de ejecuciones anteriores"""
@@ -438,6 +544,47 @@ class AllMarketsWhaleDetector:
             logger.error("⚠️ Error decodificando JSON de la respuesta")
             return []
 
+    def _registrar_en_supabase(self, trade, valor, price, wallet, display_name, edge_result, es_nicho):
+        """Registra ballena en Supabase para tracking automático de resultados"""
+        if not self.supabase:
+            return
+
+        try:
+            # Obtener tier del caché si existe
+            cached_analysis = self.analysis_cache.get(wallet, None)
+            tier = cached_analysis.get('tier', '') if cached_analysis else None
+
+            # Para mercados no deportivos, edge_pct será 0
+            edge_pct = float(edge_result.get('edge_pct', 0)) if edge_result.get('is_sports', False) else 0
+
+            # Preparar datos para inserción
+            data = {
+                'detected_at': datetime.now().isoformat(),
+                'market_title': trade.get('title', ''),
+                'condition_id': trade.get('conditionId', trade.get('market', '')),
+                'side': trade.get('side', '').upper(),
+                'poly_price': float(price),
+                'valor_usd': float(valor),
+                'display_name': display_name,  # Nombre de usuario en lugar de wallet
+                'tier': tier,
+                'edge_pct': edge_pct,  # 0 para no deportivos, valor real para deportivos
+                'is_nicho': es_nicho,
+                'outcome': trade.get('outcome', ''),
+                # Campos de resultado se dejan NULL para llenarse después
+                'resolved_at': None,
+                'result': None,
+                'pnl_teorico': None
+            }
+
+            # Insertar en Supabase
+            self.supabase.table('whale_signals').insert(data).execute()
+
+            market_type = "deportiva" if edge_result.get('is_sports', False) else "general"
+            logger.info(f"📊 Ballena {market_type} registrada en Supabase: {data['market_title'][:50]}")
+
+        except Exception as e:
+            logger.warning(f"⚠️ Error registrando en Supabase: {e}")
+
     def _obtener_info_mercado(self, trade):
         """Obtiene información del mercado desde los datos del trade (con caché)"""
         condition_id = trade.get('conditionId', trade.get('market', 'N/A'))
@@ -458,7 +605,7 @@ class AllMarketsWhaleDetector:
         self._limpiar_cache_mercados()
         return info
 
-    def _log_ballena(self, trade, valor):
+    def _log_ballena(self, trade, valor, es_nicho=False, pct_mercado=0.0):
         # Trackear estadísticas
         self.suma_valores_ballenas += valor
         if valor > self.ballena_maxima['valor']:
@@ -478,7 +625,7 @@ class AllMarketsWhaleDetector:
         # Filtro de calidad de apuesta
         is_valid, reason = self.trade_filter.is_worth_copying(trade, valor)
 
-        # Obtener volumen del mercado para mostrar
+        # Obtener volumen del mercado para mostrar (misma key que el filtro)
         slug = trade.get('slug', '')
         cache_key = slug or trade.get('conditionId', trade.get('market', ''))
         market_volume = self.trade_filter.markets_cache.get(cache_key, 0)
@@ -511,17 +658,6 @@ class AllMarketsWhaleDetector:
 
         # Información del usuario
         wallet = trade.get('proxyWallet', 'N/A')
-
-        # Consenso multi-ballena
-        condition_id = trade.get('conditionId', trade.get('market', ''))
-        self.consensus.add(condition_id, side, valor, wallet)
-        is_consensus, count, consensus_side, total_value = self.consensus.get_signal(condition_id)
-
-        # Detección de coordinación (grupos)
-        self.coordination.add_trade(condition_id, wallet, side, valor)
-        is_coordinated, coord_count, coord_desc, coord_wallets = self.coordination.detect_coordination(
-            condition_id, wallet, side
-        )
         username = trade.get('name', '')
         pseudonym = trade.get('pseudonym', '')
         tx_hash = trade.get('transactionHash', 'N/A')
@@ -533,6 +669,18 @@ class AllMarketsWhaleDetector:
             display_name = pseudonym
         else:
             display_name = 'Anónimo'
+
+        # Consenso multi-ballena
+        # NOTA: El registro en Supabase se hará DESPUÉS del análisis, solo si tier es bueno
+        condition_id = trade.get('conditionId', trade.get('market', ''))
+        self.consensus.add(condition_id, side, valor, wallet)
+        is_consensus, count, consensus_side, total_value = self.consensus.get_signal(condition_id)
+
+        # Detección de coordinación (grupos)
+        self.coordination.add_trade(condition_id, wallet, side, valor)
+        is_coordinated, coord_count, coord_desc, coord_wallets = self.coordination.detect_coordination(
+            condition_id, wallet, side
+        )
 
         # URLs
         profile_url = f"https://polymarket.com/profile/{wallet}" if wallet != 'N/A' else 'N/A'
@@ -551,11 +699,14 @@ class AllMarketsWhaleDetector:
         else:
             tx_hash_display = tx_hash
 
+        # Etiqueta de nicho si fue detectada por umbral relativo
+        nicho_tag = f"  ⚡ NICHO ({pct_mercado:.1f}% del mercado)" if es_nicho else ""
+
         msg = f"""
 {'='*80}
 {emoji} {categoria} DETECTADA {emoji}
 {'='*80}
-💰 Valor: ${valor:,.2f} USD
+💰 Valor: ${valor:,.2f} USD{nicho_tag}
 📊 Mercado: {market_info.get('question', 'N/A')}
 🔗 URL: {market_url}
 🎯 Outcome: {outcome}
@@ -606,15 +757,43 @@ class AllMarketsWhaleDetector:
         # Notificación por Telegram
         if TELEGRAM_ENABLED:
             lado_texto = 'COMPRA' if side == 'BUY' else 'VENTA'
-            telegram_msg = f"<b>{emoji} {categoria} CAPTURADA {emoji}</b>\n\n"
-            telegram_msg += f"💰 <b>Valor:</b> ${valor:,.2f}\n"
+
+            # Alerta de nicho al inicio si aplica
+            telegram_msg = ""
+            if es_nicho:
+                telegram_msg += f"⚡ <b>ALERTA NICHO</b> — Alta concentración en mercado pequeño\n\n"
+
+            telegram_msg += f"<b>{emoji} {categoria} CAPTURADA {emoji}</b>\n\n"
+
+            # Valor con etiqueta de nicho
+            nicho_tag_tg = f"  ⚡ <b>NICHO</b> ({pct_mercado:.1f}% del mercado)" if es_nicho else ""
+            telegram_msg += f"💰 <b>Valor:</b> ${valor:,.2f}{nicho_tag_tg}\n"
             telegram_msg += f"📊 <b>Mercado:</b> {market_info.get('question', 'N/A')[:80]}\n"
             telegram_msg += f"🎯 <b>Outcome:</b> {outcome}\n"
             telegram_msg += f"📈 <b>Lado:</b> {lado_texto}\n"
             telegram_msg += f"💵 <b>Precio:</b> {price:.4f} ({price*100:.2f}%)\n"
             telegram_msg += f"📦 <b>Volumen:</b> ${market_volume:,.0f}\n"
-            telegram_msg += f"👤 <b>Trader:</b> {display_name}\n"
-            telegram_msg += f"🔗 <a href='{profile_url}'>Perfil del trader</a>\n"
+
+            # Información del trader con tier si está en caché
+            cached_analysis = self.analysis_cache.get(wallet, None)
+            if cached_analysis:
+                tier = cached_analysis.get('tier', '')
+                score = cached_analysis.get('score', 0)
+                sports_pnl = cached_analysis.get('sports_pnl', None)
+
+                telegram_msg += f"\n👤 <b>TRADER:</b> {display_name}\n"
+                telegram_msg += f"   🏆 <b>Tier:</b> {tier} (Score: {score}/100)\n"
+
+                if sports_pnl is not None:
+                    sports_emoji = "🟢" if sports_pnl > 0 else "🔴"
+                    telegram_msg += f"   ⚽ <b>PnL Deportes:</b> {sports_emoji} ${sports_pnl:,.0f}\n"
+
+                telegram_msg += f"   🔗 <a href='{profile_url}'>Ver perfil</a>\n"
+            else:
+                # No mostrar "Analizando perfil..." si el análisis ya está en progreso
+                # (evita confusión cuando hay múltiples ballenas del mismo wallet)
+                telegram_msg += f"\n👤 <b>TRADER:</b> {display_name}\n"
+                telegram_msg += f"   🔗 <a href='{profile_url}'>Ver perfil</a>\n"
 
             if edge_result['is_sports'] and edge_result['pinnacle_price'] > 0:
                 pp = edge_result['pinnacle_price']
@@ -635,30 +814,92 @@ class AllMarketsWhaleDetector:
 
             telegram_msg += f"\n🔗 <a href='{market_url}'>Ver mercado</a>"
 
+            # Iniciar análisis del trader (espera hasta 20s antes de enviar Telegram)
+            # Pasar datos del trade para registro en Supabase solo si tier es bueno
+            self._analizar_trader_async(
+                wallet, display_name, trade.get('title', '').lower(),
+                esperar_resultado=True,
+                trade_data=trade,
+                valor=valor,
+                price=price,
+                edge_result=edge_result,
+                es_nicho=es_nicho
+            )
+
+            # Revisar si el análisis completó y actualizar mensaje si hay tier
+            cached_analysis = self.analysis_cache.get(wallet, None)
+            if cached_analysis and not 'TRADER:' in telegram_msg:  # Si no se incluyó antes
+                tier = cached_analysis.get('tier', '')
+                score = cached_analysis.get('score', 0)
+                sports_pnl = cached_analysis.get('sports_pnl', None)
+
+                # Insertar info de tier antes del edge/consenso
+                trader_info = f"\n👤 <b>TRADER:</b> {display_name}\n"
+                trader_info += f"   🏆 <b>Tier:</b> {tier} (Score: {score}/100)\n"
+                if sports_pnl is not None:
+                    sports_emoji = "🟢" if sports_pnl > 0 else "🔴"
+                    trader_info += f"   ⚽ <b>PnL Deportes:</b> {sports_emoji} ${sports_pnl:,.0f}\n"
+                trader_info += f"   🔗 <a href='{profile_url}'>Ver perfil</a>\n"
+
+                # Reemplazar la línea de trader simple por la completa
+                telegram_msg = telegram_msg.replace(
+                    f"\n👤 <b>TRADER:</b> {display_name}\n   🔗 <a href='{profile_url}'>Ver perfil</a>\n",
+                    trader_info
+                )
+
             send_telegram_notification(telegram_msg)
 
-        # Análisis paralelo del trader con polywhale_v5
-        self._analizar_trader_async(wallet, display_name, trade.get('title', '').lower())
+    def _analizar_trader_async(self, wallet, display_name, title_lower, esperar_resultado=False,
+                               trade_data=None, valor=0.0, price=0.0, edge_result=None, es_nicho=False):
+        """
+        Ejecuta polywhale_v5 en un hilo paralelo.
+        - Si tier es bueno (SILVER/GOLD/DIAMOND/BOT/MM): registra en Supabase + envía análisis completo
+        - Si tier es malo (BRONZE/RISKY/STANDARD): envía mensaje simple + NO registra en Supabase
 
-    def _analizar_trader_async(self, wallet, display_name, title_lower):
-        """Ejecuta polywhale_v5 en un hilo paralelo. Si silver/gold/diamond, envía a Telegram."""
+        Args:
+            esperar_resultado: Si True, espera hasta 20 segundos a que termine el análisis
+            trade_data: Datos del trade para registro en Supabase
+            valor: Valor del trade en USD
+            price: Precio de la apuesta
+            edge_result: Resultado del análisis de edge deportivo
+            es_nicho: Si el trade es un mercado nicho
+        """
         if wallet == 'N/A':
-            return
+            return None
 
         # No analizar la misma wallet dos veces en la misma sesión
         if not hasattr(self, '_wallets_analizadas'):
             self._wallets_analizadas = set()
 
         if wallet in self._wallets_analizadas:
-            return
+            return None
         self._wallets_analizadas.add(wallet)
 
         def _run_analysis():
             try:
                 from polywhale_v5_adjusted import TraderAnalyzer
 
-                analyzer = TraderAnalyzer(wallet)
-                if not analyzer.scrape_polymarketanalytics():
+                # Serializar scrapers: solo 1 Chrome activo a la vez (evita conflictos Xvfb)
+                with self.scrape_semaphore:
+                    analyzer = TraderAnalyzer(wallet)
+                    scrape_ok = analyzer.scrape_polymarketanalytics()
+                    if not scrape_ok:
+                        # Reintentar una vez por si fue un error de red transitorio
+                        logger.info(f"⚠️ Scrape fallido para {display_name}, reintentando en 10s...")
+                        time.sleep(10)
+                        analyzer2 = TraderAnalyzer(wallet)
+                        scrape_ok = analyzer2.scrape_polymarketanalytics()
+                        if scrape_ok:
+                            analyzer = analyzer2
+                if not scrape_ok:
+                    # Fix: enviar aviso solo si ambos intentos fallaron (caso Wickier)
+                    msg_sin_perfil = f"ℹ️ <b>SIN DATOS DE TRADER</b>\n\n"
+                    msg_sin_perfil += f"👤 <b>{display_name}</b> (<code>{wallet[:10]}...</code>)\n"
+                    msg_sin_perfil += f"📭 No se encontró perfil en PolymarketAnalytics.\n"
+                    msg_sin_perfil += f"💡 Trader nuevo o sin historial registrado.\n"
+                    msg_sin_perfil += f"🔗 <a href='https://polymarket.com/profile/{wallet}'>Ver perfil</a>"
+                    send_telegram_notification(msg_sin_perfil)
+                    logger.info(f"⚠️ Sin perfil en analytics para {display_name} ({wallet[:10]}...)")
                     return
 
                 analyzer.calculate_profitability_score()
@@ -671,17 +912,71 @@ class AllMarketsWhaleDetector:
                 total = analyzer.scores.get('total', 0)
                 d = analyzer.scraped_data
 
-                # Solo enviar a Telegram si es silver, gold o diamond
-                tiers_validos = ['SILVER', 'GOLD', 'DIAMOND']
-                if not any(t in tier.upper() for t in tiers_validos):
-                    logger.info(f"🔍 Trader {display_name} ({wallet[:10]}...) → {tier} (score: {total}) — No se envía a Telegram")
+                # Fix: detectar perfil vacío (caso betwick — score 0, trades 0, PnL 0)
+                is_empty_profile = (
+                    d.get('total_trades', 0) == 0 and
+                    abs(d.get('pnl', 0)) == 0 and
+                    d.get('win_rate', 0) == 0.0 and
+                    total == 0
+                )
+                if is_empty_profile:
+                    msg_vacio = f"⚠️ <b>TRADER SIN HISTORIAL</b>\n\n"
+                    msg_vacio += f"👤 <b>{display_name}</b> (<code>{wallet[:10]}...</code>)\n"
+                    msg_vacio += f"📊 Perfil encontrado pero sin trades registrados.\n"
+                    msg_vacio += f"💡 Trader nuevo — WR histórico no disponible todavía.\n"
+                    msg_vacio += f"🔗 <a href='https://polymarket.com/profile/{wallet}'>Ver perfil</a>"
+                    msg_vacio += f" | <a href='https://polymarketanalytics.com/traders/{wallet}'>Analytics</a>"
+                    send_telegram_notification(msg_vacio)
+                    logger.info(f"⚠️ Perfil vacío para {display_name} ({wallet[:10]}...)")
                     return
 
-                logger.info(f"🔍 Trader {display_name} ({wallet[:10]}...) → {tier} (score: {total}) — Enviando a Telegram")
+                # Calcular PnL deportivo total para caché
+                sports_pnl = None
+                if hasattr(analyzer, '_detect_sport_subtypes'):
+                    sport_subtypes = analyzer._detect_sport_subtypes(d)
+                    sports_pnl = sum(info['pnl'] for info in sport_subtypes.values()) if sport_subtypes else None
+
+                # Guardar en caché para uso en mensaje inicial de ballena
+                self.analysis_cache[wallet] = {
+                    'tier': tier,
+                    'score': total,
+                    'sports_pnl': sports_pnl
+                }
+
+                # Solo enviar a Telegram si es silver, gold, diamond o bot/mm
+                tiers_buenos = ['SILVER', 'GOLD', 'DIAMOND', 'BRONZE', 'RISKY', 'STANDARD', 'HIGH RISK']
+                tiers_advertencia = ['BOT', 'MM']
+
+                es_tier_bueno = any(t in tier.upper() for t in tiers_buenos)
+                es_bot_mm = any(t in tier.upper() for t in tiers_advertencia)
+
+                # Si tier es malo, enviar mensaje simple y NO registrar en Supabase
+                if not (es_tier_bueno or es_bot_mm):
+                    mensaje_simple = f"⚠️ <b>TRADER NO RECOMENDADO</b>\n\n"
+                    mensaje_simple += f"👤 <b>{display_name}</b> ({wallet[:10]}...)\n"
+                    mensaje_simple += f"📊 <b>Tier:</b> {tier} (Score: {total}/100)\n"
+                    mensaje_simple += f"💡 <b>Recomendación:</b> NO copiar este trade\n"
+                    send_telegram_notification(mensaje_simple)
+                    logger.info(f"🔍 Trader {display_name} ({wallet[:10]}...) → {tier} (score: {total}) — Mensaje simple enviado")
+                    return
+
+                # Si tier es bueno, registrar en Supabase (TODOS los mercados)
+                if trade_data and edge_result:
+                    self._registrar_en_supabase(trade_data, valor, price, wallet, display_name, edge_result, es_nicho)
+
+                logger.info(f"🔍 Trader {display_name} ({wallet[:10]}...) → {tier} (score: {total}) — Enviando análisis completo")
 
                 # Construir mensaje de Telegram
                 rec = analyzer.generate_recommendation()
-                tg = f"<b>🔍 ANÁLISIS DE TRADER</b>\n\n"
+
+                # Encabezado especial para BOT/MM
+                if es_bot_mm and not es_tier_bueno:
+                    tg = f"<b>⚠️ ANÁLISIS DE TRADER - BOT/MARKET MAKER</b>\n\n"
+                    tg += f"⚠️ <b>ADVERTENCIA:</b> Este trader muestra patrones de bot o market maker\n"
+                    tg += f"💡 <b>Recomendación:</b> No copiar - posible farming de liquidez o arbitraje automatizado\n\n"
+                else:
+                    tg = f"<b>🔍 ANÁLISIS DE TRADER</b>\n\n"
+
                 tg += f"👤 <b>{display_name}</b> | {tier}\n"
                 tg += f"📊 <b>Score:</b> {total}/100\n"
                 tg += f"📈 <b>PnL:</b> ${d.get('pnl', 0):,.0f}\n"
@@ -736,10 +1031,20 @@ class AllMarketsWhaleDetector:
                 send_telegram_notification(tg)
 
             except Exception as e:
-                logger.warning(f"Error en análisis paralelo de {wallet[:10]}...: {e}")
+                logger.error(f"❌ Error en análisis de {wallet[:10]}...: {e}", exc_info=True)
 
         # Usar ThreadPoolExecutor para limitar concurrencia (max 2 análisis simultáneos)
-        self.analysis_executor.submit(_run_analysis)
+        future = self.analysis_executor.submit(_run_analysis)
+
+        # Si se solicita, esperar hasta 20 segundos a que termine
+        if esperar_resultado:
+            try:
+                future.result(timeout=20)
+                logger.info(f"✅ Análisis completado en <20s para {wallet[:10]}...")
+            except:
+                logger.info(f"⏱️ Análisis tomando >20s para {wallet[:10]}... (continuará en background)")
+
+        return future
 
     def ejecutar(self):
         # Mostrar resumen de configuración al iniciar
@@ -825,11 +1130,17 @@ class AllMarketsWhaleDetector:
                     
                     self.trades_vistos_ids.add(trade_id)
                     self.trades_vistos_deque.append(trade_id)
-                    
-                    # Verificar si es ballena
-                    if valor >= self.umbral:
+
+                    # Obtener volumen del mercado para umbral dinámico (misma key que el filtro)
+                    slug = trade.get('slug', '')
+                    cache_key = slug or trade.get('conditionId', trade.get('market', ''))
+                    market_volume = self.trade_filter.markets_cache.get(cache_key, 0)
+
+                    # Verificar si es ballena (umbral dinámico)
+                    es_ballena, es_nicho, pct_mercado = self._es_ballena(valor, market_volume)
+                    if es_ballena:
                         trades_sobre_umbral += 1
-                        self._log_ballena(trade, valor)
+                        self._log_ballena(trade, valor, es_nicho, pct_mercado)
                         ballenas_ciclo += 1
                         self.ballenas_detectadas += 1
             
@@ -852,11 +1163,11 @@ class AllMarketsWhaleDetector:
 
 def main():
     print("\n🐋 POLYMARKET WHALE DETECTOR - DEFINITIVE EDITION")
-    
+
     while True:
         try:
-            val = input("💰 Umbral (USD) [Enter para 1000]: ").strip()
-            umbral = float(val) if val else 1000.0
+            val = input("💰 Umbral (USD) [Enter para 2500]: ").strip()
+            umbral = float(val) if val else 2500.0
             if umbral > 0: break
         except ValueError:
             print("❌ Número inválido")
