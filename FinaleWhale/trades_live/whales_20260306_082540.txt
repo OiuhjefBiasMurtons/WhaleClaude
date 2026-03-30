@@ -1,0 +1,2901 @@
+
+================================================================================
+🚀 MONITOR INICIADO
+================================================================================
+💵 Umbral de ballena:        $2,500.00 USD
+⏱️  Intervalo de polling:     3 segundos
+📊 Límite de trades/ciclo:   1000
+⏰ Ventana de tiempo:        30 minutos (solo trades recientes)
+💾 Archivo de log:           trades_live/whales_20260306_082540.txt
+📂 Trades en memoria:        5000
+📱 Notificaciones Telegram:  ✅ ACTIVO
+🔄 Esperando trades...
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,609.34 USD
+📊 Mercado: Will Real Madrid CF win on 2026-03-07?
+🔗 URL: https://polymarket.com/event/lal-cel-rea-2026-03-07
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.5800 (58.00%)
+📦 Volumen: $648,267.54
+🕐 Hora: 2026-03-06 08:41:23
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: booblyc
+   Wallet: 0xa196c85c5c152cd9b04a7fb0612025d741665b78
+   Perfil: https://polymarket.com/profile/0xa196c85c5c152cd9b04a7fb0612025d741665b78
+   TX Hash: 0x3b3d9fe0ad36c8bb85...0386c675c8
+   TX URL: https://polygonscan.com/tx/0x3b3d9fe0ad36c8bb85da4b325f75c872b002def4fe8221bd81bfee0386c675c8
+================================================================================
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.43 (42.6%)
+   Polymarket:   0.58 (58.0%)
+   Edge:         -15.4% ❌
+⚠️⚠️ WARNING: SUCKER BET - Ballena pagando 15.4% MÁS que Pinnacle
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,965.44 USD
+📊 Mercado: Spread: Celtics (-14.5)
+🔗 URL: https://polymarket.com/event/nba-dal-bos-2026-03-06
+🎯 Outcome: Mavericks
+📈 Lado: COMPRA
+💵 Precio: 0.4800 (48.00%)
+📦 Volumen: $31,918.90
+🕐 Hora: 2026-03-06 09:11:17
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: c4c4
+   Wallet: 0x1455445e9a775cfa3fe9fc4b02bb4d2f682ae5cd
+   Perfil: https://polymarket.com/profile/0x1455445e9a775cfa3fe9fc4b02bb4d2f682ae5cd
+   TX Hash: 0x6ded8d135a27c73d5e...b7d65f955a
+   TX URL: https://polygonscan.com/tx/0x6ded8d135a27c73d5edc3ad3656f3454d9e38f3baf7f7c068b4da5b7d65f955a
+================================================================================
+
+
+================================================================================
+🦈 TIBURÓN DETECTADA 🦈
+================================================================================
+💰 Valor: $1,083.84 USD  ⚡ NICHO (3.4% del mercado)
+📊 Mercado: Spread: Celtics (-14.5)
+🔗 URL: https://polymarket.com/event/nba-dal-bos-2026-03-06
+🎯 Outcome: Mavericks
+📈 Lado: COMPRA
+💵 Precio: 0.4800 (48.00%)
+📦 Volumen: $31,918.90
+🕐 Hora: 2026-03-06 09:11:15
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: j20001224
+   Wallet: 0x253dafc512e94796748acb4af49b54ace3deaa62
+   Perfil: https://polymarket.com/profile/0x253dafc512e94796748acb4af49b54ace3deaa62
+   TX Hash: 0x6d7cb10183b3a59f23...1cbf933270
+   TX URL: https://polygonscan.com/tx/0x6d7cb10183b3a59f23ae274cd79e6e4a00326647c6819908bbb18f1cbf933270
+================================================================================
+🔥 SEÑAL CONSENSO: 2 ballenas → BUY | Total: $4,049
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $4,727.00 USD  ⚡ NICHO (14.8% del mercado)
+📊 Mercado: Spread: Celtics (-14.5)
+🔗 URL: https://polymarket.com/event/nba-dal-bos-2026-03-06
+🎯 Outcome: Mavericks
+📈 Lado: COMPRA
+💵 Precio: 0.4800 (48.00%)
+📦 Volumen: $31,918.90
+🕐 Hora: 2026-03-06 09:11:13
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 432614799197
+   Wallet: 0xdc876e6873772d38716fda7f2452a78d426d7ab6
+   Perfil: https://polymarket.com/profile/0xdc876e6873772d38716fda7f2452a78d426d7ab6
+   TX Hash: 0x6160a5a83988a66aed...9ea3f7a0b0
+   TX URL: https://polygonscan.com/tx/0x6160a5a83988a66aeda018e2b5feb2156f64b6a7e959a6f83e4f429ea3f7a0b0
+================================================================================
+🔥 SEÑAL CONSENSO: 3 ballenas → BUY | Total: $8,776
+⚠️ GRUPO COORDINADO: 3 wallets → BUY en 0.7 min | Wallets: 3
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $15,980.40 USD  ⚡ NICHO (50.1% del mercado)
+📊 Mercado: Spread: Celtics (-14.5)
+🔗 URL: https://polymarket.com/event/nba-dal-bos-2026-03-06
+🎯 Outcome: Celtics
+📈 Lado: COMPRA
+💵 Precio: 0.5177 (51.77%)
+📦 Volumen: $31,918.90
+🕐 Hora: 2026-03-06 09:11:13
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Talvez10
+   Wallet: 0xa71093cafc0c099b4ccab24c3cb8018d817923c4
+   Perfil: https://polymarket.com/profile/0xa71093cafc0c099b4ccab24c3cb8018d817923c4
+   TX Hash: 0xe3269a24f6a39a10a4...875619f9a6
+   TX URL: https://polygonscan.com/tx/0xe3269a24f6a39a10a4bb3b507626444543a0af3faffd4119346b3a875619f9a6
+================================================================================
+🔥 SEÑAL CONSENSO: 4 ballenas → BUY | Total: $24,757
+⚠️ GRUPO COORDINADO: 4 wallets → BUY en 1.0 min | Wallets: 4
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $3,000.00 USD  ⚡ NICHO (9.4% del mercado)
+📊 Mercado: Spread: Celtics (-14.5)
+🔗 URL: https://polymarket.com/event/nba-dal-bos-2026-03-06
+🎯 Outcome: Mavericks
+📈 Lado: COMPRA
+💵 Precio: 0.4800 (48.00%)
+📦 Volumen: $31,918.90
+🕐 Hora: 2026-03-06 09:17:37
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Yieldblade
+   Wallet: 0x4daa6edd679ae40d50f9d0f393c98b30b5dcdb78
+   Perfil: https://polymarket.com/profile/0x4daa6edd679ae40d50f9d0f393c98b30b5dcdb78
+   TX Hash: 0xc96e34ad963f80cb4d...94b15174b8
+   TX URL: https://polygonscan.com/tx/0xc96e34ad963f80cb4de22ad5df7befa110e3ee653d8611ecf108d094b15174b8
+================================================================================
+🔥 SEÑAL CONSENSO: 5 ballenas → BUY | Total: $27,757
+⚠️ GRUPO COORDINADO: 4 wallets → BUY en 4.7 min | Wallets: 4
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $5,313.12 USD
+📊 Mercado: Will the price of Bitcoin be above $70,000 on March 10?
+🔗 URL: https://polymarket.com/event/bitcoin-above-on-march-10
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.6000 (60.00%)
+📦 Volumen: $27,914.53
+🕐 Hora: 2026-03-06 09:17:23
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: kingofcoinflips
+   Wallet: 0xe9c6312464b52aa3eff13d822b003282075995c9
+   Perfil: https://polymarket.com/profile/0xe9c6312464b52aa3eff13d822b003282075995c9
+   TX Hash: 0xd598829b7244fd81a7...e50c840082
+   TX URL: https://polygonscan.com/tx/0xd598829b7244fd81a78999df6a80f0e5142ce363ac9c2df6548d7be50c840082
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $8,439.39 USD
+📊 Mercado: Spread: Liverpool FC (-1.5)
+🔗 URL: https://polymarket.com/event/efa-wol-liv-2026-03-07-more-markets
+🎯 Outcome: Liverpool FC
+📈 Lado: COMPRA
+💵 Precio: 0.3700 (37.00%)
+📦 Volumen: $67,882.74
+🕐 Hora: 2026-03-06 10:02:43
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: RandomPunter
+   Wallet: 0xf588b19afe63e1aba00f125f91e3e3b0fdc62b81
+   Perfil: https://polymarket.com/profile/0xf588b19afe63e1aba00f125f91e3e3b0fdc62b81
+   TX Hash: 0xe82904ede8f2392137...0900cd4cdb
+   TX URL: https://polygonscan.com/tx/0xe82904ede8f2392137daf28f04c504b4b1c606fa6fe68833e7c8420900cd4cdb
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,600.00 USD
+📊 Mercado: Hurricanes vs. Oilers
+🔗 URL: https://polymarket.com/event/nhl-car-edm-2026-03-06
+🎯 Outcome: Hurricanes
+📈 Lado: COMPRA
+💵 Precio: 0.5200 (52.00%)
+📦 Volumen: $595,741.82
+🕐 Hora: 2026-03-06 10:47:29
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: KirksCousin
+   Wallet: 0xb55216ed55337cf9443139e4e5cace56426694a8
+   Perfil: https://polymarket.com/profile/0xb55216ed55337cf9443139e4e5cace56426694a8
+   TX Hash: 0x1ad32a41384f497cb4...4c374ba7e1
+   TX URL: https://polygonscan.com/tx/0x1ad32a41384f497cb4b6d7d4321af702bef95bbb9bc6c4806624c24c374ba7e1
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,680.00 USD
+📊 Mercado: Pelicans vs. Suns
+🔗 URL: https://polymarket.com/event/nba-nop-phx-2026-03-06
+🎯 Outcome: Suns
+📈 Lado: COMPRA
+💵 Precio: 0.6700 (67.00%)
+📦 Volumen: $243,225.74
+🕐 Hora: 2026-03-06 11:07:13
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: morenai
+   Wallet: 0x72c072bf78af352b11ab471d26ac09d64feb0982
+   Perfil: https://polymarket.com/profile/0x72c072bf78af352b11ab471d26ac09d64feb0982
+   TX Hash: 0x9b9ed8e4e8e5678242...1e0e09e2f7
+   TX URL: https://polygonscan.com/tx/0x9b9ed8e4e8e5678242cea2663069460e78c17f225d330e04de0c111e0e09e2f7
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $7,200.00 USD
+📊 Mercado: Knicks vs. Nuggets
+🔗 URL: https://polymarket.com/event/nba-nyk-den-2026-03-06
+🎯 Outcome: Nuggets
+📈 Lado: COMPRA
+💵 Precio: 0.4800 (48.00%)
+📦 Volumen: $668,293.38
+🕐 Hora: 2026-03-06 11:22:27
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: iknowwhatimdoing
+   Wallet: 0x1ceb596681440de69818356be04dbbc226a87dfb
+   Perfil: https://polymarket.com/profile/0x1ceb596681440de69818356be04dbbc226a87dfb
+   TX Hash: 0x5b63c8719afb8451b1...684b875e86
+   TX URL: https://polygonscan.com/tx/0x5b63c8719afb8451b18794abf0ebd9596f16d8c08ab4f461937fa9684b875e86
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,604.11 USD
+📊 Mercado: Will Iran close the Strait of Hormuz by March 31?
+🔗 URL: https://polymarket.com/event/will-iran-close-the-strait-of-hormuz-by-2027
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.1700 (17.00%)
+📦 Volumen: $15,751,421.98
+🕐 Hora: 2026-03-06 11:32:37
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: bamesjond
+   Wallet: 0xe598435df0cdf5d22bdd5082d557f75f9180a0a8
+   Perfil: https://polymarket.com/profile/0xe598435df0cdf5d22bdd5082d557f75f9180a0a8
+   TX Hash: 0x4f732dfa4d3fc6ba5a...c588e12052
+   TX URL: https://polygonscan.com/tx/0x4f732dfa4d3fc6ba5a17d817a05579aec74fba503b113cf1962ba3c588e12052
+================================================================================
+
+
+================================================================================
+🐋🐋🐋🐋🐋 TITAN BALLENA DETECTADA 🐋🐋🐋🐋🐋
+================================================================================
+💰 Valor: $85,985.72 USD
+📊 Mercado: Counter-Strike: TheMongolz vs paiN (BO3) - ESL Pro League Stage 2
+🔗 URL: https://polymarket.com/event/cs2-mglz-pain-2026-03-06
+🎯 Outcome: TheMongolz
+📈 Lado: COMPRA
+💵 Precio: 0.6466 (64.66%)
+📦 Volumen: $458,085.61
+🕐 Hora: 2026-03-06 11:32:37
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Kobus2
+   Wallet: 0x3e6a777c6be8105fe4b37dbe39209a0b92ad5b18
+   Perfil: https://polymarket.com/profile/0x3e6a777c6be8105fe4b37dbe39209a0b92ad5b18
+   TX Hash: 0xa9f3b82efde6775296...1de469bbcb
+   TX URL: https://polygonscan.com/tx/0xa9f3b82efde67752960f4488251977ed21d7b07885fa0c226df5e61de469bbcb
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,789.50 USD
+📊 Mercado: Spread: Celtics (-15.5)
+🔗 URL: https://polymarket.com/event/nba-dal-bos-2026-03-06
+🎯 Outcome: Celtics
+📈 Lado: COMPRA
+💵 Precio: 0.5100 (51.00%)
+📦 Volumen: $76,804.02
+🕐 Hora: 2026-03-06 11:37:31
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0x24357454d8d1a0cc93a6c25fd490467372bc2454
+   Wallet: 0x6e82b93eb57b01a63027bd0c6d2f3f04934a752c
+   Perfil: https://polymarket.com/profile/0x6e82b93eb57b01a63027bd0c6d2f3f04934a752c
+   TX Hash: 0x0c73ed4d5e21692134...17294d8a51
+   TX URL: https://polygonscan.com/tx/0x0c73ed4d5e21692134ded85e80ca5014e823175d69cb2b40e95f7917294d8a51
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $3,500.00 USD
+📊 Mercado: Will the Iranian regime fall by June 30?
+🔗 URL: https://polymarket.com/event/will-the-iranian-regime-fall-by-june-30
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.3500 (35.00%)
+📦 Volumen: $9,284,625.62
+🕐 Hora: 2026-03-06 11:57:01
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0x8b71010f8D18CccE16a37434778117EE2d6b8044-1735105889785
+   Wallet: 0x8b71010f8d18ccce16a37434778117ee2d6b8044
+   Perfil: https://polymarket.com/profile/0x8b71010f8d18ccce16a37434778117ee2d6b8044
+   TX Hash: 0xffaac810cbd3bb891e...87710659c5
+   TX URL: https://polygonscan.com/tx/0xffaac810cbd3bb891e146cd1488e941505749b5386811d55fcfcbd87710659c5
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $4,000.00 USD
+📊 Mercado: Will Ken Paxton win the 2026 Texas Republican Primary?
+🔗 URL: https://polymarket.com/event/texas-republican-senate-primary-winner
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.8000 (80.00%)
+📦 Volumen: $3,349,886.96
+🕐 Hora: 2026-03-06 12:03:03
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Erasmus.
+   Wallet: 0xc6587b11a2209e46dfe3928b31c5514a8e33b784
+   Perfil: https://polymarket.com/profile/0xc6587b11a2209e46dfe3928b31c5514a8e33b784
+   TX Hash: 0x1cf1b3b872c8fc9aee...c5b971b7de
+   TX URL: https://polygonscan.com/tx/0x1cf1b3b872c8fc9aeef0a40687030fbd5bfedd8f3e9edd2d62ed41c5b971b7de
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $3,017.27 USD
+📊 Mercado: Will another country strike Iran by March 31?
+🔗 URL: https://polymarket.com/event/will-another-country-strike-iran-by-march-31
+🎯 Outcome: Yes
+📈 Lado: VENTA
+💵 Precio: 0.4788 (47.88%)
+📦 Volumen: $1,210,417.42
+🕐 Hora: 2026-03-06 12:07:17
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: DoYouHearThePeopleSing
+   Wallet: 0x6fe5c3be7e5d910802ad691cb65eb09237bfa718
+   Perfil: https://polymarket.com/profile/0x6fe5c3be7e5d910802ad691cb65eb09237bfa718
+   TX Hash: 0xb49fb1cf571d4689c1...38fb687327
+   TX URL: https://polygonscan.com/tx/0xb49fb1cf571d4689c102248b33c4788733c6465d6224de9153377538fb687327
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $3,339.00 USD
+📊 Mercado: Knicks vs. Nuggets
+🔗 URL: https://polymarket.com/event/nba-nyk-den-2026-03-06
+🎯 Outcome: Knicks
+📈 Lado: COMPRA
+💵 Precio: 0.5300 (53.00%)
+📦 Volumen: $668,293.38
+🕐 Hora: 2026-03-06 12:17:41
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0x21D4a52AC6cF16566cf3945CdEA156aC362584Bd-1766530948404
+   Wallet: 0x21d4a52ac6cf16566cf3945cdea156ac362584bd
+   Perfil: https://polymarket.com/profile/0x21d4a52ac6cf16566cf3945cdea156ac362584bd
+   TX Hash: 0x8bcad84eec24388bdd...4ca438fd29
+   TX URL: https://polygonscan.com/tx/0x8bcad84eec24388bdd5a3dfd1c41906f4199faf2be1dfd38acd58e4ca438fd29
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $9,370.12 USD
+📊 Mercado: US x Iran ceasefire by March 31?
+🔗 URL: https://polymarket.com/event/us-x-iran-ceasefire-by
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.2880 (28.80%)
+📦 Volumen: $2,564,809.20
+🕐 Hora: 2026-03-06 12:17:33
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Erasmus.
+   Wallet: 0xc6587b11a2209e46dfe3928b31c5514a8e33b784
+   Perfil: https://polymarket.com/profile/0xc6587b11a2209e46dfe3928b31c5514a8e33b784
+   TX Hash: 0x70503a71b076d30997...827b695067
+   TX URL: https://polygonscan.com/tx/0x70503a71b076d30997c879873f97e822c24d19067bce3897a0cc1b827b695067
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $5,000.00 USD
+📊 Mercado: Spread: Hornets (-7.5)
+🔗 URL: https://polymarket.com/event/nba-mia-cha-2026-03-06
+🎯 Outcome: Hornets
+📈 Lado: COMPRA
+💵 Precio: 0.5100 (51.00%)
+📦 Volumen: $33,730.82
+🕐 Hora: 2026-03-06 12:22:35
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Anónimo
+   Wallet: 0xc33a100b8362bc732e78cce28c99739f173b3da3
+   Perfil: https://polymarket.com/profile/0xc33a100b8362bc732e78cce28c99739f173b3da3
+   TX Hash: 0x98618d2cb4b82b12f7...ee22ab7fd7
+   TX URL: https://polygonscan.com/tx/0x98618d2cb4b82b12f720c3b21580ec6f80f3350e72eee78d4bf236ee22ab7fd7
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $3,797.47 USD
+📊 Mercado: Will Mojtaba Khamenei be the next Supreme Leader of Iran?
+🔗 URL: https://polymarket.com/event/who-will-be-next-supreme-leader-of-iran-515
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.5842 (58.42%)
+📦 Volumen: $6,335,388.25
+🕐 Hora: 2026-03-06 12:26:55
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Leo-of-Zion
+   Wallet: 0x0384458c8ef2f64fec03d98e3e72d60c55b727fb
+   Perfil: https://polymarket.com/profile/0x0384458c8ef2f64fec03d98e3e72d60c55b727fb
+   TX Hash: 0xdc2bd504f5816c32f5...05f330978b
+   TX URL: https://polygonscan.com/tx/0xdc2bd504f5816c32f533e91c5e6d3e41b30bf3bfd37edd8bef90b905f330978b
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,609.50 USD
+📊 Mercado: US x Iran ceasefire by March 31?
+🔗 URL: https://polymarket.com/event/us-x-iran-ceasefire-by
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.2900 (29.00%)
+📦 Volumen: $2,564,809.20
+🕐 Hora: 2026-03-06 12:41:55
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 877s8d8g89I9f8d98fd99ww2
+   Wallet: 0x1b5e20a28d7115f10ce6190a5ae9a91169be83f8
+   Perfil: https://polymarket.com/profile/0x1b5e20a28d7115f10ce6190a5ae9a91169be83f8
+   TX Hash: 0x78acf279c13d3a514d...578b6dc913
+   TX URL: https://polygonscan.com/tx/0x78acf279c13d3a514d35ba9f9af3c5843b86dd4fb7f16583ce4873578b6dc913
+================================================================================
+🔥 SEÑAL CONSENSO: 2 ballenas → BUY | Total: $11,980
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $4,392.05 USD
+📊 Mercado: Will the Iranian regime fall by June 30?
+🔗 URL: https://polymarket.com/event/will-the-iranian-regime-fall-by-june-30
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.6459 (64.59%)
+📦 Volumen: $9,284,625.62
+🕐 Hora: 2026-03-06 12:52:23
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: aARSNT
+   Wallet: 0x3875c15782dbac4c83bc73fcb5862dd54a351fd2
+   Perfil: https://polymarket.com/profile/0x3875c15782dbac4c83bc73fcb5862dd54a351fd2
+   TX Hash: 0x3c73d3679dda3e4afc...29b79704c8
+   TX URL: https://polygonscan.com/tx/0x3c73d3679dda3e4afc16a900ab449261b8252c595dd153f9528be529b79704c8
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,781.08 USD
+📊 Mercado: Valorant: FURIA Esports vs Paper Rex (BO3) - VCT Masters Santiago Playoffs
+🔗 URL: https://polymarket.com/event/val-fur-pr1-2026-03-06
+🎯 Outcome: Paper Rex
+📈 Lado: COMPRA
+💵 Precio: 0.7400 (74.00%)
+📦 Volumen: $70,051.87
+🕐 Hora: 2026-03-06 13:07:43
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: TheArena
+   Wallet: 0xafd492974cd531aae7786210438ae46b42047e61
+   Perfil: https://polymarket.com/profile/0xafd492974cd531aae7786210438ae46b42047e61
+   TX Hash: 0x58a02b43a3e502aac2...59d1f9fe0a
+   TX URL: https://polygonscan.com/tx/0x58a02b43a3e502aac204ed16188c7773000c76441b6046a67431a059d1f9fe0a
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $10,755.52 USD  ⚡ NICHO (33.7% del mercado)
+📊 Mercado: Spread: Celtics (-14.5)
+🔗 URL: https://polymarket.com/event/nba-dal-bos-2026-03-06
+🎯 Outcome: Mavericks
+📈 Lado: COMPRA
+💵 Precio: 0.4800 (48.00%)
+📦 Volumen: $31,918.90
+🕐 Hora: 2026-03-06 13:07:33
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0x24357454d8d1a0cc93a6c25fd490467372bc2454
+   Wallet: 0x6e82b93eb57b01a63027bd0c6d2f3f04934a752c
+   Perfil: https://polymarket.com/profile/0x6e82b93eb57b01a63027bd0c6d2f3f04934a752c
+   TX Hash: 0xae17d7685c85f590c7...a04035ce1e
+   TX URL: https://polygonscan.com/tx/0xae17d7685c85f590c7aa45f531736f73d02bfd563824bc79bc42e4a04035ce1e
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $17,089.43 USD
+📊 Mercado: US x Iran ceasefire by April 30?
+🔗 URL: https://polymarket.com/event/us-x-iran-ceasefire-by
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.5370 (53.70%)
+📦 Volumen: $816,313.32
+🕐 Hora: 2026-03-06 13:37:39
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: peasant
+   Wallet: 0x1c72797cd4b9b83f42e287144e334c4de347dfb6
+   Perfil: https://polymarket.com/profile/0x1c72797cd4b9b83f42e287144e334c4de347dfb6
+   TX Hash: 0x2b7ca2d623d56303e8...26f631cccd
+   TX URL: https://polygonscan.com/tx/0x2b7ca2d623d56303e8b025b6157f126caa563db11eb70c9cd55abe26f631cccd
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,948.60 USD
+📊 Mercado: Blues vs. Sharks
+🔗 URL: https://polymarket.com/event/nhl-stl-sj-2026-03-06
+🎯 Outcome: Sharks
+📈 Lado: COMPRA
+💵 Precio: 0.5500 (55.00%)
+📦 Volumen: $306,390.21
+🕐 Hora: 2026-03-06 13:42:13
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Herdonia
+   Wallet: 0xd106952ebf30a3125affd8a23b6c1f30c35fc79c
+   Perfil: https://polymarket.com/profile/0xd106952ebf30a3125affd8a23b6c1f30c35fc79c
+   TX Hash: 0xac5691c33a38fa5ed9...d39af79a12
+   TX URL: https://polygonscan.com/tx/0xac5691c33a38fa5ed9b44d946fd68d98598a2e7930256b995f255ed39af79a12
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $3,682.88 USD
+📊 Mercado: Will Mojtaba Khamenei be the next Supreme Leader of Iran?
+🔗 URL: https://polymarket.com/event/who-will-be-next-supreme-leader-of-iran-515
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.6085 (60.85%)
+📦 Volumen: $6,335,388.25
+🕐 Hora: 2026-03-06 13:48:13
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: ghostbtc
+   Wallet: 0xfd66d7ed45d7962ad009e669cdaec9319e38fb6d
+   Perfil: https://polymarket.com/profile/0xfd66d7ed45d7962ad009e669cdaec9319e38fb6d
+   TX Hash: 0x771c87e71a6a77e6ea...0b3af96866
+   TX URL: https://polygonscan.com/tx/0x771c87e71a6a77e6ea40c76be4b29847da07352d50eae82b560e9c0b3af96866
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $4,252.93 USD
+📊 Mercado: Will Real Madrid CF win on 2026-03-07?
+🔗 URL: https://polymarket.com/event/lal-cel-rea-2026-03-07
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.4200 (42.00%)
+📦 Volumen: $648,267.54
+🕐 Hora: 2026-03-06 13:48:07
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0p0jogggg
+   Wallet: 0x6ac5bb06a9eb05641fd5e82640268b92f3ab4b6e
+   Perfil: https://polymarket.com/profile/0x6ac5bb06a9eb05641fd5e82640268b92f3ab4b6e
+   TX Hash: 0xca255b63e6891c44d7...2d1ecdbd84
+   TX URL: https://polygonscan.com/tx/0xca255b63e6891c44d7fb5d11236a305f7c88897515bf5211f1c8022d1ecdbd84
+================================================================================
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.43 (43.3%)
+   Polymarket:   0.42 (42.0%)
+   Edge:         +1.3% ⚠️
+
+
+================================================================================
+🐋🐋🐋🐋🐋 TITAN BALLENA DETECTADA 🐋🐋🐋🐋🐋
+================================================================================
+💰 Valor: $52,130.38 USD  ⚡ NICHO (8.0% del mercado)
+📊 Mercado: Will Real Madrid CF win on 2026-03-07?
+🔗 URL: https://polymarket.com/event/lal-cel-rea-2026-03-07
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.5800 (58.00%)
+📦 Volumen: $648,267.54
+🕐 Hora: 2026-03-06 13:48:07
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: ewelmealt
+   Wallet: 0x07921379f7b31ef93da634b688b2fe36897db778
+   Perfil: https://polymarket.com/profile/0x07921379f7b31ef93da634b688b2fe36897db778
+   TX Hash: 0x9acbe89d78367523f8...184ed4b26c
+   TX URL: https://polygonscan.com/tx/0x9acbe89d78367523f85701611aaaf81cbb83073fefab349fd46d9a184ed4b26c
+================================================================================
+🔥 SEÑAL CONSENSO: 2 ballenas → BUY | Total: $56,383
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.43 (43.3%)
+   Polymarket:   0.58 (58.0%)
+   Edge:         +1.3% ⚠️
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $4,949.98 USD
+📊 Mercado: Blues vs. Sharks
+🔗 URL: https://polymarket.com/event/nhl-stl-sj-2026-03-06
+🎯 Outcome: Sharks
+📈 Lado: COMPRA
+💵 Precio: 0.5500 (55.00%)
+📦 Volumen: $306,390.21
+🕐 Hora: 2026-03-06 14:03:21
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: banepir
+   Wallet: 0x6b9088be3898f1bcb7add8a174bdf1c7295c2194
+   Perfil: https://polymarket.com/profile/0x6b9088be3898f1bcb7add8a174bdf1c7295c2194
+   TX Hash: 0x4dce0f9ef8f949a28c...5e9f9a8fb4
+   TX URL: https://polygonscan.com/tx/0x4dce0f9ef8f949a28c79b34e8bbacb88a29857876b29ecb4b48c105e9f9a8fb4
+================================================================================
+🔥 SEÑAL CONSENSO: 2 ballenas → BUY | Total: $7,899
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,536.09 USD
+📊 Mercado: BNP Paribas Open: Matteo Berrettini vs Alexander Zverev
+🔗 URL: https://polymarket.com/event/atp-berrett-zverev-2026-03-06
+🎯 Outcome: Alexander Zverev
+📈 Lado: COMPRA
+💵 Precio: 0.8100 (81.00%)
+📦 Volumen: $148,411.49
+🕐 Hora: 2026-03-06 14:13:57
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: ppp22232
+   Wallet: 0x5d7639ed5fd3c5ebf0fc69d548e1046acd0f9168
+   Perfil: https://polymarket.com/profile/0x5d7639ed5fd3c5ebf0fc69d548e1046acd0f9168
+   TX Hash: 0x553e3a30e9ddde23b2...8366600ddb
+   TX URL: https://polygonscan.com/tx/0x553e3a30e9ddde23b2a1aa3c193a3ec707381624f1b3569c2d1d838366600ddb
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,936.09 USD
+📊 Mercado: Olympiacos B.C. vs. Panathinaikos
+🔗 URL: https://polymarket.com/event/euroleague-olympiac-panathin-2026-03-06
+🎯 Outcome: Panathinaikos
+📈 Lado: COMPRA
+💵 Precio: 0.6656 (66.56%)
+📦 Volumen: $52,951.34
+🕐 Hora: 2026-03-06 14:22:59
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0x415f56E2ff4B609F230dce34fdcd931f32Bd3033-1764653463819
+   Wallet: 0x415f56e2ff4b609f230dce34fdcd931f32bd3033
+   Perfil: https://polymarket.com/profile/0x415f56e2ff4b609f230dce34fdcd931f32bd3033
+   TX Hash: 0x688b35fef5d3d35cc1...98f0916577
+   TX URL: https://polygonscan.com/tx/0x688b35fef5d3d35cc1898a4bbd6b4b594605be01ec93191c1d0a1a98f0916577
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,655.36 USD
+📊 Mercado: Paris Saint-Germain FC vs. AS Monaco FC: O/U 3.5
+🔗 URL: https://polymarket.com/event/fl1-psg-asm-2026-03-06-more-markets
+🎯 Outcome: Under
+📈 Lado: COMPRA
+💵 Precio: 0.4800 (48.00%)
+📦 Volumen: $245,313.59
+🕐 Hora: 2026-03-06 14:22:25
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0x8361d5F830a9EeCc4Ef24CE0D2e8cf97cb8B55Fc-1772809751848
+   Wallet: 0x8361d5f830a9eecc4ef24ce0d2e8cf97cb8b55fc
+   Perfil: https://polymarket.com/profile/0x8361d5f830a9eecc4ef24ce0d2e8cf97cb8b55fc
+   TX Hash: 0x7b3f8e1d05f1fd3537...78cd981a54
+   TX URL: https://polygonscan.com/tx/0x7b3f8e1d05f1fd35376e8e2756dc3ca229253256a7cbad6d23728878cd981a54
+================================================================================
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.72 (72.5%)
+   Polymarket:   0.48 (48.0%)
+   Edge:         +24.5% ✅
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $6,615.81 USD
+📊 Mercado: Will SSC Napoli win on 2026-03-06?
+🔗 URL: https://polymarket.com/event/sea-nap-tor-2026-03-06
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.3900 (39.00%)
+📦 Volumen: $544,288.73
+🕐 Hora: 2026-03-06 14:33:29
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Wannac
+   Wallet: 0xa8e089ade142c95538e06196e09c85681112ad50
+   Perfil: https://polymarket.com/profile/0xa8e089ade142c95538e06196e09c85681112ad50
+   TX Hash: 0xfd6508067d5c4f56c8...e2fa33cd00
+   TX URL: https://polygonscan.com/tx/0xfd6508067d5c4f56c8754eb108c55c2792ac6a48c94e9b8a69d7d1e2fa33cd00
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $12,765.29 USD
+📊 Mercado: RC Celta de Vigo vs. Real Madrid CF: O/U 2.5
+🔗 URL: https://polymarket.com/event/lal-cel-rea-2026-03-07-more-markets
+🎯 Outcome: Over
+📈 Lado: COMPRA
+💵 Precio: 0.4900 (49.00%)
+📦 Volumen: $133,266.54
+🕐 Hora: 2026-03-06 14:33:17
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0x492442EaB586F242B53bDa933fD5dE859c8A3782-1766317541188
+   Wallet: 0x492442eab586f242b53bda933fd5de859c8a3782
+   Perfil: https://polymarket.com/profile/0x492442eab586f242b53bda933fd5de859c8a3782
+   TX Hash: 0x65171f62cdc38f8bc1...005bda0806
+   TX URL: https://polygonscan.com/tx/0x65171f62cdc38f8bc10fe84dd826c4b8341b4e9d381f46af503b81005bda0806
+================================================================================
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.33 (32.8%)
+   Polymarket:   0.49 (49.0%)
+   Edge:         -16.2% ❌
+⚠️⚠️ WARNING: SUCKER BET - Ballena pagando 16.2% MÁS que Pinnacle
+
+
+================================================================================
+🐋🐋🐋🐋🐋 TITAN BALLENA DETECTADA 🐋🐋🐋🐋🐋
+================================================================================
+💰 Valor: $250,000.00 USD  ⚡ NICHO (45.9% del mercado)
+📊 Mercado: Will SSC Napoli win on 2026-03-06?
+🔗 URL: https://polymarket.com/event/sea-nap-tor-2026-03-06
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.6300 (63.00%)
+📦 Volumen: $544,288.73
+🕐 Hora: 2026-03-06 14:37:59
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: beachboy4
+   Wallet: 0xc2e7800b5af46e6093872b177b7a5e7f0563be51
+   Perfil: https://polymarket.com/profile/0xc2e7800b5af46e6093872b177b7a5e7f0563be51
+   TX Hash: 0x4607b7dc4127cc7722...8ba8edafc3
+   TX URL: https://polygonscan.com/tx/0x4607b7dc4127cc77224639dffce4a6a51b22f439ebeb6a92612be38ba8edafc3
+================================================================================
+🔥 SEÑAL CONSENSO: 2 ballenas → BUY | Total: $256,616
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $18,156.00 USD  ⚡ NICHO (3.3% del mercado)
+📊 Mercado: Will SSC Napoli win on 2026-03-06?
+🔗 URL: https://polymarket.com/event/sea-nap-tor-2026-03-06
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.3800 (38.00%)
+📦 Volumen: $544,288.73
+🕐 Hora: 2026-03-06 14:37:57
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: KingVon99
+   Wallet: 0x8cdc597d51327275463a1c518fdd1621d9b2b83f
+   Perfil: https://polymarket.com/profile/0x8cdc597d51327275463a1c518fdd1621d9b2b83f
+   TX Hash: 0x021700bf08fa2c1683...5deeba40ec
+   TX URL: https://polygonscan.com/tx/0x021700bf08fa2c1683a74057634b2c01bd538b722a79369298b1a35deeba40ec
+================================================================================
+🔥 SEÑAL CONSENSO: 3 ballenas → BUY | Total: $274,772
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $3,777.47 USD
+📊 Mercado: Will Real Madrid CF win on 2026-03-07?
+🔗 URL: https://polymarket.com/event/lal-cel-rea-2026-03-07
+🎯 Outcome: Yes
+📈 Lado: VENTA
+💵 Precio: 0.3800 (38.00%)
+📦 Volumen: $648,267.54
+🕐 Hora: 2026-03-06 14:43:45
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0x306e06d4457dc86d88671a788c77b17e8c213a7c
+   Wallet: 0x306e06d4457dc86d88671a788c77b17e8c213a7c
+   Perfil: https://polymarket.com/profile/0x306e06d4457dc86d88671a788c77b17e8c213a7c
+   TX Hash: 0xe341ece45ea95c4889...914d282a4b
+   TX URL: https://polygonscan.com/tx/0xe341ece45ea95c4889a757052285aa2f8a24f41c94608d181e1502914d282a4b
+================================================================================
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.40 (40.3%)
+   Polymarket:   0.38 (38.0%)
+   Edge:         +2.3% ⚠️
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $4,142.00 USD
+📊 Mercado: Will Real Madrid CF win on 2026-03-07?
+🔗 URL: https://polymarket.com/event/lal-cel-rea-2026-03-07
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.3800 (38.00%)
+📦 Volumen: $648,267.54
+🕐 Hora: 2026-03-06 14:48:11
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: swisstony
+   Wallet: 0x204f72f35326db932158cba6adff0b9a1da95e14
+   Perfil: https://polymarket.com/profile/0x204f72f35326db932158cba6adff0b9a1da95e14
+   TX Hash: 0xa96ee9098d79a93695...262d83d31b
+   TX URL: https://polygonscan.com/tx/0xa96ee9098d79a93695077a6f4988380d6a59a6acef191d3ece6afa262d83d31b
+================================================================================
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.40 (40.3%)
+   Polymarket:   0.38 (38.0%)
+   Edge:         +2.3% ⚠️
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $10,909.89 USD
+📊 Mercado: Will RC Celta de Vigo win on 2026-03-07?
+🔗 URL: https://polymarket.com/event/lal-cel-rea-2026-03-07
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.3200 (32.00%)
+📦 Volumen: $673,782.34
+🕐 Hora: 2026-03-06 14:53:01
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: theyseemeloosintheyhatin
+   Wallet: 0x14333d20e95f39472970d2feff6c9c4c16fd56a0
+   Perfil: https://polymarket.com/profile/0x14333d20e95f39472970d2feff6c9c4c16fd56a0
+   TX Hash: 0x83751944fc988afb0e...7caebcb8c1
+   TX URL: https://polygonscan.com/tx/0x83751944fc988afb0e0b8ed540aad656fa58d80ff3be4446adbbf57caebcb8c1
+================================================================================
+
+
+================================================================================
+🐋🐋🐋🐋 ULTRA BALLENA DETECTADA 🐋🐋🐋🐋
+================================================================================
+💰 Valor: $28,334.00 USD  ⚡ NICHO (4.4% del mercado)
+📊 Mercado: Will Real Madrid CF win on 2026-03-07?
+🔗 URL: https://polymarket.com/event/lal-cel-rea-2026-03-07
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.6200 (62.00%)
+📦 Volumen: $648,267.54
+🕐 Hora: 2026-03-06 14:52:39
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: hugesportswhale
+   Wallet: 0xb6aee7f281e13b23bd959127f6e2b3dccb4e4df8
+   Perfil: https://polymarket.com/profile/0xb6aee7f281e13b23bd959127f6e2b3dccb4e4df8
+   TX Hash: 0x9507ccef7732613d8f...43aa58310f
+   TX URL: https://polygonscan.com/tx/0x9507ccef7732613d8fa2933088d99c942a0b89a59b7b5b195541fc43aa58310f
+================================================================================
+🔥 SEÑAL CONSENSO: 2 ballenas → SELL | Total: $32,111
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.40 (40.3%)
+   Polymarket:   0.62 (62.0%)
+   Edge:         -21.7% ❌
+⚠️⚠️ WARNING: SUCKER BET - Ballena pagando 21.7% MÁS que Pinnacle
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $4,199.68 USD
+📊 Mercado: BNP Paribas Open: Ekaterina Alexandrova vs Talia Gibson
+🔗 URL: https://polymarket.com/event/wta-alexand-gibson-2026-03-06
+🎯 Outcome: Ekaterina Alexandrova
+📈 Lado: COMPRA
+💵 Precio: 0.3890 (38.90%)
+📦 Volumen: $32,816.53
+🕐 Hora: 2026-03-06 14:58:43
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: petyas231
+   Wallet: 0x6b91e8dd1e3498077cffef62299512a9910f06c4
+   Perfil: https://polymarket.com/profile/0x6b91e8dd1e3498077cffef62299512a9910f06c4
+   TX Hash: 0x75137b11523eb067e3...042c15f8a2
+   TX URL: https://polygonscan.com/tx/0x75137b11523eb067e3f6bbcac9b530a444aa9435f32590cfdce51a042c15f8a2
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $6,426.54 USD
+📊 Mercado: BNP Paribas Open: Ben Shelton vs Reilly Opelka
+🔗 URL: https://polymarket.com/event/atp-shelton-opelka-2026-03-05
+🎯 Outcome: Reilly Opelka
+📈 Lado: COMPRA
+💵 Precio: 0.2300 (23.00%)
+📦 Volumen: $51,928.54
+🕐 Hora: 2026-03-06 15:13:45
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0x2a2C53bD278c04DA9962Fcf96490E17F3DfB9Bc1-1772479215461
+   Wallet: 0x2a2c53bd278c04da9962fcf96490e17f3dfb9bc1
+   Perfil: https://polymarket.com/profile/0x2a2c53bd278c04da9962fcf96490e17f3dfb9bc1
+   TX Hash: 0x52a6e1d08d4df5d822...117744f5d7
+   TX URL: https://polygonscan.com/tx/0x52a6e1d08d4df5d822f927d4ec94ba049718fda0c393b614a035a6117744f5d7
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $9,430.00 USD
+📊 Mercado: Will Liverpool FC win on 2026-03-07?
+🔗 URL: https://polymarket.com/event/efa-wol-liv-2026-03-07
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.3545 (35.45%)
+📦 Volumen: $691,815.64
+🕐 Hora: 2026-03-06 15:18:23
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0x8a6C6811e8937F9E8aFc1b9249FA540262c30b3f-1771776258725
+   Wallet: 0x8a6c6811e8937f9e8afc1b9249fa540262c30b3f
+   Perfil: https://polymarket.com/profile/0x8a6c6811e8937f9e8afc1b9249fa540262c30b3f
+   TX Hash: 0x52ad5e032befbc22f9...fe1442a47a
+   TX URL: https://polygonscan.com/tx/0x52ad5e032befbc22f99ac6c8f6c133548e25cc2f0ae173d1021060fe1442a47a
+================================================================================
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.76 (76.3%)
+   Polymarket:   0.35 (35.4%)
+   Edge:         +40.9% ✅
+
+
+================================================================================
+🐋🐋🐋🐋 ULTRA BALLENA DETECTADA 🐋🐋🐋🐋
+================================================================================
+💰 Valor: $25,330.23 USD
+📊 Mercado: Extended FDV above $300M one day after launch?
+🔗 URL: https://polymarket.com/event/extended-fdv-above-one-day-after-launch
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.5359 (53.59%)
+📦 Volumen: $176,746.48
+🕐 Hora: 2026-03-06 15:22:55
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: norbeszbete1
+   Wallet: 0x5f376822451bd49a69b8a62e6c716d1118d238ff
+   Perfil: https://polymarket.com/profile/0x5f376822451bd49a69b8a62e6c716d1118d238ff
+   TX Hash: 0xe2dd386e2672cf4350...7880d8088d
+   TX URL: https://polygonscan.com/tx/0xe2dd386e2672cf4350dbb33c6b25064c40e623a44c81d7c75347f37880d8088d
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $12,000.00 USD
+📊 Mercado: Extended FDV above $500M one day after launch?
+🔗 URL: https://polymarket.com/event/extended-fdv-above-one-day-after-launch
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.2775 (27.75%)
+📦 Volumen: $462,126.54
+🕐 Hora: 2026-03-06 15:22:45
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: norbeszbete1
+   Wallet: 0x5f376822451bd49a69b8a62e6c716d1118d238ff
+   Perfil: https://polymarket.com/profile/0x5f376822451bd49a69b8a62e6c716d1118d238ff
+   TX Hash: 0x3b332aa07d1b8d57ee...b9a7975c6f
+   TX URL: https://polygonscan.com/tx/0x3b332aa07d1b8d57ee4a35647e30be46de6302cab7281760858022b9a7975c6f
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $4,185.45 USD
+📊 Mercado: Clarity Act signed into law in 2026?
+🔗 URL: https://polymarket.com/event/clarity-act-signed-into-law-in-2026
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.7100 (71.00%)
+📦 Volumen: $349,623.55
+🕐 Hora: 2026-03-06 15:29:07
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: ozpreezy
+   Wallet: 0xdc26d7776929e9c84a3d9651e13260dece6f7e7d
+   Perfil: https://polymarket.com/profile/0xdc26d7776929e9c84a3d9651e13260dece6f7e7d
+   TX Hash: 0x28e21dcd04d5dcb0a7...08427ebf06
+   TX URL: https://polygonscan.com/tx/0x28e21dcd04d5dcb0a75b11693483b4a429ee3809d1c8986791affe08427ebf06
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $7,294.24 USD
+📊 Mercado: Nothing Ever Happens: MicroStrategy
+🔗 URL: https://polymarket.com/event/nothing-ever-happens-microstrategy
+🎯 Outcome: Yes
+📈 Lado: VENTA
+💵 Precio: 0.7000 (70.00%)
+📦 Volumen: $1,163,699.99
+🕐 Hora: 2026-03-06 15:28:47
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: epsteinfiles
+   Wallet: 0xbdb80db723aa5218423d067035b5f5e4ea5c0000
+   Perfil: https://polymarket.com/profile/0xbdb80db723aa5218423d067035b5f5e4ea5c0000
+   TX Hash: 0xb3753c19214948e369...c9a9a0c855
+   TX URL: https://polygonscan.com/tx/0xb3753c19214948e369eb3f31aa8cf14e858e168ef7ce55e521749ec9a9a0c855
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,301.00 USD  ⚡ NICHO (4.4% del mercado)
+📊 Mercado: BNP Paribas Open: Ben Shelton vs Reilly Opelka
+🔗 URL: https://polymarket.com/event/atp-shelton-opelka-2026-03-05
+🎯 Outcome: Ben Shelton
+📈 Lado: COMPRA
+💵 Precio: 0.8030 (80.30%)
+📦 Volumen: $51,928.54
+🕐 Hora: 2026-03-06 16:08:11
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Thinki
+   Wallet: 0x29de877f028c7cc7c3adb464fa108bd2ce6902aa
+   Perfil: https://polymarket.com/profile/0x29de877f028c7cc7c3adb464fa108bd2ce6902aa
+   TX Hash: 0xb2fb78e67a3984794e...0a1755e5e6
+   TX URL: https://polygonscan.com/tx/0xb2fb78e67a3984794e0c6f94a806b1202d26a2fed8a3d085cef97c0a1755e5e6
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $5,000.00 USD
+📊 Mercado: Will Bitcoin dip to $60,000 in March?
+🔗 URL: https://polymarket.com/event/what-price-will-bitcoin-hit-in-march-2026
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.3900 (39.00%)
+📦 Volumen: $991,040.37
+🕐 Hora: 2026-03-06 16:08:11
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Pnpnpnpn
+   Wallet: 0xe83816997c000207fbea6a8924c0d64fe5ec92fb
+   Perfil: https://polymarket.com/profile/0xe83816997c000207fbea6a8924c0d64fe5ec92fb
+   TX Hash: 0x54872adba4fdc94a2a...83c108bc92
+   TX URL: https://polygonscan.com/tx/0x54872adba4fdc94a2a5c4fe87db0d3ac4cf022c06d7872b1a8ced983c108bc92
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $10,000.00 USD
+📊 Mercado: Will Iran close the Strait of Hormuz by March 31?
+🔗 URL: https://polymarket.com/event/will-iran-close-the-strait-of-hormuz-by-2027
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.2291 (22.91%)
+📦 Volumen: $15,751,421.98
+🕐 Hora: 2026-03-06 16:14:17
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Anónimo
+   Wallet: 0x26cb23d5484ba46bc19b597945d3fa8586e46233
+   Perfil: https://polymarket.com/profile/0x26cb23d5484ba46bc19b597945d3fa8586e46233
+   TX Hash: 0xd47acdde7ed6bcebe3...aa66e1259b
+   TX URL: https://polygonscan.com/tx/0xd47acdde7ed6bcebe3383b9e2b90d20dc2be2c969b3ed797594c02aa66e1259b
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,662.30 USD  ⚡ NICHO (5.1% del mercado)
+📊 Mercado: BNP Paribas Open: Ben Shelton vs Reilly Opelka
+🔗 URL: https://polymarket.com/event/atp-shelton-opelka-2026-03-05
+🎯 Outcome: Ben Shelton
+📈 Lado: COMPRA
+💵 Precio: 0.7900 (79.00%)
+📦 Volumen: $51,928.54
+🕐 Hora: 2026-03-06 16:14:07
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: JayBird87
+   Wallet: 0x0b96999fec5bc284a635b31cc0a696ea3a59b053
+   Perfil: https://polymarket.com/profile/0x0b96999fec5bc284a635b31cc0a696ea3a59b053
+   TX Hash: 0x779ef679e12c730628...c9389efd36
+   TX URL: https://polygonscan.com/tx/0x779ef679e12c7306286ecfc855530e92104803b8ae08dd95d5d480c9389efd36
+================================================================================
+🔥 SEÑAL CONSENSO: 2 ballenas → BUY | Total: $4,963
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,983.75 USD
+📊 Mercado: Will AS Monaco FC win on 2026-03-06?
+🔗 URL: https://polymarket.com/event/fl1-psg-asm-2026-03-06
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.7900 (79.00%)
+📦 Volumen: $256,188.90
+🕐 Hora: 2026-03-06 16:18:43
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: kingronij
+   Wallet: 0xc736d8854771a187cfab32ed8c2aa176b978e547
+   Perfil: https://polymarket.com/profile/0xc736d8854771a187cfab32ed8c2aa176b978e547
+   TX Hash: 0x1a6cb9dbd2c0147478...a2c578dcf4
+   TX URL: https://polygonscan.com/tx/0x1a6cb9dbd2c014747825cb75851330182532286500697351ed6a54a2c578dcf4
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,553.04 USD
+📊 Mercado: SSC Napoli vs. Torino FC: O/U 2.5
+🔗 URL: https://polymarket.com/event/sea-nap-tor-2026-03-06-more-markets
+🎯 Outcome: Under
+📈 Lado: COMPRA
+💵 Precio: 0.5600 (56.00%)
+📦 Volumen: $157,478.29
+🕐 Hora: 2026-03-06 16:23:09
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: swisstony
+   Wallet: 0x204f72f35326db932158cba6adff0b9a1da95e14
+   Perfil: https://polymarket.com/profile/0x204f72f35326db932158cba6adff0b9a1da95e14
+   TX Hash: 0xa96d83e85db82a9311...bc0fddf5fa
+   TX URL: https://polygonscan.com/tx/0xa96d83e85db82a9311801dab52b82081d4c87cc9a51fd2129abea1bc0fddf5fa
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $3,469.20 USD
+📊 Mercado: Will Real Madrid CF win on 2026-03-07?
+🔗 URL: https://polymarket.com/event/lal-cel-rea-2026-03-07
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.7000 (70.00%)
+📦 Volumen: $648,267.54
+🕐 Hora: 2026-03-06 16:22:59
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: swisstony
+   Wallet: 0x204f72f35326db932158cba6adff0b9a1da95e14
+   Perfil: https://polymarket.com/profile/0x204f72f35326db932158cba6adff0b9a1da95e14
+   TX Hash: 0x6d704396ca99d09ef3...3b0aa6049d
+   TX URL: https://polygonscan.com/tx/0x6d704396ca99d09ef34e4bee56a98499cd588f00a8346ad18cb6a13b0aa6049d
+================================================================================
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.34 (34.1%)
+   Polymarket:   0.70 (70.0%)
+   Edge:         -35.9% ❌
+⚠️⚠️ WARNING: SUCKER BET - Ballena pagando 35.9% MÁS que Pinnacle
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $4,000.00 USD
+📊 Mercado: Counter-Strike: FURIA vs B8 (BO3) - ESL Pro League Stage 2
+🔗 URL: https://polymarket.com/event/cs2-furia-b8-2026-03-06
+🎯 Outcome: FURIA
+📈 Lado: COMPRA
+💵 Precio: 0.6582 (65.82%)
+📦 Volumen: $138,462.81
+🕐 Hora: 2026-03-06 16:33:33
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: papuas
+   Wallet: 0x45720deb102f700682bfcb19b5872b5022ad83ff
+   Perfil: https://polymarket.com/profile/0x45720deb102f700682bfcb19b5872b5022ad83ff
+   TX Hash: 0xe6bc7f53e0cd6d5d7c...f7aef7c7d4
+   TX URL: https://polygonscan.com/tx/0xe6bc7f53e0cd6d5d7ce129581dea83154b162cca37e878cdd5e8acf7aef7c7d4
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $12,082.15 USD
+📊 Mercado: Will Bitcoin reach $75,000 in March?
+🔗 URL: https://polymarket.com/event/what-price-will-bitcoin-hit-in-march-2026
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.4891 (48.91%)
+📦 Volumen: $966,934.22
+🕐 Hora: 2026-03-06 16:33:27
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 4zzzz
+   Wallet: 0xf7a19aad8bd78c2e5e50a0729f6342775a909dce
+   Perfil: https://polymarket.com/profile/0xf7a19aad8bd78c2e5e50a0729f6342775a909dce
+   TX Hash: 0x26de117458a4b43828...ed22ebaa79
+   TX URL: https://polygonscan.com/tx/0x26de117458a4b438286607bb6abde7374f42786785295c617534c6ed22ebaa79
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $3,822.02 USD
+📊 Mercado: Will RC Celta de Vigo vs. Real Madrid CF end in a draw?
+🔗 URL: https://polymarket.com/event/lal-cel-rea-2026-03-07
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.7900 (79.00%)
+📦 Volumen: $451,644.38
+🕐 Hora: 2026-03-06 16:48:47
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: swisstony
+   Wallet: 0x204f72f35326db932158cba6adff0b9a1da95e14
+   Perfil: https://polymarket.com/profile/0x204f72f35326db932158cba6adff0b9a1da95e14
+   TX Hash: 0x995211c521b602f5e7...8dcc0c0034
+   TX URL: https://polygonscan.com/tx/0x995211c521b602f5e7a3aafd49a36eb538197d3445dc5a944fd6508dcc0c0034
+================================================================================
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.16 (15.7%)
+   Polymarket:   0.79 (79.0%)
+   Edge:         -63.3% ❌
+⚠️⚠️ WARNING: SUCKER BET - Ballena pagando 63.3% MÁS que Pinnacle
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $4,176.81 USD
+📊 Mercado: Pelicans vs. Suns
+🔗 URL: https://polymarket.com/event/nba-nop-phx-2026-03-06
+🎯 Outcome: Suns
+📈 Lado: COMPRA
+💵 Precio: 0.6200 (62.00%)
+📦 Volumen: $243,225.74
+🕐 Hora: 2026-03-06 17:08:25
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0xDCBf7a02F2c66D4faE91809ad38824c12242d37F-1771605177101
+   Wallet: 0xdcbf7a02f2c66d4fae91809ad38824c12242d37f
+   Perfil: https://polymarket.com/profile/0xdcbf7a02f2c66d4fae91809ad38824c12242d37f
+   TX Hash: 0x4bf5c9e60eb929dfda...249d01b85c
+   TX URL: https://polygonscan.com/tx/0x4bf5c9e60eb929dfdaa6e524efd7aaedcb669884191bec5a79590c249d01b85c
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,777.09 USD
+📊 Mercado: BNP Paribas Open: Lorenzo Musetti vs Marton Fucsovics
+🔗 URL: https://polymarket.com/event/atp-musetti-fucsovi-2026-03-06
+🎯 Outcome: Lorenzo Musetti
+📈 Lado: COMPRA
+💵 Precio: 0.4948 (49.48%)
+📦 Volumen: $143,182.31
+🕐 Hora: 2026-03-06 17:08:15
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Thinki
+   Wallet: 0x29de877f028c7cc7c3adb464fa108bd2ce6902aa
+   Perfil: https://polymarket.com/profile/0x29de877f028c7cc7c3adb464fa108bd2ce6902aa
+   TX Hash: 0x884b76dbe647d9deba...e7c6005202
+   TX URL: https://polygonscan.com/tx/0x884b76dbe647d9deba9aa00fe9d64ed351b0a346f067bf79017bcfe7c6005202
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $13,170.56 USD  ⚡ NICHO (5.4% del mercado)
+📊 Mercado: Pelicans vs. Suns
+🔗 URL: https://polymarket.com/event/nba-nop-phx-2026-03-06
+🎯 Outcome: Suns
+📈 Lado: COMPRA
+💵 Precio: 0.6200 (62.00%)
+📦 Volumen: $243,225.74
+🕐 Hora: 2026-03-06 17:08:09
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: c4c4
+   Wallet: 0x1455445e9a775cfa3fe9fc4b02bb4d2f682ae5cd
+   Perfil: https://polymarket.com/profile/0x1455445e9a775cfa3fe9fc4b02bb4d2f682ae5cd
+   TX Hash: 0x1910bdbe1e0aeffbe6...3c480b7902
+   TX URL: https://polygonscan.com/tx/0x1910bdbe1e0aeffbe6160b5bec9b9341366b2d0c97ef0fd26258e23c480b7902
+================================================================================
+🔥 SEÑAL CONSENSO: 2 ballenas → BUY | Total: $17,347
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $6,200.00 USD
+📊 Mercado: Pelicans vs. Suns
+🔗 URL: https://polymarket.com/event/nba-nop-phx-2026-03-06
+🎯 Outcome: Suns
+📈 Lado: COMPRA
+💵 Precio: 0.6200 (62.00%)
+📦 Volumen: $243,225.74
+🕐 Hora: 2026-03-06 17:08:09
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: KirksCousin
+   Wallet: 0xb55216ed55337cf9443139e4e5cace56426694a8
+   Perfil: https://polymarket.com/profile/0xb55216ed55337cf9443139e4e5cace56426694a8
+   TX Hash: 0x2f115b250ea3c869b9...dce95c5406
+   TX URL: https://polygonscan.com/tx/0x2f115b250ea3c869b9c0edd33cde5a10d76383ae0096179c54728cdce95c5406
+================================================================================
+🔥 SEÑAL CONSENSO: 3 ballenas → BUY | Total: $23,547
+⚠️ GRUPO COORDINADO: 3 wallets → BUY en 0.4 min | Wallets: 3
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,650.53 USD
+📊 Mercado: Spread: Spurs (-7.5)
+🔗 URL: https://polymarket.com/event/nba-lac-sas-2026-03-06
+🎯 Outcome: Clippers
+📈 Lado: COMPRA
+💵 Precio: 0.5300 (53.00%)
+📦 Volumen: $252,511.85
+🕐 Hora: 2026-03-06 17:18:49
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: KirksCousin
+   Wallet: 0xb55216ed55337cf9443139e4e5cace56426694a8
+   Perfil: https://polymarket.com/profile/0xb55216ed55337cf9443139e4e5cace56426694a8
+   TX Hash: 0xe5db89e662da877b8e...bd587ef503
+   TX URL: https://polygonscan.com/tx/0xe5db89e662da877b8eb84378d8d6ea8f4812501e56d95730a65047bd587ef503
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $3,812.25 USD  ⚡ NICHO (11.9% del mercado)
+📊 Mercado: Spread: Celtics (-14.5)
+🔗 URL: https://polymarket.com/event/nba-dal-bos-2026-03-06
+🎯 Outcome: Mavericks
+📈 Lado: COMPRA
+💵 Precio: 0.4900 (49.00%)
+📦 Volumen: $31,918.90
+🕐 Hora: 2026-03-06 17:48:41
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Herdonia
+   Wallet: 0xd106952ebf30a3125affd8a23b6c1f30c35fc79c
+   Perfil: https://polymarket.com/profile/0xd106952ebf30a3125affd8a23b6c1f30c35fc79c
+   TX Hash: 0x2ef82feb9c1abc41c5...fb36a3a2de
+   TX URL: https://polygonscan.com/tx/0x2ef82feb9c1abc41c5adc2963476262dfdd154378a24ee0d551d28fb36a3a2de
+================================================================================
+
+
+================================================================================
+🦈 TIBURÓN DETECTADA 🦈
+================================================================================
+💰 Valor: $1,829.75 USD  ⚡ NICHO (3.5% del mercado)
+📊 Mercado: BNP Paribas Open: Ben Shelton vs Reilly Opelka
+🔗 URL: https://polymarket.com/event/atp-shelton-opelka-2026-03-05
+🎯 Outcome: Reilly Opelka
+📈 Lado: COMPRA
+💵 Precio: 0.2300 (23.00%)
+📦 Volumen: $51,928.54
+🕐 Hora: 2026-03-06 17:59:31
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: RandomPunter
+   Wallet: 0xf588b19afe63e1aba00f125f91e3e3b0fdc62b81
+   Perfil: https://polymarket.com/profile/0xf588b19afe63e1aba00f125f91e3e3b0fdc62b81
+   TX Hash: 0x8693e012510ba49be1...0137efc978
+   TX URL: https://polygonscan.com/tx/0x8693e012510ba49be1d0cf03a5767c26ff3991b56f59c7f0867f830137efc978
+================================================================================
+
+
+================================================================================
+🦈 TIBURÓN DETECTADA 🦈
+================================================================================
+💰 Valor: $1,000.00 USD  ⚡ NICHO (3.1% del mercado)
+📊 Mercado: Spread: Celtics (-14.5)
+🔗 URL: https://polymarket.com/event/nba-dal-bos-2026-03-06
+🎯 Outcome: Mavericks
+📈 Lado: COMPRA
+💵 Precio: 0.4800 (48.00%)
+📦 Volumen: $31,918.90
+🕐 Hora: 2026-03-06 18:03:55
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0x78Bbf40c958761b51BBD3Cd93EDE714f06a1591F-1770119563310
+   Wallet: 0x78bbf40c958761b51bbd3cd93ede714f06a1591f
+   Perfil: https://polymarket.com/profile/0x78bbf40c958761b51bbd3cd93ede714f06a1591f
+   TX Hash: 0x1794a38f4ecf1f81a1...07b25f2a1c
+   TX URL: https://polygonscan.com/tx/0x1794a38f4ecf1f81a11d0c6ec511aad7e6728efeec80ef1df22fb807b25f2a1c
+================================================================================
+🔥 SEÑAL CONSENSO: 2 ballenas → BUY | Total: $4,812
+
+
+================================================================================
+🦈 TIBURÓN DETECTADA 🦈
+================================================================================
+💰 Valor: $1,000.00 USD  ⚡ NICHO (3.1% del mercado)
+📊 Mercado: Spread: Celtics (-14.5)
+🔗 URL: https://polymarket.com/event/nba-dal-bos-2026-03-06
+🎯 Outcome: Mavericks
+📈 Lado: COMPRA
+💵 Precio: 0.4800 (48.00%)
+📦 Volumen: $31,918.90
+🕐 Hora: 2026-03-06 18:18:47
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: aapang
+   Wallet: 0x104171232971a6db8cf938f76fdbebbb81c5f452
+   Perfil: https://polymarket.com/profile/0x104171232971a6db8cf938f76fdbebbb81c5f452
+   TX Hash: 0xbdb932ff443caa0dfa...85a2932157
+   TX URL: https://polygonscan.com/tx/0xbdb932ff443caa0dfad3c76c89d549fa2a50af6d9cb2024733b3f185a2932157
+================================================================================
+🔥 SEÑAL CONSENSO: 2 ballenas → BUY | Total: $2,000
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $6,199.97 USD
+📊 Mercado: Pelicans vs. Suns
+🔗 URL: https://polymarket.com/event/nba-nop-phx-2026-03-06
+🎯 Outcome: Suns
+📈 Lado: COMPRA
+💵 Precio: 0.6200 (62.00%)
+📦 Volumen: $243,225.74
+🕐 Hora: 2026-03-06 18:23:21
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: test124566
+   Wallet: 0x16b1f68da281f346fa9ff7a46e9d55826abe968a
+   Perfil: https://polymarket.com/profile/0x16b1f68da281f346fa9ff7a46e9d55826abe968a
+   TX Hash: 0x59f66e9f13e8e8cf5f...b23c73a7d2
+   TX URL: https://polygonscan.com/tx/0x59f66e9f13e8e8cf5f151eedd0cb4dab00510adb8563dd11e8c34bb23c73a7d2
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,550.00 USD
+📊 Mercado: Mavericks vs. Celtics: O/U 225.5
+🔗 URL: https://polymarket.com/event/nba-dal-bos-2026-03-06
+🎯 Outcome: Over
+📈 Lado: COMPRA
+💵 Precio: 0.5100 (51.00%)
+📦 Volumen: $364,638.96
+🕐 Hora: 2026-03-06 18:23:07
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Tokidoki
+   Wallet: 0x339a0e5aea39a7db5cea5b0003abab33c78c1eae
+   Perfil: https://polymarket.com/profile/0x339a0e5aea39a7db5cea5b0003abab33c78c1eae
+   TX Hash: 0x924ffc99cbd8938826...9fbd1d25a8
+   TX URL: https://polygonscan.com/tx/0x924ffc99cbd8938826c20ae1dcb31bcc6618a928c488395ed8e0059fbd1d25a8
+================================================================================
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.13 (12.7%)
+   Polymarket:   0.51 (51.0%)
+   Edge:         -38.3% ❌
+⚠️⚠️ WARNING: SUCKER BET - Ballena pagando 38.3% MÁS que Pinnacle
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,902.91 USD
+📊 Mercado: Will Israel launch a major ground offensive in Lebanon by March 31?
+🔗 URL: https://polymarket.com/event/will-israel-launch-a-major-ground-offensive-in-lebanon-by-march-31
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.7000 (70.00%)
+📦 Volumen: $2,195,762.01
+🕐 Hora: 2026-03-06 18:33:55
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: siick
+   Wallet: 0xf9b71663d723d28fa455db659098e1dacde860a4
+   Perfil: https://polymarket.com/profile/0xf9b71663d723d28fa455db659098e1dacde860a4
+   TX Hash: 0xd11f0bee9e816ed306...09bb3b04bf
+   TX URL: https://polygonscan.com/tx/0xd11f0bee9e816ed306c9b69cc9f94f3dd1303730aa961b8fd461bf09bb3b04bf
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,820.02 USD
+📊 Mercado: Panthers vs. Red Wings: O/U 5.5
+🔗 URL: https://polymarket.com/event/nhl-fla-det-2026-03-06
+🎯 Outcome: Over
+📈 Lado: COMPRA
+💵 Precio: 0.5600 (56.00%)
+📦 Volumen: $720,586.09
+🕐 Hora: 2026-03-06 18:38:29
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: fdevb
+   Wallet: 0x8c16a7555158aba96a709967ea873d6e2d384b37
+   Perfil: https://polymarket.com/profile/0x8c16a7555158aba96a709967ea873d6e2d384b37
+   TX Hash: 0xaa8aca2a7865cfbbe1...4da981017b
+   TX URL: https://polygonscan.com/tx/0xaa8aca2a7865cfbbe190fce61698d261a02912f0baa0e1309f99cc4da981017b
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,600.00 USD
+📊 Mercado: Heat vs. Hornets: O/U 228.5
+🔗 URL: https://polymarket.com/event/nba-mia-cha-2026-03-06
+🎯 Outcome: Under
+📈 Lado: COMPRA
+💵 Precio: 0.4900 (49.00%)
+📦 Volumen: $28,481.22
+🕐 Hora: 2026-03-06 18:44:33
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: jk220
+   Wallet: 0x4c21fe1152eef618b2cd3c6ca4fa7f44f7fa9b8a
+   Perfil: https://polymarket.com/profile/0x4c21fe1152eef618b2cd3c6ca4fa7f44f7fa9b8a
+   TX Hash: 0x0ab6420d4e1421a5b1...09c42fae7c
+   TX URL: https://polygonscan.com/tx/0x0ab6420d4e1421a5b125c9cf3f2babc53128a545a3c9c00e2858b109c42fae7c
+================================================================================
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.30 (29.8%)
+   Polymarket:   0.49 (49.0%)
+   Edge:         -19.2% ❌
+⚠️⚠️ WARNING: SUCKER BET - Ballena pagando 19.2% MÁS que Pinnacle
+
+
+================================================================================
+🐋🐋🐋🐋🐋 TITAN BALLENA DETECTADA 🐋🐋🐋🐋🐋
+================================================================================
+💰 Valor: $41,251.52 USD  ⚡ NICHO (129.2% del mercado)
+📊 Mercado: Spread: Celtics (-14.5)
+🔗 URL: https://polymarket.com/event/nba-dal-bos-2026-03-06
+🎯 Outcome: Celtics
+📈 Lado: COMPRA
+💵 Precio: 0.5300 (53.00%)
+📦 Volumen: $31,918.90
+🕐 Hora: 2026-03-06 18:44:15
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0x2a2C53bD278c04DA9962Fcf96490E17F3DfB9Bc1-1772479215461
+   Wallet: 0x2a2c53bd278c04da9962fcf96490e17f3dfb9bc1
+   Perfil: https://polymarket.com/profile/0x2a2c53bd278c04da9962fcf96490e17f3dfb9bc1
+   TX Hash: 0x799fc41684bb8c147b...7f9565f8b5
+   TX URL: https://polygonscan.com/tx/0x799fc41684bb8c147bcc08d8f5f79f1c8c2780100d943a0f6d884c7f9565f8b5
+================================================================================
+🔥 SEÑAL CONSENSO: 2 ballenas → BUY | Total: $42,252
+
+
+================================================================================
+🐋🐋🐋🐋 ULTRA BALLENA DETECTADA 🐋🐋🐋🐋
+================================================================================
+💰 Valor: $36,558.90 USD
+📊 Mercado: Avalanche vs. Stars
+🔗 URL: https://polymarket.com/event/nhl-col-dal-2026-03-06
+🎯 Outcome: Stars
+📈 Lado: COMPRA
+💵 Precio: 0.4800 (48.00%)
+📦 Volumen: $286,054.59
+🕐 Hora: 2026-03-06 18:48:55
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 432614799197
+   Wallet: 0xdc876e6873772d38716fda7f2452a78d426d7ab6
+   Perfil: https://polymarket.com/profile/0xdc876e6873772d38716fda7f2452a78d426d7ab6
+   TX Hash: 0xdf37c3e04dfe9e4795...f8468810d3
+   TX URL: https://polygonscan.com/tx/0xdf37c3e04dfe9e4795f5f996efc4a79891c3df61c365288d1b1d16f8468810d3
+================================================================================
+
+
+================================================================================
+🐋🐋🐋🐋 ULTRA BALLENA DETECTADA 🐋🐋🐋🐋
+================================================================================
+💰 Valor: $24,703.00 USD
+📊 Mercado: Panthers vs. Red Wings
+🔗 URL: https://polymarket.com/event/nhl-fla-det-2026-03-06
+🎯 Outcome: Panthers
+📈 Lado: COMPRA
+💵 Precio: 0.4200 (42.00%)
+📦 Volumen: $886,779.17
+🕐 Hora: 2026-03-06 18:53:21
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 432614799197
+   Wallet: 0xdc876e6873772d38716fda7f2452a78d426d7ab6
+   Perfil: https://polymarket.com/profile/0xdc876e6873772d38716fda7f2452a78d426d7ab6
+   TX Hash: 0x3e3ef56daf6efb453b...dce28ec51a
+   TX URL: https://polygonscan.com/tx/0x3e3ef56daf6efb453bc503a9b4b2222b9ed798c00a0d50dd08020fdce28ec51a
+================================================================================
+
+
+================================================================================
+🐋🐋🐋🐋 ULTRA BALLENA DETECTADA 🐋🐋🐋🐋
+================================================================================
+💰 Valor: $26,645.00 USD  ⚡ NICHO (3.0% del mercado)
+📊 Mercado: Panthers vs. Red Wings
+🔗 URL: https://polymarket.com/event/nhl-fla-det-2026-03-06
+🎯 Outcome: Panthers
+📈 Lado: COMPRA
+💵 Precio: 0.4200 (42.00%)
+📦 Volumen: $886,779.17
+🕐 Hora: 2026-03-06 18:53:21
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 432614799197
+   Wallet: 0xdc876e6873772d38716fda7f2452a78d426d7ab6
+   Perfil: https://polymarket.com/profile/0xdc876e6873772d38716fda7f2452a78d426d7ab6
+   TX Hash: 0xba42a04b06459501b6...93249ff6ef
+   TX URL: https://polygonscan.com/tx/0xba42a04b06459501b6e90e2c0f9197ab9c94415a07142c7b31b98a93249ff6ef
+================================================================================
+🔥 SEÑAL CONSENSO: 2 ballenas → BUY | Total: $51,348
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $3,211.08 USD
+📊 Mercado: Panthers vs. Red Wings
+🔗 URL: https://polymarket.com/event/nhl-fla-det-2026-03-06
+🎯 Outcome: Panthers
+📈 Lado: COMPRA
+💵 Precio: 0.4200 (42.00%)
+📦 Volumen: $886,779.17
+🕐 Hora: 2026-03-06 18:53:17
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Herdonia
+   Wallet: 0xd106952ebf30a3125affd8a23b6c1f30c35fc79c
+   Perfil: https://polymarket.com/profile/0xd106952ebf30a3125affd8a23b6c1f30c35fc79c
+   TX Hash: 0x2895dd3437a136d65c...b65ccefe64
+   TX URL: https://polygonscan.com/tx/0x2895dd3437a136d65c1b94bccecc5b463c57ee9af6d1fca1fc9aaeb65ccefe64
+================================================================================
+🔥 SEÑAL CONSENSO: 3 ballenas → BUY | Total: $54,559
+
+
+================================================================================
+🐋🐋🐋🐋 ULTRA BALLENA DETECTADA 🐋🐋🐋🐋
+================================================================================
+💰 Valor: $21,690.00 USD
+📊 Mercado: Panthers vs. Red Wings
+🔗 URL: https://polymarket.com/event/nhl-fla-det-2026-03-06
+🎯 Outcome: Panthers
+📈 Lado: COMPRA
+💵 Precio: 0.4200 (42.00%)
+📦 Volumen: $886,779.17
+🕐 Hora: 2026-03-06 18:53:17
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 432614799197
+   Wallet: 0xdc876e6873772d38716fda7f2452a78d426d7ab6
+   Perfil: https://polymarket.com/profile/0xdc876e6873772d38716fda7f2452a78d426d7ab6
+   TX Hash: 0xb5655556492d8b1a66...53fefafd54
+   TX URL: https://polygonscan.com/tx/0xb5655556492d8b1a660cac2de574a48bb00177288d698e720b741f53fefafd54
+================================================================================
+🔥 SEÑAL CONSENSO: 4 ballenas → BUY | Total: $76,249
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,922.53 USD
+📊 Mercado: Panthers vs. Red Wings
+🔗 URL: https://polymarket.com/event/nhl-fla-det-2026-03-06
+🎯 Outcome: Panthers
+📈 Lado: COMPRA
+💵 Precio: 0.4200 (42.00%)
+📦 Volumen: $886,779.17
+🕐 Hora: 2026-03-06 18:53:17
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Herdonia
+   Wallet: 0xd106952ebf30a3125affd8a23b6c1f30c35fc79c
+   Perfil: https://polymarket.com/profile/0xd106952ebf30a3125affd8a23b6c1f30c35fc79c
+   TX Hash: 0x307dd71529d0b0cbe5...ca981c218d
+   TX URL: https://polygonscan.com/tx/0x307dd71529d0b0cbe546a0ba608cb9389812489c19ea12083c437eca981c218d
+================================================================================
+🔥 SEÑAL CONSENSO: 5 ballenas → BUY | Total: $79,172
+
+
+================================================================================
+🐋🐋🐋🐋 ULTRA BALLENA DETECTADA 🐋🐋🐋🐋
+================================================================================
+💰 Valor: $26,644.91 USD  ⚡ NICHO (3.0% del mercado)
+📊 Mercado: Panthers vs. Red Wings
+🔗 URL: https://polymarket.com/event/nhl-fla-det-2026-03-06
+🎯 Outcome: Panthers
+📈 Lado: COMPRA
+💵 Precio: 0.4200 (42.00%)
+📦 Volumen: $886,779.17
+🕐 Hora: 2026-03-06 18:53:17
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 432614799197
+   Wallet: 0xdc876e6873772d38716fda7f2452a78d426d7ab6
+   Perfil: https://polymarket.com/profile/0xdc876e6873772d38716fda7f2452a78d426d7ab6
+   TX Hash: 0x3a5d927c06bb88ad43...cdbc90e075
+   TX URL: https://polygonscan.com/tx/0x3a5d927c06bb88ad433e36e8ac2211f916e673a2f69b32e0dec260cdbc90e075
+================================================================================
+🔥 SEÑAL CONSENSO: 6 ballenas → BUY | Total: $105,817
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $5,220.00 USD
+📊 Mercado: Panthers vs. Red Wings
+🔗 URL: https://polymarket.com/event/nhl-fla-det-2026-03-06
+🎯 Outcome: Red Wings
+📈 Lado: COMPRA
+💵 Precio: 0.5800 (58.00%)
+📦 Volumen: $886,779.17
+🕐 Hora: 2026-03-06 18:59:39
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: myjob
+   Wallet: 0x2a09f0629e756d9b99589532227eae954bd6db1c
+   Perfil: https://polymarket.com/profile/0x2a09f0629e756d9b99589532227eae954bd6db1c
+   TX Hash: 0xbac1946887ce9c7a3b...39cd6d2d0c
+   TX URL: https://polygonscan.com/tx/0xbac1946887ce9c7a3b8fc2231f9639a0fe0a24860d69c7073fe4fe39cd6d2d0c
+================================================================================
+🔥 SEÑAL CONSENSO: 7 ballenas → BUY | Total: $111,037
+⚠️ GRUPO COORDINADO: 3 wallets → BUY en 5.0 min | Wallets: 3
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,989.28 USD  ⚡ NICHO (9.4% del mercado)
+📊 Mercado: Spread: Celtics (-14.5)
+🔗 URL: https://polymarket.com/event/nba-dal-bos-2026-03-06
+🎯 Outcome: Celtics
+📈 Lado: COMPRA
+💵 Precio: 0.5300 (53.00%)
+📦 Volumen: $31,918.90
+🕐 Hora: 2026-03-06 18:59:33
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: PCK
+   Wallet: 0xe2160eb837cd17de5915d460b1d69b5ba2ac7448
+   Perfil: https://polymarket.com/profile/0xe2160eb837cd17de5915d460b1d69b5ba2ac7448
+   TX Hash: 0x7802b5a469bfedad6f...7a3f5312c3
+   TX URL: https://polygonscan.com/tx/0x7802b5a469bfedad6ff1d809cfc63a2f635f1f0cd777e62f178b897a3f5312c3
+================================================================================
+🔥 SEÑAL CONSENSO: 2 ballenas → BUY | Total: $44,241
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,155.79 USD  ⚡ NICHO (6.8% del mercado)
+📊 Mercado: Spread: Celtics (-14.5)
+🔗 URL: https://polymarket.com/event/nba-dal-bos-2026-03-06
+🎯 Outcome: Mavericks
+📈 Lado: COMPRA
+💵 Precio: 0.4700 (47.00%)
+📦 Volumen: $31,918.90
+🕐 Hora: 2026-03-06 18:59:31
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: bcda
+   Wallet: 0xb45a797faa52b0fd8adc56d30382022b7b12192c
+   Perfil: https://polymarket.com/profile/0xb45a797faa52b0fd8adc56d30382022b7b12192c
+   TX Hash: 0x4af410b251606ba555...57127196e1
+   TX URL: https://polygonscan.com/tx/0x4af410b251606ba5552a3712abc467bd92190a17cf0dea83961cc957127196e1
+================================================================================
+🔥 SEÑAL CONSENSO: 3 ballenas → BUY | Total: $46,397
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,636.00 USD  ⚡ NICHO (7.8% del mercado)
+📊 Mercado: Spread: Hornets (-7.5)
+🔗 URL: https://polymarket.com/event/nba-mia-cha-2026-03-06
+🎯 Outcome: Heat
+📈 Lado: COMPRA
+💵 Precio: 0.5200 (52.00%)
+📦 Volumen: $33,730.82
+🕐 Hora: 2026-03-06 18:59:31
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: sovereign2013
+   Wallet: 0xee613b3fc183ee44f9da9c05f53e2da107e3debf
+   Perfil: https://polymarket.com/profile/0xee613b3fc183ee44f9da9c05f53e2da107e3debf
+   TX Hash: 0xdc301bb55c47578b85...d5d573506e
+   TX URL: https://polygonscan.com/tx/0xdc301bb55c47578b85f2bbcf4085df88fca5095f275181797f9ab7d5d573506e
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $5,000.00 USD
+📊 Mercado: Blues vs. Sharks
+🔗 URL: https://polymarket.com/event/nhl-stl-sj-2026-03-06
+🎯 Outcome: Sharks
+📈 Lado: COMPRA
+💵 Precio: 0.5700 (57.00%)
+📦 Volumen: $306,390.21
+🕐 Hora: 2026-03-06 18:59:27
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: ChompChomp888
+   Wallet: 0x842ac934cfff1467f27c167c42c318001e407422
+   Perfil: https://polymarket.com/profile/0x842ac934cfff1467f27c167c42c318001e407422
+   TX Hash: 0xbb79d27a69e5dbb46a...dbb6324ba9
+   TX URL: https://polygonscan.com/tx/0xbb79d27a69e5dbb46a1a7ba537ab3ac867d1ced2ebe817c0dfe31bdbb6324ba9
+================================================================================
+
+
+================================================================================
+🐋🐋🐋🐋 ULTRA BALLENA DETECTADA 🐋🐋🐋🐋
+================================================================================
+💰 Valor: $23,133.69 USD  ⚡ NICHO (3.3% del mercado)
+📊 Mercado: Heat vs. Hornets
+🔗 URL: https://polymarket.com/event/nba-mia-cha-2026-03-06
+🎯 Outcome: Heat
+📈 Lado: COMPRA
+💵 Precio: 0.2900 (29.00%)
+📦 Volumen: $692,383.64
+🕐 Hora: 2026-03-06 18:59:19
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: hotdogcat
+   Wallet: 0x8e433d051bfb5cc6a1f7e5a0452029b7ffb4a3cd
+   Perfil: https://polymarket.com/profile/0x8e433d051bfb5cc6a1f7e5a0452029b7ffb4a3cd
+   TX Hash: 0x00b62b68cd7c6b45a1...f1161621ef
+   TX URL: https://polygonscan.com/tx/0x00b62b68cd7c6b45a17871a8e6692249f9af59b3b8b7fdca3a7066f1161621ef
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $10,780.00 USD
+📊 Mercado: Heat vs. Hornets: O/U 229.5
+🔗 URL: https://polymarket.com/event/nba-mia-cha-2026-03-06
+🎯 Outcome: Over
+📈 Lado: COMPRA
+💵 Precio: 0.4900 (49.00%)
+📦 Volumen: $99,440.21
+🕐 Hora: 2026-03-06 18:59:17
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: bcda
+   Wallet: 0xb45a797faa52b0fd8adc56d30382022b7b12192c
+   Perfil: https://polymarket.com/profile/0xb45a797faa52b0fd8adc56d30382022b7b12192c
+   TX Hash: 0x4d32326bb605d204d6...ab22736375
+   TX URL: https://polygonscan.com/tx/0x4d32326bb605d204d629d855f80393573ac0e765d6850ca18dfbd8ab22736375
+================================================================================
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.31 (30.6%)
+   Polymarket:   0.49 (49.0%)
+   Edge:         -18.4% ❌
+⚠️⚠️ WARNING: SUCKER BET - Ballena pagando 18.4% MÁS que Pinnacle
+
+
+================================================================================
+🐋🐋🐋🐋 ULTRA BALLENA DETECTADA 🐋🐋🐋🐋
+================================================================================
+💰 Valor: $24,000.00 USD  ⚡ NICHO (75.2% del mercado)
+📊 Mercado: Spread: Celtics (-14.5)
+🔗 URL: https://polymarket.com/event/nba-dal-bos-2026-03-06
+🎯 Outcome: Mavericks
+📈 Lado: COMPRA
+💵 Precio: 0.4800 (48.00%)
+📦 Volumen: $31,918.90
+🕐 Hora: 2026-03-06 19:04:09
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0x1B4d7cBD8DCe8A56Dd2c51E952cCCbF55F78e246-1759455462400
+   Wallet: 0x1b4d7cbd8dce8a56dd2c51e952cccbf55f78e246
+   Perfil: https://polymarket.com/profile/0x1b4d7cbd8dce8a56dd2c51e952cccbf55f78e246
+   TX Hash: 0x8dbab5a049190a6648...4fd5911872
+   TX URL: https://polygonscan.com/tx/0x8dbab5a049190a6648ba0e1e2be192a6ee457be389ce2c583469494fd5911872
+================================================================================
+🔥 SEÑAL CONSENSO: 4 ballenas → BUY | Total: $70,397
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $3,329.46 USD
+📊 Mercado: BNP Paribas Open: Anastasia Potapova vs Jasmine Paolini
+🔗 URL: https://polymarket.com/event/wta-potapov-paolini-2026-03-06
+🎯 Outcome: Anastasia Potapova
+📈 Lado: COMPRA
+💵 Precio: 0.3699 (36.99%)
+📦 Volumen: $127,605.84
+🕐 Hora: 2026-03-06 19:03:59
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: tradecraft
+   Wallet: 0xde9f7f4e77a1595623ceb58e469f776257ccd43c
+   Perfil: https://polymarket.com/profile/0xde9f7f4e77a1595623ceb58e469f776257ccd43c
+   TX Hash: 0x07fc8227cdc20d600c...7f8ad2b548
+   TX URL: https://polygonscan.com/tx/0x07fc8227cdc20d600c5bec96786698f9d6868b68492fd37ee2cd9e7f8ad2b548
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $5,273.89 USD
+📊 Mercado: Trail Blazers vs. Rockets: O/U 222.5
+🔗 URL: https://polymarket.com/event/nba-por-hou-2026-03-06
+🎯 Outcome: Over
+📈 Lado: COMPRA
+💵 Precio: 0.4700 (47.00%)
+📦 Volumen: $26,385.22
+🕐 Hora: 2026-03-06 19:14:27
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: bcda
+   Wallet: 0xb45a797faa52b0fd8adc56d30382022b7b12192c
+   Perfil: https://polymarket.com/profile/0xb45a797faa52b0fd8adc56d30382022b7b12192c
+   TX Hash: 0xd109f016d60638a348...9137cdf0a3
+   TX URL: https://polygonscan.com/tx/0xd109f016d60638a348ea6fb6c679a86aef4b8a3923ade488d52a5d9137cdf0a3
+================================================================================
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.45 (44.6%)
+   Polymarket:   0.47 (47.0%)
+   Edge:         -2.4% ❌
+⚠️⚠️ WARNING: SUCKER BET - Ballena pagando 2.4% MÁS que Pinnacle
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $3,091.62 USD
+📊 Mercado: BNP Paribas Open: Gael Monfils vs Felix Auger-Aliassime
+🔗 URL: https://polymarket.com/event/atp-monfils-augeral-2026-03-06
+🎯 Outcome: Gael Monfils
+📈 Lado: COMPRA
+💵 Precio: 0.5100 (51.00%)
+📦 Volumen: $190,058.84
+🕐 Hora: 2026-03-06 19:19:09
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: swisstony
+   Wallet: 0x204f72f35326db932158cba6adff0b9a1da95e14
+   Perfil: https://polymarket.com/profile/0x204f72f35326db932158cba6adff0b9a1da95e14
+   TX Hash: 0xca1a0ce1d79cb208cb...53ad911b31
+   TX URL: https://polygonscan.com/tx/0xca1a0ce1d79cb208cb75d82ce57c1e916f7f00a1be4aeb5f849e7353ad911b31
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,755.00 USD  ⚡ NICHO (10.4% del mercado)
+📊 Mercado: Trail Blazers vs. Rockets: O/U 222.5
+🔗 URL: https://polymarket.com/event/nba-por-hou-2026-03-06
+🎯 Outcome: Under
+📈 Lado: COMPRA
+💵 Precio: 0.5300 (53.00%)
+📦 Volumen: $26,385.22
+🕐 Hora: 2026-03-06 19:23:33
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: sovereign2013
+   Wallet: 0xee613b3fc183ee44f9da9c05f53e2da107e3debf
+   Perfil: https://polymarket.com/profile/0xee613b3fc183ee44f9da9c05f53e2da107e3debf
+   TX Hash: 0x293ea89fd7e720a870...6fc53262e3
+   TX URL: https://polygonscan.com/tx/0x293ea89fd7e720a870f5101352407c7390d3aa11e2182a6285bf1b6fc53262e3
+================================================================================
+🔥 SEÑAL CONSENSO: 2 ballenas → BUY | Total: $8,029
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.45 (44.6%)
+   Polymarket:   0.53 (53.0%)
+   Edge:         -8.4% ❌
+⚠️⚠️ WARNING: SUCKER BET - Ballena pagando 8.4% MÁS que Pinnacle
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $3,471.82 USD
+📊 Mercado: BNP Paribas Open: Gael Monfils vs Felix Auger-Aliassime
+🔗 URL: https://polymarket.com/event/atp-monfils-augeral-2026-03-06
+🎯 Outcome: Felix Auger-Aliassime
+📈 Lado: COMPRA
+💵 Precio: 0.5903 (59.03%)
+📦 Volumen: $190,058.84
+🕐 Hora: 2026-03-06 19:29:31
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: tradecraft
+   Wallet: 0xde9f7f4e77a1595623ceb58e469f776257ccd43c
+   Perfil: https://polymarket.com/profile/0xde9f7f4e77a1595623ceb58e469f776257ccd43c
+   TX Hash: 0x0c208127658f93e9af...1d7842a704
+   TX URL: https://polygonscan.com/tx/0x0c208127658f93e9af502b335d09f02b268228ae4ae30195ce1cbc1d7842a704
+================================================================================
+🔥 SEÑAL CONSENSO: 2 ballenas → BUY | Total: $6,563
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $8,926.53 USD
+📊 Mercado: Knicks vs. Nuggets
+🔗 URL: https://polymarket.com/event/nba-nyk-den-2026-03-06
+🎯 Outcome: Knicks
+📈 Lado: COMPRA
+💵 Precio: 0.5100 (51.00%)
+📦 Volumen: $668,293.38
+🕐 Hora: 2026-03-06 19:38:23
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Anónimo
+   Wallet: 0x8ff300e87119929f54c7820b9b2b49006f3f1aa9
+   Perfil: https://polymarket.com/profile/0x8ff300e87119929f54c7820b9b2b49006f3f1aa9
+   TX Hash: 0xf1d5066c326caf54fa...bd3031751c
+   TX URL: https://polygonscan.com/tx/0xf1d5066c326caf54faf06b3371508bbc895f139b22cff1115a4c26bd3031751c
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $9,976.00 USD
+📊 Mercado: Clippers vs. Spurs
+🔗 URL: https://polymarket.com/event/nba-lac-sas-2026-03-06
+🎯 Outcome: Clippers
+📈 Lado: COMPRA
+💵 Precio: 0.2900 (29.00%)
+📦 Volumen: $415,738.07
+🕐 Hora: 2026-03-06 19:44:43
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: TutiFromFactsOfLife
+   Wallet: 0xc660ae71765d0d9eaf5fa8328c1c959841d2bd28
+   Perfil: https://polymarket.com/profile/0xc660ae71765d0d9eaf5fa8328c1c959841d2bd28
+   TX Hash: 0xe2b0c5ef9a95fedd77...19aeeb8793
+   TX URL: https://polygonscan.com/tx/0xe2b0c5ef9a95fedd7721b9b9eeac4021c1e6595cd0caa6148288fa19aeeb8793
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,679.00 USD
+📊 Mercado: Hurricanes vs. Oilers: O/U 6.5
+🔗 URL: https://polymarket.com/event/nhl-car-edm-2026-03-06
+🎯 Outcome: Over
+📈 Lado: COMPRA
+💵 Precio: 0.5700 (57.00%)
+📦 Volumen: $91,675.84
+🕐 Hora: 2026-03-06 19:59:49
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: EIf
+   Wallet: 0xd6966eb1ae7b52320ba7ab1016680198c9e08a49
+   Perfil: https://polymarket.com/profile/0xd6966eb1ae7b52320ba7ab1016680198c9e08a49
+   TX Hash: 0x8336064f3bcc3aacbf...a4983224d9
+   TX URL: https://polygonscan.com/tx/0x8336064f3bcc3aacbf85c95593b401311c8f11c81edfd2ca2adf0da4983224d9
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $12,625.72 USD
+📊 Mercado: Canucks vs. Blackhawks
+🔗 URL: https://polymarket.com/event/nhl-van-chi-2026-03-06
+🎯 Outcome: Canucks
+📈 Lado: COMPRA
+💵 Precio: 0.4100 (41.00%)
+📦 Volumen: $148,889.73
+🕐 Hora: 2026-03-06 19:59:41
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: rustin
+   Wallet: 0xaa075924e1dc7cff3b9fab67401126338c4d2125
+   Perfil: https://polymarket.com/profile/0xaa075924e1dc7cff3b9fab67401126338c4d2125
+   TX Hash: 0xaec9d7da1c8b7e1cd8...b57ca67ce6
+   TX URL: https://polygonscan.com/tx/0xaec9d7da1c8b7e1cd8301094c40bc415d096358969beb28bafef90b57ca67ce6
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $5,000.00 USD
+📊 Mercado: Heat vs. Hornets
+🔗 URL: https://polymarket.com/event/nba-mia-cha-2026-03-06
+🎯 Outcome: Hornets
+📈 Lado: COMPRA
+💵 Precio: 0.7883 (78.83%)
+📦 Volumen: $692,383.64
+🕐 Hora: 2026-03-06 19:59:41
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: simetrixai
+   Wallet: 0xbc4cb11c5f3194f84b230755965c1e8d18cf444c
+   Perfil: https://polymarket.com/profile/0xbc4cb11c5f3194f84b230755965c1e8d18cf444c
+   TX Hash: 0x4bd2a338070719c01a...a34446c582
+   TX URL: https://polygonscan.com/tx/0x4bd2a338070719c01a443a7e9621cd3f8bcfea3122d19bd3055e87a34446c582
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $5,199.00 USD
+📊 Mercado: Trail Blazers vs. Rockets
+🔗 URL: https://polymarket.com/event/nba-por-hou-2026-03-06
+🎯 Outcome: Trail Blazers
+📈 Lado: COMPRA
+💵 Precio: 0.3000 (30.00%)
+📦 Volumen: $869,230.36
+🕐 Hora: 2026-03-06 20:08:45
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Itwasalladream
+   Wallet: 0xdf059694d57708a46f8870c9b78dc4058781291b
+   Perfil: https://polymarket.com/profile/0xdf059694d57708a46f8870c9b78dc4058781291b
+   TX Hash: 0xdcf05fe83cefa80783...543fb9779e
+   TX URL: https://polygonscan.com/tx/0xdcf05fe83cefa8078340b658278e724aeb027ee1cc71de4f105f29543fb9779e
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $7,607.60 USD
+📊 Mercado: Hurricanes vs. Oilers
+🔗 URL: https://polymarket.com/event/nhl-car-edm-2026-03-06
+🎯 Outcome: Hurricanes
+📈 Lado: COMPRA
+💵 Precio: 0.5200 (52.00%)
+📦 Volumen: $595,741.82
+🕐 Hora: 2026-03-06 20:08:41
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: TutiFromFactsOfLife
+   Wallet: 0xc660ae71765d0d9eaf5fa8328c1c959841d2bd28
+   Perfil: https://polymarket.com/profile/0xc660ae71765d0d9eaf5fa8328c1c959841d2bd28
+   TX Hash: 0x3fa3f9f540dea3df57...0c6b89258f
+   TX URL: https://polygonscan.com/tx/0x3fa3f9f540dea3df570753b8289bddf8fd5ad1be85b187db8efdbf0c6b89258f
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $5,722.15 USD
+📊 Mercado: Trail Blazers vs. Rockets
+🔗 URL: https://polymarket.com/event/nba-por-hou-2026-03-06
+🎯 Outcome: Trail Blazers
+📈 Lado: COMPRA
+💵 Precio: 0.2900 (29.00%)
+📦 Volumen: $869,230.36
+🕐 Hora: 2026-03-06 20:08:29
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: TheOnlyHuman
+   Wallet: 0x6ade597c0e2b43c0bf3542cada8a5e330d73f5b0
+   Perfil: https://polymarket.com/profile/0x6ade597c0e2b43c0bf3542cada8a5e330d73f5b0
+   TX Hash: 0xc768d15e5c98e8568b...09fe388fdf
+   TX URL: https://polygonscan.com/tx/0xc768d15e5c98e8568b5fcefc8da39f1a357097d43a0e34e04718d009fe388fdf
+================================================================================
+🔥 SEÑAL CONSENSO: 2 ballenas → BUY | Total: $10,921
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $4,370.93 USD
+📊 Mercado: Longwood Lancers vs. UNC Asheville Bulldogs
+🔗 URL: https://polymarket.com/event/cbb-longwd-ncashe-2026-03-06
+🎯 Outcome: Longwood Lancers
+📈 Lado: COMPRA
+💵 Precio: 0.6506 (65.06%)
+📦 Volumen: $133,025.18
+🕐 Hora: 2026-03-06 20:08:23
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Anónimo
+   Wallet: 0xa4f5650a655502b2e2bc66636d347a2fd8281079
+   Perfil: https://polymarket.com/profile/0xa4f5650a655502b2e2bc66636d347a2fd8281079
+   TX Hash: 0xda92fe72b4e718cea7...6d4fb1a70f
+   TX URL: https://polygonscan.com/tx/0xda92fe72b4e718cea7a43fc89b16adff6bd82236b3c36f616312f26d4fb1a70f
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,653.35 USD
+📊 Mercado: Miami (OH) RedHawks vs. Ohio Bobcats
+🔗 URL: https://polymarket.com/event/cbb-miaoh-ohio-2026-03-06
+🎯 Outcome: Ohio Bobcats
+📈 Lado: COMPRA
+💵 Precio: 0.3500 (35.00%)
+📦 Volumen: $146,157.03
+🕐 Hora: 2026-03-06 20:18:51
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: feliweed
+   Wallet: 0xc6b13482e72f656519705d792a1f25587a6c78fd
+   Perfil: https://polymarket.com/profile/0xc6b13482e72f656519705d792a1f25587a6c78fd
+   TX Hash: 0x466fa85d9feb2ccf17...18fefeb533
+   TX URL: https://polygonscan.com/tx/0x466fa85d9feb2ccf177ed308b56a3d1b5a651cee373b404e12f09c18fefeb533
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $4,640.00 USD  ⚡ NICHO (3.1% del mercado)
+📊 Mercado: Canucks vs. Blackhawks
+🔗 URL: https://polymarket.com/event/nhl-van-chi-2026-03-06
+🎯 Outcome: Blackhawks
+📈 Lado: COMPRA
+💵 Precio: 0.5800 (58.00%)
+📦 Volumen: $148,889.73
+🕐 Hora: 2026-03-06 20:18:49
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: CuteGuy
+   Wallet: 0xebc74e9bb96aefee476be4518510f506bbd94003
+   Perfil: https://polymarket.com/profile/0xebc74e9bb96aefee476be4518510f506bbd94003
+   TX Hash: 0xd2b3a4169184d01c3a...2b2a8b5764
+   TX URL: https://polygonscan.com/tx/0xd2b3a4169184d01c3a54952c03ea7245d8cdd65a0cef69607e1cea2b2a8b5764
+================================================================================
+🔥 SEÑAL CONSENSO: 2 ballenas → BUY | Total: $17,266
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,600.00 USD
+📊 Mercado: Knicks vs. Nuggets
+🔗 URL: https://polymarket.com/event/nba-nyk-den-2026-03-06
+🎯 Outcome: Nuggets
+📈 Lado: COMPRA
+💵 Precio: 0.5200 (52.00%)
+📦 Volumen: $668,293.38
+🕐 Hora: 2026-03-06 20:29:49
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: VeryLucky888
+   Wallet: 0x6d3c5bd13984b2de47c3a88ddc455309aab3d294
+   Perfil: https://polymarket.com/profile/0x6d3c5bd13984b2de47c3a88ddc455309aab3d294
+   TX Hash: 0x05396993ef665b5ff2...cc7c48ea53
+   TX URL: https://polygonscan.com/tx/0x05396993ef665b5ff2d5bf7ff38644fd7d5f1782b29f9f5c6f7301cc7c48ea53
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $10,400.00 USD
+📊 Mercado: Knicks vs. Nuggets
+🔗 URL: https://polymarket.com/event/nba-nyk-den-2026-03-06
+🎯 Outcome: Nuggets
+📈 Lado: COMPRA
+💵 Precio: 0.5200 (52.00%)
+📦 Volumen: $668,293.38
+🕐 Hora: 2026-03-06 20:29:39
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: rattk
+   Wallet: 0xfc25f141ed27bb1787338d2c4e7f51e3a15e1f7f
+   Perfil: https://polymarket.com/profile/0xfc25f141ed27bb1787338d2c4e7f51e3a15e1f7f
+   TX Hash: 0x3d68de559eb16941cd...36d60fc1b1
+   TX URL: https://polygonscan.com/tx/0x3d68de559eb16941cd7851723554bc0b725fa248dbad7c7ebaecf036d60fc1b1
+================================================================================
+🔥 SEÑAL CONSENSO: 2 ballenas → BUY | Total: $13,000
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $18,601.14 USD
+📊 Mercado: Knicks vs. Nuggets: O/U 229.5
+🔗 URL: https://polymarket.com/event/nba-nyk-den-2026-03-06
+🎯 Outcome: Under
+📈 Lado: COMPRA
+💵 Precio: 0.5100 (51.00%)
+📦 Volumen: $308,490.36
+🕐 Hora: 2026-03-06 20:34:25
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0x492442EaB586F242B53bDa933fD5dE859c8A3782-1766317541188
+   Wallet: 0x492442eab586f242b53bda933fd5de859c8a3782
+   Perfil: https://polymarket.com/profile/0x492442eab586f242b53bda933fd5de859c8a3782
+   TX Hash: 0xda6d8916f98c03b72b...13524fc890
+   TX URL: https://polygonscan.com/tx/0xda6d8916f98c03b72b9f33b5147228b49b6e573f8868d708cf424e13524fc890
+================================================================================
+
+
+================================================================================
+🐋🐋🐋🐋🐋 TITAN BALLENA DETECTADA 🐋🐋🐋🐋🐋
+================================================================================
+💰 Valor: $193,590.96 USD  ⚡ NICHO (62.8% del mercado)
+📊 Mercado: Knicks vs. Nuggets: O/U 229.5
+🔗 URL: https://polymarket.com/event/nba-nyk-den-2026-03-06
+🎯 Outcome: Under
+📈 Lado: COMPRA
+💵 Precio: 0.5100 (51.00%)
+📦 Volumen: $308,490.36
+🕐 Hora: 2026-03-06 20:34:19
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0x492442EaB586F242B53bDa933fD5dE859c8A3782-1766317541188
+   Wallet: 0x492442eab586f242b53bda933fd5de859c8a3782
+   Perfil: https://polymarket.com/profile/0x492442eab586f242b53bda933fd5de859c8a3782
+   TX Hash: 0xbf8fef438762fc8059...54eb821985
+   TX URL: https://polygonscan.com/tx/0xbf8fef438762fc805946db03ed927f23bb886cb580b7605bad5e8d54eb821985
+================================================================================
+🔥 SEÑAL CONSENSO: 2 ballenas → BUY | Total: $212,192
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $3,668.43 USD
+📊 Mercado: Avalanche vs. Stars
+🔗 URL: https://polymarket.com/event/nhl-col-dal-2026-03-06
+🎯 Outcome: Stars
+📈 Lado: COMPRA
+💵 Precio: 0.7889 (78.89%)
+📦 Volumen: $286,054.59
+🕐 Hora: 2026-03-06 20:38:45
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: RomanMk
+   Wallet: 0x64795fe43b184571d5eb25ca44fc9ba9e1295e64
+   Perfil: https://polymarket.com/profile/0x64795fe43b184571d5eb25ca44fc9ba9e1295e64
+   TX Hash: 0x10d50c98e1812c6ca3...9b8c2d7958
+   TX URL: https://polygonscan.com/tx/0x10d50c98e1812c6ca39514dd522137ca79cdf356e0b8201d5e30a09b8c2d7958
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $4,419.32 USD
+📊 Mercado: Hurricanes vs. Oilers
+🔗 URL: https://polymarket.com/event/nhl-car-edm-2026-03-06
+🎯 Outcome: Hurricanes
+📈 Lado: COMPRA
+💵 Precio: 0.5200 (52.00%)
+📦 Volumen: $595,741.82
+🕐 Hora: 2026-03-06 20:49:09
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: DonChon
+   Wallet: 0xd4dafa21aad27e8514b5a5dad9278c3ece243175
+   Perfil: https://polymarket.com/profile/0xd4dafa21aad27e8514b5a5dad9278c3ece243175
+   TX Hash: 0x7ff09809050e531477...bdf7e9fa43
+   TX URL: https://polygonscan.com/tx/0x7ff09809050e5314779013180617379e95d81a95838746db396dadbdf7e9fa43
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $9,900.00 USD  ⚡ NICHO (3.5% del mercado)
+📊 Mercado: Avalanche vs. Stars
+🔗 URL: https://polymarket.com/event/nhl-col-dal-2026-03-06
+🎯 Outcome: Avalanche
+📈 Lado: COMPRA
+💵 Precio: 0.3300 (33.00%)
+📦 Volumen: $286,054.59
+🕐 Hora: 2026-03-06 21:04:07
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: ScroooogeMcDuck
+   Wallet: 0xc35049bc7b6bd28a49a40b261466ca91aad63669
+   Perfil: https://polymarket.com/profile/0xc35049bc7b6bd28a49a40b261466ca91aad63669
+   TX Hash: 0xeb09689c25d15c42e8...cedf36bf2b
+   TX URL: https://polygonscan.com/tx/0xeb09689c25d15c42e83d75b6cd834bd136953d4963653ad3f85245cedf36bf2b
+================================================================================
+🔥 SEÑAL CONSENSO: 2 ballenas → BUY | Total: $13,568
+
+
+================================================================================
+🐋🐋🐋🐋 ULTRA BALLENA DETECTADA 🐋🐋🐋🐋
+================================================================================
+💰 Valor: $27,626.39 USD  ⚡ NICHO (11.4% del mercado)
+📊 Mercado: Pelicans vs. Suns
+🔗 URL: https://polymarket.com/event/nba-nop-phx-2026-03-06
+🎯 Outcome: Suns
+📈 Lado: COMPRA
+💵 Precio: 0.6300 (63.00%)
+📦 Volumen: $243,225.74
+🕐 Hora: 2026-03-06 21:04:05
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Countryside
+   Wallet: 0xbddf61af533ff524d27154e589d2d7a81510c684
+   Perfil: https://polymarket.com/profile/0xbddf61af533ff524d27154e589d2d7a81510c684
+   TX Hash: 0xee4079c83347e2f42e...4ec0922c32
+   TX URL: https://polygonscan.com/tx/0xee4079c83347e2f42ebd954866d5e445ec216c8f26ec3ca45d6ad74ec0922c32
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $10,780.00 USD
+📊 Mercado: Knicks vs. Nuggets
+🔗 URL: https://polymarket.com/event/nba-nyk-den-2026-03-06
+🎯 Outcome: Knicks
+📈 Lado: COMPRA
+💵 Precio: 0.4900 (49.00%)
+📦 Volumen: $668,293.38
+🕐 Hora: 2026-03-06 21:08:47
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: gatorr
+   Wallet: 0x93abbc022ce98d6f45d4444b594791cc4b7a9723
+   Perfil: https://polymarket.com/profile/0x93abbc022ce98d6f45d4444b594791cc4b7a9723
+   TX Hash: 0xb7efc2b7b6d7939e43...710dc407c5
+   TX URL: https://polygonscan.com/tx/0xb7efc2b7b6d7939e4326822a4334e16f2f8ac547b83cbaa852d091710dc407c5
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,999.70 USD
+📊 Mercado: Canadiens vs. Ducks
+🔗 URL: https://polymarket.com/event/nhl-mon-ana-2026-03-06
+🎯 Outcome: Ducks
+📈 Lado: COMPRA
+💵 Precio: 0.4902 (49.02%)
+📦 Volumen: $671,359.68
+🕐 Hora: 2026-03-06 21:08:33
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: AshleySchaeffer
+   Wallet: 0x30ceffb3ac4ea49881e271d5a69883b60e0dfdce
+   Perfil: https://polymarket.com/profile/0x30ceffb3ac4ea49881e271d5a69883b60e0dfdce
+   TX Hash: 0xaf4d3555b469177bca...b240842058
+   TX URL: https://polygonscan.com/tx/0xaf4d3555b469177bca22fb8350cded6124dab4993385b1fd61a01bb240842058
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $4,363.64 USD
+📊 Mercado: Canadiens vs. Ducks
+🔗 URL: https://polymarket.com/event/nhl-mon-ana-2026-03-06
+🎯 Outcome: Ducks
+📈 Lado: COMPRA
+💵 Precio: 0.5000 (50.00%)
+📦 Volumen: $671,359.68
+🕐 Hora: 2026-03-06 21:08:33
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: sportmaster777
+   Wallet: 0x32ed517a571c01b6e9adecf61ba81ca48ff2f960
+   Perfil: https://polymarket.com/profile/0x32ed517a571c01b6e9adecf61ba81ca48ff2f960
+   TX Hash: 0x976ea1181b0252438a...33c4112981
+   TX URL: https://polygonscan.com/tx/0x976ea1181b0252438a6cc5512809c8af957411afd5382e43a02f2b33c4112981
+================================================================================
+🔥 SEÑAL CONSENSO: 2 ballenas → BUY | Total: $7,363
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,997.99 USD
+📊 Mercado: Will France, UK, or Germany strike Iran by March 31?
+🔗 URL: https://polymarket.com/event/will-france-uk-or-germany-strike-iran-by-march-31-929
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.1960 (19.60%)
+📦 Volumen: $2,385,496.55
+🕐 Hora: 2026-03-06 21:19:11
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0x8Fba3AA991dc7Df44f8A3b20A178e1781B7d433A-1771681824315
+   Wallet: 0x8fba3aa991dc7df44f8a3b20a178e1781b7d433a
+   Perfil: https://polymarket.com/profile/0x8fba3aa991dc7df44f8a3b20a178e1781b7d433a
+   TX Hash: 0x08cec79ff07ac4336f...83af720f21
+   TX URL: https://polygonscan.com/tx/0x08cec79ff07ac4336f50012c2798db02f11ac18b2fa05218c6e53983af720f21
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $4,997.00 USD
+📊 Mercado: Clippers vs. Spurs
+🔗 URL: https://polymarket.com/event/nba-lac-sas-2026-03-06
+🎯 Outcome: Clippers
+📈 Lado: COMPRA
+💵 Precio: 0.2800 (28.00%)
+📦 Volumen: $415,738.07
+🕐 Hora: 2026-03-06 21:30:01
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: sunflowaa
+   Wallet: 0x6f8b2886707673629af6bbf7314b8081021601aa
+   Perfil: https://polymarket.com/profile/0x6f8b2886707673629af6bbf7314b8081021601aa
+   TX Hash: 0x40970f3614013993d9...26ed1b5b6b
+   TX URL: https://polygonscan.com/tx/0x40970f3614013993d9ef0a8f8bd67d985cac306b1d90266537cd3d26ed1b5b6b
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $3,293.76 USD
+📊 Mercado: Will Pumas de la UNAM win on 2026-03-06?
+🔗 URL: https://polymarket.com/event/mex-nec-pum-2026-03-06
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.5800 (58.00%)
+📦 Volumen: $137,553.56
+🕐 Hora: 2026-03-06 21:29:45
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Dingwin
+   Wallet: 0x9fad8308ef6b6ed5320e53a290a3bd4ad91f5a9f
+   Perfil: https://polymarket.com/profile/0x9fad8308ef6b6ed5320e53a290a3bd4ad91f5a9f
+   TX Hash: 0xf82dbb69ad38274264...331e0f6844
+   TX URL: https://polygonscan.com/tx/0xf82dbb69ad382742640d0752761dbad5d7e2c5234d193af351c9c6331e0f6844
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $3,000.00 USD
+📊 Mercado: Spread: Spurs (-6.5)
+🔗 URL: https://polymarket.com/event/nba-lac-sas-2026-03-06
+🎯 Outcome: Spurs
+📈 Lado: COMPRA
+💵 Precio: 0.5400 (54.00%)
+📦 Volumen: $137,463.21
+🕐 Hora: 2026-03-06 21:29:39
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Ryx
+   Wallet: 0x0979bad57d7a1403db89cbcd9c52bf43f2138d9b
+   Perfil: https://polymarket.com/profile/0x0979bad57d7a1403db89cbcd9c52bf43f2138d9b
+   TX Hash: 0xe48664ab37db6343b9...558de224c0
+   TX URL: https://polygonscan.com/tx/0xe48664ab37db6343b9e606ddc5ee735044c8d049183e6dde605790558de224c0
+================================================================================
+
+
+================================================================================
+🐋🐋🐋🐋 ULTRA BALLENA DETECTADA 🐋🐋🐋🐋
+================================================================================
+💰 Valor: $22,578.00 USD  ⚡ NICHO (16.4% del mercado)
+📊 Mercado: Spread: Spurs (-6.5)
+🔗 URL: https://polymarket.com/event/nba-lac-sas-2026-03-06
+🎯 Outcome: Spurs
+📈 Lado: COMPRA
+💵 Precio: 0.5300 (53.00%)
+📦 Volumen: $137,463.21
+🕐 Hora: 2026-03-06 21:34:17
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: TutiFromFactsOfLife
+   Wallet: 0xc660ae71765d0d9eaf5fa8328c1c959841d2bd28
+   Perfil: https://polymarket.com/profile/0xc660ae71765d0d9eaf5fa8328c1c959841d2bd28
+   TX Hash: 0x800dc46c69b589082e...55ecf709cd
+   TX URL: https://polygonscan.com/tx/0x800dc46c69b589082e7118c96084dc9ca7dd1e6daab6311cf7bac055ecf709cd
+================================================================================
+🔥 SEÑAL CONSENSO: 2 ballenas → BUY | Total: $25,578
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $7,430.73 USD
+📊 Mercado: Blues vs. Sharks
+🔗 URL: https://polymarket.com/event/nhl-stl-sj-2026-03-06
+🎯 Outcome: Sharks
+📈 Lado: COMPRA
+💵 Precio: 0.5700 (57.00%)
+📦 Volumen: $306,390.21
+🕐 Hora: 2026-03-06 21:34:13
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: TutiFromFactsOfLife
+   Wallet: 0xc660ae71765d0d9eaf5fa8328c1c959841d2bd28
+   Perfil: https://polymarket.com/profile/0xc660ae71765d0d9eaf5fa8328c1c959841d2bd28
+   TX Hash: 0xe6693cc654a6524348...b6c8a640e0
+   TX URL: https://polygonscan.com/tx/0xe6693cc654a6524348e20c3515306fac94dfb1784821a3297ff070b6c8a640e0
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,500.00 USD
+📊 Mercado: Clippers vs. Spurs: O/U 222.5
+🔗 URL: https://polymarket.com/event/nba-lac-sas-2026-03-06
+🎯 Outcome: Over
+📈 Lado: COMPRA
+💵 Precio: 0.5000 (50.00%)
+📦 Volumen: $64,431.82
+🕐 Hora: 2026-03-06 21:38:57
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: TheOnlyHuman
+   Wallet: 0x6ade597c0e2b43c0bf3542cada8a5e330d73f5b0
+   Perfil: https://polymarket.com/profile/0x6ade597c0e2b43c0bf3542cada8a5e330d73f5b0
+   TX Hash: 0xf0a0e1b8abb22f58c1...586ba055da
+   TX URL: https://polygonscan.com/tx/0xf0a0e1b8abb22f58c1c03cd9f76573d1311136300f2494484eac1b586ba055da
+================================================================================
+
+
+================================================================================
+🐋🐋🐋🐋 ULTRA BALLENA DETECTADA 🐋🐋🐋🐋
+================================================================================
+💰 Valor: $20,080.05 USD  ⚡ NICHO (3.4% del mercado)
+📊 Mercado: Hurricanes vs. Oilers
+🔗 URL: https://polymarket.com/event/nhl-car-edm-2026-03-06
+🎯 Outcome: Hurricanes
+📈 Lado: COMPRA
+💵 Precio: 0.6700 (67.00%)
+📦 Volumen: $595,741.82
+🕐 Hora: 2026-03-06 21:44:57
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0x2a2C53bD278c04DA9962Fcf96490E17F3DfB9Bc1-1772479215461
+   Wallet: 0x2a2c53bd278c04da9962fcf96490e17f3dfb9bc1
+   Perfil: https://polymarket.com/profile/0x2a2c53bd278c04da9962fcf96490e17f3dfb9bc1
+   TX Hash: 0xa8e3cd70e5b664c05d...4e5a63febd
+   TX URL: https://polygonscan.com/tx/0xa8e3cd70e5b664c05de3532d9490f1682feee294f6f9458100b8914e5a63febd
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $5,213.00 USD
+📊 Mercado: Trail Blazers vs. Rockets
+🔗 URL: https://polymarket.com/event/nba-por-hou-2026-03-06
+🎯 Outcome: Trail Blazers
+📈 Lado: COMPRA
+💵 Precio: 0.3942 (39.42%)
+📦 Volumen: $869,230.36
+🕐 Hora: 2026-03-06 21:49:17
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: RawrRawr
+   Wallet: 0x71971342cb4c2555f60366ac62abdcdd1a1d14c8
+   Perfil: https://polymarket.com/profile/0x71971342cb4c2555f60366ac62abdcdd1a1d14c8
+   TX Hash: 0x6055e4fb54417d8a7e...de9855a86a
+   TX URL: https://polygonscan.com/tx/0x6055e4fb54417d8a7ea2d13bab1bbfa6080703df5072a9e086da8bde9855a86a
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $4,002.00 USD
+📊 Mercado: Will the Iranian regime fall by June 30?
+🔗 URL: https://polymarket.com/event/will-the-iranian-regime-fall-by-june-30
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.6900 (69.00%)
+📦 Volumen: $9,284,625.62
+🕐 Hora: 2026-03-06 21:49:13
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0xcCa90A5D3C8F2d6663817E3650D6aDbe9aB44C9f-1772395966516
+   Wallet: 0xcca90a5d3c8f2d6663817e3650d6adbe9ab44c9f
+   Perfil: https://polymarket.com/profile/0xcca90a5d3c8f2d6663817e3650d6adbe9ab44c9f
+   TX Hash: 0x9b497f664cf0a14496...2ed37a2c6b
+   TX URL: https://polygonscan.com/tx/0x9b497f664cf0a14496ec3b0b45d09a4d49c855a2140f3d8d9408b92ed37a2c6b
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $10,000.00 USD
+📊 Mercado: Knicks vs. Nuggets
+🔗 URL: https://polymarket.com/event/nba-nyk-den-2026-03-06
+🎯 Outcome: Knicks
+📈 Lado: COMPRA
+💵 Precio: 0.7500 (75.00%)
+📦 Volumen: $668,293.38
+🕐 Hora: 2026-03-06 22:14:59
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Blueberry1337
+   Wallet: 0x67bb64fac5252df3f61ee2d91a4b1350e40eb6ef
+   Perfil: https://polymarket.com/profile/0x67bb64fac5252df3f61ee2d91a4b1350e40eb6ef
+   TX Hash: 0xf43f9dabbfdaa084c3...8b5bf95d71
+   TX URL: https://polygonscan.com/tx/0xf43f9dabbfdaa084c3bb73294bbf9f5a73b2da7a89621568bc83f18b5bf95d71
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,771.33 USD
+📊 Mercado: Avalanche vs. Stars
+🔗 URL: https://polymarket.com/event/nhl-col-dal-2026-03-06
+🎯 Outcome: Avalanche
+📈 Lado: COMPRA
+💵 Precio: 0.5188 (51.88%)
+📦 Volumen: $286,054.59
+🕐 Hora: 2026-03-06 22:40:43
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: DraftkingsEmployee
+   Wallet: 0x13414a77a4be48988851c73dfd824d0168e70853
+   Perfil: https://polymarket.com/profile/0x13414a77a4be48988851c73dfd824d0168e70853
+   TX Hash: 0xa84b97fdfbe927a342...c10d685c1e
+   TX URL: https://polygonscan.com/tx/0xa84b97fdfbe927a3421a924eb2377b81f78eec6111a1d23a9b25bfc10d685c1e
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $7,305.77 USD
+📊 Mercado: Avalanche vs. Stars
+🔗 URL: https://polymarket.com/event/nhl-col-dal-2026-03-06
+🎯 Outcome: Stars
+📈 Lado: COMPRA
+💵 Precio: 0.5000 (50.00%)
+📦 Volumen: $286,054.59
+🕐 Hora: 2026-03-06 22:40:31
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: rustin
+   Wallet: 0xaa075924e1dc7cff3b9fab67401126338c4d2125
+   Perfil: https://polymarket.com/profile/0xaa075924e1dc7cff3b9fab67401126338c4d2125
+   TX Hash: 0xd4150bd8b6855dcf77...370fffee96
+   TX URL: https://polygonscan.com/tx/0xd4150bd8b6855dcf77d6a2ada642ce093169e5c79400e712ea95a8370fffee96
+================================================================================
+🔥 SEÑAL CONSENSO: 2 ballenas → BUY | Total: $10,077
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $3,670.10 USD
+📊 Mercado: Avalanche vs. Stars
+🔗 URL: https://polymarket.com/event/nhl-col-dal-2026-03-06
+🎯 Outcome: Stars
+📈 Lado: COMPRA
+💵 Precio: 0.4900 (49.00%)
+📦 Volumen: $286,054.59
+🕐 Hora: 2026-03-06 22:40:23
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: rustin
+   Wallet: 0xaa075924e1dc7cff3b9fab67401126338c4d2125
+   Perfil: https://polymarket.com/profile/0xaa075924e1dc7cff3b9fab67401126338c4d2125
+   TX Hash: 0xab39c3e408da57cd49...6ea19876f2
+   TX URL: https://polygonscan.com/tx/0xab39c3e408da57cd496b6513b8fe73a830f8fd29f3826e7676c5a06ea19876f2
+================================================================================
+🔥 SEÑAL CONSENSO: 3 ballenas → BUY | Total: $13,747
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,574.00 USD
+📊 Mercado: BNP Paribas Open: Anna Blinkova vs Amanda Anisimova
+🔗 URL: https://polymarket.com/event/wta-blinkov-anisimo-2026-03-06
+🎯 Outcome: Amanda Anisimova
+📈 Lado: COMPRA
+💵 Precio: 0.7600 (76.00%)
+📦 Volumen: $32,137.76
+🕐 Hora: 2026-03-06 23:34:45
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: sovereign2013
+   Wallet: 0xee613b3fc183ee44f9da9c05f53e2da107e3debf
+   Perfil: https://polymarket.com/profile/0xee613b3fc183ee44f9da9c05f53e2da107e3debf
+   TX Hash: 0xec73b845245929dcba...cb9b39ff57
+   TX URL: https://polygonscan.com/tx/0xec73b845245929dcba3f721d57b0d0ca94df0c2645dc49b5d2bfe5cb9b39ff57
+================================================================================
+
+
+================================================================================
+🐋🐋🐋🐋 ULTRA BALLENA DETECTADA 🐋🐋🐋🐋
+================================================================================
+💰 Valor: $26,001.54 USD
+📊 Mercado: Pacers vs. Lakers: O/U 234.5
+🔗 URL: https://polymarket.com/event/nba-ind-lal-2026-03-06
+🎯 Outcome: Under
+📈 Lado: COMPRA
+💵 Precio: 0.5400 (54.00%)
+📦 Volumen: $53,299.58
+🕐 Hora: 2026-03-06 23:44:59
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: KaneAnalytics
+   Wallet: 0x7e3a1f95c558f39a51ff334d789e3e039b553246
+   Perfil: https://polymarket.com/profile/0x7e3a1f95c558f39a51ff334d789e3e039b553246
+   TX Hash: 0x5f4fd3f93633ed11ac...7e03160a75
+   TX URL: https://polygonscan.com/tx/0x5f4fd3f93633ed11ac97f4a7eb9bbcf27931f24e7bf61ef19ea3267e03160a75
+================================================================================
+

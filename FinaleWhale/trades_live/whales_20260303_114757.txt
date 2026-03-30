@@ -1,0 +1,69 @@
+
+================================================================================
+MONITOR GOLD v3.0 INICIADO
+================================================================================
+Umbral de ballena:        $2,500.00 USD
+Intervalo de polling:     3 segundos
+Limite de trades/ciclo:   1000
+Ventana de tiempo:        30 minutos (solo trades recientes)
+Archivo de log:           trades_live/whales_20260303_114757.txt
+Trades en memoria:        5000
+Notificaciones Telegram:  ACTIVO
+Esperando trades...
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 47s — 🐋 BALLENA | Parz1vaI | 💎 DIAMOND
+================================================================================
+💰 Valor: $2,641.12 USD
+📊 Mercado: Will Iran close the Strait of Hormuz by June 30?
+🔗 URL: https://polymarket.com/event/will-iran-close-the-strait-of-hormuz-by-2027
+🎯 Outcome: Yes
+📈 Lado: VENTA
+💵 Precio: 0.7743 (77.43%)
+📦 Volumen: $759,875.63
+🕐 Trade original: 2026-03-03 11:41:39
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Parz1vaI
+   Wallet: 0xb10047d6a254b2ebb306d7a7d13bf59171ab6461
+   Perfil: https://polymarket.com/profile/0xb10047d6a254b2ebb306d7a7d13bf59171ab6461
+   TX Hash: 0xdced6fc4c07c187c2a...18fdb27b6c
+   TX URL: https://polygonscan.com/tx/0xdced6fc4c07c187c2abb9de051b95b82cd771ee689760482cda5f518fdb27b6c
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Capital $2,641 < $3K mínimo para señal. Ballena registrada pero sin acción recomendada.
+================================================================================
+
+
+
+================================================================================
+RESUMEN DE SESION (GOLD v3.0)
+================================================================================
+Tiempo de monitoreo:     0h 52m 2s
+Total de ballenas:       12
+Ballenas capturadas:     1
+Ballenas ignoradas:      11
+Valor promedio:          $6,126.57 USD
+Ballena mas grande:      $28,310.80 USD
+   Mercado: Will the price of Bitcoin be above $68,000 on Marc...
+   Wallet: 0xa55ea7beae052bd8d2...
+Mercados monitoreados:   1
+
+Archivos guardados:
+   - trades_live/whales_20260303_114757.txt (log formateado)
+   - trades_live/historial_trades.json (historial de trades)
+
+TOP 5 MERCADOS CON MAS BALLENAS:
+   1. Will Iran close the Strait of Hormuz by June 30?... (1 ballenas)
+
+================================================================================

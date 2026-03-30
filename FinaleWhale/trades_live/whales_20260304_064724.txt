@@ -1,0 +1,207 @@
+
+================================================================================
+MONITOR GOLD v3.0 INICIADO
+================================================================================
+Umbral de ballena:        $2,500.00 USD
+Intervalo de polling:     3 segundos
+Limite de trades/ciclo:   1000
+Ventana de tiempo:        30 minutos (solo trades recientes)
+Archivo de log:           trades_live/whales_20260304_064724.txt
+Trades en memoria:        0
+Notificaciones Telegram:  ACTIVO
+Esperando trades...
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $13,475.68 USD
+📊 Mercado: US x Iran ceasefire by May 31?
+🔗 URL: https://polymarket.com/event/us-x-iran-ceasefire-by
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.6640 (66.40%)
+📦 Volumen: $75,521.37
+🕐 Hora: 2026-03-04 06:41:23
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Anonimo
+   Wallet: 0xccef0a00acf527951f1f1a9784c3884e1baa02db
+   Perfil: https://polymarket.com/profile/0xccef0a00acf527951f1f1a9784c3884e1baa02db
+   TX Hash: 0x272eae75cbd285d478...692946c506
+   TX URL: https://polygonscan.com/tx/0x272eae75cbd285d478f60091d8d39fa42db0600c084f9762db0200692946c506
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 necesita HIGH RISK (tier=⚠️ RISKY), S1B necesita SOCCER (es OTHER), S4 necesita CRYPTO (es OTHER), S6 necesita ESPORTS (es OTHER) | Sin FOLLOW: S2/S2B/S2C necesita NBA (es OTHER), S3 necesita mercado nicho, S5 necesita SOCCER (es OTHER)
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $7,575.00 USD
+📊 Mercado: Counter-Strike: ex-Fingers Crossed vs Pigeons - Map 1 Winner
+🔗 URL: https://polymarket.com/event/cs2-finger1-pge-2026-03-04
+🎯 Outcome: ex-Fingers Crossed
+📈 Lado: VENTA
+💵 Precio: 0.5000 (50.00%)
+📦 Volumen: $48,675.00
+🕐 Hora: 2026-03-04 07:11:37
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Blyra
+   Wallet: 0xa652efcd4c7e4119f578032b056136b3f29a6f8f
+   Perfil: https://polymarket.com/profile/0xa652efcd4c7e4119f578032b056136b3f29a6f8f
+   TX Hash: 0x1b0a736da3a9e026bc...f756bda51a
+   TX URL: https://polygonscan.com/tx/0x1b0a736da3a9e026bcdb8e600ef50a9da73711eab082dfe81f9717f756bda51a
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 necesita precio <0.45 (es 0.50), S1B necesita SOCCER (es ESPORTS), S4 necesita CRYPTO (es ESPORTS), S6 necesita precio <0.50 (es 0.50) | Sin FOLLOW: S2/S2B/S2C necesita NBA (es ESPORTS), S3 necesita mercado nicho, S5 necesita SOCCER (es ESPORTS)
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $3,300.00 USD
+📊 Mercado: Will Arsenal win the 2025–26 English Premier League?
+🔗 URL: https://polymarket.com/event/english-premier-league-winner
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.3300 (33.00%)
+📦 Volumen: $6,446,904.20
+🕐 Hora: 2026-03-04 07:16:01
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Anonimo
+   Wallet: 0x89cd944aa9cf528142e3557099c6992eb7ce4d7d
+   Perfil: https://polymarket.com/profile/0x89cd944aa9cf528142e3557099c6992eb7ce4d7d
+   TX Hash: 0x2792c2e8a40f879071...c52f3760f7
+   TX URL: https://polygonscan.com/tx/0x2792c2e8a40f879071ac9f29fa98e01e4e706b8370672354c3b60fc52f3760f7
+================================================================================
+
+╔══════════════════════════════════════════════════════════════╗
+║   ██████╗ ██████╗ ██╗   ██╗███╗  ██╗████████╗███████╗██████╗ ║
+║  ██╔════╝██╔═══██╗██║   ██║████╗ ██║╚══██╔══╝██╔════╝██╔══██╗║
+║  ██║     ██║   ██║██║   ██║██╔██╗██║   ██║   █████╗  ██████╔╝║
+║  ██║     ██║   ██║██║   ██║██║╚████║   ██║   ██╔══╝  ██╔══██╗║
+║  ╚██████╗╚██████╔╝╚██████╔╝██║ ╚███║   ██║   ███████╗██║  ██║║
+║   ╚═════╝ ╚═════╝  ╚═════╝ ╚═╝  ╚══╝   ╚═╝   ╚══════╝╚═╝  ╚═╝║
+╚══════════════════════════════════════════════════════════════╝
+  Signal: S1B  |  Conf: HIGH  |  WR: 87.0%  |  ROI esperado: +163.6%
+  › S1B: Counter Fútbol a 0.33 cualquier tier (WR 87.0%, N=23)
+================================================================================
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.59 (58.8%)
+   Polymarket:   0.33 (33.0%)
+   Edge:         +25.8% ✅
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $5,271.62 USD
+📊 Mercado: Counter-Strike: Astralis vs 3DMAX (BO3) - ESL Pro League Stage 1
+🔗 URL: https://polymarket.com/event/cs2-ast10-3dmax-2026-03-04
+🎯 Outcome: 3DMAX
+📈 Lado: COMPRA
+💵 Precio: 0.3700 (37.00%)
+📦 Volumen: $196,512.61
+🕐 Hora: 2026-03-04 07:22:05
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: bossoskil1
+   Wallet: 0xa5ea13a81d2b7e8e424b182bdc1db08e756bd96a
+   Perfil: https://polymarket.com/profile/0xa5ea13a81d2b7e8e424b182bdc1db08e756bd96a
+   TX Hash: 0x6da4eac81a7d753b6d...bd37269a79
+   TX URL: https://polygonscan.com/tx/0x6da4eac81a7d753b6d99c093495dd7dd8754bfeaee4de8a1e70db5bd37269a79
+================================================================================
+
+╔══════════════════════════════════════════════════════════════╗
+║   ██████╗ ██████╗ ██╗   ██╗███╗  ██╗████████╗███████╗██████╗ ║
+║  ██╔════╝██╔═══██╗██║   ██║████╗ ██║╚══██╔══╝██╔════╝██╔══██╗║
+║  ██║     ██║   ██║██║   ██║██╔██╗██║   ██║   █████╗  ██████╔╝║
+║  ██║     ██║   ██║██║   ██║██║╚████║   ██║   ██╔══╝  ██╔══██╗║
+║  ╚██████╗╚██████╔╝╚██████╔╝██║ ╚███║   ██║   ███████╗██║  ██║║
+║   ╚═════╝ ╚═════╝  ╚═════╝ ╚═╝  ╚══╝   ╚═╝   ╚══════╝╚═╝  ╚═╝║
+╚══════════════════════════════════════════════════════════════╝
+  Signal: S6  |  Conf: LOW  |  WR: 66.7%  |  ROI esperado: +80.1%
+  › S6: Counter ESPORTS a 0.37 (WR 66.7%, N=24)
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 53s — 🐋🐋 BALLENA GRANDE | dfhdfh | 🥉 BRONZE
+================================================================================
+💰 Valor: $9,180.00 USD
+📊 Mercado: Counter-Strike: M80 vs Liquid (BO3) - ESL Pro League Stage 1
+🔗 URL: https://polymarket.com/event/cs2-m80-tl1-2026-03-04
+🎯 Outcome: M80
+📈 Lado: COMPRA
+💵 Precio: 0.5100 (51.00%)
+📦 Volumen: $452,384.92
+🕐 Trade original: 2026-03-04 07:41:31
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: dfhdfh
+   Wallet: 0xe015b5a2a299167be835a2fd1e86f09c49e06ffd
+   Perfil: https://polymarket.com/profile/0xe015b5a2a299167be835a2fd1e86f09c49e06ffd
+   TX Hash: 0x967d7f44e3d1244f17...7d18c51142
+   TX URL: https://polygonscan.com/tx/0x967d7f44e3d1244f17fb500846ef20a22f2fbdbc36e07285aa27167d18c51142
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 necesita HIGH RISK (tier=🥉 BRONZE), S1B necesita SOCCER (es ESPORTS), S4 necesita CRYPTO (es ESPORTS), S6 necesita precio <0.50 (es 0.51) | Sin FOLLOW: S2/S2B/S2C necesita NBA (es ESPORTS), S3 necesita mercado nicho, S5 necesita SOCCER (es ESPORTS)
+================================================================================
+
+
+
+================================================================================
+RESUMEN DE SESION (GOLD v3.0)
+================================================================================
+Tiempo de monitoreo:     1h 20m 18s
+Total de ballenas:       11
+Ballenas capturadas:     5
+Ballenas ignoradas:      6
+Valor promedio:          $10,563.70 USD
+Ballena mas grande:      $60,000.00 USD
+   Mercado: Trump out as President by March 31?...
+   Wallet: 0xe1194d05876b71b055...
+Mercados monitoreados:   5
+
+Archivos guardados:
+   - trades_live/whales_20260304_064724.txt (log formateado)
+   - trades_live/historial_trades.json (historial de trades)
+
+TOP 5 MERCADOS CON MAS BALLENAS:
+   1. US x Iran ceasefire by May 31?... (1 ballenas)
+   2. Counter-Strike: ex-Fingers Crossed vs Pigeons - Map 1 Winner... (1 ballenas)
+   3. Will Arsenal win the 2025–26 English Premier League?... (1 ballenas)
+   4. Counter-Strike: Astralis vs 3DMAX (BO3) - ESL Pro League Sta... (1 ballenas)
+   5. Counter-Strike: M80 vs Liquid (BO3) - ESL Pro League Stage 1... (1 ballenas)
+
+================================================================================

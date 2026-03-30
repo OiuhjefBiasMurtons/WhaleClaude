@@ -1,0 +1,397 @@
+
+================================================================================
+MONITOR GOLD v3.0 INICIADO
+================================================================================
+Umbral de ballena:        $2,500.00 USD
+Intervalo de polling:     3 segundos
+Limite de trades/ciclo:   1000
+Ventana de tiempo:        30 minutos (solo trades recientes)
+Archivo de log:           trades_live/whales_20260314_101345.txt
+Trades en memoria:        0
+Notificaciones Telegram:  ACTIVO
+Esperando trades...
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $4,560.77 USD
+📊 Mercado: Counter-Strike: Natus Vincere vs FUT Esports (BO3) - ESL Pro League Playoffs
+🔗 URL: https://polymarket.com/event/cs2-navi-fut-2026-03-14
+🎯 Outcome: Natus Vincere
+📈 Lado: COMPRA
+💵 Precio: 0.8100 (81.00%)
+📦 Volumen: $623,125.50
+🕐 Hora: 2026-03-14 10:10:35
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: ACEE123
+   Wallet: 0xcc8f0e3bd33b98eb19a0c122397b6ce69cffa7bb
+   Perfil: https://polymarket.com/profile/0xcc8f0e3bd33b98eb19a0c122397b6ce69cffa7bb
+   TX Hash: 0x15f3ceaf51cde10ee9...422f0df596
+   TX URL: https://polygonscan.com/tx/0x15f3ceaf51cde10ee90f68d6a92fe800541ebf7dbfe3719517cb21422f0df596
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Capital $4,561 < $5K mínimo para señal (v7.4: $3K-5K WR 50% coin flip). Ballena registrada pero sin acción recomendada.
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $3,080.00 USD
+📊 Mercado: Bucks vs. Hawks
+🔗 URL: https://polymarket.com/event/nba-mil-atl-2026-03-14
+🎯 Outcome: Hawks
+📈 Lado: COMPRA
+💵 Precio: 0.7700 (77.00%)
+📦 Volumen: $279,669.05
+🕐 Hora: 2026-03-14 10:15:41
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Weebay
+   Wallet: 0x617b46903eaadc7dfb4f94e18408e2033ee3a499
+   Perfil: https://polymarket.com/profile/0x617b46903eaadc7dfb4f94e18408e2033ee3a499
+   TX Hash: 0x14518e0ca3f4bafa5b...e6c40c93e2
+   TX URL: https://polygonscan.com/tx/0x14518e0ca3f4bafa5bda57459471e3e79bb3c58162081645d080aee6c40c93e2
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Capital $3,080 < $5K mínimo para señal (v7.4: $3K-5K WR 50% coin flip). Ballena registrada pero sin acción recomendada.
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 40s — 🐋 BALLENA | swy01 | 💀 HIGH RISK
+================================================================================
+💰 Valor: $3,430.00 USD
+📊 Mercado: Will TSG 1899 Hoffenheim win on 2026-03-14?
+🔗 URL: https://polymarket.com/event/bun-hof-wol-2026-03-14
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.6400 (64.00%)
+📦 Volumen: $562,336.48
+🕐 Trade original: 2026-03-14 10:15:41
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: swy01
+   Wallet: 0xe3d4dee2427b98042822543f8e1e8ab7bafb2bac
+   Perfil: https://polymarket.com/profile/0xe3d4dee2427b98042822543f8e1e8ab7bafb2bac
+   TX Hash: 0x4ab4a2069bf2534e7b...842ac2c682
+   TX URL: https://polygonscan.com/tx/0x4ab4a2069bf2534e7b4b44cc239c29ca7cd27a50c6a9c895bf9079842ac2c682
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Capital $3,430 < $5K mínimo para señal (v7.4: $3K-5K WR 50% coin flip). Ballena registrada pero sin acción recomendada.
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $8,557.40 USD
+📊 Mercado: Ducks vs. Senators
+🔗 URL: https://polymarket.com/event/nhl-ana-ott-2026-03-14
+🎯 Outcome: Ducks
+📈 Lado: COMPRA
+💵 Precio: 0.3800 (38.00%)
+📦 Volumen: $600,550.77
+🕐 Hora: 2026-03-14 10:20:41
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: chenpengzao
+   Wallet: 0xb2a48372404e6a0bfb6c2f23d715d3acc5a8cf8a
+   Perfil: https://polymarket.com/profile/0xb2a48372404e6a0bfb6c2f23d715d3acc5a8cf8a
+   TX Hash: 0x263ce2e5387821a334...8104d953c3
+   TX URL: https://polygonscan.com/tx/0x263ce2e5387821a334db9f5303e2365e22eae5d431570de9fe0b018104d953c3
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 DESACTIVADO v7.4 (global WR 35.3% N=51 — premisa refutada), S4 necesita CRYPTO (es NHL), S6 necesita ESPORTS (es NHL), S9 necesita HIGH RISK en NHL (tier=🥉 BRONZE) | Sin FOLLOW: S2/S2B/S2C necesita NBA (es NHL), S3 necesita mercado nicho
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,765.40 USD
+📊 Mercado: Will TSG 1899 Hoffenheim win on 2026-03-14?
+🔗 URL: https://polymarket.com/event/bun-hof-wol-2026-03-14
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.6000 (60.00%)
+📦 Volumen: $562,336.48
+🕐 Hora: 2026-03-14 10:25:49
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: swisstony
+   Wallet: 0x204f72f35326db932158cba6adff0b9a1da95e14
+   Perfil: https://polymarket.com/profile/0x204f72f35326db932158cba6adff0b9a1da95e14
+   TX Hash: 0x6ad18a16f776b45766...a9c482fcb6
+   TX URL: https://polygonscan.com/tx/0x6ad18a16f776b45766587529f7c78ac9a7c56c94e4551b075d378ea9c482fcb6
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Capital $2,765 < $5K mínimo para señal (v7.4: $3K-5K WR 50% coin flip). Ballena registrada pero sin acción recomendada.
+  ⚠ Trader swisstony está en BLACKLIST. Evaluar counter.
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $6,948.70 USD
+📊 Mercado: Will TSG 1899 Hoffenheim win on 2026-03-14?
+🔗 URL: https://polymarket.com/event/bun-hof-wol-2026-03-14
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.6000 (60.00%)
+📦 Volumen: $562,336.48
+🕐 Hora: 2026-03-14 10:25:41
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: swisstony
+   Wallet: 0x204f72f35326db932158cba6adff0b9a1da95e14
+   Perfil: https://polymarket.com/profile/0x204f72f35326db932158cba6adff0b9a1da95e14
+   TX Hash: 0x8f7257c9b0bd363d53...818ef1e65e
+   TX URL: https://polygonscan.com/tx/0x8f7257c9b0bd363d53b8be218c49ad15a6ff42f7775d048e6040a7818ef1e65e
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 DESACTIVADO v7.4 (global WR 35.3% N=51 — premisa refutada), S4 necesita CRYPTO (es OTHER), S6 necesita ESPORTS (es OTHER) | Sin FOLLOW: S2/S2B/S2C necesita NBA (es OTHER), S3 necesita mercado nicho
+  ⚠ Trader swisstony está en BLACKLIST. Evaluar counter.
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $9,871.37 USD
+📊 Mercado: Will TSG 1899 Hoffenheim win on 2026-03-14?
+🔗 URL: https://polymarket.com/event/bun-hof-wol-2026-03-14
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.6000 (60.00%)
+📦 Volumen: $562,336.48
+🕐 Hora: 2026-03-14 10:25:37
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: knedloveprovelo
+   Wallet: 0xd6a3f0ec6c4a8ad680d580610c82ca57ff139489
+   Perfil: https://polymarket.com/profile/0xd6a3f0ec6c4a8ad680d580610c82ca57ff139489
+   TX Hash: 0x7d08c697ad2739b841...95ffffc24f
+   TX URL: https://polygonscan.com/tx/0x7d08c697ad2739b84116469ec45267fae7b7c97f5bd2fc122b6df695ffffc24f
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 DESACTIVADO v7.4 (global WR 35.3% N=51 — premisa refutada), S4 necesita CRYPTO (es OTHER), S6 necesita ESPORTS (es OTHER) | Sin FOLLOW: S2/S2B/S2C necesita NBA (es OTHER), S3 necesita mercado nicho
+================================================================================
+🔥 SEÑAL CONSENSO: 2 ballenas → BUY | Total: $16,820
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 41s — 🐋 BALLENA | Sunshine.Smile | 💀 HIGH RISK
+================================================================================
+💰 Valor: $4,116.45 USD
+📊 Mercado: Counter-Strike: Natus Vincere vs FUT Esports - Map 2 Winner
+🔗 URL: https://polymarket.com/event/cs2-navi-fut-2026-03-14
+🎯 Outcome: Natus Vincere
+📈 Lado: COMPRA
+💵 Precio: 0.6500 (65.00%)
+📦 Volumen: $86,412.67
+🕐 Trade original: 2026-03-14 10:25:55
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Sunshine.Smile
+   Wallet: 0xd3b034d7bfb2473fb252d0414646d9786bac329e
+   Perfil: https://polymarket.com/profile/0xd3b034d7bfb2473fb252d0414646d9786bac329e
+   TX Hash: 0xb29420b28f1143c90e...5272637c68
+   TX URL: https://polygonscan.com/tx/0xb29420b28f1143c90e42f3d76c94d61ddd4ec9d7a93c71832804245272637c68
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Capital $4,116 < $5K mínimo para señal (v7.4: $3K-5K WR 50% coin flip). Ballena registrada pero sin acción recomendada.
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 1.3min — 🐋 BALLENA | EF203F2IPFC2ICP20W-CP3 | 💀 HIGH RISK
+================================================================================
+💰 Valor: $3,120.00 USD
+📊 Mercado: Will TSG 1899 Hoffenheim win on 2026-03-14?
+🔗 URL: https://polymarket.com/event/bun-hof-wol-2026-03-14
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.6000 (60.00%)
+📦 Volumen: $562,336.48
+🕐 Trade original: 2026-03-14 10:25:33
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: EF203F2IPFC2ICP20W-CP3
+   Wallet: 0x4133bcbad1d9c41de776646696f41c34d0a65e70
+   Perfil: https://polymarket.com/profile/0x4133bcbad1d9c41de776646696f41c34d0a65e70
+   TX Hash: 0xbd65c0fceb1416a1a1...a5032e1f25
+   TX URL: https://polygonscan.com/tx/0xbd65c0fceb1416a1a1d75dc0fa4c048ad6dd6659c5b46ba1cd66baa5032e1f25
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Capital $3,120 < $5K mínimo para señal (v7.4: $3K-5K WR 50% coin flip). Ballena registrada pero sin acción recomendada.
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 42s — 🐋 BALLENA | olegio | 💀 HIGH RISK
+================================================================================
+💰 Valor: $2,880.00 USD
+📊 Mercado: Dota 2: BetBoom Team vs Team Yandex - Game 2 Winner
+🔗 URL: https://polymarket.com/event/dota2-bb4-ty-2026-03-14
+🎯 Outcome: Team Yandex
+📈 Lado: COMPRA
+💵 Precio: 0.4800 (48.00%)
+📦 Volumen: $28,768.22
+🕐 Trade original: 2026-03-14 10:40:45
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: olegio
+   Wallet: 0x12ec6d71325afac2b4d25b3de94185e2c48d41ae
+   Perfil: https://polymarket.com/profile/0x12ec6d71325afac2b4d25b3de94185e2c48d41ae
+   TX Hash: 0x142ea03c26381880e2...b94ed1d96b
+   TX URL: https://polygonscan.com/tx/0x142ea03c26381880e22c5445a93e9606e13bf89374a05dee6ed950b94ed1d96b
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Capital $2,880 < $5K mínimo para señal (v7.4: $3K-5K WR 50% coin flip). Ballena registrada pero sin acción recomendada.
+  ⚠ Precio en zona 0.45-0.49: sin señal activa para esta categoría. No activa S1 ni S2.
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 40s — 🦈 TIBURÓN | gbbgxfb | 💀 HIGH RISK
+================================================================================
+💰 Valor: $1,000.00 USD  ⚡ NICHO
+📊 Mercado: Dota 2: BetBoom Team vs Team Yandex - Game 2 Winner
+🔗 URL: https://polymarket.com/event/dota2-bb4-ty-2026-03-14
+🎯 Outcome: Team Yandex
+📈 Lado: COMPRA
+💵 Precio: 0.5300 (53.00%)
+📦 Volumen: $28,768.22
+🕐 Trade original: 2026-03-14 10:45:49
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: gbbgxfb
+   Wallet: 0x27753c9c8dcdec6f35e30c3dc64fcd0797d93652
+   Perfil: https://polymarket.com/profile/0x27753c9c8dcdec6f35e30c3dc64fcd0797d93652
+   TX Hash: 0x355270d7a33fe83dd3...10c0c64ccb
+   TX URL: https://polygonscan.com/tx/0x355270d7a33fe83dd3d31b2b51c59a34d6655ebde5c6e8545f9b8810c0c64ccb
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Capital $1,000 < $5K mínimo para señal (v7.4: $3K-5K WR 50% coin flip). Ballena registrada pero sin acción recomendada.
+================================================================================
+
+
+
+================================================================================
+RESUMEN DE SESION (GOLD v3.0)
+================================================================================
+Tiempo de monitoreo:     0h 40m 47s
+Total de ballenas:       24
+Ballenas capturadas:     13
+Ballenas ignoradas:      11
+Valor promedio:          $4,815.42 USD
+Ballena mas grande:      $14,040.16 USD
+   Mercado: Counter-Strike: Natus Vincere vs FUT Esports (BO3)...
+   Wallet: 0xf9885da150836378ce...
+Mercados monitoreados:   7
+
+Archivos guardados:
+   - trades_live/whales_20260314_101345.txt (log formateado)
+   - trades_live/historial_trades.json (historial de trades)
+
+TOP 5 MERCADOS CON MAS BALLENAS:
+   1. Will TSG 1899 Hoffenheim win on 2026-03-14?... (6 ballenas)
+   2. Dota 2: BetBoom Team vs Team Yandex - Game 2 Winner... (2 ballenas)
+   3. Counter-Strike: Natus Vincere vs FUT Esports (BO3) - ESL Pro... (1 ballenas)
+   4. Bucks vs. Hawks... (1 ballenas)
+   5. Ducks vs. Senators... (1 ballenas)
+
+================================================================================

@@ -1,0 +1,203 @@
+
+================================================================================
+MONITOR GOLD v3.0 INICIADO
+================================================================================
+Umbral de ballena:        $2,500.00 USD
+Intervalo de polling:     3 segundos
+Limite de trades/ciclo:   1000
+Ventana de tiempo:        30 minutos (solo trades recientes)
+Archivo de log:           trades_live/whales_20260303_100420.txt
+Trades en memoria:        5000
+Notificaciones Telegram:  ACTIVO
+Esperando trades...
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 44s — 🐋🐋 BALLENA GRANDE | TheVeteran77 | 💀 HIGH RISK
+================================================================================
+💰 Valor: $8,850.00 USD
+📊 Mercado: Counter-Strike: paiN vs Passion UA (BO3) - ESL Pro League Stage 1
+🔗 URL: https://polymarket.com/event/cs2-pain-pssnua-2026-03-03
+🎯 Outcome: Passion UA
+📈 Lado: COMPRA
+💵 Precio: 0.5900 (59.00%)
+📦 Volumen: $219,763.18
+🕐 Trade original: 2026-03-03 10:22:17
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: TheVeteran77
+   Wallet: 0x6304679c4bee05e560ebb637758a617086d4e570
+   Perfil: https://polymarket.com/profile/0x6304679c4bee05e560ebb637758a617086d4e570
+   TX Hash: 0xd0e6bfac799c9cc7b7...8b9d92b64e
+   TX URL: https://polygonscan.com/tx/0xd0e6bfac799c9cc7b735da0e662a115a917ba1e589a5739e6e2b718b9d92b64e
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 necesita precio <0.45 (es 0.59), S1B necesita SOCCER (es ESPORTS), S4 necesita CRYPTO (es ESPORTS), S6 necesita precio <0.50 (es 0.59) | Sin FOLLOW: S2/S2B/S2C necesita NBA (es ESPORTS), S3 necesita mercado nicho, S5 necesita SOCCER (es ESPORTS)
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $5,000.00 USD
+📊 Mercado: Suns vs. Kings
+🔗 URL: https://polymarket.com/event/nba-phx-sac-2026-03-03
+🎯 Outcome: Suns
+📈 Lado: COMPRA
+💵 Precio: 0.7800 (78.00%)
+📦 Volumen: $226,064.36
+🕐 Hora: 2026-03-03 11:01:19
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: HOCHI
+   Wallet: 0xe2cf7f3715640bdda625974ab3d3c83495edd1e7
+   Perfil: https://polymarket.com/profile/0xe2cf7f3715640bdda625974ab3d3c83495edd1e7
+   TX Hash: 0x09a7faf99ef94af7b2...527e0d1553
+   TX URL: https://polygonscan.com/tx/0x09a7faf99ef94af7b2e094a9766200c57f05a2e259453f266b1934527e0d1553
+================================================================================
+
+╔══════════════════════════════════════════════════╗
+║  ███████╗ ██████╗ ██╗     ██╗      ██████╗ ██╗  ║
+║  ██╔════╝██╔═══██╗██║     ██║     ██╔═══██╗██║  ║
+║  █████╗  ██║   ██║██║     ██║     ██║   ██║██║  ║
+║  ██╔══╝  ██║   ██║██║     ██║     ██║   ██║╚═╝  ║
+║  ██║     ╚██████╔╝███████╗███████╗╚██████╔╝██╗  ║
+║  ╚═╝      ╚═════╝ ╚══════╝╚══════╝ ╚═════╝ ╚═╝  ║
+╚══════════════════════════════════════════════════╝
+  Signal: S2B  |  Conf: HIGH  |  WR: 80.0%  |  ROI esperado: +2.4%
+  › S2B: Follow NBA a 0.78 (WR 80.0%, N=60, rango 0.60-0.80, excl. HIGH RISK/BOT)
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $14,139.80 USD  ⚡ NICHO (6.4% del mercado)
+📊 Mercado: Counter-Strike: paiN vs Passion UA (BO3) - ESL Pro League Stage 1
+🔗 URL: https://polymarket.com/event/cs2-pain-pssnua-2026-03-03
+🎯 Outcome: paiN
+📈 Lado: COMPRA
+💵 Precio: 0.4300 (43.00%)
+📦 Volumen: $219,763.18
+🕐 Hora: 2026-03-03 11:01:13
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: hioa
+   Wallet: 0xccb290b1c145d1c95695d3756346bba9f1398586
+   Perfil: https://polymarket.com/profile/0xccb290b1c145d1c95695d3756346bba9f1398586
+   TX Hash: 0x43fb7322cdd3feb2ad...95de695ebc
+   TX URL: https://polygonscan.com/tx/0x43fb7322cdd3feb2adf1668679cf771f88377c5f00727d3dc98c3495de695ebc
+================================================================================
+
+╔══════════════════════════════════════════════════════════════╗
+║   ██████╗ ██████╗ ██╗   ██╗███╗  ██╗████████╗███████╗██████╗ ║
+║  ██╔════╝██╔═══██╗██║   ██║████╗ ██║╚══██╔══╝██╔════╝██╔══██╗║
+║  ██║     ██║   ██║██║   ██║██╔██╗██║   ██║   █████╗  ██████╔╝║
+║  ██║     ██║   ██║██║   ██║██║╚████║   ██║   ██╔══╝  ██╔══██╗║
+║  ╚██████╗╚██████╔╝╚██████╔╝██║ ╚███║   ██║   ███████╗██║  ██║║
+║   ╚═════╝ ╚═════╝  ╚═════╝ ╚═╝  ╚══╝   ╚═╝   ╚══════╝╚═╝  ╚═╝║
+╚══════════════════════════════════════════════════════════════╝
+  Signal: S6  |  Conf: LOW  |  WR: 66.7%  |  ROI esperado: +55.4%
+  › S6: Counter ESPORTS a 0.43 (WR 66.7%, N=24)
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 1.4min — 🐋 BALLENA | gandam77 | 📊 STANDARD
+================================================================================
+💰 Valor: $4,300.00 USD
+📊 Mercado: Pistons vs. Cavaliers
+🔗 URL: https://polymarket.com/event/nba-det-cle-2026-03-03
+🎯 Outcome: Cavaliers
+📈 Lado: COMPRA
+💵 Precio: 0.4300 (43.00%)
+📦 Volumen: $685,667.06
+🕐 Trade original: 2026-03-03 11:01:15
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: gandam77
+   Wallet: 0xed7c7dc23cb653f642deeaf7d19f8e9bb8ccd596
+   Perfil: https://polymarket.com/profile/0xed7c7dc23cb653f642deeaf7d19f8e9bb8ccd596
+   TX Hash: 0x979fa0007e4add9d76...8c181710b0
+   TX URL: https://polygonscan.com/tx/0x979fa0007e4add9d760affe63bf15f3584e56266823bd552bc4db08c181710b0
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 necesita HIGH RISK (tier=📊 STANDARD), S1B necesita SOCCER (es NBA), S4 necesita CRYPTO (es NBA), S6 necesita ESPORTS (es NBA) | Sin FOLLOW: S2C/S2/S2B necesita precio 0.45-0.80 (es 0.43), S3 necesita mercado nicho, S5 necesita SOCCER (es NBA)
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 42s — 🐋 BALLENA | 0x48E29B54CC028b71d9af1bcb157B7Ba8e6482A5F-1769907179652 | 🥉 BRONZE
+================================================================================
+💰 Valor: $2,789.63 USD
+📊 Mercado: Will Deportivo Toluca FC win on 2026-03-03?
+🔗 URL: https://polymarket.com/event/mex-pum-tol-2026-03-03
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.4900 (49.00%)
+📦 Volumen: $45,726.56
+🕐 Trade original: 2026-03-03 11:26:47
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0x48E29B54CC028b71d9af1bcb157B7Ba8e6482A5F-1769907179652
+   Wallet: 0x48e29b54cc028b71d9af1bcb157b7ba8e6482a5f
+   Perfil: https://polymarket.com/profile/0x48e29b54cc028b71d9af1bcb157b7ba8e6482a5f
+   TX Hash: 0x874121de79a3d3fb8d...bcb4d160c2
+   TX URL: https://polygonscan.com/tx/0x874121de79a3d3fb8d2f3c138ac318848060fb52d1c845215e2358bcb4d160c2
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Capital $2,790 < $3K mínimo para señal. Ballena registrada pero sin acción recomendada.
+  ⚠ Precio en zona 0.45-0.49: sin señal activa para esta categoría. No activa S1 ni S2.
+================================================================================
+
+
+
+================================================================================
+RESUMEN DE SESION (GOLD v3.0)
+================================================================================
+Tiempo de monitoreo:     1h 43m 32s
+Total de ballenas:       35
+Ballenas capturadas:     5
+Ballenas ignoradas:      30
+Valor promedio:          $3,845.46 USD
+Ballena mas grande:      $14,139.80 USD
+   Mercado: Counter-Strike: paiN vs Passion UA (BO3) - ESL Pro...
+   Wallet: 0xccb290b1c145d1c956...
+Mercados monitoreados:   4
+
+Archivos guardados:
+   - trades_live/whales_20260303_100420.txt (log formateado)
+   - trades_live/historial_trades.json (historial de trades)
+
+TOP 5 MERCADOS CON MAS BALLENAS:
+   1. Counter-Strike: paiN vs Passion UA (BO3) - ESL Pro League St... (2 ballenas)
+   2. Suns vs. Kings... (1 ballenas)
+   3. Pistons vs. Cavaliers... (1 ballenas)
+   4. Will Deportivo Toluca FC win on 2026-03-03?... (1 ballenas)
+
+================================================================================

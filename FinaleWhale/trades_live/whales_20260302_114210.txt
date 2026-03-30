@@ -1,0 +1,38 @@
+
+================================================================================
+MONITOR GOLD v3.0 INICIADO
+================================================================================
+Umbral de ballena:        $2,500.00 USD
+Intervalo de polling:     3 segundos
+Limite de trades/ciclo:   1000
+Ventana de tiempo:        30 minutos (solo trades recientes)
+Archivo de log:           trades_live/whales_20260302_114210.txt
+Trades en memoria:        5000
+Notificaciones Telegram:  ACTIVO
+Esperando trades...
+================================================================================
+
+
+
+================================================================================
+RESUMEN DE SESION (GOLD v3.0)
+================================================================================
+Tiempo de monitoreo:     0h 14m 6s
+Total de ballenas:       6
+Ballenas capturadas:     2
+Ballenas ignoradas:      4
+Valor promedio:          $6,256.63 USD
+Ballena mas grande:      $13,686.80 USD
+   Mercado: Will Elon Musk post 180-199 tweets from February 2...
+   Wallet: 0xe855502b8c19bc1f26...
+Mercados monitoreados:   2
+
+Archivos guardados:
+   - trades_live/whales_20260302_114210.txt (log formateado)
+   - trades_live/historial_trades.json (historial de trades)
+
+TOP 5 MERCADOS CON MAS BALLENAS:
+   1. Will Bitcoin reach $80,000 in March?... (1 ballenas)
+   2. Valorant: Team Liquid vs Gentle Mates (BO3) - VCT Masters Sa... (1 ballenas)
+
+================================================================================

@@ -1,0 +1,102 @@
+
+================================================================================
+MONITOR GOLD v3.0 INICIADO
+================================================================================
+Umbral de ballena:        $2,500.00 USD
+Intervalo de polling:     3 segundos
+Limite de trades/ciclo:   1000
+Ventana de tiempo:        30 minutos (solo trades recientes)
+Archivo de log:           trades_live/whales_20260303_095111.txt
+Trades en memoria:        5000
+Notificaciones Telegram:  ACTIVO
+Esperando trades...
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 55s — 🐋🐋 BALLENA GRANDE | archaic | 🥇 GOLD
+================================================================================
+💰 Valor: $5,030.88 USD
+📊 Mercado: Will the Iranian regime fall by March 31?
+🔗 URL: https://polymarket.com/event/will-the-iranian-regime-fall-by-march-31
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.8007 (80.07%)
+📦 Volumen: $16,949,836.14
+🕐 Trade original: 2026-03-03 09:51:59
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: archaic
+   Wallet: 0x1f0a343513aa6060488fabe96960e6d1e177f7aa
+   Perfil: https://polymarket.com/profile/0x1f0a343513aa6060488fabe96960e6d1e177f7aa
+   TX Hash: 0xc7a53ebe182e3e175e...4413b3a74a
+   TX URL: https://polygonscan.com/tx/0xc7a53ebe182e3e175ec440a0f14e98da9f126d7472a50ca94adad64413b3a74a
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 necesita HIGH RISK (tier=🥇 GOLD), S1B necesita SOCCER (es OTHER), S4 necesita CRYPTO (es OTHER), S6 necesita ESPORTS (es OTHER) | Sin FOLLOW: S2/S2B/S2C necesita NBA (es OTHER), S3 necesita mercado nicho, S5 necesita SOCCER (es OTHER)
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 45s — 🐋 BALLENA | Saivestor | 🥉 BRONZE
+================================================================================
+💰 Valor: $4,346.00 USD
+📊 Mercado: Utah vs. Capitals
+🔗 URL: https://polymarket.com/event/nhl-utah-wsh-2026-03-03
+🎯 Outcome: Capitals
+📈 Lado: COMPRA
+💵 Precio: 0.5300 (53.00%)
+📦 Volumen: $29,758.17
+🕐 Trade original: 2026-03-03 10:01:11
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Saivestor
+   Wallet: 0xbd0923420f3bbe8580237cd8fadb25a46cd2a188
+   Perfil: https://polymarket.com/profile/0xbd0923420f3bbe8580237cd8fadb25a46cd2a188
+   TX Hash: 0x68af6b5600c2030084...a68683c452
+   TX URL: https://polygonscan.com/tx/0x68af6b5600c2030084f7dde909bb2b1736ac92d32103c44ea2fc00a68683c452
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 necesita HIGH RISK (tier=🥉 BRONZE), S1B necesita SOCCER (es NHL), S4 necesita CRYPTO (es NHL), S6 necesita ESPORTS (es NHL) | Sin FOLLOW: S2/S2B/S2C necesita NBA (es NHL), S3 necesita mercado nicho, S5 necesita SOCCER (es NHL)
+================================================================================
+
+
+
+================================================================================
+RESUMEN DE SESION (GOLD v3.0)
+================================================================================
+Tiempo de monitoreo:     0h 13m 3s
+Total de ballenas:       4
+Ballenas capturadas:     2
+Ballenas ignoradas:      2
+Valor promedio:          $3,609.54 USD
+Ballena mas grande:      $5,030.88 USD
+   Mercado: Will the Iranian regime fall by March 31?...
+   Wallet: 0x1f0a343513aa606048...
+Mercados monitoreados:   2
+
+Archivos guardados:
+   - trades_live/whales_20260303_095111.txt (log formateado)
+   - trades_live/historial_trades.json (historial de trades)
+
+TOP 5 MERCADOS CON MAS BALLENAS:
+   1. Will the Iranian regime fall by March 31?... (1 ballenas)
+   2. Utah vs. Capitals... (1 ballenas)
+
+================================================================================

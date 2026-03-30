@@ -1,0 +1,402 @@
+
+================================================================================
+MONITOR GOLD v3.0 INICIADO
+================================================================================
+Umbral de ballena:        $2,500.00 USD
+Intervalo de polling:     3 segundos
+Limite de trades/ciclo:   1000
+Ventana de tiempo:        30 minutos (solo trades recientes)
+Archivo de log:           trades_live/whales_20260303_063600.txt
+Trades en memoria:        0
+Notificaciones Telegram:  ACTIVO
+Esperando trades...
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 45s — 🐋 BALLENA | idkwhatimdoinggg | ⚠️ RISKY
+================================================================================
+💰 Valor: $4,311.13 USD
+📊 Mercado: Will US or Israel strike Iran first?
+🔗 URL: https://polymarket.com/event/will-us-or-israel-strike-iran-first
+🎯 Outcome: US
+📈 Lado: COMPRA
+💵 Precio: 0.4900 (49.00%)
+📦 Volumen: $4,770,166.91
+🕐 Trade original: 2026-03-03 06:30:47
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: idkwhatimdoinggg
+   Wallet: 0x15f7ddbc6ffe08722ddeb64d51e58aef7b8ca018
+   Perfil: https://polymarket.com/profile/0x15f7ddbc6ffe08722ddeb64d51e58aef7b8ca018
+   TX Hash: 0x61e01d395d7445862a...415578be69
+   TX URL: https://polygonscan.com/tx/0x61e01d395d7445862a0048e1e8b617e374d8d26010532d30834d8d415578be69
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Zona muerta 0.45-0.49 sin señal activa. IGNORAR.
+  ⚠ Precio en zona 0.45-0.49: sin señal activa para esta categoría. No activa S1 ni S2.
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 49s — 🐋🐋 BALLENA GRANDE | Avataarr | ⚠️ RISKY
+================================================================================
+💰 Valor: $7,775.00 USD
+📊 Mercado: Kimmer Coppejans vs. Ioannis Xilas: Total Sets O/U 2.5
+🔗 URL: https://polymarket.com/event/atp-coppeja-xilas-2026-03-02
+🎯 Outcome: Over 2.5
+📈 Lado: VENTA
+💵 Precio: 0.5000 (50.00%)
+📦 Volumen: $43,725.13
+🕐 Trade original: 2026-03-03 06:50:13
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Avataarr
+   Wallet: 0x1c1675a7c3662131acfd00aaabcbc97a6a4f45e9
+   Perfil: https://polymarket.com/profile/0x1c1675a7c3662131acfd00aaabcbc97a6a4f45e9
+   TX Hash: 0x048206aa231a230eb2...2981f90f72
+   TX URL: https://polygonscan.com/tx/0x048206aa231a230eb2f711968ab8e79889cf53e305ab6b50fc1b3e2981f90f72
+================================================================================
+
+╔══════════════════════════════════════════════════╗
+║  ███████╗ ██████╗ ██╗     ██╗      ██████╗ ██╗  ║
+║  ██╔════╝██╔═══██╗██║     ██║     ██╔═══██╗██║  ║
+║  █████╗  ██║   ██║██║     ██║     ██║   ██║██║  ║
+║  ██╔══╝  ██║   ██║██║     ██║     ██║   ██║╚═╝  ║
+║  ██║     ╚██████╔╝███████╗███████╗╚██████╔╝██╗  ║
+║  ╚═╝      ╚═════╝ ╚══════╝╚══════╝ ╚═════╝ ╚═╝  ║
+╚══════════════════════════════════════════════════╝
+  Signal: S2  |  Conf: HIGH  |  WR: 78.6%  |  ROI esperado: +57.2%
+  › S2+RISKY: Follow NBA a 0.50 (WR 78.6%, N=14 — tier RISKY boost)
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $4,075.00 USD
+📊 Mercado: Coppejans vs. Xilas: Match O/U 21.5
+🔗 URL: https://polymarket.com/event/atp-coppeja-xilas-2026-03-02
+🎯 Outcome: Under
+📈 Lado: COMPRA
+💵 Precio: 0.5000 (50.00%)
+📦 Volumen: $27,725.59
+🕐 Hora: 2026-03-03 07:00:21
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Cyrra
+   Wallet: 0x9a2f6520977f3ef9d009577532fd98f262e51f59
+   Perfil: https://polymarket.com/profile/0x9a2f6520977f3ef9d009577532fd98f262e51f59
+   TX Hash: 0xf7792dd45bcc457303...1bdb5663c7
+   TX URL: https://polygonscan.com/tx/0xf7792dd45bcc457303d0e0d3b724ee6298ac7d0e95f7612868652d1bdb5663c7
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 necesita precio <0.45 (es 0.50), S1B necesita SOCCER (es NBA), S4 necesita CRYPTO (es NBA), S6 necesita ESPORTS (es NBA) | Sin FOLLOW: S2/S2B/S2C excluye HIGH RISK/BOT (tier=💀 HIGH RISK), S3 necesita mercado nicho, S5 necesita SOCCER (es NBA)
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 45s — 🐋 BALLENA | bubulalala | 💀 HIGH RISK
+================================================================================
+💰 Valor: $4,910.77 USD
+📊 Mercado: Pistons vs. Cavaliers
+🔗 URL: https://polymarket.com/event/nba-det-cle-2026-03-03
+🎯 Outcome: Pistons
+📈 Lado: COMPRA
+💵 Precio: 0.5800 (58.00%)
+📦 Volumen: $443,326.71
+🕐 Trade original: 2026-03-03 07:09:45
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: bubulalala
+   Wallet: 0x5d5ca491d5d6827988b278bfe4c719a2959f4302
+   Perfil: https://polymarket.com/profile/0x5d5ca491d5d6827988b278bfe4c719a2959f4302
+   TX Hash: 0xdd00dfe4b2b184b7c6...14ef8c5baf
+   TX URL: https://polygonscan.com/tx/0xdd00dfe4b2b184b7c6458bf4ae0a9b07a6bb0e044429b93f0344df14ef8c5baf
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 necesita precio <0.45 (es 0.58), S1B necesita SOCCER (es NBA), S4 necesita CRYPTO (es NBA), S6 necesita ESPORTS (es NBA) | Sin FOLLOW: S2/S2B/S2C excluye HIGH RISK/BOT (tier=💀 HIGH RISK), S3 necesita mercado nicho, S5 necesita SOCCER (es NBA)
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 44s — 🐋🐋🐋🐋 ULTRA BALLENA | hioa | 🥇 GOLD
+================================================================================
+💰 Valor: $38,671.81 USD
+📊 Mercado: Counter-Strike: PARIVISION vs Legacy (BO3) - ESL Pro League Stage 1
+🔗 URL: https://polymarket.com/event/cs2-prv-lgc-2026-03-03
+🎯 Outcome: PARIVISION
+📈 Lado: COMPRA
+💵 Precio: 0.7400 (74.00%)
+📦 Volumen: $265,194.34
+🕐 Trade original: 2026-03-03 07:24:41
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: hioa
+   Wallet: 0xccb290b1c145d1c95695d3756346bba9f1398586
+   Perfil: https://polymarket.com/profile/0xccb290b1c145d1c95695d3756346bba9f1398586
+   TX Hash: 0xfdad190dc080a37834...6a05f1a440
+   TX URL: https://polygonscan.com/tx/0xfdad190dc080a378349aec08cb0fd0d92c4e35535aa345d787e2436a05f1a440
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 necesita HIGH RISK (tier=🥇 GOLD), S1B necesita SOCCER (es ESPORTS), S4 necesita CRYPTO (es ESPORTS), S6 necesita precio <0.50 (es 0.74) | Sin FOLLOW: S2/S2B/S2C necesita NBA (es ESPORTS), S3 necesita mercado nicho, S5 necesita SOCCER (es ESPORTS)
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 51s — 🐋🐋🐋 MEGA BALLENA | UwO | ⚠️ RISKY
+================================================================================
+💰 Valor: $14,580.40 USD
+📊 Mercado: US strikes Iraq by February 28?
+🔗 URL: https://polymarket.com/event/us-strikes-iraq-by-february-28
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.8175 (81.75%)
+📦 Volumen: $1,629,736.44
+🕐 Trade original: 2026-03-03 07:30:47
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: UwO
+   Wallet: 0x0c4b64af62a0ac3dd477e9f80ec3eaa18e92f6db
+   Perfil: https://polymarket.com/profile/0x0c4b64af62a0ac3dd477e9f80ec3eaa18e92f6db
+   TX Hash: 0x03ca8872af7bd7dd73...4892ab0235
+   TX URL: https://polygonscan.com/tx/0x03ca8872af7bd7dd734dbe8c598116be194ea30a0aca3a8529888f4892ab0235
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 necesita HIGH RISK (tier=⚠️ RISKY), S1B necesita SOCCER (es OTHER), S4 necesita CRYPTO (es OTHER), S6 necesita ESPORTS (es OTHER) | Sin FOLLOW: S2/S2B/S2C necesita NBA (es OTHER), S3 necesita mercado nicho, S5 necesita SOCCER (es OTHER)
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $4,093.00 USD
+📊 Mercado: Coppejans vs. Xilas: Match O/U 23.5
+🔗 URL: https://polymarket.com/event/atp-coppeja-xilas-2026-03-02
+🎯 Outcome: Under
+📈 Lado: COMPRA
+💵 Precio: 0.5000 (50.00%)
+📦 Volumen: $43,776.00
+🕐 Hora: 2026-03-03 07:35:21
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Cyrra
+   Wallet: 0x9a2f6520977f3ef9d009577532fd98f262e51f59
+   Perfil: https://polymarket.com/profile/0x9a2f6520977f3ef9d009577532fd98f262e51f59
+   TX Hash: 0xdd1ea72845a72c60f6...00dc16fca1
+   TX URL: https://polygonscan.com/tx/0xdd1ea72845a72c60f652a7d8c8c5f19c5c4228f0719bfd5a503a7400dc16fca1
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 necesita precio <0.45 (es 0.50), S1B necesita SOCCER (es NBA), S4 necesita CRYPTO (es NBA), S6 necesita ESPORTS (es NBA) | Sin FOLLOW: S2/S2B/S2C excluye HIGH RISK/BOT (tier=💀 HIGH RISK), S3 necesita mercado nicho, S5 necesita SOCCER (es NBA)
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 43s — 🐋🐋🐋🐋 ULTRA BALLENA | 0x8Dbf0DE58835C4827Ba77669b5155980d1A053be-1761228441052 | 💀 HIGH RISK
+================================================================================
+💰 Valor: $22,511.18 USD  ⚡ NICHO
+📊 Mercado: Counter-Strike: PARIVISION vs Legacy (BO3) - ESL Pro League Stage 1
+🔗 URL: https://polymarket.com/event/cs2-prv-lgc-2026-03-03
+🎯 Outcome: PARIVISION
+📈 Lado: COMPRA
+💵 Precio: 0.7500 (75.00%)
+📦 Volumen: $265,194.34
+🕐 Trade original: 2026-03-03 07:50:19
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0x8Dbf0DE58835C4827Ba77669b5155980d1A053be-1761228441052
+   Wallet: 0x8dbf0de58835c4827ba77669b5155980d1a053be
+   Perfil: https://polymarket.com/profile/0x8dbf0de58835c4827ba77669b5155980d1a053be
+   TX Hash: 0xad2a00407782801957...0147bff6ba
+   TX URL: https://polygonscan.com/tx/0xad2a0040778280195725dbae8350b4c5742bef815c5fbcfd8fe70c0147bff6ba
+================================================================================
+
+╔══════════════════════════════════════════════════╗
+║  ███████╗ ██████╗ ██╗     ██╗      ██████╗ ██╗  ║
+║  ██╔════╝██╔═══██╗██║     ██║     ██╔═══██╗██║  ║
+║  █████╗  ██║   ██║██║     ██║     ██║   ██║██║  ║
+║  ██╔══╝  ██║   ██║██║     ██║     ██║   ██║╚═╝  ║
+║  ██║     ╚██████╔╝███████╗███████╗╚██████╔╝██╗  ║
+║  ╚═╝      ╚═════╝ ╚══════╝╚══════╝ ╚═════╝ ╚═╝  ║
+╚══════════════════════════════════════════════════╝
+  Signal: S3  |  Conf: LOW  |  WR: 56.5%  |  ROI esperado: -24.9%
+  › S3: Follow Nicho (ESPORTS) a 0.75 (stake 0.5x, WR 56.5%)
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $3,434.94 USD
+📊 Mercado: Spurs vs. 76ers
+🔗 URL: https://polymarket.com/event/nba-sas-phi-2026-03-03
+🎯 Outcome: Spurs
+📈 Lado: VENTA
+💵 Precio: 0.7300 (73.00%)
+📦 Volumen: $221,445.72
+🕐 Hora: 2026-03-03 07:56:11
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: VeryLucky888
+   Wallet: 0x6d3c5bd13984b2de47c3a88ddc455309aab3d294
+   Perfil: https://polymarket.com/profile/0x6d3c5bd13984b2de47c3a88ddc455309aab3d294
+   TX Hash: 0x853e2420c819cde5e0...91a692d367
+   TX URL: https://polygonscan.com/tx/0x853e2420c819cde5e0ad1547ed90fa0251bf10f16db6bb8e8ecb3391a692d367
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 necesita precio <0.45 (es 0.73), S1B necesita SOCCER (es NBA), S4 necesita CRYPTO (es NBA), S6 necesita ESPORTS (es NBA) | Sin FOLLOW: S2/S2B/S2C excluye HIGH RISK/BOT (tier=💀 HIGH RISK), S3 necesita mercado nicho, S5 necesita SOCCER (es NBA)
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $7,672.50 USD
+📊 Mercado: Brunclik vs. Mrva: Match O/U 23.5
+🔗 URL: https://polymarket.com/event/atp-bruncli-mrva-2026-03-02
+🎯 Outcome: Over
+📈 Lado: VENTA
+💵 Precio: 0.5000 (50.00%)
+📦 Volumen: $43,465.00
+🕐 Hora: 2026-03-03 08:20:13
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Avataarr
+   Wallet: 0x1c1675a7c3662131acfd00aaabcbc97a6a4f45e9
+   Perfil: https://polymarket.com/profile/0x1c1675a7c3662131acfd00aaabcbc97a6a4f45e9
+   TX Hash: 0xe024f44c207a752de2...e29da11686
+   TX URL: https://polygonscan.com/tx/0xe024f44c207a752de27e1c4a1ac782556918803f0920c3f4a96ebae29da11686
+================================================================================
+
+╔══════════════════════════════════════════════════╗
+║  ███████╗ ██████╗ ██╗     ██╗      ██████╗ ██╗  ║
+║  ██╔════╝██╔═══██╗██║     ██║     ██╔═══██╗██║  ║
+║  █████╗  ██║   ██║██║     ██║     ██║   ██║██║  ║
+║  ██╔══╝  ██║   ██║██║     ██║     ██║   ██║╚═╝  ║
+║  ██║     ╚██████╔╝███████╗███████╗╚██████╔╝██╗  ║
+║  ╚═╝      ╚═════╝ ╚══════╝╚══════╝ ╚═════╝ ╚═╝  ║
+╚══════════════════════════════════════════════════╝
+  Signal: S2  |  Conf: HIGH  |  WR: 78.6%  |  ROI esperado: +57.2%
+  › S2+RISKY: Follow NBA a 0.50 (WR 78.6%, N=14 — tier RISKY boost)
+================================================================================
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.15 (15.5%)
+   Polymarket:   0.50 (50.0%)
+   Edge:         -34.5% ❌
+⚠️⚠️ SUCKER BET - Ballena pagando 34.5% MÁS que Pinnacle
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $7,725.00 USD
+📊 Mercado: Set 1 Winner: Brunclik vs Mrva
+🔗 URL: https://polymarket.com/event/atp-bruncli-mrva-2026-03-02
+🎯 Outcome: Brunclik
+📈 Lado: VENTA
+💵 Precio: 0.5000 (50.00%)
+📦 Volumen: $44,164.48
+🕐 Hora: 2026-03-03 08:26:09
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Avataarr
+   Wallet: 0x1c1675a7c3662131acfd00aaabcbc97a6a4f45e9
+   Perfil: https://polymarket.com/profile/0x1c1675a7c3662131acfd00aaabcbc97a6a4f45e9
+   TX Hash: 0x45009c61f903254393...15748eba16
+   TX URL: https://polygonscan.com/tx/0x45009c61f9032543933c18a5985798ec2ca9eaca42f0ac33e412ec15748eba16
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 necesita HIGH RISK (tier=⚠️ RISKY), S1B necesita SOCCER (es OTHER), S4 necesita CRYPTO (es OTHER), S6 necesita ESPORTS (es OTHER) | Sin FOLLOW: S2/S2B/S2C necesita NBA (es OTHER), S3 necesita mercado nicho, S5 necesita SOCCER (es OTHER)
+================================================================================
+
+
+
+================================================================================
+RESUMEN DE SESION (GOLD v3.0)
+================================================================================
+Tiempo de monitoreo:     2h 8m 14s
+Total de ballenas:       34
+Ballenas capturadas:     12
+Ballenas ignoradas:      22
+Valor promedio:          $9,061.24 USD
+Ballena mas grande:      $38,671.81 USD
+   Mercado: Counter-Strike: PARIVISION vs Legacy (BO3) - ESL P...
+   Wallet: 0xccb290b1c145d1c956...
+Mercados monitoreados:   11
+
+Archivos guardados:
+   - trades_live/whales_20260303_063600.txt (log formateado)
+   - trades_live/historial_trades.json (historial de trades)
+
+TOP 5 MERCADOS CON MAS BALLENAS:
+   1. Counter-Strike: PARIVISION vs Legacy (BO3) - ESL Pro League ... (2 ballenas)
+   2. Will US or Israel strike Iran first?... (1 ballenas)
+   3. Kimmer Coppejans vs. Ioannis Xilas: Total Sets O/U 2.5... (1 ballenas)
+   4. Coppejans vs. Xilas: Match O/U 21.5... (1 ballenas)
+   5. Pistons vs. Cavaliers... (1 ballenas)
+
+================================================================================

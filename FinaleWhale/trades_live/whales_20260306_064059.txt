@@ -1,0 +1,235 @@
+
+================================================================================
+MONITOR GOLD v3.0 INICIADO
+================================================================================
+Umbral de ballena:        $2,500.00 USD
+Intervalo de polling:     3 segundos
+Limite de trades/ciclo:   1000
+Ventana de tiempo:        30 minutos (solo trades recientes)
+Archivo de log:           trades_live/whales_20260306_064059.txt
+Trades en memoria:        0
+Notificaciones Telegram:  ACTIVO
+Esperando trades...
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 48s — 🐋 BALLENA | wingwingwin | 💀 HIGH RISK
+================================================================================
+💰 Valor: $4,058.99 USD
+📊 Mercado: Will Bitcoin reach $80,000 in March?
+🔗 URL: https://polymarket.com/event/what-price-will-bitcoin-hit-in-march-2026
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.6600 (66.00%)
+📦 Volumen: $680,593.62
+🕐 Trade original: 2026-03-06 06:41:13
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: wingwingwin
+   Wallet: 0x40f7a7aad6da78e947ef56eb3207ec7abf391f5e
+   Perfil: https://polymarket.com/profile/0x40f7a7aad6da78e947ef56eb3207ec7abf391f5e
+   TX Hash: 0x4dc22c9c3a7f519d49...e5da3413a1
+   TX URL: https://polygonscan.com/tx/0x4dc22c9c3a7f519d498184e3cb594d24f7754e34b7adc1ed7d1165e5da3413a1
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 necesita precio <0.45 (es 0.66), S1B necesita SOCCER (es CRYPTO), S4 necesita intraday Up/Down, S6 necesita ESPORTS (es CRYPTO) | Sin FOLLOW: S2/S2B/S2C necesita NBA (es CRYPTO), S3 necesita mercado nicho, S5 necesita SOCCER (es CRYPTO)
+  ⚠ S4 aplica solo a crypto intraday Up/Down. Para crypto largo plazo, validar manualmente.
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 40s — 🐋 BALLENA | Btgay | ⚠️ RISKY
+================================================================================
+💰 Valor: $3,005.70 USD
+📊 Mercado: Counter-Strike: Natus Vincere vs Monte (BO3) - ESL Pro League Stage 2
+🔗 URL: https://polymarket.com/event/cs2-navi-mnte-2026-03-06
+🎯 Outcome: Monte
+📈 Lado: COMPRA
+💵 Precio: 0.3300 (33.00%)
+📦 Volumen: $238,188.24
+🕐 Trade original: 2026-03-06 07:06:37
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Btgay
+   Wallet: 0xdbb46859ab5b79a8e7fa2c35bc0efb29aa7448be
+   Perfil: https://polymarket.com/profile/0xdbb46859ab5b79a8e7fa2c35bc0efb29aa7448be
+   TX Hash: 0x72db1b3614a86b66a4...4d7cab0f07
+   TX URL: https://polygonscan.com/tx/0x72db1b3614a86b66a42b61a031692d8d649c9017d8541e155755c24d7cab0f07
+================================================================================
+
+╔══════════════════════════════════════════════════════════════╗
+║   ██████╗ ██████╗ ██╗   ██╗███╗  ██╗████████╗███████╗██████╗ ║
+║  ██╔════╝██╔═══██╗██║   ██║████╗ ██║╚══██╔══╝██╔════╝██╔══██╗║
+║  ██║     ██║   ██║██║   ██║██╔██╗██║   ██║   █████╗  ██████╔╝║
+║  ██║     ██║   ██║██║   ██║██║╚████║   ██║   ██╔══╝  ██╔══██╗║
+║  ╚██████╗╚██████╔╝╚██████╔╝██║ ╚███║   ██║   ███████╗██║  ██║║
+║   ╚═════╝ ╚═════╝  ╚═════╝ ╚═╝  ╚══╝   ╚═╝   ╚══════╝╚═╝  ╚═╝║
+╚══════════════════════════════════════════════════════════════╝
+  Signal: S6  |  Conf: LOW  |  WR: 66.7%  |  ROI esperado: +102.1%
+  › S6: Counter ESPORTS a 0.33 (WR 66.7%, N=24)
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 37s — 🐋 BALLENA | 0xdE17f7144fbD0eddb2679132C10ff5e74B120988-1772205225932 | 🥇 GOLD
+================================================================================
+💰 Valor: $2,592.80 USD
+📊 Mercado: Will the price of Bitcoin be between $70,000 and $72,000 on March 6?
+🔗 URL: https://polymarket.com/event/bitcoin-price-on-march-6
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.5600 (56.00%)
+📦 Volumen: $108,196.41
+🕐 Trade original: 2026-03-06 07:08:55
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0xdE17f7144fbD0eddb2679132C10ff5e74B120988-1772205225932
+   Wallet: 0xde17f7144fbd0eddb2679132c10ff5e74b120988
+   Perfil: https://polymarket.com/profile/0xde17f7144fbd0eddb2679132c10ff5e74b120988
+   TX Hash: 0xa51560c03c681b9c32...04562414c0
+   TX URL: https://polygonscan.com/tx/0xa51560c03c681b9c322b692dc926c1b76c1226ef01354c49e7e70e04562414c0
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Capital $2,593 < $3K mínimo para señal. Ballena registrada pero sin acción recomendada.
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 38s — 🐋 BALLENA | 0xb917bB0c83EF912e004f4aa41131a6b9775A02C6-1768414170651 | 🥈 SILVER
+================================================================================
+💰 Valor: $5,000.00 USD
+📊 Mercado: Will Mojtaba Khamenei be the next Supreme Leader of Iran?
+🔗 URL: https://polymarket.com/event/who-will-be-next-supreme-leader-of-iran-515
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.5274 (52.74%)
+📦 Volumen: $5,860,543.77
+🕐 Trade original: 2026-03-06 07:26:15
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0xb917bB0c83EF912e004f4aa41131a6b9775A02C6-1768414170651
+   Wallet: 0xb917bb0c83ef912e004f4aa41131a6b9775a02c6
+   Perfil: https://polymarket.com/profile/0xb917bb0c83ef912e004f4aa41131a6b9775a02c6
+   TX Hash: 0x07e3782c17e761f133...0eda277ecd
+   TX URL: https://polygonscan.com/tx/0x07e3782c17e761f1334139f648015dc9dc6313ad725b5e8d25d0090eda277ecd
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 necesita HIGH RISK (tier=🥈 SILVER), S1B necesita SOCCER (es OTHER), S4 necesita CRYPTO (es OTHER), S6 necesita ESPORTS (es OTHER) | Sin FOLLOW: S2/S2B/S2C necesita NBA (es OTHER), S3 necesita mercado nicho, S5 necesita SOCCER (es OTHER)
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $12,910.35 USD
+📊 Mercado: Will CA Osasuna win on 2026-03-06?
+🔗 URL: https://polymarket.com/event/lal-osa-mal-2026-03-06
+🎯 Outcome: Yes
+📈 Lado: VENTA
+💵 Precio: 0.5500 (55.00%)
+📦 Volumen: $61,771.02
+🕐 Hora: 2026-03-06 07:32:09
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: auggl00p
+   Wallet: 0x3cc654af2b896648b10a477123dc5aaecbc19df6
+   Perfil: https://polymarket.com/profile/0x3cc654af2b896648b10a477123dc5aaecbc19df6
+   TX Hash: 0x4b2df3f1eb17f8c632...a376df2ebe
+   TX URL: https://polygonscan.com/tx/0x4b2df3f1eb17f8c6325b65e6eea52a47343491cd8f9c682b60d3f8a376df2ebe
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 necesita HIGH RISK (tier=📊 STANDARD), S1B necesita SOCCER (es OTHER), S4 necesita CRYPTO (es OTHER), S6 necesita ESPORTS (es OTHER) | Sin FOLLOW: S2/S2B/S2C necesita NBA (es OTHER), S3 necesita mercado nicho, S5 necesita SOCCER (es OTHER)
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 39s — 🐋 BALLENA | Graymere | 💀 HIGH RISK
+================================================================================
+💰 Valor: $2,981.50 USD
+📊 Mercado: Pelicans vs. Suns
+🔗 URL: https://polymarket.com/event/nba-nop-phx-2026-03-06
+🎯 Outcome: Suns
+📈 Lado: COMPRA
+💵 Precio: 0.6700 (67.00%)
+📦 Volumen: $206,097.39
+🕐 Trade original: 2026-03-06 08:17:25
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Graymere
+   Wallet: 0x4c27c2ec4fee282eb25ec498aebc7c492568b9e5
+   Perfil: https://polymarket.com/profile/0x4c27c2ec4fee282eb25ec498aebc7c492568b9e5
+   TX Hash: 0x8dd7388c91207b12f4...86b51378c7
+   TX URL: https://polygonscan.com/tx/0x8dd7388c91207b12f4d025e97c41e1c404bea30308dfe4745939b486b51378c7
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Capital $2,982 < $3K mínimo para señal. Ballena registrada pero sin acción recomendada.
+================================================================================
+
+
+
+================================================================================
+RESUMEN DE SESION (GOLD v3.0)
+================================================================================
+Tiempo de monitoreo:     1h 44m 34s
+Total de ballenas:       33
+Ballenas capturadas:     13
+Ballenas ignoradas:      20
+Valor promedio:          $5,224.16 USD
+Ballena mas grande:      $18,026.16 USD
+   Mercado: US x Iran ceasefire by March 6?...
+   Wallet: 0x673abbf21480dd9718...
+Mercados monitoreados:   9
+
+Archivos guardados:
+   - trades_live/whales_20260306_064059.txt (log formateado)
+   - trades_live/historial_trades.json (historial de trades)
+
+TOP 5 MERCADOS CON MAS BALLENAS:
+   1. Will Mojtaba Khamenei be the next Supreme Leader of Iran?... (3 ballenas)
+   2. Counter-Strike: Natus Vincere vs Monte (BO3) - ESL Pro Leagu... (2 ballenas)
+   3. Will the price of Bitcoin be between $70,000 and $72,000 on ... (2 ballenas)
+   4. Will Bitcoin reach $80,000 in March?... (1 ballenas)
+   5. US x Iran ceasefire by April 30?... (1 ballenas)
+
+================================================================================

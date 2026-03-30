@@ -1,0 +1,206 @@
+
+================================================================================
+MONITOR GOLD v3.0 INICIADO
+================================================================================
+Umbral de ballena:        $2,500.00 USD
+Intervalo de polling:     3 segundos
+Limite de trades/ciclo:   1000
+Ventana de tiempo:        30 minutos (solo trades recientes)
+Archivo de log:           trades_live/whales_20260302_064901.txt
+Trades en memoria:        0
+Notificaciones Telegram:  ACTIVO
+Esperando trades...
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,882.34 USD
+📊 Mercado: Will Udinese Calcio win on 2026-03-02?
+🔗 URL: https://polymarket.com/event/sea-udi-fio-2026-03-02
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.7100 (71.00%)
+📦 Volumen: $46,036.80
+🕐 Hora: 2026-03-02 08:16:25
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 432614799197
+   Wallet: 0xdc876e6873772d38716fda7f2452a78d426d7ab6
+   Perfil: https://polymarket.com/profile/0xdc876e6873772d38716fda7f2452a78d426d7ab6
+   TX Hash: 0x1015b448f95f346f29...e20792a1d7
+   TX URL: https://polygonscan.com/tx/0x1015b448f95f346f29c1f1ab9f46430c471d5b5decaff7484bb394e20792a1d7
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Capital $2,882 < $3K mínimo para señal. Ballena registrada pero sin acción recomendada.
+  ⚠ Trader 432614799197 está en BLACKLIST. Evaluar counter.
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $5,970.00 USD  ⚡ NICHO (13.0% del mercado)
+📊 Mercado: Will Udinese Calcio win on 2026-03-02?
+🔗 URL: https://polymarket.com/event/sea-udi-fio-2026-03-02
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.7100 (71.00%)
+📦 Volumen: $46,036.80
+🕐 Hora: 2026-03-02 08:16:25
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 432614799197
+   Wallet: 0xdc876e6873772d38716fda7f2452a78d426d7ab6
+   Perfil: https://polymarket.com/profile/0xdc876e6873772d38716fda7f2452a78d426d7ab6
+   TX Hash: 0xcccd722fb0602b4ea7...320d98f7c5
+   TX URL: https://polygonscan.com/tx/0xcccd722fb0602b4ea7c0cf6503d0590b7fc6b73178302053d35c1e320d98f7c5
+================================================================================
+
+╔══════════════════════════════════════════════════╗
+║  ███████╗ ██████╗ ██╗     ██╗      ██████╗ ██╗  ║
+║  ██╔════╝██╔═══██╗██║     ██║     ██╔═══██╗██║  ║
+║  █████╗  ██║   ██║██║     ██║     ██║   ██║██║  ║
+║  ██╔══╝  ██║   ██║██║     ██║     ██║   ██║╚═╝  ║
+║  ██║     ╚██████╔╝███████╗███████╗╚██████╔╝██╗  ║
+║  ╚═╝      ╚═════╝ ╚══════╝╚══════╝ ╚═════╝ ╚═╝  ║
+╚══════════════════════════════════════════════════╝
+  Signal: S3  |  Conf: LOW  |  WR: 56.5%  |  ROI esperado: -20.3%
+  › S3: Follow Nicho (OTHER) a 0.71 (stake 0.5x, WR 56.5%)
+  ⚠ Trader 432614799197 está en BLACKLIST. Evaluar counter.
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $7,168.00 USD  ⚡ NICHO (15.6% del mercado)
+📊 Mercado: Will Udinese Calcio win on 2026-03-02?
+🔗 URL: https://polymarket.com/event/sea-udi-fio-2026-03-02
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.7100 (71.00%)
+📦 Volumen: $46,036.80
+🕐 Hora: 2026-03-02 08:16:25
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 432614799197
+   Wallet: 0xdc876e6873772d38716fda7f2452a78d426d7ab6
+   Perfil: https://polymarket.com/profile/0xdc876e6873772d38716fda7f2452a78d426d7ab6
+   TX Hash: 0x98a93572f685841198...893e23709f
+   TX URL: https://polygonscan.com/tx/0x98a93572f685841198141911f20ecabf8ad45e5c637687cc1b3345893e23709f
+================================================================================
+
+╔══════════════════════════════════════════════════╗
+║  ███████╗ ██████╗ ██╗     ██╗      ██████╗ ██╗  ║
+║  ██╔════╝██╔═══██╗██║     ██║     ██╔═══██╗██║  ║
+║  █████╗  ██║   ██║██║     ██║     ██║   ██║██║  ║
+║  ██╔══╝  ██║   ██║██║     ██║     ██║   ██║╚═╝  ║
+║  ██║     ╚██████╔╝███████╗███████╗╚██████╔╝██╗  ║
+║  ╚═╝      ╚═════╝ ╚══════╝╚══════╝ ╚═════╝ ╚═╝  ║
+╚══════════════════════════════════════════════════╝
+  Signal: S3  |  Conf: LOW  |  WR: 56.5%  |  ROI esperado: -20.3%
+  › S3: Follow Nicho (OTHER) a 0.71 (stake 0.5x, WR 56.5%)
+  ⚠ Trader 432614799197 está en BLACKLIST. Evaluar counter.
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,600.00 USD
+📊 Mercado: Will Bitcoin reach $75,000 in March?
+🔗 URL: https://polymarket.com/event/what-price-will-bitcoin-hit-in-march-2026
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.6500 (65.00%)
+📦 Volumen: $151,068.90
+🕐 Hora: 2026-03-02 08:46:47
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Anonimo
+   Wallet: 0xf705fa045201391d9632b7f3cde06a5e24453ca7
+   Perfil: https://polymarket.com/profile/0xf705fa045201391d9632b7f3cde06a5e24453ca7
+   TX Hash: 0x9d1abef5b45c093818...015ff1666c
+   TX URL: https://polygonscan.com/tx/0x9d1abef5b45c093818cd157bb3017ae65955f2e0fde723da326c24015ff1666c
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Capital $2,600 < $3K mínimo para señal. Ballena registrada pero sin acción recomendada.
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $4,159.99 USD
+📊 Mercado: Clippers vs. Warriors
+🔗 URL: https://polymarket.com/event/nba-lac-gsw-2026-03-02
+🎯 Outcome: Clippers
+📈 Lado: VENTA
+💵 Precio: 0.5200 (52.00%)
+📦 Volumen: $699,620.56
+🕐 Hora: 2026-03-02 09:21:07
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: VeryLucky888
+   Wallet: 0x6d3c5bd13984b2de47c3a88ddc455309aab3d294
+   Perfil: https://polymarket.com/profile/0x6d3c5bd13984b2de47c3a88ddc455309aab3d294
+   TX Hash: 0x16b4377c0aaf51c7cf...62b01092d0
+   TX URL: https://polygonscan.com/tx/0x16b4377c0aaf51c7cfcfd11d17bda8fd8209079c6fc23fffa9051f62b01092d0
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 necesita precio <0.45 (es 0.52), S1B necesita SOCCER (es NBA), S4 necesita CRYPTO (es NBA), S6 necesita ESPORTS (es NBA) | Sin FOLLOW: S2/S2B/S2C excluye HIGH RISK/BOT (tier=💀 HIGH RISK), S3 necesita mercado nicho, S5 necesita SOCCER (es NBA)
+================================================================================
+
+
+
+================================================================================
+RESUMEN DE SESION (GOLD v3.0)
+================================================================================
+Tiempo de monitoreo:     3h 59m 40s
+Total de ballenas:       96
+Ballenas capturadas:     41
+Ballenas ignoradas:      55
+Valor promedio:          $6,225.32 USD
+Ballena mas grande:      $77,681.90 USD
+   Mercado: Khamenei out as Supreme Leader of Iran by March 31...
+   Wallet: 0xcf6e295f9cc9767eb5...
+Mercados monitoreados:   22
+
+Archivos guardados:
+   - trades_live/whales_20260302_064901.txt (log formateado)
+   - trades_live/historial_trades.json (historial de trades)
+
+TOP 5 MERCADOS CON MAS BALLENAS:
+   1. Bitcoin Up or Down - March 2, 3PM ET... (10 ballenas)
+   2. Bitcoin Up or Down - March 2, 4PM ET... (5 ballenas)
+   3. LoL: Weibo Gaming vs Top Esports - Game 4 Winner... (3 ballenas)
+   4. Will Udinese Calcio win on 2026-03-02?... (3 ballenas)
+   5. Will Real Madrid CF win on 2026-03-02?... (2 ballenas)
+
+================================================================================

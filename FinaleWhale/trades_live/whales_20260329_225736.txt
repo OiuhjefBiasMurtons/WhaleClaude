@@ -1,0 +1,110 @@
+
+================================================================================
+MONITOR GOLD v3.0 INICIADO
+================================================================================
+Umbral de ballena:        $2,500.00 USD
+Intervalo de polling:     3 segundos
+Limite de trades/ciclo:   1000
+Ventana de tiempo:        30 minutos (solo trades recientes)
+Archivo de log:           trades_live/whales_20260329_225736.txt
+Trades en memoria:        0
+Notificaciones Telegram:  ACTIVO
+Esperando trades...
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 46s — 🐋🐋🐋 MEGA BALLENA | herog-612 | 💀 HIGH RISK
+================================================================================
+💰 Valor: $13,178.51 USD
+📊 Mercado: Will Israel strike 4 countries in 2026?
+🔗 URL: https://polymarket.com/event/how-many-different-countries-will-israel-strike-in-2026
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.7880 (78.80%)
+📦 Volumen: $1,059,475.59
+🕐 Trade original: 2026-03-29 23:04:14
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: herog-612
+   Wallet: 0x67f7db6b4de4ac25e28159769b4798c222b54881
+   Perfil: https://polymarket.com/profile/0x67f7db6b4de4ac25e28159769b4798c222b54881
+   TX Hash: 0xfdb2c5728318f66fbe...4793331c7c
+   TX URL: https://polygonscan.com/tx/0xfdb2c5728318f66fbea3e6c533c9ad5aeb790d5b301639bbe0e0934793331c7c
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 DESACTIVADO v7.4 (global WR 35.3% N=51 — premisa refutada), S4 necesita CRYPTO (es OTHER), S6 necesita ESPORTS (es OTHER) | Sin FOLLOW: S2/S2B/S2C necesita NBA (es OTHER), S3 necesita mercado nicho
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 1.5min — 🐋🐋🐋 MEGA BALLENA | qingfe | 💀 HIGH RISK
+================================================================================
+💰 Valor: $13,340.84 USD
+📊 Mercado: Will Israel strike 4 countries in 2026?
+🔗 URL: https://polymarket.com/event/how-many-different-countries-will-israel-strike-in-2026
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.7880 (78.80%)
+📦 Volumen: $1,059,475.59
+🕐 Trade original: 2026-03-29 23:04:14
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: qingfe
+   Wallet: 0xec58d7b962db9b2632f9a57fcab0c0ca0f36dd47
+   Perfil: https://polymarket.com/profile/0xec58d7b962db9b2632f9a57fcab0c0ca0f36dd47
+   TX Hash: 0x864be268c926302586...c6ec968230
+   TX URL: https://polygonscan.com/tx/0x864be268c92630258699a8cd6edf7126bc0d4890392a83c5e39ea8c6ec968230
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 DESACTIVADO v7.4 (global WR 35.3% N=51 — premisa refutada), S4 necesita CRYPTO (es OTHER), S6 necesita ESPORTS (es OTHER) | Sin FOLLOW: S2/S2B/S2C necesita NBA (es OTHER), S3 necesita mercado nicho
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 44s — 🐋 BALLENA | haimbb | 📊 STANDARD
+================================================================================
+💰 Valor: $3,196.16 USD
+📊 Mercado: Will the San Antonio Spurs win the NBA Western Conference Finals?
+🔗 URL: https://polymarket.com/event/nba-western-conference-champion-933
+🎯 Outcome: Yes
+📈 Lado: VENTA
+💵 Precio: 0.2350 (23.50%)
+📦 Volumen: $759,212.26
+🕐 Trade original: 2026-03-29 23:24:28
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: haimbb
+   Wallet: 0x4b4d2c551eb4f9e859f03d18687b8b1f57455d89
+   Perfil: https://polymarket.com/profile/0x4b4d2c551eb4f9e859f03d18687b8b1f57455d89
+   TX Hash: 0x43a97b2b4b0d281f80...5248520af6
+   TX URL: https://polygonscan.com/tx/0x43a97b2b4b0d281f80da2148b0eab73189b6b8b93c6bceca6dd58a5248520af6
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 DESACTIVADO v7.4 (global WR 35.3% N=51 — premisa refutada), S4 necesita CRYPTO (es NBA), S6 necesita ESPORTS (es NBA) | Sin FOLLOW: S2C/S2/S2B necesita precio 0.45-0.82 (es 0.24), S3 necesita mercado nicho
+================================================================================
+

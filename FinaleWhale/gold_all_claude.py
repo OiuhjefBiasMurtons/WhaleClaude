@@ -1,12 +1,136 @@
 #!/usr/bin/env python3
 """
-Polymarket Gold All Markets Whale Detector v4.0
-Basado en definitive_all_claude.py con filtros avanzados de señales (S1-S6),
+Polymarket Gold All Markets Whale Detector v7.4.3
+Basado en definitive_all_claude.py con filtros avanzados de señales (S1-S8),
 whitelists/blacklists de traders, resolución de conflictos y warnings.
 
-Consolida 515 señales analizadas (Feb 2026).
-
 CHANGELOG:
+  v7.4.3 (Mar 2026) — WHITELIST_TIER_OVERRIDE: bypass tier completo para traders validados:
+    - NUEVO WHITELIST_TIER_OVERRIDE: traders con WR ≥ 60% y N ≥ 15 cuyo tier es snapshot
+      inestable (el tier cambia entre capturas porque el scraper solo lo actualiza al capturar
+      una apuesta que cumpla parámetros — entre capturas el trader opera y cambia de percentil).
+      Para estos traders el tier del momento es ruido; el WR histórico es la señal real.
+    - Bypass cubre BOT/MM y HIGH RISK en S2/S2B/S2C. SILVER y BRONZE siguen excluidos siempre
+      (son tiers de calidad real, no artefactos de timing).
+    - Entradas iniciales: elkmonkey (WR 68.4% NBA, N≥15) y 0x4924 (WR 61.1%, N≥15).
+    - Criterio para entrar a WHITELIST_TIER_OVERRIDE: WR ≥ 60%, N ≥ 15 en categoría específica,
+      tier documentado como inestable en producción.
+
+  v7.4.2 (Mar 2026) — Eliminar WHITELIST_BOT_BYPASS (inefectivo en producción):
+    - ELIMINADO WHITELIST_BOT_BYPASS: solo bypaseaba BOT/MM, pero los mismos traders llegan
+      frecuentemente como HIGH RISK — el bypass nunca cubría ese caso.
+    - Reemplazado en v7.4.3 por WHITELIST_TIER_OVERRIDE con cobertura completa.
+
+  v7.4.1 (Mar 2026) — Validación cruzada con dataset Whales (N=483):
+    - CRÍTICO S9 NHL COUNTER: DESACTIVADO. Dato Gold N=15 era ilusión estadística.
+      Whales N=32 confirma WR exactamente 50% — coin flip sin edge. Revertido.
+      No reimplementar hasta N≥40 combinado con WR≥65% sostenido.
+    - IMPORTANTE S5-MMA: añadida exclusión HIGH RISK.
+      Whales confirma HIGH RISK en MMA 0.60-0.70 WR 33% — destructor. Señal conservada
+      para STANDARD/RISKY/SILVER/BRONZE (todo lo demás sin HIGH RISK ni BOT).
+    - WHITELIST: añadido 0x4924... a WHITELIST_B (BOT/MM, WR 61.1%, capital $53K avg).
+      elkmonkey ya estaba en WHITELIST_B (WR 68.4%, NBA). NOTA: su tier BOT/MM lo excluye
+      de S2/S2B/S2C antes del check whitelist — boost solo aplica a S3/S6/S7.
+      gmanas (WR 87.5%, N=8): monitorear, posible WHITELIST_A en 2-3 semanas (N≥15).
+    - NUEVO WARNING: SILVER en NHL detectado — WR 26.7% (N=15, Whales) trampa confirmada.
+    - HIPÓTESIS nuevas del cruce Whales/Gold:
+      · "OTHER underdogs <30%": WR ~39% pero PnL +$5,584 (payout >3x). EV ≈ +30% ROI.
+        Candidato señal nueva cuando se estructure correctamente con N suficiente.
+      · CRYPTO × HIGH RISK FOLLOW: WR 71.4% en Whales. S4 ya tiene warning correcto.
+        Evaluar como señal FOLLOW separada (requiere N≥15 en Gold específicamente).
+      · SILVER × SOCCER FOLLOW: WR 63.6% en Whales. S5 suspendida. Documentar como
+        excepción positiva en Soccer cuando S5 se reactive con restricción de tier.
+    - CONFIRMADO: ESPORTS × RISKY ya cubierto por S7 (WR 76.9% consistente con S7 85.7%).
+    - CONFIRMADO: BRONZE en crypto beneficia S4 COUNTER (WR follow 27.3% → counter 72.7%).
+    - CONFIRMADO: sovereign2013 (WR 25%) y 432614799197 (WR 30.8%) en BLACKLIST. ✓
+
+  v7.4 (Mar 2026) — Dataset Gold N=51+ resoluciones out-of-sample (15 días):
+    - CRÍTICO S1 COUNTER: DESACTIVADO GLOBALMENTE. WR 35.3% (N=51) — peor que moneda al aire.
+      Desglose: NBA 26% (N=11), Soccer 36% (N=16), NHL 57% (N=10), OTHER 13% (N=8).
+      La premisa "counter HIGH RISK = win" refutada en 15 días out-of-sample.
+      Única subzona prometedora: NHL 0.40-0.45 WR 83% (N=6) — hipótesis, N insuficiente.
+      S1+ Consensus también desactivado (hereda la misma invalidación).
+    - CRÍTICO S2 BRONZE: EXCLUIDO. WR 35.7% (N=14, PnL -$431) — tier más destructor en S2.
+      Sin BRONZE: S2 WR sube 58.4%→63.5%, PnL +$593→+$1,023. STANDARD (WR 78%) y RISKY
+      (WR 75%) cargan la señal. WR y N actualizados en consecuencia.
+    - CRÍTICO S8 NHL: DESACTIVADO. WR 33.3% (N=6, PnL -$287) — sin edge.
+      4 HIGH RISK (WR 50%) + 1 BRONZE (0W) + 1 NBA mal clasificado (0W).
+    - IMPORTANTE S3: RESTRINGIDO A ESPORTS SIN HIGH RISK.
+      S3 global WR 54.1% (N=37, PnL -$516). ESPORTS sin HR: WR 83.3% (N=6, +$212).
+      NHL (WR 60%, N=10) y MMA añadidos a _S3_EXCLUDED. WR actualizado a 83.3%.
+    - IMPORTANTE S2 umbral capital: $3K→$5K. Trades $3K-5K WR 50% (N=36, coin flip).
+      $5K+ mejora: $5K-10K WR 69.2% (N=26), $10K-20K WR 61.5% (N=13), $20K+ WR 76.9% (N=13).
+    - IMPORTANTE S2C SILVER: EXCLUIDO (WR 33%, N=3). RISKY boost añadido (WR 85.7%, N=7).
+      Nicho boost en S2C: WR 80% (N=5, +$334) → confidence HIGH cuando is_nicho=True.
+    - IMPORTANTE Nicho boost S2: S2-nicho WR 73.3% vs no-nicho 58.9% → boost a HIGH cuando nicho.
+    - IMPORTANTE S2B WR actualizado: 0.60-0.70: 70.4%→78.6% (N=28). 0.70-0.80: 84.1%→84.6% (N=39).
+      0.80-0.82: 80%→100% (N=4 — mantener con stake ×0.75 por payout reducido).
+    - NUEVO Sucker bet warning en classify(): edge_pct < -3% → warning fuerte + confidence downgrade.
+      3/3 trades con edge < -3% perdieron (WR 0%). Downgrade: HIGH→MEDIUM, MEDIUM→LOW.
+    - BLACKLIST: añadidos VeryLucky888 (WR 20%, N=5), BWArmageddon (WR 0%, N=3), c4c4 (WR 29%, N=7).
+    - HIPÓTESIS S5-MMA actualizada: N=3→N=6. WR 100% (6/6 wins UFC 0.60-0.70 BUY).
+      Hipótesis más prometedora del dataset. Implementar cuando N≥15.
+    - Señales +EV (Scenario B/C sin destructoras): WR 68.9% / PnL +$3,928 vs total 58.8% / +$1,657.
+      Las señales cortadas (S1, S1B, S3 genérico, S5, S8) consumían $2,271 de profit.
+    - NUEVO S9: Counter HIGH RISK en NHL (WR counter 73.3%, N=15, precio 0.30-0.80).
+      HIGH RISK en NHL WR follow 26.7% (N=15, -$745) — la peor combinación del heatmap.
+      Señal inversa simétrica de S8. Confidence MEDIUM (N=15 exactamente en umbral mínimo).
+    - NUEVO S5-MMA: Follow MMA 0.60-0.70 (WR 100%, N=6, +$355). Activado con cautela.
+      N inferior al umbral N≥15. Stake mínimo (1%), confidence LOW. Excluye BOT/MM.
+      Monitorear: subir a MEDIUM cuando N≥15 y WR≥80% sostenido.
+    - CONFIRMADO: Nicho boost S2/S2C ya implementado. Dataset confirma WR 73.3% nicho vs 58.9%.
+    - CONFIRMADO: Blacklist VeryLucky888 (20% WR) y c4c4 (28.6% WR) — dataset los valida.
+
+  v7.1 (Mar 2026):
+    - CORREGIDO Gap 1: S2/S2B/S2C solo activan con side==BUY. SELL NBA WR 36.1% — excluido.
+    - CORREGIDO Gap 2: S8 excluye BOT/MM (WR 0%, N=5) y SILVER (WR 25%). Solo BUY.
+    - CORREGIDO Gap 4: TENNIS añadido a _S3_EXCLUDED (WR 41.7%, PnL -1,451 — destructor).
+    - NO implementado Gap 3 (Crypto >0.65 N=12 insuficiente).
+    - NO implementado Gap 7 ($3k→$5k requiere análisis previo de señales en ese rango).
+    - HIPÓTESIS Gap 5: Politics <0.30 WR 63% (N=27) — pendiente validación.
+
+  v7.0 (Mar 2026):
+    - IMPLEMENTADO S8: Follow NHL 0.60-0.70, WR ~86%, N≥15, conf=MEDIUM, stake 2%.
+    - CORREGIDO S2B: hard IGNORE si poly_price > 0.82 (EV negativo con WR 80%).
+      Rango activo reducido de 0.60-0.85 a 0.60-0.82.
+    - ACTUALIZADO S5: WR 85.7% → 73.0% (N~20). ROI esperado en Telegram corregido.
+    - HIPÓTESIS S9: Counter MMA RISKY 0.50-0.70 (N~8-10). Pendiente N≥15.
+
+  v6.1 (Mar 2026):
+    - ACTUALIZADO S6: WR 81.8% → 66.7% (N=24). Confianza MEDIUM → LOW.
+    - ACTUALIZADO S7: WR 84.6% → 85.7% (N=14). Confianza LOW → MEDIUM (cruzó N=15).
+    - ACTUALIZADO S2B: WR 76.1%/85.0% → 80.0% en ambas subzonas (N=60 y N=30).
+    - ACTUALIZADO S1B: WR 87.0% → 83.9% (N=31). Sigue siendo señal sólida.
+    - ACTUALIZADO S2: WR 62.5% (N=72). Leve baja, sigue válida.
+    - ACTUALIZADO S2C: WR 67.6% → 68.3% (N=41). Consistente.
+    - ACTUALIZADO S5: WR 85.7% → 75.0% (N=20). Sigue válida.
+    - HIPÓTESIS S8: Follow NHL 0.60-0.70 WR 87.5% (N=8). Pendiente N≥15.
+    - WHITELIST A: añadidos GetaLife (HIGH RISK NBA, WR 83.3%, N=6) y jackmala (HIGH RISK NBA, WR 80%, N=5).
+    - WHITELIST B: swisstony eliminado (WR 50%, PnL -$237, ya no califica).
+    - BLACKLIST: añadidos hotdogcat (HIGH RISK NBA, WR 28.6%) y Sensei2 (WR 0%, Soccer+NBA).
+    - STAKE: FOLLOW + whitelist (A o B) → ×1.25 adicional.
+    - STAKE: COUNTER + blacklist → ×1.25 adicional.
+
+  v5.0 (Mar 2026):
+    - CORREGIDO Bug 3: MMA ahora se detecta ANTES que Soccer en _detect_category.
+      UFC Fight Night ya no activa S1B falsamente (7 trades UFC tenían WR 42.9%).
+    - ACTUALIZADO S1: ahora NBA-aware.
+      S1-NBA 0.40-0.44: conf=HIGH, WR 92.3% (N=13).
+      S1-NBA <0.40: conf=MEDIUM, WR ~70%.
+      S1-OTHER 0.40-0.44: conf=MEDIUM, WR ~72%.
+      S1-OTHER <0.40: conf=LOW, WR 60%.
+    - CORREGIDO S2: añadida exclusión BOT/MM (WR 30.8%, PnL -595 en NBA 0.50-0.60).
+      WR actualizado de 72% → 64% (N=50 excl. BOT). S1B WR actualizado de 72% → 75%.
+    - ACTUALIZADO S2B: conf LOW → MEDIUM, WR 69.6% → 76.5%, stake 0.5x → 1x.
+      También excluye BOT/MM.
+    - AÑADIDO S2C: Follow NBA 0.45-0.50 excl HIGH RISK/BOT (WR ~60%, N=49, conf=MEDIUM).
+      La "zona muerta" 0.45-0.50 no existe para NBA — solo para otras categorías.
+    - AÑADIDO S6: Counter ESPORTS precio <0.50 (WR 85.7%, N=14, conf=MEDIUM, stake 0.5x).
+      Misma lógica que S1: ballenas comprando underdog en Esports = mala señal.
+    - DOCUMENTADO S7 (hipótesis): Follow ESPORTS 0.60-0.70 WR 100% pero N=7. Pendiente n≥15.
+    - Warning "zona muerta" ahora excluye NBA (NBA tiene S2C en ese rango).
+    - Resolución de conflictos: añadido CASO S1+S6 (ESPORTS HIGH RISK <0.45 → S6 prevalece).
+
   v4.0 (Feb 2026):
     - AÑADIDO S1B: Counter Soccer cualquier tier precio <0.40 (WR 75.0%, N=24)
     - AÑADIDO S2: exclusión HIGH RISK en NBA (WR 49.4%, PnL -818 — destruye capital)
@@ -34,6 +158,43 @@ CHANGELOG:
     - AÑADIDO: swisstony a WHITELIST_B (WR 71.4%, N=7)
     - AÑADIDO: synnet baja de WHITELIST_A a WHITELIST_B (N=1, insuficiente)
     - AÑADIDO: warnings para zona muerta 0.45-0.49, precio >0.75, edge_pct>0
+  v7.3 (Mar 2026) — Dataset Gold 409 trades (323 resueltos):
+    - CRÍTICO S1-NBA: DESACTIVADO. WR 33.3% (N=12) — señal rota, perdiendo consistentemente.
+      S1 sigue activo para todas las demás categorías (non-NBA). Reactivar cuando N≥20 y WR≥60%.
+    - CRÍTICO S1B Soccer: SUSPENDIDO. WR 52.9% total (N=17); descomposición por rango:
+      <0.30: WR 33%, 0.30-0.35: WR 50%, 0.35-0.40: WR 31%. Sin edge positivo en ningún rango.
+      Degradado a HIPÓTESIS — reactivar cuando N≥30 adicionales con WR≥65%.
+    - CRÍTICO S5 Soccer: SUSPENDIDO. WR 38.1% (N=21) — reversión total desde WR 73%.
+      Causa probable: contaminación MMA/Esports + evento Manchester City (7 losses consecutivos).
+      Reactivar cuando N≥30 limpio (Soccer puro, sin BOT/MM del mismo mercado perdedor).
+    - IMPORTANTE S2B: zonas diferenciadas por datos.
+      0.60-0.70: WR 70.4% (N=27) → conf MEDIUM. 0.70-0.82: WR 84.1% (N=44) → conf HIGH.
+    - IMPORTANTE S2: excluir SILVER (WR 25% confirmado — pendiente estaba en v7.2).
+    - IMPORTANTE S2C: excluir STANDARD (tier sin edge en zona 0.45-0.50 NBA).
+    - IMPORTANTE S3: añadido "OTHER" a _S3_EXCLUDED (WR 30% en OTHER — sin edge real).
+    - IMPORTANTE S4 Crypto: restringido a precio ≥ 0.60 (zona baja sin edge confirmado).
+    - IMPORTANTE S6 Esports: restringido a 0.40-0.50 (límite inferior añadido).
+    - IMPORTANTE S7 Esports: excluir HIGH RISK (tier con WR inferior al average de señal).
+    - NO cambiado: S2B excluye HIGH RISK ya desde v7.2. S3 ya excluye CRYPTO.
+    - NO cambiado: S8 NHL (N=2 en nuevo dataset — insuficiente para revisar parámetros).
+    - HIPÓTESIS nueva: S5-MMA Follow 0.60-0.80 (WR 100% N=3). Documentar, N mínimo ≥15.
+
+  v7.2 (Mar 2026):
+    - CRÍTICO S5: añadidos filtros 'HIGH RISK' not in tier + 'BOT' not in tier.
+      HR destruye S5 (WR 40%, N=15). BOT también (WR 20%, N=5). Contaminación lyon (ver abajo).
+      Señal limpia tras filtros; suspender si N<10 en próximo análisis.
+    - CRÍTICO S3: añadido filtro 'HIGH RISK' not in tier.
+      S3+HR WR 0%→sin HR WR 85.7% (N=7). Cambio más dramático del análisis.
+    - CRÍTICO S1B: umbral reducido de <0.40 a <0.35.
+      Subrango 0.35-0.40 colapsa a WR 20% (N=10). Solo <0.35 mantiene WR 80% (N=5).
+      WR ajustado de 87.0% a 80.0% (refleja solo el subrango activo).
+    - BUG FIX: 'lyon' eliminado de SOCCER_KEYWORDS.
+      Equipo de LoL llamado LYON activaba S5 con partidos de League of Legends.
+    - swisstony añadido a BLACKLIST (N=8, WR 37.5%, PnL -190). Sus 5 trades en S5 WR 20%.
+      Ya había sido eliminado de WHITELIST_B en v6.1 — ahora en BLACKLIST.
+    - PENDIENTE: S2 SILVER (WR 25% N=4 — observar hasta N≥10). [RESUELTO en v7.3]
+    - PENDIENTE: Umbral mínimo $3k→$5k (analizar impacto antes de implementar).
+
 """
 
 import re
@@ -79,6 +240,14 @@ LIMIT_TRADES = 1000
 INTERVALO_NORMAL = 3
 MAX_CACHE_SIZE = 5000
 VENTANA_TIEMPO = 1800  # 30 minutos
+
+# Cache de tiers persistente entre sesiones (opciones 1+2)
+TIER_CACHE_PATH = Path("trades_live/tier_cache.json")
+TIER_CACHE_TTL_H = 48  # horas antes de considerar un tier "caducado"
+DEFERRED_TIMEOUT_S = 90  # segundos máx. para esperar tier (scraper con 3 retries puede tardar ~60-80s)
+
+BANKROLL_PATH = Path("trades_live/bankroll.json")
+DEFAULT_BANKROLL = 500.0  # bankroll inicial por defecto
 
 # Configuración de Logging
 logging.basicConfig(
@@ -148,9 +317,29 @@ _TG_BANNER_COUNTER = (
 # ============================================================================
 
 # Listas de traders
-WHITELIST_A = ['hioa', 'KeyTransporter']
-WHITELIST_B = ['elkmonkey', 'gmanas', 'swisstony', 'synnet']
-BLACKLIST = ['sovereign2013', 'BITCOINTO500K', '432614799197', 'xdoors']
+WHITELIST_A = ['hioa', 'KeyTransporter', 'HOCHI', 'GetaLife', 'jackmala']
+WHITELIST_B = ['theyseemeloosintheyhatin', 'qqzhi4527', 'elkmonkey', 'gmanas', 'TheOnlyHuman', 'synnet', 'takeormake', 'joosangyoo', 'statwC00KS',
+               '0x4924',   # BOT/MM, WR 61.1%, capital $53K avg — confirmado whitelist Whales
+               # gmanas: WR 87.5% N=8 — monitorear, posible WHITELIST_A cuando N≥15.
+               ]
+
+# Traders con WR validado (≥60%, N≥15) cuyo tier es snapshot inestable.
+# El tier cambia entre capturas porque el scraper solo actualiza al capturar una apuesta
+# que cumpla parámetros. Entre capturas, el trader opera y modifica su percentil.
+# Para estos traders el tier del momento es ruido; el WR histórico es la señal real.
+# Efecto: bypasea BOT/MM y HIGH RISK en S2/S2B/S2C. SILVER y BRONZE NO se bypasean.
+# Criterio de entrada: WR ≥ 60%, N ≥ 15, tier documentado como inestable en producción.
+# Si están aquí deben estar también en WHITELIST_B para el stake boost (×1.25).
+WHITELIST_TIER_OVERRIDE = [
+    'elkmonkey',  # WR 68.4% NBA, N≥15 — tier oscila BOT/MM ↔ HIGH RISK según captura
+    '0x4924',     # WR 61.1% NBA, capital $53K avg — ídem
+]
+
+BLACKLIST = ['sovereign2013', '0xFc2F4f50...', 'bossoskil1', 'BITCOINTO500K', '432614799197', 'xdoors', 'hotdogcat', 'Sensei2', 'swisstony',
+             'VeryLucky888',    # WR 20% N=5 — candidato blacklist confirmado v7.4
+             'BWArmageddon',    # WR 0% N=3 — candidato blacklist confirmado v7.4
+             'c4c4',            # WR 29% N=7, BOT/MM — candidato blacklist confirmado v7.4
+             ]
 TRADER_MIN_TRADES_FOR_SIGNAL = 15
 
 # Keywords para detección de categorías
@@ -178,7 +367,7 @@ CRICKET_KEYWORDS = ['cricket', 't20 world cup', 'ipl', 'test match', 'odi', 't20
 
 SOCCER_KEYWORDS = [
     'fc ', ' fc', 'barcelona', 'madrid', 'bayern', 'dortmund', 'juventus',
-    'inter', 'milan', 'psg', 'lyon', 'lille', 'chelsea', 'arsenal',
+    'inter', 'milan', 'psg', 'lille', 'chelsea', 'arsenal',  # 'lyon' eliminado v7.2: LoL team LYON activaba S5 erróneamente
     'liverpool', 'tottenham', 'manchester', 'premier', 'liga', 'serie a',
     'bundesliga', 'ligue', 'milan', 'roma', 'napoli', 'atletico', 'sevilla', 'valencia',
     'real sociedad', 'ajax', 'porto', 'benfica', 'feyenoord', 'celtic', 'rangers', 'galatasaray',
@@ -222,6 +411,10 @@ def _detect_category(market_title: str) -> str:
     if any(kw in title_lower for kw in CRYPTO_KEYWORDS):
         return "CRYPTO"
 
+    # MMA antes de Soccer — evita que "UFC Fight Night" active S1B por falso positivo Soccer
+    if any(kw in title_lower for kw in MMA_KEYWORDS):
+        return "MMA"
+
     if any(kw in title_lower for kw in SOCCER_KEYWORDS):
         return "SOCCER"
 
@@ -230,9 +423,6 @@ def _detect_category(market_title: str) -> str:
 
     if any(kw in title_lower for kw in TENNIS_KEYWORDS):
         return "TENNIS"
-
-    if any(kw in title_lower for kw in MMA_KEYWORDS):
-        return "MMA"
 
     # Fallback 'vs' solo si tiene indicadores típicos de mercados NBA
     # No usar para cualquier "vs" genérico (evita MMA/boxeo activando S2)
@@ -249,6 +439,113 @@ def _detect_category(market_title: str) -> str:
 def _is_crypto_intraday(market_title: str) -> bool:
     """Detecta si es mercado crypto intraday (Up/Down)."""
     return 'up or down' in market_title.lower()
+
+
+# ============================================================================
+# SISTEMA DE STAKE KELLY FRACCIONADO
+# ============================================================================
+
+# Stake base % por (signal_id, confidence). Fallback por confidence si no está en tabla.
+_STAKE_PCT: dict[tuple, int] = {
+    ('S1',           'HIGH'):   4,   # S1-NBA 0.40-0.44
+    ('S1B',          'HIGH'):   4,   # S1B Soccer [SUSPENDIDA v7.3]
+    ('S1+',          'HIGH'):   4,   # S1+ consenso
+    ('S2B',          'HIGH'):   3,   # S2B NBA zona 0.70-0.82
+    ('S2B',          'MEDIUM'): 2,   # S2B NBA zona 0.60-0.70
+    ('S2',           'HIGH'):   3,   # S2+RISKY (boost a HIGH)
+    ('S2+',          'HIGH'):   3,   # S2+ consenso
+    ('S1',           'MEDIUM'): 2,   # S1-NBA <0.40 y S1-OTHER
+    ('S2',           'MEDIUM'): 2,   # S2 NBA core
+    ('S2C',          'MEDIUM'): 2,   # S2C NBA
+    ('S4',           'MEDIUM'): 2,   # S4 Crypto intraday
+    ('S5',           'MEDIUM'): 2,   # S5 Soccer [SUSPENDIDA v7.3]
+    ('S6',           'LOW'):    1,   # S6 Counter ESPORTS (v6.1: bajó de MEDIUM a LOW)
+    ('S1',           'LOW'):    1,   # S1-OTHER
+    ('S1-MMA-RISKY', 'LOW'):    1,   # S1-MMA-RISKY (N=5, muestra pequeña)
+    ('S3',           'LOW'):    1,   # S3 Nicho
+    ('S7',           'MEDIUM'): 2,   # S7 Follow ESPORTS (v6.1: subió de LOW a MEDIUM)
+    # ('S8',         'MEDIUM'): 2,   # S8 DESACTIVADO v7.4 (WR 33.3% N=6)
+    # ('S9',         'MEDIUM'): 2,   # S9 DESACTIVADO v7.4.1 (Whales N=32 WR 50% — ilusión estadística)
+    ('S5-MMA',       'LOW'):    1,   # S5-MMA Follow MMA 0.60-0.70 (WR 100%, N=6 — stake mínimo)
+}
+_STAKE_DEFAULT = {'HIGH': 3, 'MEDIUM': 2, 'LOW': 1}
+
+
+def calcular_stake(
+    signal_id: str,
+    confidence: str,
+    bankroll: float,
+    poly_price: float = 0.0,
+    is_nicho: bool = False,
+    is_whitelist_a: bool = False,
+    is_whitelist_b: bool = False,
+    is_blacklist: bool = False,
+    action: str = "",
+    is_deferred: bool = False,
+) -> tuple[float, float, list[str]]:
+    """
+    Calcula el stake sugerido en USD usando Kelly fraccionado.
+
+    Returns:
+        (stake_usd_redondeado, stake_pct_display, lista_modificadores)
+    """
+    base_pct = _STAKE_PCT.get((signal_id, confidence), _STAKE_DEFAULT.get(confidence, 1))
+    stake_pct = base_pct / 100.0
+    mods: list[str] = []
+
+    # Drawdown: bankroll < $400 → todos los stakes a la mitad
+    if bankroll < 400:
+        stake_pct *= 0.5
+        mods.append("drawdown <$400 ×0.5")
+
+    # Whitelist A → +50%
+    if is_whitelist_a:
+        stake_pct *= 1.5
+        mods.append("Whitelist A ×1.5")
+
+    # Whitelist B FOLLOW → +25% (solo si NO es A, evitar doble boost)
+    elif action == "FOLLOW" and is_whitelist_b:
+        stake_pct *= 1.25
+        mods.append("FOLLOW+Whitelist B ×1.25")
+
+    # COUNTER + blacklist → +25% (independiente de whitelist)
+    if action == "COUNTER" and is_blacklist:
+        stake_pct *= 1.25
+        mods.append("COUNTER+Blacklist ×1.25")
+
+    # Mercado nicho → +25%
+    if is_nicho:
+        stake_pct *= 1.25
+        mods.append("nicho ×1.25")
+
+    # S2B subzona 0.80-0.85 → payout bajo, reducir
+    if signal_id == 'S2B' and poly_price >= 0.80:
+        stake_pct *= 0.75
+        mods.append("subzona 0.80+ ×0.75")
+    elif poly_price > 0.75:
+        # Precio alto pero no S2B 0.80+ (evitar doble penalización)
+        stake_pct *= 0.75
+        mods.append("precio >0.75 ×0.75")
+
+    # Deferred → timing tardío, precio puede haber movido
+    if is_deferred:
+        stake_pct *= 0.5
+        mods.append("deferred ×0.5")
+
+    stake_usd = bankroll * stake_pct
+    # Redondeo dinámico según bankroll — evita que confianzas distintas colapsen al mismo valor
+    if bankroll < 300:
+        step, min_stake = 1, 7.0
+    elif bankroll < 600:
+        step, min_stake = 2, 7.0
+    elif bankroll < 1000:
+        step, min_stake = 5, 7.0
+    else:
+        step, min_stake = 10, 10.0
+    stake_usd_rounded = max(min_stake, round(stake_usd / step) * step)
+    pct_display = round(stake_pct * 100, 1)
+
+    return stake_usd_rounded, pct_display, mods
 
 
 def classify(
@@ -298,6 +595,8 @@ def classify(
     whitelist_a_lower = [w.lower() for w in WHITELIST_A]
     whitelist_b_lower = [w.lower() for w in WHITELIST_B]
     blacklist_lower = [b.lower() for b in BLACKLIST]
+    # Tier override: WR histórico supera al tier snapshot (inestable por timing de captura)
+    _is_tier_override = display_name_lower in [w.lower() for w in WHITELIST_TIER_OVERRIDE]
 
     category = _detect_category(market_title)
     result["category"] = category
@@ -309,9 +608,14 @@ def classify(
     # --- WARNINGS GLOBALES ---
 
     # FIX 2: edge_pct llega de sports_edge_detector con convención (pinnacle - poly)*100
-    # edge_pct < 0 = poly más caro que Pinnacle = sucker bet (ya marcado por is_sucker_bet)
-    # No añadimos warning aquí: sports_edge_detector lo comunica vía is_sucker_bet
-    # y se muestra explícitamente en el output de Telegram.
+    # edge_pct < 0 = poly más caro que Pinnacle = sucker bet.
+    # v7.4: cuando edge < -3%, warning fuerte + downgrade de confidence confirmado.
+    # Dataset: 3/3 trades con edge < -3% perdieron (WR 0%). Patrón claro aunque N pequeño.
+    if edge_pct < -3.0:
+        result["warnings"].append(
+            f"⚠️ SUCKER BET: poly está {abs(edge_pct):.1f}% MÁS CARO que Pinnacle. "
+            f"3/3 trades con edge < -3% perdieron (WR 0%). Downgrade confidence aplicado."
+        )
 
     # Warning: precio > 0.85
     if poly_price > 0.85:
@@ -320,10 +624,17 @@ def classify(
             f"$10 a {poly_price:.2f} gana solo ${(1/poly_price - 1)*10:.2f}."
         )
 
-    # Warning: zona muerta 0.45-0.49
-    if 0.45 <= poly_price <= 0.49:
+    # Warning: zona 0.45-0.49 (solo non-NBA — NBA tiene S2C en este rango)
+    if 0.45 <= poly_price <= 0.49 and category != "NBA":
         result["warnings"].append(
-            "Precio en zona 0.45-0.49: underdog sin señal activa. No activa S1 ni S2."
+            "Precio en zona 0.45-0.49: sin señal activa para esta categoría. No activa S1 ni S2."
+        )
+
+    # Warning: SILVER en NHL — trampa confirmada (Whales N=15, WR 26.7%)
+    if category == "NHL" and 'SILVER' in tier_upper:
+        result["warnings"].append(
+            "⚠️ SILVER en NHL: WR 26.7% (N=15, Whales) — trampa confirmada. "
+            "No hay señal activa para esta combinación. Considerar IGNORAR."
         )
 
     # Warning: trader en blacklist
@@ -333,9 +644,11 @@ def classify(
         )
 
     # --- FILTRO MÍNIMO DE CAPITAL ---
+    # v7.4: umbral subido de $3K a $5K — trades $3K-5K tienen WR 50% (coin flip, N=36).
+    # $5K-10K WR 69.2% (N=26, +$769), $10K-20K WR 61.5% (N=13), $20K+ WR 76.9% (N=13).
     if valor_usd < 3000:
         result["reasoning"].append(
-            f"Capital ${valor_usd:,.0f} < $3K mínimo para señal. "
+            f"Capital ${valor_usd:,.0f} < $5K mínimo para señal (v7.4: $3K-5K WR 50% coin flip). "
             f"Ballena registrada pero sin acción recomendada."
         )
         return result
@@ -343,131 +656,322 @@ def classify(
     # --- DETECCIÓN DE SEÑALES ---
     signals = []
 
-    # S1: Counter HIGH RISK (precio < 0.45)
-    if 'HIGH RISK' in tier_upper and poly_price < 0.45:
-        if 0.40 <= poly_price < 0.45:
-            signals.append({
-                "id": "S1",
-                "action": "COUNTER",
-                "confidence": "HIGH",
-                "win_rate": 88.2,
-                "reasoning": f"S1 zona fuerte: Counter HIGH RISK a {poly_price:.2f} (WR 88.2%, N=17)",
-            })
-        elif poly_price < 0.40:  # poly_price < 0.40
-            signals.append({
-                "id": "S1",
-                "action": "COUNTER",
-                "confidence": "LOW",
-                "win_rate": 60.0,
-                "reasoning": f"S1 zona baja: Counter HIGH RISK a {poly_price:.2f} (WR 60.0%, N=14, mezcla deportes)",
-            })
+    # S1: Counter HIGH RISK (precio < 0.45) — DESACTIVADO GLOBALMENTE v7.4
+    # WR global 35.3% (N=51) — peor que moneda al aire. Desglose:
+    #   NBA: WR 26% (N=11), Soccer: WR 36% (N=16), NHL: WR 57% (N=10 — único rescatable pero N bajo),
+    #   OTHER: WR 13% (N=8, 0W/8L en 0.30-0.40). La premisa "counter HIGH RISK = win" refutada.
+    # ÚNICA subzona prometedora: NHL 0.40-0.45 WR 83% (N=6) — hipótesis, sin implementar.
+    # Reactivar cuando N≥20 por categoría específica con WR≥65% sostenido.
+    # if 'HIGH RISK' in tier_upper and poly_price < 0.45 and category != "NBA":
+    #     if 0.40 <= poly_price < 0.45:
+    #         signals.append({
+    #             "id": "S1",
+    #             "action": "COUNTER",
+    #             "confidence": "LOW",
+    #             "win_rate": 57.0,
+    #             "reasoning": f"S1 zona fuerte: Counter HIGH RISK {category} a {poly_price:.2f}",
+    #         })
+    #     else:  # < 0.40
+    #         signals.append({
+    #             "id": "S1",
+    #             "action": "COUNTER",
+    #             "confidence": "LOW",
+    #             "win_rate": 60.0,
+    #             "reasoning": f"S1 zona baja: Counter HIGH RISK {category} a {poly_price:.2f}",
+    #         })
 
-    # S1B: Counter Soccer cualquier tier, precio < 0.40 (WR 75.0%, N=24)
-    # Las ballenas comprando Soccer a precio muy bajo son malas predictorias.
-    # No requiere ser HIGH RISK — el patrón aplica a todos los tiers en Soccer.
-    if category == "SOCCER" and poly_price < 0.40:
+    # S1B: Counter Soccer — SUSPENDIDA v7.3 (WR 52.9% N=17, sin edge en ningún rango)
+    # Desglose: <0.30 WR 33%, 0.30-0.35 WR 50%, 0.35-0.40 WR 31%. Señal degradada a HIPÓTESIS.
+    # Reactivar cuando N≥30 adicionales con WR≥65% en rango activo.
+    # if category == "SOCCER" and poly_price < 0.35:
+    #     signals.append({
+    #         "id": "S1B",
+    #         "action": "COUNTER",
+    #         "confidence": "MEDIUM",
+    #         "win_rate": 80.0,
+    #         "reasoning": f"S1B: Counter Fútbol a {poly_price:.2f} cualquier tier (WR 80%, N=5 — MEDIUM hasta N≥15)",
+    #     })
+
+    # S1-MMA-RISKY: Counter RISKY en MMA, precio < 0.50 (embrionaria v6.0)
+    # WR follow = 0% (N=5) → WR counter = 100%. Todos underdogs UFC perdieron.
+    # RISKY en MMA = opuesto a RISKY en NBA (que es señal positiva WR 78.6%).
+    # Muestra pequeña (N=5) → stake 0.5x, solo activar como alerta LOW.
+    _is_risky_not_hr = 'RISKY' in tier_upper and 'HIGH RISK' not in tier_upper
+    if category == "MMA" and _is_risky_not_hr and poly_price < 0.50:
         signals.append({
-            "id": "S1B",
+            "id": "S1-MMA-RISKY",
             "action": "COUNTER",
-            "confidence": "MEDIUM",
-            "win_rate": 75.0,
-            "reasoning": f"S1B: Counter Fútbol a {poly_price:.2f} cualquier tier (WR 75.0%, N=24)",
+            "confidence": "LOW",
+            "win_rate": 100.0,
+            "reasoning": f"S1-MMA-RISKY: Counter RISKY en MMA a {poly_price:.2f} (WR 100% counter, N=5 — stake 0.5x, muestra pequeña)",
         })
 
-    # S2: Follow NBA 0.50-0.60, excluir HIGH RISK (zona core, datos sólidos)
-    # HIGH RISK NBA: WR 49.4%, PnL -818 → destruye el alpha de la categoría.
-    # Zona 0.50-0.60: WR 72%, rango validado con mayor volumen de señales.
-    if category == "NBA" and 0.50 <= poly_price <= 0.60 and 'HIGH RISK' not in tier_upper:
-        confidence = "MEDIUM"
-        reasoning = f"S2: Follow NBA a {poly_price:.2f} (WR 72%, rango 0.50-0.60, excl. HIGH RISK)"
+    # S2: Follow NBA 0.50-0.60, excluir HIGH RISK, BOT/MM, SILVER y BRONZE (zona core)
+    # WR 62.5% (N=72). RISKY boost: WR 78.6% (N=14) → confianza HIGH cuando tier=RISKY.
+    # HIGH RISK NBA: WR 49.4%, PnL -818. BOT/MM: WR 30.8%, PnL -595 → excluir siempre.
+    # SILVER: WR 25% (confirmado v7.3) → excluir.
+    # BRONZE: WR 35.7% (N=14, PnL -$431, v7.4) — tier más destructor en S2. EXCLUIR.
+    # Sin BRONZE: WR sube 58.4%→63.5%, PnL +$593→+$1,023. STANDARD (WR 78%) y RISKY (75%) cargan.
+    # SELL global WR 36.1%: excluir SELLs en toda la familia S2 (solo BUY genera señal).
+    _s2_excl = (not _is_tier_override and (
+                    'HIGH RISK' in tier_upper or 'BOT' in tier_upper)
+                or 'SILVER' in tier_upper or 'BRONZE' in tier_upper)
+    if category == "NBA" and 0.50 <= poly_price <= 0.60 and not _s2_excl and side == "BUY":
+        _is_risky_s2 = 'RISKY' in tier_upper  # HIGH RISK ya excluido arriba
+        if _is_risky_s2:
+            confidence = "HIGH"
+            wr_s2 = 75.0
+            reasoning = f"S2+RISKY: Follow NBA a {poly_price:.2f} (WR 75.0%, N=12 — tier RISKY boost)"
+        else:
+            confidence = "MEDIUM"
+            wr_s2 = 63.5
+            reasoning = f"S2: Follow NBA a {poly_price:.2f} (WR 63.5%, excl. HIGH RISK/BOT/SILVER/BRONZE)"
 
-        # Whitelist A boost
         if display_name_lower in whitelist_a_lower:
             confidence = "HIGH"
             reasoning += f" | Whitelist A ({display_name}) → stake 1.5x"
         elif display_name_lower in whitelist_b_lower:
-            reasoning += f" | Whitelist B ({display_name}) → ejecutar normal"
+            reasoning += f" | Whitelist B ({display_name}) → stake 1.25x"
+        if _is_tier_override and ('HIGH RISK' in tier_upper or 'BOT' in tier_upper):
+            reasoning += f" | TIER-OVERRIDE ({display_name}, tier snapshot ignorado — WR validado)"
+
+        # v7.4: Nicho es multiplicador real en NBA — S2 nicho WR 73.3% vs no-nicho 58.9%
+        if is_nicho:
+            confidence = "HIGH" if confidence == "MEDIUM" else confidence
+            reasoning += f" | NICHO +boost (S2-nicho WR 73.3% vs 58.9%)"
 
         signals.append({
             "id": "S2",
             "action": "FOLLOW",
             "confidence": confidence,
-            "win_rate": 72.0,
+            "win_rate": wr_s2,
             "reasoning": reasoning,
         })
 
-    # S2B: Follow NBA 0.60-0.80, excluir HIGH RISK (zona extendida, pendiente más datos)
-    # Prometedor (WR 69.6%) pero la muestra por tier se fragmenta en este rango.
-    # Tratar con stake reducido (0.5x) hasta consolidar n suficiente.
-    if category == "NBA" and 0.60 < poly_price <= 0.80 and 'HIGH RISK' not in tier_upper:
-        confidence = "LOW"
-        reasoning = f"S2B: Follow NBA a {poly_price:.2f} (WR 69.6%, rango 0.60-0.80, stake 0.5x, excl. HIGH RISK)"
+    # S2B: Follow NBA 0.60-0.82, excluir HIGH RISK y BOT/MM (v7.0: hard IGNORE >0.82)
+    # v7.3: zonas diferenciadas por dataset Gold 409 trades.
+    # v7.4: WR actualizados con nuevo dataset:
+    #   0.60-0.70 sin HR: WR 78.6% (N=28) → conf MEDIUM. HR excluido (WR 53.8%, N=13, -$159).
+    #   0.70-0.80 sin HR: WR 84.6% (N=39) → conf HIGH. HR en esta zona monitorear (WR 77.8%).
+    #   0.80-0.82 sin HR: WR 100% (N=4) → conf HIGH con stake ×0.75 por payout reducido.
+    # >0.82: IGNORE — EV negativo (break-even WR = precio, supera WR histórico).
+    _s2b_excl = not _is_tier_override and ('HIGH RISK' in tier_upper or 'BOT' in tier_upper)
+    if category == "NBA" and 0.82 < poly_price < 0.85 and not _s2b_excl:
+        payout_pct = (1 / poly_price - 1) * 100
+        result["warnings"].append(
+            f"S2B precio {poly_price:.2f} > 0.82: EV negativo "
+            f"(WR 84% × payout {payout_pct:.0f}% — break-even requiere WR >{poly_price*100:.0f}%). IGNORADO."
+        )
+    elif category == "NBA" and 0.60 < poly_price <= 0.82 and not _s2b_excl and side == "BUY":
+        if poly_price >= 0.80:
+            confidence = "HIGH"
+            wr_s2b = 100.0
+            payout_pct = (1 / poly_price - 1) * 100
+            reasoning = (
+                f"S2B zona alta: Follow NBA a {poly_price:.2f} (subzona 0.80-0.82, WR 100%, N=4, excl. HIGH RISK/BOT)"
+                f" — payout {payout_pct:.0f}%"
+            )
+        elif poly_price >= 0.70:
+            confidence = "HIGH"
+            wr_s2b = 84.6
+            reasoning = f"S2B zona fuerte: Follow NBA a {poly_price:.2f} (WR 84.6%, N=39, rango 0.70-0.80, excl. HIGH RISK/BOT)"
+        else:  # 0.60 < price < 0.70
+            confidence = "MEDIUM"
+            wr_s2b = 78.6
+            reasoning = f"S2B zona baja: Follow NBA a {poly_price:.2f} (WR 78.6%, N=28, rango 0.60-0.70, excl. HIGH RISK/BOT)"
 
         if display_name_lower in whitelist_a_lower:
-            confidence = "MEDIUM"
-            reasoning += f" | Whitelist A ({display_name}) → stake normal"
+            reasoning += f" | Whitelist A ({display_name}) → stake 1.5x"
         elif display_name_lower in whitelist_b_lower:
-            reasoning += f" | Whitelist B ({display_name})"
+            reasoning += f" | Whitelist B ({display_name}) → stake 1.25x"
+        if _is_tier_override and ('HIGH RISK' in tier_upper or 'BOT' in tier_upper):
+            reasoning += f" | TIER-OVERRIDE ({display_name}, tier snapshot ignorado — WR validado)"
 
         signals.append({
             "id": "S2B",
             "action": "FOLLOW",
             "confidence": confidence,
-            "win_rate": 69.6,
+            "win_rate": wr_s2b,
             "reasoning": reasoning,
         })
 
-    # S3: Follow Nicho — solo Esports y categorías no-core (excluye NBA, Soccer, Crypto)
-    # Datos confirman que Nicho Soccer WR 43.5% (PnL -618) y Nicho Crypto WR 33.3% (PnL -200).
-    # El filtro nicho solo tiene valor predictivo real en NBA (cubierto por S2) y Esports.
-    # Soccer nicho tiene reglas propias en S5/S6.
-    _S3_EXCLUDED = ("NBA", "SOCCER", "CRYPTO")
-    if is_nicho and category not in _S3_EXCLUDED and 0.50 <= poly_price < 0.85:
+    # S2C: Follow NBA 0.45-0.50, excluir HIGH RISK, BOT/MM, STANDARD y SILVER (v5.0)
+    # La "zona muerta" 0.45-0.50 es muerta para non-NBA pero tiene señal real en NBA.
+    # v7.3: STANDARD añadido a exclusiones (WR 25%, N=4 — sin edge).
+    # v7.4: SILVER añadido a exclusiones (WR 33%, N=3). RISKY es la estrella (WR 85.7%, N=7, +$487).
+    # RISKY+BRONZE combinado: WR 73.3% (N=15, +$721). Nicho boost: S2C-nicho WR 80% (N=5, +$334).
+    _s2c_excl = ('STANDARD' in tier_upper or 'SILVER' in tier_upper
+                 or (not _is_tier_override and ('HIGH RISK' in tier_upper or 'BOT' in tier_upper)))
+    if category == "NBA" and 0.45 <= poly_price < 0.50 and not _s2c_excl and side == "BUY":
+        _is_risky_s2c = 'RISKY' in tier_upper
+        if _is_risky_s2c:
+            confidence = "HIGH"
+            wr_s2c = 85.7
+            reasoning = f"S2C+RISKY: Follow NBA a {poly_price:.2f} (WR 85.7%, N=7 — tier RISKY estrella)"
+        else:
+            confidence = "MEDIUM"
+            wr_s2c = 67.6
+            reasoning = f"S2C: Follow NBA a {poly_price:.2f} (WR 67.6%, excl. HIGH RISK/BOT/STANDARD/SILVER)"
+
+        if display_name_lower in whitelist_a_lower:
+            confidence = "HIGH"
+            reasoning += f" | Whitelist A ({display_name})"
+        elif display_name_lower in whitelist_b_lower:
+            reasoning += f" | Whitelist B ({display_name}) → stake 1.25x"
+        if _is_tier_override and ('HIGH RISK' in tier_upper or 'BOT' in tier_upper):
+            reasoning += f" | TIER-OVERRIDE ({display_name}, tier snapshot ignorado — WR validado)"
+
+        # v7.4: Nicho boost en S2C — WR 80% (N=5, +$334)
+        if is_nicho:
+            confidence = "HIGH" if confidence == "MEDIUM" else confidence
+            reasoning += f" | NICHO +boost (S2C-nicho WR 80%, N=5)"
+
+        signals.append({
+            "id": "S2C",
+            "action": "FOLLOW",
+            "confidence": confidence,
+            "win_rate": wr_s2c,
+            "reasoning": reasoning,
+        })
+
+    # S3: Follow Nicho — RESTRINGIDO A ESPORTS SIN HIGH RISK (v7.4)
+    # v7.4: S3 global WR 54.1% (N=37, PnL -$516). Desglose por categoría:
+    #   ESPORTS sin HR: WR 83.3% (N=6, +$212) — la única subzona con edge real.
+    #   NHL sin HR: WR 60% (N=10) — marginal, excluido por seguridad.
+    #   OTHER: WR 33% — destruye (ya excluido v7.3).
+    #   TENNIS: WR 0% (N=2) — destruye (ya excluido v7.2).
+    # Restringir a solo ESPORTS salva la señal. NHL hipótesis pendiente N≥20 con WR≥70%.
+    # v7.2: HIGH RISK excluido (S3+HR WR ~33% vs sin HR WR 85.7% — cambio dramático).
+    _S3_EXCLUDED = ("NBA", "SOCCER", "CRYPTO", "TENNIS", "OTHER", "NHL", "MMA")
+    _s3_excl_tier = 'HIGH RISK' in tier_upper
+    if is_nicho and category not in _S3_EXCLUDED and 0.50 <= poly_price < 0.85 and not _s3_excl_tier:
         signals.append({
             "id": "S3",
             "action": "FOLLOW",
             "confidence": "LOW",
-            "win_rate": 56.5,
-            "reasoning": f"S3: Follow Nicho ({category}) a {poly_price:.2f} (stake 0.5x, WR 56.5%)",
+            "win_rate": 83.3,
+            "reasoning": f"S3: Follow Nicho ESPORTS a {poly_price:.2f} (WR 83.3%, N=6, excl. HIGH RISK)",
         })
 
-    # S4: Counter Crypto (solo intraday Up/Down automático)
+    # S4: Counter Crypto (solo intraday Up/Down automático), excluir HIGH RISK
+    # WR 62.5% (N=32) excl. HIGH RISK. Con HIGH RISK incluido: WR counter solo 25% (ballena GANA).
+    # HIGH RISK en crypto intraday = trader con info → no contrariar.
+    # v7.3: restringido a precio ≥ 0.60. Zona <0.60 sin edge confirmado.
     if category == "CRYPTO":
         if _is_crypto_intraday(market_title):
-            signals.append({
-                "id": "S4",
-                "action": "COUNTER",
-                "confidence": "MEDIUM",
-                "win_rate": 65.0,
-                "reasoning": f"S4: Counter Crypto intraday Up/Down a {poly_price:.2f}",
-            })
+            if 'HIGH RISK' in tier_upper:
+                result["warnings"].append(
+                    "S4: HIGH RISK en Crypto intraday — la ballena GANA aquí (WR counter 25%). Sin señal."
+                )
+            elif poly_price < 0.60:
+                result["warnings"].append(
+                    f"S4: precio {poly_price:.2f} < 0.60 — zona sin edge confirmado. Sin señal S4."
+                )
+            else:
+                signals.append({
+                    "id": "S4",
+                    "action": "COUNTER",
+                    "confidence": "MEDIUM",
+                    "win_rate": 62.5,
+                    "reasoning": f"S4: Counter Crypto intraday Up/Down a {poly_price:.2f} (WR 62.5%, excl. HIGH RISK, rango ≥0.60)",
+                })
         else:
             result["warnings"].append(
                 "S4 aplica solo a crypto intraday Up/Down. Para crypto largo plazo, validar manualmente."
             )
 
-    # S5 (REFACTORIZADA v4.0): Follow Soccer 0.60-0.80, excluir GOLD y RISKY
-    # CORRECCIÓN CRÍTICA: la señal anterior estaba invertida. El dato real muestra que
-    # Soccer SILVER en 0.50-0.65 la ballena GANA el 58.3% (WR follow, no counter).
-    # Con el rango ampliado 0.60-0.80 excl. GOLD/RISKY: WR 75.9%, N=29.
-    # GOLD destruye el grupo (GOLD Soccer tiene WR negativo en 0.60-0.80).
-    # RISKY Soccer también tiene WR negativo en ese rango.
-    if category == "SOCCER" and 0.60 <= poly_price < 0.80:
-        if 'GOLD' not in tier_upper and 'RISKY' not in tier_upper:
-            signals.append({
-                "id": "S5",
-                "action": "FOLLOW",
-                "confidence": "MEDIUM",
-                "win_rate": 75.9,
-                "reasoning": (
-                    f"S5: Follow Fútbol {tier} a {poly_price:.2f} "
-                    f"(WR 75.9%, N=29, excl. GOLD/RISKY)"
-                ),
-            })
+    # S5: Follow Soccer — SUSPENDIDA v7.3 (WR 38.1% N=21 — reversión total)
+    # Causa probable: contaminación MMA/Esports en clasificador + Manchester City 7 losses.
+    # Reactivar cuando N≥30 Soccer puro limpio con WR≥60%.
+    # HIPÓTESIS S5-MMA: Follow MMA 0.60-0.70 WR 100% (N=6 actualizado v7.4, era N=3 en v7.3).
+    # 6/6 wins en UFC 0.60-0.70 BUY, todas las categorías de tier. Hipótesis más prometedora del dataset.
+    # Implementar cuando N≥15. Bajo watch activo.
+    # _s5_excl = 'GOLD' in tier_upper or 'RISKY' in tier_upper or 'HIGH RISK' in tier_upper or 'BOT' in tier_upper
+    # if category == "SOCCER" and 0.65 <= poly_price < 0.80 and not _s5_excl:
+    #     signals.append({
+    #         "id": "S5",
+    #         "action": "FOLLOW",
+    #         "confidence": "MEDIUM",
+    #         "win_rate": 73.0,
+    #         "reasoning": (
+    #             f"S5: Follow Fútbol {tier} a {poly_price:.2f} "
+    #             f"(WR hist. 73.0%, excl. GOLD/RISKY/HR/BOT — N reducido post-filtros, monitorear)"
+    #         ),
+    #     })
 
-    # S6 — HIPÓTESIS PENDIENTE DE VALIDACIÓN (no implementada)
-    # Follow Soccer nicho GOLD/SILVER precio ≥ 0.65: WR 80%, pero N=5.
-    # Con n<20 el dato es estadísticamente irrelevante. Implementar cuando n≥20.
+    # S6: Counter ESPORTS precio 0.40-0.50 (v6.1: WR bajó a 66.7%, N=24 — conf bajada a LOW)
+    # WR redujo de 81.8% → 66.7% con más datos. Sigue válida pero confianza reducida.
+    # v7.3: límite inferior añadido — restringido a 0.40-0.50 (precio muy bajo sin datos).
+    if category == "ESPORTS" and 0.40 <= poly_price < 0.50:
+        signals.append({
+            "id": "S6",
+            "action": "COUNTER",
+            "confidence": "LOW",
+            "win_rate": 66.7,
+            "reasoning": f"S6: Counter ESPORTS a {poly_price:.2f} (WR 66.7%, N=24)",
+        })
+
+    # S7: Follow ESPORTS 0.60-0.70, excluir HIGH RISK (v6.1: WR 85.7%, N=14 — cruzó N=15, conf MEDIUM)
+    # WR 85.7% estable (N=14). MEDIUM hasta N≥20 con WR≥85% para subir a HIGH.
+    # v7.3: HIGH RISK excluido (tier con WR inferior — mismo principio que S2/S3).
+    if category == "ESPORTS" and 0.60 <= poly_price < 0.70 and 'HIGH RISK' not in tier_upper:
+        signals.append({
+            "id": "S7",
+            "action": "FOLLOW",
+            "confidence": "MEDIUM",
+            "win_rate": 85.7,
+            "reasoning": f"S7: Follow ESPORTS a {poly_price:.2f} (WR 85.7%, N=14, excl. HIGH RISK)",
+        })
+
+    # S8: Follow NHL 0.60-0.70 — DESACTIVADO v7.4
+    # WR 33.3% (N=6, PnL -$287) — no hay edge en esta señal.
+    # Desglose: 4 HIGH RISK (WR 50%, PnL -$87) + 1 BRONZE (0W) + 1 NBA mal clasificado (0W).
+    # NHL en general WR 44.4% (N=9) en rango 0.60-0.70 combinando todas las DBs.
+    # HIPÓTESIS: NHL 0.40-0.50 muestra promise (WR 62.5%, N=8) — documentar, no implementar.
+    # Reactivar S8 cuando N≥15 con WR≥65% en dataset limpio.
+    # _s8_excl = 'BOT' in tier_upper or 'SILVER' in tier_upper
+    # if category == "NHL" and 0.60 <= poly_price < 0.70 and not _s8_excl and side == "BUY":
+    #     signals.append({
+    #         "id": "S8",
+    #         "action": "FOLLOW",
+    #         "confidence": "MEDIUM",
+    #         "win_rate": 86.0,
+    #         "reasoning": f"S8: Follow NHL a {poly_price:.2f} (WR ~86%, N≥15, excl. BOT/SILVER)",
+    #     })
+
+    # S9: Counter HIGH RISK en NHL — DESACTIVADO (implementado v7.4, revertido v7.4.1)
+    # El dato de Gold N=15 WR 26.7% era ilusión estadística.
+    # Dataset Whales N=32 confirma WR exactamente 50% — coin flip, sin edge.
+    # No reimplementar hasta N≥40 en dataset combinado con WR≥65% sostenido.
+    # HIPÓTESIS: vigilar si el patrón reaparece en futuras iteraciones del dataset.
+    # if category == "NHL" and 'HIGH RISK' in tier_upper and 0.30 <= poly_price <= 0.80:
+    #     signals.append({
+    #         "id": "S9",
+    #         "action": "COUNTER",
+    #         "confidence": "MEDIUM",
+    #         "win_rate": 73.3,
+    #         "reasoning": f"S9: Counter HIGH RISK NHL a {poly_price:.2f} ...",
+    #     })
+
+    # S5-MMA: Follow MMA 0.60-0.70 — ACTIVADO con cautela v7.4
+    # WR 100% (N=6, +$355) — 6/6 wins en UFC BUY 0.60-0.70.
+    # N=6 es INFERIOR al umbral N≥15. Activado por petición explícita con stake mínimo (1%).
+    # ⚠️ MUESTRA PEQUEÑA: cualquier run de 3-4 pérdidas puede borrar el edge histórico.
+    # Excluir BOT/MM y HIGH RISK. Dataset Whales confirma: HIGH RISK en MMA 0.60-0.70 WR 33%.
+    # Solo SILVER muestra promise en MMA (Whales) pero N insuficiente para confirmar.
+    # Subir a MEDIUM cuando N≥15 y WR≥80% sostenido.
+    _s5mma_excl = 'BOT' in tier_upper or 'HIGH RISK' in tier_upper
+    if category == "MMA" and 0.60 <= poly_price < 0.70 and not _s5mma_excl and side == "BUY":
+        signals.append({
+            "id": "S5-MMA",
+            "action": "FOLLOW",
+            "confidence": "LOW",
+            "win_rate": 100.0,
+            "reasoning": (
+                f"S5-MMA: Follow MMA a {poly_price:.2f} "
+                f"(WR 100%, N=6 ⚠️ muestra pequeña — stake 1% mínimo, monitorear activamente)"
+            ),
+        })
 
     # --- IGNORAR si precio > 0.85 (payout trap) ---
     if poly_price > 0.85:
@@ -491,45 +995,55 @@ def classify(
         counter_blocks = []
         follow_blocks = []
 
-        # COUNTER — S1 (HIGH RISK precio <0.45)
-        if 'HIGH RISK' not in tier_upper:
-            counter_blocks.append(f"S1 necesita HIGH RISK (tier={tier or 'desconocido'})")
-        elif poly_price >= 0.45:
-            counter_blocks.append(f"S1 necesita precio <0.45 (es {poly_price:.2f})")
-        # COUNTER — S1B (Soccer precio <0.40)
-        if category != "SOCCER":
-            counter_blocks.append(f"S1B necesita SOCCER (es {category})")
-        elif poly_price >= 0.40:
-            counter_blocks.append(f"S1B necesita precio <0.40 (es {poly_price:.2f})")
-        # COUNTER — S4 (Crypto intraday)
+        # COUNTER — S1 DESACTIVADO GLOBALMENTE v7.4 (WR 35.3% N=51 — sin edge)
+        counter_blocks.append("S1 DESACTIVADO v7.4 (global WR 35.3% N=51 — premisa refutada)")
+        # COUNTER — S1B (SUSPENDIDA v7.3 — WR 52.9%, sin edge)
+        if category == "SOCCER":
+            counter_blocks.append("S1B SUSPENDIDA v7.3 (Soccer WR 52.9% N=17 — sin edge, hipótesis)")
+        # COUNTER — S4 (Crypto intraday, precio ≥ 0.60)
         if category != "CRYPTO":
             counter_blocks.append(f"S4 necesita CRYPTO (es {category})")
         elif not _is_crypto_intraday(market_title):
             counter_blocks.append("S4 necesita intraday Up/Down")
+        elif poly_price < 0.60:
+            counter_blocks.append(f"S4 necesita precio ≥0.60 (es {poly_price:.2f})")
+        # COUNTER — S6 (ESPORTS precio 0.40-0.50)
+        if category != "ESPORTS":
+            counter_blocks.append(f"S6 necesita ESPORTS (es {category})")
+        elif not (0.40 <= poly_price < 0.50):
+            counter_blocks.append(f"S6 necesita precio 0.40-0.50 (es {poly_price:.2f})")
+        # COUNTER — S9 (NHL HIGH RISK precio 0.30-0.80)
+        if category == "NHL" and 'HIGH RISK' not in tier_upper:
+            counter_blocks.append(f"S9 necesita HIGH RISK en NHL (tier={tier})")
+        elif category == "NHL" and not (0.30 <= poly_price <= 0.80):
+            counter_blocks.append(f"S9 necesita precio 0.30-0.80 (es {poly_price:.2f})")
 
-        # FOLLOW — S2 (NBA 0.50-0.60 excl. HIGH RISK — zona core)
+        # FOLLOW — S2/S2B/S2C (NBA, excl. HIGH RISK/BOT/SILVER/BRONZE)
         if category != "NBA":
-            follow_blocks.append(f"S2/S2B necesita NBA (es {category})")
-        elif 'HIGH RISK' in tier_upper:
-            follow_blocks.append("S2/S2B excluye HIGH RISK en NBA")
-        elif not (0.50 <= poly_price <= 0.80):
-            follow_blocks.append(f"S2 necesita precio 0.50-0.60 (es {poly_price:.2f}), S2B necesita 0.60-0.80")
-        elif not (0.50 <= poly_price <= 0.60):
-            follow_blocks.append(f"S2 necesita precio 0.50-0.60 (es {poly_price:.2f}) — ver S2B para 0.60-0.80")
-        # FOLLOW — S3 (Nicho excl. NBA/Soccer/Crypto)
+            follow_blocks.append(f"S2/S2B/S2C necesita NBA (es {category})")
+        elif 'SILVER' in tier_upper or 'BRONZE' in tier_upper:
+            follow_blocks.append(f"S2/S2B excluye SILVER/BRONZE (tier={tier})")
+        elif ('HIGH RISK' in tier_upper or 'BOT' in tier_upper) and not _is_tier_override:
+            follow_blocks.append(f"S2/S2B excluye {tier} (no está en WHITELIST_TIER_OVERRIDE)")
+        elif not (0.45 <= poly_price <= 0.82):
+            follow_blocks.append(f"S2C/S2/S2B necesita precio 0.45-0.82 (es {poly_price:.2f})")
+        # FOLLOW — S3 (Nicho excl. NBA/Soccer/Crypto/Tennis/Other, excl. HIGH RISK)
         if not is_nicho:
             follow_blocks.append("S3 necesita mercado nicho")
-        elif category in ("NBA", "SOCCER", "CRYPTO"):
-            follow_blocks.append(f"S3 excluye {category} (NBA→S2, Soccer→S5, Crypto→S4)")
+        elif category in ("NBA", "SOCCER", "CRYPTO", "TENNIS", "OTHER", "NHL", "MMA"):
+            follow_blocks.append(f"S3 excluye {category} (v7.4: solo ESPORTS-nicho activo)")
+        elif 'HIGH RISK' in tier_upper:
+            follow_blocks.append(f"S3 excluye HIGH RISK (tier={tier}, WR 0% en dataset)")
         elif not (0.50 <= poly_price < 0.85):
             follow_blocks.append(f"S3 necesita precio 0.50-0.85 (es {poly_price:.2f})")
-        # FOLLOW — S5 (Soccer 0.60-0.80 excl. GOLD/RISKY)
-        if category != "SOCCER":
-            follow_blocks.append(f"S5 necesita SOCCER (es {category})")
-        elif 'GOLD' in tier_upper or 'RISKY' in tier_upper:
-            follow_blocks.append(f"S5 excluye GOLD/RISKY en Soccer (tier={tier})")
-        elif not (0.60 <= poly_price < 0.80):
-            follow_blocks.append(f"S5 necesita precio 0.60-0.80 (es {poly_price:.2f})")
+        # FOLLOW — S5 (SUSPENDIDA v7.3 — WR 38.1%)
+        if category == "SOCCER":
+            follow_blocks.append("S5 SUSPENDIDA v7.3 (Soccer WR 38.1% N=21 — reactivar N≥30 limpio)")
+        # FOLLOW — S5-MMA (MMA 0.60-0.70, excl. BOT)
+        if category == "MMA" and 'BOT' in tier_upper:
+            follow_blocks.append(f"S5-MMA excluye BOT/MM (tier={tier})")
+        elif category == "MMA" and not (0.60 <= poly_price < 0.70):
+            follow_blocks.append(f"S5-MMA necesita precio 0.60-0.70 (es {poly_price:.2f})")
 
         counter_str = "Sin COUNTER: " + ", ".join(counter_blocks) if counter_blocks else ""
         follow_str = "Sin FOLLOW: " + ", ".join(follow_blocks) if follow_blocks else ""
@@ -557,6 +1071,15 @@ def classify(
 
     # --- AJUSTES POST-SEÑAL ---
 
+    # v7.4: Sucker bet downgrade — si edge < -3%, bajar confidence un nivel
+    if edge_pct < -3.0 and result["action"] != "IGNORE":
+        _conf_map = {"HIGH": "MEDIUM", "MEDIUM": "LOW", "LOW": "LOW"}
+        old_conf = result.get("confidence", "MEDIUM")
+        result["confidence"] = _conf_map.get(old_conf, old_conf)
+        result["reasoning"].append(
+            f"Confidence degradada {old_conf}→{result['confidence']} por sucker bet (edge {edge_pct:+.1f}%)"
+        )
+
     # Calcular expected ROI
     if result["win_rate_hist"] > 0 and result["payout_mult"] > 0:
         wr = result["win_rate_hist"] / 100.0
@@ -571,13 +1094,15 @@ def classify(
 def _resolve_conflicts(signals: list, result: dict, tier_upper: str, poly_price: float,
                        opposite_tier: str = "") -> dict:
     """Resuelve conflictos entre múltiples señales según el árbol de decisión v4.0."""
-    s1   = next((s for s in signals if s["id"] == "S1"),   None)
-    s1b  = next((s for s in signals if s["id"] == "S1B"),  None)
-    s2   = next((s for s in signals if s["id"] == "S2"),   None)
-    s2b  = next((s for s in signals if s["id"] == "S2B"),  None)
-    s3   = next((s for s in signals if s["id"] == "S3"),   None)
-    s4   = next((s for s in signals if s["id"] == "S4"),   None)
-    s5   = next((s for s in signals if s["id"] == "S5"),   None)
+    s1      = next((s for s in signals if s["id"] == "S1"),      None)
+    s1b     = next((s for s in signals if s["id"] == "S1B"),     None)
+    s2      = next((s for s in signals if s["id"] == "S2"),      None)
+    s2b     = next((s for s in signals if s["id"] == "S2B"),     None)
+    s3      = next((s for s in signals if s["id"] == "S3"),      None)
+    s4      = next((s for s in signals if s["id"] == "S4"),      None)
+    s5      = next((s for s in signals if s["id"] == "S5"),      None)
+    s6      = next((s for s in signals if s["id"] == "S6"),      None)
+    # S9 (NHL) y S5-MMA (MMA) no tienen conflictos posibles: sus categorías son exclusivas.
 
     # CASO 0: S1 + S1B ambas en Soccer precio <0.40 — S1B prevalece (más datos, mejor WR)
     if s1 and s1b:
@@ -633,6 +1158,17 @@ def _resolve_conflicts(signals: list, result: dict, tier_upper: str, poly_price:
         result["confidence"] = "—"
         result["reasoning"].append(
             "Conflicto HIGH RISK en ambos lados — IGNORAR (ver árbol de decisión v4.0)"
+        )
+        return result
+
+    # CASO S1+S6: COUNTER ESPORTS HIGH RISK <0.45 — S6 prevalece (WR 85.7% > S1 72%)
+    if s1 and s6:
+        result["action"] = "COUNTER"
+        result["signal_id"] = "S6"
+        result["confidence"] = "MEDIUM"
+        result["win_rate_hist"] = s6["win_rate"]
+        result["reasoning"].append(
+            f"S1+S6 ESPORTS: S6 prevalece (WR {s6['win_rate']}% > S1 {s1['win_rate']}%)"
         )
         return result
 
@@ -720,41 +1256,17 @@ def classify_consensus(
             "reasoning": ["No hay 3+ ballenas en el mismo lado"]}
 
 
-def classify_consensus_counter(whale_entries: list) -> dict:
+def classify_consensus_counter(_whale_entries: list) -> dict:
     """
-    S1+: Counter consensus en zona 0.40-0.44, independiente del tier y la categoría.
+    S1+: Counter consensus en zona 0.40-0.44 — DESACTIVADO v7.4.
 
-    Cuando 3+ ballenas compran en esta zona, la señal de consenso supera los datos
-    individuales de S1 (WR 88.2% zona fuerte). No requiere que ninguna sea HIGH RISK:
-    el consenso por sí solo es la señal.
+    S1 COUNTER fue desactivado globalmente (WR 35.3% N=51 — refuta la premisa).
+    S1+ Consensus hereda la misma invalidación: si el individual no tiene edge,
+    el consenso tampoco. Reactivar solo si S1 individual se reactiva con WR≥65%.
     """
-    if len(whale_entries) < 3:
-        return {"signal_id": "NONE", "action": "IGNORE",
-                "reasoning": ["S1+: necesita 3+ ballenas"]}
-
-    # Agrupar por lado
-    sides = {}
-    for e in whale_entries:
-        sides.setdefault(e.get("side", "BUY"), []).append(e)
-
-    for entries in sides.values():
-        prices_en_zona = [e["poly_price"] for e in entries if 0.40 <= e["poly_price"] < 0.45]
-        if len(prices_en_zona) >= 3:
-            avg = sum(prices_en_zona) / len(prices_en_zona)
-            return {
-                "signal_id": "S1+",
-                "action": "COUNTER",
-                "confidence": "HIGH",
-                "win_rate_hist": 88.2,
-                "reasoning": [
-                    f"S1+ Consensus COUNTER: {len(prices_en_zona)} ballenas en zona 0.40–0.44 "
-                    f"(prom. {avg:.2f}) | Tier independiente"
-                ],
-                "warnings": [],
-            }
-
+    # v7.4: S1 COUNTER desactivado globalmente. S1+ sigue la misma lógica.
     return {"signal_id": "NONE", "action": "IGNORE",
-            "reasoning": ["S1+: sin 3+ ballenas en zona 0.40-0.44"]}
+            "reasoning": ["S1+ DESACTIVADO v7.4 (S1 COUNTER global WR 35.3% N=51 — sin edge)"]}
 
 
 # ============================================================================
@@ -979,6 +1491,9 @@ class GoldWhaleDetector:
         self.analysis_cache = {}
         self._pending_reclassification = {}  # wallet -> trade pendiente de re-clasificar cuando llegue tier
         self._pending_tier_supabase_ids = {}  # wallet -> supabase row id con tier='' para actualizar cuando llegue tier
+        self._deferred_trades = {}           # wallet -> trade completo esperando tier (opción 3)
+
+        self.bankroll = self._cargar_bankroll()
 
         self.supabase: Client | None = None
         if SUPABASE_ENABLED and SUPABASE_URL and SUPABASE_KEY:
@@ -995,6 +1510,7 @@ class GoldWhaleDetector:
         self.historial_path = trades_live_dir / "historial_trades.json"
 
         self._cargar_historial()
+        self._cargar_tier_cache()
 
         signal_module.signal(signal_module.SIGINT, self.signal_handler)
         signal_module.signal(signal_module.SIGTERM, self.signal_handler)
@@ -1021,6 +1537,19 @@ class GoldWhaleDetector:
         mostrar_concentracion = es_ballena_relativa
 
         return (es_ballena_absoluta or es_ballena_relativa), mostrar_concentracion, pct_mercado
+
+    def _cargar_bankroll(self) -> float:
+        """Carga el bankroll actual desde disco. Devuelve DEFAULT_BANKROLL si no existe."""
+        try:
+            if BANKROLL_PATH.exists():
+                with open(BANKROLL_PATH, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                br = float(data.get('bankroll', DEFAULT_BANKROLL))
+                logger.info(f"Bankroll cargado: ${br:,.2f}")
+                return br
+        except Exception as e:
+            logger.warning(f"No se pudo cargar bankroll ({BANKROLL_PATH}): {e}")
+        return DEFAULT_BANKROLL
 
     def _cargar_historial(self):
         if self.historial_path.exists():
@@ -1058,6 +1587,104 @@ class GoldWhaleDetector:
         except Exception as e:
             logger.error(f"Error al guardar historial: {e}")
 
+    # -------------------------------------------------------------------------
+    # TIER CACHE PERSISTENTE (opción 2) + LOOKUP CHAIN (opción 1)
+    # -------------------------------------------------------------------------
+
+    def _cargar_tier_cache(self):
+        """Carga el cache de tiers desde disco al iniciar la sesión."""
+        try:
+            if TIER_CACHE_PATH.exists():
+                with open(TIER_CACHE_PATH, 'r', encoding='utf-8') as f:
+                    raw = json.load(f)
+                cutoff = datetime.now().timestamp() - TIER_CACHE_TTL_H * 3600
+                cargados = 0
+                for wallet, entry in raw.items():
+                    cached_ts = entry.get('cached_ts', 0)
+                    if cached_ts >= cutoff:
+                        # Convertir al formato de analysis_cache en memoria
+                        self.analysis_cache[wallet] = {
+                            'tier': entry['tier'],
+                            'score': entry.get('score', 0),
+                            'sports_pnl': entry.get('sports_pnl'),
+                            'cached_at': datetime.fromtimestamp(cached_ts),
+                            'pnl': entry.get('pnl', 0),
+                            'win_rate': entry.get('win_rate', 0.0),
+                            'categories': entry.get('categories', []),
+                        }
+                        cargados += 1
+                logger.info(f"Tier cache cargado: {cargados} traders (TTL {TIER_CACHE_TTL_H}h)")
+        except Exception as e:
+            logger.warning(f"No se pudo cargar tier cache: {e}")
+
+    def _guardar_tier_cache(self):
+        """Persiste el analysis_cache a disco (solo entradas con tier no vacío)."""
+        try:
+            TIER_CACHE_PATH.parent.mkdir(exist_ok=True)
+            raw = {}
+            for wallet, entry in self.analysis_cache.items():
+                tier = entry.get('tier', '')
+                if not tier:
+                    continue
+                cached_at = entry.get('cached_at', datetime.now())
+                raw[wallet] = {
+                    'tier': tier,
+                    'score': entry.get('score', 0),
+                    'sports_pnl': entry.get('sports_pnl'),
+                    'cached_ts': cached_at.timestamp(),
+                    'pnl': entry.get('pnl', 0),
+                    'win_rate': entry.get('win_rate', 0.0),
+                    'categories': entry.get('categories', []),
+                }
+            with open(TIER_CACHE_PATH, 'w', encoding='utf-8') as f:
+                json.dump(raw, f)
+            logger.info(f"Tier cache guardado: {len(raw)} traders")
+        except Exception as e:
+            logger.warning(f"Error guardando tier cache: {e}")
+
+    def _buscar_tier_cached(self, wallet: str, display_name: str) -> str:
+        """
+        Devuelve el tier conocido para este wallet. Orden de prioridad:
+          1. analysis_cache en memoria (incluye lo cargado desde disco al inicio)
+          2. Consulta rápida a Supabase whale_signals (opción 1)
+        Devuelve '' si no se encuentra nada.
+        """
+        # 1. Memoria (ya incluye el cache de disco cargado en __init__)
+        cached = self.analysis_cache.get(wallet)
+        if cached and cached.get('tier'):
+            return cached['tier']
+
+        # 2. Supabase — buscar tier más reciente para este wallet/display_name
+        if self.supabase:
+            try:
+                resp = (
+                    self.supabase.table('whale_signals')
+                    .select('tier, detected_at')
+                    .eq('display_name', display_name)
+                    .not_.is_('tier', 'null')
+                    .neq('tier', '')
+                    .order('detected_at', desc=True)
+                    .limit(1)
+                    .execute()
+                )
+                rows = resp.data or []
+                if rows and isinstance(rows[0], dict):
+                    tier = str(rows[0].get('tier') or '')
+                    if tier:
+                        # Guardar en memoria para no volver a consultar
+                        self.analysis_cache[wallet] = {
+                            'tier': tier,
+                            'score': 0,
+                            'sports_pnl': None,
+                            'cached_at': datetime.now(),
+                        }
+                        logger.info(f"Tier recuperado de Supabase para {display_name}: {tier}")
+                        return tier
+            except Exception as e:
+                logger.debug(f"Error consultando tier en Supabase para {display_name}: {e}")
+
+        return ''
+
     def signal_handler(self, sig, frame):
         print("\n\nDeteniendo monitor...")
         self.running = False
@@ -1068,6 +1695,7 @@ class GoldWhaleDetector:
         segundos = uptime_segundos % 60
 
         self._guardar_historial()
+        self._guardar_tier_cache()
 
         resumen = f"\n{'='*80}\n"
         resumen += "RESUMEN DE SESION (GOLD v3.0)\n"
@@ -1178,6 +1806,8 @@ class GoldWhaleDetector:
             data = {
                 'detected_at': datetime.now().isoformat(),
                 'market_title': trade.get('title', ''),
+                'condition_id': trade.get('conditionId', '') or trade.get('market', ''),
+                'market_slug': trade.get('slug', '') or trade.get('eventSlug', ''),
                 'side': trade.get('side', '').upper(),
                 'poly_price': float(price),
                 'valor_usd': float(valor),
@@ -1196,7 +1826,17 @@ class GoldWhaleDetector:
                 'expected_roi': classification.get('expected_roi', 0.0) if classification else 0.0,
             }
 
-            result = self.supabase.table('whale_signals').insert(data).execute()
+            try:
+                result = self.supabase.table('whale_signals').insert(data).execute()
+            except Exception as insert_err:
+                err_str = str(insert_err).lower()
+                if 'column' in err_str and ('condition_id' in err_str or 'market_slug' in err_str):
+                    # Columnas aún no existen en Supabase — reintentar sin ellas
+                    logger.info("Columnas condition_id/market_slug no existen aún — insertando sin ellas")
+                    data_fb = {k: v for k, v in data.items() if k not in ('condition_id', 'market_slug')}
+                    result = self.supabase.table('whale_signals').insert(data_fb).execute()
+                else:
+                    raise
 
             market_type = "deportiva" if edge_result.get('is_sports', False) else "general"
             logger.info(f"Ballena {market_type} registrada en Supabase: {data['market_title'][:50]}")
@@ -1271,9 +1911,23 @@ class GoldWhaleDetector:
         # Calcular condition_id temprano (necesario para consensus antes de classify)
         condition_id = trade.get('conditionId', trade.get('market', ''))
 
-        # Obtener tier del trader (del cache si ya fue analizado antes)
-        cached_analysis = self.analysis_cache.get(wallet, None)
-        trader_tier = cached_analysis.get('tier', '') if cached_analysis else ''
+        # Obtener tier: memoria → cache disco → Supabase (opciones 1+2)
+        trader_tier = self._buscar_tier_cached(wallet, display_name)
+        cached_analysis = self.analysis_cache.get(wallet, {})
+        cached_has_stats = cached_analysis.get('win_rate', 0.0) > 0
+
+        # Opción 3: trader completamente nuevo — diferir clasificación hasta tener tier
+        if not trader_tier:
+            hora = datetime.now().strftime('%H:%M:%S')
+            print(f"[{hora}] ⏳ DEFERRED {categoria} ${valor:,.0f} | {display_name} — analizando tier...")
+            self._deferred_trades[wallet] = {
+                'trade': trade, 'valor': valor, 'es_nicho': es_nicho,
+                'price': price, 'ts': datetime.now(),
+            }
+            self._analizar_trader_async(
+                wallet, display_name, trade.get('title', '').lower(), esperar_resultado=False, was_deferred=True, silent=True
+            )
+            return
 
         # Consenso multi-ballena (antes de classify para obtener opposite_tier)
         self.consensus.add(condition_id, side, valor, wallet, price, trader_tier, display_name)
@@ -1285,7 +1939,7 @@ class GoldWhaleDetector:
                             if e['side'] != side and 'HIGH RISK' in e.get('tier', '').upper()]
         opposite_tier_for_conflict = opposite_entries[0]['tier'] if opposite_entries else ""
 
-        # --- CLASIFICACIÓN v3.0 (con tier real si está disponible) ---
+        # --- CLASIFICACIÓN v3.0 (con tier real disponible) ---
         classification = classify(
             market_title=trade.get('title', ''),
             tier=trader_tier,
@@ -1297,14 +1951,6 @@ class GoldWhaleDetector:
             edge_pct=edge_result.get('edge_pct', 0.0),
             opposite_tier=opposite_tier_for_conflict,
         )
-
-        # Si tier es desconocido y la acción es IGNORE, guardar trade para re-clasificación retroactiva
-        # (el análisis async se lanza más abajo y llenará analysis_cache → disparará el check)
-        if not trader_tier and classification['action'] == 'IGNORE':
-            self._pending_reclassification[wallet] = {
-                'trade': trade, 'valor': valor, 'es_nicho': es_nicho,
-                'price': price, 'reason': 'empty_tier', 'ts': datetime.now(),
-            }
 
         # Evaluar S2+ y S1+ si hay consenso de 3+
         if is_consensus and count >= 3:
@@ -1461,6 +2107,25 @@ class GoldWhaleDetector:
                     telegram_msg += f"  › {r}\n"
                 for w in classification['warnings']:
                     telegram_msg += f"  ⚠️ {w}\n"
+                _is_wl_a = display_name.lower() in [w.lower() for w in WHITELIST_A]
+                _is_wl_b = display_name.lower() in [w.lower() for w in WHITELIST_B]
+                _is_bl   = display_name.lower() in [w.lower() for w in BLACKLIST]
+                _stake_usd, _stake_pct, _stake_mods = calcular_stake(
+                    signal_id=classification['signal_id'],
+                    confidence=classification['confidence'],
+                    bankroll=self.bankroll,
+                    poly_price=price,
+                    is_nicho=es_nicho,
+                    is_whitelist_a=_is_wl_a,
+                    is_whitelist_b=_is_wl_b,
+                    is_blacklist=_is_bl,
+                    action=classification['action'],
+                    is_deferred=False,
+                )
+                telegram_msg += f"💰 <b>STAKE SUGERIDO: ${_stake_usd:.0f}</b> ({_stake_pct:.1f}% bankroll — conf {classification['confidence']})\n"
+                if _stake_mods:
+                    telegram_msg += f"   › {', '.join(_stake_mods)}\n"
+                telegram_msg += "⚠️ Ajustar si hay posiciones abiertas\n"
                 telegram_msg += "\n"
             elif classification['warnings']:
                 for w in classification['warnings']:
@@ -1481,8 +2146,19 @@ class GoldWhaleDetector:
             telegram_msg += f"💵 <b>Precio:</b> {price:.4f} ({price*100:.2f}%)\n"
             telegram_msg += f"📦 <b>Volumen:</b> ${market_volume:,.0f}\n"
 
-            # Información básica del trader (sin análisis aún)
             telegram_msg += f"\n👤 <b>TRADER:</b> {display_name}\n"
+            if cached_has_stats:
+                c_pnl = cached_analysis.get('pnl', 0)
+                c_wr = cached_analysis.get('win_rate', 0.0)
+                c_cats = cached_analysis.get('categories', [])
+                c_pnl_str = f"+${c_pnl:,.0f}" if c_pnl >= 0 else f"-${abs(c_pnl):,.0f}"
+                telegram_msg += f"   📊 WR: <b>{c_wr:.1f}%</b> | PnL: <b>{c_pnl_str}</b>\n"
+                if c_cats:
+                    telegram_msg += f"   🏆 Top especialidades:\n"
+                    for cat in c_cats[:3]:
+                        cp = cat.get('pnl', 0)
+                        cp_str = f"+${cp:,.0f}" if cp >= 0 else f"-${abs(cp):,.0f}"
+                        telegram_msg += f"      #{cat.get('rank', '?')} {cat.get('name', '?')}: {cp_str}\n"
             telegram_msg += f"   🔗 <a href='{profile_url}'>Ver perfil</a>\n"
 
             if edge_result['is_sports'] and edge_result['pinnacle_price'] > 0:
@@ -1506,11 +2182,19 @@ class GoldWhaleDetector:
             # 1) Enviar alerta del trade PRIMERO
             send_telegram_notification(telegram_msg)
 
-            # 2) Lanzar análisis del trader en background (enviará su propio mensaje después)
-            self._analizar_trader_async(
-                wallet, display_name, trade.get('title', '').lower(),
-                esperar_resultado=False,
-            )
+            if cached_has_stats:
+                # Stats ya incluidos en el trade — marcar wallet como analizada para no re-scraper
+                if not hasattr(self, '_wallets_analizadas'):
+                    self._wallets_analizadas = set()
+                self._wallets_analizadas.add(wallet)
+            else:
+                # Trader con señal activa pero sin stats en caché → scraper en background.
+                # silent=False: cuando termine, envía follow-up con WR/PnL del trader.
+                # (Solo llega aquí si hay FOLLOW/COUNTER activo, no para trades IGNORE.)
+                self._analizar_trader_async(
+                    wallet, display_name, trade.get('title', '').lower(),
+                    esperar_resultado=False, silent=False,
+                )
 
     def _obtener_historial_trader(self, display_name: str) -> dict:
         """Consulta Supabase para obtener historial de trades capturados de un trader."""
@@ -1548,7 +2232,7 @@ class GoldWhaleDetector:
             logger.warning(f"Error consultando historial de {display_name}: {e}")
             return {}
 
-    def _analizar_trader_async(self, wallet, display_name, title_lower, esperar_resultado=False):
+    def _analizar_trader_async(self, wallet, display_name, title_lower, esperar_resultado=False, was_deferred=False, silent=False):
         if wallet == 'N/A':
             return None
 
@@ -1590,7 +2274,8 @@ class GoldWhaleDetector:
                     msg_sin_perfil += f"📭 No se encontró perfil en PolymarketAnalytics.\n"
                     msg_sin_perfil += f"💡 Trader nuevo o sin historial registrado.\n"
                     msg_sin_perfil += f"🔗 <a href='https://polymarket.com/profile/{wallet}'>Ver perfil</a>"
-                    send_telegram_notification(msg_sin_perfil)
+                    if not silent:
+                        send_telegram_notification(msg_sin_perfil)
                     logger.info(f"Sin perfil en analytics para {display_name} ({wallet[:10]}...)")
                     return
 
@@ -1629,7 +2314,8 @@ class GoldWhaleDetector:
                     msg_vacio += f"💡 Puede tener posiciones abiertas sin cerrar aún.\n"
                     msg_vacio += f"🔗 <a href='https://polymarket.com/profile/{wallet}'>Ver perfil</a>"
                     msg_vacio += f" | <a href='https://polymarketanalytics.com/traders/{wallet}'>Analytics</a>"
-                    send_telegram_notification(msg_vacio)
+                    if not silent:
+                        send_telegram_notification(msg_vacio)
                     logger.info(f"Sin trades resueltos para {display_name} ({wallet[:10]}...) rank=#{d.get('rank', 'N/A')}")
                     return
 
@@ -1643,6 +2329,9 @@ class GoldWhaleDetector:
                     'score': total,
                     'sports_pnl': sports_pnl,
                     'cached_at': datetime.now(),
+                    'pnl': d.get('pnl', 0),
+                    'win_rate': d.get('win_rate', 0.0),
+                    'categories': d.get('categories', [])[:5],
                 }
 
                 # === ACTUALIZAR TIER EN SUPABASE (trade registrado con tier vacío) ===
@@ -1710,6 +2399,168 @@ class GoldWhaleDetector:
                         logger.info(f"Señal retroactiva {reclass['action']} ({reclass['signal_id']}) para {p_display} — {elapsed_str}")
                         self._registrar_en_supabase(p_trade, p_valor, p_price, p_wallet_addr, p_display, p_edge_result, p_es_nicho, reclass)
 
+                # === OPCIÓN 3: DEFERRED TRADE — primera señal, tier recién confirmado ===
+                deferred = self._deferred_trades.pop(wallet, None)
+                if was_deferred and not deferred:
+                    # La entrada deferred expiró (cleanup la eliminó) antes de que el scraper terminara.
+                    # El trade nunca fue clasificado — el análisis a continuación se enviaría sin señal.
+                    logger.warning(f"Deferred expirado para {display_name} — trade perdido (timeout < scraper). "
+                                   f"Considera aumentar DEFERRED_TIMEOUT_S (actual: {DEFERRED_TIMEOUT_S}s)")
+                if deferred and tier:
+                    d_trade    = deferred['trade']
+                    d_price    = deferred['price']
+                    d_valor    = deferred['valor']
+                    d_es_nicho = deferred['es_nicho']
+                    d_side     = d_trade.get('side', '').upper()
+                    d_wallet   = d_trade.get('proxyWallet', '')
+                    d_display  = (d_trade.get('name') or d_trade.get('pseudonym') or 'Anonimo')
+
+                    d_edge = self.sports_edge.check_edge(
+                        market_title=d_trade.get('title', ''),
+                        poly_price=d_price,
+                        side=d_side
+                    )
+                    d_class = classify(
+                        market_title=d_trade.get('title', ''),
+                        tier=tier,
+                        poly_price=d_price,
+                        is_nicho=d_es_nicho,
+                        valor_usd=d_valor,
+                        side=d_side,
+                        display_name=d_display,
+                        edge_pct=d_edge.get('edge_pct', 0.0),
+                        opposite_tier='',
+                    )
+                    elapsed_d = (datetime.now() - deferred['ts']).total_seconds()
+                    elapsed_d_str = f"{int(elapsed_d)}s" if elapsed_d < 60 else f"{elapsed_d/60:.1f}min"
+
+                    # --- Consola: mismo formato que trade normal ---
+                    d_emoji, d_categoria = "shark", "TIBURON"
+                    for _tv, _te, _tc in WHALE_TIERS:
+                        if d_valor >= _tv:
+                            d_emoji, d_categoria = _te, _tc
+                            break
+                    d_market_info = self._obtener_info_mercado(d_trade)
+                    d_market_slug = d_market_info.get('market_slug', '')
+                    d_outcome     = d_trade.get('outcome', 'N/A')
+                    d_lado_texto  = 'COMPRA' if d_side == 'BUY' else 'VENTA'
+                    d_slug_key    = d_trade.get('slug', '') or d_trade.get('conditionId', d_trade.get('market', ''))
+                    d_mkt_volume  = self.trade_filter.markets_cache.get(d_slug_key, 0)
+                    d_ts_orig     = self._parsear_timestamp(d_trade.get('timestamp') or d_trade.get('createdAt'))
+                    d_tx_hash     = d_trade.get('transactionHash', 'N/A')
+                    d_tx_disp     = f"{d_tx_hash[:20]}...{d_tx_hash[-10:]}" if d_tx_hash != 'N/A' and len(d_tx_hash) > 30 else d_tx_hash
+                    d_profile_url = f"https://polymarket.com/profile/{d_wallet}" if d_wallet != 'N/A' else 'N/A'
+                    d_tx_url      = f"https://polygonscan.com/tx/{d_tx_hash}" if d_tx_hash != 'N/A' else 'N/A'
+                    d_mkt_url     = f"https://polymarket.com/event/{d_market_slug}" if d_market_slug not in ('N/A', '', None) else 'N/A'
+                    d_nicho_tag   = "  ⚡ NICHO" if d_es_nicho else ""
+                    d_act_banner  = _BANNERS.get(d_class['action'], '')
+                    d_sig_detail  = ""
+                    if d_class['signal_id'] != 'NONE':
+                        d_sig_detail = (
+                            f"  Signal: {d_class['signal_id']}  |  "
+                            f"Conf: {d_class['confidence']}  |  "
+                            f"WR: {d_class['win_rate_hist']:.1f}%  |  "
+                            f"ROI esperado: {d_class['expected_roi']:+.1f}%\n"
+                        )
+                        for r in d_class['reasoning']:
+                            d_sig_detail += f"  › {r}\n"
+                        for w in d_class['warnings']:
+                            d_sig_detail += f"  ⚠ {w}\n"
+                    else:
+                        for r in d_class['reasoning']:
+                            d_sig_detail += f"  › {r}\n"
+                        for w in d_class['warnings']:
+                            d_sig_detail += f"  ⚠ {w}\n"
+                        if not d_sig_detail:
+                            d_sig_detail = "  › Sin señal activa\n"
+                    d_console_msg = f"""
+{'='*80}
+⏳ DEFERRED RESUELTO en {elapsed_d_str} — {d_emoji} {d_categoria} | {d_display} | {tier}
+{'='*80}
+💰 Valor: ${d_valor:,.2f} USD{d_nicho_tag}
+📊 Mercado: {d_market_info.get('question', 'N/A')}
+🔗 URL: {d_mkt_url}
+🎯 Outcome: {d_outcome}
+📈 Lado: {d_lado_texto}
+💵 Precio: {d_price:.4f} ({d_price*100:.2f}%)
+📦 Volumen: ${d_mkt_volume:,.2f}
+🕐 Trade original: {d_ts_orig.strftime('%Y-%m-%d %H:%M:%S')}
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: {d_display}
+   Wallet: {d_wallet}
+   Perfil: {d_profile_url}
+   TX Hash: {d_tx_disp}
+   TX URL: {d_tx_url}
+{'='*80}
+{d_act_banner}
+{d_sig_detail}{'='*80}
+"""
+                    print(d_console_msg)
+                    with open(self.filename_log, "a", encoding="utf-8") as f:
+                        f.write(d_console_msg + "\n")
+
+                    if d_class['action'] in ('FOLLOW', 'COUNTER'):
+                        d_banner = _TG_BANNER_FOLLOW if d_class['action'] == 'FOLLOW' else _TG_BANNER_COUNTER
+                        d_action_txt = "✅✅✅ <b>FOLLOW</b>" if d_class['action'] == 'FOLLOW' else "🚨🚨🚨 <b>COUNTER</b>"
+                        dmsg  = d_banner + "\n"
+                        dmsg += f"⏳ <b>SEÑAL DEFERRED</b> (tier confirmado en {elapsed_d_str})\n"
+                        dmsg += f"{d_action_txt} — Signal <b>{d_class['signal_id']}</b>"
+                        dmsg += f"  |  Conf: <b>{d_class['confidence']}</b>"
+                        dmsg += f"  |  WR: <b>{d_class['win_rate_hist']:.1f}%</b>"
+                        dmsg += f"  |  ROI: <b>{d_class['expected_roi']:+.1f}%</b>\n"
+                        for r in d_class['reasoning']:
+                            dmsg += f"  › {r}\n"
+                        for w in d_class['warnings']:
+                            dmsg += f"  ⚠️ {w}\n"
+                        _is_wl_a_d = d_display.lower() in [w.lower() for w in WHITELIST_A]
+                        _is_wl_b_d = d_display.lower() in [w.lower() for w in WHITELIST_B]
+                        _is_bl_d   = d_display.lower() in [w.lower() for w in BLACKLIST]
+                        _d_stake_usd, _d_stake_pct, _d_stake_mods = calcular_stake(
+                            signal_id=d_class['signal_id'],
+                            confidence=d_class['confidence'],
+                            bankroll=self.bankroll,
+                            poly_price=d_price,
+                            is_nicho=d_es_nicho,
+                            is_whitelist_a=_is_wl_a_d,
+                            is_whitelist_b=_is_wl_b_d,
+                            is_blacklist=_is_bl_d,
+                            action=d_class['action'],
+                            is_deferred=True,
+                        )
+                        dmsg += f"💰 <b>STAKE SUGERIDO: ${_d_stake_usd:.0f}</b> ({_d_stake_pct:.1f}% bankroll — conf {d_class['confidence']})\n"
+                        if _d_stake_mods:
+                            dmsg += f"   › {', '.join(_d_stake_mods)}\n"
+                        dmsg += "⚠️ Timing tardío (deferred) — verificar precio actual antes de entrar\n"
+                        dmsg += f"\n👤 <b>{d_display}</b> | {tier}\n"
+                        d_pnl = d.get('pnl', 0)
+                        d_wr = d.get('win_rate', 0.0)
+                        d_cats = d.get('categories', [])
+                        if d_wr > 0:
+                            d_pnl_str = f"+${d_pnl:,.0f}" if d_pnl >= 0 else f"-${abs(d_pnl):,.0f}"
+                            dmsg += f"   📊 WR: <b>{d_wr:.1f}%</b> | PnL: <b>{d_pnl_str}</b>\n"
+                            if d_cats:
+                                dmsg += f"   🏆 Top especialidades:\n"
+                                for cat in d_cats[:3]:
+                                    cp = cat.get('pnl', 0)
+                                    cp_str = f"+${cp:,.0f}" if cp >= 0 else f"-${abs(cp):,.0f}"
+                                    dmsg += f"      #{cat.get('rank', '?')} {cat.get('name', '?')}: {cp_str}\n"
+                        dmsg += f"📊 {d_trade.get('title', '')[:60]}\n"
+                        dmsg += f"🎯 <b>Outcome:</b> {d_outcome}\n"
+                        dmsg += f"📈 <b>Lado:</b> {d_lado_texto}\n"
+                        dmsg += f"💰 ${d_valor:,.0f} @ {d_price:.2f}\n"
+                        dmsg += f"\n🔗 <a href='https://polymarket.com/profile/{d_wallet}'>Ver perfil</a>"
+                        dmsg += f" | <a href='https://polymarketanalytics.com/traders/{d_wallet}'>Analytics</a>"
+                        if d_market_slug and d_market_slug not in ('N/A', ''):
+                            dmsg += f"\n📊 <a href='https://polymarket.com/event/{d_market_slug}'>Ver mercado</a>"
+                        send_telegram_notification(dmsg)
+                        logger.info(f"Señal deferred {d_class['action']} ({d_class['signal_id']}) para {d_display} — {elapsed_d_str}")
+                        self._registrar_en_supabase(d_trade, d_valor, d_price, d_wallet, d_display, d_edge, d_es_nicho, d_class)
+                        return  # stats ya incluidos en el mensaje deferred — no enviar análisis separado
+                    else:
+                        logger.info(f"Deferred trade de {d_display} resuelto como IGNORE tras tier — sin señal")
+                        return  # no enviar análisis para trades IGNORE
+
                 tiers_buenos = ['SILVER', 'GOLD', 'DIAMOND', 'BRONZE', 'RISKY', 'STANDARD', 'HIGH RISK']
                 tiers_advertencia = ['BOT', 'MM']
 
@@ -1721,7 +2572,8 @@ class GoldWhaleDetector:
                     mensaje_simple += f"<b>{display_name}</b> ({wallet[:10]}...)\n"
                     mensaje_simple += f"<b>Tier:</b> {tier} (Score: {total}/100)\n"
                     mensaje_simple += f"<b>Recomendacion:</b> NO copiar este trade\n"
-                    send_telegram_notification(mensaje_simple)
+                    if not silent:
+                        send_telegram_notification(mensaje_simple)
                     logger.info(f"Trader {display_name} ({wallet[:10]}...) -> {tier} (score: {total}) — Mensaje simple enviado")
                     return
 
@@ -1810,7 +2662,8 @@ class GoldWhaleDetector:
                 tg += f"\n<a href='https://polymarket.com/profile/{wallet}'>Ver perfil</a>"
                 tg += f" | <a href='https://polymarketanalytics.com/traders/{wallet}'>Analytics</a>"
 
-                send_telegram_notification(tg)
+                if not silent:
+                    send_telegram_notification(tg)
 
             except Exception as e:
                 logger.error(f"Error en analisis de {wallet[:10]}...: {e}", exc_info=True)
@@ -1917,17 +2770,28 @@ Esperando trades...
             if ciclo % 50 == 0:
                 self._guardar_historial()
 
+            # Limpiar deferred trades expirados cada ciclo (timeout es 35s, no esperar 5 min)
+            if self._deferred_trades:
+                _ahora_def = datetime.now()
+                def_expirados = [w for w, d in self._deferred_trades.items()
+                                 if (_ahora_def - d['ts']).total_seconds() > DEFERRED_TIMEOUT_S]
+                for w in def_expirados:
+                    d = self._deferred_trades.pop(w, None)
+                    if d:
+                        p_display = (d['trade'].get('name') or d['trade'].get('pseudonym') or 'Anonimo')
+                        logger.warning(f"Deferred expirado sin tier ({DEFERRED_TIMEOUT_S}s): {p_display} — scraper falló, trade perdido")
+
             if ciclo % 100 == 0:
                 logger.info(f"Heartbeat: {len(self.trades_vistos_ids)} trades en memoria. Cache: {len(self.markets_cache)} | Capturadas: {self.ballenas_capturadas} | Ignoradas: {self.ballenas_ignoradas}")
-                # BUG-7: Limpiar pending trades sin resolver (análisis falló o tardó > 10 min)
                 ahora = datetime.now()
+                # Limpiar pending reclassification expirados (> 10 min)
                 expirados = [w for w, p in self._pending_reclassification.items()
                              if (ahora - p['ts']).total_seconds() > 600]
                 for w in expirados:
                     self._pending_reclassification.pop(w, None)
                 if expirados:
                     logger.info(f"Pending cleanup: {len(expirados)} trades expirados eliminados")
-                # BUG-8: Invalidar analysis_cache con TTL > 6 horas
+                # Invalidar analysis_cache con TTL > 6 horas (en memoria)
                 ttl_6h = 6 * 3600
                 caducados = [w for w, v in self.analysis_cache.items()
                              if (ahora - v.get('cached_at', ahora)).total_seconds() > ttl_6h]
@@ -1935,6 +2799,8 @@ Esperando trades...
                     del self.analysis_cache[w]
                 if caducados:
                     logger.info(f"Cache cleanup: {len(caducados)} tiers caducados eliminados")
+                # Persistir tier cache a disco cada 100 ciclos (~5 min)
+                self._guardar_tier_cache()
 
             elapsed = time.time() - start_time
             sleep_time = max(0.5, INTERVALO_NORMAL - elapsed)

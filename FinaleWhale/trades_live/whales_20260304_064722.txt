@@ -1,0 +1,106 @@
+
+================================================================================
+🚀 MONITOR INICIADO
+================================================================================
+💵 Umbral de ballena:        $2,500.00 USD
+⏱️  Intervalo de polling:     3 segundos
+📊 Límite de trades/ciclo:   1000
+⏰ Ventana de tiempo:        30 minutos (solo trades recientes)
+💾 Archivo de log:           trades_live/whales_20260304_064722.txt
+📂 Trades en memoria:        0
+📱 Notificaciones Telegram:  ✅ ACTIVO
+🔄 Esperando trades...
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $13,475.68 USD
+📊 Mercado: US x Iran ceasefire by May 31?
+🔗 URL: https://polymarket.com/event/us-x-iran-ceasefire-by
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.6640 (66.40%)
+📦 Volumen: $75,521.37
+🕐 Hora: 2026-03-04 06:41:23
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Anónimo
+   Wallet: 0xccef0a00acf527951f1f1a9784c3884e1baa02db
+   Perfil: https://polymarket.com/profile/0xccef0a00acf527951f1f1a9784c3884e1baa02db
+   TX Hash: 0x272eae75cbd285d478...692946c506
+   TX URL: https://polygonscan.com/tx/0x272eae75cbd285d478f60091d8d39fa42db0600c084f9762db0200692946c506
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $3,300.00 USD
+📊 Mercado: Will Arsenal win the 2025–26 English Premier League?
+🔗 URL: https://polymarket.com/event/english-premier-league-winner
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.3300 (33.00%)
+📦 Volumen: $6,446,904.20
+🕐 Hora: 2026-03-04 07:16:01
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Anónimo
+   Wallet: 0x89cd944aa9cf528142e3557099c6992eb7ce4d7d
+   Perfil: https://polymarket.com/profile/0x89cd944aa9cf528142e3557099c6992eb7ce4d7d
+   TX Hash: 0x2792c2e8a40f879071...c52f3760f7
+   TX URL: https://polygonscan.com/tx/0x2792c2e8a40f879071ac9f29fa98e01e4e706b8370672354c3b60fc52f3760f7
+================================================================================
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.59 (58.8%)
+   Polymarket:   0.33 (33.0%)
+   Edge:         +25.8% ✅
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $9,180.00 USD
+📊 Mercado: Counter-Strike: M80 vs Liquid (BO3) - ESL Pro League Stage 1
+🔗 URL: https://polymarket.com/event/cs2-m80-tl1-2026-03-04
+🎯 Outcome: M80
+📈 Lado: COMPRA
+💵 Precio: 0.5100 (51.00%)
+📦 Volumen: $452,384.92
+🕐 Hora: 2026-03-04 07:41:31
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: dfhdfh
+   Wallet: 0xe015b5a2a299167be835a2fd1e86f09c49e06ffd
+   Perfil: https://polymarket.com/profile/0xe015b5a2a299167be835a2fd1e86f09c49e06ffd
+   TX Hash: 0x967d7f44e3d1244f17...7d18c51142
+   TX URL: https://polygonscan.com/tx/0x967d7f44e3d1244f17fb500846ef20a22f2fbdbc36e07285aa27167d18c51142
+================================================================================
+
+
+
+================================================================================
+📊 RESUMEN DE SESIÓN
+================================================================================
+⏱️  Tiempo de monitoreo:     1h 20m 19s
+🐋 Total de ballenas:       11
+✅ Ballenas capturadas:     3
+⛔ Ballenas ignoradas:      8
+💰 Valor promedio:          $10,563.70 USD
+💎 Ballena más grande:      $60,000.00 USD
+   └─ Mercado: Trump out as President by March 31?...
+   └─ Wallet: 0xe1194d05876b71b055...
+📊 Mercados monitoreados:   3
+
+💾 Archivos guardados:
+   - trades_live/whales_20260304_064722.txt (log formateado)
+   - trades_live/historial_trades.json (historial de trades)
+
+🏆 TOP 5 MERCADOS CON MÁS BALLENAS:
+   1. US x Iran ceasefire by May 31?... (1 ballenas)
+   2. Will Arsenal win the 2025–26 English Premier League?... (1 ballenas)
+   3. Counter-Strike: M80 vs Liquid (BO3) - ESL Pro League Stage 1... (1 ballenas)
+
+================================================================================

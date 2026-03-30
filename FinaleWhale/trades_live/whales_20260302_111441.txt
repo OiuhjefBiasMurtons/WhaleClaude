@@ -1,0 +1,102 @@
+
+================================================================================
+MONITOR GOLD v3.0 INICIADO
+================================================================================
+Umbral de ballena:        $2,500.00 USD
+Intervalo de polling:     3 segundos
+Limite de trades/ciclo:   1000
+Ventana de tiempo:        30 minutos (solo trades recientes)
+Archivo de log:           trades_live/whales_20260302_111441.txt
+Trades en memoria:        5000
+Notificaciones Telegram:  ACTIVO
+Esperando trades...
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $6,346.08 USD
+📊 Mercado: Valorant: Paper Rex vs Gentle Mates (BO3) - VCT Masters Santiago Group Stage
+🔗 URL: https://polymarket.com/event/val-pr1-gm-2026-03-02
+🎯 Outcome: Gentle Mates
+📈 Lado: COMPRA
+💵 Precio: 0.5000 (50.00%)
+📦 Volumen: $181,956.90
+🕐 Hora: 2026-03-02 11:27:41
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Polfirefly
+   Wallet: 0x7b676d5a6379855773d405fcf19b9aa577651b07
+   Perfil: https://polymarket.com/profile/0x7b676d5a6379855773d405fcf19b9aa577651b07
+   TX Hash: 0xaad06ca7996372ba34...dc3394d5c7
+   TX URL: https://polygonscan.com/tx/0xaad06ca7996372ba34d7d26434bc67614a0aeee12eb390d35265a4dc3394d5c7
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 necesita HIGH RISK (tier=📊 STANDARD), S1B necesita SOCCER (es ESPORTS), S4 necesita CRYPTO (es ESPORTS), S6 necesita precio <0.50 (es 0.50) | Sin FOLLOW: S2/S2B/S2C necesita NBA (es ESPORTS), S3 necesita mercado nicho, S5 necesita SOCCER (es ESPORTS)
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,883.37 USD
+📊 Mercado: Counter-Strike: NIP vs M80 - Map 2 Winner
+🔗 URL: https://polymarket.com/event/cs2-nip-m80-2026-03-02
+🎯 Outcome: M80
+📈 Lado: COMPRA
+💵 Precio: 0.7100 (71.00%)
+📦 Volumen: $34,962.21
+🕐 Hora: 2026-03-02 11:27:35
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: ScroooogeMcDuck
+   Wallet: 0xc35049bc7b6bd28a49a40b261466ca91aad63669
+   Perfil: https://polymarket.com/profile/0xc35049bc7b6bd28a49a40b261466ca91aad63669
+   TX Hash: 0x061fe22f12fee33a15...28ddc9f0b3
+   TX URL: https://polygonscan.com/tx/0x061fe22f12fee33a150397187b009b1e5ef435f3798f47c594336228ddc9f0b3
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Capital $2,883 < $3K mínimo para señal. Ballena registrada pero sin acción recomendada.
+================================================================================
+
+
+
+================================================================================
+RESUMEN DE SESION (GOLD v3.0)
+================================================================================
+Tiempo de monitoreo:     0h 27m 24s
+Total de ballenas:       11
+Ballenas capturadas:     4
+Ballenas ignoradas:      7
+Valor promedio:          $6,226.09 USD
+Ballena mas grande:      $24,000.00 USD
+   Mercado: Valorant: Paper Rex vs Gentle Mates (BO3) - VCT Ma...
+   Wallet: 0x241f846866c2de4fb6...
+Mercados monitoreados:   2
+
+Archivos guardados:
+   - trades_live/whales_20260302_111441.txt (log formateado)
+   - trades_live/historial_trades.json (historial de trades)
+
+TOP 5 MERCADOS CON MAS BALLENAS:
+   1. Valorant: Paper Rex vs Gentle Mates (BO3) - VCT Masters Sant... (2 ballenas)
+   2. Counter-Strike: NIP vs M80 - Map 2 Winner... (2 ballenas)
+
+================================================================================

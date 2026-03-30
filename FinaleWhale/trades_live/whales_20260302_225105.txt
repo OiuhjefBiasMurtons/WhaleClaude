@@ -1,0 +1,168 @@
+
+================================================================================
+MONITOR GOLD v3.0 INICIADO
+================================================================================
+Umbral de ballena:        $2,500.00 USD
+Intervalo de polling:     3 segundos
+Limite de trades/ciclo:   1000
+Ventana de tiempo:        30 minutos (solo trades recientes)
+Archivo de log:           trades_live/whales_20260302_225105.txt
+Trades en memoria:        5000
+Notificaciones Telegram:  ACTIVO
+Esperando trades...
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 45s — 🐋🐋🐋 MEGA BALLENA | youzi | 💀 HIGH RISK
+================================================================================
+💰 Valor: $16,187.71 USD
+📊 Mercado: Will Japan win the 2026 World Baseball Classic?
+🔗 URL: https://polymarket.com/event/wbc-winner-2026
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.7700 (77.00%)
+📦 Volumen: $124,578.26
+🕐 Trade original: 2026-03-02 22:48:45
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: youzi
+   Wallet: 0x05ac1531c6aca7a85b9b4cbc43bc71fec01dc589
+   Perfil: https://polymarket.com/profile/0x05ac1531c6aca7a85b9b4cbc43bc71fec01dc589
+   TX Hash: 0x88b732cab2a0611d8b...12fbcb1302
+   TX URL: https://polygonscan.com/tx/0x88b732cab2a0611d8b7bb647d884b2a78c2d0a88e28fae67ddf3bc12fbcb1302
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 necesita precio <0.45 (es 0.77), S1B necesita SOCCER (es OTHER), S4 necesita CRYPTO (es OTHER), S6 necesita ESPORTS (es OTHER) | Sin FOLLOW: S2/S2B/S2C necesita NBA (es OTHER), S3 necesita mercado nicho, S5 necesita SOCCER (es OTHER)
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 1.4min — 🐋🐋🐋 MEGA BALLENA | baicaiye | 📊 STANDARD
+================================================================================
+💰 Valor: $17,985.66 USD  ⚡ NICHO
+📊 Mercado: Will Japan win the 2026 World Baseball Classic?
+🔗 URL: https://polymarket.com/event/wbc-winner-2026
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.7700 (77.00%)
+📦 Volumen: $124,578.26
+🕐 Trade original: 2026-03-02 22:48:43
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: baicaiye
+   Wallet: 0x3338ccfa5d384ffd50dc6fb4aee96bf6281e5550
+   Perfil: https://polymarket.com/profile/0x3338ccfa5d384ffd50dc6fb4aee96bf6281e5550
+   TX Hash: 0xeb6b81d51812d4dbb0...65190e2819
+   TX URL: https://polygonscan.com/tx/0xeb6b81d51812d4dbb023772102f91f498ae26f504bd0a5b7313a3365190e2819
+================================================================================
+
+╔══════════════════════════════════════════════════╗
+║  ███████╗ ██████╗ ██╗     ██╗      ██████╗ ██╗  ║
+║  ██╔════╝██╔═══██╗██║     ██║     ██╔═══██╗██║  ║
+║  █████╗  ██║   ██║██║     ██║     ██║   ██║██║  ║
+║  ██╔══╝  ██║   ██║██║     ██║     ██║   ██║╚═╝  ║
+║  ██║     ╚██████╔╝███████╗███████╗╚██████╔╝██╗  ║
+║  ╚═╝      ╚═════╝ ╚══════╝╚══════╝ ╚═════╝ ╚═╝  ║
+╚══════════════════════════════════════════════════╝
+  Signal: S3  |  Conf: LOW  |  WR: 56.5%  |  ROI esperado: -26.6%
+  › S3: Follow Nicho (OTHER) a 0.77 (stake 0.5x, WR 56.5%)
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 46s — 🐋 BALLENA | iiiijiijjijiijiiii | 📊 STANDARD
+================================================================================
+💰 Valor: $2,550.00 USD
+📊 Mercado: Will Bitcoin reach $75,000 in March?
+🔗 URL: https://polymarket.com/event/what-price-will-bitcoin-hit-in-march-2026
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.5100 (51.00%)
+📦 Volumen: $310,155.39
+🕐 Trade original: 2026-03-02 22:59:23
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: iiiijiijjijiijiiii
+   Wallet: 0x51d7e365dff4882c624f1ef8b54137096865238c
+   Perfil: https://polymarket.com/profile/0x51d7e365dff4882c624f1ef8b54137096865238c
+   TX Hash: 0x6e8f74e65edd894a3b...a1ca90ee13
+   TX URL: https://polygonscan.com/tx/0x6e8f74e65edd894a3bea401c9bfdc511599581f298fea331ea075aa1ca90ee13
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Capital $2,550 < $3K mínimo para señal. Ballena registrada pero sin acción recomendada.
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 42s — 🐋 BALLENA | EIf | 📊 STANDARD
+================================================================================
+💰 Valor: $2,983.20 USD
+📊 Mercado: Predators vs. Blue Jackets
+🔗 URL: https://polymarket.com/event/nhl-nsh-cbj-2026-03-03
+🎯 Outcome: Predators
+📈 Lado: COMPRA
+💵 Precio: 0.4400 (44.00%)
+📦 Volumen: $228,660.86
+🕐 Trade original: 2026-03-02 23:03:53
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: EIf
+   Wallet: 0xd6966eb1ae7b52320ba7ab1016680198c9e08a49
+   Perfil: https://polymarket.com/profile/0xd6966eb1ae7b52320ba7ab1016680198c9e08a49
+   TX Hash: 0xe4f16f2e96dd5e8311...994bbbfa28
+   TX URL: https://polygonscan.com/tx/0xe4f16f2e96dd5e8311f6a0034cb65c410c0bbdd1c9b40b10689980994bbbfa28
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Capital $2,983 < $3K mínimo para señal. Ballena registrada pero sin acción recomendada.
+================================================================================
+
+
+
+================================================================================
+RESUMEN DE SESION (GOLD v3.0)
+================================================================================
+Tiempo de monitoreo:     0h 24m 45s
+Total de ballenas:       11
+Ballenas capturadas:     4
+Ballenas ignoradas:      7
+Valor promedio:          $6,022.62 USD
+Ballena mas grande:      $17,985.66 USD
+   Mercado: Will Japan win the 2026 World Baseball Classic?...
+   Wallet: 0x3338ccfa5d384ffd50...
+Mercados monitoreados:   3
+
+Archivos guardados:
+   - trades_live/whales_20260302_225105.txt (log formateado)
+   - trades_live/historial_trades.json (historial de trades)
+
+TOP 5 MERCADOS CON MAS BALLENAS:
+   1. Will Japan win the 2026 World Baseball Classic?... (2 ballenas)
+   2. Will Bitcoin reach $75,000 in March?... (1 ballenas)
+   3. Predators vs. Blue Jackets... (1 ballenas)
+
+================================================================================

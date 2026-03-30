@@ -1,0 +1,135 @@
+
+================================================================================
+MONITOR GOLD v3.0 INICIADO
+================================================================================
+Umbral de ballena:        $2,500.00 USD
+Intervalo de polling:     3 segundos
+Limite de trades/ciclo:   1000
+Ventana de tiempo:        30 minutos (solo trades recientes)
+Archivo de log:           trades_live/whales_20260313_011100.txt
+Trades en memoria:        5000
+Notificaciones Telegram:  ACTIVO
+Esperando trades...
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $5,400.00 USD
+📊 Mercado: Will Torino FC win on 2026-03-13?
+🔗 URL: https://polymarket.com/event/sea-tor-par-2026-03-13
+🎯 Outcome: No
+📈 Lado: VENTA
+💵 Precio: 0.5400 (54.00%)
+📦 Volumen: $450,819.60
+🕐 Hora: 2026-03-13 01:13:01
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: tutedefore
+   Wallet: 0xf68a281980f8c13828e84e147e3822381d6e5b1b
+   Perfil: https://polymarket.com/profile/0xf68a281980f8c13828e84e147e3822381d6e5b1b
+   TX Hash: 0x26e0f44cef6c7e6232...d8fedfba30
+   TX URL: https://polygonscan.com/tx/0x26e0f44cef6c7e62320c78ef2d3cbc9f2d14434fdc51762869085dd8fedfba30
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 DESACTIVADO v7.4 (global WR 35.3% N=51 — premisa refutada), S1B SUSPENDIDA v7.3 (Soccer WR 52.9% N=17 — sin edge, hipótesis), S4 necesita CRYPTO (es SOCCER), S6 necesita ESPORTS (es SOCCER) | Sin FOLLOW: S2/S2B/S2C necesita NBA (es SOCCER), S3 necesita mercado nicho, S5 SUSPENDIDA v7.3 (Soccer WR 38.1% N=21 — reactivar N≥30 limpio)
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 43s — 🐋🐋 BALLENA GRANDE | Huludubu | 🥇 GOLD
+================================================================================
+💰 Valor: $5,700.00 USD
+📊 Mercado: US forces enter Iran by March 31?
+🔗 URL: https://polymarket.com/event/us-forces-enter-iran-by
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.7600 (76.00%)
+📦 Volumen: $6,911,595.10
+🕐 Trade original: 2026-03-13 01:13:01
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Huludubu
+   Wallet: 0xe7387473b067235436884d16799777cf279edf65
+   Perfil: https://polymarket.com/profile/0xe7387473b067235436884d16799777cf279edf65
+   TX Hash: 0xee7bf4aac6a1a056d9...76dcb50466
+   TX URL: https://polygonscan.com/tx/0xee7bf4aac6a1a056d9a1e769992b3167be06d4ec062f6410f89b0c76dcb50466
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 DESACTIVADO v7.4 (global WR 35.3% N=51 — premisa refutada), S4 necesita CRYPTO (es OTHER), S6 necesita ESPORTS (es OTHER) | Sin FOLLOW: S2/S2B/S2C necesita NBA (es OTHER), S3 necesita mercado nicho
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 42s — 🐋 BALLENA | tmacpoker | 🥉 BRONZE
+================================================================================
+💰 Valor: $2,700.00 USD
+📊 Mercado: Will Olympique de Marseille win on 2026-03-13?
+🔗 URL: https://polymarket.com/event/fl1-olm-aja-2026-03-13
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.3200 (32.00%)
+📦 Volumen: $45,922.82
+🕐 Trade original: 2026-03-13 01:28:15
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: tmacpoker
+   Wallet: 0x78659d1fc23620991b949558c33761014b224af9
+   Perfil: https://polymarket.com/profile/0x78659d1fc23620991b949558c33761014b224af9
+   TX Hash: 0x634246f263da104b44...a07ecfe088
+   TX URL: https://polygonscan.com/tx/0x634246f263da104b4434fc2cc52f1bbeed1f85e8d81c392634d165a07ecfe088
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Capital $2,700 < $5K mínimo para señal (v7.4: $3K-5K WR 50% coin flip). Ballena registrada pero sin acción recomendada.
+================================================================================
+
+
+
+================================================================================
+RESUMEN DE SESION (GOLD v3.0)
+================================================================================
+Tiempo de monitoreo:     0h 21m 40s
+Total de ballenas:       6
+Ballenas capturadas:     3
+Ballenas ignoradas:      3
+Valor promedio:          $4,759.54 USD
+Ballena mas grande:      $8,330.00 USD
+   Mercado: Will J.B. Pritzker win the 2028 Democratic preside...
+   Wallet: 0xb79e7296632fa0e9ce...
+Mercados monitoreados:   3
+
+Archivos guardados:
+   - trades_live/whales_20260313_011100.txt (log formateado)
+   - trades_live/historial_trades.json (historial de trades)
+
+TOP 5 MERCADOS CON MAS BALLENAS:
+   1. US forces enter Iran by March 31?... (1 ballenas)
+   2. Will Torino FC win on 2026-03-13?... (1 ballenas)
+   3. Will Olympique de Marseille win on 2026-03-13?... (1 ballenas)
+
+================================================================================

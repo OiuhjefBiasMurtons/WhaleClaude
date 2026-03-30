@@ -1,0 +1,46 @@
+
+================================================================================
+MONITOR GOLD v3.0 INICIADO
+================================================================================
+Umbral de ballena:        $2,500.00 USD
+Intervalo de polling:     3 segundos
+Limite de trades/ciclo:   1000
+Ventana de tiempo:        30 minutos (solo trades recientes)
+Archivo de log:           trades_live/whales_20260302_010459.txt
+Trades en memoria:        5000
+Notificaciones Telegram:  ACTIVO
+Esperando trades...
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $9,810.60 USD
+📊 Mercado: Will Israel strike 4 countries in 2026?
+🔗 URL: https://polymarket.com/event/how-many-different-countries-will-israel-strike-in-2026
+🎯 Outcome: Yes
+📈 Lado: VENTA
+💵 Precio: 0.3940 (39.40%)
+📦 Volumen: $425,484.53
+🕐 Hora: 2026-03-02 01:03:27
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: yydyjds
+   Wallet: 0x8e7d515a6a7c8501d5ef79a3610e075b13fbc0c1
+   Perfil: https://polymarket.com/profile/0x8e7d515a6a7c8501d5ef79a3610e075b13fbc0c1
+   TX Hash: 0xfd392720a4c6fc3030...eadc7e1641
+   TX URL: https://polygonscan.com/tx/0xfd392720a4c6fc3030e5c5c07c49842f72b7ba068dc47f36bb7955eadc7e1641
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 necesita HIGH RISK (tier=desconocido), S1B necesita SOCCER (es OTHER), S4 necesita CRYPTO (es OTHER), S6 necesita ESPORTS (es OTHER) | Sin FOLLOW: S2/S2B/S2C necesita NBA (es OTHER), S3 necesita mercado nicho, S5 necesita SOCCER (es OTHER)
+================================================================================
+

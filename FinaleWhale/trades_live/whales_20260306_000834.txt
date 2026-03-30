@@ -1,0 +1,83 @@
+
+================================================================================
+MONITOR GOLD v3.0 INICIADO
+================================================================================
+Umbral de ballena:        $2,500.00 USD
+Intervalo de polling:     3 segundos
+Limite de trades/ciclo:   1000
+Ventana de tiempo:        30 minutos (solo trades recientes)
+Archivo de log:           trades_live/whales_20260306_000834.txt
+Trades en memoria:        5000
+Notificaciones Telegram:  ACTIVO
+Esperando trades...
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,745.36 USD
+📊 Mercado: Pacers vs. Lakers
+🔗 URL: https://polymarket.com/event/nba-ind-lal-2026-03-06
+🎯 Outcome: Lakers
+📈 Lado: COMPRA
+💵 Precio: 0.8200 (82.00%)
+📦 Volumen: $55,612.99
+🕐 Hora: 2026-03-06 00:05:33
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: GetaLife
+   Wallet: 0xada56a3f1a9d7d3fe7ec8cbcaa0865109c57db70
+   Perfil: https://polymarket.com/profile/0xada56a3f1a9d7d3fe7ec8cbcaa0865109c57db70
+   TX Hash: 0xd27d378de880579944...d1b8670758
+   TX URL: https://polygonscan.com/tx/0xd27d378de8805799440ed8b70430a16e9960c73f30dea6eeb490dbd1b8670758
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Capital $2,745 < $3K mínimo para señal. Ballena registrada pero sin acción recomendada.
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $3,038.70 USD
+📊 Mercado: Will Real Madrid CF win on 2026-03-07?
+🔗 URL: https://polymarket.com/event/lal-cel-rea-2026-03-07
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.4200 (42.00%)
+📦 Volumen: $449,276.86
+🕐 Hora: 2026-03-06 00:05:23
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: elkmonkey
+   Wallet: 0xead152b855effa6b5b5837f53b24c0756830c76a
+   Perfil: https://polymarket.com/profile/0xead152b855effa6b5b5837f53b24c0756830c76a
+   TX Hash: 0x81a7d2db6efb24feb4...c9e2e15ba6
+   TX URL: https://polygonscan.com/tx/0x81a7d2db6efb24feb4cfcba95895f66cc6eab03092113c613c4affc9e2e15ba6
+================================================================================
+
+╔══════════════════════════════════════════════════════════════╗
+║   ██████╗ ██████╗ ██╗   ██╗███╗  ██╗████████╗███████╗██████╗ ║
+║  ██╔════╝██╔═══██╗██║   ██║████╗ ██║╚══██╔══╝██╔════╝██╔══██╗║
+║  ██║     ██║   ██║██║   ██║██╔██╗██║   ██║   █████╗  ██████╔╝║
+║  ██║     ██║   ██║██║   ██║██║╚████║   ██║   ██╔══╝  ██╔══██╗║
+║  ╚██████╗╚██████╔╝╚██████╔╝██║ ╚███║   ██║   ███████╗██║  ██║║
+║   ╚═════╝ ╚═════╝  ╚═════╝ ╚═╝  ╚══╝   ╚═╝   ╚══════╝╚═╝  ╚═╝║
+╚══════════════════════════════════════════════════════════════╝
+  Signal: S1  |  Conf: LOW  |  WR: 57.0%  |  ROI esperado: +35.7%
+  › S1 zona fuerte: Counter HIGH RISK SOCCER a 0.42 (WR 57%, N=21)
+================================================================================
+📊 ANÁLISIS DE ODDS:
+   Pinnacle:     0.42 (42.4%)
+   Polymarket:   0.42 (42.0%)
+   Edge:         +0.4% ⚠️
+
