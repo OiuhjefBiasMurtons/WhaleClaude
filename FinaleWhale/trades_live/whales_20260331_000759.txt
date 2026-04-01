@@ -1,0 +1,78 @@
+
+================================================================================
+MONITOR GOLD v3.0 INICIADO
+================================================================================
+Umbral de ballena:        $2,500.00 USD
+Intervalo de polling:     3 segundos
+Limite de trades/ciclo:   1000
+Ventana de tiempo:        30 minutos (solo trades recientes)
+Archivo de log:           trades_live/whales_20260331_000759.txt
+Trades en memoria:        5000
+Notificaciones Telegram:  ACTIVO
+Esperando trades...
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 42s — 🐋 BALLENA | 6482f | 📊 STANDARD
+================================================================================
+💰 Valor: $3,866.64 USD
+📊 Mercado: US forces enter Iran by December 31?
+🔗 URL: https://polymarket.com/event/us-forces-enter-iran-by
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.7100 (71.00%)
+📦 Volumen: $6,305,622.05
+🕐 Trade original: 2026-03-31 00:46:07
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 6482f
+   Wallet: 0xd08e8f5efb47d9ff61c30e9c8546f82f7f2a2f7c
+   Perfil: https://polymarket.com/profile/0xd08e8f5efb47d9ff61c30e9c8546f82f7f2a2f7c
+   TX Hash: 0xf40d5ce190a5a4eed2...c9a5809f42
+   TX URL: https://polygonscan.com/tx/0xf40d5ce190a5a4eed2069f499bda36e936f25dc02442d26fab70bec9a5809f42
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 DESACTIVADO v7.4 (global WR 35.3% N=51 — premisa refutada), S4 necesita CRYPTO (es OTHER), S6 necesita ESPORTS (es OTHER) | Sin FOLLOW: S2/S2B/S2C necesita NBA (es OTHER), S3 necesita mercado nicho
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 1.0min — 🐋 BALLENA | Certify0148 | 🥈 SILVER
+================================================================================
+💰 Valor: $3,872.52 USD
+📊 Mercado: US forces enter Iran by April 30?
+🔗 URL: https://polymarket.com/event/us-forces-enter-iran-by
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.6200 (62.00%)
+📦 Volumen: $10,421,690.80
+🕐 Trade original: 2026-03-31 00:50:53
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Certify0148
+   Wallet: 0xf44dcf50490507a44a6244dc07f50686e71060af
+   Perfil: https://polymarket.com/profile/0xf44dcf50490507a44a6244dc07f50686e71060af
+   TX Hash: 0x7b6ae859e85aa766cf...2ec131acb2
+   TX URL: https://polygonscan.com/tx/0x7b6ae859e85aa766cfbf823d07a52f14442afc78841c7ab0ca63c62ec131acb2
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 DESACTIVADO v7.4 (global WR 35.3% N=51 — premisa refutada), S4 necesita CRYPTO (es OTHER), S6 necesita ESPORTS (es OTHER) | Sin FOLLOW: S2/S2B/S2C necesita NBA (es OTHER), S3 necesita mercado nicho
+================================================================================
+

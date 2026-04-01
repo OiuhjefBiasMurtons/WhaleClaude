@@ -1,16 +1,18 @@
 #!/usr/bin/env python3
 """
-resolved_gold.py - Mantenimiento de la tabla whale_signals (Gold).
+resolved_definitive.py - Mantenimiento de la tabla whale_signals (Definitive/Whales DB).
 
 Dos tareas principales:
   1. Asignar tier a traders que lo tienen vacío → usa polywhale_v5_adjusted
   2. Resolver trades sin resultado → consulta Polymarket CLOB API
 
+Tras resolver, refresca signal_stats y trader_stats vía RPC.
+
 Uso:
-    python resolved_gold.py               # Ambas tareas
-    python resolved_gold.py --solo-tiers  # Solo asignar tiers
-    python resolved_gold.py --solo-trades # Solo resolver trades
-    python resolved_gold.py --stats       # Mostrar estadísticas y salir
+    python resolved_definitive.py               # Ambas tareas
+    python resolved_definitive.py --solo-tiers  # Solo asignar tiers
+    python resolved_definitive.py --solo-trades # Solo resolver trades
+    python resolved_definitive.py --stats       # Mostrar estadísticas y salir
 """
 
 import os
@@ -32,28 +34,27 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s [%(levelname)s] %(message)s',
     handlers=[
-        logging.FileHandler('resolved_gold.log', encoding='utf-8'),
+        logging.FileHandler('resolved_definitive.log', encoding='utf-8'),
         logging.StreamHandler(sys.stdout),
     ]
 )
 logger = logging.getLogger(__name__)
 
-SUPABASE_URL = os.getenv('SUPA_GOLD_URL')
-SUPABASE_KEY = os.getenv('SUPA_GOLD_KEY')
+SUPABASE_URL = os.getenv('SUPABASE_URL')
+SUPABASE_KEY = os.getenv('SUPABASE_KEY')
 CLOB_API     = "https://clob.polymarket.com"
 GAMMA_API    = "https://gamma-api.polymarket.com"
 
 
-class GoldTableResolver:
+class DefinitiveTableResolver:
 
     def __init__(self):
         if not SUPABASE_URL or not SUPABASE_KEY:
-            raise ValueError("SUPA_GOLD_URL y SUPA_GOLD_KEY no están definidas en .env")
+            raise ValueError("SUPABASE_URL y SUPABASE_KEY no están definidas en .env")
 
         self.supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
         self.session = requests.Session()
         self.session.headers.update({'User-Agent': 'Mozilla/5.0'})
-        # Un solo Chrome activo a la vez (igual que gold_all_claude.py)
         self.scrape_semaphore = threading.Semaphore(1)
 
         self.stats = {
@@ -93,144 +94,121 @@ class GoldTableResolver:
 
     def _analizar_trader(self, display_name: str) -> dict | None:
         """
-        Corre TraderAnalyzer con el display_name como identificador.
-        polymarketanalytics.com acepta tanto wallet address como username slug.
+        Corre TraderAnalyzer con el display_name.
         Devuelve {'tier': str, 'score': int} o None si falla.
         """
         try:
             from polywhale_v5_adjusted import TraderAnalyzer
-
             with self.scrape_semaphore:
-                def _try_scrape(name):
-                    a = TraderAnalyzer(name)
-                    return a, a.scrape_polymarketanalytics()
-
-                analyzer, ok = _try_scrape(display_name)
-
+                analyzer = TraderAnalyzer(display_name)
+                ok = analyzer.scrape_polymarketanalytics()
                 if not ok:
-                    logger.info(f"   Reintento 1 para {display_name} (10s)...")
-                    time.sleep(10)
-                    analyzer, ok = _try_scrape(display_name)
+                    time.sleep(2)
+                    analyzer2 = TraderAnalyzer(display_name)
+                    ok = analyzer2.scrape_polymarketanalytics()
+                    if not ok:
+                        return None
+                    analyzer = analyzer2
 
-                if not ok:
-                    logger.info(f"   Reintento 2 para {display_name} (20s)...")
-                    time.sleep(20)
-                    analyzer, ok = _try_scrape(display_name)
+            tier  = analyzer.scores.get('tier', '')
+            score = analyzer.scores.get('total', 0)
+            if not tier:
+                return None
+            return {'tier': tier, 'score': score}
 
-                if not ok:
-                    logger.warning(f"   Scrape fallido tras 3 intentos: {display_name}")
-                    return None
-
-                analyzer._enrich_from_api()
-                analyzer.calculate_profitability_score()
-                analyzer.calculate_consistency_score()
-                analyzer.calculate_risk_management_score()
-                analyzer.calculate_experience_score()
-                analyzer.calculate_final_score()
-
-                tier  = analyzer.scores.get('tier', '')
-                score = analyzer.scores.get('total', 0)
-                d     = analyzer.scraped_data
-
-                logger.info(
-                    f"   Scraped → PnL={d.get('pnl', 'N/A')}  WR={d.get('win_rate', 'N/A')}  "
-                    f"Trades={d.get('total_trades', 'N/A')}  Score={score}  Tier={tier or '(vacío)'}"
-                )
-
-                if not tier:
-                    logger.warning(f"   Tier vacío tras análisis: {display_name}")
-                    return None
-
-                return {'tier': tier, 'score': score}
-
+        except ImportError:
+            logger.warning("polywhale_v5_adjusted no disponible — omitiendo asignación de tiers")
+            return None
         except Exception as e:
-            logger.error(f"   Error analizando {display_name}: {e}", exc_info=True)
+            logger.warning(f"Error analizando {display_name}: {e}")
             return None
 
     def asignar_tiers_faltantes(self):
-        """Busca traders sin tier, los analiza y actualiza todas sus filas."""
         logger.info("=" * 70)
         logger.info("TAREA 1 — ASIGNAR TIERS FALTANTES")
         logger.info("=" * 70)
 
         rows = self._obtener_rows_sin_tier()
-        if not rows:
-            logger.info("No hay traders sin tier. Nada que hacer.")
-            return
+        logger.info(f"Registros sin tier: {len(rows)}")
 
-        # Agrupar IDs por display_name (analizar una vez por trader)
-        name_to_ids: dict[str, list] = {}
+        # Deduplicar por display_name (no scrapar el mismo trader dos veces)
+        seen: set[str] = set()
         for row in rows:
-            name = (row.get('display_name') or '').strip()
-            if name and name.lower() not in ('anonimo', 'anónimo', ''):
-                name_to_ids.setdefault(name, []).append(row['id'])
+            name = row.get('display_name', '')
+            if not name or name in seen:
+                continue
+            seen.add(name)
 
-        logger.info(f"Traders únicos a analizar: {len(name_to_ids)} ({len(rows)} filas en total)")
+            logger.info(f"\n🔍 Analizando: {name}")
+            result = self._analizar_trader(name)
 
-        for display_name, ids in name_to_ids.items():
-            logger.info(f"\n👤 {display_name}  ({len(ids)} fila/s) ...")
-            resultado = self._analizar_trader(display_name)
-
-            if resultado:
-                tier = resultado['tier']
-                for row_id in ids:
-                    try:
-                        self.supabase.table('whale_signals') \
-                            .update({'tier': tier}) \
-                            .eq('id', row_id) \
-                            .execute()
-                    except Exception as e:
-                        logger.error(f"   Error actualizando fila {row_id}: {e}")
-                        self.stats['errores'] += 1
-
-                logger.info(f"   ✅ Tier asignado: {tier} (score={resultado['score']}) → {len(ids)} fila/s")
-                self.stats['tiers_asignados'] += len(ids)
-            else:
-                logger.warning(f"   ⚠️  No se pudo obtener tier")
+            if not result:
+                logger.info(f"   ⚠️  Sin tier obtenido")
                 self.stats['tiers_fallidos'] += 1
+                time.sleep(1)
+                continue
 
-            time.sleep(2)  # Pausa entre traders
+            tier  = result['tier']
+            score = result['score']
+            logger.info(f"   ✅ Tier: {tier} (Score: {score})")
+
+            try:
+                self.supabase.table('whale_signals').update(
+                    {'tier': tier}
+                ).eq('display_name', name).is_('tier', 'null').execute()
+
+                self.supabase.table('whale_signals').update(
+                    {'tier': tier}
+                ).eq('display_name', name).eq('tier', '').execute()
+
+                self.stats['tiers_asignados'] += 1
+            except Exception as e:
+                logger.error(f"   Error guardando tier en Supabase: {e}")
+                self.stats['errores'] += 1
+
+            time.sleep(2)
 
     # =========================================================================
     # TAREA 2: RESOLVER TRADES PENDIENTES
     # =========================================================================
 
     def _obtener_trades_pendientes(self):
-        """Trades sin resolved_at con al menos 1 hora de antigüedad."""
+        """Trades sin resultado con más de 1 hora de antigüedad (paginado)."""
         try:
             hace_1h = (datetime.now() - timedelta(hours=1)).isoformat()
-            resp = (
-                self.supabase.table('whale_signals')
-                .select('*')
-                .is_('resolved_at', 'null')
-                .lt('detected_at', hace_1h)
-                .order('detected_at', desc=False)
-                .execute()
-            )
-            trades = resp.data or []
-            logger.info(f"Trades pendientes de resolución: {len(trades)}")
-            return trades
+            PAGE = 1000
+            all_trades: list = []
+            offset = 0
+            while True:
+                resp = (
+                    self.supabase.table('whale_signals')
+                    .select('*')
+                    .is_('resolved_at', 'null')
+                    .lt('detected_at', hace_1h)
+                    .order('detected_at', desc=False)
+                    .range(offset, offset + PAGE - 1)
+                    .execute()
+                )
+                batch = resp.data or []
+                all_trades.extend(batch)
+                if len(batch) < PAGE:
+                    break
+                offset += PAGE
+            logger.info(f"Trades pendientes de resolución: {len(all_trades)}")
+            return all_trades
         except Exception as e:
             logger.error(f"Error obteniendo trades pendientes: {e}")
             return []
 
     def _buscar_condition_id(self, trade: dict) -> str | None:
         """
-        Obtiene el conditionId del mercado. Orden de prioridad:
-          1. condition_id directo del registro (gold_all_claude v5+).
-          2. market_slug directo → Gamma API slug lookup (gold_all_claude v5+).
-          3. Búsqueda por texto en Gamma API /events?q= (funciona para registros viejos).
+        Obtiene el conditionId del mercado. Prioridad:
+          1. condition_id directo del registro.
+          2. Búsqueda por texto en Gamma API (último recurso).
         """
         cid = trade.get('condition_id') or ''
         if cid:
             return cid
-
-        # Slug directo del registro (mucho más fiable que slug generado del título)
-        market_slug = trade.get('market_slug') or ''
-        if market_slug:
-            cid = self._gamma_buscar_por_slug(market_slug)
-            if cid:
-                return cid
 
         market_title = trade.get('market_title', '')
         if not market_title:
@@ -238,35 +216,8 @@ class GoldTableResolver:
 
         return self._gamma_buscar_por_titulo(market_title)
 
-    def _gamma_buscar_por_slug(self, slug: str) -> str | None:
-        """Búsqueda directa por slug real (más fiable). Intenta markets y events."""
-        for url, params in [
-            (f"{GAMMA_API}/markets", {'slug': slug, 'limit': 1}),
-            (f"{GAMMA_API}/events",  {'slug': slug, 'limit': 1}),
-        ]:
-            try:
-                resp = self.session.get(url, params=params, timeout=10)
-                if resp.status_code != 200:
-                    continue
-                payload = resp.json()
-                items = payload if isinstance(payload, list) else payload.get('data', [])
-                for item in items:
-                    for market in item.get('markets', [item]):
-                        cid = market.get('conditionId') or market.get('condition_id')
-                        if cid:
-                            logger.info(f"   conditionId via slug directo: {cid[:20]}...")
-                            return cid
-            except Exception as e:
-                logger.debug(f"Error slug directo ({url}): {e}")
-        return None
-
     def _gamma_buscar_por_titulo(self, market_title: str) -> str | None:
-        """
-        Último recurso para registros sin condition_id ni slug almacenado.
-        Gamma API no soporta búsqueda de texto libre (?q= ignora el parámetro),
-        por lo que solo intentamos un slug generado automáticamente del título.
-        Tasa de éxito baja para títulos antiguos.
-        """
+        """Intenta encontrar el conditionId generando un slug desde el título."""
         slug = re.sub(r"[^\w\s-]", "", market_title.lower()).strip()
         slug = re.sub(r"[\s_]+", "-", slug)[:120]
 
@@ -289,24 +240,21 @@ class GoldTableResolver:
                                 logger.info(f"   conditionId via slug generado: {cid[:20]}...")
                                 return cid
             except Exception as e:
-                logger.debug(f"Error slug generado ({url}): {e}")
+                logger.debug(f"Error buscando slug ({url}): {e}")
 
-        logger.info(f"   Sin conditionId (slug generado no coincidió): {market_title[:50]}")
+        logger.info(f"   Sin conditionId: {market_title[:50]}")
         return None
 
     @staticmethod
     def _titulos_coinciden(a: str, b: str) -> bool:
-        """Comparación flexible de títulos de mercado."""
         if not a or not b:
             return False
         a, b = a.lower().strip(), b.lower().strip()
         if a == b:
             return True
-        # Prefijo de 40 chars
         prefix = min(40, len(a), len(b))
         if a[:prefix] == b[:prefix]:
             return True
-        # Containment bidireccional (mínimo 20 chars)
         shorter, longer = (a, b) if len(a) <= len(b) else (b, a)
         if len(shorter) >= 20 and shorter in longer:
             return True
@@ -326,7 +274,7 @@ class GoldTableResolver:
 
             market = resp.json()
             if not market.get('closed', False):
-                return None  # Aún abierto
+                return None
 
             winning_outcome = None
             for token in market.get('tokens', []):
@@ -335,13 +283,10 @@ class GoldTableResolver:
                     break
 
             if not winning_outcome:
-                logger.debug(f"Cerrado pero sin ganador declarado: {condition_id[:20]}...")
+                logger.debug(f"Cerrado pero sin ganador: {condition_id[:20]}...")
                 return None
 
-            return {
-                'winning_outcome': winning_outcome,
-                'market_title':    market.get('question', ''),
-            }
+            return {'winning_outcome': winning_outcome}
 
         except Exception as e:
             logger.error(f"Error consultando CLOB ({condition_id[:20]}...): {e}")
@@ -350,32 +295,31 @@ class GoldTableResolver:
     @staticmethod
     def _calcular_resultado(trade: dict, winning_outcome: str) -> tuple[str, float]:
         """
-        Devuelve (result, pnl_teorico) basado en el outcome ganador.
+        Devuelve (result, pnl_teorico).
         PnL expresado en % sobre base $100.
         """
-        side         = trade['side'].upper()
-        whale_out    = (trade.get('outcome') or '').upper()
-        winner_norm  = (winning_outcome or '').upper()
-        poly_price   = float(trade['poly_price'])
+        side      = trade['side'].upper()
+        whale_out = (trade.get('outcome') or '').upper()
+        winner    = (winning_outcome or '').upper()
+        price     = float(trade['poly_price'])
 
         if side == 'BUY':
-            if whale_out == winner_norm:
-                return 'WIN', 100 * (1 / poly_price - 1)
+            if whale_out == winner:
+                return 'WIN', 100 * (1 / price - 1)
             return 'LOSS', -100.0
         else:  # SELL
-            if whale_out != winner_norm:
-                return 'WIN', 100 * poly_price
-            return 'LOSS', -(100 - 100 * poly_price)
+            if whale_out != winner:
+                return 'WIN', 100 * price
+            return 'LOSS', -(100 - 100 * price)
 
     def resolver_trades_pendientes(self):
-        """Itera trades sin resultado, busca resolución en Polymarket y actualiza."""
         logger.info("=" * 70)
         logger.info("TAREA 2 — RESOLVER TRADES PENDIENTES")
         logger.info("=" * 70)
 
         trades = self._obtener_trades_pendientes()
         if not trades:
-            logger.info("No hay trades pendientes. Nada que hacer.")
+            logger.info("No hay trades pendientes.")
             return
 
         for trade in trades:
@@ -385,7 +329,6 @@ class GoldTableResolver:
 
             logger.info(f"\n🔍 #{trade_id} | {display_name} | {market_title[:55]}")
 
-            # 1. Obtener condition_id
             condition_id = self._buscar_condition_id(trade)
             if not condition_id:
                 logger.info("   ⏭️  Sin conditionId — no se puede consultar Polymarket")
@@ -393,7 +336,6 @@ class GoldTableResolver:
                 time.sleep(0.3)
                 continue
 
-            # 2. Consultar resultado
             resultado = self._consultar_resultado_mercado(condition_id)
             if not resultado:
                 logger.info("   ⏳ Mercado aún no resuelto")
@@ -401,9 +343,8 @@ class GoldTableResolver:
                 time.sleep(0.3)
                 continue
 
-            # 3. Calcular y guardar
             winning_outcome = resultado['winning_outcome']
-            result, pnl     = self._calcular_resultado(trade, winning_outcome)
+            result, pnl = self._calcular_resultado(trade, winning_outcome)
 
             try:
                 self.supabase.table('whale_signals').update({
@@ -421,7 +362,7 @@ class GoldTableResolver:
                 self.stats['trades_resueltos'] += 1
 
             except Exception as e:
-                logger.error(f"   Error guardando resultado en Supabase: {e}")
+                logger.error(f"   Error guardando resultado: {e}")
                 self.stats['errores'] += 1
 
             time.sleep(0.5)
@@ -430,14 +371,31 @@ class GoldTableResolver:
     # ESTADÍSTICAS
     # =========================================================================
 
+    def _fetch_all_signals(self) -> list:
+        """Pagina sobre whale_signals para traer todos los registros (sin límite de 1000)."""
+        PAGE = 1000
+        all_rows: list = []
+        offset = 0
+        while True:
+            resp = (
+                self.supabase.table('whale_signals')
+                .select('result, tier, valor_usd, pnl_teorico')
+                .range(offset, offset + PAGE - 1)
+                .execute()
+            )
+            batch = resp.data or []
+            all_rows.extend(batch)
+            if len(batch) < PAGE:
+                break
+            offset += PAGE
+        return all_rows
+
     def mostrar_estadisticas(self):
-        """Muestra estadísticas generales de whale_signals."""
         logger.info("=" * 70)
-        logger.info("ESTADÍSTICAS — whale_signals Gold")
+        logger.info("ESTADÍSTICAS — whale_signals Definitive")
         logger.info("=" * 70)
         try:
-            resp = self.supabase.table('whale_signals').select('*').execute()
-            trades = resp.data or []
+            trades = self._fetch_all_signals()
 
             total     = len(trades)
             resueltos = [t for t in trades if t.get('result')]
@@ -456,14 +414,31 @@ class GoldTableResolver:
 
             if resueltos:
                 logger.info("\n  Por tier (resueltos):")
-                tiers = sorted(set(t.get('tier', 'N/A') for t in resueltos))
+                tiers = sorted(set(t.get('tier', 'N/A') or 'N/A' for t in resueltos))
                 for tier in tiers:
-                    tt    = [t for t in resueltos if t.get('tier') == tier]
-                    tw    = sum(1 for t in tt if t['result'] == 'WIN')
-                    twr   = tw / len(tt) * 100 if tt else 0
-                    tpnl  = sum(float(t.get('pnl_teorico', 0) or 0) for t in tt)
-                    label = (tier or 'Sin tier')[:22]
-                    logger.info(f"    {label:<22} N={len(tt):>3}  WR={twr:>5.1f}%  PnL=${tpnl:>8.2f}")
+                    tt   = [t for t in resueltos if (t.get('tier') or 'N/A') == tier]
+                    tw   = sum(1 for t in tt if t['result'] == 'WIN')
+                    twr  = tw / len(tt) * 100 if tt else 0
+                    tpnl = sum(float(t.get('pnl_teorico', 0) or 0) for t in tt)
+                    logger.info(f"    {(tier or 'Sin tier'):<22} N={len(tt):>3}  WR={twr:>5.1f}%  PnL=${tpnl:>8.2f}")
+
+                logger.info("\n  Por rango de valor (resueltos):")
+                def rango(v):
+                    v = float(v or 0)
+                    if v >= 20000: return '$20K+'
+                    if v >= 5000:  return '$5K-$20K'
+                    if v >= 1000:  return '$1K-$5K'
+                    return '$500-$1K'
+
+                rangos = ['$500-$1K', '$1K-$5K', '$5K-$20K', '$20K+']
+                for r in rangos:
+                    rt   = [t for t in resueltos if rango(t.get('valor_usd', 0)) == r]
+                    if not rt:
+                        continue
+                    rw   = sum(1 for t in rt if t['result'] == 'WIN')
+                    rwr  = rw / len(rt) * 100
+                    rpnl = sum(float(t.get('pnl_teorico', 0) or 0) for t in rt)
+                    logger.info(f"    {r:<12} N={len(rt):>3}  WR={rwr:>5.1f}%  PnL=${rpnl:>8.2f}")
 
         except Exception as e:
             logger.error(f"Error generando estadísticas: {e}")
@@ -490,7 +465,7 @@ class GoldTableResolver:
 
 def main():
     parser = argparse.ArgumentParser(
-        description='Mantenimiento de whale_signals (Gold): tiers + resolución de trades'
+        description='Mantenimiento de whale_signals (Definitive): tiers + resolución + stats'
     )
     parser.add_argument('--solo-tiers',  action='store_true', help='Solo asignar tiers faltantes')
     parser.add_argument('--solo-trades', action='store_true', help='Solo resolver trades pendientes')
@@ -498,7 +473,7 @@ def main():
     args = parser.parse_args()
 
     try:
-        resolver = GoldTableResolver()
+        resolver = DefinitiveTableResolver()
     except ValueError as e:
         logger.error(str(e))
         sys.exit(1)
@@ -516,6 +491,15 @@ def main():
         resolver.resolver_trades_pendientes()
 
     resolver.imprimir_resumen_sesion()
+
+    # Refrescar tablas de stats solo cuando se resolvieron trades
+    if args.solo_trades or run_all:
+        try:
+            resolver.supabase.rpc('refresh_signal_stats').execute()
+            resolver.supabase.rpc('refresh_trader_stats').execute()
+            logger.info("Tablas signal_stats y trader_stats actualizadas")
+        except Exception as e:
+            logger.warning(f"Error al refrescar tablas de stats: {e}")
 
     if run_all:
         resolver.mostrar_estadisticas()

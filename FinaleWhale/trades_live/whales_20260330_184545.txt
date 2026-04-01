@@ -1,0 +1,69 @@
+
+================================================================================
+MONITOR GOLD v3.0 INICIADO
+================================================================================
+Umbral de ballena:        $2,500.00 USD
+Intervalo de polling:     3 segundos
+Limite de trades/ciclo:   1000
+Ventana de tiempo:        30 minutos (solo trades recientes)
+Archivo de log:           trades_live/whales_20260330_184545.txt
+Trades en memoria:        5000
+Notificaciones Telegram:  ACTIVO
+Esperando trades...
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 44s — 🐋 BALLENA | Pwaddler | 💀 HIGH RISK
+================================================================================
+💰 Valor: $2,853.54 USD
+📊 Mercado: Tampa Bay Rays vs. Milwaukee Brewers
+🔗 URL: https://polymarket.com/event/mlb-tb-mil-2026-03-30
+🎯 Outcome: Milwaukee Brewers
+📈 Lado: COMPRA
+💵 Precio: 0.5900 (59.00%)
+📦 Volumen: $616,729.19
+🕐 Trade original: 2026-03-30 18:40:35
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Pwaddler
+   Wallet: 0x1d1ade627d0bb0205758580b20d808573e720df6
+   Perfil: https://polymarket.com/profile/0x1d1ade627d0bb0205758580b20d808573e720df6
+   TX Hash: 0x92f2bbf9b1a0146963...579c044ee9
+   TX URL: https://polygonscan.com/tx/0x92f2bbf9b1a0146963eba664800a5b185a4c55c49d247bcf4d7f18579c044ee9
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Capital $2,854 < $5K mínimo para señal (v7.4: $3K-5K WR 50% coin flip). Ballena registrada pero sin acción recomendada.
+================================================================================
+
+
+
+================================================================================
+RESUMEN DE SESION (GOLD v3.0)
+================================================================================
+Tiempo de monitoreo:     0h 2m 13s
+Total de ballenas:       2
+Ballenas capturadas:     1
+Ballenas ignoradas:      1
+Valor promedio:          $2,890.10 USD
+Ballena mas grande:      $2,926.67 USD
+   Mercado: Kharg Island no longer under Iranian control by Ma...
+   Wallet: 0xfbfd14dd4bb6073731...
+Mercados monitoreados:   1
+
+Archivos guardados:
+   - trades_live/whales_20260330_184545.txt (log formateado)
+   - trades_live/historial_trades.json (historial de trades)
+
+TOP 5 MERCADOS CON MAS BALLENAS:
+   1. Tampa Bay Rays vs. Milwaukee Brewers... (1 ballenas)
+
+================================================================================

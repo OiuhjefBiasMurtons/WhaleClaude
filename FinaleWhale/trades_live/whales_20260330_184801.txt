@@ -1,0 +1,170 @@
+
+================================================================================
+MONITOR GOLD v3.0 INICIADO
+================================================================================
+Umbral de ballena:        $2,500.00 USD
+Intervalo de polling:     3 segundos
+Limite de trades/ciclo:   1000
+Ventana de tiempo:        30 minutos (solo trades recientes)
+Archivo de log:           trades_live/whales_20260330_184801.txt
+Trades en memoria:        5000
+Notificaciones Telegram:  ACTIVO
+Esperando trades...
+================================================================================
+
+
+================================================================================
+🐋🐋🐋🐋🐋 TITAN BALLENA DETECTADA 🐋🐋🐋🐋🐋
+================================================================================
+💰 Valor: $41,804.61 USD
+📊 Mercado: Bulls vs. Spurs: O/U 245.5
+🔗 URL: https://polymarket.com/event/nba-chi-sas-2026-03-30
+🎯 Outcome: Over
+📈 Lado: COMPRA
+💵 Precio: 0.5200 (52.00%)
+📦 Volumen: $92,560.80
+🕐 Hora: 2026-03-30 18:45:33
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0x492442EaB586F242B53bDa933fD5dE859c8A3782-1766317541188
+   Wallet: 0x492442eab586f242b53bda933fd5de859c8a3782
+   Perfil: https://polymarket.com/profile/0x492442eab586f242b53bda933fd5de859c8a3782
+   TX Hash: 0x8bf238e87a5eb5d08b...67e5247dc1
+   TX URL: https://polygonscan.com/tx/0x8bf238e87a5eb5d08bb456d26164b5a23f5facc368692ff6b17c8f67e5247dc1
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 DESACTIVADO v7.4 (global WR 35.3% N=51 — premisa refutada), S4 necesita CRYPTO (es NBA), S6 necesita ESPORTS (es NBA) | Sin FOLLOW: S2/S2B excluye 🤖 BOT/MM (no está en WHITELIST_TIER_OVERRIDE), S3 necesita mercado nicho
+================================================================================
+
+
+================================================================================
+🐋🐋🐋🐋 ULTRA BALLENA DETECTADA 🐋🐋🐋🐋
+================================================================================
+💰 Valor: $38,109.60 USD
+📊 Mercado: Suns vs. Grizzlies: O/U 227.5
+🔗 URL: https://polymarket.com/event/nba-phx-mem-2026-03-30
+🎯 Outcome: Under
+📈 Lado: COMPRA
+💵 Precio: 0.4800 (48.00%)
+📦 Volumen: $224,166.03
+🕐 Hora: 2026-03-30 18:45:31
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: hotdogcat
+   Wallet: 0x8e433d051bfb5cc6a1f7e5a0452029b7ffb4a3cd
+   Perfil: https://polymarket.com/profile/0x8e433d051bfb5cc6a1f7e5a0452029b7ffb4a3cd
+   TX Hash: 0x2bebed8751f025b7f4...77a9142694
+   TX URL: https://polygonscan.com/tx/0x2bebed8751f025b7f4a49780ce4a80ff2feaaa13fd6a1a3947175577a9142694
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Zona muerta 0.45-0.49 sin señal activa. IGNORAR.
+  ⚠ Trader hotdogcat está en BLACKLIST. Evaluar counter.
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 55s — 🐋 BALLENA | hurrican | 🥉 BRONZE
+================================================================================
+💰 Valor: $3,329.60 USD
+📊 Mercado: Credit One Charleston Open: Ajla Tomljanovic vs Donna Vekic
+🔗 URL: https://polymarket.com/event/wta-tomljan-vekic-2026-03-30
+🎯 Outcome: Donna Vekic
+📈 Lado: COMPRA
+💵 Precio: 0.3724 (37.24%)
+📦 Volumen: $285,954.12
+🕐 Trade original: 2026-03-30 18:55:51
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: hurrican
+   Wallet: 0x8718865882e085b764825b637788043c16185040
+   Perfil: https://polymarket.com/profile/0x8718865882e085b764825b637788043c16185040
+   TX Hash: 0x629db8544f409f63c8...0ecd317e80
+   TX URL: https://polygonscan.com/tx/0x629db8544f409f63c82512b013cb51bc306152127a108845452d770ecd317e80
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 DESACTIVADO v7.4 (global WR 35.3% N=51 — premisa refutada), S4 necesita CRYPTO (es OTHER), S6 necesita ESPORTS (es OTHER) | Sin FOLLOW: S2/S2B/S2C necesita NBA (es OTHER), S3 necesita mercado nicho
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $6,451.52 USD
+📊 Mercado: Spread: Spurs (-17.5)
+🔗 URL: https://polymarket.com/event/nba-chi-sas-2026-03-30
+🎯 Outcome: Spurs
+📈 Lado: COMPRA
+💵 Precio: 0.5369 (53.69%)
+📦 Volumen: $130,216.78
+🕐 Hora: 2026-03-30 19:00:47
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: elshark206
+   Wallet: 0x0eb75bf6f54794a83bd26095811f30b530161f17
+   Perfil: https://polymarket.com/profile/0x0eb75bf6f54794a83bd26095811f30b530161f17
+   TX Hash: 0x3c54b2d747ca52ce25...52cfd38c49
+   TX URL: https://polygonscan.com/tx/0x3c54b2d747ca52ce2546e59bb820861295459dd0c69078ec4d78ac52cfd38c49
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 DESACTIVADO v7.4 (global WR 35.3% N=51 — premisa refutada), S4 necesita CRYPTO (es NBA), S6 necesita ESPORTS (es NBA) | Sin FOLLOW: S2/S2B excluye 💀 HIGH RISK (no está en WHITELIST_TIER_OVERRIDE), S3 necesita mercado nicho
+================================================================================
+
+
+
+================================================================================
+RESUMEN DE SESION (GOLD v3.0)
+================================================================================
+Tiempo de monitoreo:     0h 21m 30s
+Total de ballenas:       10
+Ballenas capturadas:     6
+Ballenas ignoradas:      4
+Valor promedio:          $12,166.31 USD
+Ballena mas grande:      $41,804.61 USD
+   Mercado: Bulls vs. Spurs: O/U 245.5...
+   Wallet: 0x492442eab586f242b5...
+Mercados monitoreados:   6
+
+Archivos guardados:
+   - trades_live/whales_20260330_184801.txt (log formateado)
+   - trades_live/historial_trades.json (historial de trades)
+
+TOP 5 MERCADOS CON MAS BALLENAS:
+   1. Bulls vs. Spurs: O/U 245.5... (1 ballenas)
+   2. Suns vs. Grizzlies: O/U 227.5... (1 ballenas)
+   3. Credit One Charleston Open: Ajla Tomljanovic vs Donna Vekic... (1 ballenas)
+   4. Celtics vs. Hawks... (1 ballenas)
+   5. Timberwolves vs. Mavericks... (1 ballenas)
+
+================================================================================

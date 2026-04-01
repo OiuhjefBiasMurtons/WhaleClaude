@@ -19,6 +19,10 @@ from concurrent.futures import ThreadPoolExecutor
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 from dotenv import load_dotenv
+
+# Permite importar módulos de FinaleWhale al ejecutar este script directamente.
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
 from whale_scorer import WHALE_TIERS
 from sports_edge_detector import SportsEdgeDetector
 from supabase import create_client, Client

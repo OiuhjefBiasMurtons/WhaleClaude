@@ -5,7 +5,7 @@ Muestra ejemplos en vivo de CoordinationDetector y Backtest
 """
 
 import time
-from definitive_all_claude import CoordinationDetector, TradeFilter, ConsensusTracker
+from FinaleWhale.definitive.definitive_all_claude import CoordinationDetector, TradeFilter, ConsensusTracker
 from backtest import BacktestEngine
 
 

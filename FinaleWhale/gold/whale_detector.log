@@ -1,0 +1,215 @@
+2026-03-31 23:27:23,919 - INFO - Supabase conectado para tracking de ballenas deportivas
+2026-03-31 23:27:25,370 - INFO - HTTP Request: GET https://ymxpqxzzlfltxlhwnisk.supabase.co/rest/v1/trader_stats?select=display_name&is_auto_whitelisted=eq.True "HTTP/2 200 OK"
+2026-03-31 23:27:25,370 - INFO - Dynamic whitelist vacía (ningún trader alcanzó WR≥60% N≥15 aún)
+2026-03-31 23:27:25,371 - INFO - Monitor GOLD iniciado. Umbral: $2,500.00
+2026-03-31 23:29:56,463 - INFO - Historial guardado: 2000 trades
+2026-03-31 23:32:29,680 - INFO - Historial guardado: 2000 trades
+2026-03-31 23:32:29,682 - INFO - Heartbeat: 2000 trades en memoria. Cache: 0 | Capturadas: 0 | Ignoradas: 9
+2026-03-31 23:32:29,682 - INFO - Tier cache guardado: 0 traders
+2026-03-31 23:34:39,031 - INFO - HTTP Request: GET https://ymxpqxzzlfltxlhwnisk.supabase.co/rest/v1/whale_signals?select=tier%2Cdetected_at&display_name=eq.chong358&tier=not.is.null&tier=neq.&order=detected_at.desc&limit=1 "HTTP/2 200 OK"
+2026-03-31 23:35:03,938 - INFO - Historial guardado: 3000 trades
+2026-03-31 23:35:20,863 - INFO - Deferred trade de chong358 resuelto como IGNORE tras tier — sin señal
+2026-03-31 23:37:38,976 - INFO - Historial guardado: 3000 trades
+2026-03-31 23:37:38,976 - INFO - Heartbeat: 3000 trades en memoria. Cache: 1 | Capturadas: 1 | Ignoradas: 10
+2026-03-31 23:37:38,976 - INFO - Tier cache guardado: 1 traders
+2026-03-31 23:39:40,672 - INFO - HTTP Request: GET https://ymxpqxzzlfltxlhwnisk.supabase.co/rest/v1/whale_signals?select=tier%2Cdetected_at&display_name=eq.elshark206&tier=not.is.null&tier=neq.&order=detected_at.desc&limit=1 "HTTP/2 200 OK"
+2026-03-31 23:40:13,887 - INFO - Historial guardado: 4000 trades
+2026-03-31 23:40:22,103 - INFO - Deferred trade de elshark206 resuelto como IGNORE tras tier — sin señal
+2026-03-31 23:42:48,075 - INFO - Historial guardado: 4000 trades
+2026-03-31 23:42:48,076 - INFO - Heartbeat: 4000 trades en memoria. Cache: 2 | Capturadas: 2 | Ignoradas: 10
+2026-03-31 23:42:48,076 - INFO - Tier cache guardado: 2 traders
+2026-03-31 23:44:39,112 - INFO - HTTP Request: GET https://ymxpqxzzlfltxlhwnisk.supabase.co/rest/v1/whale_signals?select=tier%2Cdetected_at&display_name=eq.0x33a326768e4F235276d917F62ffC44a07B2cb7F7-1774976007934&tier=not.is.null&tier=neq.&order=detected_at.desc&limit=1 "HTTP/2 200 OK"
+2026-03-31 23:45:21,329 - INFO - Deferred trade de 0x33a326768e4F235276d917F62ffC44a07B2cb7F7-1774976007934 resuelto como IGNORE tras tier — sin señal
+2026-03-31 23:45:23,274 - INFO - Historial guardado: 5000 trades
+2026-03-31 23:47:59,038 - INFO - Historial guardado: 5000 trades
+2026-03-31 23:47:59,045 - INFO - Heartbeat: 5000 trades en memoria. Cache: 3 | Capturadas: 3 | Ignoradas: 15
+2026-03-31 23:47:59,046 - INFO - Tier cache guardado: 3 traders
+2026-03-31 23:50:33,900 - INFO - Historial guardado: 5000 trades
+2026-03-31 23:53:09,918 - INFO - Historial guardado: 5000 trades
+2026-03-31 23:53:09,919 - INFO - Heartbeat: 5000 trades en memoria. Cache: 3 | Capturadas: 3 | Ignoradas: 15
+2026-03-31 23:53:09,919 - INFO - Tier cache guardado: 3 traders
+2026-03-31 23:55:45,947 - INFO - Historial guardado: 5000 trades
+2026-03-31 23:58:20,741 - INFO - Historial guardado: 5000 trades
+2026-03-31 23:58:20,743 - INFO - Heartbeat: 5000 trades en memoria. Cache: 3 | Capturadas: 3 | Ignoradas: 15
+2026-03-31 23:58:20,744 - INFO - Tier cache guardado: 3 traders
+2026-03-31 23:59:39,375 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /markets?slug=us-forces-enter-iran-by-april-30-899
+2026-03-31 23:59:40,927 - INFO - HTTP Request: GET https://ymxpqxzzlfltxlhwnisk.supabase.co/rest/v1/whale_signals?select=tier%2Cdetected_at&display_name=eq.ScottyNooo&tier=not.is.null&tier=neq.&order=detected_at.desc&limit=1 "HTTP/2 200 OK"
+2026-04-01 00:00:28,601 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /profile?user=0xbacd00c9080a82ded56f504ee8810af732b0ab35
+2026-04-01 00:00:29,215 - INFO - Deferred trade de ScottyNooo resuelto como IGNORE tras tier — sin señal
+2026-04-01 00:00:56,779 - INFO - Historial guardado: 5000 trades
+2026-04-01 00:03:32,860 - INFO - Historial guardado: 5000 trades
+2026-04-01 00:03:32,860 - INFO - Heartbeat: 5000 trades en memoria. Cache: 4 | Capturadas: 4 | Ignoradas: 16
+2026-04-01 00:03:32,860 - INFO - Tier cache guardado: 4 traders
+2026-04-01 00:06:07,598 - INFO - Historial guardado: 5000 trades
+2026-04-01 00:08:43,733 - INFO - Historial guardado: 5000 trades
+2026-04-01 00:08:43,733 - INFO - Heartbeat: 5000 trades en memoria. Cache: 4 | Capturadas: 4 | Ignoradas: 17
+2026-04-01 00:08:43,734 - INFO - Tier cache guardado: 4 traders
+2026-04-01 00:11:19,910 - INFO - Historial guardado: 5000 trades
+2026-04-01 00:13:54,734 - INFO - Historial guardado: 5000 trades
+2026-04-01 00:13:54,736 - INFO - Heartbeat: 5000 trades en memoria. Cache: 4 | Capturadas: 4 | Ignoradas: 20
+2026-04-01 00:13:54,738 - INFO - Tier cache guardado: 4 traders
+2026-04-01 00:16:30,849 - INFO - Historial guardado: 5000 trades
+2026-04-01 00:19:06,929 - INFO - Historial guardado: 5000 trades
+2026-04-01 00:19:06,929 - INFO - Heartbeat: 5000 trades en memoria. Cache: 4 | Capturadas: 4 | Ignoradas: 20
+2026-04-01 00:19:06,930 - INFO - Tier cache guardado: 4 traders
+2026-04-01 00:21:41,810 - INFO - Historial guardado: 5000 trades
+2026-04-01 00:24:17,929 - INFO - Historial guardado: 5000 trades
+2026-04-01 00:24:17,936 - INFO - Heartbeat: 5000 trades en memoria. Cache: 4 | Capturadas: 4 | Ignoradas: 22
+2026-04-01 00:24:17,938 - INFO - Tier cache guardado: 4 traders
+2026-04-01 00:26:54,323 - INFO - Historial guardado: 5000 trades
+2026-04-01 00:29:29,465 - INFO - Historial guardado: 5000 trades
+2026-04-01 00:29:29,467 - INFO - Heartbeat: 5000 trades en memoria. Cache: 4 | Capturadas: 4 | Ignoradas: 23
+2026-04-01 00:29:29,470 - INFO - Tier cache guardado: 4 traders
+2026-04-01 00:29:38,533 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /markets?slug=us-x-iran-ceasefire-by-june-30-752-741-257
+2026-04-01 00:29:41,589 - INFO - HTTP Request: GET https://ymxpqxzzlfltxlhwnisk.supabase.co/rest/v1/whale_signals?select=tier%2Cdetected_at&display_name=eq.Fabricius01&tier=not.is.null&tier=neq.&order=detected_at.desc&limit=1 "HTTP/2 200 OK"
+2026-04-01 00:30:22,722 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /profile?user=0x7814fea2092726c2d892a65e4fda3bf502ff8d4e
+2026-04-01 00:30:23,344 - INFO - Deferred trade de Fabricius01 resuelto como IGNORE tras tier — sin señal
+2026-04-01 00:32:03,958 - INFO - Historial guardado: 5000 trades
+2026-04-01 00:34:35,696 - INFO - Historial guardado: 5000 trades
+2026-04-01 00:34:35,697 - INFO - Heartbeat: 5000 trades en memoria. Cache: 5 | Capturadas: 5 | Ignoradas: 23
+2026-04-01 00:34:35,698 - INFO - Tier cache guardado: 5 traders
+2026-04-01 00:37:09,227 - INFO - Historial guardado: 5000 trades
+2026-04-01 00:39:42,410 - INFO - Historial guardado: 5000 trades
+2026-04-01 00:39:42,411 - INFO - Heartbeat: 5000 trades en memoria. Cache: 5 | Capturadas: 5 | Ignoradas: 29
+2026-04-01 00:39:42,412 - INFO - Tier cache guardado: 5 traders
+2026-04-01 00:42:16,845 - INFO - Historial guardado: 5000 trades
+2026-04-01 00:44:51,597 - INFO - Historial guardado: 5000 trades
+2026-04-01 00:44:51,599 - INFO - Heartbeat: 5000 trades en memoria. Cache: 5 | Capturadas: 5 | Ignoradas: 30
+2026-04-01 00:44:51,600 - INFO - Tier cache guardado: 5 traders
+2026-04-01 00:47:25,579 - INFO - Historial guardado: 5000 trades
+2026-04-01 00:50:01,096 - INFO - Historial guardado: 5000 trades
+2026-04-01 00:50:01,096 - INFO - Heartbeat: 5000 trades en memoria. Cache: 5 | Capturadas: 5 | Ignoradas: 31
+2026-04-01 00:50:01,102 - INFO - Tier cache guardado: 5 traders
+2026-04-01 00:52:37,087 - INFO - Historial guardado: 5000 trades
+2026-04-01 00:55:11,475 - INFO - Historial guardado: 5000 trades
+2026-04-01 00:55:11,475 - INFO - Heartbeat: 5000 trades en memoria. Cache: 5 | Capturadas: 5 | Ignoradas: 31
+2026-04-01 00:55:11,475 - INFO - Tier cache guardado: 5 traders
+2026-04-01 00:57:47,019 - INFO - Historial guardado: 5000 trades
+2026-04-01 01:00:22,494 - INFO - Historial guardado: 5000 trades
+2026-04-01 01:00:22,494 - INFO - Heartbeat: 5000 trades en memoria. Cache: 5 | Capturadas: 5 | Ignoradas: 36
+2026-04-01 01:00:22,494 - INFO - Tier cache guardado: 5 traders
+2026-04-01 01:02:57,165 - INFO - Historial guardado: 5000 trades
+2026-04-01 01:05:32,896 - INFO - Historial guardado: 5000 trades
+2026-04-01 01:05:32,898 - INFO - Heartbeat: 5000 trades en memoria. Cache: 5 | Capturadas: 5 | Ignoradas: 40
+2026-04-01 01:05:32,900 - INFO - Tier cache guardado: 5 traders
+2026-04-01 01:08:07,883 - INFO - Historial guardado: 5000 trades
+2026-04-01 01:10:44,573 - INFO - Historial guardado: 5000 trades
+2026-04-01 01:10:44,574 - INFO - Heartbeat: 5000 trades en memoria. Cache: 5 | Capturadas: 5 | Ignoradas: 40
+2026-04-01 01:10:44,575 - INFO - Tier cache guardado: 5 traders
+2026-04-01 01:13:21,071 - INFO - Historial guardado: 5000 trades
+2026-04-01 01:15:56,166 - INFO - Historial guardado: 5000 trades
+2026-04-01 01:15:56,167 - INFO - Heartbeat: 5000 trades en memoria. Cache: 5 | Capturadas: 5 | Ignoradas: 40
+2026-04-01 01:15:56,167 - INFO - Tier cache guardado: 5 traders
+2026-04-01 01:18:32,560 - INFO - Historial guardado: 5000 trades
+2026-04-01 01:21:09,147 - INFO - Historial guardado: 5000 trades
+2026-04-01 01:21:09,149 - INFO - Heartbeat: 5000 trades en memoria. Cache: 5 | Capturadas: 5 | Ignoradas: 42
+2026-04-01 01:21:09,151 - INFO - Tier cache guardado: 5 traders
+2026-04-01 01:23:44,289 - INFO - Historial guardado: 5000 trades
+2026-04-01 01:26:20,903 - INFO - Historial guardado: 5000 trades
+2026-04-01 01:26:20,904 - INFO - Heartbeat: 5000 trades en memoria. Cache: 5 | Capturadas: 5 | Ignoradas: 42
+2026-04-01 01:26:20,907 - INFO - Tier cache guardado: 5 traders
+2026-04-01 01:28:57,709 - INFO - Historial guardado: 5000 trades
+2026-04-01 01:31:33,121 - INFO - Historial guardado: 5000 trades
+2026-04-01 01:31:33,128 - INFO - Heartbeat: 5000 trades en memoria. Cache: 5 | Capturadas: 5 | Ignoradas: 42
+2026-04-01 01:31:33,130 - INFO - Tier cache guardado: 5 traders
+2026-04-01 01:34:10,331 - INFO - Historial guardado: 5000 trades
+2026-04-01 01:34:41,873 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /markets?slug=iran-leadership-change-by-december-31-974-976-658-482-568
+2026-04-01 01:34:43,981 - INFO - HTTP Request: GET https://ymxpqxzzlfltxlhwnisk.supabase.co/rest/v1/whale_signals?select=tier%2Cdetected_at&display_name=eq.CREEED&tier=not.is.null&tier=neq.&order=detected_at.desc&limit=1 "HTTP/2 200 OK"
+2026-04-01 01:34:44,430 - INFO - HTTP Request: GET https://ymxpqxzzlfltxlhwnisk.supabase.co/rest/v1/whale_signals?select=tier%2Cdetected_at&display_name=eq.protrad3r&tier=not.is.null&tier=neq.&order=detected_at.desc&limit=1 "HTTP/2 200 OK"
+2026-04-01 01:35:25,035 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /profile?user=0x7368675d907a8dd84b7fe53f86bfbe76e04b8b3b
+2026-04-01 01:35:25,612 - INFO - Deferred trade de CREEED resuelto como IGNORE tras tier — sin señal
+2026-04-01 01:36:06,771 - INFO - Deferred trade de protrad3r resuelto como IGNORE tras tier — sin señal
+2026-04-01 01:36:47,562 - INFO - Historial guardado: 5000 trades
+2026-04-01 01:36:47,562 - INFO - Heartbeat: 5000 trades en memoria. Cache: 7 | Capturadas: 7 | Ignoradas: 44
+2026-04-01 01:36:47,569 - INFO - Tier cache guardado: 7 traders
+2026-04-01 01:39:22,978 - INFO - Historial guardado: 5000 trades
+2026-04-01 01:41:59,270 - INFO - Historial guardado: 5000 trades
+2026-04-01 01:41:59,277 - INFO - Heartbeat: 5000 trades en memoria. Cache: 7 | Capturadas: 7 | Ignoradas: 46
+2026-04-01 01:41:59,278 - INFO - Tier cache guardado: 7 traders
+2026-04-01 01:44:35,571 - INFO - Historial guardado: 5000 trades
+2026-04-01 01:47:10,819 - INFO - Historial guardado: 5000 trades
+2026-04-01 01:47:10,820 - INFO - Heartbeat: 5000 trades en memoria. Cache: 7 | Capturadas: 7 | Ignoradas: 50
+2026-04-01 01:47:10,822 - INFO - Tier cache guardado: 7 traders
+2026-04-01 01:49:47,386 - INFO - Historial guardado: 5000 trades
+2026-04-01 01:52:24,843 - INFO - Historial guardado: 5000 trades
+2026-04-01 01:52:24,844 - INFO - Heartbeat: 5000 trades en memoria. Cache: 7 | Capturadas: 7 | Ignoradas: 50
+2026-04-01 01:52:24,845 - INFO - Tier cache guardado: 7 traders
+2026-04-01 01:55:00,832 - INFO - Historial guardado: 5000 trades
+2026-04-01 01:57:37,886 - INFO - Historial guardado: 5000 trades
+2026-04-01 01:57:37,886 - INFO - Heartbeat: 5000 trades en memoria. Cache: 7 | Capturadas: 7 | Ignoradas: 50
+2026-04-01 01:57:37,887 - INFO - Tier cache guardado: 7 traders
+2026-04-01 01:59:44,099 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /markets?slug=will-gavin-newsom-win-the-2028-democratic-presidential-nomination-568
+2026-04-01 01:59:59,616 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.the-odds-api.com', port=443): Read timed out. (read timeout=15)")': /v4/sports/soccer_epl/odds?apiKey=91475f1ab1bdeb4836543365adc30d24&regions=eu&markets=h2h&bookmakers=pinnacle
+2026-04-01 02:00:01,681 - INFO - HTTP Request: GET https://ymxpqxzzlfltxlhwnisk.supabase.co/rest/v1/whale_signals?select=tier%2Cdetected_at&display_name=eq.slamjampeter&tier=not.is.null&tier=neq.&order=detected_at.desc&limit=1 "HTTP/2 200 OK"
+2026-04-01 02:00:30,719 - INFO - Historial guardado: 5000 trades
+2026-04-01 02:00:45,374 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /profile?user=0x4825c873a8c890bdaff00d253a23e8e09eb95ec5
+2026-04-01 02:00:45,957 - INFO - Deferred trade de slamjampeter resuelto como IGNORE tras tier — sin señal
+2026-04-01 02:03:07,967 - INFO - Historial guardado: 5000 trades
+2026-04-01 02:03:07,967 - INFO - Heartbeat: 5000 trades en memoria. Cache: 8 | Capturadas: 8 | Ignoradas: 53
+2026-04-01 02:03:07,967 - INFO - Tier cache guardado: 8 traders
+2026-04-01 02:05:43,695 - INFO - Historial guardado: 5000 trades
+2026-04-01 02:08:21,100 - INFO - Historial guardado: 5000 trades
+2026-04-01 02:08:21,107 - INFO - Heartbeat: 5000 trades en memoria. Cache: 8 | Capturadas: 8 | Ignoradas: 54
+2026-04-01 02:08:21,108 - INFO - Tier cache guardado: 8 traders
+2026-04-01 02:09:42,454 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /markets?slug=will-the-iranian-regime-fall-by-the-end-of-2026
+2026-04-01 02:09:43,834 - INFO - HTTP Request: GET https://ymxpqxzzlfltxlhwnisk.supabase.co/rest/v1/whale_signals?select=tier%2Cdetected_at&display_name=eq.0x78322520D66C41d56703a0Fc152AEBe86C9dC6E3-1771273156473&tier=not.is.null&tier=neq.&order=detected_at.desc&limit=1 "HTTP/2 200 OK"
+2026-04-01 02:10:27,294 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /profile?user=0x78322520d66c41d56703a0fc152aebe86c9dc6e3
+2026-04-01 02:10:27,855 - INFO - Deferred trade de 0x78322520D66C41d56703a0Fc152AEBe86C9dC6E3-1771273156473 resuelto como IGNORE tras tier — sin señal
+2026-04-01 02:10:58,372 - INFO - Historial guardado: 5000 trades
+2026-04-01 02:13:34,423 - INFO - Historial guardado: 5000 trades
+2026-04-01 02:13:34,423 - INFO - Heartbeat: 5000 trades en memoria. Cache: 9 | Capturadas: 9 | Ignoradas: 54
+2026-04-01 02:13:34,423 - INFO - Tier cache guardado: 9 traders
+2026-04-01 02:16:12,051 - INFO - Historial guardado: 5000 trades
+2026-04-01 02:18:49,829 - INFO - Historial guardado: 5000 trades
+2026-04-01 02:18:49,835 - INFO - Heartbeat: 5000 trades en memoria. Cache: 9 | Capturadas: 9 | Ignoradas: 55
+2026-04-01 02:18:49,836 - INFO - Tier cache guardado: 9 traders
+2026-04-01 02:21:25,992 - INFO - Historial guardado: 5000 trades
+2026-04-01 02:24:03,710 - INFO - Historial guardado: 5000 trades
+2026-04-01 02:24:03,713 - INFO - Heartbeat: 5000 trades en memoria. Cache: 9 | Capturadas: 9 | Ignoradas: 55
+2026-04-01 02:24:03,718 - INFO - Tier cache guardado: 9 traders
+2026-04-01 02:26:39,811 - INFO - Historial guardado: 5000 trades
+2026-04-01 02:29:17,636 - INFO - Historial guardado: 5000 trades
+2026-04-01 02:29:17,637 - INFO - Heartbeat: 5000 trades en memoria. Cache: 9 | Capturadas: 9 | Ignoradas: 56
+2026-04-01 02:29:17,643 - INFO - Tier cache guardado: 9 traders
+2026-04-01 02:31:55,167 - INFO - Historial guardado: 5000 trades
+2026-04-01 02:34:31,465 - INFO - Historial guardado: 5000 trades
+2026-04-01 02:34:31,465 - INFO - Heartbeat: 5000 trades en memoria. Cache: 9 | Capturadas: 9 | Ignoradas: 58
+2026-04-01 02:34:31,471 - INFO - Tier cache guardado: 9 traders
+2026-04-01 02:37:09,521 - INFO - Historial guardado: 5000 trades
+2026-04-01 02:39:46,170 - INFO - HTTP Request: GET https://ymxpqxzzlfltxlhwnisk.supabase.co/rest/v1/whale_signals?select=tier%2Cdetected_at&display_name=eq.PantheraUncia&tier=not.is.null&tier=neq.&order=detected_at.desc&limit=1 "HTTP/2 200 OK"
+2026-04-01 02:39:47,304 - INFO - Historial guardado: 5000 trades
+2026-04-01 02:39:47,305 - INFO - Heartbeat: 5000 trades en memoria. Cache: 9 | Capturadas: 10 | Ignoradas: 59
+2026-04-01 02:39:47,305 - INFO - Tier cache guardado: 9 traders
+2026-04-01 02:39:50,048 - INFO - ⚠️ Scrape fallido para PantheraUncia, reintentando en 10s...
+2026-04-01 02:40:43,635 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /profile?user=0xcf19c420814435ffb1c459588208ed23a7ee6402
+2026-04-01 02:40:44,293 - INFO - Deferred trade de PantheraUncia resuelto como IGNORE tras tier — sin señal
+2026-04-01 02:42:23,538 - INFO - Historial guardado: 5000 trades
+2026-04-01 02:45:01,508 - INFO - Historial guardado: 5000 trades
+2026-04-01 02:45:01,510 - INFO - Heartbeat: 5000 trades en memoria. Cache: 9 | Capturadas: 10 | Ignoradas: 60
+2026-04-01 02:45:01,510 - INFO - Tier cache guardado: 10 traders
+2026-04-01 02:47:39,188 - INFO - Historial guardado: 5000 trades
+2026-04-01 02:50:15,552 - INFO - Historial guardado: 5000 trades
+2026-04-01 02:50:15,553 - INFO - Heartbeat: 5000 trades en memoria. Cache: 9 | Capturadas: 10 | Ignoradas: 61
+2026-04-01 02:50:15,557 - INFO - Tier cache guardado: 10 traders
+2026-04-01 02:52:53,399 - INFO - Historial guardado: 5000 trades
+2026-04-01 02:55:31,530 - INFO - Historial guardado: 5000 trades
+2026-04-01 02:55:31,532 - INFO - Heartbeat: 5000 trades en memoria. Cache: 9 | Capturadas: 10 | Ignoradas: 62
+2026-04-01 02:55:31,537 - INFO - Tier cache guardado: 10 traders
+2026-04-01 02:58:08,055 - INFO - Historial guardado: 5000 trades
+2026-04-01 03:00:45,988 - INFO - Historial guardado: 5000 trades
+2026-04-01 03:00:45,988 - INFO - Heartbeat: 5000 trades en memoria. Cache: 9 | Capturadas: 10 | Ignoradas: 63
+2026-04-01 03:00:45,994 - INFO - Tier cache guardado: 10 traders
+2026-04-01 03:03:23,954 - INFO - Historial guardado: 5000 trades
+2026-04-01 03:06:00,534 - INFO - Historial guardado: 5000 trades
+2026-04-01 03:06:00,534 - INFO - Heartbeat: 5000 trades en memoria. Cache: 9 | Capturadas: 10 | Ignoradas: 63
+2026-04-01 03:06:00,534 - INFO - Tier cache guardado: 10 traders
+2026-04-01 03:36:48,394 - INFO - Supabase conectado para tracking de ballenas deportivas
+2026-04-01 03:36:50,697 - INFO - HTTP Request: GET https://ymxpqxzzlfltxlhwnisk.supabase.co/rest/v1/trader_stats?select=display_name&is_auto_whitelisted=eq.True "HTTP/2 200 OK"
+2026-04-01 03:36:50,697 - INFO - Dynamic whitelist vacía (ningún trader alcanzó WR≥60% N≥15 aún)
+2026-04-01 03:36:50,707 - INFO - Historial cargado: 5000 trades previos
+2026-04-01 03:36:50,708 - INFO - Tier cache cargado: 10 traders (TTL 48h)
+2026-04-01 03:36:50,708 - INFO - Monitor GOLD iniciado. Umbral: $2,500.00
+2026-04-01 03:39:20,198 - INFO - Historial guardado: 5000 trades
+2026-04-01 03:41:51,654 - INFO - Historial guardado: 5000 trades
+2026-04-01 03:41:51,654 - INFO - Heartbeat: 5000 trades en memoria. Cache: 0 | Capturadas: 0 | Ignoradas: 3
+2026-04-01 03:41:51,655 - INFO - Tier cache guardado: 10 traders

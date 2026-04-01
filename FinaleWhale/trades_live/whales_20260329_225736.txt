@@ -108,3 +108,159 @@ Esperando trades...
   › Sin COUNTER: S1 DESACTIVADO v7.4 (global WR 35.3% N=51 — premisa refutada), S4 necesita CRYPTO (es NBA), S6 necesita ESPORTS (es NBA) | Sin FOLLOW: S2C/S2/S2B necesita precio 0.45-0.82 (es 0.24), S3 necesita mercado nicho
 ================================================================================
 
+
+================================================================================
+⏳ DEFERRED RESUELTO en 45s — 🐋🐋🐋 MEGA BALLENA | XVFlow | ⚠️ RISKY
+================================================================================
+💰 Valor: $13,399.99 USD
+📊 Mercado: US forces enter Iran by April 30?
+🔗 URL: https://polymarket.com/event/us-forces-enter-iran-by
+🎯 Outcome: Yes
+📈 Lado: VENTA
+💵 Precio: 0.6700 (67.00%)
+📦 Volumen: $8,373,635.57
+🕐 Trade original: 2026-03-30 00:24:22
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: XVFlow
+   Wallet: 0x78ad03d27582cd1b5255d364ff8f093b6cf745cc
+   Perfil: https://polymarket.com/profile/0x78ad03d27582cd1b5255d364ff8f093b6cf745cc
+   TX Hash: 0xedbda44bd3a6622430...813a27cae1
+   TX URL: https://polygonscan.com/tx/0xedbda44bd3a6622430cc5ea90172f81d70de5b6d5618144d4affa8813a27cae1
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 DESACTIVADO v7.4 (global WR 35.3% N=51 — premisa refutada), S4 necesita CRYPTO (es OTHER), S6 necesita ESPORTS (es OTHER) | Sin FOLLOW: S2/S2B/S2C necesita NBA (es OTHER), S3 necesita mercado nicho
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 44s — 🐋🐋🐋 MEGA BALLENA | xiuzhu | 🥈 SILVER
+================================================================================
+💰 Valor: $19,182.93 USD
+📊 Mercado: US forces enter Iran by April 30?
+🔗 URL: https://polymarket.com/event/us-forces-enter-iran-by
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.6810 (68.10%)
+📦 Volumen: $8,373,635.57
+🕐 Trade original: 2026-03-30 00:39:18
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: xiuzhu
+   Wallet: 0x2123baa9adb825ce4d893867186f5932a62827a2
+   Perfil: https://polymarket.com/profile/0x2123baa9adb825ce4d893867186f5932a62827a2
+   TX Hash: 0xf584a801edaf09bec5...83928e37c4
+   TX URL: https://polygonscan.com/tx/0xf584a801edaf09bec54e508a8b769e17c214a21e542d9db50e1bdd83928e37c4
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 DESACTIVADO v7.4 (global WR 35.3% N=51 — premisa refutada), S4 necesita CRYPTO (es OTHER), S6 necesita ESPORTS (es OTHER) | Sin FOLLOW: S2/S2B/S2C necesita NBA (es OTHER), S3 necesita mercado nicho
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $3,009.09 USD
+📊 Mercado: Celtics vs. Hawks
+🔗 URL: https://polymarket.com/event/nba-bos-atl-2026-03-30
+🎯 Outcome: Celtics
+📈 Lado: COMPRA
+💵 Precio: 0.4900 (49.00%)
+📦 Volumen: $113,827.81
+🕐 Hora: 2026-03-30 01:24:14
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: elkmonkey
+   Wallet: 0xead152b855effa6b5b5837f53b24c0756830c76a
+   Perfil: https://polymarket.com/profile/0xead152b855effa6b5b5837f53b24c0756830c76a
+   TX Hash: 0xb8b3f18b9012ee1a43...873bed6143
+   TX URL: https://polygonscan.com/tx/0xb8b3f18b9012ee1a43e0db560fbc72ab57b9281b99e3f095b75eb8873bed6143
+================================================================================
+
+╔══════════════════════════════════════════════════╗
+║  ███████╗ ██████╗ ██╗     ██╗      ██████╗ ██╗  ║
+║  ██╔════╝██╔═══██╗██║     ██║     ██╔═══██╗██║  ║
+║  █████╗  ██║   ██║██║     ██║     ██║   ██║██║  ║
+║  ██╔══╝  ██║   ██║██║     ██║     ██║   ██║╚═╝  ║
+║  ██║     ╚██████╔╝███████╗███████╗╚██████╔╝██╗  ║
+║  ╚═╝      ╚═════╝ ╚══════╝╚══════╝ ╚═════╝ ╚═╝  ║
+╚══════════════════════════════════════════════════╝
+  Signal: S2C  |  Conf: MEDIUM  |  WR: 67.6%  |  ROI esperado: +37.9%
+  › S2C: Follow NBA a 0.49 (WR 67.6%, excl. HIGH RISK/BOT/STANDARD/SILVER) | Whitelist B (elkmonkey) → stake 1.25x | TIER-OVERRIDE (elkmonkey, tier snapshot ignorado — WR validado)
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 42s — 🐋🐋 BALLENA GRANDE | haixing | 🥉 BRONZE
+================================================================================
+💰 Valor: $6,742.40 USD
+📊 Mercado: Will Harry Kane win the 2026 Ballon d'Or?
+🔗 URL: https://polymarket.com/event/ballon-dor-winner-2026
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.7840 (78.40%)
+📦 Volumen: $469,423.44
+🕐 Trade original: 2026-03-30 02:09:34
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: haixing
+   Wallet: 0xb8f515782a507be1f83f74554092f028d51d7137
+   Perfil: https://polymarket.com/profile/0xb8f515782a507be1f83f74554092f028d51d7137
+   TX Hash: 0xb5d68b79e1e71c7beb...c59e13a727
+   TX URL: https://polygonscan.com/tx/0xb5d68b79e1e71c7beb9b9353198516ef8fcc0bba44695053d33bc3c59e13a727
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 DESACTIVADO v7.4 (global WR 35.3% N=51 — premisa refutada), S4 necesita CRYPTO (es OTHER), S6 necesita ESPORTS (es OTHER) | Sin FOLLOW: S2/S2B/S2C necesita NBA (es OTHER), S3 necesita mercado nicho
+================================================================================
+
+
+
+================================================================================
+RESUMEN DE SESION (GOLD v3.0)
+================================================================================
+Tiempo de monitoreo:     3h 33m 11s
+Total de ballenas:       72
+Ballenas capturadas:     9
+Ballenas ignoradas:      63
+Valor promedio:          $7,488.73 USD
+Ballena mas grande:      $88,733.00 USD
+   Mercado: Will Bitcoin reach $80,000 in March?...
+   Wallet: 0x8b4bca1d794779e66e...
+Mercados monitoreados:   6
+
+Archivos guardados:
+   - trades_live/whales_20260329_225736.txt (log formateado)
+   - trades_live/historial_trades.json (historial de trades)
+
+TOP 5 MERCADOS CON MAS BALLENAS:
+   1. Will Israel strike 4 countries in 2026?... (3 ballenas)
+   2. US forces enter Iran by April 30?... (2 ballenas)
+   3. Will the San Antonio Spurs win the NBA Western Conference Fi... (1 ballenas)
+   4. Celtics vs. Hawks... (1 ballenas)
+   5. Counter-Strike: OG vs BESTIA (BO3) - Roman Imperium Cup Play... (1 ballenas)
+
+================================================================================

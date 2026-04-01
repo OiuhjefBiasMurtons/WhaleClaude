@@ -1,0 +1,80 @@
+
+================================================================================
+🚀 MONITOR INICIADO
+================================================================================
+💵 Umbral de ballena:        $2,500.00 USD
+⏱️  Intervalo de polling:     3 segundos
+📊 Límite de trades/ciclo:   1000
+⏰ Ventana de tiempo:        30 minutos (solo trades recientes)
+💾 Archivo de log:           trades_live/whales_20260330_181841.txt
+📂 Trades en memoria:        5000
+📱 Notificaciones Telegram:  ✅ ACTIVO
+🔄 Esperando trades...
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $3,707.05 USD
+📊 Mercado: Spread: Timberwolves (-7.5)
+🔗 URL: https://polymarket.com/event/nba-min-dal-2026-03-30
+🎯 Outcome: Timberwolves
+📈 Lado: VENTA
+💵 Precio: 0.5400 (54.00%)
+📦 Volumen: $112,866.35
+🕐 Hora: 2026-03-30 18:15:33
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: username133
+   Wallet: 0x00d5f82b59c8b8e72684bca5a3b50eee3db6ed84
+   Perfil: https://polymarket.com/profile/0x00d5f82b59c8b8e72684bca5a3b50eee3db6ed84
+   TX Hash: 0x3991c202732daa6f0b...e51a450233
+   TX URL: https://polygonscan.com/tx/0x3991c202732daa6f0b08710a704eeb2410e56f5aac03f6b7c93856e51a450233
+================================================================================
+
+
+================================================================================
+🐋🐋🐋🐋 ULTRA BALLENA DETECTADA 🐋🐋🐋🐋
+================================================================================
+💰 Valor: $28,919.33 USD
+📊 Mercado: Spread: Hawks (-2.5)
+🔗 URL: https://polymarket.com/event/nba-bos-atl-2026-03-30
+🎯 Outcome: Hawks
+📈 Lado: COMPRA
+💵 Precio: 0.5200 (52.00%)
+📦 Volumen: $760,107.87
+🕐 Hora: 2026-03-30 18:20:27
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0x492442EaB586F242B53bDa933fD5dE859c8A3782-1766317541188
+   Wallet: 0x492442eab586f242b53bda933fd5de859c8a3782
+   Perfil: https://polymarket.com/profile/0x492442eab586f242b53bda933fd5de859c8a3782
+   TX Hash: 0x87f0700287607bb99b...b43ab89d41
+   TX URL: https://polygonscan.com/tx/0x87f0700287607bb99b2b2c605ab86a9cb8a066e94d4a1b90e26227b43ab89d41
+================================================================================
+
+
+
+================================================================================
+📊 RESUMEN DE SESIÓN
+================================================================================
+⏱️  Tiempo de monitoreo:     0h 18m 24s
+🐋 Total de ballenas:       8
+✅ Ballenas capturadas:     2
+⛔ Ballenas ignoradas:      6
+💰 Valor promedio:          $7,855.10 USD
+💎 Ballena más grande:      $28,919.33 USD
+   └─ Mercado: Spread: Hawks (-2.5)...
+   └─ Wallet: 0x492442eab586f242b5...
+📊 Mercados monitoreados:   2
+
+💾 Archivos guardados:
+   - trades_live/whales_20260330_181841.txt (log formateado)
+   - trades_live/historial_trades.json (historial de trades)
+
+🏆 TOP 5 MERCADOS CON MÁS BALLENAS:
+   1. Spread: Timberwolves (-7.5)... (1 ballenas)
+   2. Spread: Hawks (-2.5)... (1 ballenas)
+
+================================================================================

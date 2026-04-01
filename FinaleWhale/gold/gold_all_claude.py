@@ -1,10 +1,30 @@
 #!/usr/bin/env python3
 """
-Polymarket Gold All Markets Whale Detector v7.4.3
+Polymarket Gold All Markets Whale Detector v7.5.1
 Basado en definitive_all_claude.py con filtros avanzados de señales (S1-S8),
 whitelists/blacklists de traders, resolución de conflictos y warnings.
 
 CHANGELOG:
+  v7.5.1 (Mar 2026) — Dynamic whitelist + valor_usd multiplicador continuo:
+    - NUEVO dynamic_whitelist en classify(): traders con WR≥60% N≥15 en trader_stats se
+      promueven automáticamente al mismo tratamiento que WHITELIST_TIER_OVERRIDE.
+      La whitelist crece sola — sin intervención manual cuando un trader cruza el umbral.
+    - NUEVO valor_usd como modificador de confianza post-señal:
+      ≥$20K: MEDIUM→HIGH (WR histórico 76.9%, N=13 — señal más fuerte del dataset).
+      $3K-$5K: warning de coin flip (WR 50%, N=36) sin cancelar la señal.
+      Base sin cambio: $5K-$20K.
+    - Las 3 llamadas a classify() en GoldWhaleDetector ahora pasan dynamic_whitelist.
+
+  v7.5.0 (Mar 2026) — Correcciones basadas en análisis post-resolución 516 trades:
+    - S2B: límite inferior subido de 0.60 a 0.65.
+      Rango 0.60-0.65: WR 61.5%, PnL -$158 con los 5 trades nuevos que cambiaron el cuadro.
+      Todo el PnL positivo de S2B viene de 0.65 para arriba. Ajuste directo sin cambio de arquitectura.
+    - S6: subzona 0.46-0.50 separada a MEDIUM (73% del PnL total vive aquí).
+      Subzona 0.40-0.46 degradada a LOW explícito — edge reducido, destruye la señal combinada.
+      Stake table actualizada: añadido ('S6', 'MEDIUM'): 2.
+    - S2B + HIGH RISK: exclusión CONFIRMADA por datos. WR 65.2% N=23 pero PnL -$27.
+      No justifica override. _s2b_excl sin cambios.
+
   v7.4.3 (Mar 2026) — WHITELIST_TIER_OVERRIDE: bypass tier completo para traders validados:
     - NUEVO WHITELIST_TIER_OVERRIDE: traders con WR ≥ 60% y N ≥ 15 cuyo tier es snapshot
       inestable (el tier cambia entre capturas porque el scraper solo lo actualiza al capturar
@@ -198,6 +218,7 @@ CHANGELOG:
 """
 
 import re
+import html
 from unittest import signals
 
 import requests
@@ -207,6 +228,10 @@ import signal as signal_module
 import sys
 import logging
 import os
+from pathlib import Path
+
+# Agregar el directorio padre al path para importaciones
+sys.path.insert(0, str(Path(__file__).parent.parent))
 import csv
 import argparse
 import threading
@@ -244,10 +269,10 @@ VENTANA_TIEMPO = 1800  # 30 minutos
 # Cache de tiers persistente entre sesiones (opciones 1+2)
 TIER_CACHE_PATH = Path("trades_live/tier_cache.json")
 TIER_CACHE_TTL_H = 48  # horas antes de considerar un tier "caducado"
-DEFERRED_TIMEOUT_S = 90  # segundos máx. para esperar tier (scraper con 3 retries puede tardar ~60-80s)
+DEFERRED_TIMEOUT_S = 90  # segundos máx. para esperar tier (scraper con 3 retries puede tardar ~60-150s)
 
 BANKROLL_PATH = Path("trades_live/bankroll.json")
-DEFAULT_BANKROLL = 500.0  # bankroll inicial por defecto
+DEFAULT_BANKROLL = 100.0  # bankroll inicial por defecto
 
 # Configuración de Logging
 logging.basicConfig(
@@ -451,7 +476,7 @@ _STAKE_PCT: dict[tuple, int] = {
     ('S1B',          'HIGH'):   4,   # S1B Soccer [SUSPENDIDA v7.3]
     ('S1+',          'HIGH'):   4,   # S1+ consenso
     ('S2B',          'HIGH'):   3,   # S2B NBA zona 0.70-0.82
-    ('S2B',          'MEDIUM'): 2,   # S2B NBA zona 0.60-0.70
+    ('S2B',          'MEDIUM'): 2,   # S2B NBA zona 0.65-0.70 (v7.5: límite inferior subido de 0.60)
     ('S2',           'HIGH'):   3,   # S2+RISKY (boost a HIGH)
     ('S2+',          'HIGH'):   3,   # S2+ consenso
     ('S1',           'MEDIUM'): 2,   # S1-NBA <0.40 y S1-OTHER
@@ -459,7 +484,8 @@ _STAKE_PCT: dict[tuple, int] = {
     ('S2C',          'MEDIUM'): 2,   # S2C NBA
     ('S4',           'MEDIUM'): 2,   # S4 Crypto intraday
     ('S5',           'MEDIUM'): 2,   # S5 Soccer [SUSPENDIDA v7.3]
-    ('S6',           'LOW'):    1,   # S6 Counter ESPORTS (v6.1: bajó de MEDIUM a LOW)
+    ('S6',           'MEDIUM'): 2,   # S6 zona alta 0.46-0.50 (v7.5: 73% del PnL viene aquí)
+    ('S6',           'LOW'):    1,   # S6 zona baja 0.40-0.46 (v7.5: edge reducido)
     ('S1',           'LOW'):    1,   # S1-OTHER
     ('S1-MMA-RISKY', 'LOW'):    1,   # S1-MMA-RISKY (N=5, muestra pequeña)
     ('S3',           'LOW'):    1,   # S3 Nicho
@@ -553,11 +579,12 @@ def classify(
     tier: str,
     poly_price: float,
     is_nicho: bool = False,
-    valor_usd: float = 5000,
+    valor_usd: float = 2000,
     side: str = "BUY",
     display_name: str = "Unknown",
     edge_pct: float = 0.0,
     opposite_tier: str = "",
+    dynamic_whitelist: set[str] | None = None,
 ) -> dict:
     """
     Clasifica una señal de ballena y determina la acción recomendada.
@@ -596,7 +623,10 @@ def classify(
     whitelist_b_lower = [w.lower() for w in WHITELIST_B]
     blacklist_lower = [b.lower() for b in BLACKLIST]
     # Tier override: WR histórico supera al tier snapshot (inestable por timing de captura)
-    _is_tier_override = display_name_lower in [w.lower() for w in WHITELIST_TIER_OVERRIDE]
+    # Fuentes: WHITELIST_TIER_OVERRIDE (manual) + dynamic_whitelist (automática desde trader_stats WR≥60% N≥15)
+    _dyn_wl = {w.lower() for w in (dynamic_whitelist or set())}
+    _is_tier_override = (display_name_lower in [w.lower() for w in WHITELIST_TIER_OVERRIDE]
+                         or display_name_lower in _dyn_wl)
 
     category = _detect_category(market_title)
     result["category"] = category
@@ -748,13 +778,17 @@ def classify(
             "reasoning": reasoning,
         })
 
-    # S2B: Follow NBA 0.60-0.82, excluir HIGH RISK y BOT/MM (v7.0: hard IGNORE >0.82)
+    # S2B: Follow NBA 0.65-0.82, excluir HIGH RISK y BOT/MM (v7.0: hard IGNORE >0.82)
     # v7.3: zonas diferenciadas por dataset Gold 409 trades.
     # v7.4: WR actualizados con nuevo dataset:
     #   0.60-0.70 sin HR: WR 78.6% (N=28) → conf MEDIUM. HR excluido (WR 53.8%, N=13, -$159).
     #   0.70-0.80 sin HR: WR 84.6% (N=39) → conf HIGH. HR en esta zona monitorear (WR 77.8%).
     #   0.80-0.82 sin HR: WR 100% (N=4) → conf HIGH con stake ×0.75 por payout reducido.
     # >0.82: IGNORE — EV negativo (break-even WR = precio, supera WR histórico).
+    # v7.5: límite inferior subido de 0.60 a 0.65.
+    #   0.60-0.65 sin HR: WR 61.5%, PnL -$158 (5 nuevos trades cambiaron el cuadro).
+    #   Todo el PnL positivo de S2B viene de 0.65 para arriba.
+    # HIGH RISK EXCLUIDO CONFIRMADO: WR 65.2% N=23 pero PnL -$27. No justifica override.
     _s2b_excl = not _is_tier_override and ('HIGH RISK' in tier_upper or 'BOT' in tier_upper)
     if category == "NBA" and 0.82 < poly_price < 0.85 and not _s2b_excl:
         payout_pct = (1 / poly_price - 1) * 100
@@ -762,7 +796,7 @@ def classify(
             f"S2B precio {poly_price:.2f} > 0.82: EV negativo "
             f"(WR 84% × payout {payout_pct:.0f}% — break-even requiere WR >{poly_price*100:.0f}%). IGNORADO."
         )
-    elif category == "NBA" and 0.60 < poly_price <= 0.82 and not _s2b_excl and side == "BUY":
+    elif category == "NBA" and 0.65 <= poly_price <= 0.82 and not _s2b_excl and side == "BUY":
         if poly_price >= 0.80:
             confidence = "HIGH"
             wr_s2b = 100.0
@@ -775,10 +809,10 @@ def classify(
             confidence = "HIGH"
             wr_s2b = 84.6
             reasoning = f"S2B zona fuerte: Follow NBA a {poly_price:.2f} (WR 84.6%, N=39, rango 0.70-0.80, excl. HIGH RISK/BOT)"
-        else:  # 0.60 < price < 0.70
+        else:  # 0.65 <= price < 0.70
             confidence = "MEDIUM"
             wr_s2b = 78.6
-            reasoning = f"S2B zona baja: Follow NBA a {poly_price:.2f} (WR 78.6%, N=28, rango 0.60-0.70, excl. HIGH RISK/BOT)"
+            reasoning = f"S2B zona baja: Follow NBA a {poly_price:.2f} (WR 78.6%, N=~23, rango 0.65-0.70, excl. HIGH RISK/BOT)"
 
         if display_name_lower in whitelist_a_lower:
             reasoning += f" | Whitelist A ({display_name}) → stake 1.5x"
@@ -902,13 +936,30 @@ def classify(
     # S6: Counter ESPORTS precio 0.40-0.50 (v6.1: WR bajó a 66.7%, N=24 — conf bajada a LOW)
     # WR redujo de 81.8% → 66.7% con más datos. Sigue válida pero confianza reducida.
     # v7.3: límite inferior añadido — restringido a 0.40-0.50 (precio muy bajo sin datos).
+    # v7.5: zonas diferenciadas por análisis PnL post-resolución 516 trades:
+    #   0.46-0.50: WR concentrado, 73% del PnL total (+$786) viene de aquí → MEDIUM, stake 2%.
+    #   0.40-0.46: edge reducido, destruye la señal combinada cuando está incluida → LOW, stake 1%.
     if category == "ESPORTS" and 0.40 <= poly_price < 0.50:
+        if poly_price >= 0.46:
+            confidence_s6 = "MEDIUM"
+            wr_s6 = 59.1
+            reasoning_s6 = (
+                f"S6 zona alta: Counter ESPORTS a {poly_price:.2f} "
+                f"(rango 0.46-0.50 — 73% del PnL total de S6, WR 59.1% global)"
+            )
+        else:  # 0.40 <= price < 0.46
+            confidence_s6 = "LOW"
+            wr_s6 = 59.1
+            reasoning_s6 = (
+                f"S6 zona baja: Counter ESPORTS a {poly_price:.2f} "
+                f"(rango 0.40-0.46 — edge reducido vs zona alta, stake mínimo)"
+            )
         signals.append({
             "id": "S6",
             "action": "COUNTER",
-            "confidence": "LOW",
-            "win_rate": 66.7,
-            "reasoning": f"S6: Counter ESPORTS a {poly_price:.2f} (WR 66.7%, N=24)",
+            "confidence": confidence_s6,
+            "win_rate": wr_s6,
+            "reasoning": reasoning_s6,
         })
 
     # S7: Follow ESPORTS 0.60-0.70, excluir HIGH RISK (v6.1: WR 85.7%, N=14 — cruzó N=15, conf MEDIUM)
@@ -1079,6 +1130,29 @@ def classify(
         result["reasoning"].append(
             f"Confidence degradada {old_conf}→{result['confidence']} por sucker bet (edge {edge_pct:+.1f}%)"
         )
+
+    # v7.5.1: valor_usd como modificador de confianza continuo
+    # Datos históricos: $3K-5K WR 50% (N=36 coin flip), $5K-10K WR 69.2% (N=26, base),
+    #                   $10K-20K WR 61.5% (N=13), $20K+ WR 76.9% (N=13 — señal más fuerte).
+    # Solo aplica cuando hay señal activa; no modifica trades ignorados.
+    if result["action"] != "IGNORE":
+        if valor_usd >= 20000:
+            # Capital ≥$20K: WR 76.9% histórico — upgrade MEDIUM→HIGH si la señal lo justifica
+            if result.get("confidence") == "MEDIUM":
+                result["confidence"] = "HIGH"
+                result["reasoning"].append(
+                    f"Confidence MEDIUM→HIGH por capital ${valor_usd:,.0f} (≥$20K, WR histórico 76.9%)"
+                )
+            else:
+                result["reasoning"].append(
+                    f"Capital ${valor_usd:,.0f} ≥$20K refuerza señal (WR histórico 76.9%)"
+                )
+        elif valor_usd < 3000:
+            # Capital $3K-$5K: WR histórico 50% — coin flip, alertar sin cancelar señal
+            result["warnings"].append(
+                f"Capital ${valor_usd:,.0f} en zona <$3K (WR histórico 50%, N=36 — coin flip). "
+                f"Considerar stake reducido."
+            )
 
     # Calcular expected ROI
     if result["win_rate_hist"] > 0 and result["payout_mult"] > 0:
@@ -1324,7 +1398,18 @@ def send_telegram_notification(mensaje):
             'disable_web_page_preview': True
         }
         response = requests.post(url, data=data, timeout=10)
-        return response.status_code == 200
+        if response.status_code != 200:
+            logger.warning(f"Telegram rechazó el mensaje (HTTP {response.status_code}): {response.text[:200]}")
+            # Reintento sin HTML si el error es de parseo
+            if response.status_code == 400 and 'parse' in response.text.lower():
+                data2 = {**data, 'parse_mode': '', 'text': mensaje.replace('<b>', '').replace('</b>', '').replace('<pre>', '').replace('</pre>', '').replace('<a ', '').replace('</a>', '')}
+                r2 = requests.post(url, data=data2, timeout=10)
+                if r2.status_code == 200:
+                    logger.info("Telegram: mensaje enviado sin HTML (fallback)")
+                    return True
+                logger.warning(f"Telegram fallback también falló: {r2.text[:200]}")
+            return False
+        return True
     except Exception as e:
         logger.warning(f"Error enviando notificación Telegram: {e}")
         return False
@@ -1495,11 +1580,14 @@ class GoldWhaleDetector:
 
         self.bankroll = self._cargar_bankroll()
 
+        self.dynamic_whitelist: set[str] = set()  # Traders con WR≥60% N≥15 desde trader_stats
+
         self.supabase: Client | None = None
         if SUPABASE_ENABLED and SUPABASE_URL and SUPABASE_KEY:
             try:
                 self.supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
                 logger.info("Supabase conectado para tracking de ballenas deportivas")
+                self.dynamic_whitelist = self._cargar_dynamic_whitelist()
             except Exception as e:
                 logger.warning(f"Error conectando a Supabase: {e}")
 
@@ -1516,6 +1604,25 @@ class GoldWhaleDetector:
         signal_module.signal(signal_module.SIGTERM, self.signal_handler)
 
         logger.info(f"Monitor GOLD iniciado. Umbral: ${self.umbral:,.2f}")
+
+    def _cargar_dynamic_whitelist(self) -> set[str]:
+        """Carga traders con is_auto_whitelisted=True desde trader_stats (WR≥60%, N≥15)."""
+        assert self.supabase is not None
+        try:
+            resp = self.supabase.table('trader_stats') \
+                .select('display_name') \
+                .eq('is_auto_whitelisted', True) \
+                .execute()
+            rows = resp.data or []
+            names: set[str] = {str(r.get('display_name', '')) for r in rows if isinstance(r, dict) and r.get('display_name')}
+            if names:
+                logger.info(f"Dynamic whitelist cargada: {len(names)} traders ({', '.join(sorted(names))})")
+            else:
+                logger.info("Dynamic whitelist vacía (ningún trader alcanzó WR≥60% N≥15 aún)")
+            return names
+        except Exception as e:
+            logger.warning(f"Error cargando dynamic whitelist: {e}")
+            return set()
 
     def _crear_session_con_retry(self):
         session = requests.Session()
@@ -1950,6 +2057,7 @@ class GoldWhaleDetector:
             display_name=display_name,
             edge_pct=edge_result.get('edge_pct', 0.0),
             opposite_tier=opposite_tier_for_conflict,
+            dynamic_whitelist=self.dynamic_whitelist,
         )
 
         # Evaluar S2+ y S1+ si hay consenso de 3+
@@ -2139,14 +2247,17 @@ class GoldWhaleDetector:
             telegram_msg += f"<b>{emoji} {categoria} CAPTURADA {emoji}</b>\n\n"
 
             nicho_tag_tg = f"  ⚡ <b>NICHO</b> ({pct_mercado:.1f}% del mercado)" if es_nicho else ""
+            _q = html.escape(market_info.get('question', 'N/A')[:80])
+            _oc = html.escape(outcome)
+            _dn = html.escape(display_name)
             telegram_msg += f"💰 <b>Valor:</b> ${valor:,.2f}{nicho_tag_tg}\n"
-            telegram_msg += f"📊 <b>Mercado:</b> {market_info.get('question', 'N/A')[:80]}\n"
-            telegram_msg += f"🎯 <b>Outcome:</b> {outcome}\n"
+            telegram_msg += f"📊 <b>Mercado:</b> {_q}\n"
+            telegram_msg += f"🎯 <b>Outcome:</b> {_oc}\n"
             telegram_msg += f"📈 <b>Lado:</b> {lado_texto}\n"
             telegram_msg += f"💵 <b>Precio:</b> {price:.4f} ({price*100:.2f}%)\n"
             telegram_msg += f"📦 <b>Volumen:</b> ${market_volume:,.0f}\n"
 
-            telegram_msg += f"\n👤 <b>TRADER:</b> {display_name}\n"
+            telegram_msg += f"\n👤 <b>TRADER:</b> {_dn}\n"
             if cached_has_stats:
                 c_pnl = cached_analysis.get('pnl', 0)
                 c_wr = cached_analysis.get('win_rate', 0.0)
@@ -2158,7 +2269,7 @@ class GoldWhaleDetector:
                     for cat in c_cats[:3]:
                         cp = cat.get('pnl', 0)
                         cp_str = f"+${cp:,.0f}" if cp >= 0 else f"-${abs(cp):,.0f}"
-                        telegram_msg += f"      #{cat.get('rank', '?')} {cat.get('name', '?')}: {cp_str}\n"
+                        telegram_msg += f"      #{cat.get('rank', '?')} {html.escape(cat.get('name', '?'))}: {cp_str}\n"
             telegram_msg += f"   🔗 <a href='{profile_url}'>Ver perfil</a>\n"
 
             if edge_result['is_sports'] and edge_result['pinnacle_price'] > 0:
@@ -2189,11 +2300,11 @@ class GoldWhaleDetector:
                 self._wallets_analizadas.add(wallet)
             else:
                 # Trader con señal activa pero sin stats en caché → scraper en background.
-                # silent=False: cuando termine, envía follow-up con WR/PnL del trader.
+                # silent=True: solo actualiza cache/Supabase, no envía análisis separado a Telegram.
                 # (Solo llega aquí si hay FOLLOW/COUNTER activo, no para trades IGNORE.)
                 self._analizar_trader_async(
                     wallet, display_name, trade.get('title', '').lower(),
-                    esperar_resultado=False, silent=False,
+                    esperar_resultado=False, silent=True,
                 )
 
     def _obtener_historial_trader(self, display_name: str) -> dict:
@@ -2372,6 +2483,7 @@ class GoldWhaleDetector:
                         display_name=p_display,
                         edge_pct=p_edge_result.get('edge_pct', 0.0),
                         opposite_tier='',
+                        dynamic_whitelist=self.dynamic_whitelist,
                     )
                     if reclass['action'] in ('FOLLOW', 'COUNTER'):
                         elapsed = (datetime.now() - pending['ts']).total_seconds()
@@ -2390,8 +2502,8 @@ class GoldWhaleDetector:
                         msg += f"  |  ROI: <b>{reclass['expected_roi']:+.1f}%</b>\n"
                         for r in reclass['reasoning']:
                             msg += f"  › {r}\n"
-                        msg += f"\n👤 <b>{p_display}</b> | {tier}\n"
-                        msg += f"📈 {p_trade.get('title', '')[:60]}\n"
+                        msg += f"\n👤 <b>{html.escape(p_display)}</b> | {html.escape(tier)}\n"
+                        msg += f"📈 {html.escape(p_trade.get('title', '')[:60])}\n"
                         msg += f"💰 ${p_valor:,.0f} | {p_side} @ {p_price:.2f}\n"
                         msg += f"\n🔗 <a href='https://polymarket.com/profile/{p_wallet_addr}'>Ver perfil</a>"
                         msg += f" | <a href='https://polymarketanalytics.com/traders/{p_wallet_addr}'>Analytics</a>"
@@ -2403,9 +2515,10 @@ class GoldWhaleDetector:
                 deferred = self._deferred_trades.pop(wallet, None)
                 if was_deferred and not deferred:
                     # La entrada deferred expiró (cleanup la eliminó) antes de que el scraper terminara.
-                    # El trade nunca fue clasificado — el análisis a continuación se enviaría sin señal.
+                    # El trade nunca fue clasificado — no enviar análisis sin contexto del trade.
                     logger.warning(f"Deferred expirado para {display_name} — trade perdido (timeout < scraper). "
                                    f"Considera aumentar DEFERRED_TIMEOUT_S (actual: {DEFERRED_TIMEOUT_S}s)")
+                    return
                 if deferred and tier:
                     d_trade    = deferred['trade']
                     d_price    = deferred['price']
@@ -2430,6 +2543,7 @@ class GoldWhaleDetector:
                         display_name=d_display,
                         edge_pct=d_edge.get('edge_pct', 0.0),
                         opposite_tier='',
+                        dynamic_whitelist=self.dynamic_whitelist,
                     )
                     elapsed_d = (datetime.now() - deferred['ts']).total_seconds()
                     elapsed_d_str = f"{int(elapsed_d)}s" if elapsed_d < 60 else f"{elapsed_d/60:.1f}min"
@@ -2532,7 +2646,7 @@ class GoldWhaleDetector:
                         if _d_stake_mods:
                             dmsg += f"   › {', '.join(_d_stake_mods)}\n"
                         dmsg += "⚠️ Timing tardío (deferred) — verificar precio actual antes de entrar\n"
-                        dmsg += f"\n👤 <b>{d_display}</b> | {tier}\n"
+                        dmsg += f"\n👤 <b>{html.escape(d_display)}</b> | {html.escape(tier)}\n"
                         d_pnl = d.get('pnl', 0)
                         d_wr = d.get('win_rate', 0.0)
                         d_cats = d.get('categories', [])
@@ -2544,9 +2658,9 @@ class GoldWhaleDetector:
                                 for cat in d_cats[:3]:
                                     cp = cat.get('pnl', 0)
                                     cp_str = f"+${cp:,.0f}" if cp >= 0 else f"-${abs(cp):,.0f}"
-                                    dmsg += f"      #{cat.get('rank', '?')} {cat.get('name', '?')}: {cp_str}\n"
-                        dmsg += f"📊 {d_trade.get('title', '')[:60]}\n"
-                        dmsg += f"🎯 <b>Outcome:</b> {d_outcome}\n"
+                                    dmsg += f"      #{cat.get('rank', '?')} {html.escape(cat.get('name', '?'))}: {cp_str}\n"
+                        dmsg += f"📊 {html.escape(d_trade.get('title', '')[:60])}\n"
+                        dmsg += f"🎯 <b>Outcome:</b> {html.escape(d_outcome)}\n"
                         dmsg += f"📈 <b>Lado:</b> {d_lado_texto}\n"
                         dmsg += f"💰 ${d_valor:,.0f} @ {d_price:.2f}\n"
                         dmsg += f"\n🔗 <a href='https://polymarket.com/profile/{d_wallet}'>Ver perfil</a>"
@@ -2599,7 +2713,7 @@ class GoldWhaleDetector:
                 else:
                     low_trades_warning = ""
 
-                tg += f"<b>{display_name}</b> | {tier}\n"
+                tg += f"<b>{html.escape(display_name)}</b> | {html.escape(tier)}\n"
                 tg += f"<b>Score:</b> {total}/100\n"
                 tg += f"<b>PnL:</b> ${d.get('pnl', 0):,.0f}\n"
                 tg += f"<b>Win Rate:</b> {d.get('win_rate', 0):.1f}%\n"
@@ -2617,11 +2731,11 @@ class GoldWhaleDetector:
                     for cat in categories[:5]:
                         pnl = cat['pnl']
                         pnl_str = f"+${pnl:,.0f}" if pnl >= 0 else f"-${abs(pnl):,.0f}"
-                        cat_name = cat['name']
+                        cat_name = html.escape(cat['name'])
                         tg += f"  #{cat['rank']} {cat_name}: {pnl_str}\n"
 
                         if is_current_sports and pnl > 0:
-                            cat_lower = cat_name.lower()
+                            cat_lower = cat['name'].lower()
                             if any(kw in cat_lower for kw in ['sport', 'football', 'soccer', 'basket', 'baseball',
                                                                'hockey', 'tennis', 'mma', 'boxing', 'cricket']):
                                 tg += f"  <b>ESPECIALISTA en {cat_name} con {pnl_str}</b>\n"
@@ -2632,13 +2746,13 @@ class GoldWhaleDetector:
                     for sport, info in sorted(sport_subtypes.items(), key=lambda x: x[1]['pnl'], reverse=True):
                         spnl = info['pnl']
                         spnl_str = f"+${spnl:,.0f}" if spnl >= 0 else f"-${abs(spnl):,.0f}"
-                        tg += f"  {sport}: {spnl_str} ({info['count']} trades)\n"
+                        tg += f"  {html.escape(sport)}: {spnl_str} ({info['count']} trades)\n"
 
                 wins = d.get('biggest_wins', [])
                 if wins:
                     tg += f"\n<b>Top Wins:</b>\n"
                     for w in wins[:3]:
-                        tg += f"  +${w['amount']:,.0f} — {w['market'][:40]}\n"
+                        tg += f"  +${w['amount']:,.0f} — {html.escape(w['market'][:40])}\n"
 
                 # Historial de trades capturados en Gold
                 historial = self._obtener_historial_trader(display_name)
@@ -2656,7 +2770,7 @@ class GoldWhaleDetector:
                         resultado = t.get('result', '—') or '—'
                         pnl_t = t.get('pnl_teorico')
                         pnl_t_str = f" ${pnl_t:+,.0f}" if pnl_t is not None else ""
-                        tg += f"  {fecha} {t.get('side','?')} {t.get('market_title','')[:35]}... → {resultado}{pnl_t_str}\n"
+                        tg += f"  {fecha} {t.get('side','?')} {html.escape(t.get('market_title','')[:35])}... → {resultado}{pnl_t_str}\n"
 
                 tg += f"\n<b>{rec[:100]}</b>\n"
                 tg += f"\n<a href='https://polymarket.com/profile/{wallet}'>Ver perfil</a>"

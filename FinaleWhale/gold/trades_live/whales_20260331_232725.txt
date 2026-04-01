@@ -1,0 +1,335 @@
+
+================================================================================
+MONITOR GOLD v3.0 INICIADO
+================================================================================
+Umbral de ballena:        $2,500.00 USD
+Intervalo de polling:     3 segundos
+Limite de trades/ciclo:   1000
+Ventana de tiempo:        30 minutos (solo trades recientes)
+Archivo de log:           trades_live/whales_20260331_232725.txt
+Trades en memoria:        0
+Notificaciones Telegram:  ACTIVO
+Esperando trades...
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 41s — 🐋 BALLENA | chong358 | 💀 HIGH RISK
+================================================================================
+💰 Valor: $2,720.36 USD
+📊 Mercado: US forces enter Iran by December 31?
+🔗 URL: https://polymarket.com/event/us-forces-enter-iran-by
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.6300 (63.00%)
+📦 Volumen: $7,573,406.90
+🕐 Trade original: 2026-03-31 23:32:53
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: chong358
+   Wallet: 0x9b5457c25836565b0a94fd4a0a7df79d82255e38
+   Perfil: https://polymarket.com/profile/0x9b5457c25836565b0a94fd4a0a7df79d82255e38
+   TX Hash: 0x0ae0b496b8c6d320ac...b26dea7934
+   TX URL: https://polygonscan.com/tx/0x0ae0b496b8c6d320ac1e6b07c112dea0910b30bd42c41a4f13295fb26dea7934
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Capital $2,720 < $5K mínimo para señal (v7.4: $3K-5K WR 50% coin flip). Ballena registrada pero sin acción recomendada.
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 41s — 🐋 BALLENA | elshark206 | 💀 HIGH RISK
+================================================================================
+💰 Valor: $4,953.50 USD
+📊 Mercado: Trail Blazers vs. Clippers
+🔗 URL: https://polymarket.com/event/nba-por-lac-2026-03-31
+🎯 Outcome: Trail Blazers
+📈 Lado: COMPRA
+💵 Precio: 0.6900 (69.00%)
+📦 Volumen: $2,482,451.75
+🕐 Trade original: 2026-03-31 23:37:41
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: elshark206
+   Wallet: 0x0eb75bf6f54794a83bd26095811f30b530161f17
+   Perfil: https://polymarket.com/profile/0x0eb75bf6f54794a83bd26095811f30b530161f17
+   TX Hash: 0x5bf369c1b97b35ede9...a67b750e8e
+   TX URL: https://polygonscan.com/tx/0x5bf369c1b97b35ede98abfc5ef8553e877796e7352b1e1f07318b4a67b750e8e
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 DESACTIVADO v7.4 (global WR 35.3% N=51 — premisa refutada), S4 necesita CRYPTO (es NBA), S6 necesita ESPORTS (es NBA) | Sin FOLLOW: S2/S2B excluye 💀 HIGH RISK (no está en WHITELIST_TIER_OVERRIDE), S3 necesita mercado nicho
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 42s — 🐋🐋 BALLENA GRANDE | 0x33a326768e4F235276d917F62ffC44a07B2cb7F7-1774976007934 | ⚠️ RISKY
+================================================================================
+💰 Valor: $6,192.31 USD
+📊 Mercado: Cavaliers vs. Lakers: O/U 236.5
+🔗 URL: https://polymarket.com/event/nba-cle-lal-2026-03-31
+🎯 Outcome: Over
+📈 Lado: VENTA
+💵 Precio: 0.7178 (71.78%)
+📦 Volumen: $439,743.64
+🕐 Trade original: 2026-03-31 23:42:39
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0x33a326768e4F235276d917F62ffC44a07B2cb7F7-1774976007934
+   Wallet: 0x33a326768e4f235276d917f62ffc44a07b2cb7f7
+   Perfil: https://polymarket.com/profile/0x33a326768e4f235276d917f62ffc44a07b2cb7f7
+   TX Hash: 0x76d1e528213033335d...59f0945f85
+   TX URL: https://polygonscan.com/tx/0x76d1e528213033335d4e0abbeffa435ea26a143cab401141934fc459f0945f85
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 DESACTIVADO v7.4 (global WR 35.3% N=51 — premisa refutada), S4 necesita CRYPTO (es NBA), S6 necesita ESPORTS (es NBA) | Sin FOLLOW: S3 necesita mercado nicho
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 48s — 🐋 BALLENA | ScottyNooo | 🥈 SILVER
+================================================================================
+💰 Valor: $2,933.04 USD
+📊 Mercado: US forces enter Iran by April 30?
+🔗 URL: https://polymarket.com/event/us-forces-enter-iran-by
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.4400 (44.00%)
+📦 Volumen: $13,052,279.01
+🕐 Trade original: 2026-03-31 23:57:41
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: ScottyNooo
+   Wallet: 0xbacd00c9080a82ded56f504ee8810af732b0ab35
+   Perfil: https://polymarket.com/profile/0xbacd00c9080a82ded56f504ee8810af732b0ab35
+   TX Hash: 0x0e1a544e0366ae90dc...ee5fdcddbe
+   TX URL: https://polygonscan.com/tx/0x0e1a544e0366ae90dc316f6c5758d4366f10651afbb601956cecf4ee5fdcddbe
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Capital $2,933 < $5K mínimo para señal (v7.4: $3K-5K WR 50% coin flip). Ballena registrada pero sin acción recomendada.
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 41s — 🐋🐋 BALLENA GRANDE | Fabricius01 | ⚠️ RISKY
+================================================================================
+💰 Valor: $9,398.69 USD
+📊 Mercado: US x Iran ceasefire by June 30?
+🔗 URL: https://polymarket.com/event/us-x-iran-ceasefire-by
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.6476 (64.76%)
+📦 Volumen: $2,600,083.66
+🕐 Trade original: 2026-04-01 00:27:47
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Fabricius01
+   Wallet: 0x7814fea2092726c2d892a65e4fda3bf502ff8d4e
+   Perfil: https://polymarket.com/profile/0x7814fea2092726c2d892a65e4fda3bf502ff8d4e
+   TX Hash: 0x3613c3076cd2bd735a...9df9b246ef
+   TX URL: https://polygonscan.com/tx/0x3613c3076cd2bd735a8a3d1186018bebd34616e6a184fc3b1a09349df9b246ef
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 DESACTIVADO v7.4 (global WR 35.3% N=51 — premisa refutada), S4 necesita CRYPTO (es OTHER), S6 necesita ESPORTS (es OTHER) | Sin FOLLOW: S2/S2B/S2C necesita NBA (es OTHER), S3 necesita mercado nicho
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 41s — 🐋 BALLENA | CREEED | ⚠️ RISKY
+================================================================================
+💰 Valor: $4,184.43 USD
+📊 Mercado: Iran leadership change by December 31?
+🔗 URL: https://polymarket.com/event/iran-leadership-change-by
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.6300 (63.00%)
+📦 Volumen: $974,019.45
+🕐 Trade original: 2026-04-01 01:33:07
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: CREEED
+   Wallet: 0x7368675d907a8dd84b7fe53f86bfbe76e04b8b3b
+   Perfil: https://polymarket.com/profile/0x7368675d907a8dd84b7fe53f86bfbe76e04b8b3b
+   TX Hash: 0x88c792bfa4ebd9ab92...9cf7dc7fbf
+   TX URL: https://polygonscan.com/tx/0x88c792bfa4ebd9ab92c9ae3ee42be21898f41b7096f4999e0b0f129cf7dc7fbf
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 DESACTIVADO v7.4 (global WR 35.3% N=51 — premisa refutada), S4 necesita CRYPTO (es OTHER), S6 necesita ESPORTS (es OTHER) | Sin FOLLOW: S2/S2B/S2C necesita NBA (es OTHER), S3 necesita mercado nicho
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 1.4min — 🐋 BALLENA | protrad3r | 💀 HIGH RISK
+================================================================================
+💰 Valor: $3,111.99 USD
+📊 Mercado: Will Bitcoin dip to $35,000 by December 31, 2026?
+🔗 URL: https://polymarket.com/event/what-price-will-bitcoin-hit-before-2027
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.7300 (73.00%)
+📦 Volumen: $1,645,810.34
+🕐 Trade original: 2026-04-01 01:32:57
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: protrad3r
+   Wallet: 0x5818ad399f94e7e2febe4017a4c3d453aa2ea528
+   Perfil: https://polymarket.com/profile/0x5818ad399f94e7e2febe4017a4c3d453aa2ea528
+   TX Hash: 0x046907e17e60137ec9...fe6d2a5519
+   TX URL: https://polygonscan.com/tx/0x046907e17e60137ec9f23536579e70e3052a2d3dd8774c7c630156fe6d2a5519
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 DESACTIVADO v7.4 (global WR 35.3% N=51 — premisa refutada), S4 necesita intraday Up/Down, S6 necesita ESPORTS (es CRYPTO) | Sin FOLLOW: S2/S2B/S2C necesita NBA (es CRYPTO), S3 necesita mercado nicho
+  ⚠ S4 aplica solo a crypto intraday Up/Down. Para crypto largo plazo, validar manualmente.
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 44s — 🐋🐋 BALLENA GRANDE | slamjampeter | 🥉 BRONZE
+================================================================================
+💰 Valor: $5,923.20 USD
+📊 Mercado: Will Gavin Newsom win the 2028 Democratic presidential nomination?
+🔗 URL: https://polymarket.com/event/democratic-presidential-nominee-2028
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.2427 (24.27%)
+📦 Volumen: $17,246,690.28
+🕐 Trade original: 2026-04-01 01:57:43
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: slamjampeter
+   Wallet: 0x4825c873a8c890bdaff00d253a23e8e09eb95ec5
+   Perfil: https://polymarket.com/profile/0x4825c873a8c890bdaff00d253a23e8e09eb95ec5
+   TX Hash: 0x9a60784b37aaa2b466...c95acd48aa
+   TX URL: https://polygonscan.com/tx/0x9a60784b37aaa2b4665622147e58c150d30f925285686c7ff59c7ac95acd48aa
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 DESACTIVADO v7.4 (global WR 35.3% N=51 — premisa refutada), S4 necesita CRYPTO (es OTHER), S6 necesita ESPORTS (es OTHER) | Sin FOLLOW: S2/S2B/S2C necesita NBA (es OTHER), S3 necesita mercado nicho
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 44s — 🐋🐋🐋 MEGA BALLENA | 0x78322520D66C41d56703a0Fc152AEBe86C9dC6E3-1771273156473 | ⚠️ RISKY
+================================================================================
+💰 Valor: $15,500.56 USD
+📊 Mercado: Will the Iranian regime fall before 2027?
+🔗 URL: https://polymarket.com/event/will-the-iranian-regime-fall-by-the-end-of-2026
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.7800 (78.00%)
+📦 Volumen: $12,566,985.40
+🕐 Trade original: 2026-04-01 02:07:59
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0x78322520D66C41d56703a0Fc152AEBe86C9dC6E3-1771273156473
+   Wallet: 0x78322520d66c41d56703a0fc152aebe86c9dc6e3
+   Perfil: https://polymarket.com/profile/0x78322520d66c41d56703a0fc152aebe86c9dc6e3
+   TX Hash: 0x2d8c5b3cf6399de02c...47543d2d6d
+   TX URL: https://polygonscan.com/tx/0x2d8c5b3cf6399de02c7ebdd83ba3b74fb53d390a1e042433ec1bae47543d2d6d
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 DESACTIVADO v7.4 (global WR 35.3% N=51 — premisa refutada), S4 necesita CRYPTO (es OTHER), S6 necesita ESPORTS (es OTHER) | Sin FOLLOW: S2/S2B/S2C necesita NBA (es OTHER), S3 necesita mercado nicho
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 58s — 🐋🐋 BALLENA GRANDE | PantheraUncia | 💀 HIGH RISK
+================================================================================
+💰 Valor: $7,292.25 USD
+📊 Mercado: US forces enter Iran by December 31?
+🔗 URL: https://polymarket.com/event/us-forces-enter-iran-by
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.6200 (62.00%)
+📦 Volumen: $7,573,406.90
+🕐 Trade original: 2026-04-01 02:38:15
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: PantheraUncia
+   Wallet: 0xcf19c420814435ffb1c459588208ed23a7ee6402
+   Perfil: https://polymarket.com/profile/0xcf19c420814435ffb1c459588208ed23a7ee6402
+   TX Hash: 0xea11faccef8e02c1a1...556b37e097
+   TX URL: https://polygonscan.com/tx/0xea11faccef8e02c1a1d1372b19dad0748382c9cd75fa0e5b4806dd556b37e097
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 DESACTIVADO v7.4 (global WR 35.3% N=51 — premisa refutada), S4 necesita CRYPTO (es OTHER), S6 necesita ESPORTS (es OTHER) | Sin FOLLOW: S2/S2B/S2C necesita NBA (es OTHER), S3 necesita mercado nicho
+================================================================================
+

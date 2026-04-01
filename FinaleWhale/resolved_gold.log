@@ -4866,3 +4866,415 @@
 2026-03-13 00:25:26,131 [INFO]     🥈 SILVER               N= 29  WR= 69.0%  PnL=$  531.77
 2026-03-13 00:25:26,131 [INFO]     🥉 BRONZE               N= 59  WR= 57.6%  PnL=$ -239.10
 2026-03-13 00:25:26,131 [INFO] ======================================================================
+2026-03-30 02:01:51,859 [INFO] ======================================================================
+2026-03-30 02:01:51,860 [INFO] TAREA 1 — ASIGNAR TIERS FALTANTES
+2026-03-30 02:01:51,860 [INFO] ======================================================================
+2026-03-30 02:01:52,219 [INFO] HTTP Request: GET https://ymxpqxzzlfltxlhwnisk.supabase.co/rest/v1/whale_signals?select=id%2Cdisplay_name%2Cdetected_at&tier=is.null&order=detected_at.desc "HTTP/2 200 OK"
+2026-03-30 02:01:52,348 [INFO] HTTP Request: GET https://ymxpqxzzlfltxlhwnisk.supabase.co/rest/v1/whale_signals?select=id%2Cdisplay_name%2Cdetected_at&tier=eq.&order=detected_at.desc "HTTP/2 200 OK"
+2026-03-30 02:01:52,351 [INFO] Traders únicos a analizar: 0 (3 filas en total)
+2026-03-30 02:01:52,352 [INFO] ======================================================================
+2026-03-30 02:01:52,352 [INFO] TAREA 2 — RESOLVER TRADES PENDIENTES
+2026-03-30 02:01:52,352 [INFO] ======================================================================
+2026-03-30 02:01:52,485 [INFO] HTTP Request: GET https://ymxpqxzzlfltxlhwnisk.supabase.co/rest/v1/whale_signals?select=%2A&resolved_at=is.null&detected_at=lt.2026-03-30T01%3A01%3A52.352127&order=detected_at.asc "HTTP/2 200 OK"
+2026-03-30 02:01:52,487 [INFO] Trades pendientes de resolución: 99
+2026-03-30 02:01:52,488 [INFO] 
+🔍 #1 | Herdonia | Lakers vs. Suns
+2026-03-30 02:01:53,342 [INFO]    Sin conditionId (slug generado no coincidió): Lakers vs. Suns
+2026-03-30 02:01:53,343 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:01:53,643 [INFO] 
+🔍 #2 | 0x24357454d8d1a0cc93a6c25fd490467372bc2454 | Pelicans vs. Jazz
+2026-03-30 02:01:54,392 [INFO]    Sin conditionId (slug generado no coincidió): Pelicans vs. Jazz
+2026-03-30 02:01:54,392 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:01:54,693 [INFO] 
+🔍 #4 | JonesWyatt | Spread: Hawks (-10.5)
+2026-03-30 02:01:55,430 [INFO]    Sin conditionId (slug generado no coincidió): Spread: Hawks (-10.5)
+2026-03-30 02:01:55,430 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:01:55,730 [INFO] 
+🔍 #6 | mortewfenloin | Will Nottingham Forest FC win on 2026-02-26?
+2026-03-30 02:01:56,497 [INFO]    Sin conditionId (slug generado no coincidió): Will Nottingham Forest FC win on 2026-02-26?
+2026-03-30 02:01:56,498 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:01:56,798 [INFO] 
+🔍 #8 | pinkblanket | Will Nottingham Forest FC win on 2026-02-26?
+2026-03-30 02:01:56,841 [INFO]    Sin conditionId (slug generado no coincidió): Will Nottingham Forest FC win on 2026-02-26?
+2026-03-30 02:01:56,841 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:01:57,141 [INFO] 
+🔍 #9 | pinkblanket | Will Nottingham Forest FC win on 2026-02-26?
+2026-03-30 02:01:57,180 [INFO]    Sin conditionId (slug generado no coincidió): Will Nottingham Forest FC win on 2026-02-26?
+2026-03-30 02:01:57,180 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:01:57,481 [INFO] 
+🔍 #11 | mortewfenloin | Will Nottingham Forest FC win on 2026-02-26?
+2026-03-30 02:01:57,520 [INFO]    Sin conditionId (slug generado no coincidió): Will Nottingham Forest FC win on 2026-02-26?
+2026-03-30 02:01:57,520 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:01:57,821 [INFO] 
+🔍 #12 | Weebay | Will Nottingham Forest FC win on 2026-02-26?
+2026-03-30 02:01:57,861 [INFO]    Sin conditionId (slug generado no coincidió): Will Nottingham Forest FC win on 2026-02-26?
+2026-03-30 02:01:57,862 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:01:58,162 [INFO] 
+🔍 #13 | VeryLucky888 | Will Nottingham Forest FC win on 2026-02-26?
+2026-03-30 02:01:58,197 [INFO]    Sin conditionId (slug generado no coincidió): Will Nottingham Forest FC win on 2026-02-26?
+2026-03-30 02:01:58,198 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:01:58,498 [INFO] 
+🔍 #14 | Keenheart | Trail Blazers vs. Bulls
+2026-03-30 02:01:59,243 [INFO]    Sin conditionId (slug generado no coincidió): Trail Blazers vs. Bulls
+2026-03-30 02:01:59,243 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:01:59,543 [INFO] 
+🔍 #15 | ElizabethCS | Trail Blazers vs. Bulls
+2026-03-30 02:01:59,582 [INFO]    Sin conditionId (slug generado no coincidió): Trail Blazers vs. Bulls
+2026-03-30 02:01:59,582 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:01:59,882 [INFO] 
+🔍 #17 | invisbledddd | Heat vs. 76ers
+2026-03-30 02:02:00,630 [INFO]    Sin conditionId (slug generado no coincidió): Heat vs. 76ers
+2026-03-30 02:02:00,630 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:00,930 [INFO] 
+🔍 #18 | 0x8a3aB8120807bD64a3De48695110e390fa2ceB9a-1771005965025 | Spread: Hornets (-12.5)
+2026-03-30 02:02:01,672 [INFO]    Sin conditionId (slug generado no coincidió): Spread: Hornets (-12.5)
+2026-03-30 02:02:01,672 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:03,133 [INFO] 
+🔍 #19 | RogersTimothyh | Spread: Hawks (-10.5)
+2026-03-30 02:02:03,174 [INFO]    Sin conditionId (slug generado no coincidió): Spread: Hawks (-10.5)
+2026-03-30 02:02:03,174 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:03,474 [INFO] 
+🔍 #20 | Gh0stTradez | Rockets vs. Magic: O/U 215.5
+2026-03-30 02:02:04,198 [INFO]    Sin conditionId (slug generado no coincidió): Rockets vs. Magic: O/U 215.5
+2026-03-30 02:02:04,199 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:04,499 [INFO] 
+🔍 #21 | 0x8a3aB8120807bD64a3De48695110e390fa2ceB9a-1771005965025 | Spread: Rockets (-2.5)
+2026-03-30 02:02:05,264 [INFO]    Sin conditionId (slug generado no coincidió): Spread: Rockets (-2.5)
+2026-03-30 02:02:05,264 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:05,564 [INFO] 
+🔍 #22 | king101 | Rockets vs. Magic
+2026-03-30 02:02:06,330 [INFO]    Sin conditionId (slug generado no coincidió): Rockets vs. Magic
+2026-03-30 02:02:06,330 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:06,630 [INFO] 
+🔍 #23 | jackmala | Spread: Hornets (-12.5)
+2026-03-30 02:02:06,691 [INFO]    Sin conditionId (slug generado no coincidió): Spread: Hornets (-12.5)
+2026-03-30 02:02:06,691 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:06,991 [INFO] 
+🔍 #24 | 0x1B4d7cBD8DCe8A56Dd2c51E952cCCbF55F78e246-1759455462400 | Spread: Hornets (-12.5)
+2026-03-30 02:02:07,030 [INFO]    Sin conditionId (slug generado no coincidió): Spread: Hornets (-12.5)
+2026-03-30 02:02:07,030 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:07,330 [INFO] 
+🔍 #25 | shan776 | Spread: Hornets (-12.5)
+2026-03-30 02:02:07,369 [INFO]    Sin conditionId (slug generado no coincidió): Spread: Hornets (-12.5)
+2026-03-30 02:02:07,369 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:07,669 [INFO] 
+🔍 #26 | Cannae | Spread: Hornets (-12.5)
+2026-03-30 02:02:07,707 [INFO]    Sin conditionId (slug generado no coincidió): Spread: Hornets (-12.5)
+2026-03-30 02:02:07,707 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:08,007 [INFO] 
+🔍 #27 | citycityX | Spread: Hornets (-12.5)
+2026-03-30 02:02:08,049 [INFO]    Sin conditionId (slug generado no coincidió): Spread: Hornets (-12.5)
+2026-03-30 02:02:08,049 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:08,349 [INFO] 
+🔍 #28 | Cannae | Spread: Hornets (-12.5)
+2026-03-30 02:02:08,384 [INFO]    Sin conditionId (slug generado no coincidió): Spread: Hornets (-12.5)
+2026-03-30 02:02:08,384 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:08,684 [INFO] 
+🔍 #29 | VeryLucky888 | Spread: Hornets (-12.5)
+2026-03-30 02:02:08,717 [INFO]    Sin conditionId (slug generado no coincidió): Spread: Hornets (-12.5)
+2026-03-30 02:02:08,717 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:09,017 [INFO] 
+🔍 #30 | elkmonkey | Lakers vs. Suns
+2026-03-30 02:02:09,056 [INFO]    Sin conditionId (slug generado no coincidió): Lakers vs. Suns
+2026-03-30 02:02:09,056 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:09,356 [INFO] 
+🔍 #31 | banepir | Spread: 76ers (-2.5)
+2026-03-30 02:02:10,054 [INFO]    Sin conditionId (slug generado no coincidió): Spread: 76ers (-2.5)
+2026-03-30 02:02:10,054 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:10,355 [INFO] 
+🔍 #33 | ElizabethCS | Islanders vs. Canadiens
+2026-03-30 02:02:11,066 [INFO]    Sin conditionId (slug generado no coincidió): Islanders vs. Canadiens
+2026-03-30 02:02:11,066 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:11,366 [INFO] 
+🔍 #35 | Bigboybandi | Heat vs. 76ers
+2026-03-30 02:02:11,409 [INFO]    Sin conditionId (slug generado no coincidió): Heat vs. 76ers
+2026-03-30 02:02:11,409 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:11,709 [INFO] 
+🔍 #36 | 0xF9885Da150836378ce5689395FF4d194683fd63B-1767719836281 | Nuggets vs. Thunder
+2026-03-30 02:02:12,474 [INFO]    Sin conditionId (slug generado no coincidió): Nuggets vs. Thunder
+2026-03-30 02:02:12,474 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:12,774 [INFO] 
+🔍 #38 | 0x492442EaB586F242B53bDa933fD5dE859c8A3782-1766317541188 | Spread: Mavericks (-7.5)
+2026-03-30 02:02:13,553 [INFO]    Sin conditionId (slug generado no coincidió): Spread: Mavericks (-7.5)
+2026-03-30 02:02:13,553 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:13,853 [INFO] 
+🔍 #39 | 0x492442EaB586F242B53bDa933fD5dE859c8A3782-1766317541188 | Spread: Mavericks (-7.5)
+2026-03-30 02:02:13,890 [INFO]    Sin conditionId (slug generado no coincidió): Spread: Mavericks (-7.5)
+2026-03-30 02:02:13,890 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:14,190 [INFO] 
+🔍 #48 | Anonimo | Rockets vs. Magic
+2026-03-30 02:02:14,230 [INFO]    Sin conditionId (slug generado no coincidió): Rockets vs. Magic
+2026-03-30 02:02:14,230 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:14,530 [INFO] 
+🔍 #53 | bqbq | Will FC Augsburg vs. 1. FC Köln end in a draw?
+2026-03-30 02:02:15,616 [INFO]    Sin conditionId (slug generado no coincidió): Will FC Augsburg vs. 1. FC Köln end in a draw?
+2026-03-30 02:02:15,616 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:15,916 [INFO] 
+🔍 #55 | VeryLucky888 | Will Wolverhampton Wanderers FC vs. Aston Villa FC end 
+2026-03-30 02:02:16,626 [INFO]    Sin conditionId (slug generado no coincidió): Will Wolverhampton Wanderers FC vs. Aston Villa FC
+2026-03-30 02:02:16,626 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:16,926 [INFO] 
+🔍 #56 | 4gibg4i3o | Will Arsenal win the 2025–26 English Premier League?
+2026-03-30 02:02:17,278 [INFO]    conditionId via slug generado: 0xcba24842ceac7a40d2...
+2026-03-30 02:02:17,527 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-30 02:02:17,827 [INFO] 
+🔍 #58 | 17th-floor | Cavaliers vs. Pistons
+2026-03-30 02:02:18,562 [INFO]    Sin conditionId (slug generado no coincidió): Cavaliers vs. Pistons
+2026-03-30 02:02:18,562 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:18,862 [INFO] 
+🔍 #59 | siick | US-Iran nuclear deal by March 31?
+2026-03-30 02:02:19,249 [INFO]    conditionId via slug generado: 0x2b1435f47a09615867...
+2026-03-30 02:02:19,423 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-30 02:02:19,723 [INFO] 
+🔍 #60 | OTTONILA | Cavaliers vs. Pistons
+2026-03-30 02:02:19,762 [INFO]    Sin conditionId (slug generado no coincidió): Cavaliers vs. Pistons
+2026-03-30 02:02:19,763 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:20,063 [INFO] 
+🔍 #61 | 0x67D6436F723aA00270BD2Fc112E7FB3b4408b04B-1766014358629 | UFC 326: Charles Oliveira vs. Max Holloway (Lightweight
+2026-03-30 02:02:20,816 [INFO]    Sin conditionId (slug generado no coincidió): UFC 326: Charles Oliveira vs. Max Holloway (Lightw
+2026-03-30 02:02:20,816 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:21,116 [INFO] 
+🔍 #63 | benwyatt | UFC 326: Charles Oliveira vs. Max Holloway (Lightweight
+2026-03-30 02:02:21,157 [INFO]    Sin conditionId (slug generado no coincidió): UFC 326: Charles Oliveira vs. Max Holloway (Lightw
+2026-03-30 02:02:21,158 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:21,458 [INFO] 
+🔍 #65 | 0x492442EaB586F242B53bDa933fD5dE859c8A3782-1766317541188 | Spread: Knicks (-8.5)
+2026-03-30 02:02:22,244 [INFO]    Sin conditionId (slug generado no coincidió): Spread: Knicks (-8.5)
+2026-03-30 02:02:22,244 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:22,544 [INFO] 
+🔍 #68 | elkmonkey | Michigan Wolverines vs. Illinois Fighting Illini
+2026-03-30 02:02:23,320 [INFO]    Sin conditionId (slug generado no coincidió): Michigan Wolverines vs. Illinois Fighting Illini
+2026-03-30 02:02:23,320 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:23,620 [INFO] 
+🔍 #69 | Momotarou | Nuggets vs. Thunder
+2026-03-30 02:02:23,657 [INFO]    Sin conditionId (slug generado no coincidió): Nuggets vs. Thunder
+2026-03-30 02:02:23,657 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:23,957 [INFO] 
+🔍 #70 | KirksCousin | Nuggets vs. Thunder
+2026-03-30 02:02:23,992 [INFO]    Sin conditionId (slug generado no coincidió): Nuggets vs. Thunder
+2026-03-30 02:02:23,992 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:24,292 [INFO] 
+🔍 #71 | sdffssdfd | Cavaliers vs. Pistons
+2026-03-30 02:02:24,331 [INFO]    Sin conditionId (slug generado no coincidió): Cavaliers vs. Pistons
+2026-03-30 02:02:24,332 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:24,632 [INFO] 
+🔍 #73 | Anonimo | Cavaliers vs. Pistons
+2026-03-30 02:02:24,669 [INFO]    Sin conditionId (slug generado no coincidió): Cavaliers vs. Pistons
+2026-03-30 02:02:24,669 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:24,969 [INFO] 
+🔍 #74 | Anonimo | Cavaliers vs. Pistons
+2026-03-30 02:02:25,006 [INFO]    Sin conditionId (slug generado no coincidió): Cavaliers vs. Pistons
+2026-03-30 02:02:25,006 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:25,306 [INFO] 
+🔍 #75 | gmanas | Spread: Thunder (-7.5)
+2026-03-30 02:02:26,031 [INFO]    Sin conditionId (slug generado no coincidió): Spread: Thunder (-7.5)
+2026-03-30 02:02:26,031 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:26,331 [INFO] 
+🔍 #76 | BABELCONSTEL | Nuggets vs. Thunder
+2026-03-30 02:02:26,371 [INFO]    Sin conditionId (slug generado no coincidió): Nuggets vs. Thunder
+2026-03-30 02:02:26,372 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:26,672 [INFO] 
+🔍 #77 | impliedbelief | Will Shai Gilgeous-Alexander win the 2025–2026 NBA MVP?
+2026-03-30 02:02:27,058 [INFO]    conditionId via slug generado: 0x281565cae359040475...
+2026-03-30 02:02:27,232 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-30 02:02:27,533 [INFO] 
+🔍 #79 | KingVon99 | Will FC Barcelona win on 2026-02-28?
+2026-03-30 02:02:28,261 [INFO]    Sin conditionId (slug generado no coincidió): Will FC Barcelona win on 2026-02-28?
+2026-03-30 02:02:28,261 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:28,561 [INFO] 
+🔍 #80 | swisstony | Leeds United FC vs. Manchester City FC: O/U 3.5
+2026-03-30 02:02:29,302 [INFO]    Sin conditionId (slug generado no coincidió): Leeds United FC vs. Manchester City FC: O/U 3.5
+2026-03-30 02:02:29,302 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:29,602 [INFO] 
+🔍 #81 | Sensei2 | Will FC Barcelona win on 2026-02-28?
+2026-03-30 02:02:29,643 [INFO]    Sin conditionId (slug generado no coincidió): Will FC Barcelona win on 2026-02-28?
+2026-03-30 02:02:29,643 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:29,943 [INFO] 
+🔍 #84 | Weebay | Spread: FC Bayern München (-1.5)
+2026-03-30 02:02:30,671 [INFO]    Sin conditionId (slug generado no coincidió): Spread: FC Bayern München (-1.5)
+2026-03-30 02:02:30,671 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:30,972 [INFO] 
+🔍 #86 | Treasured-Spending | Trail Blazers vs. Hornets
+2026-03-30 02:02:31,684 [INFO]    Sin conditionId (slug generado no coincidió): Trail Blazers vs. Hornets
+2026-03-30 02:02:31,684 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:31,984 [INFO] 
+🔍 #88 | thefakenick | Will Manchester City win the 2025–26 English Premier Le
+2026-03-30 02:02:32,355 [INFO]    conditionId via slug generado: 0xfb1835b887c33862f5...
+2026-03-30 02:02:32,519 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-30 02:02:32,819 [INFO] 
+🔍 #89 | hugesportswhale | Penguins vs. Rangers
+2026-03-30 02:02:33,523 [INFO]    Sin conditionId (slug generado no coincidió): Penguins vs. Rangers
+2026-03-30 02:02:33,524 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:33,824 [INFO] 
+🔍 #95 | shutitfatty | UFC Fight Night: Brandon Moreno vs. Lone'er Kavanagh (F
+2026-03-30 02:02:34,560 [INFO]    Sin conditionId (slug generado no coincidió): UFC Fight Night: Brandon Moreno vs. Lone'er Kavana
+2026-03-30 02:02:34,560 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:34,861 [INFO] 
+🔍 #102 | joosangyoo | UFC Fight Night: Macy Chiasson vs. Ailin Perez (Women's
+2026-03-30 02:02:36,550 [INFO]    Sin conditionId (slug generado no coincidió): UFC Fight Night: Macy Chiasson vs. Ailin Perez (Wo
+2026-03-30 02:02:36,551 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:36,851 [INFO] 
+🔍 #108 | matanovik | Pelicans vs. Jazz
+2026-03-30 02:02:36,890 [INFO]    Sin conditionId (slug generado no coincidió): Pelicans vs. Jazz
+2026-03-30 02:02:36,890 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:37,190 [INFO] 
+🔍 #110 | Sportbetting76 | UFC Fight Night: Felipe Bunes vs. Édgar Cháirez (Flywei
+2026-03-30 02:02:37,959 [INFO]    Sin conditionId (slug generado no coincidió): UFC Fight Night: Felipe Bunes vs. Édgar Cháirez (F
+2026-03-30 02:02:37,959 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:38,259 [INFO] 
+🔍 #115 | Massimo24 | UFC Fight Night: Brandon Moreno vs. Lone'er Kavanagh (F
+2026-03-30 02:02:38,296 [INFO]    Sin conditionId (slug generado no coincidió): UFC Fight Night: Brandon Moreno vs. Lone'er Kavana
+2026-03-30 02:02:38,296 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:38,596 [INFO] 
+🔍 #119 | sinestia | Will Manchester United FC win on 2026-03-01?
+2026-03-30 02:02:39,368 [INFO]    Sin conditionId (slug generado no coincidió): Will Manchester United FC win on 2026-03-01?
+2026-03-30 02:02:39,368 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:39,669 [INFO] 
+🔍 #121 | jtwyslljy | Will Arsenal FC win on 2026-03-01?
+2026-03-30 02:02:40,380 [INFO]    Sin conditionId (slug generado no coincidió): Will Arsenal FC win on 2026-03-01?
+2026-03-30 02:02:40,380 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:40,680 [INFO] 
+🔍 #124 | 0x7AF9Bac9328c7ceC1F9D07786E59576b608Db408-1771787783556 | Will Arsenal FC win on 2026-03-01?
+2026-03-30 02:02:40,721 [INFO]    Sin conditionId (slug generado no coincidió): Will Arsenal FC win on 2026-03-01?
+2026-03-30 02:02:40,721 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:41,022 [INFO] 
+🔍 #125 | majorexploiter | Will Arsenal FC win on 2026-03-01?
+2026-03-30 02:02:41,062 [INFO]    Sin conditionId (slug generado no coincidió): Will Arsenal FC win on 2026-03-01?
+2026-03-30 02:02:41,062 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:41,363 [INFO] 
+🔍 #126 | majorexploiter | Will Arsenal FC win on 2026-03-01?
+2026-03-30 02:02:41,397 [INFO]    Sin conditionId (slug generado no coincidió): Will Arsenal FC win on 2026-03-01?
+2026-03-30 02:02:41,397 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:41,697 [INFO] 
+🔍 #127 | majorexploiter | Will Arsenal FC win on 2026-03-01?
+2026-03-30 02:02:41,732 [INFO]    Sin conditionId (slug generado no coincidió): Will Arsenal FC win on 2026-03-01?
+2026-03-30 02:02:41,732 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:42,032 [INFO] 
+🔍 #133 | Herdonia | Blackhawks vs. Utah
+2026-03-30 02:02:42,735 [INFO]    Sin conditionId (slug generado no coincidió): Blackhawks vs. Utah
+2026-03-30 02:02:42,735 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:43,035 [INFO] 
+🔍 #151 | joosangyoo | 76ers vs. Celtics
+2026-03-30 02:02:43,741 [INFO]    Sin conditionId (slug generado no coincidió): 76ers vs. Celtics
+2026-03-30 02:02:43,742 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:44,042 [INFO] 
+🔍 #154 | 0x492442EaB586F242B53bDa933fD5dE859c8A3782-1766317541188 | Spread: Clippers (-8.5)
+2026-03-30 02:02:44,812 [INFO]    Sin conditionId (slug generado no coincidió): Spread: Clippers (-8.5)
+2026-03-30 02:02:44,812 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:45,112 [INFO] 
+🔍 #157 | InsiderrrZ | US x Iran ceasefire by April 30?
+2026-03-30 02:02:45,880 [INFO]    Sin conditionId (slug generado no coincidió): US x Iran ceasefire by April 30?
+2026-03-30 02:02:45,880 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:46,181 [INFO] 
+🔍 #158 | Cyrra | Counter-Strike: Misa Esports vs Imperial Academy (BO3) 
+2026-03-30 02:02:46,922 [INFO]    Sin conditionId (slug generado no coincidió): Counter-Strike: Misa Esports vs Imperial Academy (
+2026-03-30 02:02:46,922 [INFO]    ⏭️  Sin conditionId — no se puede consultar Polymarket
+2026-03-30 02:02:47,222 [INFO] 
+🔍 #166 | 0x8Fba3AA991dc7Df44f8A3b20A178e1781B7d433A-1771681824315 | Will France, UK, or Germany strike Iran by March 31?
+2026-03-30 02:02:47,425 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-30 02:02:47,725 [INFO] 
+🔍 #167 | Goopah | Will Bitcoin dip to $55,000 in March?
+2026-03-30 02:02:47,915 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-30 02:02:48,215 [INFO] 
+🔍 #169 | Dadyrus | Will Bitcoin reach $80,000 in March?
+2026-03-30 02:02:48,380 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-30 02:02:48,680 [INFO] 
+🔍 #173 | thechainsmokers | Billionaire one-time wealth tax passes in California el
+2026-03-30 02:02:48,839 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-30 02:02:49,139 [INFO] 
+🔍 #174 | jocpolitic | Billionaire one-time wealth tax passes in California el
+2026-03-30 02:02:49,298 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-30 02:02:49,599 [INFO] 
+🔍 #180 | Blyra | Valorant: EDward Gaming vs G2 Esports - Map 2 Winner
+2026-03-30 02:02:49,774 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-30 02:02:50,074 [INFO] 
+🔍 #181 | HorribleWork | Will the US confirm that aliens exist before 2027?
+2026-03-30 02:02:50,246 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-30 02:02:50,546 [INFO] 
+🔍 #203 | Avataarr | Kimmer Coppejans vs. Ioannis Xilas: Total Sets O/U 2.5
+2026-03-30 02:02:50,705 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-30 02:02:51,006 [INFO] 
+🔍 #205 | Avataarr | Brunclik vs. Mrva: Match O/U 23.5
+2026-03-30 02:02:51,167 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-30 02:02:51,467 [INFO] 
+🔍 #208 | 0xa53e8fc4c2f9910E584dE69D8B40A502A638218d-1770806601195 | Russia x Ukraine ceasefire by end of 2026?
+2026-03-30 02:02:51,674 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-30 02:02:51,975 [INFO] 
+🔍 #210 | imjustafarmer | Russia x Ukraine ceasefire by end of 2026?
+2026-03-30 02:02:52,150 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-30 02:02:52,450 [INFO] 
+🔍 #227 | shimmyshake | Will the Iranian regime fall by June 30?
+2026-03-30 02:02:52,626 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-30 02:02:52,926 [INFO] 
+🔍 #238 | Anonimo | Will Arsenal win the 2025–26 English Premier League?
+2026-03-30 02:02:53,100 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-30 02:02:53,400 [INFO] 
+🔍 #249 | geniusMC | Will Arsenal win the 2025–26 English Premier League?
+2026-03-30 02:02:53,571 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-30 02:02:53,872 [INFO] 
+🔍 #277 | Harambebe | LoL: Lupus Esports vs Lenovo Legion Honvéd - Game 4 Win
+2026-03-30 02:02:54,049 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-30 02:02:54,349 [INFO] 
+🔍 #358 | gopfan2 | Will Flávio Bolsonaro win the 2026 Brazilian presidenti
+2026-03-30 02:02:54,522 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-30 02:02:54,823 [INFO] 
+🔍 #407 | Curseaaaaaaaa | Will the Iranian regime fall by June 30?
+2026-03-30 02:02:55,010 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-30 02:02:55,311 [INFO] 
+🔍 #410 | adelgranado | Will Bitcoin dip to $60,000 in March?
+2026-03-30 02:02:55,485 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-30 02:02:55,785 [INFO] 
+🔍 #415 | Harambebe | Honor of Kings: Xianyou Gaming vs Mighty Tiger Gaming -
+2026-03-30 02:02:55,956 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-30 02:02:56,257 [INFO] 
+🔍 #424 | LiLaoShi2 | US forces enter Iran by March 31?
+2026-03-30 02:02:56,417 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-30 02:02:56,717 [INFO] 
+🔍 #426 | 0xa53e8fc4c2f9910E584dE69D8B40A502A638218d-1770806601195 | Russia x Ukraine ceasefire by end of 2026?
+2026-03-30 02:02:56,891 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-30 02:02:57,191 [INFO] 
+🔍 #427 | 0xa53e8fc4c2f9910E584dE69D8B40A502A638218d-1770806601195 | Russia x Ukraine ceasefire by June 30, 2026?
+2026-03-30 02:02:57,354 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-30 02:02:57,655 [INFO] 
+🔍 #461 | sbimbg | Will Crude Oil (CL) hit (HIGH) $100 by end of March?
+2026-03-30 02:02:57,815 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-30 02:02:58,115 [INFO] 
+🔍 #462 | qwerty0x | Will Arsenal win the 2025–26 Champions League?
+2026-03-30 02:02:58,279 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-30 02:02:58,579 [INFO] 
+🔍 #464 | bettify26 | US x Iran ceasefire by March 31?
+2026-03-30 02:02:58,744 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-30 02:02:59,044 [INFO] 
+🔍 #474 | Cookiebetts | US forces enter Iran by March 31?
+2026-03-30 02:02:59,236 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-30 02:02:59,536 [INFO] ======================================================================
+2026-03-30 02:02:59,536 [INFO] RESUMEN DE SESIÓN
+2026-03-30 02:02:59,536 [INFO] ======================================================================
+2026-03-30 02:02:59,536 [INFO]   Tiers asignados:         0
+2026-03-30 02:02:59,536 [INFO]   Tiers fallidos:          0
+2026-03-30 02:02:59,536 [INFO]   Trades resueltos hoy:    0
+2026-03-30 02:02:59,536 [INFO]   Trades aún abiertos:     30
+2026-03-30 02:02:59,536 [INFO]   Sin conditionId:         69
+2026-03-30 02:02:59,536 [INFO]   Errores:                 0
+2026-03-30 02:02:59,536 [INFO] ======================================================================
+2026-03-30 02:02:59,536 [INFO] ======================================================================
+2026-03-30 02:02:59,536 [INFO] ESTADÍSTICAS — whale_signals Gold
+2026-03-30 02:02:59,536 [INFO] ======================================================================
+2026-03-30 02:02:59,890 [INFO] HTTP Request: GET https://ymxpqxzzlfltxlhwnisk.supabase.co/rest/v1/whale_signals?select=%2A "HTTP/2 200 OK"
+2026-03-30 02:02:59,993 [INFO]   Total registros:    517
+2026-03-30 02:02:59,993 [INFO]   Resueltos:          440  (Wins=261, Losses=179, WR=59.3%)
+2026-03-30 02:02:59,993 [INFO]   Abiertos:           77
+2026-03-30 02:02:59,994 [INFO]   Sin tier:           3
+2026-03-30 02:02:59,994 [INFO]   PnL teórico total:  $+2470.46
+2026-03-30 02:02:59,994 [INFO] 
+  Por tier (resueltos):
+2026-03-30 02:02:59,994 [INFO]     Sin tier               N=  3  WR= 66.7%  PnL=$   41.66
+2026-03-30 02:02:59,994 [INFO]     ⚠️ RISKY               N= 59  WR= 71.2%  PnL=$ 1538.31
+2026-03-30 02:02:59,994 [INFO]     💀 HIGH RISK            N=169  WR= 50.3%  PnL=$ -807.55
+2026-03-30 02:02:59,994 [INFO]     💎 DIAMOND              N=  1  WR=100.0%  PnL=$   51.52
+2026-03-30 02:02:59,994 [INFO]     📊 STANDARD             N= 56  WR= 67.9%  PnL=$  825.66
+2026-03-30 02:02:59,994 [INFO]     🤖 BOT/MM               N= 32  WR= 46.9%  PnL=$ -583.87
+2026-03-30 02:02:59,994 [INFO]     🥇 GOLD                 N= 20  WR= 75.0%  PnL=$  703.05
+2026-03-30 02:02:59,994 [INFO]     🥈 SILVER               N= 34  WR= 70.6%  PnL=$  774.37
+2026-03-30 02:02:59,994 [INFO]     🥉 BRONZE               N= 66  WR= 59.1%  PnL=$  -72.68
+2026-03-30 02:02:59,994 [INFO] ======================================================================

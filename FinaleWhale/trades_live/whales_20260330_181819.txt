@@ -1,0 +1,135 @@
+
+================================================================================
+MONITOR GOLD v3.0 INICIADO
+================================================================================
+Umbral de ballena:        $2,500.00 USD
+Intervalo de polling:     3 segundos
+Limite de trades/ciclo:   1000
+Ventana de tiempo:        30 minutos (solo trades recientes)
+Archivo de log:           trades_live/whales_20260330_181819.txt
+Trades en memoria:        5000
+Notificaciones Telegram:  ACTIVO
+Esperando trades...
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 43s — 🐋 BALLENA | username133 | 🥉 BRONZE
+================================================================================
+💰 Valor: $3,707.05 USD
+📊 Mercado: Spread: Timberwolves (-7.5)
+🔗 URL: https://polymarket.com/event/nba-min-dal-2026-03-30
+🎯 Outcome: Timberwolves
+📈 Lado: VENTA
+💵 Precio: 0.5400 (54.00%)
+📦 Volumen: $112,866.35
+🕐 Trade original: 2026-03-30 18:15:33
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: username133
+   Wallet: 0x00d5f82b59c8b8e72684bca5a3b50eee3db6ed84
+   Perfil: https://polymarket.com/profile/0x00d5f82b59c8b8e72684bca5a3b50eee3db6ed84
+   TX Hash: 0x3991c202732daa6f0b...e51a450233
+   TX URL: https://polygonscan.com/tx/0x3991c202732daa6f0b08710a704eeb2410e56f5aac03f6b7c93856e51a450233
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 DESACTIVADO v7.4 (global WR 35.3% N=51 — premisa refutada), S4 necesita CRYPTO (es NBA), S6 necesita ESPORTS (es NBA) | Sin FOLLOW: S2/S2B excluye SILVER/BRONZE (tier=🥉 BRONZE), S3 necesita mercado nicho
+================================================================================
+
+
+================================================================================
+🐋🐋🐋🐋 ULTRA BALLENA DETECTADA 🐋🐋🐋🐋
+================================================================================
+💰 Valor: $28,919.33 USD
+📊 Mercado: Spread: Hawks (-2.5)
+🔗 URL: https://polymarket.com/event/nba-bos-atl-2026-03-30
+🎯 Outcome: Hawks
+📈 Lado: COMPRA
+💵 Precio: 0.5200 (52.00%)
+📦 Volumen: $760,107.87
+🕐 Hora: 2026-03-30 18:20:27
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0x492442EaB586F242B53bDa933fD5dE859c8A3782-1766317541188
+   Wallet: 0x492442eab586f242b53bda933fd5de859c8a3782
+   Perfil: https://polymarket.com/profile/0x492442eab586f242b53bda933fd5de859c8a3782
+   TX Hash: 0x87f0700287607bb99b...b43ab89d41
+   TX URL: https://polygonscan.com/tx/0x87f0700287607bb99b2b2c605ab86a9cb8a066e94d4a1b90e26227b43ab89d41
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 DESACTIVADO v7.4 (global WR 35.3% N=51 — premisa refutada), S4 necesita CRYPTO (es NBA), S6 necesita ESPORTS (es NBA) | Sin FOLLOW: S2/S2B excluye 🤖 BOT/MM (no está en WHITELIST_TIER_OVERRIDE), S3 necesita mercado nicho
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 44s — 🐋 BALLENA | elshark206 | 💀 HIGH RISK
+================================================================================
+💰 Valor: $4,662.67 USD
+📊 Mercado: 76ers vs. Heat
+🔗 URL: https://polymarket.com/event/nba-phi-mia-2026-03-30
+🎯 Outcome: 76ers
+📈 Lado: VENTA
+💵 Precio: 0.5261 (52.61%)
+📦 Volumen: $2,538,891.35
+🕐 Trade original: 2026-03-30 18:20:39
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: elshark206
+   Wallet: 0x0eb75bf6f54794a83bd26095811f30b530161f17
+   Perfil: https://polymarket.com/profile/0x0eb75bf6f54794a83bd26095811f30b530161f17
+   TX Hash: 0x97f556bc87d029d0a0...0e25934aa3
+   TX URL: https://polygonscan.com/tx/0x97f556bc87d029d0a0441b6b290235f2ce4fb13d695177056cb37b0e25934aa3
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 DESACTIVADO v7.4 (global WR 35.3% N=51 — premisa refutada), S4 necesita CRYPTO (es NBA), S6 necesita ESPORTS (es NBA) | Sin FOLLOW: S2/S2B excluye 💀 HIGH RISK (no está en WHITELIST_TIER_OVERRIDE), S3 necesita mercado nicho
+================================================================================
+
+
+
+================================================================================
+RESUMEN DE SESION (GOLD v3.0)
+================================================================================
+Tiempo de monitoreo:     0h 18m 46s
+Total de ballenas:       9
+Ballenas capturadas:     3
+Ballenas ignoradas:      6
+Valor promedio:          $7,534.14 USD
+Ballena mas grande:      $28,919.33 USD
+   Mercado: Spread: Hawks (-2.5)...
+   Wallet: 0x492442eab586f242b5...
+Mercados monitoreados:   3
+
+Archivos guardados:
+   - trades_live/whales_20260330_181819.txt (log formateado)
+   - trades_live/historial_trades.json (historial de trades)
+
+TOP 5 MERCADOS CON MAS BALLENAS:
+   1. Spread: Timberwolves (-7.5)... (1 ballenas)
+   2. 76ers vs. Heat... (1 ballenas)
+   3. Spread: Hawks (-2.5)... (1 ballenas)
+
+================================================================================

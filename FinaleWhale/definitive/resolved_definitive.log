@@ -1,0 +1,935 @@
+2026-03-31 20:28:57,033 [INFO] ======================================================================
+2026-03-31 20:28:57,033 [INFO] TAREA 1 — ASIGNAR TIERS FALTANTES
+2026-03-31 20:28:57,033 [INFO] ======================================================================
+2026-03-31 20:28:57,922 [INFO] HTTP Request: GET https://enacybjlovvzvyoleeic.supabase.co/rest/v1/whale_signals?select=id%2Cdisplay_name%2Cdetected_at&tier=is.null&order=detected_at.desc "HTTP/2 200 OK"
+2026-03-31 20:28:58,122 [INFO] HTTP Request: GET https://enacybjlovvzvyoleeic.supabase.co/rest/v1/whale_signals?select=id%2Cdisplay_name%2Cdetected_at&tier=eq.&order=detected_at.desc "HTTP/2 200 OK"
+2026-03-31 20:28:58,123 [INFO] Registros sin tier: 0
+2026-03-31 20:28:58,123 [INFO] ======================================================================
+2026-03-31 20:28:58,123 [INFO] TAREA 2 — RESOLVER TRADES PENDIENTES
+2026-03-31 20:28:58,123 [INFO] ======================================================================
+2026-03-31 20:28:58,397 [INFO] HTTP Request: GET https://enacybjlovvzvyoleeic.supabase.co/rest/v1/whale_signals?select=%2A&resolved_at=is.null&detected_at=lt.2026-03-31T19%3A28%3A58.123255&order=detected_at.asc "HTTP/2 200 OK"
+2026-03-31 20:28:58,404 [INFO] Trades pendientes de resolución: 291
+2026-03-31 20:28:58,404 [INFO] 
+🔍 #56 | SmallFishInWhaleStomach | Russia x Ukraine ceasefire by June 30, 2026?
+2026-03-31 20:28:58,818 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:28:59,118 [INFO] 
+🔍 #62 | Rylai | Russia x Ukraine ceasefire by June 30, 2026?
+2026-03-31 20:28:59,292 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:28:59,592 [INFO] 
+🔍 #77 | ImJustKen | Will JD Vance win the 2028 US Presidential Election?
+2026-03-31 20:29:00,460 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:00,760 [INFO] 
+🔍 #80 | MajorMalfunction | Will Arsenal win the 2025–26 English Premier League?
+2026-03-31 20:29:00,942 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:01,243 [INFO] 
+🔍 #114 | Myway | US-Iran nuclear deal by June 30?
+2026-03-31 20:29:01,431 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:01,731 [INFO] 
+🔍 #160 | minisobaby | Will Trump visit China by March 31?
+2026-03-31 20:29:01,915 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:02,215 [INFO] 
+🔍 #202 | 204 | Will the next Prime Minister of Hungary be Viktor Orbán
+2026-03-31 20:29:02,439 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:02,739 [INFO] 
+🔍 #221 | Armin-1Q | MegaETH market cap (FDV) >$1B one day after launch?
+2026-03-31 20:29:03,035 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:03,335 [INFO] 
+🔍 #275 | Zbinik | Will United Russia (ER) gain the most seats in the next
+2026-03-31 20:29:03,531 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:03,831 [INFO] 
+🔍 #296 | ScottyNooo | Russia x Ukraine ceasefire by June 30, 2026?
+2026-03-31 20:29:04,011 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:04,311 [INFO] 
+🔍 #309 | TrangNgo | Will Lê Minh Hưng be the next Prime Minister of Vietnam
+2026-03-31 20:29:04,511 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:04,811 [INFO] 
+🔍 #353 | 0x41018795fa95783117242244303fd7e26e964ez3 | Will the Oklahoma City Thunder win the 2026 NBA Finals?
+2026-03-31 20:29:05,022 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:05,322 [INFO] 
+🔍 #414 | yomayo | Russia x Ukraine ceasefire by June 30, 2026?
+2026-03-31 20:29:05,520 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:05,820 [INFO] 
+🔍 #415 | RootedBoreal | Will Hibachi launch a token by December 31, 2026?
+2026-03-31 20:29:06,005 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:06,305 [INFO] 
+🔍 #417 | drakelover | Will Hibachi launch a token by December 31, 2026?
+2026-03-31 20:29:06,492 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:06,792 [INFO] 
+🔍 #435 | dogerton | Mexican Open: Sebastian Korda vs Mattia Bellucci
+2026-03-31 20:29:06,977 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:07,277 [INFO] 
+🔍 #481 | Elizandroitaperucu | Will Luiz Inácio Lula da Silva win the 2026 Brazilian p
+2026-03-31 20:29:07,485 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:07,785 [INFO] 
+🔍 #512 | LinkLindon | Will the Iranian regime fall before 2027?
+2026-03-31 20:29:08,016 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:08,316 [INFO] 
+🔍 #517 | Overlord36912 | Will Graham Platner be the Democratic nominee for Senat
+2026-03-31 20:29:08,509 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:08,809 [INFO] 
+🔍 #577 | dfgbfg | Ethereum flipped in 2026?
+2026-03-31 20:29:09,026 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:09,327 [INFO] 
+🔍 #678 | Jugernout | MegaETH market cap (FDV) >$2B one day after launch?
+2026-03-31 20:29:09,527 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:09,828 [INFO] 
+🔍 #707 | 3003ler | Will the US confirm that aliens exist before 2027?
+2026-03-31 20:29:10,034 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:10,334 [INFO] 
+🔍 #726 | yangyangj | Will the DHS shutdown end after March 31, 2026?
+2026-03-31 20:29:10,517 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:10,817 [INFO] 
+🔍 #754 | Lukasdxb2004 | Dubai Tennis Championships: Daniil Medvedev vs Tallon G
+2026-03-31 20:29:11,005 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:11,306 [INFO] 
+🔍 #774 | siick | US-Iran nuclear deal by March 31?
+2026-03-31 20:29:11,487 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:11,787 [INFO] 
+🔍 #809 | impliedbelief | Will Shai Gilgeous-Alexander win the 2025–2026 NBA MVP?
+2026-03-31 20:29:11,970 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:12,270 [INFO] 
+🔍 #814 | degensruletheworld | Will the Iranian regime fall by March 31?
+2026-03-31 20:29:12,489 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:12,789 [INFO] 
+🔍 #819 | CryptoWhale | Will the Iranian regime fall by March 31?
+2026-03-31 20:29:12,980 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:13,280 [INFO] 
+🔍 #831 | TOWERCAPITAL | Will the Iranian regime fall by March 31?
+2026-03-31 20:29:13,457 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:13,757 [INFO] 
+🔍 #847 | Anónimo | Will the Iranian regime fall by March 31?
+2026-03-31 20:29:13,939 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:14,239 [INFO] 
+🔍 #864 | Swerdlowzac | Will the Iranian regime fall by June 30?
+2026-03-31 20:29:14,420 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:14,720 [INFO] 
+🔍 #884 | Kingbeebee | Will the Iranian regime fall by March 31?
+2026-03-31 20:29:14,896 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:15,196 [INFO] 
+🔍 #886 | Fml | Will the Iranian regime fall by March 31?
+2026-03-31 20:29:15,381 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:15,681 [INFO] 
+🔍 #890 | 0x2521F9E74C0544c5F6ceF7cD1cEfBDD816c6eeC7-1771525984490 | Will the Iranian regime fall by March 31?
+2026-03-31 20:29:15,858 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:16,159 [INFO] 
+🔍 #891 | Stamap | Will the Iranian regime fall by June 30?
+2026-03-31 20:29:16,350 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:16,650 [INFO] 
+🔍 #892 | Balintsun2001 | Will the Iranian regime fall by March 31?
+2026-03-31 20:29:16,848 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:17,148 [INFO] 
+🔍 #923 | MisTKy | Will the Iranian regime fall by June 30?
+2026-03-31 20:29:17,338 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:17,638 [INFO] 
+🔍 #926 | DaOnepiece | Russia x Ukraine ceasefire by end of 2026?
+2026-03-31 20:29:17,811 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:18,111 [INFO] 
+🔍 #937 | liwancaishi | Will Ethereum dip to $1,600 in March?
+2026-03-31 20:29:18,285 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:18,585 [INFO] 
+🔍 #943 | TwoEyes | Will the US confirm that aliens exist before 2027?
+2026-03-31 20:29:18,768 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:19,068 [INFO] 
+🔍 #945 | Car | Will the Iranian regime fall by June 30?
+2026-03-31 20:29:19,241 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:19,542 [INFO] 
+🔍 #946 | azot | US forces enter Iran by March 31?
+2026-03-31 20:29:19,719 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:20,019 [INFO] 
+🔍 #970 | fersendo | Will Flávio Bolsonaro win the 2026 Brazilian presidenti
+2026-03-31 20:29:20,192 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:20,495 [INFO] 
+🔍 #971 | Neno | US x Iran ceasefire by April 30?
+2026-03-31 20:29:20,707 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:21,007 [INFO] 
+🔍 #974 | Miojinho | Will the US confirm that aliens exist before 2027?
+2026-03-31 20:29:21,180 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:21,480 [INFO] 
+🔍 #982 | 768543265 | Will US or Israel strike Iran first?
+2026-03-31 20:29:21,649 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:21,950 [INFO] 
+🔍 #986 | wan123 | Will the Iranian regime fall by March 31?
+2026-03-31 20:29:22,124 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:22,424 [INFO] 
+🔍 #992 | ScottyNooo | Will France, UK, or Germany strike Iran by March 31?
+2026-03-31 20:29:22,608 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:22,909 [INFO] 
+🔍 #1011 | aenews2 | Will US or Israel strike Iran first?
+2026-03-31 20:29:23,101 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:23,401 [INFO] 
+🔍 #1012 | tunatyler | Will the Iranian regime fall by June 30?
+2026-03-31 20:29:23,579 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:23,879 [INFO] 
+🔍 #1013 | tRail-sportman | US forces enter Iran by March 31?
+2026-03-31 20:29:24,082 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:24,382 [INFO] 
+🔍 #1015 | 0x8Fba3AA991dc7Df44f8A3b20A178e1781B7d433A-1771681824315 | Will the Iranian regime fall by March 31?
+2026-03-31 20:29:24,557 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:24,857 [INFO] 
+🔍 #1016 | hetaoban | Will Trump and Putin not meet?
+2026-03-31 20:29:25,033 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:25,333 [INFO] 
+🔍 #1017 | Dafiiii-1772416838078 | Will the Iranian regime fall by March 31?
+2026-03-31 20:29:25,517 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:25,818 [INFO] 
+🔍 #1018 | esportslover | Valorant: EDward Gaming vs G2 Esports (BO3) - VCT Maste
+2026-03-31 20:29:25,993 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:26,293 [INFO] 
+🔍 #1019 | jinsangzi | Will Israel strike 4 countries in 2026?
+2026-03-31 20:29:26,469 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:26,769 [INFO] 
+🔍 #1020 | Odysseus7 | Will the US confirm that aliens exist before 2027?
+2026-03-31 20:29:27,005 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:27,305 [INFO] 
+🔍 #1021 | InsiderrrZ | US x Iran ceasefire by April 30?
+2026-03-31 20:29:27,479 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:27,779 [INFO] 
+🔍 #1031 | xualsncanlsnlansclansclanlla | Will the Iranian regime fall before 2027?
+2026-03-31 20:29:27,968 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:28,268 [INFO] 
+🔍 #1032 | barcelonds | Will US or Israel strike Iran first?
+2026-03-31 20:29:28,443 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:28,744 [INFO] 
+🔍 #1035 | yydyjds | Will Israel strike 4 countries in 2026?
+2026-03-31 20:29:28,931 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:29,231 [INFO] 
+🔍 #1041 | tamas92k | Will the next Prime Minister of Hungary be Péter Magyar
+2026-03-31 20:29:29,412 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:29,712 [INFO] 
+🔍 #1043 | SEUcH4gRVxTc | Will the US conduct a cyberattack on Iran by March 31?
+2026-03-31 20:29:29,889 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:30,189 [INFO] 
+🔍 #1044 | mr.ozi | Will US or Israel strike Iran first?
+2026-03-31 20:29:30,409 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:30,709 [INFO] 
+🔍 #1046 | 0x8Fba3AA991dc7Df44f8A3b20A178e1781B7d433A-1771681824315 | Will France, UK, or Germany strike Iran by March 31?
+2026-03-31 20:29:30,883 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:31,183 [INFO] 
+🔍 #1047 | Liorp | Will US or Israel strike Iran first?
+2026-03-31 20:29:31,359 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:31,660 [INFO] 
+🔍 #1049 | cynical.reason | Will the Iranian regime fall by March 31?
+2026-03-31 20:29:31,842 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:32,142 [INFO] 
+🔍 #1050 | Goopah | Will Bitcoin dip to $60,000 in March?
+2026-03-31 20:29:32,310 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:32,610 [INFO] 
+🔍 #1066 | Blyra | Valorant: NRG vs Team Liquid - Map 2 Winner
+2026-03-31 20:29:33,528 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:33,829 [INFO] 
+🔍 #1067 | Polfirefly | Valorant: Paper Rex vs Gentle Mates (BO3) - VCT Masters
+2026-03-31 20:29:34,027 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:34,328 [INFO] 
+🔍 #1068 | Pestle | Valorant: Paper Rex vs Gentle Mates (BO3) - VCT Masters
+2026-03-31 20:29:34,507 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:34,807 [INFO] 
+🔍 #1070 | Dadyrus | Will Bitcoin reach $80,000 in March?
+2026-03-31 20:29:34,998 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:35,298 [INFO] 
+🔍 #1075 | ski55 | Valorant: Paper Rex vs Gentle Mates (BO3) - VCT Masters
+2026-03-31 20:29:35,482 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:35,783 [INFO] 
+🔍 #1076 | neutralwave23 | Will Bitcoin dip to $55,000 in March?
+2026-03-31 20:29:35,966 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:36,266 [INFO] 
+🔍 #1077 | SILF | Will the Iranian regime fall by March 31?
+2026-03-31 20:29:36,540 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:36,840 [INFO] 
+🔍 #1082 | thechainsmokers | Billionaire one-time wealth tax passes in California el
+2026-03-31 20:29:37,036 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:37,336 [INFO] 
+🔍 #1083 | jocpolitic | Billionaire one-time wealth tax passes in California el
+2026-03-31 20:29:37,541 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:37,841 [INFO] 
+🔍 #1098 | RedChk | Will Kim Dong-yeon win the 2026 Gyeonggi Province Guber
+2026-03-31 20:29:38,014 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:38,314 [INFO] 
+🔍 #1110 | Owynn | Valorant: EDward Gaming vs G2 Esports - Map 2 Winner
+2026-03-31 20:29:38,495 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:38,795 [INFO] 
+🔍 #1111 | HorribleWork | Will the US confirm that aliens exist before 2027?
+2026-03-31 20:29:38,967 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:39,267 [INFO] 
+🔍 #1132 | Anónimo | Will France, UK, or Germany strike Iran by March 31?
+2026-03-31 20:29:39,457 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:39,757 [INFO] 
+🔍 #1133 | 0x436f969D99c90191fBC2c629e6B7a1B754402c7F-1772236065502 | US x Iran ceasefire by March 31?
+2026-03-31 20:29:39,933 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:40,234 [INFO] 
+🔍 #1147 | idkwhatimdoinggg | Will US or Israel strike Iran first?
+2026-03-31 20:29:40,410 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:40,710 [INFO] 
+🔍 #1148 | Cyrra | Coppejans vs. Xilas: Match O/U 21.5
+2026-03-31 20:29:40,885 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:41,186 [INFO] 
+🔍 #1152 | Owynn | Coppejans vs. Xilas: Match O/U 22.5
+2026-03-31 20:29:41,363 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:41,663 [INFO] 
+🔍 #1154 | twe2nty | Will the Iranian regime fall by June 30?
+2026-03-31 20:29:41,834 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:42,135 [INFO] 
+🔍 #1158 | Htxclocks | Will Bitcoin reach $80,000 in March?
+2026-03-31 20:29:42,306 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:42,606 [INFO] 
+🔍 #1159 | archaic | Will the Iranian regime fall by March 31?
+2026-03-31 20:29:42,779 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:43,079 [INFO] 
+🔍 #1167 | 0xa53e8fc4c2f9910E584dE69D8B40A502A638218d-1770806601195 | Russia x Ukraine ceasefire by end of 2026?
+2026-03-31 20:29:43,251 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:43,551 [INFO] 
+🔍 #1169 | imjustafarmer | Russia x Ukraine ceasefire by end of 2026?
+2026-03-31 20:29:43,729 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:44,029 [INFO] 
+🔍 #1178 | poorpleb | Will US or Israel strike Iran first?
+2026-03-31 20:29:44,221 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:44,521 [INFO] 
+🔍 #1179 | TheQuietRisk | Will the Iranian regime fall by June 30?
+2026-03-31 20:29:44,693 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:44,994 [INFO] 
+🔍 #1202 | tunatyler | Will the Iranian regime fall by June 30?
+2026-03-31 20:29:45,175 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:45,476 [INFO] 
+🔍 #1203 | Canesclean | Will Ken Paxton win the 2026 Texas Republican Primary?
+2026-03-31 20:29:45,645 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:45,946 [INFO] 
+🔍 #1207 | shimmyshake | Will the Iranian regime fall by June 30?
+2026-03-31 20:29:46,184 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:46,484 [INFO] 
+🔍 #1214 | caunt | Will xAI have a #1 AI model by June 30?
+2026-03-31 20:29:46,654 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:46,954 [INFO] 
+🔍 #1227 | web5 | Will the Iranian regime fall by June 30?
+2026-03-31 20:29:47,128 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:47,428 [INFO] 
+🔍 #1231 | Anónimo | US x Iran ceasefire by May 31?
+2026-03-31 20:29:47,595 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:47,895 [INFO] 
+🔍 #1240 | 0xdE17f7144fbD0eddb2679132C10ff5e74B120988-1772205225932 | Will Bitcoin dip to $60,000 in March?
+2026-03-31 20:29:48,064 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:48,364 [INFO] 
+🔍 #1255 | 0x006cc834Cc092684F1B56626E23BEdB3835c16ea-1729683673397 | US forces enter Iran by March 31?
+2026-03-31 20:29:48,532 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:48,832 [INFO] 
+🔍 #1259 | 0x904f0deA2705eE84588D78809906325f6674c686-1772186635110 | Will the next Prime Minister of Hungary be Péter Magyar
+2026-03-31 20:29:49,006 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:49,307 [INFO] 
+🔍 #1277 | Mujurry | Will the Iranian regime fall by June 30?
+2026-03-31 20:29:49,486 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:49,787 [INFO] 
+🔍 #1298 | zalupatrader | Will the Iranian regime fall by June 30?
+2026-03-31 20:29:49,972 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:50,273 [INFO] 
+🔍 #1299 | png1024 | Iran x Israel/US conflict ends by March 31?
+2026-03-31 20:29:50,452 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:50,752 [INFO] 
+🔍 #1301 | 0x904f0deA2705eE84588D78809906325f6674c686-1772186635110 | Will the next Prime Minister of Hungary be Péter Magyar
+2026-03-31 20:29:50,935 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:51,235 [INFO] 
+🔍 #1303 | SaylorMC | US x Iran ceasefire by March 31?
+2026-03-31 20:29:51,409 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:51,709 [INFO] 
+🔍 #1307 | Scottp1887 | Will France, UK, or Germany strike Iran by March 31?
+2026-03-31 20:29:51,883 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:52,183 [INFO] 
+🔍 #1309 | ScroooogeMcDuck | LoL: Galions Sharks vs French Flair - Game 1 Winner
+2026-03-31 20:29:52,511 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:52,811 [INFO] 
+🔍 #1331 | uprightuser | Will France, UK, or Germany strike Iran by March 31?
+2026-03-31 20:29:52,993 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:53,293 [INFO] 
+🔍 #1338 | YatSen | Will the Iranian regime fall by June 30?
+2026-03-31 20:29:53,473 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:53,773 [INFO] 
+🔍 #1361 | wingwingwin | Will Bitcoin reach $80,000 in March?
+2026-03-31 20:29:53,952 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:54,252 [INFO] 
+🔍 #1377 | 0x8b71010f8D18CccE16a37434778117EE2d6b8044-1735105889785 | Will the Iranian regime fall by June 30?
+2026-03-31 20:29:54,434 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:54,734 [INFO] 
+🔍 #1378 | DoYouHearThePeopleSing | Will another country strike Iran by March 31?
+2026-03-31 20:29:54,920 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:55,220 [INFO] 
+🔍 #1382 | 877s8d8g89I9f8d98fd99ww2 | US x Iran ceasefire by March 31?
+2026-03-31 20:29:55,399 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:55,699 [INFO] 
+🔍 #1383 | aARSNT | Will the Iranian regime fall by June 30?
+2026-03-31 20:29:55,874 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:56,174 [INFO] 
+🔍 #1384 | peasant | US x Iran ceasefire by April 30?
+2026-03-31 20:29:56,349 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:56,649 [INFO] 
+🔍 #1399 | ozpreezy | Clarity Act signed into law in 2026?
+2026-03-31 20:29:56,827 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:57,127 [INFO] 
+🔍 #1402 | Pnpnpnpn | Will Bitcoin dip to $60,000 in March?
+2026-03-31 20:29:57,300 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:57,600 [INFO] 
+🔍 #1492 | oneday. | US x Iran ceasefire by March 31?
+2026-03-31 20:29:57,779 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:58,080 [INFO] 
+🔍 #1502 | 0xB7a3B2923eB00ab865531f81dA5AeB6c66AC1807-1771460592065 | Will the Iranian regime fall by April 30?
+2026-03-31 20:29:58,257 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:58,557 [INFO] 
+🔍 #1513 | lumetea | Will Mercedes be the 2026 F1 Constructors' Champion?
+2026-03-31 20:29:58,731 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:59,031 [INFO] 
+🔍 #1532 | gopfan2 | Will Flávio Bolsonaro win the 2026 Brazilian presidenti
+2026-03-31 20:29:59,205 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:59,505 [INFO] 
+🔍 #1545 | Fuyez | US x Iran ceasefire by April 30?
+2026-03-31 20:29:59,685 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:29:59,985 [INFO] 
+🔍 #1571 | 0x2120ea0323FCF5446233056467FDB852B4b12647-1770197992573 | US x Iran ceasefire by March 31?
+2026-03-31 20:30:00,162 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:00,462 [INFO] 
+🔍 #1589 | JohanKatz | US forces enter Iran by March 31?
+2026-03-31 20:30:00,635 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:00,935 [INFO] 
+🔍 #1592 | davisb12 | Will the US accuse Iran of Oslo Embassy attack?
+2026-03-31 20:30:01,126 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:01,427 [INFO] 
+🔍 #1597 | lava-lava | Will Crude Oil (CL) hit (HIGH) $110 by end of March?
+2026-03-31 20:30:01,606 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:01,906 [INFO] 
+🔍 #1604 | Harambebe | Valorant: Team Liquid Academy vs Enterprise Esports - M
+2026-03-31 20:30:02,084 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:02,384 [INFO] 
+🔍 #1609 | Romero7 | Will the Iranian regime fall by June 30?
+2026-03-31 20:30:02,583 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:02,883 [INFO] 
+🔍 #1621 | UCF-BIGGEST-FAN | US forces enter Iran by March 31?
+2026-03-31 20:30:03,078 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:03,378 [INFO] 
+🔍 #1630 | 0xBE482CD6e5183BE8767f03b48EBc3FF35769683f-1768081000582 | US x Iran ceasefire by April 30?
+2026-03-31 20:30:03,593 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:03,893 [INFO] 
+🔍 #1632 | TransGamer | US x Iran ceasefire by March 31?
+2026-03-31 20:30:04,076 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:04,376 [INFO] 
+🔍 #1635 | RecursiveDragon | Will John Cornyn win the 2026 Texas Republican Primary?
+2026-03-31 20:30:04,564 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:04,864 [INFO] 
+🔍 #1641 | Itlalica | Call of Duty: Toronto KOI vs Boston Breach - Game 4 Win
+2026-03-31 20:30:05,040 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:05,340 [INFO] 
+🔍 #1646 | walterw3 | Will the Iranian regime fall by June 30?
+2026-03-31 20:30:05,528 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:06,535 [INFO] 
+🔍 #1649 | Albert 1953 | Will Silver (SI) hit (HIGH) $120 by end of June?
+2026-03-31 20:30:06,718 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:07,018 [INFO] 
+🔍 #1657 | just.some.guy.2026 | US forces enter Iran by March 31?
+2026-03-31 20:30:07,202 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:07,502 [INFO] 
+🔍 #1663 | laurel | Metamask FDV above $700M one day after launch?
+2026-03-31 20:30:07,690 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:07,990 [INFO] 
+🔍 #1666 | Curseaaaaaaaa | Will the Iranian regime fall by June 30?
+2026-03-31 20:30:08,186 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:08,486 [INFO] 
+🔍 #1670 | AishahSofey | Will the Iranian regime fall by June 30?
+2026-03-31 20:30:08,670 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:08,971 [INFO] 
+🔍 #1677 | itscherry | Russia x Ukraine ceasefire by end of 2026?
+2026-03-31 20:30:09,166 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:09,467 [INFO] 
+🔍 #1679 | adelgranado | Will Bitcoin dip to $60,000 in March?
+2026-03-31 20:30:09,648 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:09,948 [INFO] 
+🔍 #1680 | niki34 | Will George Russell be the 2026 F1 Drivers' Champion?
+2026-03-31 20:30:10,119 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:10,419 [INFO] 
+🔍 #1683 | Flancho | Will the Iranian regime fall by April 30?
+2026-03-31 20:30:10,607 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:10,908 [INFO] 
+🔍 #1685 | DECREE | Will the Iranian regime fall by June 30?
+2026-03-31 20:30:11,093 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:11,393 [INFO] 
+🔍 #1708 | Anónimo | US recognizes Reza Pahlavi as leader of Iran in 2026?
+2026-03-31 20:30:11,584 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:11,885 [INFO] 
+🔍 #1713 | LiLaoShi2 | US forces enter Iran by March 31?
+2026-03-31 20:30:12,060 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:12,361 [INFO] 
+🔍 #1718 | MindReader0x | Iran leadership change by April 30?
+2026-03-31 20:30:12,536 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:12,836 [INFO] 
+🔍 #1723 | 0xa53e8fc4c2f9910E584dE69D8B40A502A638218d-1770806601195 | Russia x Ukraine ceasefire by end of 2026?
+2026-03-31 20:30:13,085 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:13,386 [INFO] 
+🔍 #1726 | starbuck02 | Counter-Strike: eternal premium vs MASONIC (BO3) - ESEA
+2026-03-31 20:30:13,573 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:13,873 [INFO] 
+🔍 #1737 | TransGamer | US x Iran ceasefire by March 31?
+2026-03-31 20:30:14,043 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:14,343 [INFO] 
+🔍 #1742 | 99problems123 | US x Iran ceasefire by March 31?
+2026-03-31 20:30:14,525 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:14,826 [INFO] 
+🔍 #1743 | ScottyNooo | Will the Iranian regime fall by June 30?
+2026-03-31 20:30:15,007 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:15,307 [INFO] 
+🔍 #1747 | philmaxwell | Will the Iranian regime fall by June 30?
+2026-03-31 20:30:15,475 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:15,775 [INFO] 
+🔍 #1748 | azzidu | Will MegaETH perform an airdrop by June 30? 
+2026-03-31 20:30:16,013 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:16,313 [INFO] 
+🔍 #1750 | janena | Will Gold (GC) hit (HIGH) $5,500 by end of June?
+2026-03-31 20:30:16,504 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:16,804 [INFO] 
+🔍 #1751 | wan123 | US x Iran ceasefire by March 31?
+2026-03-31 20:30:16,980 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:17,281 [INFO] 
+🔍 #1752 | cynical.reason | US x Iran ceasefire by March 31?
+2026-03-31 20:30:17,446 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:17,746 [INFO] 
+🔍 #1754 | Arbguy | Will another country strike Iran by March 31?
+2026-03-31 20:30:17,918 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:18,218 [INFO] 
+🔍 #1755 | Snow-White | US x Iran ceasefire by March 31?
+2026-03-31 20:30:18,393 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:18,693 [INFO] 
+🔍 #1758 | memento-mori | Iran leadership change by December 31?
+2026-03-31 20:30:18,870 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:19,170 [INFO] 
+🔍 #1767 | coco040678 | Will Crude Oil (CL) hit (HIGH) $120 by end of March?
+2026-03-31 20:30:19,341 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:19,642 [INFO] 
+🔍 #1776 | Maratk87 | Will Crude Oil (CL) hit (HIGH) $110 by end of March?
+2026-03-31 20:30:19,813 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:20,113 [INFO] 
+🔍 #1782 | cato75deandre | Will Gavin Newsom win the 2028 Democratic presidential 
+2026-03-31 20:30:20,292 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:20,592 [INFO] 
+🔍 #1783 | Theophilus489 | Will Gavin Newsom win the 2028 Democratic presidential 
+2026-03-31 20:30:20,770 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:21,070 [INFO] 
+🔍 #1793 | sidechair1 | US x Iran ceasefire by March 31?
+2026-03-31 20:30:21,246 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:21,546 [INFO] 
+🔍 #1795 | crawMetox | Will Clavicular go clubbing 9-10 times in March?
+2026-03-31 20:30:21,718 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:22,018 [INFO] 
+🔍 #1802 | Anónimo | US forces enter Iran by March 31?
+2026-03-31 20:30:22,190 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:22,490 [INFO] 
+🔍 #1807 | Anónimo | Trump announces end of military operations against Iran
+2026-03-31 20:30:22,665 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:22,966 [INFO] 
+🔍 #1830 | ppxtu | Will Crude Oil (CL) hit (HIGH) $120 by end of March?
+2026-03-31 20:30:23,140 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:23,440 [INFO] 
+🔍 #1833 | qwerty0x | Will Arsenal win the 2025–26 Champions League?
+2026-03-31 20:30:23,616 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:23,916 [INFO] 
+🔍 #1835 | bettify26 | US x Iran ceasefire by March 31?
+2026-03-31 20:30:24,097 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:24,397 [INFO] 
+🔍 #1843 | Starsee | US forces enter Iran by December 31?
+2026-03-31 20:30:24,577 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:24,877 [INFO] 
+🔍 #1853 | Czforty | Will the Iranian regime fall before 2027?
+2026-03-31 20:30:25,086 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:25,386 [INFO] 
+🔍 #1855 | PoppingChairmanMao | US x Iran ceasefire by March 31?
+2026-03-31 20:30:25,558 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:25,858 [INFO] 
+🔍 #1856 | Anónimo | Will the Iranian regime fall by June 30?
+2026-03-31 20:30:26,036 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:26,337 [INFO] 
+🔍 #1859 | mombil | US x Iran ceasefire by April 30?
+2026-03-31 20:30:26,516 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:26,816 [INFO] 
+🔍 #1865 | Crampus | Will the Iranian regime fall before 2027?
+2026-03-31 20:30:26,991 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:27,291 [INFO] 
+🔍 #1866 | Cookiebetts | US forces enter Iran by March 31?
+2026-03-31 20:30:27,458 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:27,758 [INFO] 
+🔍 #1888 | egas | Ink FDV above $500M one day after launch?
+2026-03-31 20:30:27,937 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:28,238 [INFO] 
+🔍 #1894 | back-in-whack | Will Bitcoin reach $80,000 in March?
+2026-03-31 20:30:28,413 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:28,713 [INFO] 
+🔍 #1898 | PantheraUncia | US x Iran ceasefire by March 31?
+2026-03-31 20:30:28,884 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:29,184 [INFO] 
+🔍 #1900 | VladimirPutIn | Will Crude Oil (CL) hit (HIGH) $110 by end of March?
+2026-03-31 20:30:29,361 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:29,661 [INFO] 
+🔍 #1908 | 8934394839 | US x Iran ceasefire by May 31?
+2026-03-31 20:30:29,840 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:30,140 [INFO] 
+🔍 #1927 | SwissMiss | US forces enter Iran by March 31?
+2026-03-31 20:30:30,318 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:30,618 [INFO] 
+🔍 #1935 | JudgeLance | Will Ethereum dip to $1,800 in March?
+2026-03-31 20:30:30,813 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:31,113 [INFO] 
+🔍 #1937 | Avannn | Set 1 Winner: Cazaux vs Basilashvili
+2026-03-31 20:30:31,287 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:31,588 [INFO] 
+🔍 #1940 | Itlalica | Map 3: Odd/Even Total Kills?
+2026-03-31 20:30:31,763 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:32,063 [INFO] 
+🔍 #1943 | Harambebe | Map 3: Odd/Even Total Kills?
+2026-03-31 20:30:32,234 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:32,535 [INFO] 
+🔍 #1944 | 0x2Eb5714FF6f20f5F9f7662c556DBEF5e1c9bf4D | Will Bitcoin dip to $35,000 by December 31, 2026?
+2026-03-31 20:30:32,716 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:33,017 [INFO] 
+🔍 #1946 | pegfault | Billionaire one-time wealth tax passes in California el
+2026-03-31 20:30:33,196 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:33,497 [INFO] 
+🔍 #1948 | Huludubu | US forces enter Iran by March 31?
+2026-03-31 20:30:33,685 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:33,985 [INFO] 
+🔍 #1950 | shenxea | Israel x Hamas Ceasefire Phase II by June 30?
+2026-03-31 20:30:34,165 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:34,466 [INFO] 
+🔍 #1951 | 0x174B27feF5E1C06ed52c1DDFF29720b23cb65A55-1766575695801 | US x Iran ceasefire by March 31?
+2026-03-31 20:30:34,649 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:34,949 [INFO] 
+🔍 #1956 | Anónimo | Will Gavin Newsom win the 2028 Democratic presidential 
+2026-03-31 20:30:35,209 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:35,509 [INFO] 
+🔍 #1957 | classified | US x Iran ceasefire by April 30?
+2026-03-31 20:30:35,703 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:36,003 [INFO] 
+🔍 #1958 | lianany | Will the DHS shutdown end after March 31, 2026?
+2026-03-31 20:30:36,175 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:36,475 [INFO] 
+🔍 #1967 | PantheraUncia | US x Iran ceasefire by March 31?
+2026-03-31 20:30:36,648 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:36,948 [INFO] 
+🔍 #1970 | Itlalica | Map 3: Odd/Even Total Kills?
+2026-03-31 20:30:37,151 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:37,451 [INFO] 
+🔍 #1978 | 0x94885a3566cd74f28e0346F22a4Bf002046aD531-1770164050408 | US forces enter Iran by December 31?
+2026-03-31 20:30:37,623 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:37,923 [INFO] 
+🔍 #1987 | 0xf3A4710f66a6D9EeB081aF71dc7b7Fb5D1ac097f-1728394889999 | US forces enter Iran by December 31?
+2026-03-31 20:30:38,101 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:38,401 [INFO] 
+🔍 #1989 | redvinny | Will Janet Mills be the Democratic nominee for Senate i
+2026-03-31 20:30:38,582 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:39,593 [INFO] 
+🔍 #1994 | 0xD324e20e3462d859a2913C5bfD162Ed7F9Aeb23c-1773152871743 | US x Iran ceasefire by March 31?
+2026-03-31 20:30:39,775 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:40,076 [INFO] 
+🔍 #2011 | aARSNT | Will the Iranian regime fall by June 30?
+2026-03-31 20:30:40,247 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:40,547 [INFO] 
+🔍 #2017 | bigdollapapi | US forces enter Iran by December 31?
+2026-03-31 20:30:40,737 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:41,038 [INFO] 
+🔍 #2020 | 8934394839 | US x Iran ceasefire by June 30?
+2026-03-31 20:30:41,236 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:41,537 [INFO] 
+🔍 #2034 | Owynn | Map 3: Odd/Even Total Rounds?
+2026-03-31 20:30:41,711 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:42,011 [INFO] 
+🔍 #2040 | BTCFudder | Will the Iranian regime fall by June 30?
+2026-03-31 20:30:42,192 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:42,493 [INFO] 
+🔍 #2050 | andrez | Will Bitcoin reach $80,000 in March?
+2026-03-31 20:30:42,685 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:42,985 [INFO] 
+🔍 #2070 | Avnnnn | Map 3: Odd/Even Total Rounds?
+2026-03-31 20:30:43,161 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:43,461 [INFO] 
+🔍 #2073 | Extreme77 | Will the U.S. invade Iran by March 31?
+2026-03-31 20:30:43,643 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:43,943 [INFO] 
+🔍 #2074 | Cronozzz | Map 3: Odd/Even Total Kills?
+2026-03-31 20:30:44,123 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:44,423 [INFO] 
+🔍 #2078 | MyDadsMoney | US x Iran ceasefire by April 30?
+2026-03-31 20:30:44,596 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:44,896 [INFO] 
+🔍 #2086 | ScottyNooo | Will the Iranian regime fall before 2027?
+2026-03-31 20:30:45,068 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:45,368 [INFO] 
+🔍 #2104 | BadTattoo | Will Ethereum dip to $1,800 in March?
+2026-03-31 20:30:45,708 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:46,008 [INFO] 
+🔍 #2131 | bluecable | Will the Iranian regime fall before 2027?
+2026-03-31 20:30:46,188 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:46,488 [INFO] 
+🔍 #2140 | boyau74 | Will Crude Oil (CL) hit (HIGH) $105 by end of March?
+2026-03-31 20:30:46,668 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:46,968 [INFO] 
+🔍 #2141 | XVFlow | US forces enter Iran by April 30?
+2026-03-31 20:30:47,146 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:47,447 [INFO] 
+🔍 #2142 | xiuzhu | US forces enter Iran by April 30?
+2026-03-31 20:30:47,618 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:47,918 [INFO] 
+🔍 #2144 | haixing | Will Harry Kane win the 2026 Ballon d'Or?
+2026-03-31 20:30:48,095 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:48,396 [INFO] 
+🔍 #2145 | xianggu | Will Harry Kane win the 2026 Ballon d'Or?
+2026-03-31 20:30:48,576 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:48,876 [INFO] 
+🔍 #2146 | TheQuietRisk | US forces enter Iran by April 30?
+2026-03-31 20:30:49,054 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:49,354 [INFO] 
+🔍 #2148 | Huludubu | Will the Iranian regime fall by June 30?
+2026-03-31 20:30:49,536 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:49,836 [INFO] 
+🔍 #2150 | Vancity600 | US forces enter Iran by April 30?
+2026-03-31 20:30:50,016 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:50,316 [INFO] 
+🔍 #2151 | Fingersd | Islanders vs. Sabres
+2026-03-31 20:30:50,493 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:50,794 [INFO] 
+🔍 #2156 | fwfwefweg | US x Iran ceasefire by April 15?
+2026-03-31 20:30:50,981 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:51,281 [INFO] 
+🔍 #2157 | StudentMoney | US x Iran ceasefire by April 15?
+2026-03-31 20:30:51,461 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:51,761 [INFO] 
+🔍 #2164 | sleepy-panda | Arizona Wildcats vs. Michigan Wolverines
+2026-03-31 20:30:51,954 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:52,254 [INFO] 
+🔍 #2172 | Casablanca10 | Will Crude Oil (CL) hit (HIGH) $105 by end of March?
+2026-03-31 20:30:52,429 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:52,729 [INFO] 
+🔍 #2174 | NEHenjoyer | US x Iran ceasefire by April 30?
+2026-03-31 20:30:52,907 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:53,207 [INFO] 
+🔍 #2175 | GrokEnjoyer | Will the Iranian regime fall before 2027?
+2026-03-31 20:30:53,389 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:53,689 [INFO] 
+🔍 #2177 | quavoo | Will Denmark win on 2026-03-31?
+2026-03-31 20:30:54,267 [INFO] HTTP Request: PATCH https://enacybjlovvzvyoleeic.supabase.co/rest/v1/whale_signals?id=eq.2177 "HTTP/2 200 OK"
+2026-03-31 20:30:54,267 [INFO]    ❌ LOSS | Ganó: No | Ballena apostó: Yes (BUY) | PnL: $-100.00
+2026-03-31 20:30:54,768 [INFO] 
+🔍 #2188 | 0x5C74341106DB2c4A493A3a43B9a0db0c531C4Ef0-1769797201404 | Will Denmark win on 2026-03-31?
+2026-03-31 20:30:55,190 [INFO] HTTP Request: PATCH https://enacybjlovvzvyoleeic.supabase.co/rest/v1/whale_signals?id=eq.2188 "HTTP/2 200 OK"
+2026-03-31 20:30:55,190 [INFO]    ❌ LOSS | Ganó: No | Ballena apostó: Yes (BUY) | PnL: $-100.00
+2026-03-31 20:30:55,690 [INFO] 
+🔍 #2193 | 0xAE7FcEb5828Ad56356283188B505939D057F31c9-1768585935728 | Will Mojtaba Khamenei be head of state in Iran end of 2
+2026-03-31 20:30:55,873 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:56,173 [INFO] 
+🔍 #2194 | gransaaa | Will Türkiye win on 2026-03-31?
+2026-03-31 20:30:56,494 [INFO] HTTP Request: PATCH https://enacybjlovvzvyoleeic.supabase.co/rest/v1/whale_signals?id=eq.2194 "HTTP/2 200 OK"
+2026-03-31 20:30:56,494 [INFO]    ❌ LOSS | Ganó: Yes | Ballena apostó: No (BUY) | PnL: $-100.00
+2026-03-31 20:30:56,995 [INFO] 
+🔍 #2195 | eluansh | Discord IPO before 2027?
+2026-03-31 20:30:57,168 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:57,468 [INFO] 
+🔍 #2199 | Contrariandog | Will Denmark win on 2026-03-31?
+2026-03-31 20:30:57,825 [INFO] HTTP Request: PATCH https://enacybjlovvzvyoleeic.supabase.co/rest/v1/whale_signals?id=eq.2199 "HTTP/2 200 OK"
+2026-03-31 20:30:57,825 [INFO]    ❌ LOSS | Ganó: No | Ballena apostó: Yes (BUY) | PnL: $-100.00
+2026-03-31 20:30:58,326 [INFO] 
+🔍 #2201 | bobi13 | US forces enter Iran by April 30?
+2026-03-31 20:30:58,501 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:58,801 [INFO] 
+🔍 #2202 | weflyhigh | Islanders vs. Sabres
+2026-03-31 20:30:58,977 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:59,278 [INFO] 
+🔍 #2204 | qizhan | US forces enter Iran by December 31?
+2026-03-31 20:30:59,453 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:30:59,753 [INFO] 
+🔍 #2206 | 6482f | US forces enter Iran by December 31?
+2026-03-31 20:30:59,927 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:31:00,227 [INFO] 
+🔍 #2207 | Certify0148 | US forces enter Iran by April 30?
+2026-03-31 20:31:00,406 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:31:00,706 [INFO] 
+🔍 #2209 | mefre2 | Will the next Prime Minister of Hungary be Péter Magyar
+2026-03-31 20:31:00,888 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:31:01,188 [INFO] 
+🔍 #2211 | epch | MegaETH market cap (FDV) >$1B one day after launch?
+2026-03-31 20:31:01,378 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:31:01,678 [INFO] 
+🔍 #2212 | swisstony | Will Denmark win on 2026-03-31?
+2026-03-31 20:31:02,170 [INFO] HTTP Request: PATCH https://enacybjlovvzvyoleeic.supabase.co/rest/v1/whale_signals?id=eq.2212 "HTTP/2 200 OK"
+2026-03-31 20:31:02,171 [INFO]    ❌ LOSS | Ganó: No | Ballena apostó: Yes (BUY) | PnL: $-100.00
+2026-03-31 20:31:02,671 [INFO] 
+🔍 #2214 | jtwyslljy | Senators vs. Panthers
+2026-03-31 20:31:02,848 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:31:03,148 [INFO] 
+🔍 #2217 | weflyhigh | Jets vs. Blackhawks
+2026-03-31 20:31:03,324 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:31:03,624 [INFO] 
+🔍 #2218 | GothABG | US x Iran ceasefire by April 30?
+2026-03-31 20:31:03,799 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:31:04,099 [INFO] 
+🔍 #2220 | sportbetss | US forces enter Iran by April 30?
+2026-03-31 20:31:04,278 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:31:04,579 [INFO] 
+🔍 #2221 | SeniorLaghetto | US x Iran ceasefire by April 30?
+2026-03-31 20:31:04,768 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:31:05,068 [INFO] 
+🔍 #2222 | NiFengFanPan | Islanders vs. Sabres
+2026-03-31 20:31:05,257 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:31:05,558 [INFO] 
+🔍 #2224 | batya1 | Will Türkiye win on 2026-03-31?
+2026-03-31 20:31:05,942 [INFO] HTTP Request: PATCH https://enacybjlovvzvyoleeic.supabase.co/rest/v1/whale_signals?id=eq.2224 "HTTP/2 200 OK"
+2026-03-31 20:31:05,942 [INFO]    ❌ LOSS | Ganó: Yes | Ballena apostó: No (BUY) | PnL: $-100.00
+2026-03-31 20:31:06,442 [INFO] 
+🔍 #2225 | qqzhi4527 | Will Denmark win on 2026-03-31?
+2026-03-31 20:31:06,827 [INFO] HTTP Request: PATCH https://enacybjlovvzvyoleeic.supabase.co/rest/v1/whale_signals?id=eq.2225 "HTTP/2 200 OK"
+2026-03-31 20:31:06,828 [INFO]    ❌ LOSS | Ganó: No | Ballena apostó: Yes (BUY) | PnL: $-100.00
+2026-03-31 20:31:07,328 [INFO] 
+🔍 #2226 | Jdhdhduu | Canadiens vs. Lightning
+2026-03-31 20:31:07,510 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:31:07,811 [INFO] 
+🔍 #2227 | EIf | Devils vs. Rangers
+2026-03-31 20:31:07,991 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:31:08,291 [INFO] 
+🔍 #2228 | CarlosMC | Texas Rangers vs. Baltimore Orioles
+2026-03-31 20:31:08,474 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:31:08,775 [INFO] 
+🔍 #2230 | lebi4ik | US forces enter Iran by April 30?
+2026-03-31 20:31:08,957 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:31:09,257 [INFO] 
+🔍 #2232 | Alirgiderim | Will Türkiye win on 2026-03-31?
+2026-03-31 20:31:09,714 [INFO] HTTP Request: PATCH https://enacybjlovvzvyoleeic.supabase.co/rest/v1/whale_signals?id=eq.2232 "HTTP/2 200 OK"
+2026-03-31 20:31:09,714 [INFO]    ✅ WIN | Ganó: Yes | Ballena apostó: Yes (BUY) | PnL: $+100.82
+2026-03-31 20:31:10,215 [INFO] 
+🔍 #2233 | middleoftheocean | Will Denmark qualify for the 2026 FIFA World Cup?
+2026-03-31 20:31:10,582 [INFO] HTTP Request: PATCH https://enacybjlovvzvyoleeic.supabase.co/rest/v1/whale_signals?id=eq.2233 "HTTP/2 200 OK"
+2026-03-31 20:31:10,583 [INFO]    ❌ LOSS | Ganó: No | Ballena apostó: Yes (BUY) | PnL: $-100.00
+2026-03-31 20:31:11,083 [INFO] 
+🔍 #2234 | TheOnlyHuman | Mavericks vs. Bucks
+2026-03-31 20:31:11,273 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:31:12,306 [INFO] 
+🔍 #2235 | 0x2a2C53bD278c04DA9962Fcf96490E17F3DfB9Bc1-1772479215461 | Counter-Strike: Monte vs Passion UA (BO3) - DraculaN Pl
+2026-03-31 20:31:12,672 [INFO] HTTP Request: PATCH https://enacybjlovvzvyoleeic.supabase.co/rest/v1/whale_signals?id=eq.2235 "HTTP/2 200 OK"
+2026-03-31 20:31:12,673 [INFO]    ❌ LOSS | Ganó: Monte | Ballena apostó: Passion UA (BUY) | PnL: $-100.00
+2026-03-31 20:31:13,173 [INFO] 
+🔍 #2236 | us97 | Will Poland win on 2026-03-31?
+2026-03-31 20:31:13,602 [INFO] HTTP Request: PATCH https://enacybjlovvzvyoleeic.supabase.co/rest/v1/whale_signals?id=eq.2236 "HTTP/2 200 OK"
+2026-03-31 20:31:13,602 [INFO]    ✅ WIN | Ganó: No | Ballena apostó: No (BUY) | PnL: $+35.14
+2026-03-31 20:31:14,103 [INFO] 
+🔍 #2237 | 0x748e8Ce670909C5FBdbbb3c1af79C1C45C8D0325-1772049274775 | Trump announces end of military operations against Iran
+2026-03-31 20:31:14,281 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:31:14,582 [INFO] 
+🔍 #2238 | Radar | US x Iran ceasefire by April 15?
+2026-03-31 20:31:14,775 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:31:15,075 [INFO] 
+🔍 #2239 | Brunoruno | Suns vs. Magic
+2026-03-31 20:31:15,262 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:31:15,563 [INFO] 
+🔍 #2240 | Elonurmom | Will Elon Musk post 260-279 tweets from March 27 to Apr
+2026-03-31 20:31:15,742 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:31:16,042 [INFO] 
+🔍 #2241 | RealityTwister | Spread: Magic (-2.5)
+2026-03-31 20:31:16,217 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:31:16,517 [INFO] 
+🔍 #2242 | gulliver4 | US forces enter Iran by April 30?
+2026-03-31 20:31:16,694 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:31:16,994 [INFO] 
+🔍 #2243 | v131v | Russia x Ukraine ceasefire by end of 2026?
+2026-03-31 20:31:17,186 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:31:17,486 [INFO] 
+🔍 #2244 | sjqdhqsjgd65 | Credit One Charleston Open: Polina Kudermetova vs Oleks
+2026-03-31 20:31:17,818 [INFO] HTTP Request: PATCH https://enacybjlovvzvyoleeic.supabase.co/rest/v1/whale_signals?id=eq.2244 "HTTP/2 200 OK"
+2026-03-31 20:31:17,818 [INFO]    ❌ LOSS | Ganó: Polina Kudermetova | Ballena apostó: Oleksandra Oliynykova (BUY) | PnL: $-100.00
+2026-03-31 20:31:18,318 [INFO] 
+🔍 #2245 | suvorov | Strait of Hormuz traffic returns to normal by end of Ap
+2026-03-31 20:31:18,494 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:31:18,794 [INFO] 
+🔍 #2246 | ltz-duru | Copa Colsanitas: Hanne Vandewinkel vs Sofia Costoulas
+2026-03-31 20:31:19,147 [INFO] HTTP Request: PATCH https://enacybjlovvzvyoleeic.supabase.co/rest/v1/whale_signals?id=eq.2246 "HTTP/2 200 OK"
+2026-03-31 20:31:19,148 [INFO]    ✅ WIN | Ganó: Hanne Vandewinkel | Ballena apostó: Hanne Vandewinkel (BUY) | PnL: $+66.67
+2026-03-31 20:31:19,648 [INFO] 
+🔍 #2247 | Bgf56 | Will SpaceX's public ticker be $X?
+2026-03-31 20:31:19,823 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:31:20,123 [INFO] 
+🔍 #2248 | classified | Will Mojtaba Khamenei be head of state in Iran end of 2
+2026-03-31 20:31:20,297 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:31:20,597 [INFO] 
+🔍 #2249 | bcda | Cavaliers vs. Lakers
+2026-03-31 20:31:20,781 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:31:21,081 [INFO] 
+🔍 #2250 | Dropper | US x Iran ceasefire by April 15?
+2026-03-31 20:31:21,260 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:31:21,561 [INFO] 
+🔍 #2251 | Wintermute-Sport | Will United States win on 2026-03-31?
+2026-03-31 20:31:21,732 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:31:22,032 [INFO] 
+🔍 #2252 | EIf | Tampa Bay Rays vs. Milwaukee Brewers
+2026-03-31 20:31:22,213 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:31:22,513 [INFO] 
+🔍 #2253 | igetlitty | Kraken vs. Oilers
+2026-03-31 20:31:22,689 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:31:22,989 [INFO] 
+🔍 #2254 | cassiuswinston | Spread: Toronto Blue Jays (-1.5)
+2026-03-31 20:31:23,169 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:31:23,470 [INFO] 
+🔍 #2255 | quavoo | Texas Rangers vs. Baltimore Orioles: O/U 8.5
+2026-03-31 20:31:23,643 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:31:23,943 [INFO] 
+🔍 #2256 | 0x492442EaB586F242B53bDa933fD5dE859c8A3782-1766317541188 | Flyers vs. Capitals: O/U 5.5
+2026-03-31 20:31:24,125 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:31:24,425 [INFO] 
+🔍 #2257 | BTCGambler247 | Senators vs. Panthers
+2026-03-31 20:31:24,602 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:31:24,902 [INFO] 
+🔍 #2258 | hugesportswhale | Flyers vs. Capitals
+2026-03-31 20:31:25,077 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:31:25,378 [INFO] 
+🔍 #2259 | CanadianGoose | Senators vs. Panthers
+2026-03-31 20:31:25,551 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:31:25,851 [INFO] 
+🔍 #2260 | elshark206 | Suns vs. Magic
+2026-03-31 20:31:26,025 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:31:26,326 [INFO] 
+🔍 #2261 | 0x58084FA6851C5ecE0408cbe600FCA3daAcF90b74-1772633124858 | Will Brazil win on 2026-03-31?
+2026-03-31 20:31:26,494 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:31:26,794 [INFO] 
+🔍 #2262 | edenH0201 | Spread: Hornets (-15.5)
+2026-03-31 20:31:26,973 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:31:27,273 [INFO] 
+🔍 #2263 | ferrariChampions2026 | Suns vs. Magic
+2026-03-31 20:31:27,452 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:31:27,753 [INFO] 
+🔍 #2264 | 0xDB6f6f9859470964ED3b482374339b6fC508E0dd-1772624148593 | Suns vs. Magic
+2026-03-31 20:31:27,936 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:31:28,237 [INFO] 
+🔍 #2265 | elkmonkey | New York Mets vs. St. Louis Cardinals
+2026-03-31 20:31:28,411 [INFO]    ⏳ Mercado aún no resuelto
+2026-03-31 20:31:28,712 [INFO] ======================================================================
+2026-03-31 20:31:28,712 [INFO] RESUMEN DE SESIÓN
+2026-03-31 20:31:28,712 [INFO] ======================================================================
+2026-03-31 20:31:28,712 [INFO]   Tiers asignados:         0
+2026-03-31 20:31:28,712 [INFO]   Tiers fallidos:          0
+2026-03-31 20:31:28,712 [INFO]   Trades resueltos hoy:    13
+2026-03-31 20:31:28,712 [INFO]   Trades aún abiertos:     278
+2026-03-31 20:31:28,712 [INFO]   Sin conditionId:         0
+2026-03-31 20:31:28,712 [INFO]   Errores:                 0
+2026-03-31 20:31:28,712 [INFO] ======================================================================
+2026-03-31 20:31:29,165 [INFO] HTTP Request: POST https://enacybjlovvzvyoleeic.supabase.co/rest/v1/rpc/refresh_signal_stats "HTTP/2 400 Bad Request"
+2026-03-31 20:31:29,165 [WARNING] Error al refrescar tablas de stats: {'message': 'DELETE requires a WHERE clause', 'code': '21000', 'hint': None, 'details': None}
+2026-03-31 20:31:29,165 [INFO] ======================================================================
+2026-03-31 20:31:29,165 [INFO] ESTADÍSTICAS — whale_signals Definitive
+2026-03-31 20:31:29,165 [INFO] ======================================================================
+2026-03-31 20:31:29,508 [INFO] HTTP Request: GET https://enacybjlovvzvyoleeic.supabase.co/rest/v1/whale_signals?select=%2A "HTTP/2 200 OK"
+2026-03-31 20:31:29,703 [INFO]   Total registros:    1000
+2026-03-31 20:31:29,704 [INFO]   Resueltos:          935  (Wins=471, Losses=464, WR=50.4%)
+2026-03-31 20:31:29,704 [INFO]   Abiertos:           65
+2026-03-31 20:31:29,704 [INFO]   Sin tier:           0
+2026-03-31 20:31:29,704 [INFO]   PnL teórico total:  $+173.19
+2026-03-31 20:31:29,705 [INFO] 
+  Por tier (resueltos):
+2026-03-31 20:31:29,705 [INFO]     ⚠️ RISKY               N= 99  WR= 48.5%  PnL=$ -619.73
+2026-03-31 20:31:29,705 [INFO]     💀 HIGH RISK            N=304  WR= 49.3%  PnL=$  100.92
+2026-03-31 20:31:29,705 [INFO]     💎 DIAMOND              N=  6  WR= 33.3%  PnL=$  204.71
+2026-03-31 20:31:29,705 [INFO]     📊 STANDARD             N=103  WR= 51.5%  PnL=$  702.89
+2026-03-31 20:31:29,705 [INFO]     🤖 BOT/MM               N= 93  WR= 51.6%  PnL=$ -196.27
+2026-03-31 20:31:29,705 [INFO]     🥇 GOLD                 N= 58  WR= 60.3%  PnL=$  547.01
+2026-03-31 20:31:29,705 [INFO]     🥈 SILVER               N=121  WR= 51.2%  PnL=$ -190.62
+2026-03-31 20:31:29,706 [INFO]     🥉 BRONZE               N=151  WR= 48.3%  PnL=$ -375.71
+2026-03-31 20:31:29,706 [INFO] 
+  Por rango de valor (resueltos):
+2026-03-31 20:31:29,706 [INFO]     $500-$1K     N=  2  WR=100.0%  PnL=$  125.74
+2026-03-31 20:31:29,706 [INFO]     $1K-$5K      N=548  WR= 46.5%  PnL=$-4793.00
+2026-03-31 20:31:29,706 [INFO]     $5K-$20K     N=328  WR= 54.6%  PnL=$ 3377.31
+2026-03-31 20:31:29,706 [INFO]     $20K+        N= 57  WR= 61.4%  PnL=$ 1463.14
+2026-03-31 20:31:29,706 [INFO] ======================================================================

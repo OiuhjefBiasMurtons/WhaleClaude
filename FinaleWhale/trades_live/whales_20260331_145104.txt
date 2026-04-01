@@ -1,0 +1,1304 @@
+
+================================================================================
+MONITOR GOLD v3.0 INICIADO
+================================================================================
+Umbral de ballena:        $2,500.00 USD
+Intervalo de polling:     3 segundos
+Limite de trades/ciclo:   1000
+Ventana de tiempo:        30 minutos (solo trades recientes)
+Archivo de log:           trades_live/whales_20260331_145104.txt
+Trades en memoria:        5000
+Notificaciones Telegram:  ACTIVO
+Esperando trades...
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $6,480.00 USD
+📊 Mercado: Mavericks vs. Bucks
+🔗 URL: https://polymarket.com/event/nba-dal-mil-2026-01-25
+🎯 Outcome: Mavericks
+📈 Lado: COMPRA
+💵 Precio: 0.5400 (54.00%)
+📦 Volumen: $2,042,323.66
+🕐 Hora: 2026-03-31 14:57:19
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: TheOnlyHuman
+   Wallet: 0x6ade597c0e2b43c0bf3542cada8a5e330d73f5b0
+   Perfil: https://polymarket.com/profile/0x6ade597c0e2b43c0bf3542cada8a5e330d73f5b0
+   TX Hash: 0x2cac23e13b1f953f98...242d3b6433
+   TX URL: https://polygonscan.com/tx/0x2cac23e13b1f953f98f6fa30526e0a56ab20f0a28e28999fafa4af242d3b6433
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 DESACTIVADO v7.4 (global WR 35.3% N=51 — premisa refutada), S4 necesita CRYPTO (es NBA), S6 necesita ESPORTS (es NBA) | Sin FOLLOW: S2/S2B excluye SILVER/BRONZE (tier=🥉 BRONZE), S3 necesita mercado nicho
+================================================================================
+
+
+================================================================================
+🐋🐋🐋🐋 ULTRA BALLENA DETECTADA 🐋🐋🐋🐋
+================================================================================
+💰 Valor: $33,070.84 USD
+📊 Mercado: Counter-Strike: Monte vs Passion UA (BO3) - DraculaN Playoffs
+🔗 URL: https://polymarket.com/event/cs2-mnte-pssnua-2026-03-31
+🎯 Outcome: Passion UA
+📈 Lado: COMPRA
+💵 Precio: 0.3600 (36.00%)
+📦 Volumen: $259,168.14
+🕐 Hora: 2026-03-31 14:57:09
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0x2a2C53bD278c04DA9962Fcf96490E17F3DfB9Bc1-1772479215461
+   Wallet: 0x2a2c53bd278c04da9962fcf96490e17f3dfb9bc1
+   Perfil: https://polymarket.com/profile/0x2a2c53bd278c04da9962fcf96490e17f3dfb9bc1
+   TX Hash: 0xbd6b47a012cf3fce60...916065bd10
+   TX URL: https://polygonscan.com/tx/0xbd6b47a012cf3fce6014fef0d245dd02c690dad91969fd97d1e1dc916065bd10
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 DESACTIVADO v7.4 (global WR 35.3% N=51 — premisa refutada), S4 necesita CRYPTO (es ESPORTS), S6 necesita precio 0.40-0.50 (es 0.36) | Sin FOLLOW: S2/S2B/S2C necesita NBA (es ESPORTS), S3 necesita mercado nicho
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 41s — 🐋 BALLENA | us97 | 💀 HIGH RISK
+================================================================================
+💰 Valor: $2,998.84 USD
+📊 Mercado: Will Poland win on 2026-03-31?
+🔗 URL: https://polymarket.com/event/uef-swe-pol-2026-03-31
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.7400 (74.00%)
+📦 Volumen: $333,182.93
+🕐 Trade original: 2026-03-31 15:07:11
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: us97
+   Wallet: 0xbe87c7186b2d00e6ff0fe5ab46934546072c6fc0
+   Perfil: https://polymarket.com/profile/0xbe87c7186b2d00e6ff0fe5ab46934546072c6fc0
+   TX Hash: 0x378e0607139003aff5...836ade97c8
+   TX URL: https://polygonscan.com/tx/0x378e0607139003aff523768a5ad27c702156c002240b9ebc89f20b836ade97c8
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Capital $2,999 < $5K mínimo para señal (v7.4: $3K-5K WR 50% coin flip). Ballena registrada pero sin acción recomendada.
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 39s — 🐋 BALLENA | 0x748e8Ce670909C5FBdbbb3c1af79C1C45C8D0325-1772049274775 | 💀 HIGH RISK
+================================================================================
+💰 Valor: $2,562.09 USD
+📊 Mercado: Trump announces end of military operations against Iran by April 30th?
+🔗 URL: https://polymarket.com/event/trump-announces-end-of-military-operations-against-iran-by
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.5348 (53.48%)
+📦 Volumen: $1,506,952.88
+🕐 Trade original: 2026-03-31 15:11:59
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0x748e8Ce670909C5FBdbbb3c1af79C1C45C8D0325-1772049274775
+   Wallet: 0x748e8ce670909c5fbdbbb3c1af79c1c45c8d0325
+   Perfil: https://polymarket.com/profile/0x748e8ce670909c5fbdbbb3c1af79c1c45c8d0325
+   TX Hash: 0x3f5a603e216eba73ef...dc5b4607cf
+   TX URL: https://polygonscan.com/tx/0x3f5a603e216eba73efd8040297d459b0b9fe05549f90ea585732d6dc5b4607cf
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Capital $2,562 < $5K mínimo para señal (v7.4: $3K-5K WR 50% coin flip). Ballena registrada pero sin acción recomendada.
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 40s — 🐋🐋🐋 MEGA BALLENA | Radar | 📊 STANDARD
+================================================================================
+💰 Valor: $18,985.77 USD
+📊 Mercado: US x Iran ceasefire by April 15?
+🔗 URL: https://polymarket.com/event/us-x-iran-ceasefire-by
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.7700 (77.00%)
+📦 Volumen: $7,038,008.35
+🕐 Trade original: 2026-03-31 15:22:17
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Radar
+   Wallet: 0x71587aff3d063868a086574dcf9a86ab153a5439
+   Perfil: https://polymarket.com/profile/0x71587aff3d063868a086574dcf9a86ab153a5439
+   TX Hash: 0xbd6e32a2db7c95ac55...dffee5aaad
+   TX URL: https://polygonscan.com/tx/0xbd6e32a2db7c95ac550f15d92cfbc415c850f41282847b1f6064cadffee5aaad
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 DESACTIVADO v7.4 (global WR 35.3% N=51 — premisa refutada), S4 necesita CRYPTO (es OTHER), S6 necesita ESPORTS (es OTHER) | Sin FOLLOW: S2/S2B/S2C necesita NBA (es OTHER), S3 necesita mercado nicho
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 1.3min — 🐋🐋 BALLENA GRANDE | Brunoruno | 💀 HIGH RISK
+================================================================================
+💰 Valor: $7,988.22 USD
+📊 Mercado: Suns vs. Magic
+🔗 URL: https://polymarket.com/event/nba-phx-orl-2026-03-31
+🎯 Outcome: Magic
+📈 Lado: COMPRA
+💵 Precio: 0.5400 (54.00%)
+📦 Volumen: $608,816.26
+🕐 Trade original: 2026-03-31 15:22:17
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Brunoruno
+   Wallet: 0xac0a9aad817df58f1f37dad0ca0352e1c00cf89e
+   Perfil: https://polymarket.com/profile/0xac0a9aad817df58f1f37dad0ca0352e1c00cf89e
+   TX Hash: 0x55e3440abfa4a4c345...68e15be412
+   TX URL: https://polygonscan.com/tx/0x55e3440abfa4a4c345b8c0d6897f5d2b1ba554c554e88ed405b1ae68e15be412
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 DESACTIVADO v7.4 (global WR 35.3% N=51 — premisa refutada), S4 necesita CRYPTO (es NBA), S6 necesita ESPORTS (es NBA) | Sin FOLLOW: S2/S2B excluye 💀 HIGH RISK (no está en WHITELIST_TIER_OVERRIDE), S3 necesita mercado nicho
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 41s — 🐋🐋 BALLENA GRANDE | Elonurmom | 💀 HIGH RISK
+================================================================================
+💰 Valor: $5,000.00 USD
+📊 Mercado: Will Elon Musk post 260-279 tweets from March 27 to April 3, 2026?
+🔗 URL: https://polymarket.com/event/elon-musk-of-tweets-march-27-april-3
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.7826 (78.26%)
+📦 Volumen: $185,184.76
+🕐 Trade original: 2026-03-31 15:42:23
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Elonurmom
+   Wallet: 0x0f7f9903f46c24ba66900ceb4a427873129c6450
+   Perfil: https://polymarket.com/profile/0x0f7f9903f46c24ba66900ceb4a427873129c6450
+   TX Hash: 0x8a6ddbecada1268e21...8ee96f6f3f
+   TX URL: https://polygonscan.com/tx/0x8a6ddbecada1268e2183f751a6483b72f585cd9721f823449604768ee96f6f3f
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 DESACTIVADO v7.4 (global WR 35.3% N=51 — premisa refutada), S4 necesita CRYPTO (es OTHER), S6 necesita ESPORTS (es OTHER) | Sin FOLLOW: S2/S2B/S2C necesita NBA (es OTHER), S3 necesita mercado nicho
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $6,650.19 USD
+📊 Mercado: Spread: Magic (-2.5)
+🔗 URL: https://polymarket.com/event/nba-phx-orl-2026-03-31
+🎯 Outcome: Suns
+📈 Lado: COMPRA
+💵 Precio: 0.5200 (52.00%)
+📦 Volumen: $42,593.51
+🕐 Hora: 2026-03-31 16:07:13
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: RealityTwister
+   Wallet: 0xc6b6ffce6c52b6fdf4bad57de303939f19ab13ac
+   Perfil: https://polymarket.com/profile/0xc6b6ffce6c52b6fdf4bad57de303939f19ab13ac
+   TX Hash: 0x52be80fe6317e80c25...97e88d0090
+   TX URL: https://polygonscan.com/tx/0x52be80fe6317e80c259768921e7988f9cb7c1f1232087246274cb697e88d0090
+================================================================================
+
+╔══════════════════════════════════════════════════╗
+║  ███████╗ ██████╗ ██╗     ██╗      ██████╗ ██╗  ║
+║  ██╔════╝██╔═══██╗██║     ██║     ██╔═══██╗██║  ║
+║  █████╗  ██║   ██║██║     ██║     ██║   ██║██║  ║
+║  ██╔══╝  ██║   ██║██║     ██║     ██║   ██║╚═╝  ║
+║  ██║     ╚██████╔╝███████╗███████╗╚██████╔╝██╗  ║
+║  ╚═╝      ╚═════╝ ╚══════╝╚══════╝ ╚═════╝ ╚═╝  ║
+╚══════════════════════════════════════════════════╝
+  Signal: S2  |  Conf: MEDIUM  |  WR: 63.5%  |  ROI esperado: +21.9%
+  › S2: Follow NBA a 0.52 (WR 63.5%, excl. HIGH RISK/BOT/SILVER/BRONZE)
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $10,618.68 USD
+📊 Mercado: Credit One Charleston Open: Polina Kudermetova vs Oleksandra Oliynykova
+🔗 URL: https://polymarket.com/event/wta-kuderme-oliynyk-2026-03-31
+🎯 Outcome: Oleksandra Oliynykova
+📈 Lado: COMPRA
+💵 Precio: 0.4750 (47.50%)
+📦 Volumen: $276,455.18
+🕐 Hora: 2026-03-31 16:11:51
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: sjqdhqsjgd65
+   Wallet: 0xde9f03151fb0a4b8cbcf6bbe24b73bf5856bb8f7
+   Perfil: https://polymarket.com/profile/0xde9f03151fb0a4b8cbcf6bbe24b73bf5856bb8f7
+   TX Hash: 0x6d84b81eeb38c5c535...4e42706f88
+   TX URL: https://polygonscan.com/tx/0x6d84b81eeb38c5c535a6e053be1a8a2a4ebeb65260d4f2d0a27f1b4e42706f88
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Zona muerta 0.45-0.49 sin señal activa. IGNORAR.
+  ⚠ Precio en zona 0.45-0.49: sin señal activa para esta categoría. No activa S1 ni S2.
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 52s — 🐋🐋🐋 MEGA BALLENA | gulliver4 | 💀 HIGH RISK
+================================================================================
+💰 Valor: $14,551.64 USD
+📊 Mercado: US forces enter Iran by April 30?
+🔗 URL: https://polymarket.com/event/us-forces-enter-iran-by
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.5942 (59.42%)
+📦 Volumen: $12,441,442.73
+🕐 Trade original: 2026-03-31 16:12:05
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: gulliver4
+   Wallet: 0xa41e7f2866a8a2afda511d89468cda85ad9430f9
+   Perfil: https://polymarket.com/profile/0xa41e7f2866a8a2afda511d89468cda85ad9430f9
+   TX Hash: 0xa704c337480e16e9ef...e66743c070
+   TX URL: https://polygonscan.com/tx/0xa704c337480e16e9efd84871ea7f2a055bb19e8c753f4b76989d65e66743c070
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 DESACTIVADO v7.4 (global WR 35.3% N=51 — premisa refutada), S4 necesita CRYPTO (es OTHER), S6 necesita ESPORTS (es OTHER) | Sin FOLLOW: S2/S2B/S2C necesita NBA (es OTHER), S3 necesita mercado nicho
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 1.5min — 🐋 BALLENA | v131v | ⚠️ RISKY
+================================================================================
+💰 Valor: $3,767.65 USD
+📊 Mercado: Russia x Ukraine ceasefire by end of 2026?
+🔗 URL: https://polymarket.com/event/russia-x-ukraine-ceasefire-before-2027
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.7400 (74.00%)
+📦 Volumen: $12,439,733.53
+🕐 Trade original: 2026-03-31 16:11:59
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: v131v
+   Wallet: 0xed5475484529f26d762043227d8e4eb9e1d95d31
+   Perfil: https://polymarket.com/profile/0xed5475484529f26d762043227d8e4eb9e1d95d31
+   TX Hash: 0xf7d71f817f621384e0...98d25c3765
+   TX URL: https://polygonscan.com/tx/0xf7d71f817f621384e0e9131b4f6c4c96663835cbdfd4cc0c2ab55898d25c3765
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 DESACTIVADO v7.4 (global WR 35.3% N=51 — premisa refutada), S4 necesita CRYPTO (es OTHER), S6 necesita ESPORTS (es OTHER) | Sin FOLLOW: S2/S2B/S2C necesita NBA (es OTHER), S3 necesita mercado nicho
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 41s — 🐋🐋🐋 MEGA BALLENA | suvorov | 💀 HIGH RISK
+================================================================================
+💰 Valor: $16,200.00 USD
+📊 Mercado: Strait of Hormuz traffic returns to normal by end of April?
+🔗 URL: https://polymarket.com/event/strait-of-hormuz-traffic-returns-to-normal-by-april-30
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.8100 (81.00%)
+📦 Volumen: $1,854,938.62
+🕐 Trade original: 2026-03-31 16:32:09
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: suvorov
+   Wallet: 0xf66166919d7d7afc3406d2dd36dd954a2f822259
+   Perfil: https://polymarket.com/profile/0xf66166919d7d7afc3406d2dd36dd954a2f822259
+   TX Hash: 0xd7d75d60bfd6826314...bfcfdc60d7
+   TX URL: https://polygonscan.com/tx/0xd7d75d60bfd6826314d17807f39c23a3d97158f30fe85d5a8cb52dbfcfdc60d7
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 DESACTIVADO v7.4 (global WR 35.3% N=51 — premisa refutada), S4 necesita CRYPTO (es OTHER), S6 necesita ESPORTS (es OTHER) | Sin FOLLOW: S2/S2B/S2C necesita NBA (es OTHER), S3 necesita mercado nicho
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 41s — 🐋🐋 BALLENA GRANDE | ltz-duru | 📊 STANDARD
+================================================================================
+💰 Valor: $5,616.39 USD
+📊 Mercado: Copa Colsanitas: Hanne Vandewinkel vs Sofia Costoulas
+🔗 URL: https://polymarket.com/event/wta-vandewi-costoul-2026-03-30
+🎯 Outcome: Hanne Vandewinkel
+📈 Lado: COMPRA
+💵 Precio: 0.6000 (60.00%)
+📦 Volumen: $51,004.60
+🕐 Trade original: 2026-03-31 16:42:13
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: ltz-duru
+   Wallet: 0x288b8b25d894edf1063ed9d21c790fe4af60a713
+   Perfil: https://polymarket.com/profile/0x288b8b25d894edf1063ed9d21c790fe4af60a713
+   TX Hash: 0xc28525475fa30778d2...4d4495adbc
+   TX URL: https://polygonscan.com/tx/0xc28525475fa30778d21ac2ab0b846ae909dc631973639bd543da9a4d4495adbc
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 DESACTIVADO v7.4 (global WR 35.3% N=51 — premisa refutada), S4 necesita CRYPTO (es OTHER), S6 necesita ESPORTS (es OTHER) | Sin FOLLOW: S2/S2B/S2C necesita NBA (es OTHER), S3 necesita mercado nicho
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 39s — 🐋 BALLENA | bcda | 💀 HIGH RISK
+================================================================================
+💰 Valor: $4,139.14 USD
+📊 Mercado: Cavaliers vs. Lakers
+🔗 URL: https://polymarket.com/event/nba-cle-lal-2026-03-31
+🎯 Outcome: Cavaliers
+📈 Lado: COMPRA
+💵 Precio: 0.4600 (46.00%)
+📦 Volumen: $535,504.92
+🕐 Trade original: 2026-03-31 16:47:11
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: bcda
+   Wallet: 0xb45a797faa52b0fd8adc56d30382022b7b12192c
+   Perfil: https://polymarket.com/profile/0xb45a797faa52b0fd8adc56d30382022b7b12192c
+   TX Hash: 0x377358e881ec073308...f66468dd9c
+   TX URL: https://polygonscan.com/tx/0x377358e881ec073308b3bd98bec6efe7811a650466853f48973beaf66468dd9c
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Zona muerta 0.45-0.49 sin señal activa. IGNORAR.
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 39s — 🐋 BALLENA | Dropper | 🥇 GOLD
+================================================================================
+💰 Valor: $3,587.72 USD
+📊 Mercado: US x Iran ceasefire by April 15?
+🔗 URL: https://polymarket.com/event/us-x-iran-ceasefire-by
+🎯 Outcome: Yes
+📈 Lado: VENTA
+💵 Precio: 0.2047 (20.47%)
+📦 Volumen: $7,038,008.35
+🕐 Trade original: 2026-03-31 16:57:21
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Dropper
+   Wallet: 0x6bab41a0dc40d6dd4c1a915b8c01969479fd1292
+   Perfil: https://polymarket.com/profile/0x6bab41a0dc40d6dd4c1a915b8c01969479fd1292
+   TX Hash: 0x959f38def253ba6f5f...f21982cac2
+   TX URL: https://polygonscan.com/tx/0x959f38def253ba6f5f1622af7780ffaaff929be5ecb32e87db42fcf21982cac2
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 DESACTIVADO v7.4 (global WR 35.3% N=51 — premisa refutada), S4 necesita CRYPTO (es OTHER), S6 necesita ESPORTS (es OTHER) | Sin FOLLOW: S2/S2B/S2C necesita NBA (es OTHER), S3 necesita mercado nicho
+================================================================================
+
+
+================================================================================
+🐋🐋🐋🐋🐋 TITAN BALLENA DETECTADA 🐋🐋🐋🐋🐋
+================================================================================
+💰 Valor: $52,813.35 USD
+📊 Mercado: Chicago White Sox vs. Miami Marlins: O/U 8.5
+🔗 URL: https://polymarket.com/event/mlb-cws-mia-2026-03-31
+🎯 Outcome: Under
+📈 Lado: COMPRA
+💵 Precio: 0.5300 (53.00%)
+📦 Volumen: $64,586.02
+🕐 Hora: 2026-03-31 17:02:15
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: CarlosMC
+   Wallet: 0x777d9f00c2b4f7b829c9de0049ca3e707db05143
+   Perfil: https://polymarket.com/profile/0x777d9f00c2b4f7b829c9de0049ca3e707db05143
+   TX Hash: 0x25dcfe32f678b0ff7d...2aad6bb185
+   TX URL: https://polygonscan.com/tx/0x25dcfe32f678b0ff7d79717c3c16ff3a6cac527284ee0cc2ef79ea2aad6bb185
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 DESACTIVADO v7.4 (global WR 35.3% N=51 — premisa refutada), S4 necesita CRYPTO (es NBA), S6 necesita ESPORTS (es NBA) | Sin FOLLOW: S2/S2B excluye 💀 HIGH RISK (no está en WHITELIST_TIER_OVERRIDE), S3 necesita mercado nicho
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $4,754.69 USD
+📊 Mercado: US forces enter Iran by December 31?
+🔗 URL: https://polymarket.com/event/us-forces-enter-iran-by
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.6600 (66.00%)
+📦 Volumen: $7,389,143.04
+🕐 Hora: 2026-03-31 17:07:07
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: classified
+   Wallet: 0x12d6cccfc7470a3f4bafc53599a4779cbf2cf2a8
+   Perfil: https://polymarket.com/profile/0x12d6cccfc7470a3f4bafc53599a4779cbf2cf2a8
+   TX Hash: 0x34dbfed2ea2003ed19...d218dc975c
+   TX URL: https://polygonscan.com/tx/0x34dbfed2ea2003ed19fd450fb3d77d4ef10bca53c0257c23bed7cbd218dc975c
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 DESACTIVADO v7.4 (global WR 35.3% N=51 — premisa refutada), S4 necesita CRYPTO (es OTHER), S6 necesita ESPORTS (es OTHER) | Sin FOLLOW: S2/S2B/S2C necesita NBA (es OTHER), S3 necesita mercado nicho
+================================================================================
+
+
+================================================================================
+🐋🐋🐋🐋 ULTRA BALLENA DETECTADA 🐋🐋🐋🐋
+================================================================================
+💰 Valor: $24,866.35 USD
+📊 Mercado: Islanders vs. Sabres
+🔗 URL: https://polymarket.com/event/nhl-nyi-buf-2026-03-31
+🎯 Outcome: Islanders
+📈 Lado: VENTA
+💵 Precio: 0.3800 (38.00%)
+📦 Volumen: $1,905,457.04
+🕐 Hora: 2026-03-31 17:12:17
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: rustin
+   Wallet: 0xaa075924e1dc7cff3b9fab67401126338c4d2125
+   Perfil: https://polymarket.com/profile/0xaa075924e1dc7cff3b9fab67401126338c4d2125
+   TX Hash: 0xccaf917cc5f168878e...0a5e2a29bb
+   TX URL: https://polygonscan.com/tx/0xccaf917cc5f168878e0ff3921a081fed39df62cc16ab81347612280a5e2a29bb
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 DESACTIVADO v7.4 (global WR 35.3% N=51 — premisa refutada), S4 necesita CRYPTO (es NHL), S6 necesita ESPORTS (es NHL), S9 necesita HIGH RISK en NHL (tier=🥉 BRONZE) | Sin FOLLOW: S2/S2B/S2C necesita NBA (es NHL), S3 necesita mercado nicho
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 42s — 🐋🐋 BALLENA GRANDE | Wintermute-Sport | 💀 HIGH RISK
+================================================================================
+💰 Valor: $5,077.93 USD
+📊 Mercado: Will United States win on 2026-03-31?
+🔗 URL: https://polymarket.com/event/fif-usa-prt-2026-03-31
+🎯 Outcome: No
+📈 Lado: COMPRA
+💵 Precio: 0.8200 (82.00%)
+📦 Volumen: $30,867.99
+🕐 Trade original: 2026-03-31 17:12:29
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: Wintermute-Sport
+   Wallet: 0x1050854d71bde435fb32b0cd6704e7ea7e0c43af
+   Perfil: https://polymarket.com/profile/0x1050854d71bde435fb32b0cd6704e7ea7e0c43af
+   TX Hash: 0x0fd179ea3276e0b8a5...ec178a01f3
+   TX URL: https://polygonscan.com/tx/0x0fd179ea3276e0b8a590cdb54ec9dafdc41a2fcd508563089546cfec178a01f3
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 DESACTIVADO v7.4 (global WR 35.3% N=51 — premisa refutada), S4 necesita CRYPTO (es OTHER), S6 necesita ESPORTS (es OTHER) | Sin FOLLOW: S2/S2B/S2C necesita NBA (es OTHER), S3 necesita mercado nicho
+================================================================================
+
+
+================================================================================
+🐋🐋🐋🐋 ULTRA BALLENA DETECTADA 🐋🐋🐋🐋
+================================================================================
+💰 Valor: $22,397.99 USD
+📊 Mercado: Tampa Bay Rays vs. Milwaukee Brewers
+🔗 URL: https://polymarket.com/event/mlb-tb-mil-2026-03-31
+🎯 Outcome: Milwaukee Brewers
+📈 Lado: COMPRA
+💵 Precio: 0.5300 (53.00%)
+📦 Volumen: $122,938.45
+🕐 Hora: 2026-03-31 17:16:59
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: EIf
+   Wallet: 0xd6966eb1ae7b52320ba7ab1016680198c9e08a49
+   Perfil: https://polymarket.com/profile/0xd6966eb1ae7b52320ba7ab1016680198c9e08a49
+   TX Hash: 0x3a4b1f696d20a6f8f4...a6a74d5411
+   TX URL: https://polygonscan.com/tx/0x3a4b1f696d20a6f8f4bd956e2b911ae79f348f417a735e3b15aea9a6a74d5411
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 DESACTIVADO v7.4 (global WR 35.3% N=51 — premisa refutada), S4 necesita CRYPTO (es OTHER), S6 necesita ESPORTS (es OTHER) | Sin FOLLOW: S2/S2B/S2C necesita NBA (es OTHER), S3 necesita mercado nicho
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,998.17 USD
+📊 Mercado: Kraken vs. Oilers
+🔗 URL: https://polymarket.com/event/nhl-sea-edm-2026-03-31
+🎯 Outcome: Oilers
+📈 Lado: COMPRA
+💵 Precio: 0.6300 (63.00%)
+📦 Volumen: $72,066.85
+🕐 Hora: 2026-03-31 17:22:31
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: igetlitty
+   Wallet: 0x146703a8a73ae1dff0f84ba44c45d878858a4372
+   Perfil: https://polymarket.com/profile/0x146703a8a73ae1dff0f84ba44c45d878858a4372
+   TX Hash: 0x4377d6997caacb654b...f9e194b808
+   TX URL: https://polygonscan.com/tx/0x4377d6997caacb654b411ae002e572d606a8ce5e419d545f38e3b5f9e194b808
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Capital $2,998 < $5K mínimo para señal (v7.4: $3K-5K WR 50% coin flip). Ballena registrada pero sin acción recomendada.
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 40s — 🐋 BALLENA | cassiuswinston | ⚠️ RISKY
+================================================================================
+💰 Valor: $4,700.00 USD
+📊 Mercado: Spread: Toronto Blue Jays (-1.5)
+🔗 URL: https://polymarket.com/event/mlb-col-tor-2026-03-31
+🎯 Outcome: Colorado Rockies
+📈 Lado: COMPRA
+💵 Precio: 0.4700 (47.00%)
+📦 Volumen: $65,715.99
+🕐 Trade original: 2026-03-31 17:22:07
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: cassiuswinston
+   Wallet: 0xb7f55b6d32c2ee3768192d676cd66354f51fc669
+   Perfil: https://polymarket.com/profile/0xb7f55b6d32c2ee3768192d676cd66354f51fc669
+   TX Hash: 0x2609db63f39c99d211...d4d4e7267e
+   TX URL: https://polygonscan.com/tx/0x2609db63f39c99d2115b49a7307c0152e627d5775495a4a7fe171fd4d4e7267e
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Zona muerta 0.45-0.49 sin señal activa. IGNORAR.
+  ⚠ Precio en zona 0.45-0.49: sin señal activa para esta categoría. No activa S1 ni S2.
+================================================================================
+
+
+================================================================================
+🐋🐋🐋🐋🐋 TITAN BALLENA DETECTADA 🐋🐋🐋🐋🐋
+================================================================================
+💰 Valor: $51,881.85 USD
+📊 Mercado: Pittsburgh Pirates vs. Cincinnati Reds
+🔗 URL: https://polymarket.com/event/mlb-pit-cin-2026-03-31
+🎯 Outcome: Cincinnati Reds
+📈 Lado: COMPRA
+💵 Precio: 0.4800 (48.00%)
+📦 Volumen: $234,089.15
+🕐 Hora: 2026-03-31 17:27:01
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: bcda
+   Wallet: 0xb45a797faa52b0fd8adc56d30382022b7b12192c
+   Perfil: https://polymarket.com/profile/0xb45a797faa52b0fd8adc56d30382022b7b12192c
+   TX Hash: 0x3d7b7edf0bd71e6420...08b7823c1a
+   TX URL: https://polygonscan.com/tx/0x3d7b7edf0bd71e64206dab33e5c7b66bd0757037c16401253e527e08b7823c1a
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Zona muerta 0.45-0.49 sin señal activa. IGNORAR.
+  ⚠ Precio en zona 0.45-0.49: sin señal activa para esta categoría. No activa S1 ni S2.
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 41s — 🐋 BALLENA | quavoo | 💀 HIGH RISK
+================================================================================
+💰 Valor: $4,625.27 USD
+📊 Mercado: Texas Rangers vs. Baltimore Orioles: O/U 8.5
+🔗 URL: https://polymarket.com/event/mlb-tex-bal-2026-03-31
+🎯 Outcome: Under
+📈 Lado: COMPRA
+💵 Precio: 0.4700 (47.00%)
+📦 Volumen: $234,303.92
+🕐 Trade original: 2026-03-31 17:32:03
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: quavoo
+   Wallet: 0xdc41c39b95453c943174f369926018f6963bdd7e
+   Perfil: https://polymarket.com/profile/0xdc41c39b95453c943174f369926018f6963bdd7e
+   TX Hash: 0x079924a3980291cbdf...0dca455d5e
+   TX URL: https://polygonscan.com/tx/0x079924a3980291cbdfe54f3ce7ba55cede73f2b309998c943d6c240dca455d5e
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Zona muerta 0.45-0.49 sin señal activa. IGNORAR.
+  ⚠ Precio en zona 0.45-0.49: sin señal activa para esta categoría. No activa S1 ni S2.
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $15,180.39 USD
+📊 Mercado: Flyers vs. Capitals: O/U 5.5
+🔗 URL: https://polymarket.com/event/nhl-phi-wsh-2026-03-31
+🎯 Outcome: Over
+📈 Lado: COMPRA
+💵 Precio: 0.5200 (52.00%)
+📦 Volumen: $337,726.39
+🕐 Hora: 2026-03-31 17:37:21
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0x492442EaB586F242B53bDa933fD5dE859c8A3782-1766317541188
+   Wallet: 0x492442eab586f242b53bda933fd5de859c8a3782
+   Perfil: https://polymarket.com/profile/0x492442eab586f242b53bda933fd5de859c8a3782
+   TX Hash: 0xa5a47acae4484e7fad...7110e412af
+   TX URL: https://polygonscan.com/tx/0xa5a47acae4484e7fad773e45835a4bfbbd2dccb5be752a2744d02a7110e412af
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 DESACTIVADO v7.4 (global WR 35.3% N=51 — premisa refutada), S4 necesita CRYPTO (es NHL), S6 necesita ESPORTS (es NHL), S9 necesita HIGH RISK en NHL (tier=🤖 BOT/MM) | Sin FOLLOW: S2/S2B/S2C necesita NBA (es NHL), S3 necesita mercado nicho
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $17,153.98 USD
+📊 Mercado: Devils vs. Rangers
+🔗 URL: https://polymarket.com/event/nhl-nj-nyr-2026-03-31
+🎯 Outcome: Rangers
+📈 Lado: COMPRA
+💵 Precio: 0.4700 (47.00%)
+📦 Volumen: $843,719.82
+🕐 Hora: 2026-03-31 17:37:21
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: bcda
+   Wallet: 0xb45a797faa52b0fd8adc56d30382022b7b12192c
+   Perfil: https://polymarket.com/profile/0xb45a797faa52b0fd8adc56d30382022b7b12192c
+   TX Hash: 0x085269b539994e2f76...f4ba35fc42
+   TX URL: https://polygonscan.com/tx/0x085269b539994e2f76af5abd759bf50cb47d21fde41bc67e3be56ff4ba35fc42
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Zona muerta 0.45-0.49 sin señal activa. IGNORAR.
+  ⚠ Precio en zona 0.45-0.49: sin señal activa para esta categoría. No activa S1 ni S2.
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $3,879.24 USD
+📊 Mercado: Canucks vs. Avalanche
+🔗 URL: https://polymarket.com/event/nhl-van-col-2026-04-01
+🎯 Outcome: Avalanche
+📈 Lado: COMPRA
+💵 Precio: 0.7900 (79.00%)
+📦 Volumen: $39,111.79
+🕐 Hora: 2026-03-31 17:42:05
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: elkmonkey
+   Wallet: 0xead152b855effa6b5b5837f53b24c0756830c76a
+   Perfil: https://polymarket.com/profile/0xead152b855effa6b5b5837f53b24c0756830c76a
+   TX Hash: 0x102f54916d894410f4...6ae853d722
+   TX URL: https://polygonscan.com/tx/0x102f54916d894410f4e26ddb394c555d09af5c0e0ce955e896b0a86ae853d722
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 DESACTIVADO v7.4 (global WR 35.3% N=51 — premisa refutada), S4 necesita CRYPTO (es NHL), S6 necesita ESPORTS (es NHL) | Sin FOLLOW: S2/S2B/S2C necesita NBA (es NHL), S3 necesita mercado nicho
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 42s — 🐋 BALLENA | BTCGambler247 | 🥉 BRONZE
+================================================================================
+💰 Valor: $2,520.00 USD
+📊 Mercado: Senators vs. Panthers
+🔗 URL: https://polymarket.com/event/nhl-ott-fla-2026-03-31
+🎯 Outcome: Senators
+📈 Lado: COMPRA
+💵 Precio: 0.6300 (63.00%)
+📦 Volumen: $527,250.89
+🕐 Trade original: 2026-03-31 17:42:29
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: BTCGambler247
+   Wallet: 0x31c518f864d1394361fec967b3daa9093a86ede4
+   Perfil: https://polymarket.com/profile/0x31c518f864d1394361fec967b3daa9093a86ede4
+   TX Hash: 0x714458388461d893b3...33d7d24537
+   TX URL: https://polygonscan.com/tx/0x714458388461d893b397c5362c66559f5fb4a6f4271e0aa7c03d1033d7d24537
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Capital $2,520 < $5K mínimo para señal (v7.4: $3K-5K WR 50% coin flip). Ballena registrada pero sin acción recomendada.
+================================================================================
+
+
+================================================================================
+🐋🐋🐋 MEGA BALLENA DETECTADA 🐋🐋🐋
+================================================================================
+💰 Valor: $12,108.61 USD
+📊 Mercado: Flyers vs. Capitals
+🔗 URL: https://polymarket.com/event/nhl-phi-wsh-2026-03-31
+🎯 Outcome: Flyers
+📈 Lado: COMPRA
+💵 Precio: 0.4700 (47.00%)
+📦 Volumen: $229,505.32
+🕐 Hora: 2026-03-31 17:51:15
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: hugesportswhale
+   Wallet: 0xb6aee7f281e13b23bd959127f6e2b3dccb4e4df8
+   Perfil: https://polymarket.com/profile/0xb6aee7f281e13b23bd959127f6e2b3dccb4e4df8
+   TX Hash: 0x4324fed72be9245daa...314680aea1
+   TX URL: https://polygonscan.com/tx/0x4324fed72be9245daae26003f852ef9b094eb820c99100ddb17ee8314680aea1
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Zona muerta 0.45-0.49 sin señal activa. IGNORAR.
+  ⚠ Precio en zona 0.45-0.49: sin señal activa para esta categoría. No activa S1 ni S2.
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 39s — 🐋 BALLENA | CanadianGoose | ⚠️ RISKY
+================================================================================
+💰 Valor: $4,725.00 USD
+📊 Mercado: Senators vs. Panthers
+🔗 URL: https://polymarket.com/event/nhl-ott-fla-2026-03-31
+🎯 Outcome: Senators
+📈 Lado: COMPRA
+💵 Precio: 0.6300 (63.00%)
+📦 Volumen: $527,250.89
+🕐 Trade original: 2026-03-31 17:57:13
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: CanadianGoose
+   Wallet: 0xf9fe29004c5a905c7b78bbb930ac57feea67366b
+   Perfil: https://polymarket.com/profile/0xf9fe29004c5a905c7b78bbb930ac57feea67366b
+   TX Hash: 0xd9ad9072066a90b204...b72043abdf
+   TX URL: https://polygonscan.com/tx/0xd9ad9072066a90b20487afa77bdc21bf9030a463e963cf63322181b72043abdf
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 DESACTIVADO v7.4 (global WR 35.3% N=51 — premisa refutada), S4 necesita CRYPTO (es NHL), S6 necesita ESPORTS (es NHL), S9 necesita HIGH RISK en NHL (tier=⚠️ RISKY) | Sin FOLLOW: S2/S2B/S2C necesita NBA (es NHL), S3 necesita mercado nicho
+================================================================================
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $6,928.49 USD
+📊 Mercado: Knicks vs. Rockets
+🔗 URL: https://polymarket.com/event/nba-nyk-hou-2026-03-31
+🎯 Outcome: Knicks
+📈 Lado: COMPRA
+💵 Precio: 0.5000 (50.00%)
+📦 Volumen: $602,178.62
+🕐 Hora: 2026-03-31 18:07:17
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: qqzhi4527
+   Wallet: 0x4435a170c507aa2c7e7e32859b4adcac64c20840
+   Perfil: https://polymarket.com/profile/0x4435a170c507aa2c7e7e32859b4adcac64c20840
+   TX Hash: 0xd122a179c853f167a6...dd1865b1db
+   TX URL: https://polygonscan.com/tx/0xd122a179c853f167a62484a6eeecdba0f16e6da691147cacf0a09add1865b1db
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 DESACTIVADO v7.4 (global WR 35.3% N=51 — premisa refutada), S4 necesita CRYPTO (es NBA), S6 necesita ESPORTS (es NBA) | Sin FOLLOW: S2/S2B excluye SILVER/BRONZE (tier=🥈 SILVER), S3 necesita mercado nicho
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 42s — 🐋 BALLENA | elshark206 | 💀 HIGH RISK
+================================================================================
+💰 Valor: $3,443.30 USD
+📊 Mercado: Suns vs. Magic
+🔗 URL: https://polymarket.com/event/nba-phx-orl-2026-03-31
+🎯 Outcome: Suns
+📈 Lado: COMPRA
+💵 Precio: 0.4600 (46.00%)
+📦 Volumen: $608,816.26
+🕐 Trade original: 2026-03-31 18:07:31
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: elshark206
+   Wallet: 0x0eb75bf6f54794a83bd26095811f30b530161f17
+   Perfil: https://polymarket.com/profile/0x0eb75bf6f54794a83bd26095811f30b530161f17
+   TX Hash: 0x9ae8c337b710e41c2b...e770378202
+   TX URL: https://polygonscan.com/tx/0x9ae8c337b710e41c2bca09f9c279608e8410835959768643256996e770378202
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Zona muerta 0.45-0.49 sin señal activa. IGNORAR.
+================================================================================
+
+
+================================================================================
+🐋🐋🐋🐋🐋 TITAN BALLENA DETECTADA 🐋🐋🐋🐋🐋
+================================================================================
+💰 Valor: $53,636.82 USD  ⚡ NICHO (8.8% del mercado)
+📊 Mercado: Suns vs. Magic
+🔗 URL: https://polymarket.com/event/nba-phx-orl-2026-03-31
+🎯 Outcome: Magic
+📈 Lado: COMPRA
+💵 Precio: 0.5500 (55.00%)
+📦 Volumen: $608,816.26
+🕐 Hora: 2026-03-31 18:12:07
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0x2a2C53bD278c04DA9962Fcf96490E17F3DfB9Bc1-1772479215461
+   Wallet: 0x2a2c53bd278c04da9962fcf96490e17f3dfb9bc1
+   Perfil: https://polymarket.com/profile/0x2a2c53bd278c04da9962fcf96490e17f3dfb9bc1
+   TX Hash: 0x3742eaf388af1ee6a2...39cd17e987
+   TX URL: https://polygonscan.com/tx/0x3742eaf388af1ee6a201cbb70c724fb5f8a71ff12e4efd40b5fa5339cd17e987
+================================================================================
+
+╔══════════════════════════════════════════════════╗
+║  ███████╗ ██████╗ ██╗     ██╗      ██████╗ ██╗  ║
+║  ██╔════╝██╔═══██╗██║     ██║     ██╔═══██╗██║  ║
+║  █████╗  ██║   ██║██║     ██║     ██║   ██║██║  ║
+║  ██╔══╝  ██║   ██║██║     ██║     ██║   ██║╚═╝  ║
+║  ██║     ╚██████╔╝███████╗███████╗╚██████╔╝██╗  ║
+║  ╚═╝      ╚═════╝ ╚══════╝╚══════╝ ╚═════╝ ╚═╝  ║
+╚══════════════════════════════════════════════════╝
+  Signal: S2  |  Conf: HIGH  |  WR: 63.5%  |  ROI esperado: +15.6%
+  › S2: Follow NBA a 0.55 (WR 63.5%, excl. HIGH RISK/BOT/SILVER/BRONZE) | NICHO +boost (S2-nicho WR 73.3% vs 58.9%)
+  › Capital $53,637 ≥$20K refuerza señal (WR histórico 76.9%)
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 54s — 🐋🐋 BALLENA GRANDE | 0x58084FA6851C5ecE0408cbe600FCA3daAcF90b74-1772633124858 | 🥉 BRONZE
+================================================================================
+💰 Valor: $6,476.46 USD
+📊 Mercado: Will Brazil win on 2026-03-31?
+🔗 URL: https://polymarket.com/event/fif-bra-hrv-2026-03-31
+🎯 Outcome: Yes
+📈 Lado: COMPRA
+💵 Precio: 0.5586 (55.86%)
+📦 Volumen: $155,315.48
+🕐 Trade original: 2026-03-31 18:12:27
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: 0x58084FA6851C5ecE0408cbe600FCA3daAcF90b74-1772633124858
+   Wallet: 0x58084fa6851c5ece0408cbe600fca3daacf90b74
+   Perfil: https://polymarket.com/profile/0x58084fa6851c5ece0408cbe600fca3daacf90b74
+   TX Hash: 0x57a4cf0019fab99da8...f205677fc8
+   TX URL: https://polygonscan.com/tx/0x57a4cf0019fab99da8fd51aeb0a9261c5c64fbcc212b757f4049dff205677fc8
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 DESACTIVADO v7.4 (global WR 35.3% N=51 — premisa refutada), S4 necesita CRYPTO (es OTHER), S6 necesita ESPORTS (es OTHER) | Sin FOLLOW: S2/S2B/S2C necesita NBA (es OTHER), S3 necesita mercado nicho
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $3,402.60 USD
+📊 Mercado: Flyers vs. Capitals: O/U 5.5
+🔗 URL: https://polymarket.com/event/nhl-phi-wsh-2026-03-31
+🎯 Outcome: Under
+📈 Lado: COMPRA
+💵 Precio: 0.5300 (53.00%)
+📦 Volumen: $337,726.39
+🕐 Hora: 2026-03-31 18:17:21
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: EIf
+   Wallet: 0xd6966eb1ae7b52320ba7ab1016680198c9e08a49
+   Perfil: https://polymarket.com/profile/0xd6966eb1ae7b52320ba7ab1016680198c9e08a49
+   TX Hash: 0x642339df566f3fcd96...1cf2e1059c
+   TX URL: https://polygonscan.com/tx/0x642339df566f3fcd96fe6c56faf5586bd8ada9d7d4181d1106908e1cf2e1059c
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 DESACTIVADO v7.4 (global WR 35.3% N=51 — premisa refutada), S4 necesita CRYPTO (es NHL), S6 necesita ESPORTS (es NHL), S9 necesita HIGH RISK en NHL (tier=📊 STANDARD) | Sin FOLLOW: S2/S2B/S2C necesita NBA (es NHL), S3 necesita mercado nicho
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 1.2min — 🐋 BALLENA | edenH0201 | 🥉 BRONZE
+================================================================================
+💰 Valor: $3,000.00 USD
+📊 Mercado: Spread: Hornets (-15.5)
+🔗 URL: https://polymarket.com/event/nba-cha-bkn-2026-03-31
+🎯 Outcome: Hornets
+📈 Lado: COMPRA
+💵 Precio: 0.6000 (60.00%)
+📦 Volumen: $40,417.90
+🕐 Trade original: 2026-03-31 18:22:25
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: edenH0201
+   Wallet: 0x0daa0d3fd576c5b6bbbef56167ae8ae7eadac9da
+   Perfil: https://polymarket.com/profile/0x0daa0d3fd576c5b6bbbef56167ae8ae7eadac9da
+   TX Hash: 0x40711a7f468a7229df...55ad3996fd
+   TX URL: https://polygonscan.com/tx/0x40711a7f468a7229df8bb3754389f24ee4f1ae82bf23009084a4da55ad3996fd
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 DESACTIVADO v7.4 (global WR 35.3% N=51 — premisa refutada), S4 necesita CRYPTO (es NBA), S6 necesita ESPORTS (es NBA) | Sin FOLLOW: S2/S2B excluye SILVER/BRONZE (tier=🥉 BRONZE), S3 necesita mercado nicho
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $4,569.29 USD
+📊 Mercado: New York Mets vs. St. Louis Cardinals
+🔗 URL: https://polymarket.com/event/mlb-nym-stl-2026-03-31
+🎯 Outcome: St. Louis Cardinals
+📈 Lado: COMPRA
+💵 Precio: 0.4200 (42.00%)
+📦 Volumen: $147,624.51
+🕐 Hora: 2026-03-31 18:27:37
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: elkmonkey
+   Wallet: 0xead152b855effa6b5b5837f53b24c0756830c76a
+   Perfil: https://polymarket.com/profile/0xead152b855effa6b5b5837f53b24c0756830c76a
+   TX Hash: 0xcdd3b8ab9b361ef141...0f6ffbe216
+   TX URL: https://polygonscan.com/tx/0xcdd3b8ab9b361ef141988cc60e3d08354613c84811160e78e8fbfb0f6ffbe216
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 DESACTIVADO v7.4 (global WR 35.3% N=51 — premisa refutada), S4 necesita CRYPTO (es OTHER), S6 necesita ESPORTS (es OTHER) | Sin FOLLOW: S2/S2B/S2C necesita NBA (es OTHER), S3 necesita mercado nicho
+================================================================================
+
+
+================================================================================
+🐋 BALLENA DETECTADA 🐋
+================================================================================
+💰 Valor: $2,651.57 USD
+📊 Mercado: New York Mets vs. St. Louis Cardinals
+🔗 URL: https://polymarket.com/event/mlb-nym-stl-2026-03-31
+🎯 Outcome: St. Louis Cardinals
+📈 Lado: COMPRA
+💵 Precio: 0.4200 (42.00%)
+📦 Volumen: $147,624.51
+🕐 Hora: 2026-03-31 18:27:37
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: ferrariChampions2026
+   Wallet: 0xfe787d2da716d60e8acff57fb87eb13cd4d10319
+   Perfil: https://polymarket.com/profile/0xfe787d2da716d60e8acff57fb87eb13cd4d10319
+   TX Hash: 0x8f724f26c2798a3be2...505e489b5f
+   TX URL: https://polygonscan.com/tx/0x8f724f26c2798a3be2fb4f05976a0218acb180a3132a320668f844505e489b5f
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Capital $2,652 < $5K mínimo para señal (v7.4: $3K-5K WR 50% coin flip). Ballena registrada pero sin acción recomendada.
+================================================================================
+🔥 SEÑAL CONSENSO: 2 ballenas → BUY | Total: $7,221
+
+
+================================================================================
+🐋🐋 BALLENA GRANDE DETECTADA 🐋🐋
+================================================================================
+💰 Valor: $8,574.29 USD
+📊 Mercado: Spread: New York Mets (-1.5)
+🔗 URL: https://polymarket.com/event/mlb-nym-stl-2026-03-31
+🎯 Outcome: New York Mets
+📈 Lado: COMPRA
+💵 Precio: 0.4400 (44.00%)
+📦 Volumen: $54,816.10
+🕐 Hora: 2026-03-31 18:27:11
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: KingVon99
+   Wallet: 0x8cdc597d51327275463a1c518fdd1621d9b2b83f
+   Perfil: https://polymarket.com/profile/0x8cdc597d51327275463a1c518fdd1621d9b2b83f
+   TX Hash: 0xde3b19a2059f9a2d7e...466de654ab
+   TX URL: https://polygonscan.com/tx/0xde3b19a2059f9a2d7e30078c090f84d1f3302add8779735cddbf0b466de654ab
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 DESACTIVADO v7.4 (global WR 35.3% N=51 — premisa refutada), S4 necesita CRYPTO (es OTHER), S6 necesita ESPORTS (es OTHER) | Sin FOLLOW: S2/S2B/S2C necesita NBA (es OTHER), S3 necesita mercado nicho
+================================================================================
+
+
+================================================================================
+⏳ DEFERRED RESUELTO en 39s — 🐋🐋 BALLENA GRANDE | xgbase888-4 | ⚠️ RISKY
+================================================================================
+💰 Valor: $5,532.01 USD
+📊 Mercado: Suns vs. Magic
+🔗 URL: https://polymarket.com/event/nba-phx-orl-2026-03-31
+🎯 Outcome: Suns
+📈 Lado: COMPRA
+💵 Precio: 0.2992 (29.92%)
+📦 Volumen: $608,816.26
+🕐 Trade original: 2026-03-31 18:27:19
+
+👤 INFORMACIÓN DEL USUARIO:
+   Nombre: xgbase888-4
+   Wallet: 0x033d71eb2ea7fcef47a7b2d3b0dcab2cb546fd1e
+   Perfil: https://polymarket.com/profile/0x033d71eb2ea7fcef47a7b2d3b0dcab2cb546fd1e
+   TX Hash: 0x1aec65da31eb3279fb...f5613a592b
+   TX URL: https://polygonscan.com/tx/0x1aec65da31eb3279fb2ead70a525aeddf4d40b0ecf834578cfb901f5613a592b
+================================================================================
+
+╔═══════════════════════════════╗
+║  ██╗ ██████╗ ███╗  ██╗██████╗ ║
+║  ██║██╔════╝ ████╗ ██║██╔══██╗║
+║  ██║██║  ███╗██╔██╗██║██████╔╝║
+║  ██║██║   ██║██║╚████║██╔══██╗║
+║  ██║╚██████╔╝██║ ╚███║██║  ██║║
+║  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚═╝║
+╚═══════════════════════════════╝
+  › Sin COUNTER: S1 DESACTIVADO v7.4 (global WR 35.3% N=51 — premisa refutada), S4 necesita CRYPTO (es NBA), S6 necesita ESPORTS (es NBA) | Sin FOLLOW: S2C/S2/S2B necesita precio 0.45-0.82 (es 0.30), S3 necesita mercado nicho
+================================================================================
+
